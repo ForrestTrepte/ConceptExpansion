@@ -58,6 +58,8 @@ Each card follows the base game's layout: **9 numbered prompts in three bands of
   way it is normally written (proper nouns and titles capitalized, common words
   lowercase). Examples: "Bee", "Fire station", "Break the ice", "The Lion King".
 - **Prompt content:** follow the rules in [docs/prompt-guidelines.md](docs/prompt-guidelines.md).
+- **Playtesting:** text playtests by chat follow
+  [docs/playtesting.md](docs/playtesting.md). Logs go in `playtests/`.
 - **Prompt data and printing:** all prompts are stored in `data/prompts.csv`, and
   `tools/cards.py` checks them and builds the PDF. See
   [docs/data-and-printing.md](docs/data-and-printing.md).
@@ -108,6 +110,7 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-16 | Cards are 2 mm narrower than MTG (61.5 mm wide) | In the test print, some hand-cut cards were too tight for the sleeves |
 | 2026-11-16 | Print a small, faint "+" at every card corner, in addition to the margin marks | Margin marks are lost after the first round of cuts. Full cut lines showed on the finished cards |
 | 2026-11-16 | Board icons are referred to by grid codes (A1–H14) from the player aid, and colors by name. `tools/player_aid.py` makes a local annotated copy of the player aid and icon images. Neither is committed | Naming an icon by one of its labels would tell the guesser which meaning is intended. The artwork is copyrighted |
+| 2026-11-16 | Text playtests in chat, in both directions, using code-based clue notation, with a log per session in `playtests/` | Lets us test prompts without the physical game. The logs keep the clue sequences |
 
 ## Next steps
 
@@ -117,8 +120,9 @@ Newest at the bottom. Include the date and a one-line reason.
 2. **Review the 9 draft cards** (cards 1–9 in `data/prompts.csv`). Set each prompt to
    `approved` or `rejected`, and update the guidelines with anything you learn.
 3. **Draft cards 10–25** to complete the playtest set of about 25 cards.
-4. **Playtest.** Record failures and why in the `notes` column, revise the
-   guidelines, then scale up toward 100 cards.
+4. **Playtest** using [docs/playtesting.md](docs/playtesting.md): text playtests with
+   Claude in both directions, then with your group. Revise the guidelines, then scale
+   up toward 100 cards.
 5. **Evaluate open sources** from the research report (Open Party Game Word Lists,
    OpenWord Lexicon, idiom corpora) as pools of candidate prompts, keeping borrowed
    prompts to a minimum.

@@ -39,6 +39,17 @@ contributor, put it in README.md or a linked doc in `docs/` instead.
 - Do not commit any base-game prompt list. If the user provides one for duplicate
   checks, keep it out of git (gitignored or in the scratchpad).
 
+## Text playtests
+
+Follow [docs/playtesting.md](docs/playtesting.md). Agent-specific rules:
+- **As guesser:** do not read `data/prompts.csv`, `playtests/`, `output/cards*.pdf`, or
+  git history/diffs, and do not search the repo for answers, until all guessing is
+  done. Guess only from the clues and the icon reference.
+- **As clue-giver:** look at the icon images, not just the labels. Give clues the way
+  a good human player would. Never put icon label words or extra hints in messages.
+- Write the session log in `playtests/` as you go, so it isn't lost if the session
+  ends early.
+
 ## Reference PDFs
 
 - For icon pictures, run `python tools/player_aid.py`, then view
