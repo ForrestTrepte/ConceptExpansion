@@ -61,3 +61,20 @@ python tools/cards.py pdf --status approved     # only cards whose prompts are a
   up with the same edges.
 - Use cardstock or ordinary paper. In a sleeve, ordinary paper usually feels fine,
   and a spare card behind it stiffens it.
+
+## Player aid with icon codes
+
+```sh
+python tools/player_aid.py
+```
+
+This downloads the official player aid once and writes the following to
+`output/player-aid/`:
+
+- `player-aid-coords.pdf`: the player aid with each icon's code (A1–H14) printed on
+  it. Use it when giving or reading clues in text-based playtests.
+- `icons/<code>.png`: one image per icon, e.g. `icons/A4.png`.
+
+These files are **not committed**. The player aid is Repos Production's copyrighted
+artwork, so everyone generates their own copy for personal use. The code-to-meanings
+table is in [board-icons.md](board-icons.md).

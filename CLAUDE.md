@@ -41,6 +41,11 @@ contributor, put it in README.md or a linked doc in `docs/` instead.
 
 ## Reference PDFs
 
+- For icon pictures, run `python tools/player_aid.py`, then view
+  `output/player-aid/player-aid-coords.pdf` or `output/player-aid/icons/<code>.png`
+  with the Read tool. The pictures carry hints the label text doesn't, so look at them
+  when giving or interpreting clues.
+
 - The rules and player aid PDFs (linked in the README) can be downloaded into the
   scratchpad and opened with the Read tool, which renders their pages. Do not commit
   them; they are Repos Production's copyrighted material.

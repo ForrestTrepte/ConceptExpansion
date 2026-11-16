@@ -107,6 +107,7 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-16 | Python + reportlab generate the PDF. No gaps between cards; cut marks in the margins, with an optional outline | 3×3 MTG cards only fit on Letter paper with no gaps |
 | 2026-11-16 | Cards are 2 mm narrower than MTG (61.5 mm wide) | In the test print, some hand-cut cards were too tight for the sleeves |
 | 2026-11-16 | Print a small, faint "+" at every card corner, in addition to the margin marks | Margin marks are lost after the first round of cuts. Full cut lines showed on the finished cards |
+| 2026-11-16 | Board icons are referred to by grid codes (A1–H14) from the player aid, and colors by name. `tools/player_aid.py` makes a local annotated copy of the player aid and icon images. Neither is committed | Naming an icon by one of its labels would tell the guesser which meaning is intended. The artwork is copyrighted |
 
 ## Next steps
 
