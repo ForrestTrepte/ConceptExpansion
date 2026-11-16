@@ -19,8 +19,9 @@ aid like a spreadsheet:
 A code stands for the **whole icon, with all its meanings**. When you give clues, use
 codes rather than label words, so you don't tell the guesser which meaning you intend.
 
-To get a copy of the player aid with every code printed on its icon, plus one image per
-icon, run `python tools/player_aid.py`. See
+Run `python tools/player_aid.py` to generate local copies of: the player aid with
+every code printed on its icon, one image per icon, and an **illustrated version of this
+page** (`output/player-aid/board-icons.md`, best viewed in VS Code's Markdown preview). See
 [data-and-printing.md](data-and-printing.md#player-aid-with-icon-codes).
 
 ## Page 1
