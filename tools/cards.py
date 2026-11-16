@@ -21,6 +21,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_DATA = ROOT / "data" / "prompts.csv"
 DEFAULT_OUT = ROOT / "output" / "cards.pdf"
+VERSION_FILE = ROOT / "data" / "VERSION"  # content version, printed after the set mark
 
 COLUMNS = ["card", "difficulty", "prompt", "category", "source", "license", "status", "notes"]
 DIFFICULTIES = ["blue", "red", "black"]  # band order on the card, top to bottom
@@ -44,6 +45,14 @@ class Prompt:
     license: str
     status: str
     notes: str
+
+
+def read_version(path: Path = VERSION_FILE) -> str:
+    """The deck's content version (e.g. "0.1") from data/VERSION."""
+    version = path.read_text(encoding="utf-8").strip()
+    if not re.fullmatch(r"\d+\.\d+", version):
+        raise ValueError(f"{path.name}: version must look like 0.1 or 1.0, got {version!r}")
+    return version
 
 
 def normalize(text: str) -> str:
@@ -133,7 +142,7 @@ def parse_ranges(spec: str) -> set[int]:
 
 # --- PDF --------------------------------------------------------------------
 
-def build_pdf(cards: dict[int, list[Prompt]], out: Path, cut_lines: bool) -> int:
+def build_pdf(cards: dict[int, list[Prompt]], out: Path, cut_lines: bool, version: str) -> int:
     from reportlab.lib.colors import HexColor, white
     from reportlab.lib.pagesizes import letter
     from reportlab.lib.units import inch, mm
@@ -165,6 +174,7 @@ def build_pdf(cards: dict[int, list[Prompt]], out: Path, cut_lines: bool) -> int
         c.setFont(bold, 7)
         c.drawString(x + pad, y + card_h - pad - 7, SET_MARK)
         c.setFont(font, 7)
+        c.drawString(x + pad + stringWidth(SET_MARK + " ", bold, 7), y + card_h - pad - 7, f"v{version}")
         c.drawRightString(x + card_w - pad, y + card_h - pad - 7, f"#{number:03d}")
         # bands
         top = y + card_h - pad - header_h
@@ -210,7 +220,7 @@ def build_pdf(cards: dict[int, list[Prompt]], out: Path, cut_lines: bool) -> int
 
     out.parent.mkdir(parents=True, exist_ok=True)
     c = Canvas(str(out), pagesize=letter)
-    c.setTitle("New Notions: an unofficial fan expansion for Concept")
+    c.setTitle(f"New Notions v{version}: an unofficial fan expansion for Concept")
     items = list(cards.items())
     per_page = cols * rows
     pages = 0
@@ -263,6 +273,11 @@ def main(argv: list[str] | None = None) -> int:
     args = ap.parse_args(argv)
 
     prompts, errors = load(args.data)
+    version = ""
+    try:
+        version = read_version()
+    except (OSError, ValueError) as e:
+        errors.append(str(e))
     if not errors:
         e, warnings = check(prompts)
         errors += e
@@ -276,7 +291,7 @@ def main(argv: list[str] | None = None) -> int:
     cards = cards_from(prompts)
     if args.cmd == "check":
         pool = sum(1 for p in prompts if p.card is None and p.status != "rejected")
-        print(f"OK: {len(prompts)} prompts, {len(cards)} cards, {pool} unassigned")
+        print(f"OK: v{version}, {len(prompts)} prompts, {len(cards)} cards, {pool} unassigned")
         return 0
 
     allowed = {s.strip() for s in args.status.split(",")}
@@ -287,8 +302,8 @@ def main(argv: list[str] | None = None) -> int:
     if not cards:
         print("error: no cards match the filters", file=sys.stderr)
         return 1
-    pages = build_pdf(cards, args.out, args.cut_lines)
-    print(f"Wrote {args.out} ({len(cards)} cards, {pages} pages)")
+    pages = build_pdf(cards, args.out, args.cut_lines, version)
+    print(f"Wrote {args.out} (v{version}, {len(cards)} cards, {pages} pages)")
     return 0
 
 

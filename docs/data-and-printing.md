@@ -38,6 +38,15 @@ Rules enforced by `check`:
 Within a card, prompts are numbered in band order (blue 1–3, red 4–6, black 7–9).
 Within a band, they keep the order they have in the file.
 
+## Version: `data/VERSION`
+
+One line holding the content version, e.g. `0.1`. It is printed after the set mark on
+every card ("NN v0.1"), and `check` fails if it isn't in the form `X.Y`. Bump it in
+the same change as any edit to the prompts on the cards (adding, removing, rewording,
+or moving prompts between cards or bands). Don't bump it for layout or other
+cosmetic changes, or for edits that only touch the unassigned pool. Versions 0.x are
+playtest decks; the first public release will be 1.0.
+
 ## Commands
 
 ```sh

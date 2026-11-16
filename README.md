@@ -49,7 +49,12 @@ Each card follows the base game's layout: **9 numbered prompts in three bands of
 - **Sheet:** 9 cards per US Letter page (3 × 3), with cut marks.
 - **Fronts only.** Opaque-backed sleeves hide the back.
 - Cards get a small set mark and card number so expansion cards can be told apart
-  from base cards. The set mark is "NN" (*New Notions*).
+  from base cards. The set mark is "NN" (*New Notions*), followed by the version
+  (e.g. "NN v0.1").
+- **Version:** the content version in `data/VERSION`. Bump it when the prompts on the
+  cards change (prompts added, removed, reworded, or moved between cards or bands),
+  not for layout or other cosmetic tweaks. 0.x versions are playtest decks; the
+  first release will be 1.0.
 - **No official art.** Do not use Concept artwork, logos, or trade dress. Use plain
   text and the three band colors only.
 
@@ -124,6 +129,7 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-16 | Each of the first 18 cards has one pop-culture prompt in Red and at most one in Black. Black on each card is two idioms plus one other, or one idiom, one compound concept, and one title or person | Meets the per-card pop-culture limits and the half-idiom Black target |
 | 2026-11-16 | Cards 1–18 approved as assembled, including the re-banding behind them | Owner reviewed the selection |
 | 2026-11-16 | Cards are 3 mm narrower and 3 mm shorter than MTG (60.5 × 85.9 mm) | Second test print: 61.5 × 88.9 mm was still too big for the sleeves |
+| 2026-11-16 | Track a content version in `data/VERSION` (now 0.1; release will be 1.0) and print it after the set mark. Bump it only when the prompts on the cards change | Tells printed decks apart by content; cosmetic changes don't make a new deck |
 
 ## Next steps
 
