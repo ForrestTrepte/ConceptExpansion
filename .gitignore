@@ -1,0 +1,10 @@
+# Generated print files
+output/
+
+# Private reference material (e.g. base-game prompt list for duplicate checks)
+private/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
