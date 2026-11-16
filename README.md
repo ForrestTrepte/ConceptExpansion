@@ -14,7 +14,7 @@ This project is not affiliated with or endorsed by Repos Production or Asmodee.
   Hard prompts should be hard because they need clever clues, not because nobody
   knows what they mean.
 - **Drop-in compatible.** Cards use the same 3×3 layout as the base game, so they
-  shuffle into the base deck and play by the normal rules.
+  can be swapped with the base deck and play by the normal rules.
 - **Easy to print at home.** The cards are Magic: The Gathering size, printed on
   ordinary US Letter paper, cut out, and slid into standard MTG sleeves.
 - **Free to share.** Every prompt is original or taken from an openly licensed source,
