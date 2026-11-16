@@ -1,0 +1,82 @@
+card,difficulty,prompt,category,source,license,status,notes
+1,blue,Pizza,food,original,CC-BY-NC-SA-4.0,draft,Clue: Food + Round + Cut/Half + Red + Hot
+1,blue,Umbrella,object,original,CC-BY-NC-SA-4.0,draft,Clue: Object + Cold/Rain + Defense + Arch/Curve
+1,blue,Penguin,animal,original,CC-BY-NC-SA-4.0,draft,Clue: Fauna + Black + White + Cold + Water
+1,red,Food truck,vehicle,original,CC-BY-NC-SA-4.0,draft,Clue: Ground transportation + Food + Money
+1,red,Selfie,activity,original,CC-BY-NC-SA-4.0,draft,Clue: Use/Action + Face + Electronic + One
+1,red,Lifeguard,occupation,original,CC-BY-NC-SA-4.0,draft,Clue: Work + Defense + Water/Swimming + Red
+1,black,Break the ice,expression,original,CC-BY-NC-SA-4.0,draft,Clue: Expression + Cut/Break + Cold + Human/Group
+1,black,Spider-Man,character,original,CC-BY-NC-SA-4.0,draft,Clue: Character + Grid/Network + Red + Blue + Climb
+1,black,Hit the snooze button,expression,original,CC-BY-NC-SA-4.0,draft,Clue: Use/Action + Button + Time + Night + Slow
+2,blue,Toothbrush,object,original,CC-BY-NC-SA-4.0,draft,Clue: Object + Mouth + Line + White
+2,blue,Volcano,place,original,CC-BY-NC-SA-4.0,draft,Clue: Place + Fire + Cone + Earth + Hot
+2,blue,Giraffe,animal,original,CC-BY-NC-SA-4.0,draft,Clue: Fauna + Long + Head/Neck + Yellow + Brown
+2,red,Smartphone,object,original,CC-BY-NC-SA-4.0,draft,Clue: Object + Electronic + Rectangle + Ear + Hand
+2,red,Roller coaster,place,original,CC-BY-NC-SA-4.0,draft,Clue: Building + Fast + Climb + Descend + Wavy + Happy
+2,red,Plumber,occupation,original,CC-BY-NC-SA-4.0,draft,Clue: Work + Water + Tool + Cylinder
+2,black,Under the weather,expression,original,CC-BY-NC-SA-4.0,draft,Clue: Expression + Below + Cold/Cloud + Illness
+2,black,Harry Potter,character,original,CC-BY-NC-SA-4.0,draft,Clue: Character + Young + Glasses (Eye + 2 Circles) + Lightning
+2,black,Black Friday,event,original,CC-BY-NC-SA-4.0,draft,Clue: Date + Black + Money + Multitude
+3,blue,Ice cream,food,original,CC-BY-NC-SA-4.0,draft,Clue: Food + Cold + Cone + Sphere
+3,blue,Bicycle,vehicle,original,CC-BY-NC-SA-4.0,draft,Clue: Ground transportation + Circle x2 + Leg
+3,blue,Shark,animal,original,CC-BY-NC-SA-4.0,draft,Clue: Fauna + Water + Attack + Triangle (fin) + Grey
+3,red,Video call,activity,original,CC-BY-NC-SA-4.0,draft,Clue: Electronic + Face + Talking + Rectangle + Multitude
+3,red,Snowman,character,original,CC-BY-NC-SA-4.0,draft,Clue: Character + Cold/Snow + White + Sphere x3
+3,red,Dentist,occupation,original,CC-BY-NC-SA-4.0,draft,Clue: Work + Medical + Mouth
+3,black,Piece of cake,expression,original,CC-BY-NC-SA-4.0,draft,Clue: Expression + Part + Food + Celebration + Happy
+3,black,Star Wars,title,original,CC-BY-NC-SA-4.0,draft,Clue: Cinema + Star + Attack + Night/Space
+3,black,Time flies,expression,original,CC-BY-NC-SA-4.0,draft,Clue: Expression + Time + Flying + Fast
+4,blue,Banana,food,original,CC-BY-NC-SA-4.0,draft,Clue: Food + Yellow + Arch/Curve + Plant
+4,blue,Ladder,object,original,CC-BY-NC-SA-4.0,draft,Clue: Tool + Climb + Line x2 + Grid
+4,blue,Owl,animal,original,CC-BY-NC-SA-4.0,draft,Clue: Fauna + Flying + Night + Eye + Circle x2
+4,red,Wi-Fi,technology,original,CC-BY-NC-SA-4.0,draft,Clue: Electronic + Network + Air + Zero (no wire)
+4,red,Treehouse,place,original,CC-BY-NC-SA-4.0,draft,Clue: House + Flora/Wood + High + Baby-Child
+4,red,Astronaut,occupation,original,CC-BY-NC-SA-4.0,draft,Clue: Work + Night/Space + Aircraft + Moon-Star
+4,black,Hit the road,expression,original,CC-BY-NC-SA-4.0,draft,Clue: Expression + Attack + Road + Right/After
+4,black,Toy Story,title,original,CC-BY-NC-SA-4.0,draft,Clue: Cinema + Toy + Literature/Book + Drawing-Cartoon
+4,black,Spill the beans,expression,original,CC-BY-NC-SA-4.0,draft,Clue: Expression + Food + Fragment/Multitude + Descend + Talking
+5,blue,Pancake,food,original,CC-BY-NC-SA-4.0,draft,Clue: Food + Flat + Round + Multitude + Brown
+5,blue,Backpack,object,original,CC-BY-NC-SA-4.0,draft,Clue: Clothing/Accessory + Torso-Back + Inside
+5,blue,Frog,animal,original,CC-BY-NC-SA-4.0,draft,Clue: Fauna + Green + Water + Climb (jump)
+5,red,Drone,object,original,CC-BY-NC-SA-4.0,draft,Clue: Aircraft + Electronic + Small + Eye
+5,red,Campfire,activity,original,CC-BY-NC-SA-4.0,draft,Clue: Fire + Wood + Night + Group + Nature
+5,red,Barista,occupation,original,CC-BY-NC-SA-4.0,draft,Clue: Work + Hot + Liquid + Brown
+5,black,Cold feet,expression,original,CC-BY-NC-SA-4.0,draft,Clue: Expression + Cold + Leg/Foot + Fear (Sad) + Before
+5,black,Taylor Swift,person,original,CC-BY-NC-SA-4.0,draft,Clue: Human/Real + Female + Music + Rich
+5,black,Bucket list,expression,original,CC-BY-NC-SA-4.0,draft,Clue: Expression + Death + Paper + Multitude + Before
+6,blue,Popcorn,food,original,CC-BY-NC-SA-4.0,draft,Clue: Food + Hot + White + Multitude + Cinema
+6,blue,Guitar,object,original,CC-BY-NC-SA-4.0,draft,Clue: Music + Wood + Hand + Line x6
+6,blue,Octopus,animal,original,CC-BY-NC-SA-4.0,draft,Clue: Fauna + Water + Spiral/Coil + Multitude (8)
+6,red,Emoji,technology,original,CC-BY-NC-SA-4.0,draft,Clue: Electronic + Face + Happy + Yellow + Small
+6,red,Sunscreen,object,original,CC-BY-NC-SA-4.0,draft,Clue: Object + Sun + Defense + Liquid + Body
+6,red,Pilot,occupation,original,CC-BY-NC-SA-4.0,draft,Clue: Work + Aircraft + Use/Action
+6,black,Once in a blue moon,expression,original,CC-BY-NC-SA-4.0,draft,Clue: Expression + One + Blue + Moon + Time
+6,black,Super Mario,character,original,CC-BY-NC-SA-4.0,draft,Clue: Character + Game + Red + Masculine + Climb (jump)
+6,black,Couch potato,expression,original,CC-BY-NC-SA-4.0,draft,Clue: Expression + Food + House-Room + Slow + Television
+7,blue,Taco,food,original,CC-BY-NC-SA-4.0,draft,Clue: Food + Arch/Curve + Inside + Yellow
+7,blue,Scissors,object,original,CC-BY-NC-SA-4.0,draft,Clue: Tool + Cut + Sharp + Hand
+7,blue,Butterfly,animal,original,CC-BY-NC-SA-4.0,draft,Clue: Fauna + Flying + Multitude colors + Flora
+7,red,Electric car,vehicle,original,CC-BY-NC-SA-4.0,draft,Clue: Ground transportation + Electricity + Zero (no fuel)
+7,red,Bubble bath,activity,original,CC-BY-NC-SA-4.0,draft,Clue: Water + Sphere/Multitude + House-Room + Happy
+7,red,Personal trainer,occupation,original,CC-BY-NC-SA-4.0,draft,Clue: Work + Sport + Arm + One
+7,black,Breaking news,expression,original,CC-BY-NC-SA-4.0,draft,Clue: Television + Talking + New + Cut/Break
+7,black,Frozen,title,original,CC-BY-NC-SA-4.0,draft,Clue: Cinema + Cold/Snow + Feminine x2 + Drawing-Cartoon
+7,black,On thin ice,expression,original,CC-BY-NC-SA-4.0,draft,Clue: Expression + Above + Thin + Cold + Death/Bad
+8,blue,Cupcake,food,original,CC-BY-NC-SA-4.0,draft,Clue: Food + Small + Celebration + Pink + Cylinder
+8,blue,Tent,object,original,CC-BY-NC-SA-4.0,draft,Clue: Object + Triangle + Fabric + Nature + Night
+8,blue,Kangaroo,animal,original,CC-BY-NC-SA-4.0,draft,Clue: Fauna + Climb (jump) + Baby + Inside + Brown
+8,red,Podcast,media,original,CC-BY-NC-SA-4.0,draft,Clue: Music/Sound + Talking + Electronic + Ear + Multitude
+8,red,Water slide,place,original,CC-BY-NC-SA-4.0,draft,Clue: Water + Descend + Wavy + Happy + Hot/Sun
+8,red,Mail carrier,occupation,original,CC-BY-NC-SA-4.0,draft,Clue: Work + Paper + Ground transportation + House
+8,black,Cost an arm and a leg,expression,original,CC-BY-NC-SA-4.0,draft,Clue: Expression + Money + Expensive + Arm + Leg
+8,black,Pokémon,title,original,CC-BY-NC-SA-4.0,draft,Clue: Game + Fauna + Character + Multitude + Yellow + Electricity
+8,black,Night owl,expression,original,CC-BY-NC-SA-4.0,draft,Clue: Expression + Night + Fauna (owl) + Human + Opposite (not asleep)
+9,blue,Hot dog,food,original,CC-BY-NC-SA-4.0,draft,Clue: Food + Hot + Cylinder + Fauna (dog) + Red/Yellow
+9,blue,Candle,object,original,CC-BY-NC-SA-4.0,draft,Clue: Object + Fire + Cylinder + Day-Light + White
+9,blue,Snail,animal,original,CC-BY-NC-SA-4.0,draft,Clue: Fauna + Slow + Spiral + House
+9,red,Password,technology,original,CC-BY-NC-SA-4.0,draft,Clue: Electronic + Words + Defense + Inside
+9,red,Traffic jam,event,original,CC-BY-NC-SA-4.0,draft,Clue: Ground transportation + Road + Multitude + Slow + Anger
+9,red,Zookeeper,occupation,original,CC-BY-NC-SA-4.0,draft,Clue: Work + Fauna + Multitude + Defense/Wall
+9,black,Elephant in the room,expression,original,CC-BY-NC-SA-4.0,draft,"Clue: Expression + Fauna (big, grey) + House-Room + Zero (no talking)"
+9,black,Minecraft,title,original,CC-BY-NC-SA-4.0,draft,Clue: Game + Electronic + Cube + Construction + Earth
+9,black,Rain check,expression,original,CC-BY-NC-SA-4.0,draft,Clue: Expression + Cold/Rain + Paper + After-Future

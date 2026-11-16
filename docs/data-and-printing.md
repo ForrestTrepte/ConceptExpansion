@@ -1,0 +1,60 @@
+# Prompt data and printing
+
+How prompts are stored, checked, and turned into printable sheets. Back to
+[README](../README.md).
+
+## Setup
+
+```sh
+pip install -r requirements.txt
+```
+
+## Prompt data: `data/prompts.csv`
+
+This is the single source of truth: one row per prompt, for both the candidate pool
+and the cards.
+
+| Column | Meaning |
+|---|---|
+| `card` | Card number (1, 2, …). Leave blank for prompts in the unassigned pool. |
+| `difficulty` | `blue` (easy), `red` (difficult), or `black` (most difficult). |
+| `prompt` | The text printed on the card. Follow the [capitalization convention](../README.md#conventions) and [prompt guidelines](prompt-guidelines.md). |
+| `category` | Free-form tag (food, animal, expression, title, …), used to balance cards. |
+| `source` | `original` for prompts we wrote. For borrowed prompts, the dataset name or URL. |
+| `license` | `CC-BY-NC-SA-4.0` for originals. For borrowed prompts, the source's license. |
+| `status` | `draft` (not yet reviewed by a person), `approved`, or `rejected`. |
+| `notes` | Anything useful. Drafts start with `Clue:` and the icons a clue-giver could use. Add playtest feedback here. |
+
+Rules enforced by `check`:
+- Each card has exactly 3 prompts of each difficulty.
+- No duplicates. Comparison ignores case, punctuation, leading "the/a/an", and
+  trailing plural "s".
+- `source` and `license` are required.
+- Rejected prompts can't be on a card. Keep them in the file so we don't suggest them
+  again.
+- Warnings: a prompt longer than 24 characters, or one that doesn't start with a
+  capital letter.
+
+Within a card, prompts are numbered in band order (blue 1–3, red 4–6, black 7–9).
+Within a band, they keep the order they have in the file.
+
+## Commands
+
+```sh
+python tools/cards.py check                     # validate data/prompts.csv
+python tools/cards.py pdf                       # all draft + approved cards -> output/cards.pdf
+python tools/cards.py pdf --cards 1-9 --outline # just cards 1-9, with card outlines
+python tools/cards.py pdf --status approved     # only cards whose prompts are all approved
+```
+
+## Printing
+
+- The PDF holds 9 cards (2.5 × 3.5 in) per US Letter page with no gaps between them.
+  That leaves 0.5 in margins left and right and 0.25 in top and bottom.
+- Print at **100% / Actual size**, not "Fit to page". Check one card with a ruler
+  before cutting the rest.
+- The cut marks sit in the margins. Some printers can't print that close to the
+  top and bottom edges. If the marks are missing, use `--outline`, which prints a
+  light line around each card that you can cut along.
+- Use cardstock or ordinary paper. In a sleeve, ordinary paper usually feels fine,
+  and a spare card behind it stiffens it.

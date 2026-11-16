@@ -46,7 +46,7 @@ Each card follows the base game's layout: **9 numbered prompts in three bands of
 - **Sheet:** 9 cards per US Letter page (3 × 3), with cut marks.
 - **Fronts only.** Opaque-backed sleeves hide the back.
 - Cards get a small set mark and card number so expansion cards can be told apart
-  from base cards.
+  from base cards. The set mark is a placeholder, "CX", until the expansion is named.
 - **No official art.** Do not use Concept artwork, logos, or trade dress. Use plain
   text and the three band colors only.
 
@@ -57,6 +57,9 @@ Each card follows the base game's layout: **9 numbered prompts in three bands of
   way it is normally written (proper nouns and titles capitalized, common words
   lowercase). Examples: "Bee", "Fire station", "Break the ice", "The Lion King".
 - **Prompt content:** follow the rules in [docs/prompt-guidelines.md](docs/prompt-guidelines.md).
+- **Prompt data and printing:** all prompts are stored in `data/prompts.csv`, and
+  `tools/cards.py` checks them and builds the PDF. See
+  [docs/data-and-printing.md](docs/data-and-printing.md).
 - **Provenance:** for every prompt, record where it came from (original, or which
   dataset and license). We need this for attribution and licensing.
 - **Private material** (such as a transcribed base-game prompt list for duplicate
@@ -99,18 +102,22 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-16 | Include some recent pop culture in the main deck, but only items likely to stay recognizable for years. No separate swappable module | Keeps the deck fresh without dating fast |
 | 2026-11-16 | Card content license: CC BY-NC-SA 4.0. Code stays MIT. Contributors agree to let the owner relicense | Prevents others from selling the deck, keeps the owner able to license it commercially, and allows NC-SA sources such as Monikers |
 | 2026-11-16 | Keep borrowed third-party prompts to a minimum and prefer original ones | Third-party prompts can't be relicensed without their creators' permission |
+| 2026-11-16 | Prompts are stored in one CSV (`data/prompts.csv`), one row per prompt, with a blank card number for the unassigned pool | Simple to edit by hand or in a spreadsheet, and git diffs stay readable |
+| 2026-11-16 | Python + reportlab generate the PDF. No gaps between cards; cut marks in the margins, with an optional outline | 3×3 MTG cards only fit on Letter paper with no gaps |
 
 ## Next steps
 
-1. Choose the data format for prompts. Proposed: one CSV in `data/` with columns
-   `prompt, difficulty, category, source, license, status, notes`, plus card assignments.
-2. Write a Python script in `tools/` that turns the data file into a printable PDF:
-   3×3 grid on US Letter with cut marks. Check the size with a test print in a sleeve.
-3. Draft about 25 playtest cards (225 prompts), using
-   [docs/prompt-guidelines.md](docs/prompt-guidelines.md).
-4. Playtest, record which prompts failed and why, revise the guidelines, then scale up.
-5. Evaluate open sources from the research report (Open Party Game Word Lists,
-   OpenWord Lexicon, idiom corpora) as candidate pools.
+1. **Test print.** Print `output/cards.pdf` (run `python tools/cards.py pdf`) at
+   100% scale, cut out one card, and check that it fits an MTG sleeve and the text is
+   easy to read. Adjust the layout in `tools/cards.py` if needed.
+2. **Review the 9 draft cards** (cards 1–9 in `data/prompts.csv`). Set each prompt to
+   `approved` or `rejected`, and update the guidelines with anything you learn.
+3. **Draft cards 10–25** to complete the playtest set of about 25 cards.
+4. **Playtest.** Record failures and why in the `notes` column, revise the
+   guidelines, then scale up toward 100 cards.
+5. **Evaluate open sources** from the research report (Open Party Game Word Lists,
+   OpenWord Lexicon, idiom corpora) as pools of candidate prompts, keeping borrowed
+   prompts to a minimum.
 
 ### Future tasks
 
