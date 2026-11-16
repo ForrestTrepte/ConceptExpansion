@@ -111,19 +111,28 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-16 | Print a small, faint "+" at every card corner, in addition to the margin marks | Margin marks are lost after the first round of cuts. Full cut lines showed on the finished cards |
 | 2026-11-16 | Board icons are referred to by grid codes (A1–H14) from the player aid, and colors by name. `tools/player_aid.py` makes a local annotated copy of the player aid and icon images. Neither is committed | Naming an icon by one of its labels would tell the guesser which meaning is intended. The artwork is copyrighted |
 | 2026-11-16 | Text playtests in chat, in both directions, using code-based clue notation, with a log per session in `playtests/` | Lets us test prompts without the physical game. The logs keep the clue sequences |
+| 2026-11-16 | Prompts whose parts each map directly to an obvious icon go in Blue. Hard-to-show ideas are welcome in Red and Black | Card 1 playtest: Food truck went in one step. Selfie and Break the ice were hard but fun |
+| 2026-11-16 | Use multi-word phrases only when they're set phrases said word for word; otherwise trim to the core ("Snooze button", not "Hit the snooze button") | Card 1 playtest: the guesser had the idea quickly but got stuck on the exact words |
 
 ## Next steps
 
-1. **Test print.** Print `output/cards.pdf` (run `python tools/cards.py pdf`) at
+1. **Playtest Jurassic Park.** Card 1 was text-playtested on 2026-11-16 (log:
+   `playtests/2026-11-16-claude-clues.md`), and its prompts are approved except
+   *Jurassic Park*, a new draft that replaces Spider-Man in Black. Test it at the start
+   of the next session. *Food truck* is in the unassigned pool as Blue.
+2. **Continue text playtests with card 2** (Claude gives clues), using
+   [docs/playtesting.md](docs/playtesting.md). Pause after each card to discuss and
+   apply lessons to [docs/prompt-guidelines.md](docs/prompt-guidelines.md).
+3. **Re-check cards 2–9 against the new guideline lessons** (direct compounds are
+   Blue; trim long wordings) before or during their playtests.
+4. **Test print.** Print `output/cards.pdf` (run `python tools/cards.py pdf`) at
    100% scale, cut out one card, and check that it fits an MTG sleeve and the text is
    easy to read. Adjust the layout in `tools/cards.py` if needed.
-2. **Review the 9 draft cards** (cards 1–9 in `data/prompts.csv`). Set each prompt to
-   `approved` or `rejected`, and update the guidelines with anything you learn.
-3. **Draft cards 10–25** to complete the playtest set of about 25 cards.
-4. **Playtest** using [docs/playtesting.md](docs/playtesting.md): text playtests with
-   Claude in both directions, then with your group. Revise the guidelines, then scale
-   up toward 100 cards.
-5. **Evaluate open sources** from the research report (Open Party Game Word Lists,
+5. **Draft cards 10–25** to complete the playtest set of about 25 cards, using the
+   updated guidelines.
+6. **Playtest with your group**, and try the human-clues mode on cards Claude hasn't
+   seen as a guesser. Then scale up toward 100 cards.
+7. **Evaluate open sources** from the research report (Open Party Game Word Lists,
    OpenWord Lexicon, idiom corpora) as pools of candidate prompts, keeping borrowed
    prompts to a minimum.
 

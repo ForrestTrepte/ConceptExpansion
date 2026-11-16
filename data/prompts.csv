@@ -1,13 +1,13 @@
 card,difficulty,prompt,category,source,license,status,notes
-1,blue,Pizza,food,original,CC-BY-NC-SA-4.0,draft,Clue: Food + Round + Cut/Half + Red + Hot
-1,blue,Umbrella,object,original,CC-BY-NC-SA-4.0,draft,Clue: Object + Cold/Rain + Defense + Arch/Curve
-1,blue,Penguin,animal,original,CC-BY-NC-SA-4.0,draft,Clue: Fauna + Black + White + Cold + Water
-1,red,Food truck,vehicle,original,CC-BY-NC-SA-4.0,draft,Clue: Ground transportation + Food + Money
-1,red,Selfie,activity,original,CC-BY-NC-SA-4.0,draft,Clue: Use/Action + Face + Electronic + One
-1,red,Lifeguard,occupation,original,CC-BY-NC-SA-4.0,draft,Clue: Work + Defense + Water/Swimming + Red
-1,black,Break the ice,expression,original,CC-BY-NC-SA-4.0,draft,Clue: Expression + Cut/Break + Cold + Human/Group
-1,black,Spider-Man,character,original,CC-BY-NC-SA-4.0,draft,Clue: Character + Grid/Network + Red + Blue + Climb
-1,black,Hit the snooze button,expression,original,CC-BY-NC-SA-4.0,draft,Clue: Use/Action + Button + Time + Night + Slow
+1,blue,Pizza,food,original,CC-BY-NC-SA-4.0,approved,"Clue: Food + Round + Cut/Half + Red + Hot; Playtest 2026-11-16 (Claude clues): guessed in 1 step, keep"
+1,blue,Umbrella,object,original,CC-BY-NC-SA-4.0,approved,"Clue: Object + Cold/Rain + Defense + Arch/Curve; Playtest 2026-11-16 (Claude clues): guessed in 1 step, keep"
+1,blue,Penguin,animal,original,CC-BY-NC-SA-4.0,approved,"Clue: Fauna + Black + White + Cold + Water; Playtest 2026-11-16 (Claude clues): guessed in 3 steps (Orca first), keep"
+1,red,Selfie,activity,original,CC-BY-NC-SA-4.0,approved,"Clue: Use/Action + Face + Electronic + One; Playtest 2026-11-16 (Claude clues): passed; the clues were the problem. Guesser: hard but an interesting challenge, keep"
+1,red,Lifeguard,occupation,original,CC-BY-NC-SA-4.0,approved,"Clue: Work + Defense + Water/Swimming + Red; Playtest 2026-11-16 (Claude clues): guessed in 4 steps, keep"
+1,red,Spider-Man,character,original,CC-BY-NC-SA-4.0,approved,Clue: Character + Grid/Network + Red + Blue + Climb; Playtest 2026-11-16 (Claude clues): guessed in 1 step; grid -> web takes a moment. Moved Black -> Red
+1,black,Break the ice,expression,original,CC-BY-NC-SA-4.0,approved,"Clue: Expression + Cut/Break + Cold + Human/Group; Playtest 2026-11-16 (Claude clues): guessed in 9 steps; ""ice"" was the hard part (water + cold + cube got it), keep"
+1,black,Snooze button,object,original,CC-BY-NC-SA-4.0,approved,"Clue: Object + Button + Time + Night + Slow; Playtest 2026-11-16 (Claude clues): guessed in 5 steps; ""snooze button"" at step 3, then finding ""hit"". Shortened to Snooze button"
+1,black,Jurassic Park,title,original,CC-BY-NC-SA-4.0,draft,Clue: Cinema + Fauna + Old/Past + Big + Building/Place (park) + Attack; drafted 2026-11-16 to replace Spider-Man in Black
 2,blue,Toothbrush,object,original,CC-BY-NC-SA-4.0,draft,Clue: Object + Mouth + Line + White
 2,blue,Volcano,place,original,CC-BY-NC-SA-4.0,draft,Clue: Place + Fire + Cone + Earth + Hot
 2,blue,Giraffe,animal,original,CC-BY-NC-SA-4.0,draft,Clue: Fauna + Long + Head/Neck + Yellow + Brown
@@ -80,3 +80,4 @@ card,difficulty,prompt,category,source,license,status,notes
 9,black,Elephant in the room,expression,original,CC-BY-NC-SA-4.0,draft,"Clue: Expression + Fauna (big, grey) + House-Room + Zero (no talking)"
 9,black,Minecraft,title,original,CC-BY-NC-SA-4.0,draft,Clue: Game + Electronic + Cube + Construction + Earth
 9,black,Rain check,expression,original,CC-BY-NC-SA-4.0,draft,Clue: Expression + Cold/Rain + Paper + After-Future
+,blue,Food truck,vehicle,original,CC-BY-NC-SA-4.0,draft,"Clue: Ground transportation + Food + Money; Playtest 2026-11-16 (Claude clues): guessed in 1 step, too easy for Red (vehicle + food). Moved to pool as Blue"

@@ -36,6 +36,17 @@ clue needs, not from how obscure the answer is.
 | **Red: difficult** | Compound ideas, specific people/characters/places/titles, or things that need a Sub-Concept or careful icon order. | Fire station, Zombie, Stethoscope |
 | **Black: most difficult** | Familiar phrases, idioms, titles, and abstract ideas that must be built from several parts. | (Style:) Break the ice, Back to square one |
 
+Lessons from playtesting:
+
+- **Direct compounds are Blue.** If each part of a prompt has its own obvious icon,
+  it's easy, whatever its form. *Food truck* (vehicle + food) went in one step. A
+  prompt can be Red when an icon only hints at a part (Spider-Man: the grid looks a bit
+  like a web, but it takes a moment to see it).
+- **Hard to show is fine for Red and Black.** Ideas the board has no direct icon for
+  (the "self" in *Selfie*, the "ice" in *Break the ice*) make good challenges, as long
+  as players know the prompt immediately once it's guessed. Figuring out how to reach
+  the idea is part of the fun.
+
 ## Good prompt types
 
 - Everyday objects, animals, foods, places, jobs, activities.
@@ -48,6 +59,10 @@ clue needs, not from how obscure the answer is.
 
 - Proverbs, literary quotations, and phrases where the exact wording is the whole
   challenge.
+- Long wordings of a simple idea. Use a multi-word phrase only when it's a set
+  phrase people always say exactly that way (*Break the ice*). Otherwise trim it to
+  its core: *Snooze button*, not *Hit the snooze button*. Guessers find the idea
+  quickly and then get stuck on the exact words.
 - Archaic, regional, or specialist vocabulary.
 - Things with only one clueable feature (purely abstract single words with no
   concrete angle).
