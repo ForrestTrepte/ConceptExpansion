@@ -4,7 +4,7 @@
 Usage:
     python tools/cards.py check [--data data/prompts.csv]
     python tools/cards.py pdf   [--data data/prompts.csv] [--out output/cards.pdf]
-                                [--cards 1-25] [--status draft,approved] [--outline]
+                                [--cards 1-25] [--status draft,approved] [--no-cut-lines]
 
 See docs/data-and-printing.md for the file format and print settings.
 """
@@ -27,6 +27,8 @@ DIFFICULTIES = ["blue", "red", "black"]  # band order on the card, top to bottom
 STATUSES = {"draft", "approved", "rejected"}
 MAX_PROMPT_CHARS = 24
 SET_MARK = "CX"  # placeholder until the expansion is named
+CARD_WIDTH_MM = 61.5
+CARD_HEIGHT_MM = 88.9
 
 # --- Data -------------------------------------------------------------------
 
@@ -131,17 +133,18 @@ def parse_ranges(spec: str) -> set[int]:
 
 # --- PDF --------------------------------------------------------------------
 
-def build_pdf(cards: dict[int, list[Prompt]], out: Path, outline: bool) -> int:
+def build_pdf(cards: dict[int, list[Prompt]], out: Path, cut_lines: bool) -> int:
     from reportlab.lib.colors import HexColor, white
     from reportlab.lib.pagesizes import letter
-    from reportlab.lib.units import inch
+    from reportlab.lib.units import inch, mm
     from reportlab.pdfbase.pdfmetrics import stringWidth
     from reportlab.pdfgen.canvas import Canvas
 
-    card_w, card_h = 2.5 * inch, 3.5 * inch      # MTG / poker size
+    # MTG size is 63.5 x 88.9 mm; 2 mm narrower so hand-cut cards slide into sleeves easily
+    card_w, card_h = CARD_WIDTH_MM * mm, CARD_HEIGHT_MM * mm
     cols, rows = 3, 3
     page_w, page_h = letter
-    x0 = (page_w - cols * card_w) / 2            # 0.5 in side margins
+    x0 = (page_w - cols * card_w) / 2            # side margins
     y0 = (page_h - rows * card_h) / 2            # 0.25 in top/bottom margins
 
     band_colors = {"blue": HexColor("#1f78c8"), "red": HexColor("#d0312d"), "black": HexColor("#222222")}
@@ -211,16 +214,22 @@ def build_pdf(cards: dict[int, list[Prompt]], out: Path, outline: bool) -> int:
     items = list(cards.items())
     per_page = cols * rows
     pages = 0
+    corners: set[tuple[float, float]] = set()
     for start in range(0, len(items), per_page):
         for k, (number, prompts) in enumerate(items[start:start + per_page]):
             col, row = k % cols, k // cols
             x = x0 + col * card_w
             y = y0 + (rows - 1 - row) * card_h
-            if outline:
-                c.setStrokeColor(HexColor("#cccccc"))
-                c.setLineWidth(0.3)
-                c.rect(x, y, card_w, card_h)
+            if cut_lines:  # faint "+" at each card corner, so marks survive the first round of cuts
+                corners.update({(x, y), (x + card_w, y), (x, y + card_h), (x + card_w, y + card_h)})
             draw_card(c, x, y, number, prompts)
+        c.setStrokeColor(HexColor("#d4d4d4"))
+        c.setLineWidth(0.3)
+        arm = 1.5 * mm
+        for cx, cy in corners:
+            c.line(cx - arm, cy, cx + arm, cy)
+            c.line(cx, cy - arm, cx, cy + arm)
+        corners.clear()
         draw_cut_marks(c)
         c.setFillColor(HexColor("#999999"))
         c.setFont(font, 6)
@@ -249,7 +258,8 @@ def main(argv: list[str] | None = None) -> int:
             sp.add_argument("--cards", help="card numbers to print, e.g. 1-9,12")
             sp.add_argument("--status", default="draft,approved",
                             help="only print cards whose prompts all have one of these statuses")
-            sp.add_argument("--outline", action="store_true", help="draw a light outline around each card")
+            sp.add_argument("--no-cut-lines", dest="cut_lines", action="store_false",
+                            help="omit the faint + marks at card corners (margin cut marks only)")
     args = ap.parse_args(argv)
 
     prompts, errors = load(args.data)
@@ -277,7 +287,7 @@ def main(argv: list[str] | None = None) -> int:
     if not cards:
         print("error: no cards match the filters", file=sys.stderr)
         return 1
-    pages = build_pdf(cards, args.out, args.outline)
+    pages = build_pdf(cards, args.out, args.cut_lines)
     print(f"Wrote {args.out} ({len(cards)} cards, {pages} pages)")
     return 0
 

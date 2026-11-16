@@ -43,18 +43,21 @@ Within a band, they keep the order they have in the file.
 ```sh
 python tools/cards.py check                     # validate data/prompts.csv
 python tools/cards.py pdf                       # all draft + approved cards -> output/cards.pdf
-python tools/cards.py pdf --cards 1-9 --outline # just cards 1-9, with card outlines
+python tools/cards.py pdf --cards 1-9          # just cards 1-9
+python tools/cards.py pdf --no-cut-lines       # margin cut marks only, no corner + marks
 python tools/cards.py pdf --status approved     # only cards whose prompts are all approved
 ```
 
 ## Printing
 
-- The PDF holds 9 cards (2.5 × 3.5 in) per US Letter page with no gaps between them.
-  That leaves 0.5 in margins left and right and 0.25 in top and bottom.
+- The PDF holds 9 cards per US Letter page with no gaps between them. Each card is
+  61.5 × 88.9 mm: MTG height, but 2 mm narrower than MTG so that slightly uneven
+  hand-cut cards still fit in sleeves. The size is set by `CARD_WIDTH_MM` and
+  `CARD_HEIGHT_MM` in `tools/cards.py`.
 - Print at **100% / Actual size**, not "Fit to page". Check one card with a ruler
   before cutting the rest.
-- The cut marks sit in the margins. Some printers can't print that close to the
-  top and bottom edges. If the marks are missing, use `--outline`, which prints a
-  light line around each card that you can cut along.
+- **Cutting:** a faint "+" marks every card corner, so after you cut the columns,
+  each strip still shows where to make the cross cuts. The marks in the margins line
+  up with the same edges.
 - Use cardstock or ordinary paper. In a sleeve, ordinary paper usually feels fine,
   and a spare card behind it stiffens it.

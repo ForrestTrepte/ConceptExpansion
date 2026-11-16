@@ -42,7 +42,8 @@ Each card follows the base game's layout: **9 numbered prompts in three bands of
 | 4–6 | Red | Difficult |
 | 7–9 | Black | Most difficult |
 
-- **Size:** 2.5 × 3.5 in (63 × 88 mm), the same as MTG cards. Portrait orientation.
+- **Size:** 61.5 × 88.9 mm, portrait. That's MTG size (63.5 × 88.9 mm, 2.5 × 3.5 in)
+  made 2 mm narrower, so slightly uneven hand-cut cards still slide into MTG sleeves.
 - **Sheet:** 9 cards per US Letter page (3 × 3), with cut marks.
 - **Fronts only.** Opaque-backed sleeves hide the back.
 - Cards get a small set mark and card number so expansion cards can be told apart
@@ -104,6 +105,8 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-16 | Keep borrowed third-party prompts to a minimum and prefer original ones | Third-party prompts can't be relicensed without their creators' permission |
 | 2026-11-16 | Prompts are stored in one CSV (`data/prompts.csv`), one row per prompt, with a blank card number for the unassigned pool | Simple to edit by hand or in a spreadsheet, and git diffs stay readable |
 | 2026-11-16 | Python + reportlab generate the PDF. No gaps between cards; cut marks in the margins, with an optional outline | 3×3 MTG cards only fit on Letter paper with no gaps |
+| 2026-11-16 | Cards are 2 mm narrower than MTG (61.5 mm wide) | In the test print, some hand-cut cards were too tight for the sleeves |
+| 2026-11-16 | Print a small, faint "+" at every card corner, in addition to the margin marks | Margin marks are lost after the first round of cuts. Full cut lines showed on the finished cards |
 
 ## Next steps
 
@@ -135,4 +138,10 @@ Newest at the bottom. Include the date and a one-line reason.
     and [Spreadsheet of all cards](https://boardgamegeek.com/thread/1564116/spreadsheet-of-all-cards).
     The second may not be about Concept.
   - Fallback: transcribe a physical deck.
-- **Expansion name and set mark** to print on each card.
+- **Expansion name and set mark** to print on each card (replacing the placeholder
+  "CX"). Choose these before the draft cards are finalized.
+- **Publish the printable PDF for others to download.** Plan: publish it as a GitHub
+  Release asset (e.g. `v0.1-playtest`, `v1.0`), ideally built automatically by a
+  GitHub Action when a version tag is pushed, rather than committing the PDF to the
+  repo. A release gives each version a stable download link without adding a new
+  binary to git history every time the PDF is rebuilt.
