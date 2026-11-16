@@ -51,7 +51,7 @@ python tools/cards.py pdf --status approved     # only cards whose prompts are a
 ## Printing
 
 - The PDF holds 9 cards per US Letter page with no gaps between them. Each card is
-  61.5 × 88.9 mm: MTG height, but 2 mm narrower than MTG so that slightly uneven
+  60.5 × 85.9 mm: 3 mm narrower and 3 mm shorter than MTG so that slightly uneven
   hand-cut cards still fit in sleeves. The size is set by `CARD_WIDTH_MM` and
   `CARD_HEIGHT_MM` in `tools/cards.py`.
 - Print at **100% / Actual size**, not "Fit to page". Check one card with a ruler

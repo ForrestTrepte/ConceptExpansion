@@ -27,8 +27,8 @@ DIFFICULTIES = ["blue", "red", "black"]  # band order on the card, top to bottom
 STATUSES = {"draft", "approved", "rejected"}
 MAX_PROMPT_CHARS = 24
 SET_MARK = "NN"  # New Notions
-CARD_WIDTH_MM = 61.5
-CARD_HEIGHT_MM = 88.9
+CARD_WIDTH_MM = 60.5
+CARD_HEIGHT_MM = 85.9
 
 # --- Data -------------------------------------------------------------------
 
@@ -140,7 +140,7 @@ def build_pdf(cards: dict[int, list[Prompt]], out: Path, cut_lines: bool) -> int
     from reportlab.pdfbase.pdfmetrics import stringWidth
     from reportlab.pdfgen.canvas import Canvas
 
-    # MTG size is 63.5 x 88.9 mm; 2 mm narrower so hand-cut cards slide into sleeves easily
+    # MTG size is 63.5 x 88.9 mm; 3 mm smaller each way so hand-cut cards slide into sleeves easily
     card_w, card_h = CARD_WIDTH_MM * mm, CARD_HEIGHT_MM * mm
     cols, rows = 3, 3
     page_w, page_h = letter

@@ -44,8 +44,8 @@ Each card follows the base game's layout: **9 numbered prompts in three bands of
 | 4–6 | Red | Difficult |
 | 7–9 | Black | Most difficult |
 
-- **Size:** 61.5 × 88.9 mm, portrait. That's MTG size (63.5 × 88.9 mm, 2.5 × 3.5 in)
-  made 2 mm narrower, so slightly uneven hand-cut cards still slide into MTG sleeves.
+- **Size:** 60.5 × 85.9 mm, portrait. That's MTG size (63.5 × 88.9 mm, 2.5 × 3.5 in)
+  made 3 mm smaller each way, so slightly uneven hand-cut cards still slide into MTG sleeves.
 - **Sheet:** 9 cards per US Letter page (3 × 3), with cut marks.
 - **Fronts only.** Opaque-backed sleeves hide the back.
 - Cards get a small set mark and card number so expansion cards can be told apart
@@ -109,7 +109,6 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-16 | Keep borrowed third-party prompts to a minimum and prefer original ones | Third-party prompts can't be relicensed without their creators' permission |
 | 2026-11-16 | Prompts are stored in one CSV (`data/prompts.csv`), one row per prompt, with a blank card number for the unassigned pool | Simple to edit by hand or in a spreadsheet, and git diffs stay readable |
 | 2026-11-16 | Python + reportlab generate the PDF. No gaps between cards; cut marks in the margins, with an optional outline | 3×3 MTG cards only fit on Letter paper with no gaps |
-| 2026-11-16 | Cards are 2 mm narrower than MTG (61.5 mm wide) | In the test print, some hand-cut cards were too tight for the sleeves |
 | 2026-11-16 | Print a small, faint "+" at every card corner, in addition to the margin marks | Margin marks are lost after the first round of cuts. Full cut lines showed on the finished cards |
 | 2026-11-16 | Board icons are referred to by grid codes (A1–H14) from the player aid, and colors by name. `tools/player_aid.py` makes a local annotated copy of the player aid and icon images. Neither is committed | Naming an icon by one of its labels would tell the guesser which meaning is intended. The artwork is copyrighted |
 | 2026-11-16 | Text playtests in chat, in both directions, using code-based clue notation, with a log per session in `playtests/` | Lets us test prompts without the physical game. The logs keep the clue sequences |
@@ -124,6 +123,7 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-16 | Idioms and compounds with one easily built noun and otherwise direct words (*Black sheep*, *Third wheel*, *Top dog*) are Red. Black idioms need a built part plus a verb or meaning the icons don't hand over (*Break the ice*, *Hit the hay*) | Re-banding the pool: the first-guess test put these in Red, and "when in doubt, choose the easier band" |
 | 2026-11-16 | Each of the first 18 cards has one pop-culture prompt in Red and at most one in Black. Black on each card is two idioms plus one other, or one idiom, one compound concept, and one title or person | Meets the per-card pop-culture limits and the half-idiom Black target |
 | 2026-11-16 | Cards 1–18 approved as assembled, including the re-banding behind them | Owner reviewed the selection |
+| 2026-11-16 | Cards are 3 mm narrower and 3 mm shorter than MTG (60.5 × 85.9 mm) | Second test print: 61.5 × 88.9 mm was still too big for the sleeves |
 
 ## Next steps
 
