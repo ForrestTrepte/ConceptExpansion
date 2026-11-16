@@ -26,7 +26,7 @@ COLUMNS = ["card", "difficulty", "prompt", "category", "source", "license", "sta
 DIFFICULTIES = ["blue", "red", "black"]  # band order on the card, top to bottom
 STATUSES = {"draft", "approved", "rejected"}
 MAX_PROMPT_CHARS = 24
-SET_MARK = "CX"  # placeholder until the expansion is named
+SET_MARK = "NN"  # New Notions
 CARD_WIDTH_MM = 61.5
 CARD_HEIGHT_MM = 88.9
 
@@ -210,7 +210,7 @@ def build_pdf(cards: dict[int, list[Prompt]], out: Path, cut_lines: bool) -> int
 
     out.parent.mkdir(parents=True, exist_ok=True)
     c = Canvas(str(out), pagesize=letter)
-    c.setTitle("Concept expansion cards (unofficial)")
+    c.setTitle("New Notions: an unofficial fan expansion for Concept")
     items = list(cards.items())
     per_page = cols * rows
     pages = 0

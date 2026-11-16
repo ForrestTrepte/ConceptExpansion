@@ -1,4 +1,6 @@
-# Concept Expansion (unofficial)
+# New Notions
+
+*An unofficial fan expansion for Concept.*
 
 A free, printable, fan-made expansion deck of new prompts for the party game
 [*Concept*](https://boardgamegeek.com/boardgame/147151/concept) by Repos Production.
@@ -47,7 +49,7 @@ Each card follows the base game's layout: **9 numbered prompts in three bands of
 - **Sheet:** 9 cards per US Letter page (3 × 3), with cut marks.
 - **Fronts only.** Opaque-backed sleeves hide the back.
 - Cards get a small set mark and card number so expansion cards can be told apart
-  from base cards. The set mark is a placeholder, "CX", until the expansion is named.
+  from base cards. The set mark is "NN" (*New Notions*).
 - **No official art.** Do not use Concept artwork, logos, or trade dress. Use plain
   text and the three band colors only.
 
@@ -114,6 +116,7 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-16 | Prompts whose parts each map directly to an obvious icon go in Blue. Hard-to-show ideas are welcome in Red and Black | Card 1 playtest: Food truck went in one step. Selfie and Break the ice were hard but fun |
 | 2026-11-16 | Use multi-word phrases only when they're set phrases said word for word; otherwise trim to the core ("Snooze button", not "Hit the snooze button") | Card 1 playtest: the guesser had the idea quickly but got stuck on the exact words |
 | 2026-11-16 | In playtest notation, a cube line with no color uses the color of the last pawn or colored cube | Clue-giver's request: less typing during play |
+| 2026-11-16 | Name: *New Notions: an unofficial fan expansion for Concept*. Set mark "NN" | "Notion" is a synonym for concept and "new" says more prompts. "Concept" stays out of the name itself so it isn't mistaken for an official product |
 
 ## Next steps
 
@@ -154,8 +157,6 @@ Newest at the bottom. Include the date and a one-line reason.
     and [Spreadsheet of all cards](https://boardgamegeek.com/thread/1564116/spreadsheet-of-all-cards).
     The second may not be about Concept.
   - Fallback: transcribe a physical deck.
-- **Expansion name and set mark** to print on each card (replacing the placeholder
-  "CX"). Choose these before the draft cards are finalized.
 - **Publish the printable PDF for others to download.** Plan: publish it as a GitHub
   Release asset (e.g. `v0.1-playtest`, `v1.0`), ideally built automatically by a
   GitHub Action when a version tag is pushed, rather than committing the PDF to the
