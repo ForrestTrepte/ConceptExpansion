@@ -121,32 +121,23 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-16 | Red and Black prompts must record a clue route for their hardest part and their likely neighbors, in `notes` | *Selfie* failed for lack of a route. Near-miss neighbors made the best moments |
 | 2026-11-16 | The first 18 cards are assembled from one pool: all existing prompts (approved included) plus new drafts. Choose by band standard, then by fun | Approved prompts earn their place by comparison, not by having been first |
 | 2026-11-16 | Black leans toward idioms (about half); real people are allowed but rare | Idioms are the most reliable kind of hard; real people are hard to clue and can date |
+| 2026-11-16 | Idioms and compounds with one easily built noun and otherwise direct words (*Black sheep*, *Third wheel*, *Top dog*) are Red. Black idioms need a built part plus a verb or meaning the icons don't hand over (*Break the ice*, *Hit the hay*) | Re-banding the pool: the first-guess test put these in Red, and "when in doubt, choose the easier band" |
+| 2026-11-16 | Each of the first 18 cards has one pop-culture prompt in Red and at most one in Black. Black on each card is two idioms plus one other, or one idiom, one compound concept, and one title or person | Meets the per-card pop-culture limits and the half-idiom Black target |
+| 2026-11-16 | Cards 1–18 approved as assembled, including the re-banding behind them | Owner reviewed the selection |
 
 ## Next steps
 
-1. **Select 18 cards from the pool** (ideally in a fresh session with a strong
-   model, so the drafter isn't grading its own work). The pool in `data/prompts.csv`
-   now holds 820 prompts: cards 1–9 plus 739 unassigned drafts (2026-11-16).
-   Each has `Clue:`, `Hard:` (Red/Black), and `Neighbors:` notes. Existing prompts
-   whose drafted band looks wrong carry a `Suggested band:` note. Proposed bands
-   are a first pass and run high, so re-band everything with the first-guess test
-   before choosing. Not yet checked against the base game (no list available).
-2. **Re-band, then choose.** Re-band every prompt with the standards in
-   [docs/prompt-guidelines.md](docs/prompt-guidelines.md). Approved prompts get no
-   reserved slot.
-3. **Assemble 18 cards** (two printed pages) from the whole pool, following
-   "Building cards from the pool" in the guidelines: fill slots by band standard,
-   prefer fun within each band, balance categories and pop culture. Unused prompts
-   go back to the pool (blank `card`). Then have the user review the selection.
-4. **Test print.** Print `output/cards.pdf` (run `python tools/cards.py pdf`) at
+1. **Test print.** Print `output/cards.pdf` (run `python tools/cards.py pdf`) at
    100% scale, cut out one card, and check that it fits an MTG sleeve and the text is
    easy to read. Adjust the layout in `tools/cards.py` if needed.
-5. **Playtest the 18 cards**, preferably with human guessers (Claude guesses more
-   easily than people do). Text playtests follow
+2. **Playtest the 18 cards** (cards 1–18 in `data/prompts.csv`, assembled from
+   the re-banded pool and approved by the owner on 2026-11-16; 658 prompts remain
+   unassigned, and nothing has been checked against the base game), preferably
+   with human guessers (Claude guesses more easily than people do). Text playtests follow
    [docs/playtesting.md](docs/playtesting.md); logs from cards 1–2 are in
    `playtests/`. Apply lessons to the guidelines after each card.
-6. **Scale up** toward 25 playtest cards, then 100.
-7. **Evaluate open sources** from the research report (Open Party Game Word Lists,
+3. **Scale up** toward 25 playtest cards, then 100.
+4. **Evaluate open sources** from the research report (Open Party Game Word Lists,
    OpenWord Lexicon, idiom corpora) as pools of candidate prompts, keeping borrowed
    prompts to a minimum.
 

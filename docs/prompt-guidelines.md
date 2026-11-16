@@ -64,6 +64,11 @@ Lessons from playtesting behind these standards:
 - **Literal idioms and signature titles are not Black.** *Under the weather* (below +
   weather) was solved from two bare pawns. *Spider-Man* (red + blue + web) and
   *Harry Potter* (wand) fell as soon as their signature feature was clued.
+- **One easy built noun doesn't make an idiom Black.** *Black sheep*, *Third wheel*,
+  and *Top dog* are Red: once the animal or object is built, the direct word next
+  to it gives the phrase. Black idioms also need a verb or meaning the icons don't
+  hand over (*Break the ice*, *Hit the hay*). (From the pool re-banding, not yet
+  playtested.)
 - **Neighbors make good difficulty.** The best moments were plausible wrong answers
   that one more clue fixed: orca for *Penguin*, admiral for *Lifeguard*, hail for
   "ice", tablet for *Smartphone*.
