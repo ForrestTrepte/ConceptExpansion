@@ -113,25 +113,27 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-16 | Text playtests in chat, in both directions, using code-based clue notation, with a log per session in `playtests/` | Lets us test prompts without the physical game. The logs keep the clue sequences |
 | 2026-11-16 | Prompts whose parts each map directly to an obvious icon go in Blue. Hard-to-show ideas are welcome in Red and Black | Card 1 playtest: Food truck went in one step. Selfie and Break the ice were hard but fun |
 | 2026-11-16 | Use multi-word phrases only when they're set phrases said word for word; otherwise trim to the core ("Snooze button", not "Hit the snooze button") | Card 1 playtest: the guesser had the idea quickly but got stuck on the exact words |
+| 2026-11-16 | In playtest notation, a cube line with no color uses the color of the last pawn or colored cube | Clue-giver's request: less typing during play |
 
 ## Next steps
 
-1. **Playtest Jurassic Park.** Card 1 was text-playtested on 2026-11-16 (log:
-   `playtests/2026-11-16-claude-clues.md`), and its prompts are approved except
-   *Jurassic Park*, a new draft that replaces Spider-Man in Black. Test it at the start
-   of the next session. *Food truck* is in the unassigned pool as Blue.
-2. **Continue text playtests with card 2** (Claude gives clues), using
-   [docs/playtesting.md](docs/playtesting.md). Pause after each card to discuss and
-   apply lessons to [docs/prompt-guidelines.md](docs/prompt-guidelines.md).
-3. **Re-check cards 2–9 against the new guideline lessons** (direct compounds are
+1. **Cards 1 and 2 are approved.** Card 1 was tested in claude-clues mode
+   (`playtests/2026-11-16-claude-clues.md`). Card 2 and *Jurassic Park* were tested in
+   human-clues mode (`playtests/2026-11-16-human-clues.md`), and Claude guessed every
+   one in the first step. Claude guesses more easily than people do, so card 2 still
+   needs human guessers (step 6). *Food truck* is in the unassigned pool as Blue.
+2. **Continue text playtests with card 3** (Claude gives clues, so a human is the
+   guesser), using [docs/playtesting.md](docs/playtesting.md). Pause after each card to
+   discuss and apply lessons to [docs/prompt-guidelines.md](docs/prompt-guidelines.md).
+3. **Re-check cards 3–9 against the new guideline lessons** (direct compounds are
    Blue; trim long wordings) before or during their playtests.
 4. **Test print.** Print `output/cards.pdf` (run `python tools/cards.py pdf`) at
    100% scale, cut out one card, and check that it fits an MTG sleeve and the text is
    easy to read. Adjust the layout in `tools/cards.py` if needed.
 5. **Draft cards 10–25** to complete the playtest set of about 25 cards, using the
    updated guidelines.
-6. **Playtest with your group**, and try the human-clues mode on cards Claude hasn't
-   seen as a guesser. Then scale up toward 100 cards.
+6. **Playtest with your group**, especially card 2, which so far only Claude has
+   guessed. Then scale up toward 100 cards.
 7. **Evaluate open sources** from the research report (Open Party Game Word Lists,
    OpenWord Lexicon, idiom corpora) as pools of candidate prompts, keeping borrowed
    prompts to a minimum.

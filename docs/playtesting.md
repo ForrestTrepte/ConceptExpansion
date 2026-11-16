@@ -44,14 +44,18 @@ icon's label words in clues.
 
 | Line | Meaning |
 |---|---|
-| `? A4` | Place the green Main Concept pawn on A4 |
-| `+ B11` | Green cube on B11 (detail about the Main Concept) |
-| `+ G4 x2` | Two green cubes on G4 |
-| `!red B11` | Place the red Sub-Concept pawn on B11 (also `!yellow`, `!blue`, `!black`) |
-| `+red G14` | Red cube on G14 |
-| `- G4` | Remove one green cube from G4 (`-red G4` for a red cube) |
+| `? A4` | Place the green Main Concept pawn on A4 (`? green A4` also works) |
+| `+ B11` | Cube on B11, in the current color (see below) |
+| `+ G4 x2` | Two cubes on G4 |
+| `!red B11` | Place the red Sub-Concept pawn on B11 (also `!yellow`, `!blue`, `!black`; `! red B11` also works) |
+| `+red G14` | Red cube on G14 (naming a color is optional) |
+| `- G4` | Remove one cube from G4, in the current color (`-red G4` for a red cube) |
 | `-red` | Clear the whole red Sub-Concept, both pawn and cubes |
 | `-?` | Remove the Main Concept pawn (then place it again with `? <code>`) |
+
+**Current color:** a cube line without a color uses the color of the most recently
+placed pawn or colored cube. So after `!red E10`, a plain `+ C11` is a red cube. To go
+back to adding green cubes after a Sub-Concept, write `+green <code>`.
 
 Order matters: lines are read in the order they were placed.
 
@@ -64,11 +68,11 @@ around flowers, and is connected to an edible yellow liquid):
 + Yellow
 + Black
 !red B11
-+red G14
-+red B4
++ G14
++ B4
 !yellow A14
-+yellow F3
-+yellow Yellow
++ F3
++ Yellow
 ```
 
 ## Turn flow

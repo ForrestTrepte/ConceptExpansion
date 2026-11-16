@@ -7,16 +7,16 @@ card,difficulty,prompt,category,source,license,status,notes
 1,red,Spider-Man,character,original,CC-BY-NC-SA-4.0,approved,Clue: Character + Grid/Network + Red + Blue + Climb; Playtest 2026-11-16 (Claude clues): guessed in 1 step; grid -> web takes a moment. Moved Black -> Red
 1,black,Break the ice,expression,original,CC-BY-NC-SA-4.0,approved,"Clue: Expression + Cut/Break + Cold + Human/Group; Playtest 2026-11-16 (Claude clues): guessed in 9 steps; ""ice"" was the hard part (water + cold + cube got it), keep"
 1,black,Snooze button,object,original,CC-BY-NC-SA-4.0,approved,"Clue: Object + Button + Time + Night + Slow; Playtest 2026-11-16 (Claude clues): guessed in 5 steps; ""snooze button"" at step 3, then finding ""hit"". Shortened to Snooze button"
-1,black,Jurassic Park,title,original,CC-BY-NC-SA-4.0,draft,Clue: Cinema + Fauna + Old/Past + Big + Building/Place (park) + Attack; drafted 2026-11-16 to replace Spider-Man in Black
-2,blue,Toothbrush,object,original,CC-BY-NC-SA-4.0,draft,Clue: Object + Mouth + Line + White
-2,blue,Volcano,place,original,CC-BY-NC-SA-4.0,draft,Clue: Place + Fire + Cone + Earth + Hot
-2,blue,Giraffe,animal,original,CC-BY-NC-SA-4.0,draft,Clue: Fauna + Long + Head/Neck + Yellow + Brown
-2,red,Smartphone,object,original,CC-BY-NC-SA-4.0,draft,Clue: Object + Electronic + Rectangle + Ear + Hand
-2,red,Roller coaster,place,original,CC-BY-NC-SA-4.0,draft,Clue: Building + Fast + Climb + Descend + Wavy + Happy
-2,red,Plumber,occupation,original,CC-BY-NC-SA-4.0,draft,Clue: Work + Water + Tool + Cylinder
-2,black,Under the weather,expression,original,CC-BY-NC-SA-4.0,draft,Clue: Expression + Below + Cold/Cloud + Illness
-2,black,Harry Potter,character,original,CC-BY-NC-SA-4.0,draft,Clue: Character + Young + Glasses (Eye + 2 Circles) + Lightning
-2,black,Black Friday,event,original,CC-BY-NC-SA-4.0,draft,Clue: Date + Black + Money + Multitude
+1,black,Jurassic Park,title,original,CC-BY-NC-SA-4.0,approved,"Clue: Cinema + Fauna + Old/Past + Big + Building/Place (park) + Attack; drafted 2026-11-16 to replace Spider-Man in Black; Playtest 2026-11-16 (human clues, Claude guessed): guessed in step 1, keep"
+2,blue,Toothbrush,object,original,CC-BY-NC-SA-4.0,approved,"Clue: Object + Mouth + Line + White; Playtest 2026-11-16 (human clues, Claude guessed): guessed in step 1, keep"
+2,blue,Volcano,place,original,CC-BY-NC-SA-4.0,approved,"Clue: Place + Fire + Cone + Earth + Hot; Playtest 2026-11-16 (human clues, Claude guessed): guessed in step 1, keep"
+2,blue,Giraffe,animal,original,CC-BY-NC-SA-4.0,approved,"Clue: Fauna + Long + Head/Neck + Yellow + Brown; Playtest 2026-11-16 (human clues, Claude guessed): guessed in step 1, keep"
+2,red,Smartphone,object,original,CC-BY-NC-SA-4.0,approved,"Clue: Object + Electronic + Rectangle + Ear + Hand; Playtest 2026-11-16 (human clues, Claude guessed): guessed in step 1, keep"
+2,red,Roller coaster,place,original,CC-BY-NC-SA-4.0,approved,"Clue: Building + Fast + Climb + Descend + Wavy + Happy; Playtest 2026-11-16 (human clues, Claude guessed): guessed in step 1, keep"
+2,red,Plumber,occupation,original,CC-BY-NC-SA-4.0,approved,"Clue: Work + Water + Tool + Cylinder; Playtest 2026-11-16 (human clues, Claude guessed): guessed in step 1, keep"
+2,black,Under the weather,expression,original,CC-BY-NC-SA-4.0,approved,"Clue: Expression + Below + Cold/Cloud + Illness; Playtest 2026-11-16 (human clues, Claude guessed): guessed in step 1, keep"
+2,black,Harry Potter,character,original,CC-BY-NC-SA-4.0,approved,"Clue: Character + Young + Glasses (Eye + 2 Circles) + Lightning; Playtest 2026-11-16 (human clues, Claude guessed): guessed in step 1, keep"
+2,black,Black Friday,event,original,CC-BY-NC-SA-4.0,approved,"Clue: Date + Black + Money + Multitude; Playtest 2026-11-16 (human clues, Claude guessed): guessed in step 1, keep"
 3,blue,Ice cream,food,original,CC-BY-NC-SA-4.0,draft,Clue: Food + Cold + Cone + Sphere
 3,blue,Bicycle,vehicle,original,CC-BY-NC-SA-4.0,draft,Clue: Ground transportation + Circle x2 + Leg
 3,blue,Shark,animal,original,CC-BY-NC-SA-4.0,draft,Clue: Fauna + Water + Attack + Triangle (fin) + Grey
