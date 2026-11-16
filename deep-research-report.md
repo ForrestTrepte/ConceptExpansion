@@ -1,5 +1,18 @@
 # New English-Language Cards for *Concept*: Expansion and Prompt-Source Research
 
+**IMPORTANT: The following report should be used for inspiration but is not an authoritative plan for development of the ConceptExpansion project. Development of the project may build upon or ignore any of these ideas.**
+
+> *Deep Research Query using ChatGPT:*
+> 
+> My friends and I want new cards with additional words and phrases to guess in the board game Concept (https://boardgamegeek.com/boardgame/147151/concept). The current cards:
+> 1. Outdated: Referring to old-timey things and phrases.
+> 2. Contain obscure phrases. Guessing phrases. But the phrases included in the game include obscure things like "What's bred in the bone comes out the flesh". Not common things people actually say.
+>
+> Look for expansion content:
+> - Commercial expansions in English
+> - Fan-created expansions
+> - Content from other openly-available games or lists that could be filtered to work well with Concept
+
 ## Bottom line
 
 There is **still no verified official English-language card-only expansion for the original 2013 *Concept***. Repos Production did publish a genuine 110-card expansion containing 990 new prompts, *Concept: Neue Begriffe*, but the verified commercial edition is German; a corresponding French edition, *Concept: La Recharge*, also exists. The current English Repos page does not list either as an English product, and Asmodee UK's current Repos catalog lists the base game, *Concept Kids: Animals*, and the forthcoming *Concept Stories*, but not an English prompt-card expansion. citeturn427904search3turn276352search1turn427904search2turn702963search6
