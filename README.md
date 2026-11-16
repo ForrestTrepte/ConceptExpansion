@@ -117,26 +117,35 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-16 | Use multi-word phrases only when they're set phrases said word for word; otherwise trim to the core ("Snooze button", not "Hit the snooze button") | Card 1 playtest: the guesser had the idea quickly but got stuck on the exact words |
 | 2026-11-16 | In playtest notation, a cube line with no color uses the color of the last pawn or colored cube | Clue-giver's request: less typing during play |
 | 2026-11-16 | Name: *New Notions: an unofficial fan expansion for Concept*. Set mark "NN" | "Notion" is a synonym for concept and "new" says more prompts. "Concept" stays out of the name itself so it isn't mistaken for an official product |
+| 2026-11-16 | Bands are set by how far a prompt's hardest part is from the icons (direct / built / far), plus a first-guess test. See [docs/prompt-guidelines.md](docs/prompt-guidelines.md) | Explained every playtest result better than the earlier band descriptions. Literal idioms and signature-feature titles went in one step |
+| 2026-11-16 | Red and Black prompts must record a clue route for their hardest part and their likely neighbors, in `notes` | *Selfie* failed for lack of a route. Near-miss neighbors made the best moments |
+| 2026-11-16 | The first 18 cards are assembled from one pool: all existing prompts (approved included) plus new drafts. Choose by band standard, then by fun | Approved prompts earn their place by comparison, not by having been first |
+| 2026-11-16 | Black leans toward idioms (about half); real people are allowed but rare | Idioms are the most reliable kind of hard; real people are hard to clue and can date |
 
 ## Next steps
 
-1. **Cards 1 and 2 are approved.** Card 1 was tested in claude-clues mode
-   (`playtests/2026-11-16-claude-clues.md`). Card 2 and *Jurassic Park* were tested in
-   human-clues mode (`playtests/2026-11-16-human-clues.md`), and Claude guessed every
-   one in the first step. Claude guesses more easily than people do, so card 2 still
-   needs human guessers (step 6). *Food truck* is in the unassigned pool as Blue.
-2. **Continue text playtests with card 3** (Claude gives clues, so a human is the
-   guesser), using [docs/playtesting.md](docs/playtesting.md). Pause after each card to
-   discuss and apply lessons to [docs/prompt-guidelines.md](docs/prompt-guidelines.md).
-3. **Re-check cards 3–9 against the new guideline lessons** (direct compounds are
-   Blue; trim long wordings) before or during their playtests.
+1. **Select 18 cards from the pool** (ideally in a fresh session with a strong
+   model, so the drafter isn't grading its own work). The pool in `data/prompts.csv`
+   now holds 820 prompts: cards 1–9 plus 739 unassigned drafts (2026-11-16).
+   Each has `Clue:`, `Hard:` (Red/Black), and `Neighbors:` notes. Existing prompts
+   whose drafted band looks wrong carry a `Suggested band:` note. Proposed bands
+   are a first pass and run high, so re-band everything with the first-guess test
+   before choosing. Not yet checked against the base game (no list available).
+2. **Re-band, then choose.** Re-band every prompt with the standards in
+   [docs/prompt-guidelines.md](docs/prompt-guidelines.md). Approved prompts get no
+   reserved slot.
+3. **Assemble 18 cards** (two printed pages) from the whole pool, following
+   "Building cards from the pool" in the guidelines: fill slots by band standard,
+   prefer fun within each band, balance categories and pop culture. Unused prompts
+   go back to the pool (blank `card`). Then have the user review the selection.
 4. **Test print.** Print `output/cards.pdf` (run `python tools/cards.py pdf`) at
    100% scale, cut out one card, and check that it fits an MTG sleeve and the text is
    easy to read. Adjust the layout in `tools/cards.py` if needed.
-5. **Draft cards 10–25** to complete the playtest set of about 25 cards, using the
-   updated guidelines.
-6. **Playtest with your group**, especially card 2, which so far only Claude has
-   guessed. Then scale up toward 100 cards.
+5. **Playtest the 18 cards**, preferably with human guessers (Claude guesses more
+   easily than people do). Text playtests follow
+   [docs/playtesting.md](docs/playtesting.md); logs from cards 1–2 are in
+   `playtests/`. Apply lessons to the guidelines after each card.
+6. **Scale up** toward 25 playtest cards, then 100.
 7. **Evaluate open sources** from the research report (Open Party Game Word Lists,
    OpenWord Lexicon, idiom corpora) as pools of candidate prompts, keeping borrowed
    prompts to a minimum.
