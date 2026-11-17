@@ -17,6 +17,9 @@ playtesting shows what works. Back to [README](../README.md).
    can name icons that get a guesser there. For Red and Black, write the route for
    the hardest part (e.g. "ice = water + cold + cube"). If you can't name one, drop
    the prompt. (*Selfie* failed in play because no route to "self" landed.)
+   Routes must work by placing markers on whole icons. Don't rely on putting a cube
+   on one detail inside an icon's picture; some groups do that, but it isn't standard
+   play.
 4. **Distinctness.** Name the one or two likeliest wrong guesses (its *neighbors*)
    and the icon that separates the prompt from them. Penguin vs. orca: a bird that
    doesn't fly. Glasses vs. monocle: the number of circles. If nothing on the board
@@ -30,6 +33,11 @@ playtesting shows what works. Back to [README](../README.md).
 7. **Fits on the card.** Keep it short. The limit is about 24 characters.
 8. **Not a base-game duplicate**, including obvious variants (singular/plural, small
    wording changes).
+9. **Not pictured on the board.** The prompt must not be something drawn as its own
+   element inside an icon (no *Octopus*, which is drawn in A4, and no *Lightbulb*,
+   drawn in A8). Some groups place a cube right on a picture detail, which makes such
+   prompts trivial. Look at the icon images, not just the labels. Compounds built
+   from a pictured element are fine: *Lighthouse* = the A8 lightbulb + B14.
 
 ## Difficulty bands
 
@@ -58,6 +66,14 @@ guess is the answer, the prompt is Blue, whatever its form. Claude guessed every
 human-clued prompt in one step in the card 2 playtest, so Claude's own sense of
 difficulty runs easy. When in doubt, choose the easier band.
 
+**Grading by reading a prompt runs easy.** In the first tabletop playtest (two
+humans, printed cards), many prompts were harder than expected, and some were
+skipped or failed. A prompt that looks easy can still be hard to build from icons,
+or the guesser may not make the association the clue-giver needs. A written route
+is necessary but not enough. Bands assigned without play are provisional until
+playtested. Working through actual clues, not just naming icons, gives a better
+estimate.
+
 Lessons from playtesting behind these standards:
 
 - **Direct compounds are Blue.** *Food truck* (vehicle + food) went in one step.
@@ -74,6 +90,8 @@ Lessons from playtesting behind these standards:
   "ice", tablet for *Smartphone*.
 - **Hard to show is fine for Red and Black**, as long as there is a route and players
   know the prompt instantly once they get it.
+- **Prompts are harder at the table than on paper.** See the tabletop playtest of
+  2026-11-16 in `playtests/`.
 
 ## What makes a prompt fun
 

@@ -130,20 +130,34 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-16 | Cards 1–18 approved as assembled, including the re-banding behind them | Owner reviewed the selection |
 | 2026-11-16 | Cards are 3 mm narrower and 3 mm shorter than MTG (60.5 × 85.9 mm) | Second test print: 61.5 × 88.9 mm was still too big for the sleeves |
 | 2026-11-16 | Track a content version in `data/VERSION` (now 0.1; release will be 1.0) and print it after the set mark. Bump it only when the prompts on the cards change | Tells printed decks apart by content; cosmetic changes don't make a new deck |
+| 2026-11-17 | No prompt may be something drawn as its own element inside an icon (e.g. the octopus in A4, the lightbulb in A8). Compounds built from one are fine (*Lighthouse*). Routes must not depend on cubes placed on picture details | Tabletop playtest: some groups place cubes on picture details, which makes such prompts trivial |
+| 2026-11-17 | Bands assigned by reading a prompt are provisional until playtested | First tabletop playtest: many prompts were harder than expected, and some were skipped or failed |
 
 ## Next steps
 
 1. **Test print.** Print `output/cards.pdf` (run `python tools/cards.py pdf`) at
    100% scale, cut out one card, and check that it fits an MTG sleeve and the text is
    easy to read. Adjust the layout in `tools/cards.py` if needed.
-2. **Playtest the 18 cards** (cards 1–18 in `data/prompts.csv`, assembled from
-   the re-banded pool and approved by the owner on 2026-11-16; 658 prompts remain
-   unassigned, and nothing has been checked against the base game), preferably
-   with human guessers (Claude guesses more easily than people do). Text playtests follow
-   [docs/playtesting.md](docs/playtesting.md); logs from cards 1–2 are in
-   `playtests/`. Apply lessons to the guidelines after each card.
-3. **Scale up** toward 25 playtest cards, then 100.
-4. **Evaluate open sources** from the research report (Open Party Game Word Lists,
+2. **Record the 2026-11-16 tabletop playtest per prompt.** The overall takeaways are
+   in `playtests/2026-11-16-tabletop.md` and the guidelines. The owner is giving
+   per-prompt feedback: what was guessed, skipped, or failed, and why. Add it to the
+   log and to `notes` in `data/prompts.csv`. Then revise the band standards in
+   [docs/prompt-guidelines.md](docs/prompt-guidelines.md) to match, and re-band or
+   replace prompts that failed.
+3. **Audit for pictured elements.** Look at every icon image (`tools/player_aid.py`).
+   List the elements drawn in each one, and flag prompts in the pool and on cards
+   1–18 that are pictured on the board (guideline test 9).
+4. **Explore simulated playtesting with LLMs.** Reading a prompt doesn't show how hard
+   it is to clue. Consider a harness where one model gives clues and another guesses,
+   then calibrate its results against human playtests. Watch for the known bias:
+   Claude guesses more easily than people do.
+5. **Keep playtesting the 18 cards** (cards 1–18 in `data/prompts.csv`, approved by
+   the owner on 2026-11-16; 658 prompts remain unassigned, and nothing has been
+   checked against the base game). Tabletop play with 3+ players is the best
+   evidence. Text playtests follow [docs/playtesting.md](docs/playtesting.md); logs
+   are in `playtests/`. Apply lessons to the guidelines after each session.
+6. **Scale up** toward 25 playtest cards, then 100.
+7. **Evaluate open sources** from the research report (Open Party Game Word Lists,
    OpenWord Lexicon, idiom corpora) as pools of candidate prompts, keeping borrowed
    prompts to a minimum.
 

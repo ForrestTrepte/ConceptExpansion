@@ -3,7 +3,12 @@
 How to playtest prompts in a chat conversation (for example, a person with Claude)
 without the physical board. Back to [README](../README.md).
 
-There are two modes, each run in a fresh conversation:
+Tabletop playtests with printed cards are the strongest evidence. Log them in
+`playtests/YYYY-MM-DD-tabletop.md` in the same per-prompt format as below. Also record
+the number of players, which prompts were skipped, and any house rules. Three or more
+players (two or more guessers) is typical and gets stuck less often than two.
+
+There are two text-playtest modes, each run in a fresh conversation:
 
 - **Claude gives clues, the human guesses.** Tests whether the prompt can be clued and
   whether people recognize it. This is the main evidence.
