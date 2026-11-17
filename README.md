@@ -133,27 +133,36 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-17 | No prompt may be something drawn as its own element inside an icon (e.g. the octopus in A4, the lightbulb in A8). Compounds built from one are fine (*Lighthouse*). Routes must not depend on cubes placed on picture details | Tabletop playtest: some groups place cubes on picture details, which makes such prompts trivial |
 | 2026-11-17 | Bands assigned by reading a prompt are provisional until playtested | First tabletop playtest: many prompts were harder than expected, and some were skipped or failed |
 | 2026-11-17 | Playtest notation has one standard form for committed logs: one line per marker, one-letter groups (`?g`, `!r`/`y`/`b`/`k`), the group letter on a cube line only when it changes, `[...]` for comments. Chat shorthand is allowed but converted in logs. Group colors carry no meaning, and markers may be placed in any order | Clue-givers used several shortcuts at the table. One form keeps logs consistent and doesn't imply a pawn-then-cubes order |
+| 2026-11-17 | Test 9 allows a broader category that includes a pictured element when players read the picture as its own meaning (*Emoji* vs. C6's smiley face). Reconsider if playtesters name it from a cube on the picture | Owner's call after the card 6 playtest: C6 reads as "happy", not as emojis in general |
+| 2026-11-17 | Cards can be left unbalanced between rounds of card assembly. `check` keeps treating a band without exactly 3 prompts as an error, so no PDF can be built until the cards are rebalanced | Avoids temporary filler that the next round would redo, and keeps half-finished cards from being printed |
 
 ## Next steps
 
-1. **Test print.** Print `output/cards.pdf` (run `python tools/cards.py pdf`) at
-   100% scale, cut out one card, and check that it fits an MTG sleeve and the text is
-   easy to read. Adjust the layout in `tools/cards.py` if needed.
-2. **Act on the 2026-11-16 tabletop playtest.** Per-prompt results for cards 5 and 6
-   are in `playtests/2026-11-16-tabletop.md` and in `notes` in `data/prompts.csv`
-   (*Plot twist* and *Shakespeare* on card 6 weren't reached). Next: the owner
-   confirms the provisional verdicts. Then revise the band standards in
-   [docs/prompt-guidelines.md](docs/prompt-guidelines.md) to match, and re-band or
-   replace the prompts that failed or were skipped. Those are Taco, Popcorn, and Snail
-   in Blue; Statue of Liberty in Red; and Déjà vu, Elvis Presley, and Rain check in
-   Black. Also decide whether *Emoji* fails test 9, since C6's picture is a smiley face.
-3. **Audit for pictured elements.** Look at every icon image (`tools/player_aid.py`).
+1. **Audit for pictured elements.** Look at every icon image (`tools/player_aid.py`).
    List the elements drawn in each one, and flag prompts in the pool and on cards
    1–18 that are pictured on the board (guideline test 9).
-4. **Explore simulated playtesting with LLMs.** Reading a prompt doesn't show how hard
+2. **Explore simulated playtesting with LLMs.** Reading a prompt doesn't show how hard
    it is to clue. Consider a harness where one model gives clues and another guesses,
    then calibrate its results against human playtests. Watch for the known bias:
    Claude guesses more easily than people do.
+3. **Reassemble cards 1–18 (expected check errors until then).** Rebuild every card
+   from the whole pool, using:
+   - **Tabletop re-banding:** after the 2026-11-16 playtest, the owner moved Taco,
+     Popcorn, and Snail from Blue to Red and Statue of Liberty from Red to Black (see
+     `playtests/2026-11-16-tabletop.md`). That left card 5 at 2/3/4 and card 6 at
+     1/5/3, so `tools/cards.py check` fails and no PDF can be built. This is on
+     purpose: don't fill the gaps ad hoc before this step.
+   - **Pictured-elements audit (step 1):** remove prompts that fail test 9, including
+     card 5's Octopus and Light bulb.
+   - **Simulated playtesting (step 2):** re-rank the best prompts in each band using
+     its results, alongside the band standards and the fun criteria in
+     [docs/prompt-guidelines.md](docs/prompt-guidelines.md).
+   The owner approves the new cards, then bump `data/VERSION` to 0.2.
+4. **Test print at the new size.** Once the cards are rebalanced, print
+   `output/cards.pdf` (run `python tools/cards.py pdf`) at 100% scale. The cards are
+   now 60.5 × 85.9 mm, which hasn't been printed yet. Cut out a few cards and check
+   that they slide into MTG sleeves and the text is easy to read. Adjust the layout in
+   `tools/cards.py` if needed.
 5. **Keep playtesting the 18 cards** (cards 1–18 in `data/prompts.csv`, approved by
    the owner on 2026-11-16; 658 prompts remain unassigned, and nothing has been
    checked against the base game). Tabletop play with 3+ players is the best

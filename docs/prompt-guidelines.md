@@ -38,6 +38,10 @@ playtesting shows what works. Back to [README](../README.md).
    drawn in A8). Some groups place a cube right on a picture detail, which makes such
    prompts trivial. Look at the icon images, not just the labels. Compounds built
    from a pictured element are fine: *Lighthouse* = the A8 lightbulb + B14.
+   A broader category that includes a pictured element is fine when players read the
+   picture as its own meaning: *Emoji* stays even though C6 shows a smiley face,
+   because players read it as "happy". Reconsider such a prompt if playtesters name
+   it from a cube placed on the picture.
 
 ## Difficulty bands
 
