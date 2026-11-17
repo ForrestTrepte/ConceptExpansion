@@ -53,7 +53,7 @@ Follow [docs/playtesting.md](docs/playtesting.md). Agent-specific rules:
 ## Reference PDFs
 
 - For icon pictures, run `python tools/player_aid.py`, then view
-  `output/player-aid/player-aid-coords.pdf` or `output/player-aid/icons/<code>.png`
+  `output/player-aid/player-aid-coords.pdf` or `output/player-aid/icons/<code>.png` (colors: `icons/<Color>.png`)
   with the Read tool. (`output/player-aid/board-icons.md` is the illustrated table for
   humans. Its images are links, so read the PNGs directly.) The pictures carry hints the label text doesn't, so look at them
   when giving or interpreting clues.

@@ -76,6 +76,18 @@ page** (`output/player-aid/board-icons.md`, best viewed in VS Code's Markdown pr
 | E10 | Inside / Internal | F10 | Grill – Wire / Network / Grid |
 | E11 | Zero / None / Absence | F11 | One / Unit / Number |
 
+**Colors** (the dashed box below E11–F11). Swatches are written by name, not by code.
+Only Clear has meanings beyond the color itself.
+
+| Name | Meanings | Name | Meanings |
+|---|---|---|---|
+| Red | Red | Orange | Orange |
+| Yellow | Yellow | Green | Green |
+| Blue | Blue | Purple | Purple |
+| Pink | Pink | Brown | Brown |
+| Black | Black | Grey | Grey |
+| White | White | Clear | Transparent / Invisible / Glass |
+
 | Code | Meanings | Code | Meanings |
 |---|---|---|---|
 | G1 | Line – Straight / Diagonal / Stiff | H1 | Arch – Curve / Rounded / Flexible |

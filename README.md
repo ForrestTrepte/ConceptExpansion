@@ -139,12 +139,14 @@ Newest at the bottom. Include the date and a one-line reason.
 1. **Test print.** Print `output/cards.pdf` (run `python tools/cards.py pdf`) at
    100% scale, cut out one card, and check that it fits an MTG sleeve and the text is
    easy to read. Adjust the layout in `tools/cards.py` if needed.
-2. **Record the 2026-11-16 tabletop playtest per prompt.** The overall takeaways are
-   in `playtests/2026-11-16-tabletop.md` and the guidelines. The owner is giving
-   per-prompt feedback: what was guessed, skipped, or failed, and why. Add it to the
-   log and to `notes` in `data/prompts.csv`. Then revise the band standards in
+2. **Act on the 2026-11-16 tabletop playtest.** Per-prompt results for cards 5 and 6
+   are in `playtests/2026-11-16-tabletop.md` and in `notes` in `data/prompts.csv`
+   (*Plot twist* and *Shakespeare* on card 6 weren't reached). Next: the owner
+   confirms the provisional verdicts. Then revise the band standards in
    [docs/prompt-guidelines.md](docs/prompt-guidelines.md) to match, and re-band or
-   replace prompts that failed.
+   replace the prompts that failed or were skipped. Those are Taco, Popcorn, and Snail
+   in Blue; Statue of Liberty in Red; and Déjà vu, Elvis Presley, and Rain check in
+   Black. Also decide whether *Emoji* fails test 9, since C6's picture is a smiley face.
 3. **Audit for pictured elements.** Look at every icon image (`tools/player_aid.py`).
    List the elements drawn in each one, and flag prompts in the pool and on cards
    1–18 that are pictured on the board (guideline test 9).

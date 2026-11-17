@@ -82,7 +82,8 @@ This downloads the official player aid once and writes the following to
 
 - `player-aid-coords.pdf`: the player aid with each icon's code (A1–H14) printed on
   it. Use it when giving or reading clues in text-based playtests.
-- `icons/<code>.png`: one image per icon, e.g. `icons/A4.png`.
+- `icons/<code>.png`: one image per icon, e.g. `icons/A4.png`, plus one per color
+  swatch, named by color, e.g. `icons/Red.png` or `icons/Clear.png`.
 - `board-icons.md`: the tables from [board-icons.md](board-icons.md) with each icon's
   picture beside its meanings. Open it in VS Code's Markdown preview.
 
