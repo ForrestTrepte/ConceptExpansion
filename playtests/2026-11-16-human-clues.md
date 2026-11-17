@@ -15,9 +15,9 @@ Session notes:
 - Clue-giver: human · Guessed: yes (step 1, third guess) · Verdict: keep
 - Clues:
   ```
-  ? B12
+  ?g B12
   + E7
-  !red E10
+  !r E10
   + C11
   + H9
   ```
@@ -29,7 +29,7 @@ Session notes:
 - Clue-giver: human · Guessed: yes (step 1) · Verdict: keep
 - Clues:
   ```
-  ? A1
+  ?g A1
   + B4
   + F4
   + G9
@@ -42,7 +42,7 @@ Session notes:
 - Clue-giver: human · Guessed: yes (step 1) · Verdict: keep
 - Clues:
   ```
-  ? A4
+  ?g A4
   + G10
   + Yellow
   + Brown
@@ -53,7 +53,7 @@ Session notes:
 - Clue-giver: human · Guessed: yes (step 1) · Verdict: keep
 - Clues:
   ```
-  ? A1
+  ?g A1
   + C7
   + G6
   + H11
@@ -65,12 +65,12 @@ Session notes:
 - Clue-giver: human · Guessed: yes (step 1) · Verdict: keep
 - Clues:
   ```
-  ? A12
+  ?g A12
   + A13
   + B10
-  !red D3
+  !r D3
   + H1
-  !blue G10
+  !b G10
   + G12
   + H12
   ```
@@ -80,7 +80,7 @@ Session notes:
 - Clue-giver: human · Guessed: yes (step 1) · Verdict: keep
 - Clues:
   ```
-  ? A3
+  ?g A3
   + F3
   + H8
   ```
@@ -90,9 +90,9 @@ Session notes:
 - Clue-giver: human · Guessed: yes (step 1) · Verdict: keep
 - Clues:
   ```
-  ? B8
-  !red H12
-  !blue E1
+  ?g B8
+  !r H12
+  !b E1
   ```
 - Notable guesses: Snowed under, Feeling down
 - Comments: solved from two bare Sub-Concept pawns. A human may need more.
@@ -101,10 +101,10 @@ Session notes:
 - Clue-giver: human · Guessed: yes (step 1) · Verdict: keep
 - Clues:
   ```
-  ? B2
+  ?g B2
   + C1
   + D2
-  !blue A1
+  !b A1
   + G1
   + F5
   ```
@@ -116,7 +116,7 @@ Session notes:
 - Clue-giver: human · Guessed: yes (step 1) · Verdict: keep
 - Clues:
   ```
-  ? A10
+  ?g A10
   + C8
   + H10
   ```
@@ -127,10 +127,10 @@ Session notes:
 - Clue-giver: human · Guessed: yes (step 1) · Verdict: keep
 - Clues:
   ```
-  ? A6
+  ?g A6
   + A4
   + G10
-  !red D8
+  !r D8
   + G13
   ```
 - Notable guesses: King Kong, Ice Age

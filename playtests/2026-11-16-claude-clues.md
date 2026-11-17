@@ -7,7 +7,7 @@
 - Clue-giver: Claude · Guessed: yes (step 1) · Verdict: keep
 - Clues:
   ```
-  ? A14
+  ?g A14
   + H4
   + F8
   ```
@@ -18,7 +18,7 @@
 - Clue-giver: Claude · Guessed: yes (step 1) · Verdict: keep
 - Clues:
   ```
-  ? A1
+  ?g A1
   + C4
   + E1
   ```
@@ -29,13 +29,13 @@
 - Clue-giver: Claude · Guessed: yes (step 3) · Verdict: keep
 - Clues:
   ```
-  ? A4
+  ?g A4
   + Black
   + White
   + E1
   + A11
-  !red B11
-  +red E11
+  !r B11
+  + E11
   ```
 - Notable guesses: Zebra, Orca
 - Comments: orca fits black/white/cold/swimming equally well; the "bird that doesn't fly" Sub-Concept (B11 + E11) resolved it. A good fit for Blue.
@@ -44,7 +44,7 @@
 - Clue-giver: Claude · Guessed: yes (step 1) · Verdict: too easy
 - Clues:
   ```
-  ? A12
+  ?g A12
   + A14
   ```
 - Notable guesses: (none before correct)
@@ -54,15 +54,15 @@
 - Clue-giver: Claude · Guessed: no (passed after step 4) · Verdict: unclear (clue problem, not a recognition problem)
 - Clues:
   ```
-  ? H14
+  ?g H14
   + C14
   + C11
-  !red A1
-  +red C7
-  +red C14
+  !r A1
+  + C7
+  + C14
   + D11
   + F11
-  +red E8
+  + E8
   ```
 - Notable guesses: Looking, Blinking, Virtual reality, Hand-eye coordination
 - Comments: the red Sub-Concept (object + electronic + eye) read as VR, not as a phone camera. F11 did not come across as "yourself", and E8 (reversed, i.e. front camera) was too subtle. Next time try clueing "photo" more directly, or start with the phone. The prompt is still a good one; the trouble is that "self" is hard to show with the icons.
@@ -72,17 +72,17 @@
 - Clue-giver: Claude · Guessed: yes (step 4) · Verdict: keep
 - Clues:
   ```
-  ? A3
+  ?g A3
   + C4
   + A11
   + D10
-  !red B13
-  +red Red
-  !yellow F1
-  +yellow F4
-  !blue A2
-  +blue F3
-  +blue D5
+  !r B13
+  + Red
+  !y F1
+  + F4
+  !b A2
+  + F3
+  + D5
   ```
 - Notable guesses: Admiral, Seaman, British naval officer, Environmentalist
 - Comments: A11 (seacraft/naval) pulled toward the navy, and the red clothing made it sound like a British officer. The beach (hot + ground) read as environmentalism. The drowning swimmer (person + water + death) gave it away. A good difficulty for Red.
@@ -91,22 +91,22 @@
 - Clue-giver: Claude · Guessed: yes (step 9) · Verdict: keep (the clueing was the problem)
 - Clues:
   ```
-  ? B8
+  ?g B8
   + F8
   + E1
-  !red E5
-  +red Clear
-  +red E1
-  !yellow B1
-  +yellow C1
-  +yellow B8
-  +yellow G13
-  +red G7
-  -red
-  !red F3
-  +red E1
-  +red E5
-  +red G7
+  !r E5
+  + Clear
+  + E1
+  !y B1
+  + C1
+  + B8
+  + G13
+  +r G7
+  -r all
+  !r F3
+  + E1
+  + E5
+  + G7
   ```
 - Notable guesses: A break in the clouds (Yes), Diamond, Hail (Yes), Babies/Toddlers/Children, Go out and play when there's a break in the clouds, Ruby, Acid rain, Ice cube (Yes)
 - Comments: "break" came across right away; "ice" was the hard part. Stone + clear + cold read as gems or hail. Water + cold + hard read as acid rain. Adding G7 (cube) finally got "ice cube", and the phrase followed right after. The yellow "meeting new people" Sub-Concept (group + new) read as children, and G13 read as "the past" rather than "beginning". Better clue: put the ice Sub-Concept as water + cold + cube from the start.
@@ -115,7 +115,7 @@
 - Clue-giver: Claude · Guessed: yes (step 1) · Verdict: too easy
 - Clues:
   ```
-  ? B2
+  ?g B2
   + Red
   + Blue
   + F10
@@ -127,12 +127,12 @@
 - Clue-giver: Claude · Guessed: yes (step 5) · Verdict: keep
 - Clues:
   ```
-  ? H14
-  !red A1
-  +red D8
-  +red C13
-  !yellow E2
-  +yellow B14
+  ?g H14
+  !r A1
+  + D8
+  + C13
+  !y E2
+  + B14
   + G14
   + C3
   + D4

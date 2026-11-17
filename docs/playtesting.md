@@ -42,43 +42,82 @@ Change the card number to continue where an earlier session stopped.
 
 ## Notation
 
-Icons are written as grid codes (`A4`, `G14`, …). Colors are written by name: `Red`,
-`Orange`, `Yellow`, `Green`, `Blue`, `Purple`, `Pink`, `Brown`, `Black`, `Grey`,
-`White`, `Clear`. A code means the whole icon with all its meanings. Never write an
-icon's label words in clues.
+Icons are written as grid codes (`A4`, `G14`, …). The color swatches are written by
+name: `Red`, `Orange`, `Yellow`, `Green`, `Blue`, `Purple`, `Pink`, `Brown`, `Black`,
+`Grey`, `White`, `Clear`. A code means the whole icon with all its meanings. Never
+write an icon's label words in clues.
+
+A clue is a series of placements, one per line, in the order they were made.
+
+### Groups
+
+Each pawn and its matching cubes form a group, written with one letter:
+
+| Letter | Group |
+|---|---|
+| `g` | Main Concept (green `?` pawn) |
+| `r`, `y`, `b`, `k` | Sub-Concepts (red, yellow, blue, black `!` pawns) |
+
+Group colors carry no meaning; they only show which markers belong together. To make
+a color part of a clue, put a cube on a color swatch. If the clue-giver picked a pawn
+color on purpose, say so in a comment.
+
+### Lines
 
 | Line | Meaning |
 |---|---|
-| `? A4` | Place the green Main Concept pawn on A4 (`? green A4` also works) |
-| `+ B11` | Cube on B11, in the current color (see below) |
+| `?g A4` | Place the Main Concept pawn on A4 |
+| `!r B11` | Place the red Sub-Concept pawn on B11 |
+| `+ B11` | Cube on B11, in the same group as the line before |
+| `+g G14` | Green cube on G14 (name the group when it differs from the line before) |
 | `+ G4 x2` | Two cubes on G4 |
-| `!red B11` | Place the red Sub-Concept pawn on B11 (also `!yellow`, `!blue`, `!black`; `! red B11` also works) |
-| `+red G14` | Red cube on G14 (naming a color is optional) |
-| `- G4` | Remove one cube from G4, in the current color (`-red G4` for a red cube) |
-| `-red` | Clear the whole red Sub-Concept, both pawn and cubes |
-| `-?` | Remove the Main Concept pawn (then place it again with `? <code>`) |
+| `- G4` | Remove a cube from G4 (same group rule as `+`) |
+| `-?g`, `-!r` | Remove a pawn (to move it, remove it and place it again) |
+| `-r all` | Clear the whole red group, pawn and cubes |
+| `[...]` | Comment at the end of a line: where on a picture a marker went, or anything else the notation can't show |
 
-**Current color:** a cube line without a color uses the color of the most recently
-placed pawn or colored cube. So after `!red E10`, a plain `+ C11` is a red cube. To go
-back to adding green cubes after a Sub-Concept, write `+green <code>`.
+**Group rule:** a cube line (`+` or `-`) leaves out the group letter when the
+previous line is in the same group, and names it otherwise. The first line of a
+clue always names its group.
 
-Order matters: lines are read in the order they were placed.
+**Order is free.** The rules describe placing the Main Concept first, then
+Sub-Concepts, each pawn before its cubes. That is a good way to plan, not a
+requirement: cubes can come before their pawn or have no pawn at all, and
+Sub-Concepts can come before the Main Concept. The notation is the same either way.
+
+**Picture details:** some groups place a marker on one detail inside an icon's
+picture (the octopus in A4). Write it as a comment: `+ A8 [on the bulb]`. This house
+rule is fine in play, but prompts must not depend on it (see
+[prompt-guidelines.md](prompt-guidelines.md)).
 
 **Example** (Bee, from the rules: an animal that flies and is yellow and black, flies
 around flowers, and is connected to an edible yellow liquid):
 
 ```
-? A4
+?g A4
 + B11
 + Yellow
 + Black
-!red B11
+!r B11
 + G14
 + B4
-!yellow A14
+!y A14
 + F3
 + Yellow
 ```
+
+### Shorthand in chat
+
+When typing clues in chat, these shortcuts are fine. Logs and other committed files
+use only the standard form above, so convert shorthand when writing the log.
+
+| Shorthand | Standard form |
+|---|---|
+| `? A4` | `?g A4` |
+| `!red B11`, `!blu B11`, `?green A4` (full or partial color names) | `!r B11`, `!b B11`, `?g A4` |
+| `+r G14` right after a red line (repeating the group) | `+ G14` |
+| `+E2` (no space) | `+ E2` |
+| `!b E8 D3`, `+ C11 H9` (several codes on one line) | one line per marker: `!b E8`, `+ D3`; `+ C11`, `+ H9` |
 
 ## Turn flow
 
@@ -90,8 +129,8 @@ around flowers, and is connected to an edible yellow liquid):
    - `board?`: the clue-giver replies with the current board grouped by color, in
      placement order, for example:
      ```
-     GREEN   ? A4   | B11, Yellow, Black
-     RED     ! B11  | G14, B4
+     ?g A4  | B11, Yellow, Black
+     !r B11 | G14, B4
      ```
    - `pass`: give up on this prompt.
 4. The clue-giver answers with exactly one of:
@@ -116,7 +155,7 @@ entry per prompt:
 - Clue-giver: Claude · Guessed: yes (step 4) · Verdict: keep
 - Clues:
   ```
-  ? B8
+  ?g B8
   + F9
   + A14
   ...

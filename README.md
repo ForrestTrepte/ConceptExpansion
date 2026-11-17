@@ -132,6 +132,7 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-16 | Track a content version in `data/VERSION` (now 0.1; release will be 1.0) and print it after the set mark. Bump it only when the prompts on the cards change | Tells printed decks apart by content; cosmetic changes don't make a new deck |
 | 2026-11-17 | No prompt may be something drawn as its own element inside an icon (e.g. the octopus in A4, the lightbulb in A8). Compounds built from one are fine (*Lighthouse*). Routes must not depend on cubes placed on picture details | Tabletop playtest: some groups place cubes on picture details, which makes such prompts trivial |
 | 2026-11-17 | Bands assigned by reading a prompt are provisional until playtested | First tabletop playtest: many prompts were harder than expected, and some were skipped or failed |
+| 2026-11-17 | Playtest notation has one standard form for committed logs: one line per marker, one-letter groups (`?g`, `!r`/`y`/`b`/`k`), the group letter on a cube line only when it changes, `[...]` for comments. Chat shorthand is allowed but converted in logs. Group colors carry no meaning, and markers may be placed in any order | Clue-givers used several shortcuts at the table. One form keeps logs consistent and doesn't imply a pawn-then-cubes order |
 
 ## Next steps
 
