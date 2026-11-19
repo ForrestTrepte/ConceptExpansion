@@ -86,6 +86,8 @@ This downloads the official player aid once and writes the following to
   swatch, named by color, e.g. `icons/Red.png` or `icons/Clear.png`.
 - `board-icons.md`: the tables from [board-icons.md](board-icons.md) with each icon's
   picture beside its meanings. Open it in VS Code's Markdown preview.
+- `pictured-elements.md`: [pictured-elements.md](pictured-elements.md) with each
+  icon's picture beside its row, for checking element labels against the drawings.
 
 These files are **not committed**. The player aid is Repos Production's copyrighted
 artwork, so everyone generates their own copy for personal use. The code-to-meanings

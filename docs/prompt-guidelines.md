@@ -36,12 +36,21 @@ playtesting shows what works. Back to [README](../README.md).
 9. **Not pictured on the board.** The prompt must not be something drawn as its own
    element inside an icon (no *Octopus*, which is drawn in A4, and no *Lightbulb*,
    drawn in A8). Some groups place a cube right on a picture detail, which makes such
-   prompts trivial. Look at the icon images, not just the labels. Compounds built
-   from a pictured element are fine: *Lighthouse* = the A8 lightbulb + B14.
-   A broader category that includes a pictured element is fine when players read the
-   picture as its own meaning: *Emoji* stays even though C6 shows a smiley face,
-   because players read it as "happy". Reconsider such a prompt if playtesters name
-   it from a cube placed on the picture.
+   prompts trivial. Look at the icon images, not just the labels; the elements drawn
+   in each icon are listed in [pictured-elements.md](pictured-elements.md).
+   - **These count as pictured:** small details and parts of a larger drawing (*Window*:
+     the windows on B14's house; *Anchor*: the emblem on A11's yacht); another form of
+     a pictured thing (*Full moon*: E2's crescent moon); and drawings of a specific
+     thing the icon doesn't name (*Abraham Lincoln* in A2, *Coca-Cola* in B7,
+     *April Fools' Day* from A10's "1 APRIL" page).
+   - **These are fine:** compounds built from a pictured element (*Lighthouse* = the
+     A8 lightbulb + B14), and things a pictured element only symbolizes (*Halloween*:
+     B10 shows a jack-o'-lantern, not Halloween). Band such prompts with the pictured
+     part counted as direct.
+   - A broader category that includes a pictured element is fine when players read the
+     picture as its own meaning: *Emoji* stays even though C6 shows a smiley face,
+     because players read it as "happy". Reconsider such a prompt if playtesters name
+     it from a cube placed on the picture.
 
 ## Difficulty bands
 
