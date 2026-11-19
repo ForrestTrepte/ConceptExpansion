@@ -137,13 +137,19 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-17 | Cards can be left unbalanced between rounds of card assembly. `check` keeps treating a band without exactly 3 prompts as an error, so no PDF can be built until the cards are rebalanced | Avoids temporary filler that the next round would redo, and keeps half-finished cards from being printed |
 | 2026-11-19 | The elements drawn in every icon are listed in [docs/pictured-elements.md](docs/pictured-elements.md), and `tools/player_aid.py` makes an illustrated local copy. 38 pictured prompts are rejected, 8 of them taken off cards | Owner reviewed the labels; test 9 needs a list to check prompts against |
 | 2026-11-19 | Test 9 counts small details and parts of a drawing (*Window*), other forms of a pictured thing (*Full moon*), and look-alikes (*Abraham Lincoln*, *Coca-Cola*) as pictured. Things a pictured element only symbolizes stay (*Halloween* vs. B10's jack-o'-lantern) | Owner: a cube can sit right on a small detail and give the prompt away, but a symbol isn't a picture of the thing itself |
+| 2026-11-19 | Simulated playtests run first on the owner's Claude subscription through the headless CLI (`claude -p`). OpenRouter (guessers that aren't Claude, more volume) comes later, only if calibration shows it's needed | No extra cost; a blind, tool-less test call worked. Claude-only calibration will show whether other models are needed |
+| 2026-11-19 | Simulation results are committed as a cache of LLM calls (raw replies keyed by a hash of every input). Logs and summaries are generated from the cache | A permanent record to study without rerunning; after a fix or tweak, calls whose inputs didn't change replay for free |
+| 2026-11-19 | The cache comes from a reusable package the owner will find or build. Harness work waits for it | The owner uses this caching approach across projects |
 
 ## Next steps
 
-1. **Explore simulated playtesting with LLMs.** Reading a prompt doesn't show how hard
-   it is to clue. Consider a harness where one model gives clues and another guesses,
-   then calibrate its results against human playtests. Watch for the known bias:
-   Claude guesses more easily than people do.
+1. **Simulated playtesting with LLMs (waiting on the cache package).** The plan is in
+   [docs/simulated-playtesting.md](docs/simulated-playtesting.md): one model gives
+   clues, another guesses, calibrated against the human playtests. The owner is
+   finding or building a reusable LLM-call cache package (requirements in that doc).
+   Don't build the harness until the owner says it's ready; then start at that doc's
+   phase 1. Meanwhile, the pictured-elements re-banding in step 2 can go ahead. Finish
+   it before calibrating, since edits to the icon docs invalidate the cache.
 2. **Reassemble cards 1–18 (expected check errors until then).** Rebuild every card
    from the whole pool, using:
    - **Tabletop re-banding:** after the 2026-11-16 playtest, the owner moved Taco,
