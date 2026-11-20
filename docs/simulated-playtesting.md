@@ -105,7 +105,9 @@ Requirements for the reusable package. Check the package against them before usi
    JSON encoding, no Python `hash()` or pickle.
 2. The caller supplies the key contents: backend, exact model ID, system prompt,
    messages, tools, all settings, and attached files or images (hashed by content).
-3. A replicate number in the key, for independent samples of the same request.
+3. A variant string in the key (e.g. `trial-2`), for independent samples of the same
+   request. (Changed 2026-11-20 from a replicate number: a free-form string also covers
+   rerolls.)
 4. An attempt number in the key, so retries replay too.
 5. Fields left out of the key are declared explicitly (timeouts, API keys, CLI
    version) and recorded only as metadata.
@@ -127,7 +129,8 @@ Requirements for the reusable package. Check the package against them before usi
 14. No silent overwrites; replacing an entry takes an explicit refresh.
 
 **Modes**
-15. Read-write (default).
+15. Read-write. There's no default mode: the harness must choose read-write or
+    cache-only. (Changed 2026-11-20: neither default is safe for every caller.)
 16. Cache-only: a miss is an error.
 17. Refresh for selected entries.
 18. ~~Dry run: count misses and estimate their cost without calling.~~ Dropped (2026-11-20):
@@ -141,7 +144,8 @@ Requirements for the reusable package. Check the package against them before usi
     needs the subprocess case.
 20. Small API, e.g. `cache.call(request, fn, replicate=0, tags={...})`. Sync required,
     async a plus, safe for parallel calls.
-21. Few dependencies, Python 3.10+, MIT-compatible license.
+21. Few dependencies, Python 3.12+, MIT-compatible license. (Changed 2026-11-20 from
+    3.10+: every project that will use the package runs 3.12.)
 
 **Analysis and maintenance**
 22. ~~Query entries by tag or metadata without calling a model.~~ Dropped (2026-11-20):
