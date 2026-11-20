@@ -130,7 +130,10 @@ Requirements for the reusable package. Check the package against them before usi
 15. Read-write (default).
 16. Cache-only: a miss is an error.
 17. Refresh for selected entries.
-18. Dry run: count misses and estimate their cost without calling.
+18. ~~Dry run: count misses and estimate their cost without calling.~~ Dropped (2026-11-20):
+    in a multi-turn game, every call after the first miss depends on the missing reply,
+    so misses can't be counted ahead. [llmemo](https://github.com/ForrestTrepte/llmemo)
+    offers a `contains(key)` check instead.
 
 **Backends and API**
 19. Wraps any `request -> response` callable: HTTP SDKs (Anthropic, OpenAI-compatible
@@ -141,8 +144,10 @@ Requirements for the reusable package. Check the package against them before usi
 21. Few dependencies, Python 3.10+, MIT-compatible license.
 
 **Analysis and maintenance**
-22. Query entries by tag or metadata without calling a model.
-23. Run manifests listing the keys a run used.
+22. ~~Query entries by tag or metadata without calling a model.~~ Dropped (2026-11-20):
+    iterating over the entries is enough.
+23. ~~Run manifests listing the keys a run used.~~ Dropped (2026-11-20): llmemo reports
+    each entry a run uses through a hook, so the harness can save that list itself.
 24. Prune entries no recent run used.
 25. Nice to have: explain a miss by showing which field differs from the nearest entry.
 26. Nice to have: a command-line tool for stats, showing entries, misses, and pruning.
