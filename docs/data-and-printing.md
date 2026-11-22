@@ -3,19 +3,8 @@
 How prompts are stored, checked, and turned into printable sheets. Back to
 [README](../README.md).
 
-## Setup
-
-The Python environment is managed with [uv](https://docs.astral.sh/uv/). The dev
-container installs uv and runs `uv sync`. Elsewhere, install uv, then run this from the
-repo root:
-
-```sh
-uv sync
-```
-
-This creates `.venv/` with the packages pinned in `uv.lock`. Run scripts with
-`uv run python tools/<script>.py`. To change dependencies, use `uv add` or `uv remove`
-and commit `pyproject.toml` and `uv.lock` together.
+For setup (`uv sync`) and the full list of commands, see
+[Development](../README.md#development) in the README.
 
 ## Prompt data: `data/prompts.csv`
 

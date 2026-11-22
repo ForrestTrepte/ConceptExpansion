@@ -66,9 +66,12 @@ Follow [docs/playtesting.md](docs/playtesting.md). Agent-specific rules:
 
 ## Python
 
-- Use uv: `uv sync` to set up, `uv run python tools/<script>.py` to run, and `uv add` /
-  `uv remove` to change dependencies (commit `pyproject.toml` and `uv.lock` together).
-  Don't use pip.
+- Commands and setup are in the README's **Development** section. Use uv
+  (`uv run`, `uv add`, `uv remove`); don't use pip.
+- New code must pass `uv run mypy` (strict) and `uv run pytest`. Before finishing a
+  chunk of work, run `uv run python tools/run_all.py`.
+- Tests and scripts that call an LLM set `mode="replay"` in code and mark tests
+  `@pytest.mark.llm`. Never set `LLMEMO_MODE=record` unless the user asks to record.
 
 ## Reference PDFs
 

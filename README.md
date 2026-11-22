@@ -82,6 +82,29 @@ Each card follows the base game's layout: **9 numbered prompts in three bands of
   the deck, and prefer original ones. Material from someone else stays under their
   terms, so every borrowed prompt makes it harder to license the deck commercially later.
 
+## Development
+
+**Setup:** the Python environment is managed with [uv](https://docs.astral.sh/uv/). The
+dev container installs uv and runs `uv sync`. Elsewhere, install uv and run `uv sync`
+from the repo root. This creates `.venv/` with the packages pinned in `uv.lock`. To
+change dependencies, use `uv add` or `uv remove` (`--dev` for dev tools) and commit
+`pyproject.toml` and `uv.lock` together.
+
+| Command | What it does | Details |
+|---|---|---|
+| `uv run python tools/run_all.py` | Runs everything below except recording, and reports a summary | |
+| `uv run mypy` | Type-checks `tools/` and `tests/` in strict mode | |
+| `uv run pytest` | Runs the tests. LLM calls replay from the cache | [simulated-playtesting.md](docs/simulated-playtesting.md) |
+| `uv run python tools/player_aid.py` | Downloads the player aid; writes coded PDF and icon images to `output/player-aid/` | [data-and-printing.md](docs/data-and-printing.md#player-aid-with-icon-codes) |
+| `uv run python tools/cards.py check` | Validates `data/prompts.csv` | [data-and-printing.md](docs/data-and-printing.md#commands) |
+| `uv run python tools/cards.py pdf` | Builds `output/cards.pdf` | [data-and-printing.md](docs/data-and-printing.md#commands) |
+
+**Recording LLM calls:** code always asks llmemo for replay, so a cache miss fails
+instead of calling a model. To record, set the mode on that one command, e.g.
+`LLMEMO_MODE=record uv run pytest -m llm`, then commit `sim-playtests/cache/` and
+`llm-spend/`. Never export `LLMEMO_MODE` in a shell profile. `run_all.py` always
+replays, even if it is set.
+
 ## Licenses
 
 - **Code** (scripts in `tools/` and so on): MIT. See [LICENSE](LICENSE).
@@ -146,6 +169,10 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-22 | LLM calls use [llmemo](https://github.com/ForrestTrepte/llmemo) v0.1.0, pinned by git tag in `pyproject.toml`. Cache in `sim-playtests/cache/`, spending ledger in `llm-spend/`, both committed | The owner's package meets the cache requirements; the ledger keeps a record of spending, subscription calls included |
 | 2026-11-22 | uv manages the Python environment: `pyproject.toml` lists the dependencies, `uv.lock` pins them, and commands run with `uv run` | Owner's choice; matches llmemo, and the lock file pins every package, including llmemo's commit |
 | 2026-11-22 | General caching, backend, spending, and cache-maintenance features go into llmemo, not this repo | Keeps this repo about the game and makes the features reusable in the owner's other projects |
+| 2026-11-22 | Python code is type-checked with mypy in strict mode and tested with pytest (dev dependencies) | Owner's preference; the code was already fully annotated |
+| 2026-11-22 | LLM code and tests set `mode="replay"`; recording happens only with `LLMEMO_MODE=record` on a single command. Tests that use the cache are marked `llm`. The smoke check is a pytest test, not a script | Plain test runs are free and fail loudly on a cache miss; one definition of each request |
+| 2026-11-22 | The README's Development section lists every command; topic docs keep the details and options | One place to start, without duplicating each script's options |
+| 2026-11-22 | `tools/run_all.py` runs mypy, pytest, the player aid, the prompt check, and the PDF, always in replay mode. Add `simplay.py` (replay) when it exists | One command to check and rebuild everything, with no spending |
 
 ## Next steps
 
@@ -153,7 +180,8 @@ Newest at the bottom. Include the date and a one-line reason.
    [docs/simulated-playtesting.md](docs/simulated-playtesting.md): one model gives
    clues, another guesses, calibrated against the human playtests. llmemo is set up,
    and `tests/test_llm_smoke.py` replays one small call through each backend.
-   Next, write `tools/simplay.py` and dry-run 2–3 prompts to measure usage and speed (record
+   Next, write `tools/simplay.py` (replay by default; record with `LLMEMO_MODE=record`),
+   add a replay run of it to `tools/run_all.py`, and dry-run 2–3 prompts to measure usage and speed (record
    only when the owner asks). The pictured-elements re-banding in step 2 can go ahead
    in parallel. Finish it before calibrating, since edits to the icon docs invalidate
    the cache.
