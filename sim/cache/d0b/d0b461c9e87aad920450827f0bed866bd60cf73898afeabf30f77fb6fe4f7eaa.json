@@ -1,0 +1,136 @@
+{
+  "contentSha256": "61b9422336c730365f4fed96a7d3bab9214b3b544c3b741bc6bec2746e6bbac1",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "smoke-openrouter",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 200,
+        "messages": [
+          {
+            "content": "You are the guesser in a word-guessing party game. Give up to 3 guesses, best first.",
+            "role": "system"
+          },
+          {
+            "content": "Main concept: animal. Clues: slow; brown; has a little house on its back.",
+            "role": "user"
+          }
+        ],
+        "model": "openai/gpt-6-luna",
+        "response_format": {
+          "json_schema": {
+            "name": "guesses",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "guesses"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    }
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "cff84c9-dirty",
+    "costUsd": 0.0000397,
+    "latencyMs": 2435,
+    "recordedAt": "2026-11-22T05:53:28.199Z",
+    "recordedBy": "claude",
+    "servedBy": "OpenAI",
+    "servedModel": "openai/gpt-6-luna",
+    "tags": {
+      "run": "smoke"
+    },
+    "usage": {
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
+      "inputTokens": 82,
+      "outputTokens": 63,
+      "reasoningTokens": 38
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"snail\",\"tortoise\",\"turtle\"]}",
+          "reasoning": {
+            "$llmemo.text": "4e8b18ad4cc4c5af2decb64fa1ec3dab6501c8357f19f48a6a40591279638934"
+          },
+          "reasoning_details": [
+            {
+              "format": "openai-responses-v1",
+              "index": 0,
+              "summary": {
+                "$llmemo.text": "4e8b18ad4cc4c5af2decb64fa1ec3dab6501c8357f19f48a6a40591279638934"
+              },
+              "type": "reasoning.summary"
+            },
+            {
+              "data": {
+                "$llmemo.text": "ae2c39554765d050e40d855d284664e6ab6574e02d2264569cb9ce81e167376b"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_026784b235464c91016b028356837487d1808225a04c618549",
+              "index": 1,
+              "type": "reasoning.encrypted"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "completed"
+      }
+    ],
+    "created": 1795326805,
+    "id": "gen-1795326805-9z6LHPJnZilCB0Cvs0EF",
+    "model": "openai/gpt-6-luna",
+    "object": "chat.completion",
+    "provider": "OpenAI",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 63,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 38
+      },
+      "cost": 0.0000397,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0000315,
+        "upstream_inference_cost": 0.0000397,
+        "upstream_inference_prompt_cost": 0.0000082
+      },
+      "is_byok": false,
+      "prompt_tokens": 82,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 145
+    }
+  }
+}

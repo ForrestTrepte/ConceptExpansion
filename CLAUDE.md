@@ -42,13 +42,27 @@ contributor, put it in README.md or a linked doc in `docs/` instead.
 ## Text playtests
 
 Follow [docs/playtesting.md](docs/playtesting.md). Agent-specific rules:
-- **As guesser:** do not read `data/prompts.csv`, `playtests/`, `output/cards*.pdf`, or
-  git history/diffs, and do not search the repo for answers, until all guessing is
-  done. Guess only from the clues and the icon reference.
+- **As guesser:** do not read `data/prompts.csv`, `playtests/`, `sim/`,
+  `output/cards*.pdf`, or git history/diffs, and do not search the repo for answers,
+  until all guessing is done. Guess only from the clues and the icon reference.
 - **As clue-giver:** look at the icon images, not just the labels. Give clues the way
   a good human player would. Never put icon label words or extra hints in messages.
 - Write the session log in `playtests/` as you go, so it isn't lost if the session
   ends early.
+
+## LLM calls (llmemo)
+
+- Every LLM call goes through [llmemo](https://github.com/ForrestTrepte/llmemo) (pinned in
+  `requirements.txt`), with the cache in `sim/cache/` and the spending ledger in
+  `llm-spend/`. Commit both after recording. See
+  [docs/simulated-playtesting.md](docs/simulated-playtesting.md).
+- Don't build caching, backend, spending, or cache-maintenance infrastructure here
+  (pruning, verification, cost reports, miss explanations, backend options). If
+  something general would make this project easier, propose it as an llmemo feature
+  and tell the user instead of building it here. Code in this repo should be about
+  the game: prompts, clues, rules, and scoring.
+- Live calls spend the owner's subscription or OpenRouter credit. Record only when the
+  user asks for it, and set a `spend_limit`.
 
 ## Reference PDFs
 
