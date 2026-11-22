@@ -140,6 +140,8 @@ changed.
   for pruning). The Markdown has a summary table, usage, and each game in playtest
   notation with the clue-giver's private plans. `simplay.py all` (part of
   `tools/run_all.py`) replays every spec that has a recorded run.
+  `uv run python tools/illustrate_logs.py` (also in `run_all.py`) writes a copy with
+  icon pictures to `output/illustrated/sim-playtests/`.
 - `uv run python tools/simplay.py preview <id> <prompt>` prints the requests a game
   starts with, without calling a model.
 

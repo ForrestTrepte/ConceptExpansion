@@ -170,6 +170,9 @@ entry per prompt:
 
 Simulated playtests read these logs (`tools/playtest_logs.py`), so keep to this form.
 `uv run python tools/playtest_logs.py check` checks it, and `tools/run_all.py` runs it.
+To read the logs with icon pictures instead of codes, run
+`uv run python tools/illustrate_logs.py` and open `output/illustrated/playtests/` in
+VS Code's Markdown preview.
 
 - **Heading:** `### Card N, #K: Prompt`, with the prompt as it was played. Other `###`
   headings (such as `### Card 5 observations`) are fine, but not ones starting

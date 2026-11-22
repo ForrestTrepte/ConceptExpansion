@@ -99,6 +99,7 @@ change dependencies, use `uv add` or `uv remove` (`--dev` for dev tools) and com
 | `uv run python tools/simplay.py all` | Replays every recorded simulated run and rewrites its results | [simulated-playtesting.md](docs/simulated-playtesting.md#storing-results) |
 | `uv run python tools/playtest_logs.py check` | Checks that the playtest logs in `playtests/` follow the format simulated playtests read | [playtesting.md](docs/playtesting.md#recording-results) |
 | `uv run python tools/player_aid.py` | Downloads the player aid; writes coded PDF and icon images to `output/player-aid/` | [data-and-printing.md](docs/data-and-printing.md#player-aid-with-icon-codes) |
+| `uv run python tools/illustrate_logs.py` | Writes copies of the playtest logs and simulated runs with icon pictures to `output/illustrated/` (needs the player aid) | [playtesting.md](docs/playtesting.md#recording-results) |
 | `uv run python tools/cards.py check` | Validates `data/prompts.csv` | [data-and-printing.md](docs/data-and-printing.md#commands) |
 | `uv run python tools/cards.py pdf` | Builds `output/cards.pdf` | [data-and-printing.md](docs/data-and-printing.md#commands) |
 
@@ -182,6 +183,7 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-22 | Upgrade to llmemo v0.2.0. `simplay.py` stops a run at the Claude usage limit and prints when it resets | v0.2.0 adds the usage-limit error this project asked for; rerunning after the reset replays everything already recorded |
 | 2026-11-22 | Simulated runs have two modes, named for who gives the clues: `model-clues` and `human-clues` | "Replay" already means replaying from the cache, and the names match the human playtest logs (`claude-clues`, `human-clues`) |
 | 2026-11-22 | `human-clues` runs read the playtest logs directly; `human-games.toml` is gone. Text logs mark pauses (where the guesser replied) with blank lines in clue blocks; tabletop logs never have pauses, and the script splits them at each change of group. `tools/playtest_logs.py check` validates the log format | One source of truth. At the table, clues and guesses overlap, so there are no pauses to record |
+| 2026-11-22 | Illustrated copies of the playtest logs and simulated runs are generated into `output/illustrated/` (not committed): each clue block becomes icon pictures, each followed by its pawn or cubes in the group's color, plus the board after each step when it differs | Reading grid codes is slow. The icons are copyrighted, so only the text logs are committed |
 
 ## Next steps
 
