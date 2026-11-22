@@ -239,3 +239,18 @@ def test_markdown_report() -> None:
     md = simplay.markdown(run)
     assert "| Pizza | 1/1 | 1 |" in md
     assert "Guesses: Pizza pie → Correct (judge: Pizza pie)" in md
+
+
+def test_usage_limit_stops_the_run(monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str]) -> None:
+    from datetime import UTC, datetime
+
+    from llmemo import UsageLimitReached
+
+    async def refused(_spec: Spec) -> dict[str, Any]:
+        raise UsageLimitReached("limit", resets_at=datetime(2026, 11, 23, 4, 0, tzinfo=UTC))
+
+    monkeypatch.setattr(simplay, "run_spec", refused)
+    monkeypatch.setattr(simplay, "write_run", lambda _run: pytest.fail("wrote a partial run"))
+    assert simplay.cmd_run(["dry-run"]) == 2
+    out = capsys.readouterr().out
+    assert "usage limit" in out and "2026-11-2" in out

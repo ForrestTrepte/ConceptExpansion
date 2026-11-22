@@ -769,8 +769,18 @@ def write_run(run: dict[str, Any], runs_dir: Path = RUNS_DIR) -> None:
 
 
 def cmd_run(spec_ids: Sequence[str]) -> int:
+    from llmemo import UsageLimitReached
+
     for spec_id in spec_ids:
-        run = asyncio.run(run_spec(load_spec(spec_id)))
+        try:
+            run = asyncio.run(run_spec(load_spec(spec_id)))
+        except UsageLimitReached as e:
+            # Nothing is written for this spec. Calls recorded so far are in the cache,
+            # so a rerun after the reset replays them and records only the rest.
+            when = e.resets_at.astimezone().strftime("%Y-%m-%d %H:%M %Z") if e.resets_at else "unknown"
+            print(f"{spec_id}: stopped, the Claude usage limit was reached ({e})")
+            print(f"Limit resets at: {when}. Rerun the same command after that.")
+            return 2
         write_run(run)
         print(f"{spec_id}: wrote {RUNS_DIR.relative_to(ROOT)}/{spec_id}.json and .md")
     return 0

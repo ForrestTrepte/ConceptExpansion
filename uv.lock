@@ -325,8 +325,8 @@ wheels = [
 
 [[package]]
 name = "llmemo"
-version = "0.1.0"
-source = { git = "https://github.com/ForrestTrepte/llmemo?subdirectory=python&tag=v0.1.0#40525afd11df3e43c7e662b10c01e41ffd5b7564" }
+version = "0.2.0"
+source = { git = "https://github.com/ForrestTrepte/llmemo?subdirectory=python&tag=v0.2.0#c5c9866027c6cacbcbbae4ffbf9d66610bf0b7e2" }
 
 [[package]]
 name = "mypy"
@@ -411,7 +411,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "llmemo", git = "https://github.com/ForrestTrepte/llmemo?subdirectory=python&tag=v0.1.0" },
+    { name = "llmemo", git = "https://github.com/ForrestTrepte/llmemo?subdirectory=python&tag=v0.2.0" },
     { name = "pypdf", specifier = ">=5.0" },
     { name = "pypdfium2", specifier = ">=4.0" },
     { name = "reportlab", specifier = ">=4.0" },

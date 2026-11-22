@@ -4,7 +4,7 @@ Plan for playtests where one model gives clues and another guesses. Back to
 [README](../README.md).
 
 **Status (2026-11-22): harness written, nothing recorded yet.** LLM calls go through
-[llmemo](https://github.com/ForrestTrepte/llmemo) v0.1.0, pinned in `pyproject.toml`.
+[llmemo](https://github.com/ForrestTrepte/llmemo) v0.2.0, pinned in `pyproject.toml`.
 `tests/test_llm_smoke.py` makes one small call through each backend. `tools/simplay.py`
 plays both modes; its tests use scripted replies, with no model calls. Next is the
 [phase 1](#phases) dry run (`dry-run` and `dry-run-replay` specs).
@@ -103,6 +103,9 @@ aliases such as `sonnet`).
   mostly cached; measure it in the phase 1 dry run. Use Sonnet as clue-giver and Haiku
   or Sonnet as guesser; Opus drains the limits fast. The CLI can't set temperature, so
   variety comes from repeats.
+  - **Usage limit:** when the limit refuses a call, llmemo raises `UsageLimitReached`
+    (never cached). `simplay.py run` stops, writes nothing for that spec, and prints when
+    the limit resets. Rerun the same command after that; calls already recorded replay.
   - **Speed:** the smoke call (Haiku, structured output) took 14 s. Structured output
     costs the CLI an extra turn. A game of about 12 calls may take a few minutes, so run
     games in parallel with `Cache.acall`, and compare plain-text replies if that's too
