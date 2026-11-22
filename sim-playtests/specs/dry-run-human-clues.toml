@@ -1,9 +1,10 @@
-# Phase 1 dry run: the human clue sequences for the same prompts, sent to the guesser.
-mode = "replay"
+# Phase 1 dry run: the human clue sequences for the same prompts, sent to the guesser
+# model (no clue-giver model).
+mode = "human-clues"
 prompts = ["Pizza", "Popcorn", "Break the ice"]
 trials = 1
 max_guesses = 3
-replay_extra_rounds = 2
+extra_rounds = 2
 concurrency = 3
 spend_limit_usd = 1.0
 

@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 """Simulated playtests: a model clue-giver and a model guesser play Concept prompts.
 
-    uv run python tools/simplay.py run dry-run       # play the games in a spec (replay)
-    uv run python tools/simplay.py all               # replay every recorded run
-    uv run python tools/simplay.py preview dry-run Pizza   # print the first requests
+    uv run python tools/simplay.py run dry-run-model-clues   # play a spec's games (from the cache)
+    uv run python tools/simplay.py all                       # replay every recorded run
+    uv run python tools/simplay.py preview dry-run-model-clues Pizza   # print the first requests
 
 A spec (`sim-playtests/specs/<id>.toml`) says which prompts to play, in which mode, with
 which models. `run` writes `sim-playtests/runs/<id>.json` (settings, games, usage, and
 the cache entries used) and `<id>.md` (the games in playtest notation).
 
 Modes:
-- `full`: the clue-giver model clues the prompt, and the guesser model guesses.
-- `replay`: human clue sequences from `sim-playtests/human-games.toml` go to the
+- `model-clues`: the clue-giver model clues the prompt, and the guesser model guesses.
+- `human-clues`: human clue sequences from `sim-playtests/human-games.toml` go to the
   guesser model, to compare it with the human guessers.
 
 Every call goes through llmemo and replays from `sim-playtests/cache/`, so a missing
@@ -51,7 +51,7 @@ DOCS = ROOT / "docs"
 
 MAX_ATTEMPTS = 3  # tries per call when a reply is invalid
 
-Mode = Literal["full", "replay"]
+Mode = Literal["model-clues", "human-clues"]
 
 
 @dataclass(frozen=True)
@@ -124,7 +124,7 @@ class Spec:
     trials: int = 1
     max_rounds: int = 8
     max_guesses: int = 3
-    replay_extra_rounds: int = 2
+    extra_rounds: int = 2
     concurrency: int = 3
     spend_limit_usd: float = 0.0
 
@@ -142,14 +142,14 @@ def load_spec(spec_id: str, specs_dir: Path = SPECS_DIR) -> Spec:
         return Role(**data[name])
 
     mode = data["mode"]
-    if mode not in ("full", "replay"):
-        raise ValueError(f"spec {spec_id}: mode must be full or replay")
+    if mode not in ("model-clues", "human-clues"):
+        raise ValueError(f"spec {spec_id}: mode must be model-clues or human-clues")
     guesser = role("guesser")
     if guesser is None:
         raise ValueError(f"spec {spec_id}: [guesser] is required")
     clue_giver = role("clue_giver")
-    if mode == "full" and clue_giver is None:
-        raise ValueError(f"spec {spec_id}: a full-game spec needs [clue_giver]")
+    if mode == "model-clues" and clue_giver is None:
+        raise ValueError(f"spec {spec_id}: a model-clues spec needs [clue_giver]")
     rest = {k: v for k, v in data.items() if k not in ("mode", "prompts", "guesser", "clue_giver")}
     return Spec(
         id=spec_id,
@@ -489,8 +489,8 @@ async def check_correct(ask: Ask, game: Game, answers: Sequence[str]) -> bool:
     return True
 
 
-async def play_full(ask: Ask, spec: Spec, answer: str, trial: int) -> Game:
-    game = Game(answer, "full", trial)
+async def play_model_clues(ask: Ask, spec: Spec, answer: str, trial: int) -> Game:
+    game = Game(answer, "model-clues", trial)
     board = Board()
 
     def first(reply: object) -> tuple[int, str, str, list[str], Board]:
@@ -560,14 +560,14 @@ async def play_full(ask: Ask, spec: Spec, answer: str, trial: int) -> Game:
         return game
 
 
-async def play_replay(ask: Ask, spec: Spec, human: HumanGame, trial: int) -> Game:
-    game = Game(human.prompt, "replay", trial)
+async def play_human_clues(ask: Ask, spec: Spec, human: HumanGame, trial: int) -> Game:
+    game = Game(human.prompt, "human-clues", trial)
     if not human.steps:
         game.outcome = "skipped"
         return game
     board = Board()
     answers = [human.prompt, *human.accept]
-    steps = [*human.steps, *([()] * spec.replay_extra_rounds)]
+    steps = [*human.steps, *([()] * spec.extra_rounds)]
     try:
         for i, step in enumerate(steps, 1):
             lines = board.apply_all(list(step), comments=True)
@@ -637,10 +637,10 @@ async def run_spec(spec: Spec) -> dict[str, Any]:
 
         return ask
 
-    humans = load_human_games() if spec.mode == "replay" else {}
+    humans = load_human_games() if spec.mode == "human-clues" else {}
     deck = deck_prompts()
     for p in spec.prompts:
-        if spec.mode == "replay" and p not in humans:
+        if spec.mode == "human-clues" and p not in humans:
             raise ValueError(f"{spec.id}: no human game for {p!r} in {HUMAN_GAMES.name}")
         if p not in deck and not (p in humans and any(a in deck for a in humans[p].accept)):
             raise ValueError(f"{spec.id}: {p!r} isn't an active prompt in data/prompts.csv")
@@ -649,10 +649,10 @@ async def run_spec(spec: Spec) -> dict[str, Any]:
         async with sem:
             usage: dict[str, Any] = {}
             ask = asker(usage, trial)
-            if spec.mode == "full":
-                game = await play_full(ask, spec, prompt, trial)
+            if spec.mode == "model-clues":
+                game = await play_model_clues(ask, spec, prompt, trial)
             else:
-                game = await play_replay(ask, spec, humans[prompt], trial)
+                game = await play_human_clues(ask, spec, humans[prompt], trial)
             game.usage = usage
             return game
 

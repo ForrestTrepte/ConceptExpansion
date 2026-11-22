@@ -1,0 +1,11 @@
+New prompt.
+
+Step 1, markers placed:
+?g A14
++ H4
++ H6
++ E3
+Board now:
+?g A14 | H4, H6, E3
+
+Give up to 3 guesses, best first, or pass.

@@ -1,0 +1,169 @@
+{
+  "spec": {
+    "id": "dry-run-model-clues",
+    "mode": "model-clues",
+    "prompts": [
+      "Pizza",
+      "Popcorn",
+      "Break the ice"
+    ],
+    "guesser": {
+      "model": "claude-haiku-5-5",
+      "effort": "low"
+    },
+    "clue_giver": {
+      "model": "claude-sonnet-5-5",
+      "effort": "medium"
+    },
+    "trials": 1,
+    "max_rounds": 8,
+    "max_guesses": 3,
+    "extra_rounds": 2,
+    "concurrency": 3,
+    "spend_limit_usd": 3.0
+  },
+  "games": [
+    {
+      "prompt": "Pizza",
+      "mode": "model-clues",
+      "trial": 1,
+      "outcome": "solved",
+      "solved_at": 1,
+      "confidence": 4,
+      "turns": [
+        {
+          "lines": [
+            "?g A14",
+            "+ H4",
+            "+ H6",
+            "+ E3"
+          ],
+          "board": "?g A14 | H4, H6, E3",
+          "plan": "Food, round, flat, with fire/cooking; then add cheese/Italy-type hints if needed.",
+          "guesses": [
+            "Pizza",
+            "Pancake",
+            "Frying pan"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Pizza"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 2,
+        "cost_usd": 0.04011,
+        "latency_s": 8.4,
+        "tokens": {
+          "cacheReadTokens": 0,
+          "cacheWriteTokens": 17772,
+          "inputTokens": 4,
+          "outputTokens": 377,
+          "reasoningTokens": 107
+        }
+      }
+    },
+    {
+      "prompt": "Popcorn",
+      "mode": "model-clues",
+      "trial": 1,
+      "outcome": "solved",
+      "solved_at": 1,
+      "confidence": 4,
+      "turns": [
+        {
+          "lines": [
+            "?g A14",
+            "+ Yellow",
+            "!r A6",
+            "!y E3",
+            "+ E9"
+          ],
+          "board": "?g A14 | Yellow\n!r A6\n!y E3 | E9",
+          "plan": "Food + cinema + yellow/white, then add fire/hot or fragment if needed.",
+          "guesses": [
+            "Popcorn",
+            "Cornflakes",
+            "Nachos"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Popcorn"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 2,
+        "cost_usd": 0.039175,
+        "latency_s": 9.3,
+        "tokens": {
+          "cacheReadTokens": 7695,
+          "cacheWriteTokens": 10100,
+          "inputTokens": 4,
+          "outputTokens": 494,
+          "reasoningTokens": 173
+        }
+      }
+    },
+    {
+      "prompt": "Break the ice",
+      "mode": "model-clues",
+      "trial": 1,
+      "outcome": "solved",
+      "solved_at": 1,
+      "confidence": 3,
+      "turns": [
+        {
+          "lines": [
+            "?g B8",
+            "!r F8",
+            "!y E1",
+            "+ F3",
+            "+ E5"
+          ],
+          "board": "?g B8\n!r F8\n!y E1 | F3, E5",
+          "plan": "Phrase: main concept expression; red = break (F8), yellow = ice (cold, water, hard).",
+          "guesses": [
+            "Break the ice",
+            "Break the silence",
+            "Cut to the chase"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Break the ice"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 2,
+        "cost_usd": 0.04069,
+        "latency_s": 11.1,
+        "tokens": {
+          "cacheReadTokens": 7695,
+          "cacheWriteTokens": 10094,
+          "inputTokens": 4,
+          "outputTokens": 837,
+          "reasoningTokens": 556
+        }
+      }
+    }
+  ],
+  "entries": [
+    "599a103aa25c0404258820f6d335e7a3079da07f89600ceec5da0a9de769ea11",
+    "757e07c1ad5149b7d03a6fc60b0de1bb31b15f3a83cbe3a43e04102e8b865dff",
+    "795cab3fd1c537623f6b7492b360e8eeac2664c86a9585ce07eb48cea6338706",
+    "9828add28b1b1d1f10d533d40bc9bd76e1096311435fcc83a566e35d119a5d9b",
+    "b635c353bbe0f1fd9754d0b190a0334df6f63c218f091d0a818ff5b659625d46",
+    "f9e4eb3ee907d0cd41099ecb5bcebd481ff938f1859479e6aa90a5c27261126e"
+  ]
+}

@@ -1,7 +1,7 @@
-# Phase 1 dry run: full games, to measure usage and speed and to check the clues.
+# Phase 1 dry run: model clue-giver and model guesser, to measure usage and speed and to check the clues.
 # Pizza (humans solved in 1 step), Popcorn (humans failed), Break the ice (humans
 # solved in 9 steps).
-mode = "full"
+mode = "model-clues"
 prompts = ["Pizza", "Popcorn", "Break the ice"]
 trials = 1
 max_rounds = 8

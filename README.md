@@ -177,20 +177,22 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-22 | `tools/run_all.py` runs mypy, pytest, the simulated runs, the player aid, the prompt check, and the PDF, always in replay mode | One command to check and rebuild everything, with no spending |
 | 2026-11-22 | Simulated runs are defined by spec files (`sim-playtests/specs/`); results go to `sim-playtests/runs/`. Both roles get the icon and picture tables cut from the docs, never the docs' intros or worklists | Recorded runs stay reproducible; the worklists name prompts |
 | 2026-11-22 | In simulated games, a separate judge (fixed model: Sonnet, low effort) decides whether a guess is correct, seeing only the answer and the guesses. The clue-giver only answers Yes or No | Scoring must not change when clue-giver models are compared, and a clue-giver may judge its own success too generously |
-| 2026-11-22 | Human clue sequences for replay are transcribed in `sim-playtests/human-games.toml`, with a new step at each pawn unless the log gives a step count | The logs don't record where each guess turn began |
+| 2026-11-22 | Human clue sequences for human-clues runs are transcribed in `sim-playtests/human-games.toml`, with a new step at each pawn unless the log gives a step count | The logs don't record where each guess turn began |
 | 2026-11-22 | Upgrade to llmemo v0.2.0. `simplay.py` stops a run at the Claude usage limit and prints when it resets | v0.2.0 adds the usage-limit error this project asked for; rerunning after the reset replays everything already recorded |
+| 2026-11-22 | Simulated runs have two modes, named for who gives the clues: `model-clues` and `human-clues` | "Replay" already means replaying from the cache, and the names match the human playtest logs (`claude-clues`, `human-clues`) |
 
 ## Next steps
 
-1. **Simulated playtesting with LLMs: phase 1 dry run.** The plan is in
-   [docs/simulated-playtesting.md](docs/simulated-playtesting.md). `tools/simplay.py`
-   is written and tested with scripted replies; nothing is recorded yet. Next, when the
-   owner asks, record the two dry-run specs
-   (`LLMEMO_MODE=record uv run python tools/simplay.py run dry-run dry-run-replay`),
-   commit the cache, ledger, and `sim-playtests/runs/`, and report usage and speed per
-   game. The owner reviews the game logs before calibration (phase 2). The
-   pictured-elements re-banding in step 2 can go ahead in parallel. Finish it before
-   calibrating, since edits to the icon tables invalidate the cache.
+1. **Simulated playtesting with LLMs: calibrate (phase 2).** The plan is in
+   [docs/simulated-playtesting.md](docs/simulated-playtesting.md). The phase 1 dry run
+   is recorded (`sim-playtests/runs/dry-run-*.md`): $0.13 API-equivalent for 6 games,
+   3–5 s per call. The model guesser (Haiku) is far easier than people: from the human
+   clues it solved Popcorn (humans failed) and Break the ice in 1 step (humans needed 9).
+   Next: a `human-clues` run on all 19 human games with clues, then try guesser levers
+   (fewer guesses, first-instinct wording, effort) and, if they don't close the gap,
+   OpenRouter guessers (phase 3). Record only when the owner asks. Finish the
+   pictured-elements re-banding in step 2 before calibrating, since edits to the icon
+   tables invalidate the cache.
 2. **Reassemble cards 1–18 (expected check errors until then).** Rebuild every card
    from the whole pool, using:
    - **Tabletop re-banding:** after the 2026-11-16 playtest, the owner moved Taco,

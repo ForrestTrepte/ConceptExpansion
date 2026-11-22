@@ -13,13 +13,13 @@ from notation import Board
 from simplay import HumanGame, Role, Spec
 
 
-def spec(mode: simplay.Mode = "full", **kw: Any) -> Spec:
+def spec(mode: simplay.Mode = "model-clues", **kw: Any) -> Spec:
     return Spec(
         id="test",
         mode=mode,
         prompts=("Pizza",),
         guesser=Role("claude-haiku-5-5", "low"),
-        clue_giver=Role("claude-sonnet-5-5") if mode == "full" else None,
+        clue_giver=Role("claude-sonnet-5-5") if mode == "model-clues" else None,
         **kw,
     )
 
@@ -56,7 +56,7 @@ def judged(*correct: bool) -> dict[str, Any]:
 
 
 def run_full(script: Script, answer: str = "Pizza", **kw: Any) -> simplay.Game:
-    return asyncio.run(simplay.play_full(script, spec(**kw), answer, 1))
+    return asyncio.run(simplay.play_model_clues(script, spec(**kw), answer, 1))
 
 
 def test_solved_by_exact_guess_without_judging() -> None:
@@ -170,7 +170,7 @@ def test_clue_giver_cannot_say_correct() -> None:
     assert game.invalid[0]["role"] == "clue-giver"
 
 
-def test_replay_uses_human_steps_then_extra_rounds() -> None:
+def test_human_clues_use_human_steps_then_extra_rounds() -> None:
     human = HumanGame(
         prompt="Break the ice",
         source="x",
@@ -182,7 +182,7 @@ def test_replay_uses_human_steps_then_extra_rounds() -> None:
         guesser=[guess("Breakup"), guess("hail"), guess("Ice"), guess("Break the ice!")],
         judge=[judged(False), judged(False), judged(False)],
     )
-    game = asyncio.run(simplay.play_replay(script, spec("replay", replay_extra_rounds=2), human, 1))
+    game = asyncio.run(simplay.play_human_clues(script, spec("human-clues", extra_rounds=2), human, 1))
     assert (game.outcome, game.solved_at) == ("solved", 4)
     assert game.turns[1].verdict == "yes" and game.turns[1].yes_to == "hail"
     assert game.turns[2].lines == []
@@ -251,6 +251,6 @@ def test_usage_limit_stops_the_run(monkeypatch: pytest.MonkeyPatch, capsys: pyte
 
     monkeypatch.setattr(simplay, "run_spec", refused)
     monkeypatch.setattr(simplay, "write_run", lambda _run: pytest.fail("wrote a partial run"))
-    assert simplay.cmd_run(["dry-run"]) == 2
+    assert simplay.cmd_run(["dry-run-model-clues"]) == 2
     out = capsys.readouterr().out
     assert "usage limit" in out and "2026-11-2" in out

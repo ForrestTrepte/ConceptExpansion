@@ -1,4 +1,4 @@
-# Human-guessed playtests, transcribed for simulated replay and calibration.
+# Human-guessed playtests, transcribed for human-clues simulated runs and calibration.
 # See docs/simulated-playtesting.md. Contains answers: guessers must not read it.
 #
 # Each game: the prompt as it is now in data/prompts.csv, the source log, the human

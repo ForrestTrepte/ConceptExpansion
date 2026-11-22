@@ -3,11 +3,12 @@
 Plan for playtests where one model gives clues and another guesses. Back to
 [README](../README.md).
 
-**Status (2026-11-22): harness written, nothing recorded yet.** LLM calls go through
+**Status (2026-11-22): phase 1 done.** LLM calls go through
 [llmemo](https://github.com/ForrestTrepte/llmemo) v0.2.0, pinned in `pyproject.toml`.
-`tests/test_llm_smoke.py` makes one small call through each backend. `tools/simplay.py`
-plays both modes; its tests use scripted replies, with no model calls. Next is the
-[phase 1](#phases) dry run (`dry-run` and `dry-run-replay` specs).
+`tools/simplay.py` plays both modes. The dry run (`sim-playtests/runs/dry-run-*.md`)
+cost $0.13 API-equivalent for 6 games, about 8k tokens and 3–5 s per call, nearly all
+of it the shared system prompt. Haiku as guesser solved every prompt, including ones
+humans failed, so calibration (phase 2) has a real gap to close.
 
 ## Why
 
@@ -57,15 +58,15 @@ other directly. The rules and notation are those in [playtesting.md](playtesting
   Pass the long reference docs as separate parts of `system` (a list of strings), so
   llmemo stores each one once.
 - **Two modes:**
-  - **Replay:** feed the exact clue sequences from human playtest logs to the model
+  - **Human clues** (`human-clues`): feed the exact clue sequences from human playtest logs to the model
     guesser. This measures guesser bias directly (does it get Popcorn from the clues
     the human missed?). The sequences are transcribed in `sim-playtests/human-games.toml`.
     The logs don't record where each guess turn began, so a new step starts at each
     pawn unless the log gives a step count. After the last step the guesser gets
-    `replay_extra_rounds` more turns with no new markers, like a human staring at the
-    board. Correct guesses are decided by the judge, as in full games; "Yes" answers come
+    `extra_rounds` more turns with no new markers, like a human staring at the
+    board. Correct guesses are decided by the judge, as in model-clue games; "Yes" answers come
     from the guesses the log marks Yes.
-  - **Full game:** model clue-giver against model guesser.
+  - **Model clues** (`model-clues`): model clue-giver against model guesser.
 - **Repeats:** each prompt is played about 3 times, as llmemo variants (`trial-1`,
   `trial-2`, …). Retries after an invalid reply use llmemo's `attempt`. Per-prompt
   summary: solve rate, average steps, skips, and the most common wrong guesses (the

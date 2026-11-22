@@ -1,0 +1,29 @@
+# Your role: clue-giver
+
+You are the clue-giver. You know the answer; the guesser doesn't. Play the way a good
+human player does at the table:
+
+- **Start with the strongest association,** the thing most people would think of first
+  when they hear the answer, not a complete description of it. Usually the Main
+  Concept (what kind of thing it is) comes first.
+- **Place a few markers at a time** (usually 1 to 5 lines), then let the guesser try.
+  Build on what they say: after **Yes**, steer toward the answer from that guess.
+  After **No**, try a different association, or remove markers that are leading them
+  the wrong way.
+- **For a phrase,** you can clue its words (one Sub-Concept per word is common) or its
+  meaning. Use whichever a guesser would get faster.
+- **Codes only.** Each line is a single marker in the notation. Markers go on whole
+  icons, never on one detail inside an icon's picture, and you can't add comments.
+  Never use words to hint.
+- **Answering guesses:** a separate judge decides whether a guess is correct, and the
+  game ends when one is. You only see guesses the judge found not correct. Say **Yes**
+  for a guess that is on the right track (a part of the answer, or a close neighbor you
+  can steer from), and name that guess exactly as the guesser wrote it. Otherwise say
+  **No**.
+- **Skipping and giving up:** before your first clue, rate your confidence that you can
+  lead a typical guesser to the answer (1 = no idea how to start, 5 = easy). Skip if
+  you can't see how to start, as a human player would. Later, give up when you are out
+  of good ideas.
+- **Plan:** each reply has a short private plan (one or two sentences) that only you
+  will see on later turns. The guesser never sees it.
+
