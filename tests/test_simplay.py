@@ -10,7 +10,8 @@ from typing import Any
 import pytest
 import simplay
 from notation import Board
-from simplay import HumanGame, Role, Spec
+from playtest_logs import LogGame
+from simplay import Role, Spec
 
 
 def spec(mode: simplay.Mode = "model-clues", **kw: Any) -> Spec:
@@ -170,12 +171,16 @@ def test_clue_giver_cannot_say_correct() -> None:
     assert game.invalid[0]["role"] == "clue-giver"
 
 
-def test_human_clues_use_human_steps_then_extra_rounds() -> None:
-    human = HumanGame(
+def test_human_clues_use_logged_steps_then_extra_rounds() -> None:
+    human = LogGame(
         prompt="Break the ice",
-        source="x",
-        human="solved",
-        steps=(("?g B8", "+ F8"), ("!r E5 [on the rock]",)),
+        card=1,
+        number=7,
+        source="playtests/x.md:9",
+        kind="claude-clues",
+        result="solved",
+        solved_step=9,
+        clues=(("?g B8", "+ F8"), ("!r E5 [on the rock]",)),
         yes=("Hail",),
     )
     script = Script(
@@ -183,7 +188,7 @@ def test_human_clues_use_human_steps_then_extra_rounds() -> None:
         judge=[judged(False), judged(False), judged(False)],
     )
     game = asyncio.run(simplay.play_human_clues(script, spec("human-clues", extra_rounds=2), human, 1))
-    assert (game.outcome, game.solved_at) == ("solved", 4)
+    assert (game.outcome, game.solved_at, game.source) == ("solved", 4, "playtests/x.md:9")
     assert game.turns[1].verdict == "yes" and game.turns[1].yes_to == "hail"
     assert game.turns[2].lines == []
     assert "[on the rock]" in script.prompts("guesser")[1]
@@ -211,19 +216,6 @@ def test_board_reference_leaves_out_worklists() -> None:
 def test_system_parts_are_separated() -> None:
     parts = simplay.system("role")
     assert all(p.endswith("\n\n") for p in parts)
-
-
-def test_human_games_are_valid() -> None:
-    games = simplay.load_human_games()
-    deck = simplay.deck_prompts()
-    assert len(games) >= 20
-    for g in games.values():
-        assert g.prompt in deck, g.prompt
-        assert g.human in ("solved", "failed", "skipped")
-        assert bool(g.steps) == (g.human != "skipped")
-        board = Board()
-        for step in g.steps:
-            board.apply_all(list(step), comments=True)
 
 
 def test_specs_load() -> None:

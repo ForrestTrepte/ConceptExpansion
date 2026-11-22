@@ -11,8 +11,8 @@ the cache entries used) and `<id>.md` (the games in playtest notation).
 
 Modes:
 - `model-clues`: the clue-giver model clues the prompt, and the guesser model guesses.
-- `human-clues`: human clue sequences from `sim-playtests/human-games.toml` go to the
-  guesser model, to compare it with the human guessers.
+- `human-clues`: clue sequences from playtest logs with human guessers (`playtests/`,
+  read by `tools/playtest_logs.py`) go to the guesser model, to compare it with them.
 
 Every call goes through llmemo and replays from `sim-playtests/cache/`, so a missing
 call fails. To record, set `LLMEMO_MODE=record` on the one command; it spends the Claude
@@ -38,13 +38,13 @@ from pathlib import Path
 from typing import Any, Literal
 
 from notation import Board, NotationError
+from playtest_logs import LogGame, human_guessed
 
 ROOT = Path(__file__).resolve().parent.parent
 SIM = ROOT / "sim-playtests"
 CACHE_DIR = SIM / "cache"
 SPECS_DIR = SIM / "specs"
 RUNS_DIR = SIM / "runs"
-HUMAN_GAMES = SIM / "human-games.toml"
 PROMPTS_CSV = ROOT / "data" / "prompts.csv"
 TEXTS = Path(__file__).resolve().parent / "sim_prompts"
 DOCS = ROOT / "docs"
@@ -159,29 +159,6 @@ def load_spec(spec_id: str, specs_dir: Path = SPECS_DIR) -> Spec:
         clue_giver=clue_giver,
         **rest,
     )
-
-
-@dataclass(frozen=True)
-class HumanGame:
-    prompt: str
-    source: str
-    human: str
-    steps: tuple[tuple[str, ...], ...]
-    human_steps: int | None = None
-    yes: tuple[str, ...] = ()
-    accept: tuple[str, ...] = ()
-    note: str = ""
-
-
-def load_human_games(path: Path = HUMAN_GAMES) -> dict[str, HumanGame]:
-    games = {}
-    for g in tomllib.loads(path.read_text())["game"]:
-        g = dict(g)
-        g["steps"] = tuple(tuple(s) for s in g["steps"])
-        for k in ("yes", "accept"):
-            g[k] = tuple(g.get(k, ()))
-        games[g["prompt"]] = HumanGame(**g)
-    return games
 
 
 def deck_prompts(path: Path = PROMPTS_CSV) -> set[str]:
@@ -380,6 +357,7 @@ class Game:
     prompt: str
     mode: Mode
     trial: int
+    source: str = ""  # the playtest log entry, for human-clues games
     outcome: Outcome | None = None
     solved_at: int | None = None
     confidence: int | None = None
@@ -560,13 +538,15 @@ async def play_model_clues(ask: Ask, spec: Spec, answer: str, trial: int) -> Gam
         return game
 
 
-async def play_human_clues(ask: Ask, spec: Spec, human: HumanGame, trial: int) -> Game:
-    game = Game(human.prompt, "human-clues", trial)
-    if not human.steps:
+async def play_human_clues(ask: Ask, spec: Spec, human: LogGame, trial: int) -> Game:
+    """The logged clues, a step at a time (see LogGame.steps), then `extra_rounds` turns
+    with no new markers. The answer is the prompt as it was played."""
+    game = Game(human.prompt, "human-clues", trial, source=human.source)
+    if human.result == "skipped":
         game.outcome = "skipped"
         return game
     board = Board()
-    answers = [human.prompt, *human.accept]
+    answers = [human.prompt]
     steps = [*human.steps, *([()] * spec.extra_rounds)]
     try:
         for i, step in enumerate(steps, 1):
@@ -637,27 +617,33 @@ async def run_spec(spec: Spec) -> dict[str, Any]:
 
         return ask
 
-    humans = load_human_games() if spec.mode == "human-clues" else {}
+    # Human-clues prompts are named as they were played, so they're checked against the
+    # logs; model-clues prompts against the deck.
+    humans = human_guessed() if spec.mode == "human-clues" else {}
     deck = deck_prompts()
     for p in spec.prompts:
         if spec.mode == "human-clues" and p not in humans:
-            raise ValueError(f"{spec.id}: no human game for {p!r} in {HUMAN_GAMES.name}")
-        if p not in deck and not (p in humans and any(a in deck for a in humans[p].accept)):
+            raise ValueError(f"{spec.id}: no game with human guessers for {p!r} in playtests/")
+        if spec.mode == "model-clues" and p not in deck:
             raise ValueError(f"{spec.id}: {p!r} isn't an active prompt in data/prompts.csv")
 
-    async def one(prompt: str, trial: int) -> Game:
+    async def one(prompt: str, human: LogGame | None, trial: int) -> Game:
         async with sem:
             usage: dict[str, Any] = {}
             ask = asker(usage, trial)
-            if spec.mode == "model-clues":
+            if human is None:
                 game = await play_model_clues(ask, spec, prompt, trial)
             else:
-                game = await play_human_clues(ask, spec, humans[prompt], trial)
+                game = await play_human_clues(ask, spec, human, trial)
             game.usage = usage
             return game
 
+    # Every logged game of a human-clues prompt is played.
+    jobs: list[tuple[str, LogGame | None]] = [
+        (p, h) for p in spec.prompts for h in (humans[p] if humans else [None])
+    ]
     games = await asyncio.gather(
-        *(one(p, t) for p in spec.prompts for t in range(1, spec.trials + 1))
+        *(one(p, h, t) for p, h in jobs for t in range(1, spec.trials + 1))
     )
     return {
         "spec": asdict(spec),
@@ -738,6 +724,8 @@ def markdown(run: dict[str, Any]) -> str:
         if g["confidence"] is not None:
             head += f" · Clue-giver confidence: {g['confidence']}/5"
         out += ["", f"### {g['prompt']} (trial {g['trial']})", head]
+        if g["source"]:
+            out.append(f"- Human clues from: {g['source']}")
         if g["error"]:
             out.append(f"- Error: {g['error']}")
         for i, t in enumerate(g["turns"], 1):

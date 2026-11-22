@@ -60,9 +60,12 @@ other directly. The rules and notation are those in [playtesting.md](playtesting
 - **Two modes:**
   - **Human clues** (`human-clues`): feed the exact clue sequences from human playtest logs to the model
     guesser. This measures guesser bias directly (does it get Popcorn from the clues
-    the human missed?). The sequences are transcribed in `sim-playtests/human-games.toml`.
-    The logs don't record where each guess turn began, so a new step starts at each
-    pawn unless the log gives a step count. After the last step the guesser gets
+    the human missed?). The clues are read straight from the logs in `playtests/` whose
+    guessers were people (tabletop and `claude-clues`), by `tools/playtest_logs.py`;
+    the answer is the prompt as it was played. Text logs mark where the guesser
+    replied with blank lines (the 2026-11-16 one had them filled in by assumption).
+    Tabletop logs have no such pauses, so the script starts a new step at each change
+    of group. After the last step the guesser gets
     `extra_rounds` more turns with no new markers, like a human staring at the
     board. Correct guesses are decided by the judge, as in model-clue games; "Yes" answers come
     from the guesses the log marks Yes.

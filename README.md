@@ -97,6 +97,7 @@ change dependencies, use `uv add` or `uv remove` (`--dev` for dev tools) and com
 | `uv run pytest` | Runs the tests. LLM calls replay from the cache | [simulated-playtesting.md](docs/simulated-playtesting.md) |
 | `uv run python tools/simplay.py run <spec>` | Plays a simulated-playtest spec from `sim-playtests/specs/`, replaying from the cache | [simulated-playtesting.md](docs/simulated-playtesting.md#storing-results) |
 | `uv run python tools/simplay.py all` | Replays every recorded simulated run and rewrites its results | [simulated-playtesting.md](docs/simulated-playtesting.md#storing-results) |
+| `uv run python tools/playtest_logs.py check` | Checks that the playtest logs in `playtests/` follow the format simulated playtests read | [playtesting.md](docs/playtesting.md#recording-results) |
 | `uv run python tools/player_aid.py` | Downloads the player aid; writes coded PDF and icon images to `output/player-aid/` | [data-and-printing.md](docs/data-and-printing.md#player-aid-with-icon-codes) |
 | `uv run python tools/cards.py check` | Validates `data/prompts.csv` | [data-and-printing.md](docs/data-and-printing.md#commands) |
 | `uv run python tools/cards.py pdf` | Builds `output/cards.pdf` | [data-and-printing.md](docs/data-and-printing.md#commands) |
@@ -180,6 +181,7 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-22 | Human clue sequences for human-clues runs are transcribed in `sim-playtests/human-games.toml`, with a new step at each pawn unless the log gives a step count | The logs don't record where each guess turn began |
 | 2026-11-22 | Upgrade to llmemo v0.2.0. `simplay.py` stops a run at the Claude usage limit and prints when it resets | v0.2.0 adds the usage-limit error this project asked for; rerunning after the reset replays everything already recorded |
 | 2026-11-22 | Simulated runs have two modes, named for who gives the clues: `model-clues` and `human-clues` | "Replay" already means replaying from the cache, and the names match the human playtest logs (`claude-clues`, `human-clues`) |
+| 2026-11-22 | `human-clues` runs read the playtest logs directly; `human-games.toml` is gone. Text logs mark pauses (where the guesser replied) with blank lines in clue blocks; tabletop logs never have pauses, and the script splits them at each change of group. `tools/playtest_logs.py check` validates the log format | One source of truth. At the table, clues and guesses overlap, so there are no pauses to record |
 
 ## Next steps
 
@@ -188,7 +190,7 @@ Newest at the bottom. Include the date and a one-line reason.
    is recorded (`sim-playtests/runs/dry-run-*.md`): $0.13 API-equivalent for 6 games,
    3–5 s per call. The model guesser (Haiku) is far easier than people: from the human
    clues it solved Popcorn (humans failed) and Break the ice in 1 step (humans needed 9).
-   Next: a `human-clues` run on all 19 human games with clues, then try guesser levers
+   Next: a `human-clues` run on all 20 human games with clues (on active prompts), then try guesser levers
    (fewer guesses, first-instinct wording, effort) and, if they don't close the gap,
    OpenRouter guessers (phase 3). Record only when the owner asks. Finish the
    pictured-elements re-banding in step 2 before calibrating, since edits to the icon
