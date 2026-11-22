@@ -68,7 +68,7 @@ Each card follows the base game's layout: **9 numbered prompts in three bands of
 - **Playtesting:** text playtests by chat follow
   [docs/playtesting.md](docs/playtesting.md). Logs go in `playtests/`.
 - **LLM calls** (simulated playtests) go through llmemo, which caches them in
-  `sim/cache/` and records spending in `llm-spend/`. Both are committed. See
+  `sim-playtests/cache/` and records spending in `llm-spend/`. Both are committed. See
   [docs/simulated-playtesting.md](docs/simulated-playtesting.md).
 - **Prompt data and printing:** all prompts are stored in `data/prompts.csv`, and
   `tools/cards.py` checks them and builds the PDF. See
@@ -143,7 +143,7 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-19 | Simulated playtests run first on the owner's Claude subscription through the headless CLI (`claude -p`). OpenRouter (guessers that aren't Claude, more volume) comes later, only if calibration shows it's needed | No extra cost; a blind, tool-less test call worked. Claude-only calibration will show whether other models are needed |
 | 2026-11-19 | Simulation results are committed as a cache of LLM calls (raw replies keyed by a hash of every input). Logs and summaries are generated from the cache | A permanent record to study without rerunning; after a fix or tweak, calls whose inputs didn't change replay for free |
 | 2026-11-19 | The cache comes from a reusable package the owner will find or build. Harness work waits for it | The owner uses this caching approach across projects |
-| 2026-11-22 | LLM calls use [llmemo](https://github.com/ForrestTrepte/llmemo) v0.1.0, pinned by git tag in `requirements.txt`. Cache in `sim/cache/`, spending ledger in `llm-spend/`, both committed | The owner's package meets the cache requirements; the ledger keeps a record of spending, subscription calls included |
+| 2026-11-22 | LLM calls use [llmemo](https://github.com/ForrestTrepte/llmemo) v0.1.0, pinned by git tag in `requirements.txt`. Cache in `sim-playtests/cache/`, spending ledger in `llm-spend/`, both committed | The owner's package meets the cache requirements; the ledger keeps a record of spending, subscription calls included |
 | 2026-11-22 | General caching, backend, spending, and cache-maintenance features go into llmemo, not this repo | Keeps this repo about the game and makes the features reusable in the owner's other projects |
 
 ## Next steps

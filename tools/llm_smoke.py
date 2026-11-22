@@ -3,10 +3,10 @@
 
 Asks a tiny guesser question (no prompt from the deck) through the Claude CLI
 (`claude -p` on the Claude subscription) and through OpenRouter, both with
-structured output. Calls are cached in sim/cache/ and paid calls are recorded in
-the spending ledger llm-spend/. Commit both after recording.
+structured output. Calls are cached in sim-playtests/cache/ and paid calls are
+recorded in the spending ledger llm-spend/. Commit both after recording.
 
-    python tools/llm_smoke.py            # replay from sim/cache/ (no calls, no cost)
+    python tools/llm_smoke.py            # replay from the cache (no calls, no cost)
     python tools/llm_smoke.py --record   # call the backends for anything missing
 
 Recording needs a Claude login for the CLI and OPENROUTER_API_KEY for OpenRouter.
@@ -22,7 +22,7 @@ from pathlib import Path
 from llmemo import Cache, ClaudeCli, Ledger, OpenRouter, git_code_version
 
 ROOT = Path(__file__).resolve().parent.parent
-CACHE_DIR = ROOT / "sim" / "cache"
+CACHE_DIR = ROOT / "sim-playtests" / "cache"
 SPEND_LIMIT_USD = 0.10
 
 CLAUDE_MODEL = "claude-haiku-5-5"

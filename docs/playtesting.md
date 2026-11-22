@@ -25,8 +25,8 @@ There are two text-playtest modes, each run in a fresh conversation:
 - The clue-giver chooses the prompts. We test **every** prompt, working through a card
   in order (1–9). Only the clue-giver knows the card number and the prompt.
 - **When Claude is the guesser,** it must not read `data/prompts.csv`, `playtests/`,
-  `sim/` (simulated playtests), the generated card PDFs, or git history, since all of
-  them contain the answers.
+  `sim-playtests/` (simulated playtests), the generated card PDFs, or git history,
+  since all of them contain the answers.
 - If you play both modes, use different cards in each. Once you've seen an answer,
   you can't guess it fairly.
 

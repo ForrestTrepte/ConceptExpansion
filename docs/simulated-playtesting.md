@@ -99,11 +99,11 @@ stored under a hash of everything sent. Logs and summaries are generated from th
 cache. Reruns after a bug fix or a tweak are free wherever a call's inputs haven't
 changed.
 
-- `sim/cache/`: the llmemo cache. Commit it.
+- `sim-playtests/cache/`: the llmemo cache. Commit it.
 - `llm-spend/<branch>/<developer>.jsonl`: llmemo's spending ledger, one row per paid
   call (subscription calls at their API-equivalent cost). Commit it with the entries it
   paid for.
-- `sim/runs/<run-id>.json` (planned): the run's settings, its games, and the entry
+- `sim-playtests/runs/<run-id>.json` (planned): the run's settings, its games, and the entry
   hashes it used, collected with llmemo's `on_entry_used` hook. Those hashes are what
   llmemo's pruning needs.
 - Generated summaries in the playtest notation (committing them is optional).
@@ -115,7 +115,7 @@ Notes:
 - Editing [board-icons.md](board-icons.md) or [pictured-elements.md](pictured-elements.md)
   changes every call's input, so it invalidates the whole cache. Finish the
   pictured-elements re-banding before calibrating.
-- `sim/` contains answers. A guessing agent must not read it (see CLAUDE.md and
+- `sim-playtests/` contains answers. A guessing agent must not read it (see CLAUDE.md and
   [playtesting.md](playtesting.md)).
 
 ## Phases

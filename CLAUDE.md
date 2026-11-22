@@ -42,7 +42,7 @@ contributor, put it in README.md or a linked doc in `docs/` instead.
 ## Text playtests
 
 Follow [docs/playtesting.md](docs/playtesting.md). Agent-specific rules:
-- **As guesser:** do not read `data/prompts.csv`, `playtests/`, `sim/`,
+- **As guesser:** do not read `data/prompts.csv`, `playtests/`, `sim-playtests/`,
   `output/cards*.pdf`, or git history/diffs, and do not search the repo for answers,
   until all guessing is done. Guess only from the clues and the icon reference.
 - **As clue-giver:** look at the icon images, not just the labels. Give clues the way
@@ -53,7 +53,7 @@ Follow [docs/playtesting.md](docs/playtesting.md). Agent-specific rules:
 ## LLM calls (llmemo)
 
 - Every LLM call goes through [llmemo](https://github.com/ForrestTrepte/llmemo) (pinned in
-  `requirements.txt`), with the cache in `sim/cache/` and the spending ledger in
+  `requirements.txt`), with the cache in `sim-playtests/cache/` and the spending ledger in
   `llm-spend/`. Commit both after recording. See
   [docs/simulated-playtesting.md](docs/simulated-playtesting.md).
 - Don't build caching, backend, spending, or cache-maintenance infrastructure here
