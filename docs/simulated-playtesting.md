@@ -4,7 +4,7 @@ Plan for playtests where one model gives clues and another guesses. Back to
 [README](../README.md).
 
 **Status (2026-11-22): set up, harness not built.** LLM calls go through
-[llmemo](https://github.com/ForrestTrepte/llmemo) v0.1.0, pinned in `requirements.txt`.
+[llmemo](https://github.com/ForrestTrepte/llmemo) v0.1.0, pinned in `pyproject.toml`.
 `tools/llm_smoke.py` makes one small call through each backend and works in both
 record and replay mode. Next is [phase 1](#phases), the harness.
 

@@ -18,7 +18,7 @@ There are two text-playtest modes, each run in a fresh conversation:
 
 ## Setup
 
-- Generate the coded player aid with `python tools/player_aid.py` and keep
+- Generate the coded player aid with `uv run python tools/player_aid.py` and keep
   `output/player-aid/player-aid-coords.pdf` open. Icon codes and meanings are in
   [board-icons.md](board-icons.md). There's an illustrated version at
   `output/player-aid/board-icons.md`.

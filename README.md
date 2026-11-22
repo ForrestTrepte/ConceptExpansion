@@ -143,7 +143,8 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-19 | Simulated playtests run first on the owner's Claude subscription through the headless CLI (`claude -p`). OpenRouter (guessers that aren't Claude, more volume) comes later, only if calibration shows it's needed | No extra cost; a blind, tool-less test call worked. Claude-only calibration will show whether other models are needed |
 | 2026-11-19 | Simulation results are committed as a cache of LLM calls (raw replies keyed by a hash of every input). Logs and summaries are generated from the cache | A permanent record to study without rerunning; after a fix or tweak, calls whose inputs didn't change replay for free |
 | 2026-11-19 | The cache comes from a reusable package the owner will find or build. Harness work waits for it | The owner uses this caching approach across projects |
-| 2026-11-22 | LLM calls use [llmemo](https://github.com/ForrestTrepte/llmemo) v0.1.0, pinned by git tag in `requirements.txt`. Cache in `sim-playtests/cache/`, spending ledger in `llm-spend/`, both committed | The owner's package meets the cache requirements; the ledger keeps a record of spending, subscription calls included |
+| 2026-11-22 | LLM calls use [llmemo](https://github.com/ForrestTrepte/llmemo) v0.1.0, pinned by git tag in `pyproject.toml`. Cache in `sim-playtests/cache/`, spending ledger in `llm-spend/`, both committed | The owner's package meets the cache requirements; the ledger keeps a record of spending, subscription calls included |
+| 2026-11-22 | uv manages the Python environment: `pyproject.toml` lists the dependencies, `uv.lock` pins them, and commands run with `uv run` | Owner's choice; matches llmemo, and the lock file pins every package, including llmemo's commit |
 | 2026-11-22 | General caching, backend, spending, and cache-maintenance features go into llmemo, not this repo | Keeps this repo about the game and makes the features reusable in the owner's other projects |
 
 ## Next steps
@@ -151,8 +152,8 @@ Newest at the bottom. Include the date and a one-line reason.
 1. **Simulated playtesting with LLMs: build the harness (phase 1).** The plan is in
    [docs/simulated-playtesting.md](docs/simulated-playtesting.md): one model gives
    clues, another guesses, calibrated against the human playtests. llmemo is set up,
-   and `python tools/llm_smoke.py` replays one small call through each backend. Next,
-   write `tools/simplay.py` and dry-run 2–3 prompts to measure usage and speed (record
+   and `uv run python tools/llm_smoke.py` replays one small call through each backend.
+   Next, write `tools/simplay.py` and dry-run 2–3 prompts to measure usage and speed (record
    only when the owner asks). The pictured-elements re-banding in step 2 can go ahead
    in parallel. Finish it before calibrating, since edits to the icon docs invalidate
    the cache.
@@ -172,7 +173,7 @@ Newest at the bottom. Include the date and a one-line reason.
      [docs/prompt-guidelines.md](docs/prompt-guidelines.md).
    The owner approves the new cards, then bump `data/VERSION` to 0.2.
 3. **Test print at the new size.** Once the cards are rebalanced, print
-   `output/cards.pdf` (run `python tools/cards.py pdf`) at 100% scale. The cards are
+   `output/cards.pdf` (run `uv run python tools/cards.py pdf`) at 100% scale. The cards are
    now 60.5 × 85.9 mm, which hasn't been printed yet. Cut out a few cards and check
    that they slide into MTG sleeves and the text is easy to read. Adjust the layout in
    `tools/cards.py` if needed.

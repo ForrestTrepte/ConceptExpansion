@@ -53,8 +53,8 @@ Follow [docs/playtesting.md](docs/playtesting.md). Agent-specific rules:
 ## LLM calls (llmemo)
 
 - Every LLM call goes through [llmemo](https://github.com/ForrestTrepte/llmemo) (pinned in
-  `requirements.txt`), with the cache in `sim-playtests/cache/` and the spending ledger in
-  `llm-spend/`. Commit both after recording. See
+  `pyproject.toml`), with the cache in `sim-playtests/cache/` and the spending ledger
+  in `llm-spend/`. Commit both after recording. See
   [docs/simulated-playtesting.md](docs/simulated-playtesting.md).
 - Don't build caching, backend, spending, or cache-maintenance infrastructure here
   (pruning, verification, cost reports, miss explanations, backend options). If
@@ -64,9 +64,15 @@ Follow [docs/playtesting.md](docs/playtesting.md). Agent-specific rules:
 - Live calls spend the owner's subscription or OpenRouter credit. Record only when the
   user asks for it, and set a `spend_limit`.
 
+## Python
+
+- Use uv: `uv sync` to set up, `uv run python tools/<script>.py` to run, and `uv add` /
+  `uv remove` to change dependencies (commit `pyproject.toml` and `uv.lock` together).
+  Don't use pip.
+
 ## Reference PDFs
 
-- For icon pictures, run `python tools/player_aid.py`, then view
+- For icon pictures, run `uv run python tools/player_aid.py`, then view
   `output/player-aid/player-aid-coords.pdf` or `output/player-aid/icons/<code>.png` (colors: `icons/<Color>.png`)
   with the Read tool. (`output/player-aid/board-icons.md` is the illustrated table for
   humans. Its images are links, so read the PNGs directly.) The pictures carry hints the label text doesn't, so look at them

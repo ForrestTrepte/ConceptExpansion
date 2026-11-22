@@ -5,9 +5,17 @@ How prompts are stored, checked, and turned into printable sheets. Back to
 
 ## Setup
 
+The Python environment is managed with [uv](https://docs.astral.sh/uv/). The dev
+container installs uv and runs `uv sync`. Elsewhere, install uv, then run this from the
+repo root:
+
 ```sh
-pip install -r requirements.txt
+uv sync
 ```
+
+This creates `.venv/` with the packages pinned in `uv.lock`. Run scripts with
+`uv run python tools/<script>.py`. To change dependencies, use `uv add` or `uv remove`
+and commit `pyproject.toml` and `uv.lock` together.
 
 ## Prompt data: `data/prompts.csv`
 
@@ -50,11 +58,11 @@ playtest decks; the first public release will be 1.0.
 ## Commands
 
 ```sh
-python tools/cards.py check                     # validate data/prompts.csv
-python tools/cards.py pdf                       # all draft + approved cards -> output/cards.pdf
-python tools/cards.py pdf --cards 1-9          # just cards 1-9
-python tools/cards.py pdf --no-cut-lines       # margin cut marks only, no corner + marks
-python tools/cards.py pdf --status approved     # only cards whose prompts are all approved
+uv run python tools/cards.py check                  # validate data/prompts.csv
+uv run python tools/cards.py pdf                    # all draft + approved cards -> output/cards.pdf
+uv run python tools/cards.py pdf --cards 1-9        # just cards 1-9
+uv run python tools/cards.py pdf --no-cut-lines     # margin cut marks only, no corner + marks
+uv run python tools/cards.py pdf --status approved  # only cards whose prompts are all approved
 ```
 
 ## Printing
@@ -74,7 +82,7 @@ python tools/cards.py pdf --status approved     # only cards whose prompts are a
 ## Player aid with icon codes
 
 ```sh
-python tools/player_aid.py
+uv run python tools/player_aid.py
 ```
 
 This downloads the official player aid once and writes the following to

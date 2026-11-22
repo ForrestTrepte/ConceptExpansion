@@ -2,8 +2,8 @@
 """Validate the prompt data and build printable card sheets.
 
 Usage:
-    python tools/cards.py check [--data data/prompts.csv]
-    python tools/cards.py pdf   [--data data/prompts.csv] [--out output/cards.pdf]
+    uv run python tools/cards.py check [--data data/prompts.csv]
+    uv run python tools/cards.py pdf   [--data data/prompts.csv] [--out output/cards.pdf]
                                 [--cards 1-25] [--status draft,approved] [--no-cut-lines]
 
 See docs/data-and-printing.md for the file format and print settings.

@@ -21,7 +21,7 @@ How to read the table:
 - **Background** patterns (graph paper, checkerboard, brick) are not counted.
 
 Descriptions only; the artwork is Repos Production's. To see the pictures, run
-`python tools/player_aid.py` and open `output/player-aid/pictured-elements.md`, a copy
+`uv run python tools/player_aid.py` and open `output/player-aid/pictured-elements.md`, a copy
 of this page with each icon's picture beside its row.
 
 ## Page 1, left (A, B)

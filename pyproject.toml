@@ -1,0 +1,18 @@
+[project]
+name = "new-notions"
+version = "0"
+description = "Tools for New Notions, an unofficial fan expansion for Concept"
+requires-python = ">=3.12"
+dependencies = [
+    "llmemo",
+    "pypdf>=5.0",
+    "pypdfium2>=4.0",
+    "reportlab>=4.0",
+]
+
+[tool.uv]
+# Scripts in tools/, not an installable package.
+package = false
+
+[tool.uv.sources]
+llmemo = { git = "https://github.com/ForrestTrepte/llmemo", tag = "v0.1.0", subdirectory = "python" }
