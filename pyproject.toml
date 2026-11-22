@@ -26,7 +26,7 @@ dev = [
 
 [tool.mypy]
 strict = true
-files = ["tools"]
+files = ["tools", "tests"]
 
 [[tool.mypy.overrides]]
 # pypdfium2 ships no type information.

@@ -152,7 +152,7 @@ Newest at the bottom. Include the date and a one-line reason.
 1. **Simulated playtesting with LLMs: build the harness (phase 1).** The plan is in
    [docs/simulated-playtesting.md](docs/simulated-playtesting.md): one model gives
    clues, another guesses, calibrated against the human playtests. llmemo is set up,
-   and `uv run python tools/llm_smoke.py` replays one small call through each backend.
+   and `tests/test_llm_smoke.py` replays one small call through each backend.
    Next, write `tools/simplay.py` and dry-run 2–3 prompts to measure usage and speed (record
    only when the owner asks). The pictured-elements re-banding in step 2 can go ahead
    in parallel. Finish it before calibrating, since edits to the icon docs invalidate

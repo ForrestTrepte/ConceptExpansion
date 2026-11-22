@@ -5,8 +5,8 @@ Plan for playtests where one model gives clues and another guesses. Back to
 
 **Status (2026-11-22): set up, harness not built.** LLM calls go through
 [llmemo](https://github.com/ForrestTrepte/llmemo) v0.1.0, pinned in `pyproject.toml`.
-`tools/llm_smoke.py` makes one small call through each backend and works in both
-record and replay mode. Next is [phase 1](#phases), the harness.
+`tests/test_llm_smoke.py` makes one small call through each backend; plain
+`uv run pytest` replays it from the cache. Next is [phase 1](#phases), the harness.
 
 ## Why
 
@@ -110,8 +110,11 @@ changed.
 
 Notes:
 
-- Every script that calls a model chooses a mode: `record` calls the backend on a miss,
-  `replay` raises an error instead. `LLMEMO_MODE` overrides it. Set a `spend_limit`.
+- Every script and test that calls a model sets `mode="replay"` in code, so a cache
+  miss raises `CacheMiss` instead of calling the model. To record, set
+  `LLMEMO_MODE=record` on that one command (e.g. `LLMEMO_MODE=record uv run pytest -m llm`);
+  never export it in a shell profile. Always set a `spend_limit`. Tests that use the
+  cache are marked `@pytest.mark.llm`.
 - Editing [board-icons.md](board-icons.md) or [pictured-elements.md](pictured-elements.md)
   changes every call's input, so it invalidates the whole cache. Finish the
   pictured-elements re-banding before calibrating.

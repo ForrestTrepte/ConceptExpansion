@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Smoke test for LLM calls through llmemo: one guess from each backend.
 
 Asks a tiny guesser question (no prompt from the deck) through the Claude CLI
@@ -6,8 +5,8 @@ Asks a tiny guesser question (no prompt from the deck) through the Claude CLI
 structured output. Calls are cached in sim-playtests/cache/ and paid calls are
 recorded in the spending ledger llm-spend/. Commit both after recording.
 
-    uv run python tools/llm_smoke.py           # replay from the cache (no calls, no cost)
-    uv run python tools/llm_smoke.py --record  # call the backends for anything missing
+    uv run pytest -m llm                       # replay from the cache (no calls, no cost)
+    LLMEMO_MODE=record uv run pytest -m llm    # call the backends for anything missing
 
 Recording needs a Claude login for the CLI and OPENROUTER_API_KEY for OpenRouter.
 See docs/simulated-playtesting.md.
@@ -15,10 +14,10 @@ See docs/simulated-playtesting.md.
 
 from __future__ import annotations
 
-import argparse
 import json
 from pathlib import Path
 
+import pytest
 from llmemo import Cache, ClaudeCli, Ledger, OpenRouter, git_code_version
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -37,6 +36,8 @@ SCHEMA = {
     "additionalProperties": False,
 }
 
+pytestmark = pytest.mark.llm
+
 
 def guesses(value: object) -> list[str]:
     """Validate a structured reply: a list of up to 3 non-empty strings."""
@@ -49,26 +50,27 @@ def guesses(value: object) -> list[str]:
     return strings
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    parser.add_argument("--record", action="store_true", help="call backends on a cache miss")
-    args = parser.parse_args()
-
-    cache = Cache(
+@pytest.fixture
+def cache() -> Cache:
+    # Replay unless LLMEMO_MODE=record is set for this run.
+    return Cache(
         CACHE_DIR,
-        mode="record" if args.record else "replay",
+        mode="replay",
         spend_limit=SPEND_LIMIT_USD,
         ledger=Ledger(ROOT / "llm-spend"),
         code_version=git_code_version(ROOT),
         tags={"run": "smoke"},
     )
 
-    claude_request = ClaudeCli.request(CLAUDE_MODEL, PROMPT, system=SYSTEM, json_schema=SCHEMA)
-    result = cache.call(claude_request, ClaudeCli(), label="smoke-claude")
-    print(f"Claude CLI ({CLAUDE_MODEL}):", guesses(result.reply["structured_output"]))
-    print("  cached:", result.cached, " served by:", result.meta.get("servedModel"))
 
-    openrouter_request = OpenRouter.chat_request(
+def test_claude_cli(cache: Cache) -> None:
+    request = ClaudeCli.request(CLAUDE_MODEL, PROMPT, system=SYSTEM, json_schema=SCHEMA)
+    result = cache.call(request, ClaudeCli(), label="smoke-claude")
+    assert guesses(result.reply["structured_output"])
+
+
+def test_openrouter(cache: Cache) -> None:
+    request = OpenRouter.chat_request(
         {
             "model": OPENROUTER_MODEL,
             "messages": [
@@ -82,17 +84,6 @@ def main() -> None:
             "max_tokens": 200,
         }
     )
-    result = cache.call(openrouter_request, OpenRouter(), label="smoke-openrouter")
+    result = cache.call(request, OpenRouter(), label="smoke-openrouter")
     content = result.reply["choices"][0]["message"]["content"]
-    print(f"OpenRouter ({OPENROUTER_MODEL}):", guesses(json.loads(content)))
-    print("  cached:", result.cached, " served by:", result.meta.get("servedModel"))
-
-    total = cache.stats.total
-    print(
-        f"Spent ${total.uncached_cost_usd:.6f} this run; "
-        f"replayed calls originally cost ${total.cached_cost_usd:.6f}"
-    )
-
-
-if __name__ == "__main__":
-    main()
+    assert guesses(json.loads(content))
