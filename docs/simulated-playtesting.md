@@ -3,10 +3,11 @@
 Plan for playtests where one model gives clues and another guesses. Back to
 [README](../README.md).
 
-**Status (2026-11-22): set up, harness not built.** LLM calls go through
+**Status (2026-11-22): harness written, nothing recorded yet.** LLM calls go through
 [llmemo](https://github.com/ForrestTrepte/llmemo) v0.1.0, pinned in `pyproject.toml`.
-`tests/test_llm_smoke.py` makes one small call through each backend; plain
-`uv run pytest` replays it from the cache. Next is [phase 1](#phases), the harness.
+`tests/test_llm_smoke.py` makes one small call through each backend. `tools/simplay.py`
+plays both modes; its tests use scripted replies, with no model calls. Next is the
+[phase 1](#phases) dry run (`dry-run` and `dry-run-replay` specs).
 
 ## Why
 
@@ -28,12 +29,27 @@ other directly. The rules and notation are those in [playtesting.md](playtesting
   tabletop showed human clue-givers don't follow them. Before a game it rates its
   confidence and may skip, like the tabletop skips. It replies in a structured format:
   placements, a verdict on the last guesses (`Correct` / `Yes: <guess>` / `No`), or
-  give up. No picture-detail placements.
+  give up. No picture-detail placements. It answers only Yes or No; whether a guess is
+  correct is the judge's call.
 - **Guesser:** gets only the board reference and the clues so far. llmemo runs each
   `claude -p` call in an empty temporary folder with no tools, so it can't read answers.
   It gives 1–3 guesses per turn, or passes.
+- **Both roles get the same board reference:** the icon tables from
+  [board-icons.md](board-icons.md) and the picture tables from
+  [pictured-elements.md](pictured-elements.md), cut out by heading so the docs' intros
+  and worklists (which name prompts) are never sent. The rules summary and role
+  instructions are in `tools/sim_prompts/`.
 - **The script** validates every placement code and allows nothing but notation, so
-  no label words or hints leak. It caps the number of rounds and writes each game in
+  no label words or hints leak. Lines are checked against the board (`tools/notation.py`),
+  and an invalid reply is retried with the error. A "Yes" must name one of the guesses.
+- **Judge:** a guess that matches the answer (ignoring case, punctuation, accents, and
+  a leading article) wins without a call. Otherwise a separate judge call decides,
+  using a fixed model (Sonnet, low effort, set in code as `JUDGE`) and
+  `tools/sim_prompts/judge.md`. It sees only the answer and the guesses, never the
+  clues, and is strict: wording variants a human would accept count, but parts of a
+  phrase, broader or narrower things, and neighbors don't. Its request has no variant,
+  so every trial and spec shares one verdict for the same answer and guesses. Both modes
+  use it, so changing the clue-giver model can't change the scoring. It caps the number of rounds and writes each game in
   the standard notation. It must not use unseeded randomness, so reruns make exactly
   the same calls.
 - **Each call is a single prompt.** The Claude CLI request has a system prompt and a
@@ -43,7 +59,12 @@ other directly. The rules and notation are those in [playtesting.md](playtesting
 - **Two modes:**
   - **Replay:** feed the exact clue sequences from human playtest logs to the model
     guesser. This measures guesser bias directly (does it get Popcorn from the clues
-    the human missed?).
+    the human missed?). The sequences are transcribed in `sim-playtests/human-games.toml`.
+    The logs don't record where each guess turn began, so a new step starts at each
+    pawn unless the log gives a step count. After the last step the guesser gets
+    `replay_extra_rounds` more turns with no new markers, like a human staring at the
+    board. Correct guesses are decided by the judge, as in full games; "Yes" answers come
+    from the guesses the log marks Yes.
   - **Full game:** model clue-giver against model guesser.
 - **Repeats:** each prompt is played about 3 times, as llmemo variants (`trial-1`,
   `trial-2`, …). Retries after an invalid reply use llmemo's `attempt`. Per-prompt
@@ -103,10 +124,17 @@ changed.
 - `llm-spend/<branch>/<developer>.jsonl`: llmemo's spending ledger, one row per paid
   call (subscription calls at their API-equivalent cost). Commit it with the entries it
   paid for.
-- `sim-playtests/runs/<run-id>.json` (planned): the run's settings, its games, and the entry
-  hashes it used, collected with llmemo's `on_entry_used` hook. Those hashes are what
-  llmemo's pruning needs.
-- Generated summaries in the playtest notation (committing them is optional).
+- `sim-playtests/specs/<id>.toml`: a run's settings (mode, prompts, trials, models,
+  effort, caps, spend limit). Write one per run; change settings by making a new spec,
+  so recorded runs stay reproducible.
+- `sim-playtests/runs/<id>.json` and `<id>.md`: written by
+  `uv run python tools/simplay.py run <id>`. The JSON has the settings, every game, usage
+  per game, and the cache entries used (collected with llmemo's `on_entry_used` hook,
+  for pruning). The Markdown has a summary table, usage, and each game in playtest
+  notation with the clue-giver's private plans. `simplay.py all` (part of
+  `tools/run_all.py`) replays every spec that has a recorded run.
+- `uv run python tools/simplay.py preview <id> <prompt>` prints the requests a game
+  starts with, without calling a model.
 
 Notes:
 

@@ -1,0 +1,223 @@
+# Human-guessed playtests, transcribed for simulated replay and calibration.
+# See docs/simulated-playtesting.md. Contains answers: guessers must not read it.
+#
+# Each game: the prompt as it is now in data/prompts.csv, the source log, the human
+# result (solved / failed / skipped), the step it was solved at if the log says, guesses
+# the clue-giver answered "Yes" to, extra accepted answers, and the clue lines split
+# into steps (one guesser turn after each).
+#
+# The logs record the final clue sequence, not where each guess turn began. Unless a
+# game's note says otherwise, a new step starts at each pawn. Picture-detail comments
+# are kept, since the human guesser saw where the marker sat.
+
+[[game]]
+prompt = "Pizza"
+source = "playtests/2026-11-16-claude-clues.md"
+human = "solved"
+human_steps = 1
+steps = [["?g A14", "+ H4", "+ F8"]]
+
+[[game]]
+prompt = "Umbrella"
+source = "playtests/2026-11-16-claude-clues.md"
+human = "solved"
+human_steps = 1
+steps = [["?g A1", "+ C4", "+ E1"]]
+
+[[game]]
+prompt = "Penguin"
+source = "playtests/2026-11-16-claude-clues.md"
+human = "solved"
+human_steps = 3
+note = "Split into 3 steps to match the log's step count."
+steps = [
+    ["?g A4", "+ Black", "+ White", "+ E1"],
+    ["+ A11"],
+    ["!r B11", "+ E11"],
+]
+
+[[game]]
+prompt = "Food truck"
+source = "playtests/2026-11-16-claude-clues.md"
+human = "solved"
+human_steps = 1
+steps = [["?g A12", "+ A14"]]
+
+[[game]]
+prompt = "Selfie"
+source = "playtests/2026-11-16-claude-clues.md"
+human = "failed"
+note = "Passed after step 4. Split into 4 steps to match."
+steps = [
+    ["?g H14", "+ C14", "+ C11"],
+    ["!r A1", "+ C7", "+ C14"],
+    ["+ D11", "+ F11"],
+    ["+ E8"],
+]
+
+[[game]]
+prompt = "Lifeguard"
+source = "playtests/2026-11-16-claude-clues.md"
+human = "solved"
+human_steps = 4
+steps = [
+    ["?g A3", "+ C4", "+ A11", "+ D10"],
+    ["!r B13", "+ Red"],
+    ["!y F1", "+ F4"],
+    ["!b A2", "+ F3", "+ D5"],
+]
+
+[[game]]
+prompt = "Break the ice"
+source = "playtests/2026-11-16-claude-clues.md"
+human = "solved"
+human_steps = 9
+yes = ["A break in the clouds", "Hail", "Ice cube"]
+note = "Solved at step 9. The split into 9 steps is a reconstruction."
+steps = [
+    ["?g B8", "+ F8"],
+    ["+ E1"],
+    ["!r E5", "+ Clear"],
+    ["+ E1"],
+    ["!y B1", "+ C1"],
+    ["+ B8", "+ G13"],
+    ["+r G7"],
+    ["-r all", "!r F3", "+ E1", "+ E5"],
+    ["+ G7"],
+]
+
+[[game]]
+prompt = "Spider-Man"
+source = "playtests/2026-11-16-claude-clues.md"
+human = "solved"
+human_steps = 1
+steps = [["?g B2", "+ Red", "+ Blue", "+ F10"]]
+
+[[game]]
+prompt = "Snooze button"
+source = "playtests/2026-11-16-claude-clues.md"
+human = "solved"
+human_steps = 3
+yes = ["Alarm clock"]
+accept = ["Hit the snooze button"]
+note = "Played as Hit the snooze button; Snooze button came at step 3, and the prompt was later shortened to it."
+steps = [
+    ["?g H14"],
+    ["!r A1", "+ D8"],
+    ["+ C13"],
+    ["!y E2", "+ B14", "+ G14", "+ C3"],
+    ["+ D4"],
+]
+
+[[game]]
+prompt = "Taco"
+source = "playtests/2026-11-16-tabletop.md"
+human = "skipped"
+steps = []
+
+[[game]]
+prompt = "Star Wars"
+source = "playtests/2026-11-16-tabletop.md"
+human = "solved"
+human_steps = 1
+steps = [["+g E2 [on the stars in the picture]", "+ D4"]]
+
+[[game]]
+prompt = "Drone"
+source = "playtests/2026-11-16-tabletop.md"
+human = "solved"
+note = "Solved after several tries on the same clue."
+steps = [["?g A13", "+ B11"]]
+
+[[game]]
+prompt = "Statue of Liberty"
+source = "playtests/2026-11-16-tabletop.md"
+human = "failed"
+note = "The main attempt of several."
+steps = [
+    ["?g B6 [pawn on the sculpture in the picture]", "+ G10"],
+    ["!r D11 [pawn on the hand]", "+ E3", "+ C9 [cube on the light with rays]"],
+    ["!y D9", "+ D9 [cube on the crown]"],
+    ["!b B1", "+ B1 x5", "+ E8", "+ F10"],
+]
+
+[[game]]
+prompt = "Couch potato"
+source = "playtests/2026-11-16-tabletop.md"
+human = "solved"
+note = "Solved with some thinking."
+steps = [
+    ["?g D2 [placed between C2 and D2: a person of either sex]"],
+    ["!b E8", "+ D3"],
+    ["+g B14", "+ A7"],
+]
+
+[[game]]
+prompt = "Déjà vu"
+source = "playtests/2026-11-16-tabletop.md"
+human = "skipped"
+steps = []
+
+[[game]]
+prompt = "Elvis Presley"
+source = "playtests/2026-11-16-tabletop.md"
+human = "failed"
+steps = [["?g A2", "+ B5", "+ D9 [cube on the crown]"]]
+
+[[game]]
+prompt = "Popcorn"
+source = "playtests/2026-11-16-tabletop.md"
+human = "failed"
+steps = [
+    ["?g A14", "+ F11 x8"],
+    ["!y Yellow", "+ H11"],
+    ["!r E3", "+ E4"],
+    ["!k White", "+ G10"],
+]
+
+[[game]]
+prompt = "Snail"
+source = "playtests/2026-11-16-tabletop.md"
+human = "failed"
+steps = [["?g A4", "+ C3", "+ Brown", "+ H10", "+ G3"]]
+
+[[game]]
+prompt = "Lighthouse"
+source = "playtests/2026-11-16-tabletop.md"
+human = "solved"
+human_steps = 1
+steps = [[
+    "!r B9",
+    "+ A8 [on the light bulb in the picture]",
+    "+ B14 [on the house in the picture]",
+]]
+
+[[game]]
+prompt = "Emoji"
+source = "playtests/2026-11-16-tabletop.md"
+human = "skipped"
+steps = []
+
+[[game]]
+prompt = "Once in a blue moon"
+source = "playtests/2026-11-16-tabletop.md"
+human = "solved"
+note = "Solved pretty quickly."
+steps = [["?g B8"], ["!r F11"], ["!b Blue"], ["!k E2"]]
+
+[[game]]
+prompt = "Lego"
+source = "playtests/2026-11-16-tabletop.md"
+human = "solved"
+note = "Solved with some thinking."
+steps = [["?g A13", "+ G7 x6 [the six cubes arranged in a 2×3 rectangle, like a brick's studs]"]]
+
+[[game]]
+prompt = "Rain check"
+source = "playtests/2026-11-16-tabletop.md"
+human = "failed"
+steps = [
+    ["?g B8"],
+    ["!b E1 [on the rain under the cloud]"],
+    ["!y F7", "+ C8", "+ H3"],
+]

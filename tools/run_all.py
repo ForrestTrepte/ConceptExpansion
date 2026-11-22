@@ -3,8 +3,8 @@
 
     uv run python tools/run_all.py
 
-Steps: mypy, pytest (LLM calls replay from the cache), the player aid, the prompt
-check, and the card PDF. Each step runs even if an earlier one failed, except that the
+Steps: mypy, pytest (LLM calls replay from the cache), the simulated runs (replayed
+from the cache), the player aid, the prompt check, and the card PDF. Each step runs even if an earlier one failed, except that the
 PDF is skipped when the prompt check fails. Exits nonzero if any step failed.
 `uv run` syncs the environment first, so there is no separate setup step.
 """
@@ -22,6 +22,7 @@ PY = sys.executable
 STEPS: list[tuple[str, list[str]]] = [
     ("mypy", [PY, "-m", "mypy"]),
     ("pytest", [PY, "-m", "pytest", "-q"]),
+    ("simulated runs", [PY, "tools/simplay.py", "all"]),
     ("player aid", [PY, "tools/player_aid.py"]),
     ("prompt check", [PY, "tools/cards.py", "check"]),
     ("card PDF", [PY, "tools/cards.py", "pdf"]),

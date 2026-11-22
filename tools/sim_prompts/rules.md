@@ -1,0 +1,72 @@
+# How Concept is played
+
+Concept is a party game. One player, the clue-giver, knows a secret answer: a word, a
+name, a title, or a common phrase. They clue it only by placing markers on a board of
+icons. Nobody says or writes any clue words. The guessers say guesses out loud.
+
+## The board
+
+The board has icons on a grid, plus 12 color swatches. Icons are written as grid codes
+(A1 to H14). Colors are written by name: Red, Orange, Yellow, Green, Blue, Purple, Pink,
+Brown, Black, Grey, White, Clear. A code stands for the whole icon with all its
+meanings. The clue-giver doesn't say which meaning they intend, so the guesser has to
+work it out from the other markers. The board reference below lists each icon's
+meanings and what is drawn in its picture, since players see the pictures too.
+
+## Markers
+
+- **Main Concept (group g):** the green `?` pawn shows what kind of thing the answer
+  is. Green cubes add details about it.
+- **Sub-Concepts (groups r, y, b, k):** the red, yellow, blue, and black `!` pawns,
+  each with cubes of its own color, describe related ideas: a part of the answer, a
+  feature of it, something it's connected to, or one word of a phrase.
+- Group colors carry no meaning. They only show which markers belong together. A color
+  is part of a clue only when a cube is on a color swatch.
+- Several cubes on one icon can mean "more" or a count.
+- Order matters: icons are read in the order they were placed.
+
+## Notation
+
+One marker per line:
+
+| Line | Meaning |
+|---|---|
+| `?g A4` | Place the Main Concept pawn on A4 |
+| `!r B11` | Place the red Sub-Concept pawn on B11 |
+| `+ B11` | Cube on B11, in the same group as the line before |
+| `+g G14` | Cube on G14 in group g (the group is named when it changes) |
+| `+ G4 x2` | Two cubes on G4 |
+| `- G4` | Remove a cube from G4 |
+| `-?g`, `-!r` | Remove a pawn |
+| `-r all` | Clear a whole group, pawn and cubes |
+
+## Example
+
+The rulebook's example, for the answer *Bee*:
+
+```
+?g A4
++ B11
++ Yellow
++ Black
+!r B11
++ G14
++ B4
+!y A14
++ F3
++ Yellow
+```
+
+An animal that flies and is yellow and black. A related idea: flying around plants.
+Another: something edible, liquid, and yellow.
+
+## Turns
+
+1. The clue-giver places some markers.
+2. The guesser gives a few guesses, or passes.
+3. The clue-giver answers with exactly one of: **Correct**, **Yes: \<one of the
+   guesses\>** (that guess is on the right track), or **No**. Then they may add or
+   remove markers, or give up. They give no other hints: no "warmer", no
+   explanations.
+4. This repeats until the answer is guessed, the guesser passes, or the clue-giver
+   gives up.

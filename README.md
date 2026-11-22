@@ -95,6 +95,8 @@ change dependencies, use `uv add` or `uv remove` (`--dev` for dev tools) and com
 | `uv run python tools/run_all.py` | Runs everything below except recording, and reports a summary | |
 | `uv run mypy` | Type-checks `tools/` and `tests/` in strict mode | |
 | `uv run pytest` | Runs the tests. LLM calls replay from the cache | [simulated-playtesting.md](docs/simulated-playtesting.md) |
+| `uv run python tools/simplay.py run <spec>` | Plays a simulated-playtest spec from `sim-playtests/specs/`, replaying from the cache | [simulated-playtesting.md](docs/simulated-playtesting.md#storing-results) |
+| `uv run python tools/simplay.py all` | Replays every recorded simulated run and rewrites its results | [simulated-playtesting.md](docs/simulated-playtesting.md#storing-results) |
 | `uv run python tools/player_aid.py` | Downloads the player aid; writes coded PDF and icon images to `output/player-aid/` | [data-and-printing.md](docs/data-and-printing.md#player-aid-with-icon-codes) |
 | `uv run python tools/cards.py check` | Validates `data/prompts.csv` | [data-and-printing.md](docs/data-and-printing.md#commands) |
 | `uv run python tools/cards.py pdf` | Builds `output/cards.pdf` | [data-and-printing.md](docs/data-and-printing.md#commands) |
@@ -172,19 +174,22 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-22 | Python code is type-checked with mypy in strict mode and tested with pytest (dev dependencies) | Owner's preference; the code was already fully annotated |
 | 2026-11-22 | LLM code and tests set `mode="replay"`; recording happens only with `LLMEMO_MODE=record` on a single command. Tests that use the cache are marked `llm`. The smoke check is a pytest test, not a script | Plain test runs are free and fail loudly on a cache miss; one definition of each request |
 | 2026-11-22 | The README's Development section lists every command; topic docs keep the details and options | One place to start, without duplicating each script's options |
-| 2026-11-22 | `tools/run_all.py` runs mypy, pytest, the player aid, the prompt check, and the PDF, always in replay mode. Add `simplay.py` (replay) when it exists | One command to check and rebuild everything, with no spending |
+| 2026-11-22 | `tools/run_all.py` runs mypy, pytest, the simulated runs, the player aid, the prompt check, and the PDF, always in replay mode | One command to check and rebuild everything, with no spending |
+| 2026-11-22 | Simulated runs are defined by spec files (`sim-playtests/specs/`); results go to `sim-playtests/runs/`. Both roles get the icon and picture tables cut from the docs, never the docs' intros or worklists | Recorded runs stay reproducible; the worklists name prompts |
+| 2026-11-22 | In simulated games, a separate judge (fixed model: Sonnet, low effort) decides whether a guess is correct, seeing only the answer and the guesses. The clue-giver only answers Yes or No | Scoring must not change when clue-giver models are compared, and a clue-giver may judge its own success too generously |
+| 2026-11-22 | Human clue sequences for replay are transcribed in `sim-playtests/human-games.toml`, with a new step at each pawn unless the log gives a step count | The logs don't record where each guess turn began |
 
 ## Next steps
 
-1. **Simulated playtesting with LLMs: build the harness (phase 1).** The plan is in
-   [docs/simulated-playtesting.md](docs/simulated-playtesting.md): one model gives
-   clues, another guesses, calibrated against the human playtests. llmemo is set up,
-   and `tests/test_llm_smoke.py` replays one small call through each backend.
-   Next, write `tools/simplay.py` (replay by default; record with `LLMEMO_MODE=record`),
-   add a replay run of it to `tools/run_all.py`, and dry-run 2–3 prompts to measure usage and speed (record
-   only when the owner asks). The pictured-elements re-banding in step 2 can go ahead
-   in parallel. Finish it before calibrating, since edits to the icon docs invalidate
-   the cache.
+1. **Simulated playtesting with LLMs: phase 1 dry run.** The plan is in
+   [docs/simulated-playtesting.md](docs/simulated-playtesting.md). `tools/simplay.py`
+   is written and tested with scripted replies; nothing is recorded yet. Next, when the
+   owner asks, record the two dry-run specs
+   (`LLMEMO_MODE=record uv run python tools/simplay.py run dry-run dry-run-replay`),
+   commit the cache, ledger, and `sim-playtests/runs/`, and report usage and speed per
+   game. The owner reviews the game logs before calibration (phase 2). The
+   pictured-elements re-banding in step 2 can go ahead in parallel. Finish it before
+   calibrating, since edits to the icon tables invalidate the cache.
 2. **Reassemble cards 1–18 (expected check errors until then).** Rebuild every card
    from the whole pool, using:
    - **Tabletop re-banding:** after the 2026-11-16 playtest, the owner moved Taco,
