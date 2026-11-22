@@ -279,12 +279,12 @@ def main(argv: list[str] | None = None) -> int:
     except (OSError, ValueError) as e:
         errors.append(str(e))
     if not errors:
-        e, warnings = check(prompts)
-        errors += e
+        check_errors, warnings = check(prompts)
+        errors += check_errors
         for w in warnings:
             print(f"warning: {w}", file=sys.stderr)
-    for e in errors:
-        print(f"error: {e}", file=sys.stderr)
+    for error in errors:
+        print(f"error: {error}", file=sys.stderr)
     if errors:
         return 1
 

@@ -42,10 +42,11 @@ def guesses(value: object) -> list[str]:
     """Validate a structured reply: a list of up to 3 non-empty strings."""
     if not isinstance(value, dict) or not isinstance(value.get("guesses"), list):
         raise ValueError(f"reply has no guesses list: {value!r}")
-    out = value["guesses"]
-    if not 1 <= len(out) <= 3 or not all(isinstance(g, str) and g.strip() for g in out):
+    out: list[object] = value["guesses"]
+    strings = [g for g in out if isinstance(g, str) and g.strip()]
+    if not 1 <= len(out) <= 3 or len(strings) != len(out):
         raise ValueError(f"expected 1-3 guesses: {out!r}")
-    return out
+    return strings
 
 
 def main() -> None:
