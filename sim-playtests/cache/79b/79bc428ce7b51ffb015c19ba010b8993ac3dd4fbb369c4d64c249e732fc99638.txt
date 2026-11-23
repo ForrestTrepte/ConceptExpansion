@@ -1,0 +1,17 @@
+The answer is: Sloth
+
+The game so far:
+
+Step 1, markers placed:
+?g A4
++ C3 x2
++ Brown
+!r B4
++ H12
+Your private plan: Animal + slow + brown, then sub-concept: hanging below in trees. If they say turtle/snail, add tree/hanging and remove ambiguity.
+Board now:
+?g A4 | C3, C3, Brown
+!r B4 | H12
+Guesses: worm
+
+The judge found none of the last guesses correct. Answer Yes or No to them, then add markers or give up. The guesser has 9 turns left.

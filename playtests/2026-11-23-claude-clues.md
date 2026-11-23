@@ -285,3 +285,247 @@
 - Band: blue (draft) · Outcome: passed · Clue-giver confidence: 4/5
 - Clue-giver plans: Food, liquid, hot; then maybe bowl/spoon (hollow). / Steer away from drinks: add eaten with a utensil, not a drink; add spoon-like cue via hand/action eating, and cold-weather/comfort. Add Chicken-like? Keep simple. / Add a bowl/spoon-like cue: round hollow plus liquid food, and chicken/animal for chicken soup hints.
 - Comments: Weird clues. Game/toy? Cold love?
+
+### Pool: Writer's block
+- Clue-giver: Claude (claude-opus-5-5, effort high) · Guessed: no · Verdict: unclear
+- Clues:
+  ```
+  ?g A8
+  + E11
+  !r A5
+  + A3
+  !y G7
+  + C4
+
+  -y C4
+  + A13
+  +g F7
+  + D6
+  ```
+- Notable guesses: no defender
+- Band: red (draft) · Outcome: passed · Clue-giver confidence: 4/5
+- Clue-giver plans: Main concept: no ideas (idea + zero). Sub r: writer (writing + occupation). Sub y: block (cube + wall). / The wall marker pulled them toward "defender", so I'm swapping it for the toy-block icon so the cube reads as "block". I'm also adding blank paper to the main concept for the stuck writer.
+- Game ID (the `game` tag on its cache entries): 2026-11-23/Writer's block
+- Comments: seems difficult, I would have first clued writer and then gone for the no writing part. elements were there in the clue, but I couldn't make the connection. may be more difficult than red?
+
+### Pool: Golden ticket
+- Clue-giver: Claude (claude-opus-5-5, effort high) · Guessed: no · Verdict: unclear
+- Clues:
+  ```
+  ?g F7
+  + Yellow
+  + C8
+  !r A14
+  + Brown
+
+  +g G6
+  !y A6
+  + C1
+  + B9
+  ```
+- Notable guesses: gold leaf, chocolate (Yes), chocolate coins
+- Band: red (draft) · Outcome: passed · Clue-giver confidence: 4/5
+- Clue-giver plans: Main: paper slip that's yellow/gold and valuable (ticket). Sub: brown food (chocolate) for the Wonka link. Next I can add a book/movie or a small rectangle shape. / Chocolate is the Wonka connection. Make the main item a gold rectangular slip of paper, and add a movie sub (child plus factory) to point toward Charlie and the Chocolate Factory.
+- Game ID (the `game` tag on its cache entries): 2026-11-23/Golden ticket
+- Comments: Confusing clues. I see the elements but they didn't lead me there. Could have focused on the words Golden and Ticket. Could have focused on willy wonka.as hard for me to follow--didn't fully get either.
+
+### Pool: James Bond
+- Clue-giver: Claude (claude-opus-5-5, effort high) · Guessed: no · Verdict: keep
+- Clues:
+  ```
+  ?g B2
+  + D2
+  + A6
+  !r D4
+  + Black
+
+  !y E11
+  + E11
+  !b C14
+  + Clear
+
+  -b all
+  !b B13
+  + Black
+  + D2
+
+  !k A9
+  + Red
+  + White
+  + Blue
+  + D9
+
+  +y F11 x7
+  ```
+- Notable guesses: batman, black panther, the invisible man, invisible, blind, zorro, lone ranger
+- Band: red (draft) · Outcome: passed · Clue-giver confidence: 4/5
+- Clue-giver plans: Start with a male fictional movie character linked to weapons. Next I'll hint at a spy using eye/hidden ideas, or at 007 with E11 x2. / Hint at 00 (double zero) and a secret agent watching unseen. Next, add a black tuxedo (B13+Black) or a martini (Clear glass drink). / The eye + Clear group pointed them toward invisibility, so I'm taking it off and putting a black tuxedo there instead (clothing + black + male). Next I'll try a martini (Clear drink + G14 for shaken) or casino money. / Add British ties (a red/white/blue flag and the crown, for His Majesty's service) to point toward a British agent. Next I'll try a martini (A14 + Clear + G14 for shaken) or put more weight on the 00. / Spell 007 outright: the double zero already in yellow, plus 7 cubes on F11 for the number seven. If that doesn't land, try a shaken martini (A14 + Clear + G14) or casino money.
+- Game ID (the `game` tag on its cache entries): 2026-11-23/James Bond
+- Comments: 007 was a good clue, but putting the ! on 0 a cube on zero, and then 7 didn't trigger it for me.
+
+### Pool: The Sound of Music
+- Clue-giver: Claude (claude-opus-5-5, effort high) · Guessed: no · Verdict: unclear
+- Clues:
+  ```
+  ?g A6
+  + B5
+  !r C13
+  !y B5
+
+  !b C9
+  + C2
+  !k A9
+  + Red
+  + White
+
+  -k all
+  !k G8
+  + G12
+  + B4
+  ```
+- Notable guesses: Amadeus, film score, soundtrack (Yes), mulan
+- Band: red (draft) · Outcome: passed · Clue-giver confidence: 5/5
+- Clue-giver plans: Main Concept: a movie musical. Then one Sub-Concept for each title word: Sound (C13) and Music (B5). If they need more, add nuns (C9 + Feminine) and mountains (G8/G12). / Soundtrack has both title words, so I'll steer from there. Add nuns (religion + female) and Austria (flag red/white) to point to the specific musical film. Next, mountains (G8 + G12) or the children/family (B1 x7). / Red/white flag probably made them think of China (Mulan), so I'll swap it for the hills/mountains with nature. Next, add the seven children (C1 x7) or point the red group more firmly at the word "sound".
+- Game ID (the `game` tag on its cache entries): 2026-11-23/The Sound of Music
+- Comments: very abstract words--maybe not the best prompt because there's little to latch on to, although maybe depicting the movie itself?
+
+### Pool: Sloth
+- Clue-giver: Claude (claude-opus-5-5, effort high) · Guessed: no · Verdict: unclear
+- Clues:
+  ```
+  ?g A4
+  + C3 x2
+  + Brown
+  !r B4
+  + H12
+
+  +r D11
+  !y E8
+  + C11
+  + H12
+  ```
+- Notable guesses: worm
+- Band: blue (draft) · Outcome: passed · Clue-giver confidence: 4/5
+- Clue-giver plans: Animal + slow + brown, then sub-concept: hanging below in trees. If they say turtle/snail, add tree/hanging and remove ambiguity. / Show the hanging from tree branches by its arms, upside down. If they guess koala/monkey, say Yes and stress slowness more.
+- Game ID (the `game` tag on its cache entries): 2026-11-23/Sloth
+- Comments: pretty good clues, except I don't know what the opposite of head below was for
+
+### Pool: Polar bear
+- Clue-giver: Claude (claude-opus-5-5, effort high) · Guessed: yes (step 2) · Verdict: keep
+- Clues:
+  ```
+  ?g A4
+  + White
+  + E1
+  + G10
+
+  !r A13
+  !y A9
+  + G12
+  + E1
+  ```
+- Notable guesses: snow leopard, mountain goat, white tiger
+- Band: blue (draft) · Outcome: solved · Clue-giver confidence: 4/5
+- Clue-giver plans: Start with a big white animal from the cold. If they guess seal or penguin, add the teddy bear (A13) to point to bear, or the globe and up arrow for the North Pole. / Point to "bear" with the teddy bear icon, and to the North Pole with the globe plus the top/above icon. If they guess bear or arctic, steer to polar bear.
+- Game ID (the `game` tag on its cache entries): 2026-11-23/Polar bear
+
+### Pool: Talk of the town
+- Clue-giver: Claude (claude-opus-5-5, effort high) · Guessed: no · Verdict: unclear
+- Clues:
+  ```
+  ?g B8
+  !r B8
+  + D14
+  !y B9
+  + H10
+
+  +g B1
+  + E9
+
+  +y B1
+  ```
+- Notable guesses: mouth (Yes), single-story building, village, gossip (Yes)
+- Band: red (draft) · Outcome: passed · Clue-giver confidence: 3/5
+- Clue-giver plans: Main concept is an expression. Clue the word "talk" with the speech bubble and mouth, and "town" with buildings marked small. Next I can add the group-of-people icon to suggest everyone gossiping. / "Mouth" points toward "talk". Add society plus multitude to the main concept so it reads as everyone talking, as in gossip. Then push harder on "town" if they still miss it. / Gossip is the meaning of the phrase. Add community to the yellow group so it reads as a town, and they can put it together as a talk + town phrase. If they get stuck on "village", add G11 to the yellow group to push it toward something bigger.
+- Game ID (the `game` tag on its cache entries): 2026-11-23/Talk of the town
+
+### Pool: Mister Rogers
+- Clue-giver: Claude (claude-opus-5-5, effort high) · Guessed: yes (step 2) · Verdict: keep
+- Clues:
+  ```
+  ?g A2
+  + D2
+  + A7
+  + C1
+  !r B13
+  + Red
+
+  +g C5
+  !y B14
+  + B14 x2
+  + B1
+  ```
+- Notable guesses: child actor
+- Band: black (draft) · Outcome: solved · Clue-giver confidence: 4/5
+- Clue-giver plans: Real man, TV, children's show. Then add the red cardigan (clothing + red) and the neighborhood (houses) as Sub-Concepts. / Steer toward a kind TV host for children. Add the neighborhood (several houses plus a community) and kindness (heart, happy). Next, maybe add the puppets or the shoe-changing.
+- Game ID (the `game` tag on its cache entries): 2026-11-23/Mister Rogers
+
+### Pool: Pandora's box
+- Clue-giver: Claude (claude-opus-5-5, effort high) · Guessed: yes (step 1) · Verdict: keep
+- Clues:
+  ```
+  ?g A1
+  + C9
+  + C2
+  !r D5
+  + E10
+  ```
+- Band: black (draft) · Outcome: solved · Clue-giver confidence: 4/5
+- Clue-giver plans: Clue it as a mythological box tied to a woman, with bad things inside it. If they get Greek myth but not the box, push on the box and the evils coming out.
+- Game ID (the `game` tag on its cache entries): 2026-11-23/Pandora's box
+- Comments: fun
+
+### Pool: Rat race
+- Clue-giver: Claude (claude-opus-5-5, effort high) · Guessed: no · Verdict: unclear
+- Clues:
+  ```
+  ?g A3
+  + G14
+  !r A4
+  + H10
+  + Grey
+  !y D3
+
+  +y A12
+  + B3
+  +r D5
+
+  +g C8
+  + B9
+  + D8
+
+  !k A14
+  + Yellow
+  + H9
+
+  +k G5
+  +g D6
+
+  -k all
+  +r C10
+  + F10
+
+  -g all
+  ?g B8
+  + A3
+  + G14
+  + D6
+
+  +g C8
+  + B9
+  +r H11
+  ```
+- Notable guesses: breeder, rabbit breeder, exterminator, horse race (Yes), thoroughbred, horse breeder, stable, stablehand, beekeeper, wheat, hay, veterinarian, the pound, animal shelter, animal control, dogcatcher, animal hospital
+- Band: red (draft) · Outcome: passed · Clue-giver confidence: 4/5
+- Clue-giver plans: Clue the two words: rat (small grey animal) and race (fast). Use the work/cycle meaning as the main concept to point at the phrase. / The guesser read the D3 rabbit as the animal. I'm making yellow clearly mean "race" by adding cars and sport. If they still miss rat, I'll add disease or sewer clues to red. / "Race" has landed through the horse race guess. Now I'll show that the main concept is the daily money-and-city work grind, and that the animal in the phrase is the small grey disease animal (rat), not a horse. / The guesser is stuck on horses. I'll add a cheese group (yellow food with holes) to point the small grey animal toward rodents, so they get to rat and then the rat race grind. / I'll make the black group a clear cheese wedge (yellow triangle food with holes) so the small grey animal reads as a rodent that eats cheese, which should lead to rat. I'll also add a negative marker to the main concept so the endless work-for-money cycle reads as a grind, not a job. / I'm removing the misleading cheese group. I'm also making red a lab rat (small grey animal, disease, science, maze grid) to get to "rat", then combining it with race and the daily grind. / The occupation pawn has them guessing animal-related jobs. I'll reframe the main concept as an expression (B8) about an endless work cycle, so they put the animal word and the race word together into a phrase. / I'll keep the expression framing and add money and city to it, so it reads as the corporate grind. I'll also add a thin tail to red to push from a generic animal toward rat.
+- Game ID (the `game` tag on its cache entries): 2026-11-23/Rat race

@@ -6,6 +6,7 @@ import asyncio
 from pathlib import Path
 from typing import Any
 
+import illustrate_logs
 import play
 import playtest_logs
 import pytest
@@ -86,3 +87,11 @@ def test_pool_excludes_logged_and_assigned_prompts() -> None:
 def test_play_requires_record_mode(monkeypatch: pytest.MonkeyPatch) -> None:
     monkeypatch.delenv("LLMEMO_MODE", raising=False)
     assert play.cmd_play("play", typing()) == 2
+
+
+def test_live_notice_links_current_md(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
+    monkeypatch.chdir(simplay.ROOT)
+    monkeypatch.setattr(illustrate_logs, "ICONS", tmp_path)  # icons exist
+    assert play.live_notice().endswith("output/illustrated/play/current.md")
+    monkeypatch.setattr(illustrate_logs, "ICONS", tmp_path / "missing")
+    assert "player_aid.py" in play.live_notice()

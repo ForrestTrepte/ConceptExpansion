@@ -1,0 +1,166 @@
+{
+  "contentSha256": "8ef1f97487b4187891b00e0551ac4db502e2d48042a7944e1aff8e0472acd6ac",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "clue-giver",
+    "request": {
+      "backend": "claude-cli",
+      "effort": "high",
+      "jsonSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "clue",
+              "give_up"
+            ],
+            "type": "string"
+          },
+          "lines": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "plan": {
+            "type": "string"
+          },
+          "verdict": {
+            "enum": [
+              "yes",
+              "no"
+            ],
+            "type": "string"
+          },
+          "yes_to": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "verdict",
+          "yes_to",
+          "action",
+          "plan",
+          "lines"
+        ],
+        "type": "object"
+      },
+      "model": "claude-opus-5-5",
+      "prompt": {
+        "$llmemo.text": "2f7f43367a90d8bbbdb4780931b15928aa69eb2a1040609f3d6ac53a5aae0823"
+      },
+      "system": [
+        {
+          "$llmemo.text": "29d73c99f00758a55ed046d05b0403c1ca98589e4f1e9e1a977874ccbdd10cbc"
+        },
+        {
+          "$llmemo.text": "f373fc6916e23cbfb200734dc22a2e5e9c5e4036a219150f66eed09550c1df85"
+        },
+        {
+          "$llmemo.text": "2fde04bc2e1af13938737fe97d53aa72e4604167970b9d0beb7f36b50e0a89fd"
+        }
+      ]
+    },
+    "variant": "play"
+  },
+  "meta": {
+    "billing": "subscription",
+    "codeVersion": "9348bfa-dirty",
+    "costUsd": 0.0270788,
+    "latencyMs": 12048,
+    "recordedAt": "2026-11-23T21:33:52.394Z",
+    "recordedBy": "developer",
+    "servedBy": "firstParty",
+    "servedModel": "claude-opus-5-5",
+    "tags": {
+      "game": "2026-11-23/Rat race",
+      "run": "play-play"
+    },
+    "toolVersion": "2.1.330 (Claude Code)",
+    "usage": {
+      "cacheReadTokens": 6394,
+      "cacheWriteTokens": 1729,
+      "inputTokens": 2,
+      "outputTokens": 598,
+      "reasoningTokens": 362
+    }
+  },
+  "reply": {
+    "api_error_status": null,
+    "is_error": false,
+    "modelUsage": {
+      "claude-opus-5-5": {
+        "cacheCreationEphemeral1hInputTokens": 1729,
+        "cacheCreationEphemeral5mInputTokens": 0,
+        "cacheCreationInputTokens": 1729,
+        "cacheReadInputTokens": 6394,
+        "canonicalModel": "claude-opus-5-5",
+        "contextWindow": 1000000,
+        "costBasis": "list",
+        "costUSD": 0.0270788,
+        "inputTokens": 2,
+        "maxOutputTokens": 128000,
+        "outputTokens": 598,
+        "provider": "firstParty",
+        "thinkingTokens": 362,
+        "webSearchRequests": 0
+      }
+    },
+    "num_turns": 2,
+    "permission_denials": [],
+    "result": "{\"verdict\":\"no\",\"yes_to\":\"\",\"action\":\"clue\",\"plan\":\"The occupation pawn has them guessing animal-related jobs. I'll reframe the main concept as an expression (B8) about an endless work cycle, so they put the animal word and the race word together into a phrase.\",\"lines\":[\"-g all\",\"?g B8\",\"+ A3\",\"+ G14\",\"+ D6\"]}",
+    "stop_reason": "tool_use",
+    "structured_output": {
+      "action": "clue",
+      "lines": [
+        "-g all",
+        "?g B8",
+        "+ A3",
+        "+ G14",
+        "+ D6"
+      ],
+      "plan": "The occupation pawn has them guessing animal-related jobs. I'll reframe the main concept as an expression (B8) about an endless work cycle, so they put the animal word and the race word together into a phrase.",
+      "verdict": "no",
+      "yes_to": ""
+    },
+    "subtype": "success",
+    "terminal_reason": "completed",
+    "type": "result",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 1729,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 1729,
+      "cache_read_input_tokens": 6394,
+      "fallback_credit": null,
+      "inference_geo": "global",
+      "input_tokens": 2,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 1729,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 1729,
+          "cache_read_input_tokens": 6394,
+          "input_tokens": 2,
+          "output_tokens": 598,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 598,
+      "output_tokens_details": {
+        "thinking_tokens": 362
+      },
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "contentSha256": "b8cac7ab6971074a91cb9c40194458f52f3b381f8f8644ed772ff31a80044dab",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "judge",
+    "request": {
+      "backend": "claude-cli",
+      "effort": "low",
+      "jsonSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "correct": {
+            "items": {
+              "type": "boolean"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "correct"
+        ],
+        "type": "object"
+      },
+      "model": "claude-sonnet-5-5",
+      "prompt": {
+        "$llmemo.text": "89b10880fda55b4af2c3771dfb82b6ccaa48f4456100942ea9893cef30b1f24c"
+      },
+      "system": {
+        "$llmemo.text": "a30e1e320b803d135fac2d13007c4b1a2ecd8b9d6e2e4ecb7784a9a9f44b0851"
+      }
+    }
+  },
+  "meta": {
+    "billing": "subscription",
+    "codeVersion": "9348bfa-dirty",
+    "costUsd": 0.003208,
+    "latencyMs": 2098,
+    "recordedAt": "2026-11-23T21:16:22.418Z",
+    "recordedBy": "developer",
+    "servedBy": "firstParty",
+    "servedModel": "claude-sonnet-5-5",
+    "tags": {
+      "game": "2026-11-23/Polar bear",
+      "run": "play-play"
+    },
+    "toolVersion": "2.1.330 (Claude Code)",
+    "usage": {
+      "cacheReadTokens": 760,
+      "cacheWriteTokens": 642,
+      "inputTokens": 2,
+      "outputTokens": 56,
+      "reasoningTokens": 0
+    }
+  },
+  "reply": {
+    "api_error_status": null,
+    "is_error": false,
+    "modelUsage": {
+      "claude-sonnet-5-5": {
+        "cacheCreationEphemeral1hInputTokens": 642,
+        "cacheCreationEphemeral5mInputTokens": 0,
+        "cacheCreationInputTokens": 642,
+        "cacheReadInputTokens": 760,
+        "canonicalModel": "claude-sonnet-5-5",
+        "contextWindow": 1000000,
+        "costBasis": "list",
+        "costUSD": 0.003208,
+        "inputTokens": 2,
+        "maxOutputTokens": 128000,
+        "outputTokens": 56,
+        "provider": "firstParty",
+        "thinkingTokens": 0,
+        "webSearchRequests": 0
+      }
+    },
+    "num_turns": 2,
+    "permission_denials": [],
+    "result": "{\"correct\":[false,false]}",
+    "stop_reason": "tool_use",
+    "structured_output": {
+      "correct": [
+        false,
+        false
+      ]
+    },
+    "subtype": "success",
+    "terminal_reason": "completed",
+    "type": "result",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 642,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 642,
+      "cache_read_input_tokens": 760,
+      "fallback_credit": null,
+      "inference_geo": "global",
+      "input_tokens": 2,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 642,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 642,
+          "cache_read_input_tokens": 760,
+          "input_tokens": 2,
+          "output_tokens": 56,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 56,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

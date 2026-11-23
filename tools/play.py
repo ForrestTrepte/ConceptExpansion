@@ -59,6 +59,20 @@ def describe(lines: list[str], meanings: dict[str, str]) -> list[str]:
     return out
 
 
+def live_notice() -> str:
+    """Where to see the board with pictures, as a path the terminal can link."""
+    if not illustrate_logs.ICONS.is_dir():
+        return (
+            "For a board with icon pictures, run `uv run python tools/player_aid.py` once,"
+            " then start again."
+        )
+    try:
+        path = LIVE.relative_to(Path.cwd())
+    except ValueError:
+        path = LIVE
+    return f"Board with icon pictures (open in VS Code's Markdown preview): {path}"
+
+
 def write_live(game: Game, meanings: dict[str, str]) -> None:
     if not illustrate_logs.ICONS.is_dir():
         return
@@ -216,6 +230,7 @@ def cmd_play(spec_id: str, read: Input = input) -> int:
         answer, band = random.choice(pool)
         game_id = game_key(answer)
         print("\nNew prompt. The clue-giver is thinking…")
+        print(live_notice())
         try:
             game = asyncio.run(play_one(spec, answer, read, model))
         except UsageLimitReached as e:

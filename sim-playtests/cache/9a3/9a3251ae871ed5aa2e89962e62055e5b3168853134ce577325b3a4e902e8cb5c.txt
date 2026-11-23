@@ -1,0 +1,31 @@
+The answer is: Rat race
+
+The game so far:
+
+Step 1, markers placed:
+?g A3
++ G14
+!r A4
++ H10
++ Grey
+!y D3
+Your private plan: Clue the two words: rat (small grey animal) and race (fast). Use the work/cycle meaning as the main concept to point at the phrase.
+Board now:
+?g A3 | G14
+!r A4 | H10, Grey
+!y D3
+Guesses: breeder, rabbit breeder
+Clue-giver: No
+
+Step 2, markers placed:
++y A12
++ B3
++r D5
+Your private plan: The guesser read the D3 rabbit as the animal. I'm making yellow clearly mean "race" by adding cars and sport. If they still miss rat, I'll add disease or sewer clues to red.
+Board now:
+?g A3 | G14
+!r A4 | H10, Grey, D5
+!y D3 | A12, B3
+Guesses: exterminator, horse race
+
+The judge found none of the last guesses correct. Answer Yes or No to them, then add markers or give up. The guesser has 8 turns left.

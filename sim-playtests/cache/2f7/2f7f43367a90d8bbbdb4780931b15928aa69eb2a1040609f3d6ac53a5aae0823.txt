@@ -1,0 +1,80 @@
+The answer is: Rat race
+
+The game so far:
+
+Step 1, markers placed:
+?g A3
++ G14
+!r A4
++ H10
++ Grey
+!y D3
+Your private plan: Clue the two words: rat (small grey animal) and race (fast). Use the work/cycle meaning as the main concept to point at the phrase.
+Board now:
+?g A3 | G14
+!r A4 | H10, Grey
+!y D3
+Guesses: breeder, rabbit breeder
+Clue-giver: No
+
+Step 2, markers placed:
++y A12
++ B3
++r D5
+Your private plan: The guesser read the D3 rabbit as the animal. I'm making yellow clearly mean "race" by adding cars and sport. If they still miss rat, I'll add disease or sewer clues to red.
+Board now:
+?g A3 | G14
+!r A4 | H10, Grey, D5
+!y D3 | A12, B3
+Guesses: exterminator, horse race
+Clue-giver: Yes: horse race
+
+Step 3, markers placed:
++g C8
++ B9
++ D8
+Your private plan: "Race" has landed through the horse race guess. Now I'll show that the main concept is the daily money-and-city work grind, and that the animal in the phrase is the small grey disease animal (rat), not a horse.
+Board now:
+?g A3 | G14, C8, B9, D8
+!r A4 | H10, Grey, D5
+!y D3 | A12, B3
+Guesses: thoroughbred, horse breeder, stable, stablehand
+Clue-giver: No
+
+Step 4, markers placed:
+!k A14
++ Yellow
++ H9
+Your private plan: The guesser is stuck on horses. I'll add a cheese group (yellow food with holes) to point the small grey animal toward rodents, so they get to rat and then the rat race grind.
+Board now:
+?g A3 | G14, C8, B9, D8
+!r A4 | H10, Grey, D5
+!y D3 | A12, B3
+!k A14 | Yellow, H9
+Guesses: beekeeper
+Clue-giver: No
+
+Step 5, markers placed:
++k G5
++g D6
+Your private plan: I'll make the black group a clear cheese wedge (yellow triangle food with holes) so the small grey animal reads as a rodent that eats cheese, which should lead to rat. I'll also add a negative marker to the main concept so the endless work-for-money cycle reads as a grind, not a job.
+Board now:
+?g A3 | G14, C8, B9, D8, D6
+!r A4 | H10, Grey, D5
+!y D3 | A12, B3
+!k A14 | Yellow, H9, G5
+Guesses: wheat, hay
+Clue-giver: No
+
+Step 6, markers placed:
+-k all
++r C10
++ F10
+Your private plan: I'm removing the misleading cheese group. I'm also making red a lab rat (small grey animal, disease, science, maze grid) to get to "rat", then combining it with race and the daily grind.
+Board now:
+?g A3 | G14, C8, B9, D8, D6
+!r A4 | H10, Grey, D5, C10, F10
+!y D3 | A12, B3
+Guesses: veterinarian, the pound, animal shelter
+
+The judge found none of the last guesses correct. Answer Yes or No to them, then add markers or give up. The guesser has 4 turns left.
