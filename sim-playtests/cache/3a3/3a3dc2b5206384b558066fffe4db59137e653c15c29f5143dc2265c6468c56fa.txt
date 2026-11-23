@@ -1,0 +1,9 @@
+New prompt.
+
+Step 1, markers placed:
++g E2 [cube on the stars in the picture]
++ D4
+Board now:
+g (no pawn) | E2, D4
+
+Give up to 3 guesses, best first, or pass.

@@ -1,0 +1,29 @@
+New prompt.
+
+Step 1, markers placed:
+?g H14
++ C14
++ C11
+Board now:
+?g H14 | C14, C11
+Guesses: Wink, Blink, Headbutt
+Clue-giver: No
+
+Step 2, markers placed:
+!r A1
++ C7
++ C14
+Board now:
+?g H14 | C14, C11
+!r A1 | C7, C14
+Guesses: Take a selfie, Facial recognition, Webcam
+Clue-giver: No
+
+Step 3, markers placed:
++r D11
++ F11
+Board now:
+?g H14 | C14, C11
+!r A1 | C7, C14, D11, F11
+
+Give up to 3 guesses, best first, or pass.

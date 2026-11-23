@@ -1,0 +1,9 @@
+New prompt.
+
+Step 1, markers placed:
+?g B6 [pawn on the sculpture in the picture]
++ G10
+Board now:
+?g B6 | G10
+
+Give up to 3 guesses, best first, or pass.

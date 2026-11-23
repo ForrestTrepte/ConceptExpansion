@@ -188,15 +188,19 @@ Newest at the bottom. Include the date and a one-line reason.
 ## Next steps
 
 1. **Simulated playtesting with LLMs: calibrate (phase 2).** The plan is in
-   [docs/simulated-playtesting.md](docs/simulated-playtesting.md). The phase 1 dry run
-   is recorded (`sim-playtests/runs/dry-run-*.md`): $0.13 API-equivalent for 6 games,
-   3–5 s per call. The model guesser (Haiku) is far easier than people: from the human
-   clues it solved Popcorn (humans failed) and Break the ice in 1 step (humans needed 9).
-   Next: a `human-clues` run on all 20 human games with clues (on active prompts), then try guesser levers
-   (fewer guesses, first-instinct wording, effort) and, if they don't close the gap,
-   OpenRouter guessers (phase 3). Record only when the owner asks. Finish the
-   pictured-elements re-banding in step 2 before calibrating, since edits to the icon
-   tables invalidate the cache.
+   [docs/simulated-playtesting.md](docs/simulated-playtesting.md). The baseline is
+   recorded (`sim-playtests/runs/calibrate-baseline.md`: the 20 human-guessed games
+   with clues, Haiku guesser, 3 trials, $0.43). It doesn't match people yet: Haiku
+   solved 5 of the 6 human failures every time (Statue of Liberty, Elvis Presley,
+   Snail, Popcorn, Rain check) and missed Umbrella, Couch potato, and mostly
+   Lighthouse, which humans solved. Written picture-detail comments ("[cube on the
+   crown]") give the model a much stronger hint than a cube on a picture gave people.
+   Next: report results with and without games that have such comments, then try
+   guesser levers (one guess per turn, first-instinct wording) against the baseline,
+   and OpenRouter guessers (phase 3) if those don't close the gap. Record only when
+   the owner asks. Edits to the icon or picture tables invalidate the cache; the
+   re-banding in step 2 and deleting the audit section of `pictured-elements.md`
+   don't, since only the tables are sent.
 2. **Reassemble cards 1–18 (expected check errors until then).** Rebuild every card
    from the whole pool, using:
    - **Tabletop re-banding:** after the 2026-11-16 playtest, the owner moved Taco,
