@@ -186,19 +186,22 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-22 | `human-clues` runs read the playtest logs directly; `human-games.toml` is gone. Text logs mark pauses (where the guesser replied) with blank lines in clue blocks; tabletop logs never have pauses, and the script splits them at each change of group. `tools/playtest_logs.py check` validates the log format | One source of truth. At the table, clues and guesses overlap, so there are no pauses to record |
 | 2026-11-22 | Illustrated copies of the playtest logs and simulated runs are generated into `output/illustrated/` (not committed): each clue block becomes icon pictures, each followed by its pawn or cubes in the group's color, plus the board after each step when it differs | Reading grid codes is slow. The icons are copyrighted, so only the text logs are committed |
 | 2026-11-23 | `simplay.py play`: the owner guesses in the terminal against the clue-giver model, on random unassigned drafts not in any log. Games are logged as `### Pool:` entries in that day's `claude-clues` log, with real pauses | Calibration needs more human guessing; each game also tests the model's clues on a person and can be replayed to model guessers |
+| 2026-11-23 | Specs choose the board reference format: `tables` (default; the docs' tables as they are) or `list` (one line per icon, meanings and picture together, no backgrounds). `play` now uses Opus at high effort with `list`; play logs record the clue-giver's model and effort | Sonnet at medium effort picked codes that didn't match its own plans, likely from reading two icons per table row. A setting keeps recorded runs replaying |
 
 ## Next steps
 
 1. **Simulated playtesting with LLMs: calibrate (phase 2).** The plan and findings
    are in [docs/simulated-playtesting.md](docs/simulated-playtesting.md#findings-so-far-2026-11-23).
    Prompt-side levers on Haiku don't close the gap with human guessers (it solves
-   15–18 of the 18 games humans failed). Now collecting more human data: the owner
-   plays `simplay.py play` (guessing against the model clue-giver; see the README
-   command table). Once there are a few dozen games, rerun the `human-clues`
-   comparison on them, and consider non-Claude guessers through OpenRouter
-   (phase 3). Record only when the owner asks. Edits to the icon or picture tables
-   invalidate the cache; the re-banding in step 2 and deleting the audit section of
-   `pictured-elements.md` don't.
+   15–18 of the 18 games humans failed). The owner is collecting human data with
+   `simplay.py play`. The first 14 games (Sonnet, medium effort, table reference) had
+   muddled clues: codes that didn't match the clue-giver's plans, crowded first turns,
+   and idioms clued by meaning instead of words. `play.toml` now uses Opus at high
+   effort with the one-line-per-icon reference. Next: the owner plays a batch; if the
+   clues are good, try Opus at lower effort and Sonnet at high effort to see whether
+   both the model and the effort are needed. Then rerun the `human-clues` comparison
+   on the new games and consider OpenRouter guessers (phase 3). Record only when the
+   owner asks. Edits to the icon or picture docs invalidate cached calls that use them.
 2. **Reassemble cards 1–18 (expected check errors until then).** Rebuild every card
    from the whole pool, using:
    - **Tabletop re-banding:** after the 2026-11-16 playtest, the owner moved Taco,

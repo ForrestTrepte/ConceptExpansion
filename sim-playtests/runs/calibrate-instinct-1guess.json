@@ -33,6 +33,7 @@
     "max_rounds": 8,
     "max_guesses": 1,
     "guesser_prompt": "guesser-instinct",
+    "reference": "tables",
     "extra_rounds": 2,
     "concurrency": 5,
     "spend_limit_usd": 3.0

@@ -16,6 +16,7 @@
     "max_rounds": 8,
     "max_guesses": 3,
     "guesser_prompt": "guesser",
+    "reference": "tables",
     "extra_rounds": 2,
     "concurrency": 3,
     "spend_limit_usd": 1.0

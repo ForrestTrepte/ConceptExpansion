@@ -263,3 +263,14 @@ def test_one_guess_wording() -> None:
     assert "Give up to 1 guess, best first" in req["prompt"]
     assert "say up to 1 guess:" in req["system"][-1]
     assert req["jsonSchema"]["properties"]["guesses"]["maxItems"] == 1
+
+
+def test_list_reference() -> None:
+    req = simplay.clue_giver_request(spec(reference="list"), "Pizza", [])
+    ref = req["system"][1]
+    assert "A4: Fauna / Animal. Picture: Octopus;" in ref
+    assert "Sky, grass" not in ref  # backgrounds are left out
+    assert "Clear: Transparent / Invisible / Glass." in ref
+    assert len([line for line in ref.splitlines() if ":" in line[:7]]) == 118
+    default = simplay.clue_giver_request(spec(), "Pizza", [])
+    assert "| A4 | Fauna / Animal |" in default["system"][1]  # existing runs unchanged

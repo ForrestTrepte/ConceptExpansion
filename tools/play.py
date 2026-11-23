@@ -27,6 +27,7 @@ from collections.abc import Callable
 from pathlib import Path
 from typing import Any
 
+import board
 import illustrate_logs
 import playtest_logs
 import simplay
@@ -109,7 +110,7 @@ def human_guesser(game: Game, meanings: dict[str, str], read: Input) -> simplay.
 
 
 async def play_one(spec: Spec, answer: str, read: Input, model: simplay.Ask) -> Game:
-    meanings = illustrate_logs.icon_meanings()
+    meanings = board.icon_meanings()
     game = Game(answer, "model-clues", 1)
     you = human_guesser(game, meanings, read)
 
@@ -151,7 +152,7 @@ def log_game(
         extra.append(f"Comments: {comment}")
     entry = playtest_logs.format_entry(
         game.prompt,
-        clue_giver=f"Claude ({spec.clue_giver.model})",
+        clue_giver=f"Claude ({spec.clue_giver.model}, effort {spec.clue_giver.effort or 'default'})",
         result=result,
         steps=[t.lines for t in game.turns if t.lines] if result != "skipped" else [],
         solved_step=game.solved_at,

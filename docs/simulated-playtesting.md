@@ -35,10 +35,14 @@ other directly. The rules and notation are those in [playtesting.md](playtesting
 - **Guesser:** gets only the board reference and the clues so far. llmemo runs each
   `claude -p` call in an empty temporary folder with no tools, so it can't read answers.
   It gives 1–3 guesses per turn, or passes.
-- **Both roles get the same board reference:** the icon tables from
-  [board-icons.md](board-icons.md) and the picture tables from
-  [pictured-elements.md](pictured-elements.md), cut out by heading so the docs' intros
-  and worklists (which name prompts) are never sent. The rules summary and role
+- **Both roles get the same board reference,** in one of two formats set by the
+  spec's `reference`. `tables` (the default, used by every run before 2026-11-23) sends
+  the icon tables from [board-icons.md](board-icons.md) and the picture tables from
+  [pictured-elements.md](pictured-elements.md) as they are, cut out by heading so the
+  docs' intros and worklists (which name prompts) are never sent. `list`
+  (`tools/board.py`) sends one line per icon with its meanings and picture together,
+  without backgrounds: `A4: Fauna / Animal. Picture: Octopus; …`. The docs stay in
+  their two-icons-per-row layout for people; only the text sent to models differs. The rules summary and role
   instructions are in `tools/sim_prompts/`.
 - **The script** validates every placement code and allows nothing but notation, so
   no label words or hints leak. Lines are checked against the board (`tools/notation.py`),

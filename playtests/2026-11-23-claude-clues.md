@@ -4,7 +4,7 @@
 - Prompts: unassigned drafts from the pool
 
 ### Pool: New Year's resolution
-- Clue-giver: Claude (claude-sonnet-5-5) · Guessed: no · Verdict: unclear
+- Clue-giver: Claude (claude-sonnet-5-5, effort medium) · Guessed: no · Verdict: unclear
 - Clues:
   ```
   ?g B10
@@ -30,7 +30,7 @@
 - Comments: I never got the idea of a new year or a resolution. Abstract concepts. Probably too hard, but I'd like to see different attempts to clue it.
 
 ### Pool: Frankenstein
-- Clue-giver: Claude (claude-sonnet-5-5) · Guessed: yes (step 1) · Verdict: keep
+- Clue-giver: Claude (claude-sonnet-5-5, effort medium) · Guessed: yes (step 1) · Verdict: keep
 - Clues:
   ```
   ?g B2
@@ -46,7 +46,7 @@
 - Comments: fun
 
 ### Pool: Elbow room
-- Clue-giver: Claude (claude-sonnet-5-5) · Guessed: no · Verdict: unclear
+- Clue-giver: Claude (claude-sonnet-5-5, effort medium) · Guessed: no · Verdict: unclear
 - Clues:
   ```
   ?g A8
@@ -63,7 +63,7 @@
 - Comments: Didn't latch on to anything in this clue. Would have like to try it as a saying, getting 'elbow' and 'room' independently.
 
 ### Pool: Achilles' heel
-- Clue-giver: Claude (claude-sonnet-5-5) · Guessed: yes (step 2) · Verdict: keep
+- Clue-giver: Claude (claude-sonnet-5-5, effort medium) · Guessed: yes (step 2) · Verdict: keep
 - Clues:
   ```
   ?g B2
@@ -82,7 +82,7 @@
 - Comments: fun
 
 ### Pool: Hospital
-- Clue-giver: Claude (claude-sonnet-5-5) · Guessed: yes (step 1) · Verdict: keep
+- Clue-giver: Claude (claude-sonnet-5-5, effort medium) · Guessed: yes (step 1) · Verdict: keep
 - Clues:
   ```
   ?g B9
@@ -98,7 +98,7 @@
 - Comments: pretty easy
 
 ### Pool: Cave
-- Clue-giver: Claude (claude-sonnet-5-5) · Guessed: yes (step 1) · Verdict: keep
+- Clue-giver: Claude (claude-sonnet-5-5, effort medium) · Guessed: yes (step 1) · Verdict: keep
 - Clues:
   ```
   ?g F4
@@ -114,7 +114,7 @@
 - Comments: fun
 
 ### Pool: Rock paper scissors
-- Clue-giver: Claude (claude-sonnet-5-5) · Guessed: no · Verdict: keep
+- Clue-giver: Claude (claude-sonnet-5-5, effort medium) · Guessed: no · Verdict: keep
 - Clues:
   ```
   ?g A13
@@ -135,7 +135,7 @@
 - Comments: Hard to latch on to the clues.
 
 ### Pool: Lollipop
-- Clue-giver: Claude (claude-sonnet-5-5) · Guessed: yes (step 4) · Verdict: keep
+- Clue-giver: Claude (claude-sonnet-5-5, effort medium) · Guessed: yes (step 4) · Verdict: keep
 - Clues:
   ```
   ?g A14
@@ -165,7 +165,7 @@
 - Comments: yes for licorice threw me for a bit, clues didn't seem organized--they were all related but I didn't understand the grouping
 
 ### Pool: Hashtag
-- Clue-giver: Claude (claude-sonnet-5-5) · Guessed: no · Verdict: unclear
+- Clue-giver: Claude (claude-sonnet-5-5, effort medium) · Guessed: no · Verdict: unclear
 - Clues:
   ```
   ?g B7
@@ -187,7 +187,7 @@
 - Comments: Seems difficult. These clues didn't get me there. Quotation was a strange clue. Why celebration/holiday?
 
 ### Pool: Bury the hatchet
-- Clue-giver: Claude (claude-sonnet-5-5) · Guessed: no · Verdict: unclear
+- Clue-giver: Claude (claude-sonnet-5-5, effort medium) · Guessed: no · Verdict: unclear
 - Clues:
   ```
   ?g B8
@@ -208,7 +208,7 @@
 - Comments: Seems doable, but those clues. Bury was there. But why the heart? And what was with the end fight zero. Conveys the meaning, but hard to get to the saying from it.
 
 ### Pool: Green Eggs and Ham
-- Clue-giver: Claude (claude-sonnet-5-5) · Guessed: yes (step 1) · Verdict: keep
+- Clue-giver: Claude (claude-sonnet-5-5, effort medium) · Guessed: yes (step 1) · Verdict: keep
 - Clues:
   ```
   ?g A5
@@ -224,7 +224,7 @@
 - Comments: fun,not sure what the foot was doing in the clue
 
 ### Pool: Rush hour
-- Clue-giver: Claude (claude-sonnet-5-5) · Guessed: yes (step 1) · Verdict: keep
+- Clue-giver: Claude (claude-sonnet-5-5, effort medium) · Guessed: yes (step 1) · Verdict: keep
 - Clues:
   ```
   ?g D8
@@ -239,7 +239,7 @@
 - Comments: fun
 
 ### Pool: Friday the 13th
-- Clue-giver: Claude (claude-sonnet-5-5) · Guessed: no · Verdict: unclear
+- Clue-giver: Claude (claude-sonnet-5-5, effort medium) · Guessed: no · Verdict: unclear
 - Clues:
   ```
   ?g A6
@@ -261,7 +261,7 @@
 - Comments: Weird clues. Why 1+1. Why not 13?
 
 ### Pool: Soup
-- Clue-giver: Claude (claude-sonnet-5-5) · Guessed: no · Verdict: unclear
+- Clue-giver: Claude (claude-sonnet-5-5, effort medium) · Guessed: no · Verdict: unclear
 - Clues:
   ```
   ?g A14

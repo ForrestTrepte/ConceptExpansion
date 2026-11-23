@@ -17,7 +17,7 @@ SPEC = Spec(
     mode="model-clues",
     prompts=(),
     guesser=Role("claude-haiku-5-5"),
-    clue_giver=Role("claude-sonnet-5-5"),
+    clue_giver=Role("claude-sonnet-5-5", "high"),
     max_guesses=5,
 )
 
@@ -72,6 +72,7 @@ def test_logged_game_reads_back(tmp_path: Path, monkeypatch: pytest.MonkeyPatch)
     assert entry.yes == ("Campfire",)
     assert entry.source.endswith("claude-clues.md, pool")
     text = path.read_text()
+    assert "Clue-giver: Claude (claude-sonnet-5-5, effort high) · Guessed: yes (step 2)" in text
     assert "Comments: fun" in text and "Band: red" in text and "Bonfire" in text
     assert "Game ID (the `game` tag on its cache entries): 20" in text and "/Fire drill" in text
 

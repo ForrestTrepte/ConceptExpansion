@@ -22,11 +22,11 @@ import re
 import sys
 from pathlib import Path
 
-from notation import CODES, GROUPS, Board, NotationError
+from board import icon_meanings
+from notation import GROUPS, Board, NotationError
 
 ROOT = Path(__file__).resolve().parent.parent
 ICONS = ROOT / "output" / "player-aid" / "icons"
-BOARD_ICONS = ROOT / "docs" / "board-icons.md"
 OUT = ROOT / "output" / "illustrated"
 SOURCES = {"playtests": ROOT / "playtests", "sim-playtests": ROOT / "sim-playtests" / "runs"}
 
@@ -63,18 +63,6 @@ def marker_svgs() -> dict[str, str]:
             f'<rect x="1" y="1" width="12" height="12" rx="2" fill="{fill}" stroke="{edge}"'
             ' stroke-width="1.5"/></svg>\n'
         )
-    return out
-
-
-def icon_meanings(doc: Path = BOARD_ICONS) -> dict[str, str]:
-    """Each icon's meanings from the player aid tables in docs/board-icons.md, e.g.
-    `A4` -> `Fauna / Animal`."""
-    out = {}
-    for line in doc.read_text(encoding="utf-8").splitlines():
-        cells = [c.strip() for c in line.strip().strip("|").split("|")]
-        for code, meaning in zip(cells[::2], cells[1::2]):
-            if code in CODES:
-                out[code] = meaning
     return out
 
 

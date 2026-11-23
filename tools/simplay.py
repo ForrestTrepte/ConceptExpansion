@@ -104,10 +104,22 @@ def text(name: str, **values: object) -> str:
     return string.Template((TEXTS / f"{name}.md").read_text()).substitute(values)
 
 
-def system(role_text: str) -> list[str]:
+def reference(kind: str) -> str:
+    """The board reference models get: `tables` (the docs' tables as they are, the
+    original format) or `list` (one line per icon: meanings and picture together)."""
+    if kind == "tables":
+        return board_reference()
+    if kind == "list":
+        from board import reference_list
+
+        return reference_list()
+    raise ValueError(f"reference must be tables or list, not {kind!r}")
+
+
+def system(role_text: str, kind: str = "tables") -> list[str]:
     """The system prompt as parts, so llmemo stores the long shared ones once. llmemo
     joins parts with nothing between them, so each ends with a blank line."""
-    parts = [text("rules"), board_reference(), role_text]
+    parts = [text("rules"), reference(kind), role_text]
     return [p.rstrip("\n") + "\n\n" for p in parts]
 
 
@@ -125,6 +137,7 @@ class Spec:
     max_rounds: int = 8
     max_guesses: int = 3
     guesser_prompt: str = "guesser"  # tools/sim_prompts/<name>.md
+    reference: str = "tables"  # board reference format: tables or list (see `reference`)
     extra_rounds: int = 2
     concurrency: int = 3
     spend_limit_usd: float = 0.0
@@ -290,7 +303,9 @@ def guesser_request(spec: Spec, turns: Sequence[Turn]) -> dict[str, Any]:
     return ClaudeCli.request(
         spec.guesser.model,
         prompt,
-        system=system(text(spec.guesser_prompt, guesses=guesses(spec.max_guesses))),
+        system=system(
+            text(spec.guesser_prompt, guesses=guesses(spec.max_guesses)), spec.reference
+        ),
         json_schema=guess_schema(spec.max_guesses),
         effort=spec.guesser.effort,
     )
@@ -323,7 +338,7 @@ def clue_giver_request(
     return ClaudeCli.request(
         spec.clue_giver.model,
         prompt,
-        system=system(text("clue-giver")),
+        system=system(text("clue-giver"), spec.reference),
         json_schema=schema,
         effort=spec.clue_giver.effort,
     )
@@ -759,7 +774,8 @@ def markdown(run: dict[str, Any]) -> str:
         "",
         f"- Mode: {spec['mode']} · {roles}",
         f"- Trials: {spec['trials']} · max rounds {spec['max_rounds']} · max guesses"
-        f" {spec['max_guesses']} · guesser prompt {spec.get('guesser_prompt', 'guesser')}",
+        f" {spec['max_guesses']} · guesser prompt {spec.get('guesser_prompt', 'guesser')}"
+        f" · reference {spec.get('reference', 'tables')}",
         "",
     ]
     human = spec["mode"] == "human-clues"
