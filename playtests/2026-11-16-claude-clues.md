@@ -3,6 +3,11 @@
 - Clue-giver: Claude · Guesser: human
 - Cards: starting with card 1
 
+**Pauses filled in by assumption (2026-11-22).** This session didn't record where the
+guesser replied. The blank lines in the clue blocks, which mark those pauses, were added
+afterward: each prompt has as many steps as its "Guessed" field says, but where each
+step begins is an assumption (usually at a new pawn).
+
 ### Card 1, #1: Pizza
 - Clue-giver: Claude · Guessed: yes (step 1) · Verdict: keep
 - Clues:
@@ -33,7 +38,9 @@
   + Black
   + White
   + E1
+
   + A11
+
   !r B11
   + E11
   ```
@@ -57,11 +64,14 @@
   ?g H14
   + C14
   + C11
+
   !r A1
   + C7
   + C14
+
   + D11
   + F11
+
   + E8
   ```
 - Notable guesses: Looking, Blinking, Virtual reality, Hand-eye coordination
@@ -76,10 +86,13 @@
   + C4
   + A11
   + D10
+
   !r B13
   + Red
+
   !y F1
   + F4
+
   !b A2
   + F3
   + D5
@@ -93,19 +106,27 @@
   ```
   ?g B8
   + F8
+
   + E1
+
   !r E5
   + Clear
+
   + E1
+
   !y B1
   + C1
+
   + B8
   + G13
+
   +r G7
+
   -r all
   !r F3
   + E1
   + E5
+
   + G7
   ```
 - Notable guesses: A break in the clouds (Yes), Diamond, Hail (Yes), Babies/Toddlers/Children, Go out and play when there's a break in the clouds, Ruby, Acid rain, Ice cube (Yes)
@@ -128,13 +149,17 @@
 - Clues:
   ```
   ?g H14
+
   !r A1
   + D8
+
   + C13
+
   !y E2
   + B14
   + G14
   + C3
+
   + D4
   ```
 - Notable guesses: Start the clock, Stopwatch, On your marks!, Alarm clock (Yes), Snooze button (Yes), Reset/set/change the alarm, Snooze, Snooze the alarm, Alarm button

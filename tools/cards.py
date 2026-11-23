@@ -2,8 +2,8 @@
 """Validate the prompt data and build printable card sheets.
 
 Usage:
-    python tools/cards.py check [--data data/prompts.csv]
-    python tools/cards.py pdf   [--data data/prompts.csv] [--out output/cards.pdf]
+    uv run python tools/cards.py check [--data data/prompts.csv]
+    uv run python tools/cards.py pdf   [--data data/prompts.csv] [--out output/cards.pdf]
                                 [--cards 1-25] [--status draft,approved] [--no-cut-lines]
 
 See docs/data-and-printing.md for the file format and print settings.
@@ -279,12 +279,12 @@ def main(argv: list[str] | None = None) -> int:
     except (OSError, ValueError) as e:
         errors.append(str(e))
     if not errors:
-        e, warnings = check(prompts)
-        errors += e
+        check_errors, warnings = check(prompts)
+        errors += check_errors
         for w in warnings:
             print(f"warning: {w}", file=sys.stderr)
-    for e in errors:
-        print(f"error: {e}", file=sys.stderr)
+    for error in errors:
+        print(f"error: {error}", file=sys.stderr)
     if errors:
         return 1
 

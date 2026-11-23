@@ -18,15 +18,15 @@ There are two text-playtest modes, each run in a fresh conversation:
 
 ## Setup
 
-- Generate the coded player aid with `python tools/player_aid.py` and keep
+- Generate the coded player aid with `uv run python tools/player_aid.py` and keep
   `output/player-aid/player-aid-coords.pdf` open. Icon codes and meanings are in
   [board-icons.md](board-icons.md). There's an illustrated version at
   `output/player-aid/board-icons.md`.
 - The clue-giver chooses the prompts. We test **every** prompt, working through a card
   in order (1–9). Only the clue-giver knows the card number and the prompt.
 - **When Claude is the guesser,** it must not read `data/prompts.csv`, `playtests/`,
-  `sim/` (simulated playtests), the generated card PDFs, or git history, since all of
-  them contain the answers.
+  `sim-playtests/` (simulated playtests), the generated card PDFs, or git history,
+  since all of them contain the answers.
 - If you play both modes, use different cards in each. Once you've seen an answer,
   you can't guess it fairly.
 
@@ -153,17 +153,45 @@ entry per prompt:
 
 ~~~markdown
 ### Card 3, #7: Piece of cake
-- Clue-giver: Claude · Guessed: yes (step 4) · Verdict: keep
+- Clue-giver: Claude · Guessed: yes (step 3) · Verdict: keep
 - Clues:
   ```
   ?g B8
   + F9
-  + A14
-  ...
+
+  !r A14
+  + B10
+
+  + C6
   ```
-- Notable guesses: Birthday party, Slice
+- Notable guesses: Birthday party (Yes), Slice
 - Comments: guesser first thought it was a food, not an expression
 ~~~
+
+Simulated playtests read these logs (`tools/playtest_logs.py`), so keep to this form.
+`uv run python tools/playtest_logs.py check` checks it, and `tools/run_all.py` runs it.
+To read the logs with icon pictures instead of codes, run
+`uv run python tools/illustrate_logs.py` and open `output/illustrated/playtests/` in
+VS Code's Markdown preview.
+
+- **Heading:** `### Card N, #K: Prompt`, with the prompt as it was played. Other `###`
+  headings (such as `### Card 5 observations`) are fine, but not ones starting
+  `### Card` that look like a broken entry.
+- **First line:** `- Clue-giver: <Claude|human> · Guessed: <result> · Verdict: <verdict>`.
+  The result is `yes`, `no`, `skipped`, or `not played`, optionally followed by a note
+  in parentheses, such as `yes (step 4)` or `no (passed after step 2)`. The verdict can
+  be left out for `not played`.
+- **Clues:** played prompts (`yes` or `no`) have one `- Clues:` line (it may say more
+  in parentheses, e.g. `- Clues (main attempt of several):`) followed by a code block
+  in the standard notation. Skipped and unplayed prompts have none. Other code blocks,
+  such as an untried route in the comments, are ignored.
+- **Pauses (text playtests only):** a blank line in the clue block marks where the
+  guesser replied, so each part is one step. No blank line means everything was sent
+  at once. **Tabletop logs never have pauses:** the clue-giver keeps placing markers
+  while people guess. For simulated guessers, the script splits a tabletop game into
+  steps itself, at each change of group.
+- **Notable guesses:** comma-separated. Mark guesses the clue-giver answered `Yes` to
+  with ` (Yes)` right after them.
 
 **Verdicts:** `keep`, `too easy`, `too hard`, `unclear` (players didn't recognize it),
 `reword`.

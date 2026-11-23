@@ -42,7 +42,7 @@ contributor, put it in README.md or a linked doc in `docs/` instead.
 ## Text playtests
 
 Follow [docs/playtesting.md](docs/playtesting.md). Agent-specific rules:
-- **As guesser:** do not read `data/prompts.csv`, `playtests/`, `sim/`,
+- **As guesser:** do not read `data/prompts.csv`, `playtests/`, `sim-playtests/`,
   `output/cards*.pdf`, or git history/diffs, and do not search the repo for answers,
   until all guessing is done. Guess only from the clues and the icon reference.
 - **As clue-giver:** look at the icon images, not just the labels. Give clues the way
@@ -53,8 +53,8 @@ Follow [docs/playtesting.md](docs/playtesting.md). Agent-specific rules:
 ## LLM calls (llmemo)
 
 - Every LLM call goes through [llmemo](https://github.com/ForrestTrepte/llmemo) (pinned in
-  `requirements.txt`), with the cache in `sim/cache/` and the spending ledger in
-  `llm-spend/`. Commit both after recording. See
+  `pyproject.toml`), with the cache in `sim-playtests/cache/` and the spending ledger
+  in `llm-spend/`. Commit both after recording. See
   [docs/simulated-playtesting.md](docs/simulated-playtesting.md).
 - Don't build caching, backend, spending, or cache-maintenance infrastructure here
   (pruning, verification, cost reports, miss explanations, backend options). If
@@ -64,9 +64,18 @@ Follow [docs/playtesting.md](docs/playtesting.md). Agent-specific rules:
 - Live calls spend the owner's subscription or OpenRouter credit. Record only when the
   user asks for it, and set a `spend_limit`.
 
+## Python
+
+- Commands and setup are in the README's **Development** section. Use uv
+  (`uv run`, `uv add`, `uv remove`); don't use pip.
+- New code must pass `uv run mypy` (strict) and `uv run pytest`. Before finishing a
+  chunk of work, run `uv run python tools/run_all.py`.
+- Tests and scripts that call an LLM set `mode="replay"` in code and mark tests
+  `@pytest.mark.llm`. Never set `LLMEMO_MODE=record` unless the user asks to record.
+
 ## Reference PDFs
 
-- For icon pictures, run `python tools/player_aid.py`, then view
+- For icon pictures, run `uv run python tools/player_aid.py`, then view
   `output/player-aid/player-aid-coords.pdf` or `output/player-aid/icons/<code>.png` (colors: `icons/<Color>.png`)
   with the Read tool. (`output/player-aid/board-icons.md` is the illustrated table for
   humans. Its images are links, so read the PNGs directly.) The pictures carry hints the label text doesn't, so look at them

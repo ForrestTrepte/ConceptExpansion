@@ -1,0 +1,14 @@
+New prompt.
+
+Step 1, markers placed:
+?g A14
++ Yellow
+!r A6
+!y E3
++ E9
+Board now:
+?g A14 | Yellow
+!r A6
+!y E3 | E9
+
+Give up to 3 guesses, best first, or pass.

@@ -1,0 +1,232 @@
+# Board reference
+
+## Icon meanings
+
+### Page 1
+
+| Code | Meanings | Code | Meanings |
+|---|---|---|---|
+| A1 | Object / Box | B1 | Human / Society / Group |
+| A2 | Human / Real / Historical | B2 | Character / Fictional / Imaginary |
+| A3 | Work / Occupation | B3 | Hobby / Sport |
+| A4 | Fauna / Animal | B4 | Flora / Plant / Nature |
+| A5 | Literature / Writing / Book | B5 | Music / Song |
+| A6 | Cinema / Movie | B6 | Art / Sculpture – Painting / Drawing – Cartoon |
+| A7 | Television / Program / Show | B7 | Title / Brand / Name |
+| A8 | Idea / Intelligence / Concept | B8 | Expression – Quote / Talking / Words |
+| A9 | Place – Country / World / Flag | B9 | Building / Monument / City |
+| A10 | Date / Event / Day | B10 | Celebration / Anniversary / Holiday |
+| A11 | Seacraft / Naval / Swimming | B11 | Aircraft / Aerial / Flying |
+| A12 | Ground transportation / Road | B12 | Tool / Construction |
+| A13 | Game / Toy | B13 | Clothing / Accessory / Costume |
+| A14 | Food / Eating / Edible | B14 | House – Dwelling / Room / Domestic |
+
+| Code | Meanings | Code | Meanings |
+|---|---|---|---|
+| C1 | Baby – Child / Young / New | D1 | Adult – Elderly / Old / Past |
+| C2 | Feminine / Female | D2 | Masculine / Male |
+| C3 | Slow / Slow motion | D3 | Fast / Race |
+| C4 | Defense / Protection / Wall | D4 | Attack / Conflict – Combat / Weapon |
+| C5 | Life / Heart / Love | D5 | Death / Bad / Illness |
+| C6 | Happy / Positive | D6 | Sad / Negative |
+| C7 | Electronic / Computing | D7 | Mechanical / Industrial |
+| C8 | Money / Rich / Expensive | D8 | Time / Duration |
+| C9 | Religion / Myth / Spirituality | D9 | Power / Politics |
+| C10 | Science / Math | D10 | Medical / Medicine / Health |
+| C11 | Head / Face / Neck | D11 | Arm / Hand / Finger |
+| C12 | Torso – Back / Stomach / Body | D12 | Leg / Foot |
+| C13 | Ear / Sound / Hearing | D13 | Nose / Scent / Smelling |
+| C14 | Eye / Sight | D14 | Mouth / Taste |
+
+### Page 2
+
+| Code | Meanings | Code | Meanings |
+|---|---|---|---|
+| E1 | Cold / Snow – Rain / Cloud | F1 | Hot / Day – Light / Sun |
+| E2 | Night – Evening / Space / Moon – Star | F2 | Lightning – Storm / Electricity / Anger |
+| E3 | Fire / Burn / Cooking | F3 | Water / Liquid / Aquatic |
+| E4 | Air / Wind / Blowing | F4 | Earth / Ground |
+| E5 | Stone / Mineral / Hard | F5 | Wood |
+| E6 | Metal | F6 | Fabric |
+| E7 | Plastic / Rubber | F7 | Paper / Sheet |
+| E8 | Opposite / Reverse | F8 | Cut – Break / Separation / Half |
+| E9 | Fragment / Multitude / Cluster | F9 | Part / Fragment / Assembly |
+| E10 | Inside / Internal | F10 | Grill – Wire / Network / Grid |
+| E11 | Zero / None / Absence | F11 | One / Unit / Number |
+
+**Colors** (the dashed box below E11–F11). Swatches are written by name, not by code.
+Only Clear has meanings beyond the color itself.
+
+| Name | Meanings | Name | Meanings |
+|---|---|---|---|
+| Red | Red | Orange | Orange |
+| Yellow | Yellow | Green | Green |
+| Blue | Blue | Purple | Purple |
+| Pink | Pink | Brown | Brown |
+| Black | Black | Grey | Grey |
+| White | White | Clear | Transparent / Invisible / Glass |
+
+| Code | Meanings | Code | Meanings |
+|---|---|---|---|
+| G1 | Line – Straight / Diagonal / Stiff | H1 | Arch – Curve / Rounded / Flexible |
+| G2 | Cross / Crossing / Addition | H2 | Angles / Sharp / Jagged |
+| G3 | Spiral / Drunkenness / Coil | H3 | Wavy / Ripple / Hair |
+| G4 | Circle / Ring | H4 | Round |
+| G5 | Triangle | H5 | Star |
+| G6 | Rectangle / Square | H6 | Flat |
+| G7 | Cube | H7 | Sphere |
+| G8 | Pyramid | H8 | Cylinder |
+| G9 | Cone | H9 | Hollow / Hole / Pierced |
+| G10 | Big / High | H10 | Small / Low |
+| G11 | Fat / Large / Long | H11 | Thin – Fine / Narrow / Short |
+| G12 | High / Climb / Above | H12 | Low / Descend / Below |
+| G13 | Left / Beginning / Before – Past | H13 | Right / End / After – Future |
+| G14 | Turn / Around / Cycle – Repetition | H14 | Use – Action / Do – Verb / Button |
+
+## What each icon's picture shows
+
+Elements are the main drawings. Look-alikes are drawings that resemble a specific real thing. Small details are parts of a drawing. Background is the pattern behind it.
+
+### Page 1, left (A, B)
+
+| Code | Elements | Look-alikes | Small details | Background |
+|---|---|---|---|---|
+| A1 | Cardboard box; question mark |  | Packing tape | Sky blue |
+| B1 | Family: two adults and a child |  |  |  |
+| A2 | Man in top hat, black suit, bow tie; Egyptian woman in headdress and white robe | Abraham Lincoln; Cleopatra |  | Brick wall |
+| B2 | Superhero in blue suit and red cape with "S" on chest; mermaid | Superman |  | Clouds |
+| A3 | Construction worker in hard hat with shovel; businessman with briefcase; nurse in cap and uniform with red cross |  | Hard hat; tank top; briefcase; glasses; red cross |  |
+| B3 | Gamer holding a game controller; person wearing headphones; tennis player |  | Music notes; tennis racket; tennis ball; cap |  |
+| A4 | Octopus; small yellow bird (chick, duckling); ladybug; elephant |  |  | Sky, grass |
+| B4 | Tree; cactus (saguaro); red rose; wheat (ear of grain) |  |  | Sky |
+| A5 | Book; quill (feather pen) |  | Ink line |  |
+| B5 | Treble clef; music note (eighth note) |  |  | Sheet music |
+| A6 | Movie camera (old reel-to-reel) |  |  | Film strip |
+| B6 | Statue (classical armless woman); paint palette; paintbrush; pencil | Venus de Milo | Comic-strip panels with speech bubbles |  |
+| A7 | Flat-screen TV showing a live news broadcast |  | "LIVE" banner; news anchor; headline ticker; clock "13:37" |  |
+| B7 | Book with "???" on the cover; red soda can with "???" | Coca-Cola can (red with white wave) |  |  |
+| A8 | Head in profile (silhouette); light bulb inside the head |  | Light rays |  |
+| B8 | Speech bubble |  | Lines of text |  |
+| A9 | Globe (Earth); flag on a pole |  | Dashed route lines |  |
+| B9 | City skyline; skyscraper (glass tower); factory (sawtooth roof); small house; apartment building |  | Windows |  |
+| A10 | Tear-off calendar pages reading "1 APRIL", "2 APRIL", "3 APRIL" | April Fools' Day (the "1 APRIL" page) |  |  |
+| B10 | Christmas tree; wrapped gift (present) with bow; jack-o'-lantern (carved pumpkin); champagne glass |  | Star on the tree; ornaments |  |
+| A11 | Motor yacht; sailboat |  | Anchor emblem on the yacht's hull; waves |  |
+| B11 | Airplane (jet); helicopter |  |  | Clouds |
+| A12 | Red sports car; motorcycle (dirt bike) |  | Tire tracks | Road with lane lines |
+| B12 | Screwdriver; hammer |  |  | Hazard stripes |
+| A13 | Teddy bear; die (dice); playing cards; toy soldier (green army man) |  |  |  |
+| B13 | Tank top; sombrero; jeans; high-heeled shoe |  |  |  |
+| A14 | Plate of food: chicken drumstick, peas; fork; knife; glass |  | Unclear yellow side dish (fries, potatoes, or pasta); the glass's contents are unclear |  |
+| B14 | House with red roof |  | Chimney with smoke; windows; door; doormat | Lawn |
+
+### Page 1, right (C, D)
+
+| Code | Elements | Look-alikes | Small details | Background |
+|---|---|---|---|---|
+| C1 | Baby crawling; toddler walking |  | Diaper |  |
+| D1 | Two elderly people, stooped |  | Cane (walking stick) |  |
+| C2 | Woman (pink figure) |  | Female symbols (♀) | Female symbols |
+| D2 | Man (blue figure) |  | Male symbols (♂) | Male symbols |
+| C3 | Turtle (tortoise) |  |  | Short-to-tall bars |
+| D3 | Rabbit (hare), leaping |  | Motion lines | Short-to-tall bars |
+| C4 | Shield |  | Battlements (castle wall top) | Brick wall |
+| D4 | Sword; rifle; explosion (starburst) |  |  |  |
+| C5 | Heart |  |  |  |
+| D5 | Skull |  |  |  |
+| C6 | Smiley face (yellow) |  |  |  |
+| D6 | Frowning face (blue) |  |  |  |
+| C7 | Circuit board; microchips |  |  |  |
+| D7 | Gears (cogs); robotic arm |  |  |  |
+| C8 | Coins (marked ¢); banknotes ("100¢") |  |  |  |
+| D8 | Hourglass; clock face |  |  |  |
+| C9 | Person kneeling in prayer; sun |  | Rays of light |  |
+| D9 | Politician in suit with sash, waving; crown |  | Podium (lectern); microphone; glasses |  |
+| C10 | Erlenmeyer flask with green liquid; chalkboard with formulas |  | Square-root sign |  |
+| D10 | Syringe; first-aid kit (box with red cross) |  | Heartbeat line (EKG); gauze rolls in the kit |  |
+| C11 | Wooden mannequin: head, neck, and shoulders |  |  |  |
+| D11 | Wooden mannequin: arm, elbow, wrist, and hand |  |  |  |
+| C12 | Wooden mannequin: torso, shoulders, waist, and hips |  |  |  |
+| D12 | Wooden mannequin: leg, knee, ankle, and foot |  |  |  |
+| C13 | Ear |  | Sound waves |  |
+| D13 | Nose; nostrils |  | Scent lines |  |
+| C14 | Eye |  |  |  |
+| D14 | Lips |  |  |  |
+
+### Page 2, left (E, F)
+
+| Code | Elements | Look-alikes | Small details | Background |
+|---|---|---|---|---|
+| E1 | Cloud; raindrops; snowflakes; thermometer (cold) |  |  |  |
+| F1 | Sun; thermometer (hot) |  | Sun rays |  |
+| E2 | Crescent moon; stars |  |  | Night sky |
+| F2 | Storm cloud; lightning bolt |  |  |  |
+| E3 | Flames |  |  |  |
+| F3 | Water drop |  | Small bubble |  |
+| E4 | Gust of wind (swirling puff) |  | Swirls |  |
+| F4 | Mound of dirt (soil); sprout (seedling) |  | Leaf; pebbles |  |
+| E5 | Rock (boulder) |  | Small stones |  |
+| F5 | Log |  | Tree rings; branch stub |  |
+| E6 | Steel I-beam (girder) |  |  |  |
+| F6 | Rolled fabric with fringe (scarf, blanket, or towel) |  | Fringe |  |
+| E7 | Rubber boot (rain boot); plastic water bottle |  |  |  |
+| F7 | Sheet of paper with handwriting (letter) |  |  |  |
+| E8 | Two arrows pointing opposite ways |  |  | Black and white halves |
+| F8 | Scissors; dashed cut line |  | Square being cut |  |
+| E9 | Many small rounded squares, scattered and clustered |  |  |  |
+| F9 | Jigsaw puzzle pieces |  |  |  |
+| E10 | Open box with an arrow pointing in |  |  |  |
+| F10 | Grid of bars (grille, mesh) |  |  |  |
+| E11 | Number 0 |  |  |  |
+| F11 | Number 1 |  |  |  |
+
+### Colors (page 2, bottom left)
+
+| Code | Elements | Look-alikes | Small details | Background |
+|---|---|---|---|---|
+| Red | Paint blob in that color |  | Two small drops | Checkerboard |
+| Orange | Paint blob in that color |  | Two small drops | Checkerboard |
+| Yellow | Paint blob in that color |  | Two small drops | Checkerboard |
+| Green | Paint blob in that color |  | Two small drops | Checkerboard |
+| Blue | Paint blob in that color |  | Two small drops | Checkerboard |
+| Purple | Paint blob in that color |  | Two small drops | Checkerboard |
+| Pink | Paint blob in that color |  | Two small drops | Checkerboard |
+| Brown | Paint blob in that color |  | Two small drops | Checkerboard |
+| Black | Paint blob in that color |  | Two small drops | Checkerboard |
+| Grey | Paint blob in that color |  | Two small drops | Checkerboard |
+| White | Paint blob in that color |  | Two small drops | Checkerboard |
+| Clear | Transparent paint blob |  | Two small drops | Checkerboard |
+
+### Page 2, right (G, H)
+
+| Code | Elements | Look-alikes | Small details | Background |
+|---|---|---|---|---|
+| G1 | Straight diagonal line |  |  | Graph paper |
+| H1 | Curved line (arc) |  |  | Graph paper |
+| G2 | Plus sign (cross) |  |  | Graph paper |
+| H2 | Zigzag line |  |  | Graph paper |
+| G3 | Spiral |  |  | Graph paper |
+| H3 | Squiggle (wavy line) |  |  | Graph paper |
+| G4 | Ring (circle outline) |  |  | Graph paper |
+| H4 | Filled circle (disc) |  |  | Graph paper |
+| G5 | Triangle |  |  | Graph paper |
+| H5 | Five-pointed star |  |  | Graph paper |
+| G6 | Rectangle |  |  | Graph paper |
+| H6 | Flat shape lying on a floor |  |  | Graph paper |
+| G7 | Cube |  |  | Graph paper |
+| H7 | Sphere (ball) |  |  | Graph paper |
+| G8 | Pyramid |  |  | Graph paper |
+| H8 | Cylinder |  |  | Graph paper |
+| G9 | Cone |  |  | Graph paper |
+| H9 | Block with a round hole through it |  |  | Graph paper |
+| G10 | Up arrow to a line, beside a tall bar |  |  | Green grid |
+| H10 | Down arrow to a line, beside a short bar |  |  | Green grid |
+| G11 | Double arrow measuring a wide bar |  |  | Green grid |
+| H11 | Arrows pointing in at a narrow bar |  |  | Green grid |
+| G12 | Up arrow from the floor |  |  | Green grid |
+| H12 | Down arrow from the ceiling |  |  | Green grid |
+| G13 | Left arrow to a wall |  |  | Green grid |
+| H13 | Right arrow away from a wall |  |  | Green grid |
+| G14 | Two arrows chasing in a circle |  |  | Green grid |
+| H14 | Finger pressing a red button |  |  | Green grid |
+

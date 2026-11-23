@@ -1,0 +1,13 @@
+# Phase 1 dry run: the human clue sequences for the same prompts, sent to the guesser
+# model (no clue-giver model).
+mode = "human-clues"
+prompts = ["Pizza", "Popcorn", "Break the ice"]
+trials = 1
+max_guesses = 3
+extra_rounds = 2
+concurrency = 3
+spend_limit_usd = 1.0
+
+[guesser]
+model = "claude-haiku-5-5"
+effort = "low"

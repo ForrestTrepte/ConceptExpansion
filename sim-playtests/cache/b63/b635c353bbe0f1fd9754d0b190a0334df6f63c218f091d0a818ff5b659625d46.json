@@ -1,0 +1,158 @@
+{
+  "contentSha256": "78d374aacbed9a077a6eaab71a2e0aa2557dbff2e4f016e6a9ba2d96271aea5a",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "clue-giver",
+    "request": {
+      "backend": "claude-cli",
+      "effort": "medium",
+      "jsonSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "clue",
+              "skip"
+            ],
+            "type": "string"
+          },
+          "confidence": {
+            "maximum": 5,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "lines": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "plan": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "confidence",
+          "action",
+          "plan",
+          "lines"
+        ],
+        "type": "object"
+      },
+      "model": "claude-sonnet-5-5",
+      "prompt": {
+        "$llmemo.text": "0f244610d3834328a177fd202713eaaf69a1b434e5181ac51f6759896665eaaf"
+      },
+      "system": [
+        {
+          "$llmemo.text": "29d73c99f00758a55ed046d05b0403c1ca98589e4f1e9e1a977874ccbdd10cbc"
+        },
+        {
+          "$llmemo.text": "d2252f0f769f4131bf86b961745fc4f03ad64d43b87c38f0a046e0c94074bf6d"
+        },
+        {
+          "$llmemo.text": "2fde04bc2e1af13938737fe97d53aa72e4604167970b9d0beb7f36b50e0a89fd"
+        }
+      ]
+    },
+    "variant": "trial-1"
+  },
+  "meta": {
+    "billing": "subscription",
+    "codeVersion": "60ceec3",
+    "costUsd": 0.038628,
+    "latencyMs": 5948,
+    "recordedAt": "2026-11-22T08:10:18.988Z",
+    "recordedBy": "claude",
+    "servedBy": "firstParty",
+    "servedModel": "claude-sonnet-5-5",
+    "tags": {
+      "run": "dry-run"
+    },
+    "toolVersion": "2.1.330 (Claude Code)",
+    "usage": {
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 9096,
+      "inputTokens": 2,
+      "outputTokens": 224,
+      "reasoningTokens": 0
+    }
+  },
+  "reply": {
+    "api_error_status": null,
+    "is_error": false,
+    "modelUsage": {
+      "claude-sonnet-5-5": {
+        "cacheCreationEphemeral1hInputTokens": 9096,
+        "cacheCreationEphemeral5mInputTokens": 0,
+        "cacheCreationInputTokens": 9096,
+        "cacheReadInputTokens": 0,
+        "canonicalModel": "claude-sonnet-5-5",
+        "contextWindow": 1000000,
+        "costBasis": "list",
+        "costUSD": 0.038628,
+        "inputTokens": 2,
+        "maxOutputTokens": 128000,
+        "outputTokens": 224,
+        "provider": "firstParty",
+        "thinkingTokens": 0,
+        "webSearchRequests": 0
+      }
+    },
+    "num_turns": 2,
+    "permission_denials": [],
+    "result": "{\"confidence\":4,\"action\":\"clue\",\"plan\":\"Food + cinema + yellow/white, then add fire/hot or fragment if needed.\",\"lines\":[\"?g A14\",\"+ Yellow\",\"!r A6\",\"!y E3\",\"+ E9\"]}",
+    "stop_reason": "tool_use",
+    "structured_output": {
+      "action": "clue",
+      "confidence": 4,
+      "lines": [
+        "?g A14",
+        "+ Yellow",
+        "!r A6",
+        "!y E3",
+        "+ E9"
+      ],
+      "plan": "Food + cinema + yellow/white, then add fire/hot or fragment if needed."
+    },
+    "subtype": "success",
+    "terminal_reason": "completed",
+    "type": "result",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 9096,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 9096,
+      "cache_read_input_tokens": 0,
+      "fallback_credit": null,
+      "inference_geo": "global",
+      "input_tokens": 2,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 9096,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 9096,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 224,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 224,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

@@ -68,7 +68,7 @@ Each card follows the base game's layout: **9 numbered prompts in three bands of
 - **Playtesting:** text playtests by chat follow
   [docs/playtesting.md](docs/playtesting.md). Logs go in `playtests/`.
 - **LLM calls** (simulated playtests) go through llmemo, which caches them in
-  `sim/cache/` and records spending in `llm-spend/`. Both are committed. See
+  `sim-playtests/cache/` and records spending in `llm-spend/`. Both are committed. See
   [docs/simulated-playtesting.md](docs/simulated-playtesting.md).
 - **Prompt data and printing:** all prompts are stored in `data/prompts.csv`, and
   `tools/cards.py` checks them and builds the PDF. See
@@ -81,6 +81,33 @@ Each card follows the base game's layout: **9 numbered prompts in three bands of
 - **Borrowed prompts:** keep prompts from third-party sources to a small share of
   the deck, and prefer original ones. Material from someone else stays under their
   terms, so every borrowed prompt makes it harder to license the deck commercially later.
+
+## Development
+
+**Setup:** the Python environment is managed with [uv](https://docs.astral.sh/uv/). The
+dev container installs uv and runs `uv sync`. Elsewhere, install uv and run `uv sync`
+from the repo root. This creates `.venv/` with the packages pinned in `uv.lock`. To
+change dependencies, use `uv add` or `uv remove` (`--dev` for dev tools) and commit
+`pyproject.toml` and `uv.lock` together.
+
+| Command | What it does | Details |
+|---|---|---|
+| `uv run python tools/run_all.py` | Runs everything below except recording, and reports a summary | |
+| `uv run mypy` | Type-checks `tools/` and `tests/` in strict mode | |
+| `uv run pytest` | Runs the tests. LLM calls replay from the cache | [simulated-playtesting.md](docs/simulated-playtesting.md) |
+| `uv run python tools/simplay.py run <spec>` | Plays a simulated-playtest spec from `sim-playtests/specs/`, replaying from the cache | [simulated-playtesting.md](docs/simulated-playtesting.md#storing-results) |
+| `uv run python tools/simplay.py all` | Replays every recorded simulated run and rewrites its results | [simulated-playtesting.md](docs/simulated-playtesting.md#storing-results) |
+| `uv run python tools/playtest_logs.py check` | Checks that the playtest logs in `playtests/` follow the format simulated playtests read | [playtesting.md](docs/playtesting.md#recording-results) |
+| `uv run python tools/player_aid.py` | Downloads the player aid; writes coded PDF and icon images to `output/player-aid/` | [data-and-printing.md](docs/data-and-printing.md#player-aid-with-icon-codes) |
+| `uv run python tools/illustrate_logs.py` | Writes copies of the playtest logs and simulated runs with icon pictures to `output/illustrated/` (needs the player aid) | [playtesting.md](docs/playtesting.md#recording-results) |
+| `uv run python tools/cards.py check` | Validates `data/prompts.csv` | [data-and-printing.md](docs/data-and-printing.md#commands) |
+| `uv run python tools/cards.py pdf` | Builds `output/cards.pdf` | [data-and-printing.md](docs/data-and-printing.md#commands) |
+
+**Recording LLM calls:** code always asks llmemo for replay, so a cache miss fails
+instead of calling a model. To record, set the mode on that one command, e.g.
+`LLMEMO_MODE=record uv run pytest -m llm`, then commit `sim-playtests/cache/` and
+`llm-spend/`. Never export `LLMEMO_MODE` in a shell profile. `run_all.py` always
+replays, even if it is set.
 
 ## Licenses
 
@@ -143,19 +170,33 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-19 | Simulated playtests run first on the owner's Claude subscription through the headless CLI (`claude -p`). OpenRouter (guessers that aren't Claude, more volume) comes later, only if calibration shows it's needed | No extra cost; a blind, tool-less test call worked. Claude-only calibration will show whether other models are needed |
 | 2026-11-19 | Simulation results are committed as a cache of LLM calls (raw replies keyed by a hash of every input). Logs and summaries are generated from the cache | A permanent record to study without rerunning; after a fix or tweak, calls whose inputs didn't change replay for free |
 | 2026-11-19 | The cache comes from a reusable package the owner will find or build. Harness work waits for it | The owner uses this caching approach across projects |
-| 2026-11-22 | LLM calls use [llmemo](https://github.com/ForrestTrepte/llmemo) v0.1.0, pinned by git tag in `requirements.txt`. Cache in `sim/cache/`, spending ledger in `llm-spend/`, both committed | The owner's package meets the cache requirements; the ledger keeps a record of spending, subscription calls included |
+| 2026-11-22 | LLM calls use [llmemo](https://github.com/ForrestTrepte/llmemo) v0.1.0, pinned by git tag in `pyproject.toml`. Cache in `sim-playtests/cache/`, spending ledger in `llm-spend/`, both committed | The owner's package meets the cache requirements; the ledger keeps a record of spending, subscription calls included |
+| 2026-11-22 | uv manages the Python environment: `pyproject.toml` lists the dependencies, `uv.lock` pins them, and commands run with `uv run` | Owner's choice; matches llmemo, and the lock file pins every package, including llmemo's commit |
 | 2026-11-22 | General caching, backend, spending, and cache-maintenance features go into llmemo, not this repo | Keeps this repo about the game and makes the features reusable in the owner's other projects |
+| 2026-11-22 | Python code is type-checked with mypy in strict mode and tested with pytest (dev dependencies) | Owner's preference; the code was already fully annotated |
+| 2026-11-22 | LLM code and tests set `mode="replay"`; recording happens only with `LLMEMO_MODE=record` on a single command. Tests that use the cache are marked `llm`. The smoke check is a pytest test, not a script | Plain test runs are free and fail loudly on a cache miss; one definition of each request |
+| 2026-11-22 | The README's Development section lists every command; topic docs keep the details and options | One place to start, without duplicating each script's options |
+| 2026-11-22 | `tools/run_all.py` runs mypy, pytest, the simulated runs, the player aid, the prompt check, and the PDF, always in replay mode | One command to check and rebuild everything, with no spending |
+| 2026-11-22 | Simulated runs are defined by spec files (`sim-playtests/specs/`); results go to `sim-playtests/runs/`. Both roles get the icon and picture tables cut from the docs, never the docs' intros or worklists | Recorded runs stay reproducible; the worklists name prompts |
+| 2026-11-22 | In simulated games, a separate judge (fixed model: Sonnet, low effort) decides whether a guess is correct, seeing only the answer and the guesses. The clue-giver only answers Yes or No | Scoring must not change when clue-giver models are compared, and a clue-giver may judge its own success too generously |
+| 2026-11-22 | Human clue sequences for human-clues runs are transcribed in `sim-playtests/human-games.toml`, with a new step at each pawn unless the log gives a step count | The logs don't record where each guess turn began |
+| 2026-11-22 | Upgrade to llmemo v0.2.0. `simplay.py` stops a run at the Claude usage limit and prints when it resets | v0.2.0 adds the usage-limit error this project asked for; rerunning after the reset replays everything already recorded |
+| 2026-11-22 | Simulated runs have two modes, named for who gives the clues: `model-clues` and `human-clues` | "Replay" already means replaying from the cache, and the names match the human playtest logs (`claude-clues`, `human-clues`) |
+| 2026-11-22 | `human-clues` runs read the playtest logs directly; `human-games.toml` is gone. Text logs mark pauses (where the guesser replied) with blank lines in clue blocks; tabletop logs never have pauses, and the script splits them at each change of group. `tools/playtest_logs.py check` validates the log format | One source of truth. At the table, clues and guesses overlap, so there are no pauses to record |
+| 2026-11-22 | Illustrated copies of the playtest logs and simulated runs are generated into `output/illustrated/` (not committed): each clue block becomes icon pictures, each followed by its pawn or cubes in the group's color, plus the board after each step when it differs | Reading grid codes is slow. The icons are copyrighted, so only the text logs are committed |
 
 ## Next steps
 
-1. **Simulated playtesting with LLMs: build the harness (phase 1).** The plan is in
-   [docs/simulated-playtesting.md](docs/simulated-playtesting.md): one model gives
-   clues, another guesses, calibrated against the human playtests. llmemo is set up,
-   and `python tools/llm_smoke.py` replays one small call through each backend. Next,
-   write `tools/simplay.py` and dry-run 2–3 prompts to measure usage and speed (record
-   only when the owner asks). The pictured-elements re-banding in step 2 can go ahead
-   in parallel. Finish it before calibrating, since edits to the icon docs invalidate
-   the cache.
+1. **Simulated playtesting with LLMs: calibrate (phase 2).** The plan is in
+   [docs/simulated-playtesting.md](docs/simulated-playtesting.md). The phase 1 dry run
+   is recorded (`sim-playtests/runs/dry-run-*.md`): $0.13 API-equivalent for 6 games,
+   3–5 s per call. The model guesser (Haiku) is far easier than people: from the human
+   clues it solved Popcorn (humans failed) and Break the ice in 1 step (humans needed 9).
+   Next: a `human-clues` run on all 20 human games with clues (on active prompts), then try guesser levers
+   (fewer guesses, first-instinct wording, effort) and, if they don't close the gap,
+   OpenRouter guessers (phase 3). Record only when the owner asks. Finish the
+   pictured-elements re-banding in step 2 before calibrating, since edits to the icon
+   tables invalidate the cache.
 2. **Reassemble cards 1–18 (expected check errors until then).** Rebuild every card
    from the whole pool, using:
    - **Tabletop re-banding:** after the 2026-11-16 playtest, the owner moved Taco,
@@ -172,7 +213,7 @@ Newest at the bottom. Include the date and a one-line reason.
      [docs/prompt-guidelines.md](docs/prompt-guidelines.md).
    The owner approves the new cards, then bump `data/VERSION` to 0.2.
 3. **Test print at the new size.** Once the cards are rebalanced, print
-   `output/cards.pdf` (run `python tools/cards.py pdf`) at 100% scale. The cards are
+   `output/cards.pdf` (run `uv run python tools/cards.py pdf`) at 100% scale. The cards are
    now 60.5 × 85.9 mm, which hasn't been printed yet. Cut out a few cards and check
    that they slide into MTG sleeves and the text is easy to read. Adjust the layout in
    `tools/cards.py` if needed.

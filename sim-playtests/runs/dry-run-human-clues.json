@@ -1,0 +1,199 @@
+{
+  "spec": {
+    "id": "dry-run-human-clues",
+    "mode": "human-clues",
+    "prompts": [
+      "Pizza",
+      "Popcorn",
+      "Break the ice"
+    ],
+    "guesser": {
+      "model": "claude-haiku-5-5",
+      "effort": "low"
+    },
+    "clue_giver": null,
+    "trials": 1,
+    "max_rounds": 8,
+    "max_guesses": 3,
+    "extra_rounds": 2,
+    "concurrency": 3,
+    "spend_limit_usd": 1.0
+  },
+  "games": [
+    {
+      "prompt": "Pizza",
+      "mode": "human-clues",
+      "trial": 1,
+      "source": "playtests/2026-11-16-claude-clues.md, card 1 #1",
+      "outcome": "solved",
+      "solved_at": 1,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A14",
+            "+ H4",
+            "+ F8"
+          ],
+          "board": "?g A14 | H4, F8",
+          "plan": "",
+          "guesses": [
+            "Pizza",
+            "Pie",
+            "Cake"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Pizza"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 1,
+        "cost_usd": 0.000372,
+        "latency_s": 3.4,
+        "tokens": {
+          "cacheReadTokens": 7695,
+          "cacheWriteTokens": 974,
+          "inputTokens": 2,
+          "outputTokens": 201,
+          "reasoningTokens": 109
+        }
+      }
+    },
+    {
+      "prompt": "Popcorn",
+      "mode": "human-clues",
+      "trial": 1,
+      "source": "playtests/2026-11-16-tabletop.md, card 6 #1",
+      "outcome": "solved",
+      "solved_at": 3,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A14",
+            "+ F11 x8"
+          ],
+          "board": "?g A14 | F11, F11, F11, F11, F11, F11, F11, F11",
+          "plan": "",
+          "guesses": [
+            "Tapas",
+            "Dim sum",
+            "Sushi"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!y Yellow",
+            "+ H11"
+          ],
+          "board": "?g A14 | F11, F11, F11, F11, F11, F11, F11, F11\n!y Yellow | H11",
+          "plan": "",
+          "guesses": [
+            "French fries",
+            "Pasta",
+            "Banana"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!r E3",
+            "+ E4"
+          ],
+          "board": "?g A14 | F11, F11, F11, F11, F11, F11, F11, F11\n!r E3 | E4\n!y Yellow | H11",
+          "plan": "",
+          "guesses": [
+            "Popcorn",
+            "Potato chips",
+            "Cornflakes"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Popcorn"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 5,
+        "cost_usd": 0.01342,
+        "latency_s": 15.1,
+        "tokens": {
+          "cacheReadTokens": 23845,
+          "cacheWriteTokens": 5895,
+          "inputTokens": 10,
+          "outputTokens": 1360,
+          "reasoningTokens": 959
+        }
+      }
+    },
+    {
+      "prompt": "Break the ice",
+      "mode": "human-clues",
+      "trial": 1,
+      "source": "playtests/2026-11-16-claude-clues.md, card 1 #7",
+      "outcome": "solved",
+      "solved_at": 1,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g B8",
+            "+ F8"
+          ],
+          "board": "?g B8 | F8",
+          "plan": "",
+          "guesses": [
+            "Break the ice",
+            "Cut to the chase",
+            "Break a leg"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Break the ice"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 1,
+        "cost_usd": 0.000392,
+        "latency_s": 3.7,
+        "tokens": {
+          "cacheReadTokens": 7695,
+          "cacheWriteTokens": 965,
+          "inputTokens": 2,
+          "outputTokens": 244,
+          "reasoningTokens": 145
+        }
+      }
+    }
+  ],
+  "entries": [
+    "17c7322d34abf612815166114749a189b5fb7473bbc39c38bee90bdbb41d0636",
+    "330b9ce1dae58040ecae5eaf277c9039b7ad10c585ea88fe480212abf759cc69",
+    "39a036e1ab9644fc1d557a274b81cb8c5083a84b2735aada677564dedb87a1ef",
+    "6fb85c5bf976d514117bfa063d52a99cd00a8c8d510e723371a4b232043bfe29",
+    "b962f477776d109cebd7cfe852b1ab4b1c22a6052d46488a16a984ced7ef5c19",
+    "de6100d29ccfbe73b190d6c6c61c0b8f5e4a7d63ae4ea4023c141317f4c26425",
+    "faacd1e8e8199cadd3e462be299e41f76faa40254526ecd61d169f0b74a40ed0"
+  ]
+}

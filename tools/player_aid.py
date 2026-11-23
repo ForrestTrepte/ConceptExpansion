@@ -2,7 +2,7 @@
 """Make a local copy of the official Concept player aid with grid coordinates on each icon.
 
 Usage:
-    python tools/player_aid.py
+    uv run python tools/player_aid.py
 
 Downloads the official player aid PDF (once) and writes, under output/player-aid/:
     player-aid.pdf          the official PDF, unchanged (download cache)

@@ -3,11 +3,8 @@
 How prompts are stored, checked, and turned into printable sheets. Back to
 [README](../README.md).
 
-## Setup
-
-```sh
-pip install -r requirements.txt
-```
+For setup (`uv sync`) and the full list of commands, see
+[Development](../README.md#development) in the README.
 
 ## Prompt data: `data/prompts.csv`
 
@@ -50,11 +47,11 @@ playtest decks; the first public release will be 1.0.
 ## Commands
 
 ```sh
-python tools/cards.py check                     # validate data/prompts.csv
-python tools/cards.py pdf                       # all draft + approved cards -> output/cards.pdf
-python tools/cards.py pdf --cards 1-9          # just cards 1-9
-python tools/cards.py pdf --no-cut-lines       # margin cut marks only, no corner + marks
-python tools/cards.py pdf --status approved     # only cards whose prompts are all approved
+uv run python tools/cards.py check                  # validate data/prompts.csv
+uv run python tools/cards.py pdf                    # all draft + approved cards -> output/cards.pdf
+uv run python tools/cards.py pdf --cards 1-9        # just cards 1-9
+uv run python tools/cards.py pdf --no-cut-lines     # margin cut marks only, no corner + marks
+uv run python tools/cards.py pdf --status approved  # only cards whose prompts are all approved
 ```
 
 ## Printing
@@ -74,7 +71,7 @@ python tools/cards.py pdf --status approved     # only cards whose prompts are a
 ## Player aid with icon codes
 
 ```sh
-python tools/player_aid.py
+uv run python tools/player_aid.py
 ```
 
 This downloads the official player aid once and writes the following to
