@@ -49,6 +49,7 @@ Follow [docs/playtesting.md](docs/playtesting.md). Agent-specific rules:
   a good human player would. Never put icon label words or extra hints in messages.
 - Write the session log in `playtests/` as you go, so it isn't lost if the session
   ends early.
+- `simplay.py play` is for a human guesser at the terminal. Don't run it yourself.
 
 ## LLM calls (llmemo)
 

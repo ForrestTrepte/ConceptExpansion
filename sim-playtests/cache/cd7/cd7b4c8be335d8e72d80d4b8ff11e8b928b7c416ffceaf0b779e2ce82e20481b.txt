@@ -1,0 +1,34 @@
+The answer is: Soup
+
+The game so far:
+
+Step 1, markers placed:
+?g A14
++ F3
++ F1
+!r A14
++ H9
+Your private plan: Food, liquid, hot; then maybe bowl/spoon (hollow).
+Board now:
+?g A14 | F3, F1
+!r A14 | H9
+Guesses: coffee, hot chocolat
+Clue-giver: No
+
+Step 2, markers placed:
+!y A14
++ E3
++ D14
+!b E1
++ C5
+Your private plan: Steer away from drinks: add eaten with a utensil, not a drink; add spoon-like cue via hand/action eating, and cold-weather/comfort. Add Chicken-like? Keep simple.
+Board now:
+?g A14 | F3, F1
+!r A14 | H9
+!y A14 | E3, D14
+!b E1 | C5
+Guesses: spicy
+
+The judge found none of the last guesses correct. Answer Yes or No to them, then add markers or give up. The guesser has 8 turns left.
+
+Your last reply was rejected: Sub-Concept pawns are !r, !y, !b, or !k. Reply again.

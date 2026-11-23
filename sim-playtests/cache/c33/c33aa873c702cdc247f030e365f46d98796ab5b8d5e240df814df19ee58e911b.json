@@ -1,0 +1,124 @@
+{
+  "contentSha256": "60c6d16c2723db0076035a543249db58dbae5d84f9f809b9cde29bc3bc2d1a5c",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "judge",
+    "request": {
+      "backend": "claude-cli",
+      "effort": "low",
+      "jsonSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "correct": {
+            "items": {
+              "type": "boolean"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "correct"
+        ],
+        "type": "object"
+      },
+      "model": "claude-sonnet-5-5",
+      "prompt": {
+        "$llmemo.text": "fc0136bd0ec752c6a8c36612d2e0278cd39a88cdde884b9219d90136b20c46d6"
+      },
+      "system": {
+        "$llmemo.text": "a30e1e320b803d135fac2d13007c4b1a2ecd8b9d6e2e4ecb7784a9a9f44b0851"
+      }
+    }
+  },
+  "meta": {
+    "billing": "subscription",
+    "codeVersion": "609151d-dirty",
+    "costUsd": 0.0031479999999999998,
+    "latencyMs": 1658,
+    "recordedAt": "2026-11-23T05:35:39.251Z",
+    "recordedBy": "developer",
+    "servedBy": "firstParty",
+    "servedModel": "claude-sonnet-5-5",
+    "tags": {
+      "run": "play-play"
+    },
+    "toolVersion": "2.1.330 (Claude Code)",
+    "usage": {
+      "cacheReadTokens": 760,
+      "cacheWriteTokens": 632,
+      "inputTokens": 2,
+      "outputTokens": 54,
+      "reasoningTokens": 0
+    }
+  },
+  "reply": {
+    "api_error_status": null,
+    "is_error": false,
+    "modelUsage": {
+      "claude-sonnet-5-5": {
+        "cacheCreationEphemeral1hInputTokens": 632,
+        "cacheCreationEphemeral5mInputTokens": 0,
+        "cacheCreationInputTokens": 632,
+        "cacheReadInputTokens": 760,
+        "canonicalModel": "claude-sonnet-5-5",
+        "contextWindow": 1000000,
+        "costBasis": "list",
+        "costUSD": 0.0031479999999999998,
+        "inputTokens": 2,
+        "maxOutputTokens": 128000,
+        "outputTokens": 54,
+        "provider": "firstParty",
+        "thinkingTokens": 0,
+        "webSearchRequests": 0
+      }
+    },
+    "num_turns": 2,
+    "permission_denials": [],
+    "result": "{\"correct\":[false]}",
+    "stop_reason": "tool_use",
+    "structured_output": {
+      "correct": [
+        false
+      ]
+    },
+    "subtype": "success",
+    "terminal_reason": "completed",
+    "type": "result",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 632,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 632,
+      "cache_read_input_tokens": 760,
+      "fallback_credit": null,
+      "inference_geo": "global",
+      "input_tokens": 2,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 632,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 632,
+          "cache_read_input_tokens": 760,
+          "input_tokens": 2,
+          "output_tokens": 54,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 54,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

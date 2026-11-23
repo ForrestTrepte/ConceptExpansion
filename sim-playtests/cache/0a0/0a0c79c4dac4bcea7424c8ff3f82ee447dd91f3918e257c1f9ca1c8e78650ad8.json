@@ -1,0 +1,159 @@
+{
+  "contentSha256": "9317b738ced1d0a253b889db4611b8503dadb90dfdd882481da4d794c22d8f84",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "clue-giver",
+    "request": {
+      "backend": "claude-cli",
+      "effort": "medium",
+      "jsonSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "clue",
+              "skip"
+            ],
+            "type": "string"
+          },
+          "confidence": {
+            "maximum": 5,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "lines": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "plan": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "confidence",
+          "action",
+          "plan",
+          "lines"
+        ],
+        "type": "object"
+      },
+      "model": "claude-sonnet-5-5",
+      "prompt": {
+        "$llmemo.text": "6b12b06ab00dd7d746209039da538cb888433f2dbbad06f39e634ee56624e0fa"
+      },
+      "system": [
+        {
+          "$llmemo.text": "29d73c99f00758a55ed046d05b0403c1ca98589e4f1e9e1a977874ccbdd10cbc"
+        },
+        {
+          "$llmemo.text": "d2252f0f769f4131bf86b961745fc4f03ad64d43b87c38f0a046e0c94074bf6d"
+        },
+        {
+          "$llmemo.text": "2fde04bc2e1af13938737fe97d53aa72e4604167970b9d0beb7f36b50e0a89fd"
+        }
+      ]
+    },
+    "variant": "play"
+  },
+  "meta": {
+    "billing": "subscription",
+    "codeVersion": "609151d-dirty",
+    "costUsd": 0.005193,
+    "latencyMs": 2486,
+    "recordedAt": "2026-11-23T02:20:42.034Z",
+    "recordedBy": "developer",
+    "servedBy": "firstParty",
+    "servedModel": "claude-sonnet-5-5",
+    "tags": {
+      "run": "play-play"
+    },
+    "toolVersion": "2.1.330 (Claude Code)",
+    "usage": {
+      "cacheReadTokens": 8170,
+      "cacheWriteTokens": 633,
+      "inputTokens": 2,
+      "outputTokens": 184,
+      "reasoningTokens": 0
+    }
+  },
+  "reply": {
+    "api_error_status": null,
+    "is_error": false,
+    "modelUsage": {
+      "claude-sonnet-5-5": {
+        "cacheCreationEphemeral1hInputTokens": 633,
+        "cacheCreationEphemeral5mInputTokens": 0,
+        "cacheCreationInputTokens": 633,
+        "cacheReadInputTokens": 8170,
+        "canonicalModel": "claude-sonnet-5-5",
+        "contextWindow": 1000000,
+        "costBasis": "list",
+        "costUSD": 0.005193,
+        "inputTokens": 2,
+        "maxOutputTokens": 128000,
+        "outputTokens": 184,
+        "provider": "firstParty",
+        "thinkingTokens": 0,
+        "webSearchRequests": 0
+      }
+    },
+    "num_turns": 2,
+    "permission_denials": [],
+    "result": "{\"confidence\":4,\"action\":\"clue\",\"plan\":\"Main concept: building + medical. Then add house/dwelling for sick people, or the nurse.\",\"lines\":[\"?g B9\",\"+ D10\",\"!r D10\",\"+ B14\",\"!y A3\",\"+ D10\"]}",
+    "stop_reason": "tool_use",
+    "structured_output": {
+      "action": "clue",
+      "confidence": 4,
+      "lines": [
+        "?g B9",
+        "+ D10",
+        "!r D10",
+        "+ B14",
+        "!y A3",
+        "+ D10"
+      ],
+      "plan": "Main concept: building + medical. Then add house/dwelling for sick people, or the nurse."
+    },
+    "subtype": "success",
+    "terminal_reason": "completed",
+    "type": "result",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 633,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 633,
+      "cache_read_input_tokens": 8170,
+      "fallback_credit": null,
+      "inference_geo": "global",
+      "input_tokens": 2,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 633,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 633,
+          "cache_read_input_tokens": 8170,
+          "input_tokens": 2,
+          "output_tokens": 184,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 184,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

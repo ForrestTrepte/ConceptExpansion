@@ -97,6 +97,7 @@ change dependencies, use `uv add` or `uv remove` (`--dev` for dev tools) and com
 | `uv run pytest` | Runs the tests. LLM calls replay from the cache | [simulated-playtesting.md](docs/simulated-playtesting.md) |
 | `uv run python tools/simplay.py run <spec>` | Plays a simulated-playtest spec from `sim-playtests/specs/`, replaying from the cache | [simulated-playtesting.md](docs/simulated-playtesting.md#storing-results) |
 | `uv run python tools/simplay.py all` | Replays every recorded simulated run and rewrites its results | [simulated-playtesting.md](docs/simulated-playtesting.md#storing-results) |
+| `LLMEMO_MODE=record uv run python tools/simplay.py play play` | Interactive game: you guess against the clue-giver model on an unplayed draft prompt; the game is logged in `playtests/` (live calls) | [playtesting.md](docs/playtesting.md#playing-against-the-clue-giver-model) |
 | `uv run python tools/playtest_logs.py check` | Checks that the playtest logs in `playtests/` follow the format simulated playtests read | [playtesting.md](docs/playtesting.md#recording-results) |
 | `uv run python tools/player_aid.py` | Downloads the player aid; writes coded PDF and icon images to `output/player-aid/` | [data-and-printing.md](docs/data-and-printing.md#player-aid-with-icon-codes) |
 | `uv run python tools/illustrate_logs.py` | Writes copies of the playtest logs and simulated runs with icon pictures to `output/illustrated/` (needs the player aid) | [playtesting.md](docs/playtesting.md#recording-results) |
@@ -184,19 +185,20 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-22 | Simulated runs have two modes, named for who gives the clues: `model-clues` and `human-clues` | "Replay" already means replaying from the cache, and the names match the human playtest logs (`claude-clues`, `human-clues`) |
 | 2026-11-22 | `human-clues` runs read the playtest logs directly; `human-games.toml` is gone. Text logs mark pauses (where the guesser replied) with blank lines in clue blocks; tabletop logs never have pauses, and the script splits them at each change of group. `tools/playtest_logs.py check` validates the log format | One source of truth. At the table, clues and guesses overlap, so there are no pauses to record |
 | 2026-11-22 | Illustrated copies of the playtest logs and simulated runs are generated into `output/illustrated/` (not committed): each clue block becomes icon pictures, each followed by its pawn or cubes in the group's color, plus the board after each step when it differs | Reading grid codes is slow. The icons are copyrighted, so only the text logs are committed |
+| 2026-11-23 | `simplay.py play`: the owner guesses in the terminal against the clue-giver model, on random unassigned drafts not in any log. Games are logged as `### Pool:` entries in that day's `claude-clues` log, with real pauses | Calibration needs more human guessing; each game also tests the model's clues on a person and can be replayed to model guessers |
 
 ## Next steps
 
 1. **Simulated playtesting with LLMs: calibrate (phase 2).** The plan and findings
    are in [docs/simulated-playtesting.md](docs/simulated-playtesting.md#findings-so-far-2026-11-23).
-   Four `human-clues` runs (baseline, one guess, first-instinct wording, both) all have
-   Haiku solving 15–18 of the 18 games humans failed, so prompt-side levers don't
-   close the gap. Next options, for the owner to choose: non-Claude guessers through
-   OpenRouter (phase 3); more human games, with the owner guessing against the model
-   clue-giver; or using the simulation only for the clue-giver side (can a model find
-   a route, and does it skip what humans skipped). Record only when the owner asks.
-   Edits to the icon or picture tables invalidate the cache; the re-banding in step 2
-   and deleting the audit section of `pictured-elements.md` don't.
+   Prompt-side levers on Haiku don't close the gap with human guessers (it solves
+   15–18 of the 18 games humans failed). Now collecting more human data: the owner
+   plays `simplay.py play` (guessing against the model clue-giver; see the README
+   command table). Once there are a few dozen games, rerun the `human-clues`
+   comparison on them, and consider non-Claude guessers through OpenRouter
+   (phase 3). Record only when the owner asks. Edits to the icon or picture tables
+   invalidate the cache; the re-banding in step 2 and deleting the audit section of
+   `pictured-elements.md` don't.
 2. **Reassemble cards 1–18 (expected check errors until then).** Rebuild every card
    from the whole pool, using:
    - **Tabletop re-banding:** after the 2026-11-16 playtest, the owner moved Taco,

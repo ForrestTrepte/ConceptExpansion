@@ -1,0 +1,163 @@
+{
+  "contentSha256": "3e26e74f1a48c3df6b6c0b9ad520aaf4700564f87521caedbb63699c8c684750",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "clue-giver",
+    "request": {
+      "backend": "claude-cli",
+      "effort": "medium",
+      "jsonSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "clue",
+              "give_up"
+            ],
+            "type": "string"
+          },
+          "lines": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "plan": {
+            "type": "string"
+          },
+          "verdict": {
+            "enum": [
+              "yes",
+              "no"
+            ],
+            "type": "string"
+          },
+          "yes_to": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "verdict",
+          "yes_to",
+          "action",
+          "plan",
+          "lines"
+        ],
+        "type": "object"
+      },
+      "model": "claude-sonnet-5-5",
+      "prompt": {
+        "$llmemo.text": "82f0520d1f48cda6ac3c3ed89af3fbfb129d60f3a50fd1e2afc36486dd68ed01"
+      },
+      "system": [
+        {
+          "$llmemo.text": "29d73c99f00758a55ed046d05b0403c1ca98589e4f1e9e1a977874ccbdd10cbc"
+        },
+        {
+          "$llmemo.text": "d2252f0f769f4131bf86b961745fc4f03ad64d43b87c38f0a046e0c94074bf6d"
+        },
+        {
+          "$llmemo.text": "2fde04bc2e1af13938737fe97d53aa72e4604167970b9d0beb7f36b50e0a89fd"
+        }
+      ]
+    },
+    "variant": "play"
+  },
+  "meta": {
+    "billing": "subscription",
+    "codeVersion": "609151d-dirty",
+    "costUsd": 0.0060748,
+    "latencyMs": 3427,
+    "recordedAt": "2026-11-23T02:20:04.847Z",
+    "recordedBy": "developer",
+    "servedBy": "firstParty",
+    "servedModel": "claude-sonnet-5-5",
+    "tags": {
+      "run": "play-play"
+    },
+    "toolVersion": "2.1.330 (Claude Code)",
+    "usage": {
+      "cacheReadTokens": 8188,
+      "cacheWriteTokens": 773,
+      "inputTokens": 2,
+      "outputTokens": 216,
+      "reasoningTokens": 0
+    }
+  },
+  "reply": {
+    "api_error_status": null,
+    "is_error": false,
+    "modelUsage": {
+      "claude-sonnet-5-5": {
+        "cacheCreationEphemeral1hInputTokens": 773,
+        "cacheCreationEphemeral5mInputTokens": 0,
+        "cacheCreationInputTokens": 773,
+        "cacheReadInputTokens": 8188,
+        "canonicalModel": "claude-sonnet-5-5",
+        "contextWindow": 1000000,
+        "costBasis": "list",
+        "costUSD": 0.0060748,
+        "inputTokens": 2,
+        "maxOutputTokens": 128000,
+        "outputTokens": 216,
+        "provider": "firstParty",
+        "thinkingTokens": 0,
+        "webSearchRequests": 0
+      }
+    },
+    "num_turns": 2,
+    "permission_denials": [],
+    "result": "{\"verdict\":\"yes\",\"yes_to\":\"achilles\",\"action\":\"clue\",\"plan\":\"Guess achilles is part of the answer. Add a weak-spot/body-part-low hint: a second word 'heel' via foot and back, plus expression/phrase.\",\"lines\":[\"!y B8\",\"+ D12\",\"+ H10\"]}",
+    "stop_reason": "tool_use",
+    "structured_output": {
+      "action": "clue",
+      "lines": [
+        "!y B8",
+        "+ D12",
+        "+ H10"
+      ],
+      "plan": "Guess achilles is part of the answer. Add a weak-spot/body-part-low hint: a second word 'heel' via foot and back, plus expression/phrase.",
+      "verdict": "yes",
+      "yes_to": "achilles"
+    },
+    "subtype": "success",
+    "terminal_reason": "completed",
+    "type": "result",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 773,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 773,
+      "cache_read_input_tokens": 8188,
+      "fallback_credit": null,
+      "inference_geo": "global",
+      "input_tokens": 2,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 773,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 773,
+          "cache_read_input_tokens": 8188,
+          "input_tokens": 2,
+          "output_tokens": 216,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 216,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

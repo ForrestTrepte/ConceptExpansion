@@ -1,0 +1,164 @@
+{
+  "contentSha256": "ec3ce5c7e7b1e948dc8ceb38e9a32e1a5051e5d6c59a5490891a193fa7281ad2",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 1,
+    "keyFormat": 1,
+    "label": "clue-giver",
+    "request": {
+      "backend": "claude-cli",
+      "effort": "medium",
+      "jsonSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "clue",
+              "give_up"
+            ],
+            "type": "string"
+          },
+          "lines": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "plan": {
+            "type": "string"
+          },
+          "verdict": {
+            "enum": [
+              "yes",
+              "no"
+            ],
+            "type": "string"
+          },
+          "yes_to": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "verdict",
+          "yes_to",
+          "action",
+          "plan",
+          "lines"
+        ],
+        "type": "object"
+      },
+      "model": "claude-sonnet-5-5",
+      "prompt": {
+        "$llmemo.text": "cd7b4c8be335d8e72d80d4b8ff11e8b928b7c416ffceaf0b779e2ce82e20481b"
+      },
+      "system": [
+        {
+          "$llmemo.text": "29d73c99f00758a55ed046d05b0403c1ca98589e4f1e9e1a977874ccbdd10cbc"
+        },
+        {
+          "$llmemo.text": "d2252f0f769f4131bf86b961745fc4f03ad64d43b87c38f0a046e0c94074bf6d"
+        },
+        {
+          "$llmemo.text": "2fde04bc2e1af13938737fe97d53aa72e4604167970b9d0beb7f36b50e0a89fd"
+        }
+      ]
+    },
+    "variant": "play"
+  },
+  "meta": {
+    "billing": "subscription",
+    "codeVersion": "609151d-dirty",
+    "costUsd": 0.0094688,
+    "latencyMs": 5799,
+    "recordedAt": "2026-11-23T05:57:30.381Z",
+    "recordedBy": "developer",
+    "servedBy": "firstParty",
+    "servedModel": "claude-sonnet-5-5",
+    "tags": {
+      "run": "play-play"
+    },
+    "toolVersion": "2.1.330 (Claude Code)",
+    "usage": {
+      "cacheReadTokens": 8188,
+      "cacheWriteTokens": 979,
+      "inputTokens": 2,
+      "outputTokens": 473,
+      "reasoningTokens": 265
+    }
+  },
+  "reply": {
+    "api_error_status": null,
+    "is_error": false,
+    "modelUsage": {
+      "claude-sonnet-5-5": {
+        "cacheCreationEphemeral1hInputTokens": 979,
+        "cacheCreationEphemeral5mInputTokens": 0,
+        "cacheCreationInputTokens": 979,
+        "cacheReadInputTokens": 8188,
+        "canonicalModel": "claude-sonnet-5-5",
+        "contextWindow": 1000000,
+        "costBasis": "list",
+        "costUSD": 0.0094688,
+        "inputTokens": 2,
+        "maxOutputTokens": 128000,
+        "outputTokens": 473,
+        "provider": "firstParty",
+        "thinkingTokens": 265,
+        "webSearchRequests": 0
+      }
+    },
+    "num_turns": 2,
+    "permission_denials": [],
+    "result": "{\"verdict\":\"no\",\"yes_to\":\"\",\"action\":\"clue\",\"plan\":\"Add a bowl/spoon-like cue: round hollow plus liquid food, and chicken/animal for chicken soup hints.\",\"lines\":[\"!k A13\",\"+ H4\",\"+ F3\",\"+ E10\"]}",
+    "stop_reason": "tool_use",
+    "structured_output": {
+      "action": "clue",
+      "lines": [
+        "!k A13",
+        "+ H4",
+        "+ F3",
+        "+ E10"
+      ],
+      "plan": "Add a bowl/spoon-like cue: round hollow plus liquid food, and chicken/animal for chicken soup hints.",
+      "verdict": "no",
+      "yes_to": ""
+    },
+    "subtype": "success",
+    "terminal_reason": "completed",
+    "type": "result",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 979,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 979,
+      "cache_read_input_tokens": 8188,
+      "fallback_credit": null,
+      "inference_geo": "global",
+      "input_tokens": 2,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 979,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 979,
+          "cache_read_input_tokens": 8188,
+          "input_tokens": 2,
+          "output_tokens": 473,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 473,
+      "output_tokens_details": {
+        "thinking_tokens": 265
+      },
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

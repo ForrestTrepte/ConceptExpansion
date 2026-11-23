@@ -475,8 +475,12 @@ async def check_correct(ask: Ask, game: Game, answers: Sequence[str]) -> bool:
     return True
 
 
-async def play_model_clues(ask: Ask, spec: Spec, answer: str, trial: int) -> Game:
-    game = Game(answer, "model-clues", trial)
+async def play_model_clues(
+    ask: Ask, spec: Spec, answer: str, trial: int, game: Game | None = None
+) -> Game:
+    """A model clue-giver against `ask`'s guesser. Pass `game` to watch it as it's played
+    (the interactive human guesser does)."""
+    game = game or Game(answer, "model-clues", trial)
     board = Board()
 
     def first(reply: object) -> tuple[int, str, str, list[str], Board]:
@@ -894,6 +898,8 @@ def main(argv: Sequence[str] | None = None) -> int:
     p_run = sub.add_parser("run", help="play the games in one or more specs")
     p_run.add_argument("spec", nargs="+")
     sub.add_parser("all", help="replay every recorded run")
+    p_play = sub.add_parser("play", help="guess yourself against the clue-giver model (live)")
+    p_play.add_argument("spec")
     p_prev = sub.add_parser("preview", help="print the requests a game starts with")
     p_prev.add_argument("spec")
     p_prev.add_argument("prompt")
@@ -902,6 +908,10 @@ def main(argv: Sequence[str] | None = None) -> int:
         return cmd_run(args.spec)
     if args.cmd == "all":
         return cmd_all()
+    if args.cmd == "play":
+        from play import cmd_play
+
+        return cmd_play(args.spec)
     return cmd_preview(args.spec, args.prompt)
 
 

@@ -1,0 +1,17 @@
+# Interactive games (`simplay.py play play`): you guess, the model gives clues. Prompts
+# are picked at random from unassigned drafts, so the list is empty. Same clue-giver as
+# the dry run; humans can call out several guesses at once.
+mode = "model-clues"
+prompts = []
+max_rounds = 10
+max_guesses = 5
+spend_limit_usd = 2.0
+
+[clue_giver]
+model = "claude-sonnet-5-5"
+effort = "medium"
+
+[guesser]
+# Not used by play (you are the guesser), but a model-clues spec needs one.
+model = "claude-haiku-5-5"
+effort = "low"

@@ -16,6 +16,22 @@ There are two text-playtest modes, each run in a fresh conversation:
   evidence: Claude drafted the prompts and thinks in similar patterns, so it may find
   them easier than people do.
 
+## Playing against the clue-giver model
+
+To guess against a model clue-giver in the terminal, with no chat session:
+
+```
+LLMEMO_MODE=record uv run python tools/simplay.py play play
+```
+
+Each game uses a random unassigned draft prompt that isn't in any log, the judge
+decides correct guesses, and the finished game is added to today's `claude-clues` log
+as a `### Pool:` entry with real pauses. Keep `output/illustrated/play/current.md` open
+in the Markdown preview to see the board with pictures. The spec
+`sim-playtests/specs/play.toml` sets the model and the spend limit (calls are live).
+Don't read `data/prompts.csv` or the logs between games, since they contain the
+answers to come.
+
 ## Setup
 
 - Generate the coded player aid with `uv run python tools/player_aid.py` and keep
@@ -174,10 +190,12 @@ To read the logs with icon pictures instead of codes, run
 `uv run python tools/illustrate_logs.py` and open `output/illustrated/playtests/` in
 VS Code's Markdown preview.
 
-- **Heading:** `### Card N, #K: Prompt`, with the prompt as it was played. Other `###`
-  headings (such as `### Card 5 observations`) are fine, but not ones starting
-  `### Card` that look like a broken entry.
+- **Heading:** `### Card N, #K: Prompt`, with the prompt as it was played, or
+  `### Pool: Prompt` for an unassigned prompt. Other `###` headings (such as
+  `### Card 5 observations`) are fine, but not ones starting `### Card` or `### Pool`
+  that look like a broken entry.
 - **First line:** `- Clue-giver: <Claude|human> · Guessed: <result> · Verdict: <verdict>`.
+  The clue-giver may name a model in parentheses: `Claude (claude-sonnet-5-5)`.
   The result is `yes`, `no`, `skipped`, or `not played`, optionally followed by a note
   in parentheses, such as `yes (step 4)` or `no (passed after step 2)`. The verdict can
   be left out for `not played`.

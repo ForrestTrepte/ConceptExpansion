@@ -1,0 +1,163 @@
+{
+  "contentSha256": "b25f9305dea2b7e008467f6be1cbd6abb39e33cc7d4390972e06cff77026d9ca",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "clue-giver",
+    "request": {
+      "backend": "claude-cli",
+      "effort": "medium",
+      "jsonSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "clue",
+              "give_up"
+            ],
+            "type": "string"
+          },
+          "lines": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "plan": {
+            "type": "string"
+          },
+          "verdict": {
+            "enum": [
+              "yes",
+              "no"
+            ],
+            "type": "string"
+          },
+          "yes_to": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "verdict",
+          "yes_to",
+          "action",
+          "plan",
+          "lines"
+        ],
+        "type": "object"
+      },
+      "model": "claude-sonnet-5-5",
+      "prompt": {
+        "$llmemo.text": "678b1ff09d23c98f5171db3faad36bd6867f1dfbe5f5884e6ff7feb43c53a910"
+      },
+      "system": [
+        {
+          "$llmemo.text": "29d73c99f00758a55ed046d05b0403c1ca98589e4f1e9e1a977874ccbdd10cbc"
+        },
+        {
+          "$llmemo.text": "d2252f0f769f4131bf86b961745fc4f03ad64d43b87c38f0a046e0c94074bf6d"
+        },
+        {
+          "$llmemo.text": "2fde04bc2e1af13938737fe97d53aa72e4604167970b9d0beb7f36b50e0a89fd"
+        }
+      ]
+    },
+    "variant": "play"
+  },
+  "meta": {
+    "billing": "subscription",
+    "codeVersion": "609151d-dirty",
+    "costUsd": 0.040007999999999995,
+    "latencyMs": 5476,
+    "recordedAt": "2026-11-23T05:31:42.776Z",
+    "recordedBy": "developer",
+    "servedBy": "firstParty",
+    "servedModel": "claude-sonnet-5-5",
+    "tags": {
+      "run": "play-play"
+    },
+    "toolVersion": "2.1.330 (Claude Code)",
+    "usage": {
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 8981,
+      "inputTokens": 2,
+      "outputTokens": 408,
+      "reasoningTokens": 226
+    }
+  },
+  "reply": {
+    "api_error_status": null,
+    "is_error": false,
+    "modelUsage": {
+      "claude-sonnet-5-5": {
+        "cacheCreationEphemeral1hInputTokens": 8981,
+        "cacheCreationEphemeral5mInputTokens": 0,
+        "cacheCreationInputTokens": 8981,
+        "cacheReadInputTokens": 0,
+        "canonicalModel": "claude-sonnet-5-5",
+        "contextWindow": 1000000,
+        "costBasis": "list",
+        "costUSD": 0.040007999999999995,
+        "inputTokens": 2,
+        "maxOutputTokens": 128000,
+        "outputTokens": 408,
+        "provider": "firstParty",
+        "thinkingTokens": 226,
+        "webSearchRequests": 0
+      }
+    },
+    "num_turns": 2,
+    "permission_denials": [],
+    "result": "{\"verdict\":\"no\",\"yes_to\":\"\",\"action\":\"clue\",\"plan\":\"Add spiral swirl and happy to steer toward candy/lollipop.\",\"lines\":[\"+g C6\",\"!b G3\",\"+ H4\"]}",
+    "stop_reason": "tool_use",
+    "structured_output": {
+      "action": "clue",
+      "lines": [
+        "+g C6",
+        "!b G3",
+        "+ H4"
+      ],
+      "plan": "Add spiral swirl and happy to steer toward candy/lollipop.",
+      "verdict": "no",
+      "yes_to": ""
+    },
+    "subtype": "success",
+    "terminal_reason": "completed",
+    "type": "result",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 8981,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 8981,
+      "cache_read_input_tokens": 0,
+      "fallback_credit": null,
+      "inference_geo": "global",
+      "input_tokens": 2,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 8981,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 8981,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 408,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 408,
+      "output_tokens_details": {
+        "thinking_tokens": 226
+      },
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}
