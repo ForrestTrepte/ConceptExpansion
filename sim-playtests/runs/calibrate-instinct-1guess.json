@@ -1,0 +1,4464 @@
+{
+  "spec": {
+    "id": "calibrate-instinct-1guess",
+    "mode": "human-clues",
+    "prompts": [
+      "Pizza",
+      "Umbrella",
+      "Penguin",
+      "Food truck",
+      "Selfie",
+      "Lifeguard",
+      "Break the ice",
+      "Spider-Man",
+      "Hit the snooze button",
+      "Star Wars",
+      "Drone",
+      "Statue of Liberty",
+      "Couch potato",
+      "Elvis Presley",
+      "Popcorn",
+      "Snail",
+      "Lighthouse",
+      "Once in a blue moon",
+      "Lego",
+      "Rain check"
+    ],
+    "guesser": {
+      "model": "claude-haiku-5-5",
+      "effort": "low"
+    },
+    "clue_giver": null,
+    "trials": 3,
+    "max_rounds": 8,
+    "max_guesses": 1,
+    "guesser_prompt": "guesser-instinct",
+    "extra_rounds": 2,
+    "concurrency": 5,
+    "spend_limit_usd": 3.0
+  },
+  "games": [
+    {
+      "prompt": "Pizza",
+      "mode": "human-clues",
+      "trial": 1,
+      "source": "playtests/2026-11-16-claude-clues.md, card 1 #1",
+      "human_result": "solved",
+      "human_step": 1,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 1,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A14",
+            "+ H4",
+            "+ F8"
+          ],
+          "board": "?g A14 | H4, F8",
+          "plan": "",
+          "guesses": [
+            "Pizza"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Pizza"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 1,
+        "cost_usd": 0.002154,
+        "latency_s": 7.0,
+        "tokens": {
+          "cacheReadTokens": 0,
+          "cacheWriteTokens": 8727,
+          "inputTokens": 2,
+          "outputTokens": 197,
+          "reasoningTokens": 115
+        }
+      }
+    },
+    {
+      "prompt": "Pizza",
+      "mode": "human-clues",
+      "trial": 2,
+      "source": "playtests/2026-11-16-claude-clues.md, card 1 #1",
+      "human_result": "solved",
+      "human_step": 1,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 1,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A14",
+            "+ H4",
+            "+ F8"
+          ],
+          "board": "?g A14 | H4, F8",
+          "plan": "",
+          "guesses": [
+            "Pizza"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Pizza"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 1,
+        "cost_usd": 0.002079,
+        "latency_s": 6.6,
+        "tokens": {
+          "cacheReadTokens": 0,
+          "cacheWriteTokens": 8733,
+          "inputTokens": 2,
+          "outputTokens": 185,
+          "reasoningTokens": 103
+        }
+      }
+    },
+    {
+      "prompt": "Pizza",
+      "mode": "human-clues",
+      "trial": 3,
+      "source": "playtests/2026-11-16-claude-clues.md, card 1 #1",
+      "human_result": "solved",
+      "human_step": 1,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 1,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A14",
+            "+ H4",
+            "+ F8"
+          ],
+          "board": "?g A14 | H4, F8",
+          "plan": "",
+          "guesses": [
+            "Pizza"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Pizza"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 1,
+        "cost_usd": 0.002127,
+        "latency_s": 6.8,
+        "tokens": {
+          "cacheReadTokens": 0,
+          "cacheWriteTokens": 8724,
+          "inputTokens": 2,
+          "outputTokens": 192,
+          "reasoningTokens": 110
+        }
+      }
+    },
+    {
+      "prompt": "Umbrella",
+      "mode": "human-clues",
+      "trial": 1,
+      "source": "playtests/2026-11-16-claude-clues.md, card 1 #2",
+      "human_result": "solved",
+      "human_step": 1,
+      "clue_comments": false,
+      "outcome": "out_of_rounds",
+      "solved_at": null,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A1",
+            "+ C4",
+            "+ E1"
+          ],
+          "board": "?g A1 | C4, E1",
+          "plan": "",
+          "guesses": [
+            "Icebox"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g A1 | C4, E1",
+          "plan": "",
+          "guesses": [
+            "Cooler"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g A1 | C4, E1",
+          "plan": "",
+          "guesses": [
+            "Freezer"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 6,
+        "cost_usd": 0.0163,
+        "latency_s": 30.2,
+        "tokens": {
+          "cacheReadTokens": 17792,
+          "cacheWriteTokens": 13602,
+          "inputTokens": 12,
+          "outputTokens": 984,
+          "reasoningTokens": 576
+        }
+      }
+    },
+    {
+      "prompt": "Umbrella",
+      "mode": "human-clues",
+      "trial": 2,
+      "source": "playtests/2026-11-16-claude-clues.md, card 1 #2",
+      "human_result": "solved",
+      "human_step": 1,
+      "clue_comments": false,
+      "outcome": "out_of_rounds",
+      "solved_at": null,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A1",
+            "+ C4",
+            "+ E1"
+          ],
+          "board": "?g A1 | C4, E1",
+          "plan": "",
+          "guesses": [
+            "Cooler"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g A1 | C4, E1",
+          "plan": "",
+          "guesses": [
+            "Thermos"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g A1 | C4, E1",
+          "plan": "",
+          "guesses": [
+            "Freezer"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 6,
+        "cost_usd": 0.016529,
+        "latency_s": 29.4,
+        "tokens": {
+          "cacheReadTokens": 17792,
+          "cacheWriteTokens": 13609,
+          "inputTokens": 12,
+          "outputTokens": 1175,
+          "reasoningTokens": 767
+        }
+      }
+    },
+    {
+      "prompt": "Umbrella",
+      "mode": "human-clues",
+      "trial": 3,
+      "source": "playtests/2026-11-16-claude-clues.md, card 1 #2",
+      "human_result": "solved",
+      "human_step": 1,
+      "clue_comments": false,
+      "outcome": "out_of_rounds",
+      "solved_at": null,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A1",
+            "+ C4",
+            "+ E1"
+          ],
+          "board": "?g A1 | C4, E1",
+          "plan": "",
+          "guesses": [
+            "Cooler"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g A1 | C4, E1",
+          "plan": "",
+          "guesses": [
+            "Freezer"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g A1 | C4, E1",
+          "plan": "",
+          "guesses": [
+            "Thermos"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 6,
+        "cost_usd": 0.014415,
+        "latency_s": 24.7,
+        "tokens": {
+          "cacheReadTokens": 26236,
+          "cacheWriteTokens": 5157,
+          "inputTokens": 12,
+          "outputTokens": 1153,
+          "reasoningTokens": 745
+        }
+      }
+    },
+    {
+      "prompt": "Penguin",
+      "mode": "human-clues",
+      "trial": 1,
+      "source": "playtests/2026-11-16-claude-clues.md, card 1 #3",
+      "human_result": "solved",
+      "human_step": 3,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 1,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A4",
+            "+ Black",
+            "+ White",
+            "+ E1"
+          ],
+          "board": "?g A4 | Black, White, E1",
+          "plan": "",
+          "guesses": [
+            "Penguin"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Penguin"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 1,
+        "cost_usd": 0.000587,
+        "latency_s": 4.4,
+        "tokens": {
+          "cacheReadTokens": 7756,
+          "cacheWriteTokens": 973,
+          "inputTokens": 2,
+          "outputTokens": 198,
+          "reasoningTokens": 116
+        }
+      }
+    },
+    {
+      "prompt": "Penguin",
+      "mode": "human-clues",
+      "trial": 2,
+      "source": "playtests/2026-11-16-claude-clues.md, card 1 #3",
+      "human_result": "solved",
+      "human_step": 3,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 1,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A4",
+            "+ Black",
+            "+ White",
+            "+ E1"
+          ],
+          "board": "?g A4 | Black, White, E1",
+          "plan": "",
+          "guesses": [
+            "Penguin"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Penguin"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 1,
+        "cost_usd": 0.000436,
+        "latency_s": 5.2,
+        "tokens": {
+          "cacheReadTokens": 8079,
+          "cacheWriteTokens": 656,
+          "inputTokens": 2,
+          "outputTokens": 184,
+          "reasoningTokens": 102
+        }
+      }
+    },
+    {
+      "prompt": "Penguin",
+      "mode": "human-clues",
+      "trial": 3,
+      "source": "playtests/2026-11-16-claude-clues.md, card 1 #3",
+      "human_result": "solved",
+      "human_step": 3,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 1,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A4",
+            "+ Black",
+            "+ White",
+            "+ E1"
+          ],
+          "board": "?g A4 | Black, White, E1",
+          "plan": "",
+          "guesses": [
+            "Penguin"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Penguin"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 1,
+        "cost_usd": 0.000304,
+        "latency_s": 3.4,
+        "tokens": {
+          "cacheReadTokens": 8079,
+          "cacheWriteTokens": 655,
+          "inputTokens": 2,
+          "outputTokens": 185,
+          "reasoningTokens": 103
+        }
+      }
+    },
+    {
+      "prompt": "Food truck",
+      "mode": "human-clues",
+      "trial": 1,
+      "source": "playtests/2026-11-16-claude-clues.md, card 1 #4",
+      "human_result": "solved",
+      "human_step": 1,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 1,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A12",
+            "+ A14"
+          ],
+          "board": "?g A12 | A14",
+          "plan": "",
+          "guesses": [
+            "Food truck"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Food truck"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 1,
+        "cost_usd": 0.000367,
+        "latency_s": 4.1,
+        "tokens": {
+          "cacheReadTokens": 7756,
+          "cacheWriteTokens": 966,
+          "inputTokens": 2,
+          "outputTokens": 193,
+          "reasoningTokens": 111
+        }
+      }
+    },
+    {
+      "prompt": "Food truck",
+      "mode": "human-clues",
+      "trial": 2,
+      "source": "playtests/2026-11-16-claude-clues.md, card 1 #4",
+      "human_result": "solved",
+      "human_step": 1,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 1,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A12",
+            "+ A14"
+          ],
+          "board": "?g A12 | A14",
+          "plan": "",
+          "guesses": [
+            "Food truck"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Food truck"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 1,
+        "cost_usd": 0.000319,
+        "latency_s": 3.7,
+        "tokens": {
+          "cacheReadTokens": 8065,
+          "cacheWriteTokens": 654,
+          "inputTokens": 2,
+          "outputTokens": 215,
+          "reasoningTokens": 133
+        }
+      }
+    },
+    {
+      "prompt": "Food truck",
+      "mode": "human-clues",
+      "trial": 3,
+      "source": "playtests/2026-11-16-claude-clues.md, card 1 #4",
+      "human_result": "solved",
+      "human_step": 1,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 1,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A12",
+            "+ A14"
+          ],
+          "board": "?g A12 | A14",
+          "plan": "",
+          "guesses": [
+            "Food truck"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Food truck"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 1,
+        "cost_usd": 0.00029,
+        "latency_s": 3.7,
+        "tokens": {
+          "cacheReadTokens": 8065,
+          "cacheWriteTokens": 657,
+          "inputTokens": 2,
+          "outputTokens": 156,
+          "reasoningTokens": 74
+        }
+      }
+    },
+    {
+      "prompt": "Selfie",
+      "mode": "human-clues",
+      "trial": 1,
+      "source": "playtests/2026-11-16-claude-clues.md, card 1 #5",
+      "human_result": "failed",
+      "human_step": null,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 4,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g H14",
+            "+ C14",
+            "+ C11"
+          ],
+          "board": "?g H14 | C14, C11",
+          "plan": "",
+          "guesses": [
+            "Wink"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!r A1",
+            "+ C7",
+            "+ C14"
+          ],
+          "board": "?g H14 | C14, C11\n!r A1 | C7, C14",
+          "plan": "",
+          "guesses": [
+            "Camera"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "+r D11",
+            "+ F11"
+          ],
+          "board": "?g H14 | C14, C11\n!r A1 | C7, C14, D11, F11",
+          "plan": "",
+          "guesses": [
+            "Smartphone"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "+r E8"
+          ],
+          "board": "?g H14 | C14, C11\n!r A1 | C7, C14, D11, F11, E8",
+          "plan": "",
+          "guesses": [
+            "Selfie"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Selfie"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 7,
+        "cost_usd": 0.01581,
+        "latency_s": 25.5,
+        "tokens": {
+          "cacheReadTokens": 33304,
+          "cacheWriteTokens": 7098,
+          "inputTokens": 14,
+          "outputTokens": 1451,
+          "reasoningTokens": 962
+        }
+      }
+    },
+    {
+      "prompt": "Selfie",
+      "mode": "human-clues",
+      "trial": 2,
+      "source": "playtests/2026-11-16-claude-clues.md, card 1 #5",
+      "human_result": "failed",
+      "human_step": null,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 2,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g H14",
+            "+ C14",
+            "+ C11"
+          ],
+          "board": "?g H14 | C14, C11",
+          "plan": "",
+          "guesses": [
+            "Camera"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!r A1",
+            "+ C7",
+            "+ C14"
+          ],
+          "board": "?g H14 | C14, C11\n!r A1 | C7, C14",
+          "plan": "",
+          "guesses": [
+            "Selfie"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Selfie"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 3,
+        "cost_usd": 0.005474,
+        "latency_s": 11.5,
+        "tokens": {
+          "cacheReadTokens": 16589,
+          "cacheWriteTokens": 2624,
+          "inputTokens": 6,
+          "outputTokens": 715,
+          "reasoningTokens": 498
+        }
+      }
+    },
+    {
+      "prompt": "Selfie",
+      "mode": "human-clues",
+      "trial": 3,
+      "source": "playtests/2026-11-16-claude-clues.md, card 1 #5",
+      "human_result": "failed",
+      "human_step": null,
+      "clue_comments": false,
+      "outcome": "out_of_rounds",
+      "solved_at": null,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g H14",
+            "+ C14",
+            "+ C11"
+          ],
+          "board": "?g H14 | C14, C11",
+          "plan": "",
+          "guesses": [
+            "Camera"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!r A1",
+            "+ C7",
+            "+ C14"
+          ],
+          "board": "?g H14 | C14, C11\n!r A1 | C7, C14",
+          "plan": "",
+          "guesses": [
+            "Eye scanner"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "+r D11",
+            "+ F11"
+          ],
+          "board": "?g H14 | C14, C11\n!r A1 | C7, C14, D11, F11",
+          "plan": "",
+          "guesses": [
+            "Face ID"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "+r E8"
+          ],
+          "board": "?g H14 | C14, C11\n!r A1 | C7, C14, D11, F11, E8",
+          "plan": "",
+          "guesses": [
+            "Facepalm"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g H14 | C14, C11\n!r A1 | C7, C14, D11, F11, E8",
+          "plan": "",
+          "guesses": [
+            "Fingerprint"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g H14 | C14, C11\n!r A1 | C7, C14, D11, F11, E8",
+          "plan": "",
+          "guesses": [
+            "Touch ID"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 12,
+        "cost_usd": 0.029676,
+        "latency_s": 52.2,
+        "tokens": {
+          "cacheReadTokens": 51803,
+          "cacheWriteTokens": 11783,
+          "inputTokens": 24,
+          "outputTokens": 2517,
+          "reasoningTokens": 1696
+        }
+      }
+    },
+    {
+      "prompt": "Lifeguard",
+      "mode": "human-clues",
+      "trial": 1,
+      "source": "playtests/2026-11-16-claude-clues.md, card 1 #6",
+      "human_result": "solved",
+      "human_step": 4,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 3,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A3",
+            "+ C4",
+            "+ A11",
+            "+ D10"
+          ],
+          "board": "?g A3 | C4, A11, D10",
+          "plan": "",
+          "guesses": [
+            "Coast Guard"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!r B13",
+            "+ Red"
+          ],
+          "board": "?g A3 | C4, A11, D10\n!r B13 | Red",
+          "plan": "",
+          "guesses": [
+            "Red Cross"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!y F1",
+            "+ F4"
+          ],
+          "board": "?g A3 | C4, A11, D10\n!r B13 | Red\n!y F1 | F4",
+          "plan": "",
+          "guesses": [
+            "Lifeguard"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Lifeguard"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 5,
+        "cost_usd": 0.010431,
+        "latency_s": 20.1,
+        "tokens": {
+          "cacheReadTokens": 24788,
+          "cacheWriteTokens": 5013,
+          "inputTokens": 10,
+          "outputTokens": 971,
+          "reasoningTokens": 612
+        }
+      }
+    },
+    {
+      "prompt": "Lifeguard",
+      "mode": "human-clues",
+      "trial": 2,
+      "source": "playtests/2026-11-16-claude-clues.md, card 1 #6",
+      "human_result": "solved",
+      "human_step": 4,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 3,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A3",
+            "+ C4",
+            "+ A11",
+            "+ D10"
+          ],
+          "board": "?g A3 | C4, A11, D10",
+          "plan": "",
+          "guesses": [
+            "Navy medic"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!r B13",
+            "+ Red"
+          ],
+          "board": "?g A3 | C4, A11, D10\n!r B13 | Red",
+          "plan": "",
+          "guesses": [
+            "Navy nurse"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!y F1",
+            "+ F4"
+          ],
+          "board": "?g A3 | C4, A11, D10\n!r B13 | Red\n!y F1 | F4",
+          "plan": "",
+          "guesses": [
+            "Lifeguard"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Lifeguard"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 5,
+        "cost_usd": 0.010862,
+        "latency_s": 21.0,
+        "tokens": {
+          "cacheReadTokens": 24788,
+          "cacheWriteTokens": 5014,
+          "inputTokens": 10,
+          "outputTokens": 1129,
+          "reasoningTokens": 770
+        }
+      }
+    },
+    {
+      "prompt": "Lifeguard",
+      "mode": "human-clues",
+      "trial": 3,
+      "source": "playtests/2026-11-16-claude-clues.md, card 1 #6",
+      "human_result": "solved",
+      "human_step": 4,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 2,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A3",
+            "+ C4",
+            "+ A11",
+            "+ D10"
+          ],
+          "board": "?g A3 | C4, A11, D10",
+          "plan": "",
+          "guesses": [
+            "Navy medic"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!r B13",
+            "+ Red"
+          ],
+          "board": "?g A3 | C4, A11, D10\n!r B13 | Red",
+          "plan": "",
+          "guesses": [
+            "Lifeguard"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Lifeguard"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 3,
+        "cost_usd": 0.005223,
+        "latency_s": 12.5,
+        "tokens": {
+          "cacheReadTokens": 16992,
+          "cacheWriteTokens": 2241,
+          "inputTokens": 6,
+          "outputTokens": 713,
+          "reasoningTokens": 492
+        }
+      }
+    },
+    {
+      "prompt": "Break the ice",
+      "mode": "human-clues",
+      "trial": 1,
+      "source": "playtests/2026-11-16-claude-clues.md, card 1 #7",
+      "human_result": "solved",
+      "human_step": 9,
+      "clue_comments": false,
+      "outcome": "out_of_rounds",
+      "solved_at": null,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g B8",
+            "+ F8"
+          ],
+          "board": "?g B8 | F8",
+          "plan": "",
+          "guesses": [
+            "Sound bite"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "+g E1"
+          ],
+          "board": "?g B8 | F8, E1",
+          "plan": "",
+          "guesses": [
+            "Snippet"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!r E5",
+            "+ Clear"
+          ],
+          "board": "?g B8 | F8, E1\n!r E5 | Clear",
+          "plan": "",
+          "guesses": [
+            "Cut to the chase"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "+r E1"
+          ],
+          "board": "?g B8 | F8, E1\n!r E5 | Clear, E1",
+          "plan": "",
+          "guesses": [
+            "Cold hard truth"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!y B1",
+            "+ C1"
+          ],
+          "board": "?g B8 | F8, E1\n!r E5 | Clear, E1\n!y B1 | C1",
+          "plan": "",
+          "guesses": [
+            "Catchphrase"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "+y B8",
+            "+ G13"
+          ],
+          "board": "?g B8 | F8, E1\n!r E5 | Clear, E1\n!y B1 | C1, B8, G13",
+          "plan": "",
+          "guesses": [
+            "Slogan"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "+r G7"
+          ],
+          "board": "?g B8 | F8, E1\n!r E5 | Clear, E1, G7\n!y B1 | C1, B8, G13",
+          "plan": "",
+          "guesses": [
+            "Quote"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "-r all",
+            "!r F3",
+            "+ E1",
+            "+ E5"
+          ],
+          "board": "?g B8 | F8, E1\n!r F3 | E1, E5\n!y B1 | C1, B8, G13",
+          "plan": "",
+          "guesses": [
+            "Sticks and stones"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "+r G7"
+          ],
+          "board": "?g B8 | F8, E1\n!r F3 | E1, E5, G7\n!y B1 | C1, B8, G13",
+          "plan": "",
+          "guesses": [
+            "Cut and dried"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g B8 | F8, E1\n!r F3 | E1, E5, G7\n!y B1 | C1, B8, G13",
+          "plan": "",
+          "guesses": [
+            "Stone cold"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g B8 | F8, E1\n!r F3 | E1, E5, G7\n!y B1 | C1, B8, G13",
+          "plan": "",
+          "guesses": [
+            "Cutting remark"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 22,
+        "cost_usd": 0.056845,
+        "latency_s": 96.2,
+        "tokens": {
+          "cacheReadTokens": 93676,
+          "cacheWriteTokens": 24860,
+          "inputTokens": 44,
+          "outputTokens": 5676,
+          "reasoningTokens": 4164
+        }
+      }
+    },
+    {
+      "prompt": "Break the ice",
+      "mode": "human-clues",
+      "trial": 2,
+      "source": "playtests/2026-11-16-claude-clues.md, card 1 #7",
+      "human_result": "solved",
+      "human_step": 9,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 8,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g B8",
+            "+ F8"
+          ],
+          "board": "?g B8 | F8",
+          "plan": "",
+          "guesses": [
+            "Sound bite"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "+g E1"
+          ],
+          "board": "?g B8 | F8, E1",
+          "plan": "",
+          "guesses": [
+            "Cutting remark"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!r E5",
+            "+ Clear"
+          ],
+          "board": "?g B8 | F8, E1\n!r E5 | Clear",
+          "plan": "",
+          "guesses": [
+            "Cold hard truth"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "+r E1"
+          ],
+          "board": "?g B8 | F8, E1\n!r E5 | Clear, E1",
+          "plan": "",
+          "guesses": [
+            "Clear-cut"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!y B1",
+            "+ C1"
+          ],
+          "board": "?g B8 | F8, E1\n!r E5 | Clear, E1\n!y B1 | C1",
+          "plan": "",
+          "guesses": [
+            "Cut to the chase"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "+y B8",
+            "+ G13"
+          ],
+          "board": "?g B8 | F8, E1\n!r E5 | Clear, E1\n!y B1 | C1, B8, G13",
+          "plan": "",
+          "guesses": [
+            "Brutally honest"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "+r G7"
+          ],
+          "board": "?g B8 | F8, E1\n!r E5 | Clear, E1, G7\n!y B1 | C1, B8, G13",
+          "plan": "",
+          "guesses": [
+            "Tell it like it is"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "-r all",
+            "!r F3",
+            "+ E1",
+            "+ E5"
+          ],
+          "board": "?g B8 | F8, E1\n!r F3 | E1, E5\n!y B1 | C1, B8, G13",
+          "plan": "",
+          "guesses": [
+            "Break the ice"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Break the ice"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 15,
+        "cost_usd": 0.036646,
+        "latency_s": 68.7,
+        "tokens": {
+          "cacheReadTokens": 68039,
+          "cacheWriteTokens": 15520,
+          "inputTokens": 30,
+          "outputTokens": 3957,
+          "reasoningTokens": 2906
+        }
+      }
+    },
+    {
+      "prompt": "Break the ice",
+      "mode": "human-clues",
+      "trial": 3,
+      "source": "playtests/2026-11-16-claude-clues.md, card 1 #7",
+      "human_result": "solved",
+      "human_step": 9,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 2,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g B8",
+            "+ F8"
+          ],
+          "board": "?g B8 | F8",
+          "plan": "",
+          "guesses": [
+            "Cut to the chase"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "+g E1"
+          ],
+          "board": "?g B8 | F8, E1",
+          "plan": "",
+          "guesses": [
+            "Break the ice"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Break the ice"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 3,
+        "cost_usd": 0.005365,
+        "latency_s": 11.0,
+        "tokens": {
+          "cacheReadTokens": 16581,
+          "cacheWriteTokens": 2594,
+          "inputTokens": 6,
+          "outputTokens": 622,
+          "reasoningTokens": 400
+        }
+      }
+    },
+    {
+      "prompt": "Spider-Man",
+      "mode": "human-clues",
+      "trial": 1,
+      "source": "playtests/2026-11-16-claude-clues.md, card 1 #8",
+      "human_result": "solved",
+      "human_step": 1,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 2,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g B2",
+            "+ Red",
+            "+ Blue",
+            "+ F10"
+          ],
+          "board": "?g B2 | Red, Blue, F10",
+          "plan": "",
+          "guesses": [
+            "Superman"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g B2 | Red, Blue, F10",
+          "plan": "",
+          "guesses": [
+            "Spider-Man"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Spider-Man"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 3,
+        "cost_usd": 0.005624,
+        "latency_s": 10.4,
+        "tokens": {
+          "cacheReadTokens": 16272,
+          "cacheWriteTokens": 2943,
+          "inputTokens": 6,
+          "outputTokens": 550,
+          "reasoningTokens": 331
+        }
+      }
+    },
+    {
+      "prompt": "Spider-Man",
+      "mode": "human-clues",
+      "trial": 2,
+      "source": "playtests/2026-11-16-claude-clues.md, card 1 #8",
+      "human_result": "solved",
+      "human_step": 1,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 2,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g B2",
+            "+ Red",
+            "+ Blue",
+            "+ F10"
+          ],
+          "board": "?g B2 | Red, Blue, F10",
+          "plan": "",
+          "guesses": [
+            "Superman"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g B2 | Red, Blue, F10",
+          "plan": "",
+          "guesses": [
+            "Spider-Man"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Spider-Man"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 3,
+        "cost_usd": 0.005232,
+        "latency_s": 10.9,
+        "tokens": {
+          "cacheReadTokens": 16983,
+          "cacheWriteTokens": 2237,
+          "inputTokens": 6,
+          "outputTokens": 540,
+          "reasoningTokens": 321
+        }
+      }
+    },
+    {
+      "prompt": "Spider-Man",
+      "mode": "human-clues",
+      "trial": 3,
+      "source": "playtests/2026-11-16-claude-clues.md, card 1 #8",
+      "human_result": "solved",
+      "human_step": 1,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 2,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g B2",
+            "+ Red",
+            "+ Blue",
+            "+ F10"
+          ],
+          "board": "?g B2 | Red, Blue, F10",
+          "plan": "",
+          "guesses": [
+            "Superman"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g B2 | Red, Blue, F10",
+          "plan": "",
+          "guesses": [
+            "Spider-Man"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Spider-Man"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 3,
+        "cost_usd": 0.00546,
+        "latency_s": 11.5,
+        "tokens": {
+          "cacheReadTokens": 16983,
+          "cacheWriteTokens": 2230,
+          "inputTokens": 6,
+          "outputTokens": 531,
+          "reasoningTokens": 312
+        }
+      }
+    },
+    {
+      "prompt": "Hit the snooze button",
+      "mode": "human-clues",
+      "trial": 1,
+      "source": "playtests/2026-11-16-claude-clues.md, card 1 #9",
+      "human_result": "solved",
+      "human_step": 5,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 7,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g H14"
+          ],
+          "board": "?g H14",
+          "plan": "",
+          "guesses": [
+            "Remote control"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!r A1",
+            "+ D8"
+          ],
+          "board": "?g H14\n!r A1 | D8",
+          "plan": "",
+          "guesses": [
+            "Stopwatch"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "+r C13"
+          ],
+          "board": "?g H14\n!r A1 | D8, C13",
+          "plan": "",
+          "guesses": [
+            "Alarm clock"
+          ],
+          "passed": false,
+          "verdict": "yes",
+          "yes_to": "Alarm clock",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!y E2",
+            "+ B14",
+            "+ G14",
+            "+ C3"
+          ],
+          "board": "?g H14\n!r A1 | D8, C13\n!y E2 | B14, G14, C3",
+          "plan": "",
+          "guesses": [
+            "Snooze button"
+          ],
+          "passed": false,
+          "verdict": "yes",
+          "yes_to": "Snooze button",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "+y D4"
+          ],
+          "board": "?g H14\n!r A1 | D8, C13\n!y E2 | B14, G14, C3, D4",
+          "plan": "",
+          "guesses": [
+            "Wake-up call"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g H14\n!r A1 | D8, C13\n!y E2 | B14, G14, C3, D4",
+          "plan": "",
+          "guesses": [
+            "Alarm"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g H14\n!r A1 | D8, C13\n!y E2 | B14, G14, C3, D4",
+          "plan": "",
+          "guesses": [
+            "Hit the snooze button"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Hit the snooze button"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 13,
+        "cost_usd": 0.030947,
+        "latency_s": 50.3,
+        "tokens": {
+          "cacheReadTokens": 58852,
+          "cacheWriteTokens": 13772,
+          "inputTokens": 26,
+          "outputTokens": 2674,
+          "reasoningTokens": 1764
+        }
+      }
+    },
+    {
+      "prompt": "Hit the snooze button",
+      "mode": "human-clues",
+      "trial": 2,
+      "source": "playtests/2026-11-16-claude-clues.md, card 1 #9",
+      "human_result": "solved",
+      "human_step": 5,
+      "clue_comments": false,
+      "outcome": "out_of_rounds",
+      "solved_at": null,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g H14"
+          ],
+          "board": "?g H14",
+          "plan": "",
+          "guesses": [
+            "Doorbell"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!r A1",
+            "+ D8"
+          ],
+          "board": "?g H14\n!r A1 | D8",
+          "plan": "",
+          "guesses": [
+            "Stopwatch"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "+r C13"
+          ],
+          "board": "?g H14\n!r A1 | D8, C13",
+          "plan": "",
+          "guesses": [
+            "Alarm clock"
+          ],
+          "passed": false,
+          "verdict": "yes",
+          "yes_to": "Alarm clock",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!y E2",
+            "+ B14",
+            "+ G14",
+            "+ C3"
+          ],
+          "board": "?g H14\n!r A1 | D8, C13\n!y E2 | B14, G14, C3",
+          "plan": "",
+          "guesses": [
+            "Snooze button"
+          ],
+          "passed": false,
+          "verdict": "yes",
+          "yes_to": "Snooze button",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "+y D4"
+          ],
+          "board": "?g H14\n!r A1 | D8, C13\n!y E2 | B14, G14, C3, D4",
+          "plan": "",
+          "guesses": [
+            "Snooze"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g H14\n!r A1 | D8, C13\n!y E2 | B14, G14, C3, D4",
+          "plan": "",
+          "guesses": [
+            "Clock radio"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g H14\n!r A1 | D8, C13\n!y E2 | B14, G14, C3, D4",
+          "plan": "",
+          "guesses": [
+            "Wake-up call"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 14,
+        "cost_usd": 0.035925,
+        "latency_s": 52.2,
+        "tokens": {
+          "cacheReadTokens": 59912,
+          "cacheWriteTokens": 14412,
+          "inputTokens": 28,
+          "outputTokens": 2821,
+          "reasoningTokens": 1859
+        }
+      }
+    },
+    {
+      "prompt": "Hit the snooze button",
+      "mode": "human-clues",
+      "trial": 3,
+      "source": "playtests/2026-11-16-claude-clues.md, card 1 #9",
+      "human_result": "solved",
+      "human_step": 5,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 5,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g H14"
+          ],
+          "board": "?g H14",
+          "plan": "",
+          "guesses": [
+            "Doorbell"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!r A1",
+            "+ D8"
+          ],
+          "board": "?g H14\n!r A1 | D8",
+          "plan": "",
+          "guesses": [
+            "Stopwatch"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "+r C13"
+          ],
+          "board": "?g H14\n!r A1 | D8, C13",
+          "plan": "",
+          "guesses": [
+            "Alarm clock"
+          ],
+          "passed": false,
+          "verdict": "yes",
+          "yes_to": "Alarm clock",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!y E2",
+            "+ B14",
+            "+ G14",
+            "+ C3"
+          ],
+          "board": "?g H14\n!r A1 | D8, C13\n!y E2 | B14, G14, C3",
+          "plan": "",
+          "guesses": [
+            "Snooze button"
+          ],
+          "passed": false,
+          "verdict": "yes",
+          "yes_to": "Snooze button",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "+y D4"
+          ],
+          "board": "?g H14\n!r A1 | D8, C13\n!y E2 | B14, G14, C3, D4",
+          "plan": "",
+          "guesses": [
+            "Hit snooze"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "judge",
+          "correct_guess": "Hit snooze"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 10,
+        "cost_usd": 0.025469,
+        "latency_s": 39.0,
+        "tokens": {
+          "cacheReadTokens": 44777,
+          "cacheWriteTokens": 7912,
+          "inputTokens": 20,
+          "outputTokens": 2037,
+          "reasoningTokens": 1348
+        }
+      }
+    },
+    {
+      "prompt": "Star Wars",
+      "mode": "human-clues",
+      "trial": 1,
+      "source": "playtests/2026-11-16-tabletop.md, card 5 #4",
+      "human_result": "solved",
+      "human_step": 1,
+      "clue_comments": true,
+      "outcome": "solved",
+      "solved_at": 1,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "+g E2 [cube on the stars in the picture]",
+            "+ D4"
+          ],
+          "board": "g (no pawn) | E2, D4",
+          "plan": "",
+          "guesses": [
+            "Star Wars"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Star Wars"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 1,
+        "cost_usd": 0.000369,
+        "latency_s": 3.4,
+        "tokens": {
+          "cacheReadTokens": 7756,
+          "cacheWriteTokens": 978,
+          "inputTokens": 2,
+          "outputTokens": 191,
+          "reasoningTokens": 108
+        }
+      }
+    },
+    {
+      "prompt": "Star Wars",
+      "mode": "human-clues",
+      "trial": 2,
+      "source": "playtests/2026-11-16-tabletop.md, card 5 #4",
+      "human_result": "solved",
+      "human_step": 1,
+      "clue_comments": true,
+      "outcome": "solved",
+      "solved_at": 1,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "+g E2 [cube on the stars in the picture]",
+            "+ D4"
+          ],
+          "board": "g (no pawn) | E2, D4",
+          "plan": "",
+          "guesses": [
+            "Star Wars"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Star Wars"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 1,
+        "cost_usd": 0.000307,
+        "latency_s": 3.9,
+        "tokens": {
+          "cacheReadTokens": 8083,
+          "cacheWriteTokens": 659,
+          "inputTokens": 2,
+          "outputTokens": 189,
+          "reasoningTokens": 106
+        }
+      }
+    },
+    {
+      "prompt": "Star Wars",
+      "mode": "human-clues",
+      "trial": 3,
+      "source": "playtests/2026-11-16-tabletop.md, card 5 #4",
+      "human_result": "solved",
+      "human_step": 1,
+      "clue_comments": true,
+      "outcome": "solved",
+      "solved_at": 1,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "+g E2 [cube on the stars in the picture]",
+            "+ D4"
+          ],
+          "board": "g (no pawn) | E2, D4",
+          "plan": "",
+          "guesses": [
+            "Star Wars"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Star Wars"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 1,
+        "cost_usd": 0.000333,
+        "latency_s": 4.5,
+        "tokens": {
+          "cacheReadTokens": 8083,
+          "cacheWriteTokens": 656,
+          "inputTokens": 2,
+          "outputTokens": 242,
+          "reasoningTokens": 159
+        }
+      }
+    },
+    {
+      "prompt": "Drone",
+      "mode": "human-clues",
+      "trial": 1,
+      "source": "playtests/2026-11-16-tabletop.md, card 5 #5",
+      "human_result": "solved",
+      "human_step": null,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 3,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A13",
+            "+ B11"
+          ],
+          "board": "?g A13 | B11",
+          "plan": "",
+          "guesses": [
+            "Kite"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g A13 | B11",
+          "plan": "",
+          "guesses": [
+            "Toy airplane"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g A13 | B11",
+          "plan": "",
+          "guesses": [
+            "Drone"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Drone"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 5,
+        "cost_usd": 0.010563,
+        "latency_s": 17.5,
+        "tokens": {
+          "cacheReadTokens": 24788,
+          "cacheWriteTokens": 4898,
+          "inputTokens": 10,
+          "outputTokens": 928,
+          "reasoningTokens": 574
+        }
+      }
+    },
+    {
+      "prompt": "Drone",
+      "mode": "human-clues",
+      "trial": 2,
+      "source": "playtests/2026-11-16-tabletop.md, card 5 #5",
+      "human_result": "solved",
+      "human_step": null,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 2,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A13",
+            "+ B11"
+          ],
+          "board": "?g A13 | B11",
+          "plan": "",
+          "guesses": [
+            "Kite"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g A13 | B11",
+          "plan": "",
+          "guesses": [
+            "Drone"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Drone"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 3,
+        "cost_usd": 0.004937,
+        "latency_s": 10.0,
+        "tokens": {
+          "cacheReadTokens": 16940,
+          "cacheWriteTokens": 2233,
+          "inputTokens": 6,
+          "outputTokens": 479,
+          "reasoningTokens": 263
+        }
+      }
+    },
+    {
+      "prompt": "Drone",
+      "mode": "human-clues",
+      "trial": 3,
+      "source": "playtests/2026-11-16-tabletop.md, card 5 #5",
+      "human_result": "solved",
+      "human_step": null,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 3,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A13",
+            "+ B11"
+          ],
+          "board": "?g A13 | B11",
+          "plan": "",
+          "guesses": [
+            "Kite"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g A13 | B11",
+          "plan": "",
+          "guesses": [
+            "Model airplane"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g A13 | B11",
+          "plan": "",
+          "guesses": [
+            "Drone"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Drone"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 5,
+        "cost_usd": 0.009992,
+        "latency_s": 18.2,
+        "tokens": {
+          "cacheReadTokens": 25456,
+          "cacheWriteTokens": 4230,
+          "inputTokens": 10,
+          "outputTokens": 945,
+          "reasoningTokens": 592
+        }
+      }
+    },
+    {
+      "prompt": "Statue of Liberty",
+      "mode": "human-clues",
+      "trial": 1,
+      "source": "playtests/2026-11-16-tabletop.md, card 5 #6",
+      "human_result": "failed",
+      "human_step": null,
+      "clue_comments": true,
+      "outcome": "solved",
+      "solved_at": 1,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g B6 [pawn on the sculpture in the picture]",
+            "+ G10"
+          ],
+          "board": "?g B6 | G10",
+          "plan": "",
+          "guesses": [
+            "Statue of Liberty"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Statue of Liberty"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 1,
+        "cost_usd": 0.000388,
+        "latency_s": 3.6,
+        "tokens": {
+          "cacheReadTokens": 7756,
+          "cacheWriteTokens": 984,
+          "inputTokens": 2,
+          "outputTokens": 226,
+          "reasoningTokens": 140
+        }
+      }
+    },
+    {
+      "prompt": "Statue of Liberty",
+      "mode": "human-clues",
+      "trial": 2,
+      "source": "playtests/2026-11-16-tabletop.md, card 5 #6",
+      "human_result": "failed",
+      "human_step": null,
+      "clue_comments": true,
+      "outcome": "solved",
+      "solved_at": 1,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g B6 [pawn on the sculpture in the picture]",
+            "+ G10"
+          ],
+          "board": "?g B6 | G10",
+          "plan": "",
+          "guesses": [
+            "Statue of Liberty"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Statue of Liberty"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 1,
+        "cost_usd": 0.000604,
+        "latency_s": 4.2,
+        "tokens": {
+          "cacheReadTokens": 8081,
+          "cacheWriteTokens": 652,
+          "inputTokens": 2,
+          "outputTokens": 290,
+          "reasoningTokens": 204
+        }
+      }
+    },
+    {
+      "prompt": "Statue of Liberty",
+      "mode": "human-clues",
+      "trial": 3,
+      "source": "playtests/2026-11-16-tabletop.md, card 5 #6",
+      "human_result": "failed",
+      "human_step": null,
+      "clue_comments": true,
+      "outcome": "solved",
+      "solved_at": 1,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g B6 [pawn on the sculpture in the picture]",
+            "+ G10"
+          ],
+          "board": "?g B6 | G10",
+          "plan": "",
+          "guesses": [
+            "Statue of Liberty"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Statue of Liberty"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 1,
+        "cost_usd": 0.00031,
+        "latency_s": 3.5,
+        "tokens": {
+          "cacheReadTokens": 8081,
+          "cacheWriteTokens": 652,
+          "inputTokens": 2,
+          "outputTokens": 197,
+          "reasoningTokens": 111
+        }
+      }
+    },
+    {
+      "prompt": "Couch potato",
+      "mode": "human-clues",
+      "trial": 1,
+      "source": "playtests/2026-11-16-tabletop.md, card 5 #7",
+      "human_result": "solved",
+      "human_step": null,
+      "clue_comments": true,
+      "outcome": "out_of_rounds",
+      "solved_at": null,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g D2 [placed between C2 and D2: a person of either sex]"
+          ],
+          "board": "?g D2",
+          "plan": "",
+          "guesses": [
+            "Human"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!b E8",
+            "+ D3"
+          ],
+          "board": "?g D2\n!b E8 | D3",
+          "plan": "",
+          "guesses": [
+            "The Flash"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "+g B14",
+            "+ A7"
+          ],
+          "board": "?g D2 | B14, A7\n!b E8 | D3",
+          "plan": "",
+          "guesses": [
+            "Full House"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g D2 | B14, A7\n!b E8 | D3",
+          "plan": "",
+          "guesses": [
+            "Reverse Flash"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g D2 | B14, A7\n!b E8 | D3",
+          "plan": "",
+          "guesses": [
+            "Dr. House"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 10,
+        "cost_usd": 0.025914,
+        "latency_s": 42.0,
+        "tokens": {
+          "cacheReadTokens": 43022,
+          "cacheWriteTokens": 9669,
+          "inputTokens": 20,
+          "outputTokens": 2471,
+          "reasoningTokens": 1790
+        }
+      }
+    },
+    {
+      "prompt": "Couch potato",
+      "mode": "human-clues",
+      "trial": 2,
+      "source": "playtests/2026-11-16-tabletop.md, card 5 #7",
+      "human_result": "solved",
+      "human_step": null,
+      "clue_comments": true,
+      "outcome": "out_of_rounds",
+      "solved_at": null,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g D2 [placed between C2 and D2: a person of either sex]"
+          ],
+          "board": "?g D2",
+          "plan": "",
+          "guesses": [
+            "Human"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!b E8",
+            "+ D3"
+          ],
+          "board": "?g D2\n!b E8 | D3",
+          "plan": "",
+          "guesses": [
+            "The Flash"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "+g B14",
+            "+ A7"
+          ],
+          "board": "?g D2 | B14, A7\n!b E8 | D3",
+          "plan": "",
+          "guesses": [
+            "House, M.D."
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g D2 | B14, A7\n!b E8 | D3",
+          "plan": "",
+          "guesses": [
+            "Doctor Who"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g D2 | B14, A7\n!b E8 | D3",
+          "plan": "",
+          "guesses": [
+            "Reverse-Flash"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 10,
+        "cost_usd": 0.025443,
+        "latency_s": 39.6,
+        "tokens": {
+          "cacheReadTokens": 42580,
+          "cacheWriteTokens": 10130,
+          "inputTokens": 20,
+          "outputTokens": 2092,
+          "reasoningTokens": 1407
+        }
+      }
+    },
+    {
+      "prompt": "Couch potato",
+      "mode": "human-clues",
+      "trial": 3,
+      "source": "playtests/2026-11-16-tabletop.md, card 5 #7",
+      "human_result": "solved",
+      "human_step": null,
+      "clue_comments": true,
+      "outcome": "out_of_rounds",
+      "solved_at": null,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g D2 [placed between C2 and D2: a person of either sex]"
+          ],
+          "board": "?g D2",
+          "plan": "",
+          "guesses": [
+            "Human"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!b E8",
+            "+ D3"
+          ],
+          "board": "?g D2\n!b E8 | D3",
+          "plan": "",
+          "guesses": [
+            "Sprinter"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "+g B14",
+            "+ A7"
+          ],
+          "board": "?g D2 | B14, A7\n!b E8 | D3",
+          "plan": "",
+          "guesses": [
+            "Full House"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g D2 | B14, A7\n!b E8 | D3",
+          "plan": "",
+          "guesses": [
+            "Gregory House"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g D2 | B14, A7\n!b E8 | D3",
+          "plan": "",
+          "guesses": [
+            "Reverse-Flash"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 10,
+        "cost_usd": 0.024668,
+        "latency_s": 38.8,
+        "tokens": {
+          "cacheReadTokens": 43275,
+          "cacheWriteTokens": 9420,
+          "inputTokens": 20,
+          "outputTokens": 1873,
+          "reasoningTokens": 1191
+        }
+      }
+    },
+    {
+      "prompt": "Elvis Presley",
+      "mode": "human-clues",
+      "trial": 1,
+      "source": "playtests/2026-11-16-tabletop.md, card 5 #9",
+      "human_result": "failed",
+      "human_step": null,
+      "clue_comments": true,
+      "outcome": "solved",
+      "solved_at": 3,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A2",
+            "+ B5",
+            "+ D9 [cube on the crown]"
+          ],
+          "board": "?g A2 | B5, D9",
+          "plan": "",
+          "guesses": [
+            "Queen"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g A2 | B5, D9",
+          "plan": "",
+          "guesses": [
+            "Cleopatra"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g A2 | B5, D9",
+          "plan": "",
+          "guesses": [
+            "Elvis Presley"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Elvis Presley"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 5,
+        "cost_usd": 0.010972,
+        "latency_s": 20.5,
+        "tokens": {
+          "cacheReadTokens": 24788,
+          "cacheWriteTokens": 4964,
+          "inputTokens": 10,
+          "outputTokens": 1241,
+          "reasoningTokens": 883
+        }
+      }
+    },
+    {
+      "prompt": "Elvis Presley",
+      "mode": "human-clues",
+      "trial": 2,
+      "source": "playtests/2026-11-16-tabletop.md, card 5 #9",
+      "human_result": "failed",
+      "human_step": null,
+      "clue_comments": true,
+      "outcome": "solved",
+      "solved_at": 1,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A2",
+            "+ B5",
+            "+ D9 [cube on the crown]"
+          ],
+          "board": "?g A2 | B5, D9",
+          "plan": "",
+          "guesses": [
+            "Elvis Presley"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Elvis Presley"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 1,
+        "cost_usd": 0.000703,
+        "latency_s": 4.1,
+        "tokens": {
+          "cacheReadTokens": 8082,
+          "cacheWriteTokens": 654,
+          "inputTokens": 2,
+          "outputTokens": 439,
+          "reasoningTokens": 354
+        }
+      }
+    },
+    {
+      "prompt": "Elvis Presley",
+      "mode": "human-clues",
+      "trial": 3,
+      "source": "playtests/2026-11-16-tabletop.md, card 5 #9",
+      "human_result": "failed",
+      "human_step": null,
+      "clue_comments": true,
+      "outcome": "solved",
+      "solved_at": 2,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A2",
+            "+ B5",
+            "+ D9 [cube on the crown]"
+          ],
+          "board": "?g A2 | B5, D9",
+          "plan": "",
+          "guesses": [
+            "Queen"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g A2 | B5, D9",
+          "plan": "",
+          "guesses": [
+            "Elvis Presley"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Elvis Presley"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 3,
+        "cost_usd": 0.005703,
+        "latency_s": 11.5,
+        "tokens": {
+          "cacheReadTokens": 16977,
+          "cacheWriteTokens": 2245,
+          "inputTokens": 6,
+          "outputTokens": 705,
+          "reasoningTokens": 485
+        }
+      }
+    },
+    {
+      "prompt": "Popcorn",
+      "mode": "human-clues",
+      "trial": 1,
+      "source": "playtests/2026-11-16-tabletop.md, card 6 #1",
+      "human_result": "failed",
+      "human_step": null,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 5,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A14",
+            "+ F11 x8"
+          ],
+          "board": "?g A14 | F11, F11, F11, F11, F11, F11, F11, F11",
+          "plan": "",
+          "guesses": [
+            "Chicken nuggets"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!y Yellow",
+            "+ H11"
+          ],
+          "board": "?g A14 | F11, F11, F11, F11, F11, F11, F11, F11\n!y Yellow | H11",
+          "plan": "",
+          "guesses": [
+            "French fries"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!r E3",
+            "+ E4"
+          ],
+          "board": "?g A14 | F11, F11, F11, F11, F11, F11, F11, F11\n!r E3 | E4\n!y Yellow | H11",
+          "plan": "",
+          "guesses": [
+            "Potato chips"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!k White",
+            "+ G10"
+          ],
+          "board": "?g A14 | F11, F11, F11, F11, F11, F11, F11, F11\n!r E3 | E4\n!y Yellow | H11\n!k White | G10",
+          "plan": "",
+          "guesses": [
+            "Fried egg"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g A14 | F11, F11, F11, F11, F11, F11, F11, F11\n!r E3 | E4\n!y Yellow | H11\n!k White | G10",
+          "plan": "",
+          "guesses": [
+            "Popcorn"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Popcorn"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 9,
+        "cost_usd": 0.020914,
+        "latency_s": 35.3,
+        "tokens": {
+          "cacheReadTokens": 41820,
+          "cacheWriteTokens": 9595,
+          "inputTokens": 18,
+          "outputTokens": 1927,
+          "reasoningTokens": 1295
+        }
+      }
+    },
+    {
+      "prompt": "Popcorn",
+      "mode": "human-clues",
+      "trial": 2,
+      "source": "playtests/2026-11-16-tabletop.md, card 6 #1",
+      "human_result": "failed",
+      "human_step": null,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 3,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A14",
+            "+ F11 x8"
+          ],
+          "board": "?g A14 | F11, F11, F11, F11, F11, F11, F11, F11",
+          "plan": "",
+          "guesses": [
+            "Sushi"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!y Yellow",
+            "+ H11"
+          ],
+          "board": "?g A14 | F11, F11, F11, F11, F11, F11, F11, F11\n!y Yellow | H11",
+          "plan": "",
+          "guesses": [
+            "French fries"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!r E3",
+            "+ E4"
+          ],
+          "board": "?g A14 | F11, F11, F11, F11, F11, F11, F11, F11\n!r E3 | E4\n!y Yellow | H11",
+          "plan": "",
+          "guesses": [
+            "Popcorn"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Popcorn"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 5,
+        "cost_usd": 0.010347,
+        "latency_s": 20.1,
+        "tokens": {
+          "cacheReadTokens": 25121,
+          "cacheWriteTokens": 4752,
+          "inputTokens": 10,
+          "outputTokens": 1084,
+          "reasoningTokens": 730
+        }
+      }
+    },
+    {
+      "prompt": "Popcorn",
+      "mode": "human-clues",
+      "trial": 3,
+      "source": "playtests/2026-11-16-tabletop.md, card 6 #1",
+      "human_result": "failed",
+      "human_step": null,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 3,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A14",
+            "+ F11 x8"
+          ],
+          "board": "?g A14 | F11, F11, F11, F11, F11, F11, F11, F11",
+          "plan": "",
+          "guesses": [
+            "Pizza"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!y Yellow",
+            "+ H11"
+          ],
+          "board": "?g A14 | F11, F11, F11, F11, F11, F11, F11, F11\n!y Yellow | H11",
+          "plan": "",
+          "guesses": [
+            "French fries"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!r E3",
+            "+ E4"
+          ],
+          "board": "?g A14 | F11, F11, F11, F11, F11, F11, F11, F11\n!r E3 | E4\n!y Yellow | H11",
+          "plan": "",
+          "guesses": [
+            "Popcorn"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Popcorn"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 5,
+        "cost_usd": 0.010779,
+        "latency_s": 19.9,
+        "tokens": {
+          "cacheReadTokens": 25121,
+          "cacheWriteTokens": 4743,
+          "inputTokens": 10,
+          "outputTokens": 1200,
+          "reasoningTokens": 846
+        }
+      }
+    },
+    {
+      "prompt": "Snail",
+      "mode": "human-clues",
+      "trial": 1,
+      "source": "playtests/2026-11-16-tabletop.md, card 6 #2",
+      "human_result": "failed",
+      "human_step": null,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 1,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A4",
+            "+ C3",
+            "+ Brown",
+            "+ H10",
+            "+ G3"
+          ],
+          "board": "?g A4 | C3, Brown, H10, G3",
+          "plan": "",
+          "guesses": [
+            "Snail"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Snail"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 1,
+        "cost_usd": 0.000373,
+        "latency_s": 4.0,
+        "tokens": {
+          "cacheReadTokens": 7756,
+          "cacheWriteTokens": 991,
+          "inputTokens": 2,
+          "outputTokens": 194,
+          "reasoningTokens": 113
+        }
+      }
+    },
+    {
+      "prompt": "Snail",
+      "mode": "human-clues",
+      "trial": 2,
+      "source": "playtests/2026-11-16-tabletop.md, card 6 #2",
+      "human_result": "failed",
+      "human_step": null,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 1,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A4",
+            "+ C3",
+            "+ Brown",
+            "+ H10",
+            "+ G3"
+          ],
+          "board": "?g A4 | C3, Brown, H10, G3",
+          "plan": "",
+          "guesses": [
+            "Snail"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Snail"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 1,
+        "cost_usd": 0.000646,
+        "latency_s": 3.9,
+        "tokens": {
+          "cacheReadTokens": 8091,
+          "cacheWriteTokens": 655,
+          "inputTokens": 2,
+          "outputTokens": 318,
+          "reasoningTokens": 237
+        }
+      }
+    },
+    {
+      "prompt": "Snail",
+      "mode": "human-clues",
+      "trial": 3,
+      "source": "playtests/2026-11-16-tabletop.md, card 6 #2",
+      "human_result": "failed",
+      "human_step": null,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 1,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A4",
+            "+ C3",
+            "+ Brown",
+            "+ H10",
+            "+ G3"
+          ],
+          "board": "?g A4 | C3, Brown, H10, G3",
+          "plan": "",
+          "guesses": [
+            "Snail"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Snail"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 1,
+        "cost_usd": 0.000296,
+        "latency_s": 3.1,
+        "tokens": {
+          "cacheReadTokens": 8091,
+          "cacheWriteTokens": 654,
+          "inputTokens": 2,
+          "outputTokens": 169,
+          "reasoningTokens": 88
+        }
+      }
+    },
+    {
+      "prompt": "Lighthouse",
+      "mode": "human-clues",
+      "trial": 1,
+      "source": "playtests/2026-11-16-tabletop.md, card 6 #3",
+      "human_result": "solved",
+      "human_step": 1,
+      "clue_comments": true,
+      "outcome": "out_of_rounds",
+      "solved_at": null,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "!r B9",
+            "+ A8 [on the light bulb in the picture]",
+            "+ B14 [on the house in the picture]"
+          ],
+          "board": "!r B9 | A8, B14",
+          "plan": "",
+          "guesses": [
+            "Think tank"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "!r B9 | A8, B14",
+          "plan": "",
+          "guesses": [
+            "Idea factory"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "!r B9 | A8, B14",
+          "plan": "",
+          "guesses": [
+            "Mind palace"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 6,
+        "cost_usd": 0.014794,
+        "latency_s": 24.0,
+        "tokens": {
+          "cacheReadTokens": 25548,
+          "cacheWriteTokens": 5930,
+          "inputTokens": 12,
+          "outputTokens": 1040,
+          "reasoningTokens": 630
+        }
+      }
+    },
+    {
+      "prompt": "Lighthouse",
+      "mode": "human-clues",
+      "trial": 2,
+      "source": "playtests/2026-11-16-tabletop.md, card 6 #3",
+      "human_result": "solved",
+      "human_step": 1,
+      "clue_comments": true,
+      "outcome": "solved",
+      "solved_at": 1,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "!r B9",
+            "+ A8 [on the light bulb in the picture]",
+            "+ B14 [on the house in the picture]"
+          ],
+          "board": "!r B9 | A8, B14",
+          "plan": "",
+          "guesses": [
+            "Lighthouse"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Lighthouse"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 1,
+        "cost_usd": 0.000576,
+        "latency_s": 4.3,
+        "tokens": {
+          "cacheReadTokens": 8096,
+          "cacheWriteTokens": 654,
+          "inputTokens": 2,
+          "outputTokens": 274,
+          "reasoningTokens": 190
+        }
+      }
+    },
+    {
+      "prompt": "Lighthouse",
+      "mode": "human-clues",
+      "trial": 3,
+      "source": "playtests/2026-11-16-tabletop.md, card 6 #3",
+      "human_result": "solved",
+      "human_step": 1,
+      "clue_comments": true,
+      "outcome": "solved",
+      "solved_at": 1,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "!r B9",
+            "+ A8 [on the light bulb in the picture]",
+            "+ B14 [on the house in the picture]"
+          ],
+          "board": "!r B9 | A8, B14",
+          "plan": "",
+          "guesses": [
+            "Lighthouse"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Lighthouse"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 1,
+        "cost_usd": 0.000355,
+        "latency_s": 4.2,
+        "tokens": {
+          "cacheReadTokens": 8096,
+          "cacheWriteTokens": 653,
+          "inputTokens": 2,
+          "outputTokens": 286,
+          "reasoningTokens": 202
+        }
+      }
+    },
+    {
+      "prompt": "Once in a blue moon",
+      "mode": "human-clues",
+      "trial": 1,
+      "source": "playtests/2026-11-16-tabletop.md, card 6 #5",
+      "human_result": "solved",
+      "human_step": null,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 3,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g B8"
+          ],
+          "board": "?g B8",
+          "plan": "",
+          "guesses": [
+            "Catchphrase"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!r F11"
+          ],
+          "board": "?g B8\n!r F11",
+          "plan": "",
+          "guesses": [
+            "Slogan"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!b Blue"
+          ],
+          "board": "?g B8\n!r F11\n!b Blue",
+          "plan": "",
+          "guesses": [
+            "Once in a blue moon"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Once in a blue moon"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 5,
+        "cost_usd": 0.010237,
+        "latency_s": 20.0,
+        "tokens": {
+          "cacheReadTokens": 24788,
+          "cacheWriteTokens": 4875,
+          "inputTokens": 10,
+          "outputTokens": 852,
+          "reasoningTokens": 492
+        }
+      }
+    },
+    {
+      "prompt": "Once in a blue moon",
+      "mode": "human-clues",
+      "trial": 2,
+      "source": "playtests/2026-11-16-tabletop.md, card 6 #5",
+      "human_result": "solved",
+      "human_step": null,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 3,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g B8"
+          ],
+          "board": "?g B8",
+          "plan": "",
+          "guesses": [
+            "A famous quote"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!r F11"
+          ],
+          "board": "?g B8\n!r F11",
+          "plan": "",
+          "guesses": [
+            "One small step for man"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!b Blue"
+          ],
+          "board": "?g B8\n!r F11\n!b Blue",
+          "plan": "",
+          "guesses": [
+            "Once in a blue moon"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Once in a blue moon"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 5,
+        "cost_usd": 0.010455,
+        "latency_s": 19.6,
+        "tokens": {
+          "cacheReadTokens": 24788,
+          "cacheWriteTokens": 4876,
+          "inputTokens": 10,
+          "outputTokens": 980,
+          "reasoningTokens": 620
+        }
+      }
+    },
+    {
+      "prompt": "Once in a blue moon",
+      "mode": "human-clues",
+      "trial": 3,
+      "source": "playtests/2026-11-16-tabletop.md, card 6 #5",
+      "human_result": "solved",
+      "human_step": null,
+      "clue_comments": false,
+      "outcome": "solved",
+      "solved_at": 4,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g B8"
+          ],
+          "board": "?g B8",
+          "plan": "",
+          "guesses": [
+            "Quote"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!r F11"
+          ],
+          "board": "?g B8\n!r F11",
+          "plan": "",
+          "guesses": [
+            "Catchphrase"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!b Blue"
+          ],
+          "board": "?g B8\n!r F11\n!b Blue",
+          "plan": "",
+          "guesses": [
+            "Slogan"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!k E2"
+          ],
+          "board": "?g B8\n!r F11\n!b Blue\n!k E2",
+          "plan": "",
+          "guesses": [
+            "Once in a blue moon"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Once in a blue moon"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 7,
+        "cost_usd": 0.015118,
+        "latency_s": 28.0,
+        "tokens": {
+          "cacheReadTokens": 33604,
+          "cacheWriteTokens": 6637,
+          "inputTokens": 14,
+          "outputTokens": 1170,
+          "reasoningTokens": 675
+        }
+      }
+    },
+    {
+      "prompt": "Lego",
+      "mode": "human-clues",
+      "trial": 1,
+      "source": "playtests/2026-11-16-tabletop.md, card 6 #6",
+      "human_result": "solved",
+      "human_step": null,
+      "clue_comments": true,
+      "outcome": "solved",
+      "solved_at": 1,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A13",
+            "+ G7 x6 [the six cubes arranged in a 2×3 rectangle, like a brick's studs]"
+          ],
+          "board": "?g A13 | G7, G7, G7, G7, G7, G7",
+          "plan": "",
+          "guesses": [
+            "LEGO"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "LEGO"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 1,
+        "cost_usd": 0.000499,
+        "latency_s": 3.6,
+        "tokens": {
+          "cacheReadTokens": 7756,
+          "cacheWriteTokens": 1009,
+          "inputTokens": 2,
+          "outputTokens": 166,
+          "reasoningTokens": 84
+        }
+      }
+    },
+    {
+      "prompt": "Lego",
+      "mode": "human-clues",
+      "trial": 2,
+      "source": "playtests/2026-11-16-tabletop.md, card 6 #6",
+      "human_result": "solved",
+      "human_step": null,
+      "clue_comments": true,
+      "outcome": "solved",
+      "solved_at": 1,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A13",
+            "+ G7 x6 [the six cubes arranged in a 2×3 rectangle, like a brick's studs]"
+          ],
+          "board": "?g A13 | G7, G7, G7, G7, G7, G7",
+          "plan": "",
+          "guesses": [
+            "LEGO"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "LEGO"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 1,
+        "cost_usd": 0.000457,
+        "latency_s": 4.0,
+        "tokens": {
+          "cacheReadTokens": 8113,
+          "cacheWriteTokens": 656,
+          "inputTokens": 2,
+          "outputTokens": 214,
+          "reasoningTokens": 132
+        }
+      }
+    },
+    {
+      "prompt": "Lego",
+      "mode": "human-clues",
+      "trial": 3,
+      "source": "playtests/2026-11-16-tabletop.md, card 6 #6",
+      "human_result": "solved",
+      "human_step": null,
+      "clue_comments": true,
+      "outcome": "solved",
+      "solved_at": 1,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g A13",
+            "+ G7 x6 [the six cubes arranged in a 2×3 rectangle, like a brick's studs]"
+          ],
+          "board": "?g A13 | G7, G7, G7, G7, G7, G7",
+          "plan": "",
+          "guesses": [
+            "LEGO"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "LEGO"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 1,
+        "cost_usd": 0.000297,
+        "latency_s": 4.6,
+        "tokens": {
+          "cacheReadTokens": 8113,
+          "cacheWriteTokens": 658,
+          "inputTokens": 2,
+          "outputTokens": 169,
+          "reasoningTokens": 87
+        }
+      }
+    },
+    {
+      "prompt": "Rain check",
+      "mode": "human-clues",
+      "trial": 1,
+      "source": "playtests/2026-11-16-tabletop.md, card 6 #7",
+      "human_result": "failed",
+      "human_step": null,
+      "clue_comments": true,
+      "outcome": "solved",
+      "solved_at": 4,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g B8"
+          ],
+          "board": "?g B8",
+          "plan": "",
+          "guesses": [
+            "Catchphrase"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!b E1 [on the rain under the cloud]"
+          ],
+          "board": "?g B8\n!b E1",
+          "plan": "",
+          "guesses": [
+            "Raining cats and dogs"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!y F7",
+            "+ C8",
+            "+ H3"
+          ],
+          "board": "?g B8\n!y F7 | C8, H3\n!b E1",
+          "plan": "",
+          "guesses": [
+            "Make it rain"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g B8\n!y F7 | C8, H3\n!b E1",
+          "plan": "",
+          "guesses": [
+            "Rain check"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Rain check"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 7,
+        "cost_usd": 0.015797,
+        "latency_s": 25.6,
+        "tokens": {
+          "cacheReadTokens": 33304,
+          "cacheWriteTokens": 7008,
+          "inputTokens": 14,
+          "outputTokens": 1476,
+          "reasoningTokens": 978
+        }
+      }
+    },
+    {
+      "prompt": "Rain check",
+      "mode": "human-clues",
+      "trial": 2,
+      "source": "playtests/2026-11-16-tabletop.md, card 6 #7",
+      "human_result": "failed",
+      "human_step": null,
+      "clue_comments": true,
+      "outcome": "solved",
+      "solved_at": 4,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g B8"
+          ],
+          "board": "?g B8",
+          "plan": "",
+          "guesses": [
+            "A famous quote"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!b E1 [on the rain under the cloud]"
+          ],
+          "board": "?g B8\n!b E1",
+          "plan": "",
+          "guesses": [
+            "Raining cats and dogs"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!y F7",
+            "+ C8",
+            "+ H3"
+          ],
+          "board": "?g B8\n!y F7 | C8, H3\n!b E1",
+          "plan": "",
+          "guesses": [
+            "Show me the money"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [],
+          "board": "?g B8\n!y F7 | C8, H3\n!b E1",
+          "plan": "",
+          "guesses": [
+            "Rain check"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Rain check"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 7,
+        "cost_usd": 0.015687,
+        "latency_s": 26.3,
+        "tokens": {
+          "cacheReadTokens": 33304,
+          "cacheWriteTokens": 7006,
+          "inputTokens": 14,
+          "outputTokens": 1510,
+          "reasoningTokens": 1013
+        }
+      }
+    },
+    {
+      "prompt": "Rain check",
+      "mode": "human-clues",
+      "trial": 3,
+      "source": "playtests/2026-11-16-tabletop.md, card 6 #7",
+      "human_result": "failed",
+      "human_step": null,
+      "clue_comments": true,
+      "outcome": "solved",
+      "solved_at": 3,
+      "confidence": null,
+      "turns": [
+        {
+          "lines": [
+            "?g B8"
+          ],
+          "board": "?g B8",
+          "plan": "",
+          "guesses": [
+            "Quote"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!b E1 [on the rain under the cloud]"
+          ],
+          "board": "?g B8\n!b E1",
+          "plan": "",
+          "guesses": [
+            "It never rains but it pours"
+          ],
+          "passed": false,
+          "verdict": "no",
+          "yes_to": "",
+          "correct_by": "",
+          "correct_guess": ""
+        },
+        {
+          "lines": [
+            "!y F7",
+            "+ C8",
+            "+ H3"
+          ],
+          "board": "?g B8\n!y F7 | C8, H3\n!b E1",
+          "plan": "",
+          "guesses": [
+            "Rain check"
+          ],
+          "passed": false,
+          "verdict": "correct",
+          "yes_to": "",
+          "correct_by": "match",
+          "correct_guess": "Rain check"
+        }
+      ],
+      "invalid": [],
+      "error": "",
+      "usage": {
+        "calls": 5,
+        "cost_usd": 0.010297,
+        "latency_s": 20.4,
+        "tokens": {
+          "cacheReadTokens": 25088,
+          "cacheWriteTokens": 4607,
+          "inputTokens": 10,
+          "outputTokens": 1002,
+          "reasoningTokens": 645
+        }
+      }
+    }
+  ],
+  "entries": [
+    "0066e573d87c45428d6238f481fe405022629a1258f2548cb24a832a164a8282",
+    "011c1b6abb8ae5f6473735710f24c0ba0b62cd33c0547b5beca189c7190e3f0f",
+    "01662726b5b390904bcf1dbeac71b63e26654e626fb408f2ce79132cd85a465e",
+    "01a404edc1b348cef06e7b77a7b3a996b31f87fe58da3dce6b09dc8859690307",
+    "03df62cfbea515674579e3304b04a3ce0617085837801a6e59f99ae6837cedea",
+    "055d05051c6980b16454d989f281a85d90bf1d7aee1af2fe3bbfd25456d99a15",
+    "064d86d60dcb0cc70a59297c21ffccca372776881f953f9d06f9f67b246c9bd1",
+    "065aaeffad73f28b6c99f953c8d5c251d87fd4d03dfecf5a644dc8098028922e",
+    "06f15f2adeaf62cf60b121b49873e9218b7894df6c423d78e5efd8401b441b57",
+    "0839e339c151903b8c6ff0241be34dd664e6cf3bdc84908ff76712dad9f913ab",
+    "09437ec6f814180bb1cea0b7fcc9dd21b561f1be55bdbe22c56b87c5518aacc0",
+    "09d9db5f17222e492871e42bab277e10a8725a64fc18cb084197c98746755f84",
+    "0ad5e36f7bb62e8ac0a6a1db1f7dd1c5212c1405c86b6a792308f61e35771f56",
+    "0cd3dd630b85e13072551c5e1e91557c87c78b5cdecb430a96d15ded5edeaa33",
+    "10d82f789555d4372aa09258def551fba22f3d2948449fff350394d739317d14",
+    "11b303a7d58d1b4ea167df2916610a17b53e768bb6d6c00c580a2a3654bd32dc",
+    "13cdfd9afce150e6e5e882f75638a4e8a798986e6c52004bf223ebd95c70af05",
+    "1706c3c026b33e77e969776cfaf24276f4735dd88f58d0eb0821e80f8a5b81e8",
+    "1835586aa7757a280ddf4ebe24d36db4578a3f69edcbb25820d021f5f78b4bff",
+    "1a4320be66bfff6515363c9d3f83fd40a886e564400ce07c11d27f4218a75470",
+    "1b519076dff4856fc4aa4dc59640c37ccd87f6ed0dadf6d1ec0f344e9881c5cd",
+    "1b63b4b70fef9db55eb117cc064f3acc18f6280f06eecb589055c748a53c5bda",
+    "1d2c169df910807f2b21c887a67298ee0515fca6a3d335543d95975463b848e9",
+    "1d801f69f9b122d642a250023e1ddeac2c096585c3470beda3a7db23e0bf810a",
+    "1dc0137741c30eb48d5386ca7a1ac2e551a9289642c4d9789b38e9dc90de35ec",
+    "1f029ed63599eed5502d2323aab30cb40acd6ab840ab21470c6de9afad0eacf2",
+    "1f335704d01f26bc25473d796bf94e05970e6e27a873cefba0e7a2f10e9ea8c1",
+    "1ffce91dd0d9a4f01a27f79bf9462a4cc0493493a071edc9ad28325dca906c01",
+    "215a60e8d754f3fca04d13665cb6cd148f1286aa7686c3ce6dcee24799f4e27b",
+    "21889c4ef5077bcdc2768a2a769f6415cb25e2bb46c25d3f11fe39801294da91",
+    "2201b86479f698e659947679dd05704af169802bf2cdb22c17281a73f2b46021",
+    "228cb7591ebfb5f704e98ab5bd179ed608f5c13b34690e97d0c5b06fc115547d",
+    "261a9aca8271a8474ac01490b2c4ebd1c631f46080da2777f380628cc76592f5",
+    "28327a108a3426a18eaacb6544a9ee9fa5c97698aa32b1e0167bdf4bef5eafc5",
+    "2bfd5d4a6002012130f4202151b8b4dcb212d6bb6a7d85e07ef079c38cac85c2",
+    "2f33ec60f0b6e3071f855ef58cfc4517965e3aaa298be533cc3b58a95eccbb13",
+    "2fbe0bb8927b7c40d3679a31325f4782324021c8f2d54836bc26958f465a7199",
+    "31c5b4254b154d9595223aecb09e06321cbb61c45d0c6d29347627d83a853583",
+    "323ba8ca1be5e9a66bc2d20812a61f6dc069ec67695da82ade30e3e7c25d693a",
+    "324d3e0fb9bcf1fb7806e9493ee5d8c4cd1a0640f2f623b7d4bf923f55f7bb4e",
+    "33090a47513da1b945558922685a8b4dbc13fe7b0d04e4627d9aeea7b5acd040",
+    "3369ee494c5244ddf720a490c1b8c2225fe37bb8d9f99dc79963fa58b7b3a7ef",
+    "34c8d832eb188246462132d638be6832e3efe9d12da954dbcc46004bfb6342e7",
+    "360313ae105d51e6db5d57ebcadc674617f83f90bc2cc12dcd789882ef4e6332",
+    "3610d39f95b48bd0137dc8aafdc6a01f45a71d3aab30639424ebc816904c9140",
+    "36887b3382e95b76833c3be867a22acfa7f64267ab9d4ec885f437c1a18b2774",
+    "372c2aa5a40b3d58710509205985e77fb1cb4206c04c78a2d45489b227e58084",
+    "385f85860b2bacc86548fb27c4fbff4ede245ab884438914d639e36491772cda",
+    "3b35a2f3ca998d1ce6c243e8e4b728d3e57f484bd8444be798fbb3dc353445de",
+    "3b8f3c013fc5cbc3dd577ed1741460b344b271a1e7c17c2de5036285b3857f4d",
+    "3ce3e56bc1eb898866488f8ca4800c0b2d7bd1cdf86903ad3c629d323f240d70",
+    "3f85756666e39a5cc49cb7036535549aa5105a3597a28413a375d304a20b78ec",
+    "3f85efc31c958bdbd3e4ad6812f725f8d66b128a415682fe31dd2562628eecdf",
+    "428c48d4fb55b223a2a225ccdb509cbe15698e8fb45017cbe4039418ed5ab4b7",
+    "43213cc6664d0c51f02246c89e9c9ffdfdbfcbf6bf171242e8d398a9cab7b465",
+    "457a942d3abc8ff80c450e662688869eb0e097137dba71e5eac9f61a5904bfb8",
+    "470b258eb662d9aa5a566b7b99bc9710857d92a0df4c45b4f1abbaffd6add934",
+    "47ac2a5d8bd07940d6511770180eaf5c9a0bd047c1402c10337b2aac88c88254",
+    "47c596561a10895cec4562b084465f693a85be19ff5db45c3407265e394f85cc",
+    "492ef2e801649223f20546a62c1a5dfe84e9afff0f8487bface084c0821874ce",
+    "492f4e4d08fd6a2ab5db325a6f80d4c77e2ecf1375c3beee563b256bc2976f79",
+    "492f51c83bbeb5ca312367c58e4641184e39bf30681f7afb8ff4a9f643dcdfb4",
+    "498947e861543bd5abd5717710fde850420fed62d3473f31aac8293679eed54d",
+    "4dc6afb6f21535e4951c110cec713758ca5e8c605ac233b324e53817a4c5f6a8",
+    "50d221e2e542ec848984786f73fcbae5b82718e0aa59382d6f3b076f3b3d1795",
+    "50ebfb42fe6ac0cb75c8a187f0ceed4efb46ca539e1085327e172e18ce8e7a6c",
+    "544e156cb84fb2d3ff9ac80a6a971707c3b878483642685dbb7e9c522f5bae99",
+    "54a7b033618b6f471fcd354a2973a3558e8f34a62e7d7383dd8c6495d4725d9c",
+    "5563403c27ed27c2e64e12bee4d75bf4077d28746ca039e574589559a5eb0947",
+    "559e0b27cf9f63557b258001ea8b485c16a3a6e56d32c3ff500a124781544b32",
+    "5773860eafccbc2a3d83f50a561f1c812d45099ad76daa8f8eb31eb19e3e7792",
+    "5789e0e788dfdae446c45b2a49381d39c9a5490f0e7242c3f4c67bbcd838b309",
+    "57a07f5017419937f0107678e908f9a7003aaef3846847341f626e7bccf4bc7f",
+    "58f7a2c4fc951c939eadd4f33b58b8701784589cecaf31ae13a70daaa58ba3da",
+    "5b549232ffe994dc4f87685489b6b925b49e6b3ea548eada0be6fd70605232b1",
+    "5d161276a6ed4924806dcdb3f3cf37806c91e2efa26497b3b2fa0997b1e824a2",
+    "5d413659801d8a35fd57de3eaea63e5e0227b833161af9b9c54ea23db4725884",
+    "5d69f96db59e1b36cd6fd06508459158541d75b5c7d8d7a9aa8843fb53c20fb3",
+    "5d786a23c5fc4002375830106046669c9e15a2bd0582fff7507d9ef69c233803",
+    "5fa9382734a7abe2a9cd46b99942c671a30f1223b138c01a10221e80669da71a",
+    "6084e22188570cdc1751dbd3f555a2b4c7fed0417cd81d3c09a2d749bcf89110",
+    "60e77c30a63cd185eaa1910fe874a69fe9a17ed364ac9d4fca7d826e12346f3c",
+    "626b20f68609582e84ec0ff2a18e59db324a07206281aae4868b5e5074598402",
+    "6294e01125e9c1fa648e6c1b9dc156527f8bf3a3dcb9a16c4e45bd011ed1cce3",
+    "62be26efa9a49f216e547749afc126606b6f7c81d66f6e7b465f1c1dcedcec6f",
+    "6436ce5fddc812dfdbc8ecdbf05aea4fc92e1b72a8e28aea31c49757dcc648fa",
+    "64d2dd2919495fde06075b1cf9d0ab5e01c35eefef1cc5d93fd37130fca4a8a1",
+    "651518273c9db954df4962295a7170d6ce59c8ad88b07b8f61865b0d63e951ce",
+    "65953b78b634a3073237472ea5e4d83204c325b58f3e73de1485d8488eb162e4",
+    "66ac644bb7ab03bdb2bc6c805cec3e9a37ea559b9a5ef003a4055f8ecca827ed",
+    "677c0580b1fa39b2112a719ad2cbe488c36d72bf8a7be20b39a9a9bc434a299c",
+    "682a9a9ba7d78fb1454bbeacd8b2988d3fde05b0108b95aaded81b04f7c6f0f0",
+    "6830d49eea87d4133c0dd516fe1c693975ba3a9e01142a971d4652d400a8f0af",
+    "68c19532738ed781ef121b61d09537dbbcc04db6aa21b2e0c9c47bc0abaf137a",
+    "69c3646a4c02a72225312eabbbd0a2c7d7ad57c539a5a54d0edee529232590ac",
+    "6a0d52fc4294539075558a93ba0f0a21e92113798f53765faa544faa537d20fd",
+    "6c8037681f6a2400cb8859a3217ab612abbadfd7c45d5d18036bf5ffb96b79a6",
+    "6ecf16743e60dc165fc2837941ceeaf01d08af5e84ca98d858c1cd04a342d304",
+    "70d2cde471a81a29b03a9393f1cbf7a8253a481e32f837ca59161aafffdf90fb",
+    "72cab6579af7722620a41cbaf64170e18b4950180c015c19aa36ce851c2fc91b",
+    "74821444702a34cdb2fb80677b36da66133395d842581438a56cde60fcbc7c28",
+    "74a8d07470f54663edd0bf5e107467c78d89bd1c625abe6d024e5b48131365a5",
+    "750b595db300824a1de11dacb935d32ce2f52c528a4d2957020fbcc3763144c7",
+    "751b9e19e608782955fc468ea96fee251191c95ad3f018c77208f16c22c75477",
+    "7611079a94313b3edd98e64dd9101b717a9cbfbc9534e0ec4092ca4732f378ae",
+    "761bc2197d5889fdbfd7ec2456bfe536af17807fbeda04ab6bd6bf11cd256bf0",
+    "76f83983987ef475e23d8312e095b9a3abbc2e3572f39518072d865a43a76a74",
+    "78508f24d0b4489cf30c1d6667f91bc6f07fe276af276c4890fa38b8fa7f3c15",
+    "79c215aa910048d23f759ca01b38a813f5d157a992ad0296545ab4e165d41448",
+    "7a61da63d356f5fd86723e0e8d54efd4e04b6c8ff1120023efd7eb84ac69f707",
+    "7cc1daebb638fb0cb0a766dfd88e8c6c61f8ef1b59419ef0a229c718e51fecf1",
+    "7d0bc07930ddee0136e4f1bda8a075016a74e15536d2c00ff618e089867581fb",
+    "7dd761e8fe1e81fa6c4aa4f4e4a15456fac88a6de3716e8bcda2d4c99c8fc31f",
+    "7e7e885e01046e83aca7e10ae1bee66d36a7be6677fd08695cd3705ddbef2686",
+    "806f0c983ff3dbe60d1e3ec19fcc5fc8efbbce2fc89a645ebddff23dc1098cdd",
+    "80c4d010a178f5f14c25fe8a20b95f11ee5ef9174cffa7b48541433d579ac21f",
+    "816acc5d64e80d0d28358c5221481042cff48333f04bca541bf9b8d5c8fa1c8a",
+    "84ab7e698131e88810e5bd713eb2385fc4efe9209328425a0cf56679afb76578",
+    "85bba874aa483045ac8880f4891cff8616b401e89e9657f3897ec7eed9a0a6d5",
+    "86f4169a936755e166a75ee9059d3e0cd5eb5e8d9606236726d25e7584fedc14",
+    "87887cc23affe0a1419006e2cc94524eac3eddeae4efd89c1be61c7d7df45c99",
+    "8983900f1e574776293c20a4e3dca8d3031ac32ddb5ce46cc6859d3e2e728d81",
+    "8b067593b8f6765f05c5091f3fdc048ef0bfc26913e3dc183a5ae50f4d3d0fcd",
+    "8b908e265e7c896ec88febd298beb6070904fde9e68b5094a7ff11222ef8e788",
+    "8ce3ec043c5677078e498b7ce61a4e0f3302a51e183b339c31e5fffc685ee630",
+    "8d891af7fcaa4b1c0bdafd57aa81c48f4ab78affc8b036a6fc6557d111f46773",
+    "8da23669790f1f1b24e81446ca288da83793124719e69b34182709e8d9b1a0e5",
+    "8e45736982cc147dab12b64d01a63d59f476d1c3fbae27ecfc43b9f706fdd74a",
+    "91f16b97f7b663a8f919ca98d78a6f77168caa2436c413c380e38f2c796859d4",
+    "97102a463f1a35af6e72747a2af058cfcc6d65af45eccd7e31ec8298cce71e11",
+    "9798d4f42cb1e7b1820db9423ef9d6c1f915c93b24093f9b042d6766fb8942dd",
+    "98aeb7debd7e2e6b8f9db202672d40c6167d0dabf67e8263c90507303d1eb49d",
+    "98bd2b833e432d5d107aabdbcc901ef086f3c02e0a74b69353b43a5950c771a9",
+    "9acddcf5ec1af9c7e98390eb7c11db71705a796ff5b0cdb8135187081a8d7c09",
+    "9bfa65eab603321c63569fc1da20f29b63b753321f0d720c7b661e07411ef091",
+    "9c8869e398b46c8362edc1e801496ff0d4e908ff33f48191db2007c5cb328b44",
+    "9d80685754f3d240f3dc218a137b3ff90b16c631c7b9ffa40e6234a4ae26c397",
+    "9ebca56e843a43a801eb8f5821732b44f6e71af183a4e2aac8d337d0a47ed961",
+    "9f692ffb722d3fcb60d707a7e74a9904921b494d5a1a722f3f652a02e78fd958",
+    "a01471e913732c6e78a98a77e4cd12215821d05933f8cec75401da42c01ffbd0",
+    "a1a14a82fd2d3bfe0ce22db355115384de51723158edc5b27a08d1994422a0ee",
+    "a3c7b9bb74ac04f5c3c8798d25cd8345aaf2118a8d55937ce51d41ad4160fccd",
+    "a3f9ada246d7a9fe48798433169644b876a10dd804627341d6d0e4caf796c7c9",
+    "a5625cec24f62f5adaa7db81428dec115ed2616cc93a55bf327bdacf46c9b629",
+    "a5bafa1942d73b88aac42602a80514f1fb4a2a7456ac4c10d4c25bc00e27d554",
+    "a5bc114bad04a5e6eb98afd25e368f262489154f0a680c62d5cdb4e2b2f53123",
+    "a65c5dd5ce98902124f82c2a3087d809b7457bdda38ded287b55d6e03a6b2e26",
+    "a66c8b3815092192ac3954036cc493095be7bb8b7e2768cb81661055e13eea97",
+    "a730555fa32cd5b246acef90c0d3927837275f97648863ed94f87c340a5ee2c5",
+    "aae88b69148a378ae2d17206a089491f9045c0fcedda952faf6ad7d93343ee0f",
+    "ac2e87a8157ec4d34a840d7586f2e29b3fe268bdabf36cfa4e94374a7a0a01cc",
+    "ace347a6938ce7839a998c5ed07dd7290dbf3cc0c2723262c642367752353e47",
+    "ad792107c9d87897919329102a4b78e9a6c972425ffefe77de81854f56c49678",
+    "ae0313ccbfbfd6f25b24eec058fcb4457e3ceb2d999172ce113576068bc850c0",
+    "af3282cf13325711aaabf93c7e1e58f8b3c4a8d5bc5788dfa5e78c293159a746",
+    "b0213665bcaa44dbafae3340212e27e9dd1993583e3afd50eb5358119526a9d0",
+    "b09754c34bd4ad5f5cedc82e5f10e8fc5bb31e6a6eabe41e90f0f9778a4f3e13",
+    "b0978f8cfcba5754e744150734cc40b30c72038a100219123e2730f6d6a5c947",
+    "b117dfa57c7e2104233a5a2566fc92423c7ae90f83f745986c6c055857494e03",
+    "b220dc957e1c7984467e32d05c9c8ef26d675d37830ffea9bde2c87213b82f44",
+    "b286e57f8ce4b5a5d409b239454391539a611e286d4c59d913ba850e1444360e",
+    "b4afd56c8584425a73561532b49fdc5be47b46c12fbe7002af21c62f9a4efb92",
+    "b6239f92683d6471dc5a5ed9fdaaa8bdd3be759863bf7231ebccac0489a133ab",
+    "b6da391daae9b95f234df47a403108c8b0d5c74360472197f269082d3b98f618",
+    "b73f62655cfeb1577449c02f7b29096ffe68a3cad1e2e866953402509f003672",
+    "b8e7deaacaf0496825a0d72577750a672551a440c55f191881176d2d0f9582b1",
+    "b908d29a2286c8f94bac827221d1b32a1b533c49ced5ff48fbdf828f4dfb5082",
+    "b9c5458418488655025c7515b0ead157175ce90404abf5123ebfb265f40aaa14",
+    "babaec3ffef5273733036c7053a13a68cc94c2665d9674455a17d88b4dd424d9",
+    "be5a052b4193a6f77cc81b727a199a22e7e854136aabef60aebec004de4e7545",
+    "bebb8b96da5edc856c778c6e1573cafadb18c9f101a654a525f683a9bf1cbe79",
+    "bf99beb2a8ecfe6604b02fe3a13ff77f78a79689882936faff32be56195a40b6",
+    "bfdf094eb628efc6bf042ebb42eccd8d6ec947a6c3e18f4a6233e1511a3cdb67",
+    "bfea2b2059a4c67a4ad16ffe27fc9172a94a06e6cce3d122ed5269bff68306ab",
+    "c014cde2698d6fe39e9b61d367b741d8f1705b6da4348f7740dee90423e3f739",
+    "c0477fc0f4d02ee0898df6041c2dd8d9a2d465c5f8ffdef39d12db0bf5f07254",
+    "c175fd8ba72ed1ab4e16011d566aed938b2e396c9550019adda1641be3d78684",
+    "c20344f84e71166e7f473a2473ed394a219ae4b8fbdf7c2d05ab32e72cd18636",
+    "c2873662e9523a28d68bf05945d4940b45548a2509f05c22a09461a4037291af",
+    "c2b8f2a4e68dfa7c3203ec104c6dec4e5c251dbae5241cb2c0fb1f7d92f4a4b7",
+    "c2ea899b124d4217babb9d2847a15b9a63d117da2949fe9649aea79acb805426",
+    "c304d8115b265c7b3aba9df1897271c43607d5d9c3e8239f3e67da671700ef86",
+    "c5ceb7820600c746fed01a013f5e1387bfa8e5cd18635a6c6d131153ab3751be",
+    "c634a7ba483144dc7a17e55e53a35bbc1384bdeda93e879e9c97213ccec6079d",
+    "c66b9d3515bca40373b5561a90ab3634812cd59b7b2f53323253d81f015e2215",
+    "c6dbb2dead2845dbfa495105665920c70613dff1cfc63ab9bdf31f6a92c1f51a",
+    "c75fe1c361fe643f6fc2465f21f8a63b2df182c0c84bee2960153b93a0d08385",
+    "c91fe5f7b2c8b3cd285338a5af01c7310c541fe226b094e3f9199c9a490a6ce2",
+    "ca37c3459443248969407b2f12d94dde06367b1280f96465e20518a2dc7777f4",
+    "cab3f1fdbb1291684af6dcc31d8f193a60a657d28c1f7e3d13749aa8ee209ffc",
+    "cb08ae4e76cfc41c14f43724289f2b5f5c334ce93adc63cb5c791509a926864f",
+    "cb64532ea22dcbb27234b51a3809f9f32447d86a7f9aac3da8af369c2f0b3cc2",
+    "cd38a02ec365e15fbff55bda9fc29093c4bab85c65f3263d51a9a853c51393f2",
+    "cdd455026d5f0cb42356c9ce0c62e7ceee6a933e4d2cb9efc294eadecd00707e",
+    "cf12c5436e4afac2afc8ef585be5fea22c57eaf78f96ee86e7bcc7ea5e0a94f3",
+    "cf32a7af8f0ac2458a78c330259f1e48519a8d3d4c3a4249e1eba0db660ff37c",
+    "cfc4d9f9d59d8a91c39ede22246e9525e5a0b82ede34c37dce685ce783d3a93d",
+    "d3815ee2e93dac1bb98e779b319c52a4286642485e230ac585d5ebd7b58292c5",
+    "d39bb203caa726f57e4381845c645b95dbc466011467c6ba597b1f846a1ff876",
+    "d3cccc571d9ab60b58314cb8590caf249d15dac2f10ce38b597e502a2ef396d9",
+    "d41446194a7c4f48581442f53553f26825135c234dc5a30da70a2654c7113556",
+    "d566dc78ea336c0ec9e7031b02ea92e6bc191bb7ca1ff8a47a7be9eabb1809ea",
+    "d62187ca5016f82786a2d60dbeb0e9c10d22212e611df4b39c4567393997105e",
+    "d62459a62ea220ff577baac7b01a3ececa586a6207a7da47673caac94392ec28",
+    "d6d9cfd2567e276b2095021d343518fd13e476323e79251fe6730366130ce531",
+    "d83539ab813d62ea02d586595a58ddb9f1bf994d404b6749ad67698b992695f6",
+    "da4f6164db348724f81d3bc69a1dfdb36a3d267f67067ae9192cb45e0a99665c",
+    "da811c9462df247cb1aee9b5ae8aa83cdecfe7459c434cef497c4a02c5810862",
+    "deb8604841a728bcf0347cf17a27e0bc21134e8ce8d5615faee11d8100e22658",
+    "e0525572c6b884dadaa66880b91a48ee97631c0e96f0d4f34ea07295d190180d",
+    "e0e0b462bbed2c269fc0585d9d782712c99fbafbbf2e79448f5099439e5404e2",
+    "e1d6bfbc0f131a416104c13bc379b887e9398bd62df727870a90398d50bb44e2",
+    "e25574e0fff663ad82008dfa4cb2785cfdc1c6d71b3151ef214e37cb63c64a2e",
+    "e528bafdeea6910ead24aad5a0580e2a73cb7f456279648de9f56038066341e6",
+    "e627e05d4fc382d7c6f980ddf48df61397cf46f1d8b3323015a4410176e9b67c",
+    "e720d065bac90d30100887c4864131db4a6e843cc646fdd800f59e68dac25c03",
+    "e74b507d7a88d4f40c20fed12bea251a5ec44e678cfc206a979517bf57e1d093",
+    "e8d0c9da14114342e3ad1bde4931a6cfa36e9d22b624abbfc26d4c10edb8a46c",
+    "e92533ccdeeab0ab98eeb125b9bfc6f93a157235015a2297f8a8e09d0bd12504",
+    "ea309d8fe93fd9c709dbf9e35263b5850a73ae996b3cdff98eeabd57a3cb4aa7",
+    "ea69640188256469aa73e40a02120422b2d9e71cc219b8a1d446ba51f1bc788a",
+    "eb4065caa35974a52f03ac2c1246409ebaabb6465254513f905d67cf04d3c98a",
+    "ee123cab9d5d5f47cfcf2e6a6575c508b348254e1b9101a64aed0d9d0dcb9218",
+    "ef2d22b18f968a51f3608b6557a480ab05d1e797e878a32d56ddd2e77accc676",
+    "f1fefa0f9b4b4a26f1d67486a4c666805f7cf861c78146b578b18187db795234",
+    "f2e56e8e4f9b75fc3cf593857952c20183a5864dc6c52aa05a9e2731858f3228",
+    "f55eb0e3051c21605156421f8c3f0cc93980d9a1775d9e447311e6e2594aa3c2",
+    "f5ac3b984b9f02b4db0e5f023c938c5925d6457a6480d3e0b57ce6411dd1ed21",
+    "f657e68f4eb0973923c75df84cab0041254aeeff11e012f1a421e090401ae7ec",
+    "f8ce4cf9ab40be8b98854319ed64332b970c1695c8e40e78464153988b5b7300",
+    "f953b4f99a1c3bdb9fa8b9f3d99df869123ef05b73c06e833ebc811d1be9f128",
+    "f96cccada334c47d0e7d432b29f5f32c6e7500554a1acc983bb9c556603cddfa",
+    "fcfc3a4edb79ea4e79919c5fac570ff225beda8bc850fe8c1d96ce5929621e87",
+    "fe60a0e69a13e1cc663cbb0259fe7c6ac7c27a9892a098ad6083e93e651edce0",
+    "ff63be05622b0c72681aac7235608ff78ced452bcbccceeb689d953e14eb3020",
+    "ff723aab330ee8a4f39477ef016aff2926278ac276eadbcb2437c76504f972e5"
+  ]
+}

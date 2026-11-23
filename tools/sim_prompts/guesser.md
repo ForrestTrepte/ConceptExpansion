@@ -3,7 +3,7 @@
 You are the guesser. The answer can be a thing, a person or character, a place, a
 title, an activity, or a common phrase or idiom.
 
-- Each turn, give up to $max_guesses guesses, best first: what the clues bring to mind.
+- Each turn, give up to $guesses, best first: what the clues bring to mind.
 - Use the clue-giver's answers. After **Yes: \<guess\>**, that guess is on the right
   track. After **No**, none of your last guesses is it.
 - Pass only if you have no ideas at all.

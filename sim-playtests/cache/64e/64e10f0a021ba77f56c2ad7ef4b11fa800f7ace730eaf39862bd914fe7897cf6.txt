@@ -1,0 +1,83 @@
+New prompt.
+
+Step 1, markers placed:
+?g B8
++ F8
+Board now:
+?g B8 | F8
+Guesses: Sound bite
+Clue-giver: No
+
+Step 2, markers placed:
++g E1
+Board now:
+?g B8 | F8, E1
+Guesses: Snippet
+Clue-giver: No
+
+Step 3, markers placed:
+!r E5
++ Clear
+Board now:
+?g B8 | F8, E1
+!r E5 | Clear
+Guesses: Cut to the chase
+Clue-giver: No
+
+Step 4, markers placed:
++r E1
+Board now:
+?g B8 | F8, E1
+!r E5 | Clear, E1
+Guesses: Cold hard truth
+Clue-giver: No
+
+Step 5, markers placed:
+!y B1
++ C1
+Board now:
+?g B8 | F8, E1
+!r E5 | Clear, E1
+!y B1 | C1
+Guesses: Catchphrase
+Clue-giver: No
+
+Step 6, markers placed:
++y B8
++ G13
+Board now:
+?g B8 | F8, E1
+!r E5 | Clear, E1
+!y B1 | C1, B8, G13
+Guesses: Slogan
+Clue-giver: No
+
+Step 7, markers placed:
++r G7
+Board now:
+?g B8 | F8, E1
+!r E5 | Clear, E1, G7
+!y B1 | C1, B8, G13
+Guesses: Quote
+Clue-giver: No
+
+Step 8, markers placed:
+-r all
+!r F3
++ E1
++ E5
+Board now:
+?g B8 | F8, E1
+!r F3 | E1, E5
+!y B1 | C1, B8, G13
+Guesses: Sticks and stones
+Clue-giver: No
+
+Step 9, markers placed:
++r G7
+Board now:
+?g B8 | F8, E1
+!r F3 | E1, E5, G7
+!y B1 | C1, B8, G13
+
+Give up to 1 guess, best first, or pass.

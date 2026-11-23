@@ -124,6 +124,7 @@ class Spec:
     trials: int = 1
     max_rounds: int = 8
     max_guesses: int = 3
+    guesser_prompt: str = "guesser"  # tools/sim_prompts/<name>.md
     extra_rounds: int = 2
     concurrency: int = 3
     spend_limit_usd: float = 0.0
@@ -229,6 +230,10 @@ JUDGE_SCHEMA: dict[str, Any] = {
 }
 
 
+def guesses(n: int) -> str:
+    return f"{n} guess" if n == 1 else f"{n} guesses"
+
+
 def guess_schema(max_guesses: int) -> dict[str, Any]:
     schema: dict[str, Any] = json.loads(json.dumps(GUESS_SCHEMA_BASE))
     schema["properties"]["guesses"]["maxItems"] = max_guesses
@@ -280,12 +285,12 @@ def guesser_request(spec: Spec, turns: Sequence[Turn]) -> dict[str, Any]:
     prompt = (
         "New prompt.\n\n"
         + history(turns, for_clue_giver=False)
-        + f"\nGive up to {spec.max_guesses} guesses, best first, or pass."
+        + f"\nGive up to {guesses(spec.max_guesses)}, best first, or pass."
     )
     return ClaudeCli.request(
         spec.guesser.model,
         prompt,
-        system=system(text("guesser", max_guesses=spec.max_guesses)),
+        system=system(text(spec.guesser_prompt, guesses=guesses(spec.max_guesses))),
         json_schema=guess_schema(spec.max_guesses),
         effort=spec.guesser.effort,
     )
@@ -358,6 +363,9 @@ class Game:
     mode: Mode
     trial: int
     source: str = ""  # the playtest log entry, for human-clues games
+    human_result: str = ""  # solved / failed, for human-clues games
+    human_step: int | None = None
+    clue_comments: bool = False  # the logged clues have [...] comments
     outcome: Outcome | None = None
     solved_at: int | None = None
     confidence: int | None = None
@@ -541,7 +549,15 @@ async def play_model_clues(ask: Ask, spec: Spec, answer: str, trial: int) -> Gam
 async def play_human_clues(ask: Ask, spec: Spec, human: LogGame, trial: int) -> Game:
     """The logged clues, a step at a time (see LogGame.steps), then `extra_rounds` turns
     with no new markers. The answer is the prompt as it was played."""
-    game = Game(human.prompt, "human-clues", trial, source=human.source)
+    game = Game(
+        human.prompt,
+        "human-clues",
+        trial,
+        source=human.source,
+        human_result=human.result,
+        human_step=human.solved_step,
+        clue_comments=any("[" in line for line in human.lines),
+    )
     if human.result == "skipped":
         game.outcome = "skipped"
         return game
@@ -670,6 +686,8 @@ def summarize(run: dict[str, Any]) -> list[dict[str, Any]]:
         rows.append(
             {
                 "prompt": prompt,
+                "human": _human(games[0]),
+                "comments": any(g["clue_comments"] for g in games),
                 "games": len(games),
                 "solved": len(solved),
                 "avg_steps": round(statistics.mean(solved), 1) if solved else None,
@@ -679,6 +697,48 @@ def summarize(run: dict[str, Any]) -> list[dict[str, Any]]:
             }
         )
     return rows
+
+
+def _human(game: dict[str, Any]) -> str:
+    result: str = game["human_result"]
+    if result == "solved" and game["human_step"]:
+        return f"solved (step {game['human_step']})"
+    return result
+
+
+def agreement(games: Sequence[dict[str, Any]]) -> list[str]:
+    """How the model's results compare with the humans' on the same clues: how often it
+    solved games humans solved and games they failed, and how often its outcome (solved
+    or not) matched theirs. Also without games whose clues have comments, which a model
+    reads as words while people saw a marker on a picture."""
+    out = []
+    for name, subset in (
+        ("All games", [g for g in games if g["human_result"] in ("solved", "failed")]),
+        ("Without clue comments", [g for g in games if g["human_result"] in ("solved", "failed") and not g["clue_comments"]]),
+    ):
+        if not subset:
+            continue
+        hs = [g for g in subset if g["human_result"] == "solved"]
+        hf = [g for g in subset if g["human_result"] == "failed"]
+        ms = sum(g["outcome"] == "solved" for g in hs)
+        mf = sum(g["outcome"] == "solved" for g in hf)
+        same = sum((g["outcome"] == "solved") == (g["human_result"] == "solved") for g in subset)
+        out.append(
+            f"| {name} | {ms}/{len(hs)} | {mf}/{len(hf)} |"
+            f" {same}/{len(subset)} ({100 * same / len(subset):.0f}%) |"
+        )
+    if not out:
+        return []
+    return [
+        "## Agreement with human guessers",
+        "",
+        "Model games solved, by what the humans did with the same clues.",
+        "",
+        "| Games | Humans solved: model solved | Humans failed: model solved | Same outcome |",
+        "|---|---|---|---|",
+        *out,
+        "",
+    ]
 
 
 def markdown(run: dict[str, Any]) -> str:
@@ -695,18 +755,35 @@ def markdown(run: dict[str, Any]) -> str:
         "",
         f"- Mode: {spec['mode']} · {roles}",
         f"- Trials: {spec['trials']} · max rounds {spec['max_rounds']} · max guesses"
-        f" {spec['max_guesses']}",
+        f" {spec['max_guesses']} · guesser prompt {spec.get('guesser_prompt', 'guesser')}",
         "",
-        "## Summary",
-        "",
-        "| Prompt | Solved | Avg steps | Skipped | Errors | Common wrong guesses |",
-        "|---|---|---|---|---|---|",
     ]
+    human = spec["mode"] == "human-clues"
+    if human:
+        out += agreement(run["games"])
+    out += ["## Summary", ""]
+    if human:
+        out += [
+            "| Prompt | Humans | Clue comments | Model solved | Avg steps | Common wrong guesses |",
+            "|---|---|---|---|---|---|",
+        ]
+    else:
+        out += [
+            "| Prompt | Solved | Avg steps | Skipped | Errors | Common wrong guesses |",
+            "|---|---|---|---|---|---|",
+        ]
     for r in summarize(run):
-        out.append(
-            f"| {r['prompt']} | {r['solved']}/{r['games']} | {r['avg_steps'] or '–'} |"
-            f" {r['skipped']} | {r['errors']} | {', '.join(r['common_wrong'])} |"
-        )
+        if human:
+            out.append(
+                f"| {r['prompt']} | {r['human']} | {'yes' if r['comments'] else ''} |"
+                f" {r['solved']}/{r['games']} | {r['avg_steps'] or '–'} |"
+                f" {', '.join(r['common_wrong'])} |"
+            )
+        else:
+            out.append(
+                f"| {r['prompt']} | {r['solved']}/{r['games']} | {r['avg_steps'] or '–'} |"
+                f" {r['skipped']} | {r['errors']} | {', '.join(r['common_wrong'])} |"
+            )
     out += ["", "## Usage", "", "| Game | Calls | Cost (USD, API-equivalent) | Model time (s) | Input tokens | Cache-read tokens | Output tokens |", "|---|---|---|---|---|---|---|"]
     for g in run["games"]:
         u, t = g["usage"], g["usage"].get("tokens", {})

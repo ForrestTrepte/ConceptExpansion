@@ -1,0 +1,10 @@
+New prompt.
+
+Step 1, markers placed:
+?g H14
++ C14
++ C11
+Board now:
+?g H14 | C14, C11
+
+Give up to 1 guess, best first, or pass.

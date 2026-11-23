@@ -1,0 +1,25 @@
+New prompt.
+
+Step 1, markers placed:
+?g H14
+Board now:
+?g H14
+Guesses: Doorbell
+Clue-giver: No
+
+Step 2, markers placed:
+!r A1
++ D8
+Board now:
+?g H14
+!r A1 | D8
+Guesses: Stopwatch
+Clue-giver: No
+
+Step 3, markers placed:
++r C13
+Board now:
+?g H14
+!r A1 | D8, C13
+
+Give up to 1 guess, best first, or pass.

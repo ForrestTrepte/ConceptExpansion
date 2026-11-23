@@ -1,0 +1,24 @@
+New prompt.
+
+Step 1, markers placed:
+?g A2
++ B5
++ D9 [cube on the crown]
+Board now:
+?g A2 | B5, D9
+Guesses: Queen Elizabeth II
+Clue-giver: No
+
+Step 2, markers placed:
+(no new markers)
+Board now:
+?g A2 | B5, D9
+Guesses: Prince
+Clue-giver: No
+
+Step 3, markers placed:
+(no new markers)
+Board now:
+?g A2 | B5, D9
+
+Give up to 1 guess, best first, or pass.

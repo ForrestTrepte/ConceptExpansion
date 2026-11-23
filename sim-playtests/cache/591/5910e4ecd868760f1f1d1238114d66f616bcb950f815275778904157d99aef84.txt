@@ -1,0 +1,46 @@
+New prompt.
+
+Step 1, markers placed:
+?g H14
+Board now:
+?g H14
+Guesses: Button, Push, Doorbell
+Clue-giver: No
+
+Step 2, markers placed:
+!r A1
++ D8
+Board now:
+?g H14
+!r A1 | D8
+Guesses: Stopwatch, Timer, Time clock
+Clue-giver: No
+
+Step 3, markers placed:
++r C13
+Board now:
+?g H14
+!r A1 | D8, C13
+Guesses: Alarm clock, Alarm, Snooze button
+Clue-giver: Yes: Alarm clock
+
+Step 4, markers placed:
+!y E2
++ B14
++ G14
++ C3
+Board now:
+?g H14
+!r A1 | D8, C13
+!y E2 | B14, G14, C3
+Guesses: Clock radio, Bedside clock, Wake-up call
+Clue-giver: No
+
+Step 5, markers placed:
++y D4
+Board now:
+?g H14
+!r A1 | D8, C13
+!y E2 | B14, G14, C3, D4
+
+Give up to 3 guesses, best first, or pass.

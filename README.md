@@ -187,20 +187,16 @@ Newest at the bottom. Include the date and a one-line reason.
 
 ## Next steps
 
-1. **Simulated playtesting with LLMs: calibrate (phase 2).** The plan is in
-   [docs/simulated-playtesting.md](docs/simulated-playtesting.md). The baseline is
-   recorded (`sim-playtests/runs/calibrate-baseline.md`: the 20 human-guessed games
-   with clues, Haiku guesser, 3 trials, $0.43). It doesn't match people yet: Haiku
-   solved 5 of the 6 human failures every time (Statue of Liberty, Elvis Presley,
-   Snail, Popcorn, Rain check) and missed Umbrella, Couch potato, and mostly
-   Lighthouse, which humans solved. Written picture-detail comments ("[cube on the
-   crown]") give the model a much stronger hint than a cube on a picture gave people.
-   Next: report results with and without games that have such comments, then try
-   guesser levers (one guess per turn, first-instinct wording) against the baseline,
-   and OpenRouter guessers (phase 3) if those don't close the gap. Record only when
-   the owner asks. Edits to the icon or picture tables invalidate the cache; the
-   re-banding in step 2 and deleting the audit section of `pictured-elements.md`
-   don't, since only the tables are sent.
+1. **Simulated playtesting with LLMs: calibrate (phase 2).** The plan and findings
+   are in [docs/simulated-playtesting.md](docs/simulated-playtesting.md#findings-so-far-2026-11-23).
+   Four `human-clues` runs (baseline, one guess, first-instinct wording, both) all have
+   Haiku solving 15–18 of the 18 games humans failed, so prompt-side levers don't
+   close the gap. Next options, for the owner to choose: non-Claude guessers through
+   OpenRouter (phase 3); more human games, with the owner guessing against the model
+   clue-giver; or using the simulation only for the clue-giver side (can a model find
+   a route, and does it skip what humans skipped). Record only when the owner asks.
+   Edits to the icon or picture tables invalidate the cache; the re-banding in step 2
+   and deleting the audit section of `pictured-elements.md` don't.
 2. **Reassemble cards 1–18 (expected check errors until then).** Rebuild every card
    from the whole pool, using:
    - **Tabletop re-banding:** after the 2026-11-16 playtest, the owner moved Taco,

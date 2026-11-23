@@ -95,6 +95,28 @@ Levers against the known bias (Claude guesses more easily than people):
 
 Pick the configuration whose results best match the humans. Record it here.
 
+### Findings so far (2026-11-23)
+
+`human-clues` runs on the 20 human-guessed games with clues, Haiku at low effort, 3
+trials each (`sim-playtests/runs/calibrate-*.md`, $2.06 in all). "Humans failed: model
+solved" should be low; it wasn't for any setting.
+
+| Run | Humans solved: model solved | Humans failed: model solved | Same outcome |
+|---|---|---|---|
+| `calibrate-baseline` (3 guesses) | 34/42 | 17/18 | 58% |
+| `calibrate-1guess` | 33/42 | 15/18 | 60% |
+| `calibrate-instinct` (first-instinct wording) | 34/42 | 18/18 | 57% |
+| `calibrate-instinct-1guess` | 33/42 | 17/18 | 57% |
+
+- Prompt-side levers on Haiku don't close the gap. The model solves almost every human
+  failure (Statue of Liberty, Elvis Presley, Snail, Popcorn, Rain check) in 1–3 steps.
+- It fails some human successes: Umbrella (reads E1 as cold, not rain), Couch potato,
+  and Lighthouse. The last two rely on where markers sat on the board.
+- Written clue comments ("[cube on the crown]") hint far more strongly than a cube on a
+  picture did for people. Reports also show agreement without those games.
+- The human side is thin: one two-player session plus one text session, one game per
+  prompt. More human games would make every comparison more trustworthy.
+
 ## Backends
 
 Both are llmemo's built-in backends. Requests need full model IDs (llmemo rejects

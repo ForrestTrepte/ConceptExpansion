@@ -246,3 +246,20 @@ def test_usage_limit_stops_the_run(monkeypatch: pytest.MonkeyPatch, capsys: pyte
     assert simplay.cmd_run(["dry-run-model-clues"]) == 2
     out = capsys.readouterr().out
     assert "usage limit" in out and "2026-11-2" in out
+
+
+def test_agreement_with_humans() -> None:
+    def g(human: str, outcome: str, comments: bool = False) -> dict[str, Any]:
+        return {"human_result": human, "outcome": outcome, "clue_comments": comments}
+
+    games = [g("solved", "solved"), g("failed", "solved"), g("failed", "out_of_rounds", True)]
+    rows = simplay.agreement(games)
+    assert "| All games | 1/1 | 1/2 | 2/3 (67%) |" in rows
+    assert "| Without clue comments | 1/1 | 1/1 | 1/2 (50%) |" in rows
+
+
+def test_one_guess_wording() -> None:
+    req = simplay.guesser_request(spec(max_guesses=1, guesser_prompt="guesser-instinct"), [])
+    assert "Give up to 1 guess, best first" in req["prompt"]
+    assert "say up to 1 guess:" in req["system"][-1]
+    assert req["jsonSchema"]["properties"]["guesses"]["maxItems"] == 1

@@ -1,0 +1,9 @@
+New prompt.
+
+Step 1, markers placed:
+?g B8
++ F8
+Board now:
+?g B8 | F8
+
+Give up to 1 guess, best first, or pass.
