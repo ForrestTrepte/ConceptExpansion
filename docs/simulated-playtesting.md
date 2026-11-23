@@ -121,6 +121,23 @@ solved" should be low; it wasn't for any setting.
 - The human side is thin: one two-player session plus one text session, one game per
   prompt. More human games would make every comparison more trustworthy.
 
+**Model clues, human guesser (`calibrate-play`, $0.50).** The same guesser on the
+owner's 24 `simplay.py play` games, whose clues came from Sonnet (14) or Opus (10):
+
+| Clues from | Humans solved: model solved | Humans failed: model solved |
+|---|---|---|
+| Sonnet | 21/21 | 12/21 |
+| Opus | 6/9 | 18/21 |
+| All | 27/30 | 30/42 |
+
+- Haiku decodes model-written clues that the owner couldn't, usually at step 1:
+  Rat race (the owner passed after 10 steps), Writer's block, Sloth, Rock paper
+  scissors, Soup, Friday the 13th. Models seem to share a way of reading the icons
+  that people don't.
+- So a Claude guesser can't stand in for people, either to rate prompts or to judge
+  clue-givers: it would reward clues only models find clear. Whether non-Claude
+  guessers (phase 3) read the icons more like people is the open question.
+
 ## Backends
 
 Both are llmemo's built-in backends. Requests need full model IDs (llmemo rejects

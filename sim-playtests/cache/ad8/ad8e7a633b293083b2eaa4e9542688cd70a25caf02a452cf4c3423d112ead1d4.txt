@@ -1,0 +1,14 @@
+New prompt.
+
+Step 1, markers placed:
+?g B10
++ A10
++ C1
+!r A8
++ H13
++ B8
+Board now:
+?g B10 | A10, C1
+!r A8 | H13, B8
+
+Give up to 3 guesses, best first, or pass.

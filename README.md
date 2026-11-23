@@ -190,18 +190,18 @@ Newest at the bottom. Include the date and a one-line reason.
 
 ## Next steps
 
-1. **Simulated playtesting with LLMs: calibrate (phase 2).** The plan and findings
-   are in [docs/simulated-playtesting.md](docs/simulated-playtesting.md#findings-so-far-2026-11-23).
-   Prompt-side levers on Haiku don't close the gap with human guessers (it solves
-   15–18 of the 18 games humans failed). The owner is collecting human data with
-   `simplay.py play`. The first 14 games (Sonnet, medium effort, table reference) had
-   muddled clues: codes that didn't match the clue-giver's plans, crowded first turns,
-   and idioms clued by meaning instead of words. `play.toml` now uses Opus at high
-   effort with the one-line-per-icon reference. Next: the owner plays a batch; if the
-   clues are good, try Opus at lower effort and Sonnet at high effort to see whether
-   both the model and the effort are needed. Then rerun the `human-clues` comparison
-   on the new games and consider OpenRouter guessers (phase 3). Record only when the
-   owner asks. Edits to the icon or picture docs invalidate cached calls that use them.
+1. **Simulated playtesting with LLMs: calibrate (phase 2).** Findings are in
+   [docs/simulated-playtesting.md](docs/simulated-playtesting.md#findings-so-far-2026-11-23).
+   A Claude guesser (Haiku) solves most games people failed, on human clues (17 of 18)
+   and even more strikingly on model clues the owner couldn't read (30 of 42, mostly at
+   step 1), and prompt-side levers don't change that. So Claude guessers can't stand in
+   for people. The owner keeps playing `simplay.py play` (Opus at high effort, list
+   reference); about 20 games per clue-giver setting are needed before comparing Opus
+   at lower effort or Sonnet at high effort. Next decision for the owner: try
+   non-Claude guessers through OpenRouter on the 44 human-guessed games (phase 3), or
+   use human play as the main evidence and the model only for clue-side checks. Record
+   only when the owner asks. Edits to the icon or picture docs invalidate cached calls
+   that use them.
 2. **Reassemble cards 1–18 (expected check errors until then).** Rebuild every card
    from the whole pool, using:
    - **Tabletop re-banding:** after the 2026-11-16 playtest, the owner moved Taco,

@@ -1,0 +1,15 @@
+New prompt.
+
+Step 1, markers placed:
+?g A3
++ G14
+!r A4
++ H10
++ Grey
+!y D3
+Board now:
+?g A3 | G14
+!r A4 | H10, Grey
+!y D3
+
+Give up to 3 guesses, best first, or pass.

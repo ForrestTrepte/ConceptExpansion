@@ -1,0 +1,141 @@
+{
+  "contentSha256": "79480c34c7e993fa3ddc835ec5a78f44d463836ef51ac127e5dc084e4afbef84",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "claude-cli",
+      "effort": "low",
+      "jsonSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "guesses": {
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 3,
+            "type": "array"
+          },
+          "pass": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "guesses",
+          "pass"
+        ],
+        "type": "object"
+      },
+      "model": "claude-haiku-5-5",
+      "prompt": {
+        "$llmemo.text": "76da5e235bc94576b136ce196877a775c274c41e7d16d88a92f2814e368b2db6"
+      },
+      "system": [
+        {
+          "$llmemo.text": "29d73c99f00758a55ed046d05b0403c1ca98589e4f1e9e1a977874ccbdd10cbc"
+        },
+        {
+          "$llmemo.text": "d2252f0f769f4131bf86b961745fc4f03ad64d43b87c38f0a046e0c94074bf6d"
+        },
+        {
+          "$llmemo.text": "cc6eb55a2586e418ff966b4b4648dc00860ddae1ef82f8c008cef88aa6c2375d"
+        }
+      ]
+    },
+    "variant": "trial-1"
+  },
+  "meta": {
+    "billing": "subscription",
+    "codeVersion": "dbd60a3",
+    "costUsd": 0.0007771500000000001,
+    "latencyMs": 4049,
+    "recordedAt": "2026-11-23T21:45:27.459Z",
+    "recordedBy": "claude",
+    "servedBy": "firstParty",
+    "servedModel": "claude-haiku-5-5",
+    "tags": {
+      "run": "calibrate-play"
+    },
+    "toolVersion": "2.1.330 (Claude Code)",
+    "usage": {
+      "cacheReadTokens": 7695,
+      "cacheWriteTokens": 1076,
+      "inputTokens": 2,
+      "outputTokens": 440,
+      "reasoningTokens": 340
+    }
+  },
+  "reply": {
+    "api_error_status": null,
+    "is_error": false,
+    "modelUsage": {
+      "claude-haiku-5-5": {
+        "cacheCreationEphemeral1hInputTokens": 1076,
+        "cacheCreationEphemeral5mInputTokens": 0,
+        "cacheCreationInputTokens": 1076,
+        "cacheReadInputTokens": 7695,
+        "canonicalModel": "claude-haiku-5-5",
+        "contextWindow": 1000000,
+        "costBasis": "list",
+        "costUSD": 0.0007771500000000001,
+        "inputTokens": 1335,
+        "maxOutputTokens": 128000,
+        "outputTokens": 703,
+        "provider": "firstParty",
+        "thinkingTokens": 587,
+        "webSearchRequests": 0
+      }
+    },
+    "num_turns": 2,
+    "permission_denials": [],
+    "result": "{\"guesses\":[\"Moonshot\",\"Reach for the stars\",\"Pipe dream\"],\"pass\":false}",
+    "stop_reason": "tool_use",
+    "structured_output": {
+      "guesses": [
+        "Moonshot",
+        "Reach for the stars",
+        "Pipe dream"
+      ],
+      "pass": false
+    },
+    "subtype": "success",
+    "terminal_reason": "completed",
+    "type": "result",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 1076,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 1076,
+      "cache_read_input_tokens": 7695,
+      "fallback_credit": null,
+      "inference_geo": "global",
+      "input_tokens": 2,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 1076,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 1076,
+          "cache_read_input_tokens": 7695,
+          "input_tokens": 2,
+          "output_tokens": 440,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 440,
+      "output_tokens_details": {
+        "thinking_tokens": 340
+      },
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}
