@@ -17,7 +17,7 @@ prompts = [
 trials = 3
 max_guesses = 3
 extra_rounds = 2
-concurrency = 5
+concurrency = 15
 spend_limit_usd = 4.0
 
 [guesser]
