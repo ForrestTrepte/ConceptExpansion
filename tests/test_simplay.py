@@ -4,7 +4,8 @@ from __future__ import annotations
 
 import asyncio
 from collections.abc import Sequence
-from dataclasses import asdict
+from dataclasses import asdict, replace
+from pathlib import Path
 from typing import Any
 
 import pytest
@@ -274,3 +275,35 @@ def test_list_reference() -> None:
     assert len([line for line in ref.splitlines() if ":" in line[:7]]) == 118
     default = simplay.clue_giver_request(spec(), "Pizza", [])
     assert "| A4 | Fauna / Animal |" in default["system"][1]  # existing runs unchanged
+
+
+def test_openrouter_guesser_request() -> None:
+    s = replace(spec("human-clues"), guesser=Role("openai/gpt-6-luna", "low", "openrouter", 2000))
+    req = simplay.guesser_request(s, [simplay.Turn(["?g A1"], "?g A1")])
+    assert req["backend"] == "openrouter" and req["endpoint"] == "chat/completions"
+    body = req["body"]
+    assert body["model"] == "openai/gpt-6-luna"
+    assert body["reasoning"] == {"effort": "low"} and body["max_tokens"] == 2000
+    system, user = body["messages"]
+    claude = simplay.guesser_request(spec("human-clues"), [simplay.Turn(["?g A1"], "?g A1")])
+    assert system["content"] == "".join(claude["system"]) and user["content"] == claude["prompt"]
+    schema = body["response_format"]["json_schema"]["schema"]
+    assert "maxItems" not in schema["properties"]["guesses"]
+
+
+def test_structured_reply_from_either_backend() -> None:
+    assert simplay.structured({"structured_output": {"pass": True}}) == {"pass": True}
+    fenced = {"choices": [{"message": {"content": '```json\n{"guesses": ["Cat"], "pass": false}\n```'}}]}
+    assert simplay.structured(fenced) == {"guesses": ["Cat"], "pass": False}
+    assert simplay.structured({"choices": [{"message": {"content": "Cat!"}}]}) is None
+    assert simplay.structured("nope") is None
+
+
+def test_only_the_guesser_uses_openrouter(tmp_path: Path) -> None:
+    (tmp_path / "x.toml").write_text(
+        'mode = "model-clues"\nprompts = []\nspend_limit_usd = 1.0\n'
+        '[clue_giver]\nmodel = "openai/gpt-6-luna"\nbackend = "openrouter"\n'
+        '[guesser]\nmodel = "openai/gpt-6-luna"\nbackend = "openrouter"\n'
+    )
+    with pytest.raises(ValueError, match="only the guesser"):
+        simplay.load_spec("x", tmp_path)

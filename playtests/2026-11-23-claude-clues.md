@@ -529,3 +529,55 @@
 - Band: red (draft) · Outcome: passed · Clue-giver confidence: 4/5
 - Clue-giver plans: Clue the two words: rat (small grey animal) and race (fast). Use the work/cycle meaning as the main concept to point at the phrase. / The guesser read the D3 rabbit as the animal. I'm making yellow clearly mean "race" by adding cars and sport. If they still miss rat, I'll add disease or sewer clues to red. / "Race" has landed through the horse race guess. Now I'll show that the main concept is the daily money-and-city work grind, and that the animal in the phrase is the small grey disease animal (rat), not a horse. / The guesser is stuck on horses. I'll add a cheese group (yellow food with holes) to point the small grey animal toward rodents, so they get to rat and then the rat race grind. / I'll make the black group a clear cheese wedge (yellow triangle food with holes) so the small grey animal reads as a rodent that eats cheese, which should lead to rat. I'll also add a negative marker to the main concept so the endless work-for-money cycle reads as a grind, not a job. / I'm removing the misleading cheese group. I'm also making red a lab rat (small grey animal, disease, science, maze grid) to get to "rat", then combining it with race and the daily grind. / The occupation pawn has them guessing animal-related jobs. I'll reframe the main concept as an expression (B8) about an endless work cycle, so they put the animal word and the race word together into a phrase. / I'll keep the expression framing and add money and city to it, so it reads as the corporate grind. I'll also add a thin tail to red to push from a generic animal toward rat.
 - Game ID (the `game` tag on its cache entries): 2026-11-23/Rat race
+
+### Pool: Security camera
+- Clue-giver: Claude (claude-opus-5-5, effort high) · Guessed: yes (step 1) · Verdict: keep
+- Clues:
+  ```
+  ?g A1
+  + C7
+  + C14
+  !r C4
+  ```
+- Notable guesses: doorbell camera, early warning system
+- Band: red (draft) · Outcome: solved · Clue-giver confidence: 4/5
+- Clue-giver plans: An electronic object that watches (eye), linked to protection. Next I'll add the movie camera (A6) for the camera part, or a building/house to show what it guards.
+- Game ID (the `game` tag on its cache entries): 2026-11-23/Security camera
+
+### Pool: Bend over backwards
+- Clue-giver: Claude (claude-opus-5-5, effort high) · Guessed: yes (step 1) · Verdict: keep
+- Clues:
+  ```
+  ?g B8
+  !r C12
+  + H1
+  !y E8
+  + G13
+  ```
+- Band: black (draft) · Outcome: solved · Clue-giver confidence: 3/5
+- Clue-giver plans: Main concept is an expression. Clue it literally: a body arching, then reversed/backwards. If they get "bend" or "backwards", add G12 for "over".
+- Game ID (the `game` tag on its cache entries): 2026-11-23/Bend over backwards
+- Comments: fun
+
+### Pool: In the doghouse
+- Clue-giver: Claude (claude-opus-5-5, effort high) · Guessed: no · Verdict: unclear
+- Clues:
+  ```
+  ?g B8
+  !r E10
+  !b B14
+  + A4
+  + H10
+
+  !y D6
+  + F2
+
+  -y F2
+  +b C5
+  + D2
+  ```
+- Notable guesses: rat's nest (Yes), bad storm
+- Band: black (draft) · Outcome: passed · Clue-giver confidence: 3/5
+- Clue-giver plans: Expression main concept; sub-concept "inside" + small house for an animal (doghouse). Later add sad/negative for trouble if needed. / They got the idea of an idiom about an animal's home. Next I'll add a trouble/anger sub-concept to get them to "in the doghouse". If they guess the wrong animal, I'll add more animal details. / They read the anger icon as a storm, so I'm removing it and keeping just the sad one for "in trouble". I'm adding heart + male to the animal-house group to point to "man's best friend" (dog), which gives doghouse.
+- Game ID (the `game` tag on its cache entries): 2026-11-23/In the doghouse
+- Comments: It said "yes" about Rat's Nest because it was close to Dog's House?

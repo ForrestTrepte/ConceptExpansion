@@ -9,7 +9,9 @@
     ],
     "guesser": {
       "model": "claude-haiku-5-5",
-      "effort": "low"
+      "effort": "low",
+      "backend": "claude-cli",
+      "max_tokens": null
     },
     "clue_giver": null,
     "trials": 1,

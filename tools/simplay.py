@@ -57,7 +57,9 @@ Mode = Literal["model-clues", "human-clues"]
 @dataclass(frozen=True)
 class Role:
     model: str
-    effort: str | None = None
+    effort: str | None = None  # claude-cli: --effort; openrouter: reasoning effort
+    backend: str = "claude-cli"  # or "openrouter" (guesser only), with an OpenRouter model ID
+    max_tokens: int | None = None  # openrouter only; leave room for reasoning models
 
 
 # Fixed for every run, so changing the clue-giver or guesser can't change the scoring.
@@ -162,6 +164,11 @@ def load_spec(spec_id: str, specs_dir: Path = SPECS_DIR) -> Spec:
     if guesser is None:
         raise ValueError(f"spec {spec_id}: [guesser] is required")
     clue_giver = role("clue_giver")
+    for name, r in (("guesser", guesser), ("clue_giver", clue_giver)):
+        if r is not None and r.backend not in ("claude-cli", "openrouter"):
+            raise ValueError(f"spec {spec_id}: [{name}] backend must be claude-cli or openrouter")
+    if clue_giver is not None and clue_giver.backend != "claude-cli":
+        raise ValueError(f"spec {spec_id}: only the guesser can use OpenRouter")
     if mode == "model-clues" and clue_giver is None:
         raise ValueError(f"spec {spec_id}: a model-clues spec needs [clue_giver]")
     rest = {k: v for k, v in data.items() if k not in ("mode", "prompts", "guesser", "clue_giver")}
@@ -300,15 +307,67 @@ def guesser_request(spec: Spec, turns: Sequence[Turn]) -> dict[str, Any]:
         + history(turns, for_clue_giver=False)
         + f"\nGive up to {guesses(spec.max_guesses)}, best first, or pass."
     )
+    parts = system(text(spec.guesser_prompt, guesses=guesses(spec.max_guesses)), spec.reference)
+    if spec.guesser.backend == "openrouter":
+        return openrouter_request(spec.guesser, parts, prompt, guess_schema(spec.max_guesses))
     return ClaudeCli.request(
         spec.guesser.model,
         prompt,
-        system=system(
-            text(spec.guesser_prompt, guesses=guesses(spec.max_guesses)), spec.reference
-        ),
+        system=parts,
         json_schema=guess_schema(spec.max_guesses),
         effort=spec.guesser.effort,
     )
+
+
+def openrouter_request(
+    role: Role, parts: Sequence[str], prompt: str, schema: dict[str, Any]
+) -> dict[str, Any]:
+    """The same system text and prompt as a Claude request, as an OpenRouter chat
+    request with a JSON-schema reply. `maxItems` is dropped from the schema (strict mode
+    doesn't support it everywhere); replies with too many guesses are rejected and retried
+    like any invalid reply."""
+    from llmemo import OpenRouter
+
+    loose = json.loads(json.dumps(schema))
+    for prop in loose["properties"].values():
+        prop.pop("maxItems", None)
+    body: dict[str, Any] = {
+        "model": role.model,
+        "messages": [
+            {"role": "system", "content": "".join(parts)},
+            {"role": "user", "content": prompt},
+        ],
+        "response_format": {
+            "type": "json_schema",
+            "json_schema": {"name": "reply", "strict": True, "schema": loose},
+        },
+    }
+    if role.effort:
+        body["reasoning"] = {"effort": role.effort}
+    if role.max_tokens:
+        body["max_tokens"] = role.max_tokens
+    return OpenRouter.chat_request(body)
+
+
+def structured(reply: object) -> object:
+    """The JSON object a reply carries: `structured_output` from the Claude CLI, or the
+    message content from OpenRouter (parsed, allowing a ```json fence). None if absent."""
+    if not isinstance(reply, dict):
+        return None
+    if "structured_output" in reply or "choices" not in reply:
+        return reply.get("structured_output")
+    try:
+        content = reply["choices"][0]["message"]["content"]
+    except (KeyError, IndexError, TypeError):
+        return None
+    if not isinstance(content, str):
+        return None
+    content = re.sub(r"^\s*```(?:json)?\s*|\s*```\s*$", "", content)
+    try:
+        value: object = json.loads(content)
+    except ValueError:
+        return None
+    return value
 
 
 def clue_giver_request(
@@ -618,7 +677,7 @@ def _add_usage(u: dict[str, Any], meta: dict[str, Any]) -> None:
 
 
 async def run_spec(spec: Spec) -> dict[str, Any]:
-    from llmemo import Cache, ClaudeCli, Ledger, Result, git_code_version
+    from llmemo import Cache, ClaudeCli, Ledger, OpenRouter, Result, git_code_version
 
     entries: set[str] = set()
 
@@ -636,6 +695,7 @@ async def run_spec(spec: Spec) -> dict[str, Any]:
         log_calls=True,
     )
     claude = ClaudeCli()
+    openrouter = OpenRouter()
     sem = asyncio.Semaphore(spec.concurrency)
 
     def asker(usage: dict[str, Any], trial: int) -> Ask:
@@ -643,12 +703,12 @@ async def run_spec(spec: Spec) -> dict[str, Any]:
             # The judge's verdict depends only on the answer and guesses, so it is shared
             # by every trial.
             variant = None if role == "judge" else f"trial-{trial}"
+            backend = openrouter.acall if request.get("backend") == "openrouter" else claude.acall
             result = await cache.acall(
-                request, claude.acall, label=role, variant=variant, attempt=attempt
+                request, backend, label=role, variant=variant, attempt=attempt
             )
             _add_usage(usage, result.meta)
-            reply = result.reply
-            return reply.get("structured_output") if isinstance(reply, dict) else None
+            return structured(result.reply)
 
         return ask
 

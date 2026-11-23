@@ -157,11 +157,15 @@ aliases such as `sonnet`).
     costs the CLI an extra turn. A game of about 12 calls may take a few minutes, so run
     games in parallel with `Cache.acall`, and compare plain-text replies if that's too
     slow.
-- **Later, if needed: OpenRouter** (llmemo's `OpenRouter`), for non-Claude guessers and
-  more volume. Add it only if Claude-only calibration still shows too much bias. The key
-  is in `OPENROUTER_API_KEY`, a Codespaces secret. The smoke test uses
-  `openai/gpt-6-luna`, which is cheap and supports structured output
-  (`response_format` with a JSON schema).
+- **OpenRouter for non-Claude guessers** (llmemo's `OpenRouter`), added 2026-11-23
+  after Claude guessers proved too easy. A spec's `[guesser]` sets
+  `backend = "openrouter"` with an OpenRouter model ID; `effort` becomes OpenRouter's
+  reasoning effort, and `max_tokens` caps the reply (leave room for reasoning models).
+  The request carries the same system text and prompt as a Claude guesser, with a
+  JSON-schema `response_format`. The judge and clue-giver stay on Claude. Calls spend
+  the owner's OpenRouter credit; the key is in `OPENROUTER_API_KEY`, a Codespaces
+  secret. The `calibrate-or-*` specs try five cheap models from different families
+  (OpenAI, Google, Meta, Mistral, DeepSeek) on the 44 human-guessed games.
 
 ## Storing results
 

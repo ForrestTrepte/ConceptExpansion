@@ -9,11 +9,15 @@
     ],
     "guesser": {
       "model": "claude-haiku-5-5",
-      "effort": "low"
+      "effort": "low",
+      "backend": "claude-cli",
+      "max_tokens": null
     },
     "clue_giver": {
       "model": "claude-sonnet-5-5",
-      "effort": "medium"
+      "effort": "medium",
+      "backend": "claude-cli",
+      "max_tokens": null
     },
     "trials": 1,
     "max_rounds": 8,
