@@ -65,7 +65,7 @@ def test_logged_game_reads_back(tmp_path: Path, monkeypatch: pytest.MonkeyPatch)
         simplay.Turn(["?g A10", "+ E3"], "", "plan a", ["Bonfire", "Campfire"], verdict="yes", yes_to="Campfire"),
         simplay.Turn(["!r G14"], "", "plan b", ["Fire drill"], verdict="correct", correct_guess="Fire drill"),
     ]
-    path = play.log_game(game, "red", SPEC, "keep", "fun")
+    path = play.log_game(game, "red", SPEC, "keep", "fun", play.game_key("Fire drill"))
     (entry,) = playtest_logs.parse_log(path)
     assert (entry.prompt, entry.card, entry.result, entry.solved_step) == ("Fire drill", None, "solved", 2)
     assert entry.steps == (("?g A10", "+ E3"), ("!r G14",))
@@ -73,6 +73,7 @@ def test_logged_game_reads_back(tmp_path: Path, monkeypatch: pytest.MonkeyPatch)
     assert entry.source.endswith("claude-clues.md, pool")
     text = path.read_text()
     assert "Comments: fun" in text and "Band: red" in text and "Bonfire" in text
+    assert "Game ID (the `game` tag on its cache entries): 20" in text and "/Fire drill" in text
 
 
 def test_pool_excludes_logged_and_assigned_prompts() -> None:

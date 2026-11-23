@@ -119,7 +119,14 @@ async def play_one(spec: Spec, answer: str, read: Input, model: simplay.Ask) -> 
     return await simplay.play_model_clues(ask, spec, answer, 1, game)
 
 
-def log_game(game: Game, band: str, spec: Spec, verdict: str, comment: str) -> Path:
+def game_key(answer: str) -> str:
+    """The ID that tags a game's cache entries (`game` tag) and appears in its log entry."""
+    return f"{datetime.date.today().isoformat()}/{answer}"
+
+
+def log_game(
+    game: Game, band: str, spec: Spec, verdict: str, comment: str, game_id: str = ""
+) -> Path:
     today = datetime.date.today().isoformat()
     path = playtest_logs.LOGS / f"{today}-claude-clues.md"
     result: playtest_logs.Result = {
@@ -138,6 +145,8 @@ def log_game(game: Game, band: str, spec: Spec, verdict: str, comment: str) -> P
         + (f" · Clue-giver confidence: {game.confidence}/5" if game.confidence else ""),
         "Clue-giver plans: " + " / ".join(t.plan for t in game.turns if t.plan),
     ]
+    if game_id:
+        extra.append(f"Game ID (the `game` tag on its cache entries): {game_id}")
     if comment:
         extra.append(f"Comments: {comment}")
     entry = playtest_logs.format_entry(
@@ -183,9 +192,18 @@ def cmd_play(spec_id: str, read: Input = input) -> int:
     )
     claude = ClaudeCli()
 
+    game_id = ""
+
     async def model(role: str, request: dict[str, Any], attempt: int) -> object:
         variant = None if role == "judge" else "play"
-        result = await cache.acall(request, claude.acall, label=role, variant=variant, attempt=attempt)
+        result = await cache.acall(
+            request,
+            claude.acall,
+            label=role,
+            variant=variant,
+            attempt=attempt,
+            tags={"game": game_id},  # metadata only, outside the key
+        )
         reply = result.reply
         return reply.get("structured_output") if isinstance(reply, dict) else None
 
@@ -195,6 +213,7 @@ def cmd_play(spec_id: str, read: Input = input) -> int:
             print("No unplayed draft prompts left in the pool.")
             return 0
         answer, band = random.choice(pool)
+        game_id = game_key(answer)
         print("\nNew prompt. The clue-giver is thinking…")
         try:
             game = asyncio.run(play_one(spec, answer, read, model))
@@ -222,7 +241,7 @@ def cmd_play(spec_id: str, read: Input = input) -> int:
         if game.outcome == "error":
             print("Not logged, because of the error.")
         else:
-            path = log_game(game, band, spec, verdict, comment)
+            path = log_game(game, band, spec, verdict, comment, game_id)
             print(f"Logged to {path.relative_to(simplay.ROOT)}")
         if read("Play another? [y/N]: ").strip().lower() != "y":
             return 0

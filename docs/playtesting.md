@@ -29,6 +29,9 @@ decides correct guesses, and the finished game is added to today's `claude-clues
 as a `### Pool:` entry with real pauses. Keep `output/illustrated/play/current.md` open
 in the Markdown preview to see the board with pictures. The spec
 `sim-playtests/specs/play.toml` sets the model and the spend limit (calls are live).
+Each game's cache entries carry a `game` tag (`<date>/<prompt>`), which the log entry
+also lists. Games logged before the tag existed (2026-11-23) can be found by the
+answer in their requests ("The answer is: …", "Answer: …").
 Don't read `data/prompts.csv` or the logs between games, since they contain the
 answers to come.
 

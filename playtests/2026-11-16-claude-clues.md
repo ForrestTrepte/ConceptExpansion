@@ -1,6 +1,6 @@
 # Text playtest 2026-11-16 (Claude gives clues)
 
-- Clue-giver: Claude · Guesser: human
+- Clue-giver: Claude (claude-opus-5-5, per the commit that added this log) · Guesser: human
 - Cards: starting with card 1
 
 **Pauses filled in by assumption (2026-11-22).** This session didn't record where the
