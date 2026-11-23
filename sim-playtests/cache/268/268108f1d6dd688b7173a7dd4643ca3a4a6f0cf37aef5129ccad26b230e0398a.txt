@@ -1,0 +1,268 @@
+*   `?g B10` (Celebration/Anniversary/Holiday)
+    *   `+ A10` (Date/Event/Day)
+    *   `+ C1` (Baby/Child/Young)
+    *   *Initial Guesses:* New Year, Birthday, New Year's Eve.
+    *   *Response:* **Yes: Birthday**. (The answer is a birthday-related concept).
+
+    *   `!r A8` (Idea/Intelligence/Concept)
+    *   `+ H13` (Right/End/After/Future)
+    *   `+ B8` (Expression/Quote/Talking/Words)
+    *   *Context:* Idea related to Future/End/After + Words/Expression.
+
+    *   `!y H14` (Use/Action/Do/Button)
+    *   `+ H13` (Right/End/After/Future)
+    *   `+ B8` (Expression/Quote/Talking/Words)
+    *   `+ G14` (Turn/Around/Cycle/Repetition)
+    *   *Context:* An action/verb involving words/expression + future/after + repetition/cycle.
+    *   *Initial Guesses:* Anniversary, Graduation, Wedding.
+    *   *Response:* **No**.
+
+    *   `!b D8` (Time/Duration)
+    *   `+ G14` (Turn/Around/Cycle/Repetition)
+    *   `+ F11` (One/Unit/Number)
+    *   `+ C1` (Baby/Child/Young)
+    *   *Context:* Time/Duration related to repetition, the number one, and being young/child.
+
+    *   `?g B10 | A10, C1` -> It's a holiday/celebration, a date/event, related to young/child. (Confirmed: Birthday).
+    *   `!r A8 | H13, B8` -> An idea/concept involving words/speaking and the future/end.
+    *   `!y H14 | H13, B8, G14` -> An action/verb involving words/speaking and repetition/cycle.
+    *   `!b D8 | G14, F11, C1` -> Time/duration involving repetition, the number one, and a child.
+
+    *   The answer is definitely something to do with a birthday.
+    *   The blue group (`!b`) highlights "Time/Duration" + "Repetition" + "One" + "Child".
+    *   The yellow group (`!y`) highlights "Action/Verb" + "Repetition" + "Words/Speaking".
+    *   The red group (`!r`) highlights "Idea/Concept" + "Words/Speaking".
+
+    *   *Candidates:*
+        *   "Happy Birthday" (Song/Phrase) - Step 3 "Happy Birthday" was "No".
+        *   "Birthday Card" - Not an action.
+        *   "Blow out the candles" - Action.
+        *   "Birthday Cake" - Not an action.
+        *   "Birthday Party" - Not a concept/action/time.
+        *   "First Birthday" - Step 3 "First Birthday" was "No".
+
+    Wait, let's look at the "One" and "Repetition" and "Time/Duration" markers again.
+    `!b D8 | G14, F11, C1` -> Time + Repetition + One + Child.
+    Could it be "Once a year"?
+    Wait, `!y` (Action/Verb) + `G14` (Cycle) + `B8` (Words).
+    `!r` (Concept) + `B8` (Words) + `H13` (End/After/Future).
+
+    Let's look at `!b` again: `D8` (Time) + `G14` (Cycle) + `F11` (One) + `C1` (Child).
+    "Once a year"? "Annually"?
+    The main concept is `B10` (Celebration).
+
+    Let's reconsider the "Words/Speaking" aspect.
+    `!y H14` (Action) + `B8` (Words/Speaking) + `G14` (Cycle/Repetition).
+    "Saying Happy Birthday"?
+    "Singing Happy Birthday"?
+
+    Let's look at the phrase/expression angle.
+    `!r A8` (Idea) + `B8` (Words) + `H13` (End/After).
+    `!b D8` (Time) + `G14` (Repetition) + `F11` (One) + `C1` (Child).
+
+    What about **"Happy Birthday to You"**?
+    Wait, "Happy Birthday" was already guessed in Step 3 and the answer was "No".
+
+    Let's re-evaluate the groups.
+    `!r A8` (Concept) + `H13` (After/End) + `B8` (Words).
+    `!y H14` (Action) + `H13` (After/End) + `B8` (Words) + `G14` (Cycle).
+    `!b D8` (Time) + `G14` (Cycle) + `F11` (One) + `C1` (Child).
+
+    If the answer is a *common phrase* (per instructions):
+    "Once a year"?
+    "Year after year"?
+    "Every year"?
+
+    Wait, look at `!b`: Time + Cycle + One + Child.
+    A child's one-year cycle?
+    "First birthday"? No, guessed in Step 3.
+
+    What about **"Birthday song"**? No, Step 3 "Birthday song" was "No".
+
+    Let's look at the "Words" part again.
+    `!r A8` (Idea) + `B8` (Words) + `H13` (After/End).
+    `!y H14` (Action) + `B8` (Words) + `G14` (Cycle).
+    `!b D8` (Time) + `G14` (Cycle) + `F11` (One) + `C1` (Child).
+
+    Maybe **"Age"**?
+    `?g B10` (Celebration) + `A10` (Date) + `C1` (Child).
+    Age is a concept (`A8`).
+    But `B10` is the main concept.
+
+    Let's rethink `!y H14` (Action) + `B8` (Words).
+    Action of saying/singing words.
+    Is it **"Singing"**?
+    "Singing a song"?
+
+    Let's look at the blue group again: `D8` (Time) + `G14` (Cycle) + `F11` (One) + `C1` (Child).
+    Could it be **"A year"**? No.
+    Could it be **"Annual"**?
+
+    Wait! "Birthday" is the answer to "What kind of thing is it?".
+    Is the answer **"Birthday cake"**? No, that's a thing, not a concept or action.
+    Is it **"Aging"**?
+    Is it **"Growing up"**?
+    "Growing up" (Action/Verb)
+    `!y H14` (Action) + `G14` (Cycle/Turn) + `C1` (Child/Young).
+    `!b D8` (Time) + `G14` (Cycle) + `F11` (One) + `C1` (Child).
+    `!r A8` (Concept) + `B8` (Words) - This doesn't fit "Growing up".
+
+    Let's look at the words/speaking again.
+    `!r A8` (Idea/Concept) + `B8` (Words/Speech).
+    `!y H14` (Action/Verb) + `B8` (Words/Speech).
+    Maybe it's **"Greeting"**?
+    "Birthday greeting"?
+
+    Wait, let's check the `!b` group again.
+    `D8` (Time) + `G14` (Cycle/Repetition) + `F11` (One) + `C1` (Child).
+    One cycle of time for a child?
+    **"Turning one"**?
+    If the answer is "Turning one":
+    - Main concept: Birthday (`B10`).
+    - Red: Concept of "Turning" (maybe `H13` is end/future/change?).
+    - Yellow: Action of "Turning" (`H14`) + Cycle (`G14`) + Words/Speaking? No.
+    - Blue: Time (`D8`) + Cycle (`G14`) + One (`F11`) + Child (`C1`).
+
+    Wait, "Turning" is `G14`.
+    `!y H14` (Action) + `G14` (Turn/Around/Cycle) + `H13` (End/After/Future).
+    This fits "Turning" (changing/moving to the next stage).
+    `!b D8` (Time) + `G14` (Cycle/Turn) + `F11` (One) + `C1` (Child).
+    This fits "Turning one".
+
+    Let's look at the "Words/Speech" part again.
+    `!r A8` (Concept) + `B8` (Words).
+    `!y H14` (Action) + `B8` (Words).
+    Does "Turning one" involve words?
+    "You are one"?
+
+    Wait, what about **"Birthday wish"**?
+    - `?g B10` (Celebration/Holiday).
+    - `!r A8` (Concept) + `B8` (Words/Expression) + `H13` (End/After/Future).
+    - `!y H14` (Action) + `B8` (Words/Expression) + `G14` (Turn/Cycle).
+    - `!b D8` (Time) + `G14` (Cycle) + `F11` (One) + `C1` (Child).
+    "Making a wish"?
+    "Birthday wish" - You wish for the future (`H13`).
+
+    Let's look at `!b` again: `D8` (Time) + `G14` (Cycle) + `F11` (One) + `C1` (Child).
+    One year cycle for a child.
+    "Turning one"?
+    If "Turning one" is the answer:
+    - Main concept: Birthday.
+    - Blue: Time, Repetition (cycle), One, Child.
+    - Yellow: Action, Repetition (cycle), Future/End, Words.
+    - Red: Concept, Future/End, Words.
+
+    Actually, `G14` is "Turn / Around / Cycle".
+    `H13` is "Right / End / After / Future".
+    If you "turn" a year, you are moving to the "future/after".
+    And people say words (`B8`) like "You're one!" or "Happy Birthday".
+
+    Wait, could it be **"Birthday card"**? No.
+    What about **"Age"**? No.
+
+    Let's look at the markers one more time.
+    `!b D8` (Time) + `G14` (Cycle) + `F11` (One) + `C1` (Child).
+    This is the strongest set.
+    Time + Cycle + One + Child.
+    "First birthday" was "No".
+    "Turning one"?
+    "One year old"?
+
+    Let's try **"Turning one"**.
+    Is there another option?
+    **"Growing older"**?
+    **"Aging"**?
+    **"A year old"**?
+
+    Wait, what about **"Cake"**? No.
+    What about **"Candle"**? No.
+
+    Let's look at `!y H14` (Action) + `B8` (Words) + `G14` (Cycle).
+    "Saying/Singing words in a cycle".
+    "Singing Happy Birthday"? (Step 3 "Birthday song" was "No").
+
+    What if the answer is **"Birthday"**? (No, Step 1 confirmed "Birthday" is the track).
+    Wait, the prompt says "Yes: Birthday" for Step 1. Usually, in Concept, that means the answer *is* a Birthday or it's *on the track* of Birthday. If "Birthday" was the answer, the clue-giver would say "Correct".
+    The user says: "Yes: Birthday (that guess is on the right track)".
+    So the answer is a *type* or *part* or *related thing* to a Birthday.
+
+    `!b D8 G14 F11 C1` -> Time, Cycle, One, Child.
+    `!y H14 H13 B8 G14` -> Action, Future/End, Words, Cycle.
+    `!r A8 H13 B8` -> Concept, Future/End, Words.
+
+    "Turning one"?
+    "Turning one year old"?
+    "Turning a year older"?
+
+    Wait, look at `H13` (End/After/Future) and `B8` (Words).
+    "Saying..."
+    "Happy Birthday"? (Step 3 "Happy Birthday" was "No").
+    "Birthday song"? (Step 3 "Birthday song" was "No").
+
+    What about **"Birthday party"**? (Already ruled out by Step 2 "Anniversary/Graduation/Wedding" being "No", although they weren't the same, they are celebrations).
+
+    Let's look at `!b` again.
+    `D8` (Time) + `G14` (Cycle) + `F11` (One) + `C1` (Child).
+    `F11` is the number one.
+    `G14` is the cycle (turning/around).
+    `C1` is a child.
+    `D8` is time.
+    "Turning one".
+
+    Wait, could it be **"Anniversary"**? No, Step 2 was "No".
+    Could it be **"New Year"**? No, Step 1 was "Yes: Birthday".
+
+    Let's try:
+    1. Turning one
+    2. One year old
+    3. Growing up
+
+    Wait, "Growing up" doesn't fit the "Words/Speaking" marker (`B8`).
+    What about **"Greeting"**?
+    "Birthday wish"?
+    "Birthday wishes"?
+
+    Let's look at `!y H14` (Action) + `H13` (End/After/Future) + `B8` (Words).
+    "Saying something for the future/end"?
+    "Make a wish"?
+    "Make a wish" ->
+    - Action (`H14`).
+    - Concept (`A8`).
+    - Words (`B8`).
+    - Future (`H13`).
+    - Does it have "One" and "Cycle" and "Child"?
+    - People make wishes on birthdays (one per year?).
+
+    Let's try **"Turning one"**. It fits the blue group perfectly.
+    Does it fit the others?
+    - Red: Concept (`A8`) of "Turning" or "Age" + Words (`B8`) + Future (`H13`). (A bit of a stretch).
+    - Yellow: Action (`H14`) of "Turning" + Words (`B8`) + Cycle (`G14`) + Future (`H13`).
+
+    What about **"Birthday cake"**? No.
+    What about **"Blow out the candles"**?
+    - Action (`H14`).
+    - Cycle (`G14`)? No.
+
+    Let's look at `!b D8 G14 F11 C1` again.
+    Time, Cycle, One, Child.
+    This is very specific.
+    "One year old"?
+    "Turning one"?
+    "First birthday"? (No, Step 3).
+
+    Wait! "First birthday" was "No".
+    "Birthday" is the *concept*.
+    Is the answer **"Age"**?
+    - Concept (`A8`).
+    - Time (`D8`).
+    - One/Cycle? No.
+
+    Let's think about the "Words" marker `B8` again.
+    Is there a word/phrase that is a "Concept" + "Words" + "Cycle" + "One" + "Child"?
+    **"Happy Birthday"** (No).
+    **"Birthday Song"** (No).
+    **"Birthday"** itself?
+    If the answer is "Birthday":
+    - `?g B10` (Celebration).
+    - `!r A8` (Concept) + `B8` (Words) + `H13` (End/After/Future). (A birthday marks the end of a year and the start of the future).
+    - `!y H14` (Action) + `B8` (Words)

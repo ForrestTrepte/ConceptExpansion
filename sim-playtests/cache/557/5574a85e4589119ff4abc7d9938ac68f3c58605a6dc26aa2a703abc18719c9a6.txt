@@ -1,0 +1,31 @@
+*   `?g B2`: Main concept is a Character / Fictional / Imaginary person.
+    *   `+ D2`: Detail - Masculine / Male.
+    *   `+ A6`: Detail - Cinema / Movie.
+    *   `!r D4`: Sub-concept (red) - Attack / Conflict / Combat / Weapon.
+    *   `+ Black`: Sub-concept (red) detail - Black.
+
+    *   A male fictional movie character associated with combat/weapons and the color black.
+
+    *   Batman (Uses gadgets/combat, wears black, iconic movie character).
+    *   Darth Vader (Uses a lightsaber/combat, wears black, iconic movie character).
+    *   John Wick (Uses weapons, often in dark clothes, movie character).
+    *   James Bond (Action/combat, movies, but usually associated with suits/gadgets, not specifically "black" as a defining trait compared to the others).
+    *   Black Panther (Uses combat, wears black, movie character).
+
+    *   Batman is a very strong candidate.
+    *   Darth Vader is a very strong candidate.
+    *   Black Panther is a strong candidate.
+
+    *   Batman
+    *   Darth Vader
+    *   Black Panther
+
+    *Refining:*
+    The clues are quite broad. "Black" could refer to the color of the suit or a character name.
+    `?g B2` (Fictional) + `D2` (Male) + `A6` (Movie)
+    `!r D4` (Combat) + `Black` (Color)
+
+    Let's try:
+    1. Batman
+    2. Darth Vader
+    3. Black Panther

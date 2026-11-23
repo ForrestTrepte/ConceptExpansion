@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "To strike",
+    "To beat",
+    "To hit"
+  ]
+,
+"pass": false
+}

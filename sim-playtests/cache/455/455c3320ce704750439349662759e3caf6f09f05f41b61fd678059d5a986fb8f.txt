@@ -1,0 +1,42 @@
+*   `?g A13`: Main Concept is a Game / Toy.
+    *   `+ D11`: A detail/feature related to the Main Concept (Group g) is "Arm / Hand / Finger".
+    *   `!r E5`: Red Sub-Concept (related idea) is "Stone / Mineral / Hard".
+    *   `!y F7`: Yellow Sub-Concept (related idea) is "Paper / Sheet".
+    *   `!b F8`: Blue Sub-Concept (related idea) is "Cut – Break / Separation / Half".
+
+    *   Main thing: Game or Toy.
+    *   Feature: Hands/Fingers involved.
+    *   Connection 1 (Red): Hard/Stone.
+    *   Connection 2 (Yellow): Paper.
+    *   Connection 3 (Blue): Cut/Broken/Separated.
+
+    *   *Idea 1:* A board game? (Fits A13, but doesn't immediately scream stone, paper, cut).
+    *   *Idea 2:* A game involving paper and cutting? (Origami? Not really a game/toy in the traditional sense, though it is a hobby).
+    *   *Idea 3:* A game involving stone/dice? (A13 is dice/cards).
+    *   *Idea 4:* "Jenga"? (Blocks are wood, not stone. Usually not paper).
+    *   *Idea 5:* "Rock Paper Scissors"?
+        *   A13 (Game/Toy): Yes.
+        *   D11 (Hand/Finger): Yes, you use hands.
+        *   E5 (Stone/Rock): Yes (Rock).
+        *   F7 (Paper): Yes (Paper).
+        *   F8 (Cut/Separation): This is the tricky one. Does "Scissors" fit? Scissors are used to cut. "Scissors" is a tool (B12), not necessarily a game. But wait, in the game Rock Paper Scissors, one of the elements is "Scissors". Scissors "cut".
+        *   Let's check the meaning of F8: "Cut – Break / Separation / Half". Scissors cut.
+
+    *   *Evaluating "Rock Paper Scissors":*
+        *   Main Concept: Game/Toy (A13) - Perfect.
+        *   Detail: Hands/Fingers (D11) - Perfect.
+        *   Red (Connection): Rock/Stone (E5) - Perfect.
+        *   Yellow (Connection): Paper (F7) - Perfect.
+        *   Blue (Connection): Cut/Scissors (F8) - Perfect (as a concept representing the scissors part of the game).
+
+    1. Rock Paper Scissors
+    2. Scissors (Wait, that's just part of it)
+    3. Dice (Doesn't fit paper/cut)
+
+    "Rock Paper Scissors" is the strongest candidate.
+
+    Wait, is there any other game?
+    *   A game with paper and stone... maybe something else?
+    *   But F8 (Cut) + F7 (Paper) + E5 (Stone) + A13 (Game) + D11 (Hand) fits "Rock Paper Scissors" almost too perfectly.
+
+    1. Rock Paper Scissors

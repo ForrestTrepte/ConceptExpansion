@@ -1,0 +1,138 @@
+{
+  "contentSha256": "d79111258438b28e0aa74a67268921cb303801aaa8c80371597554e91ea4a4db",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "90167f6773b23c0d34d7074b521186233b0757584cab853ba7be1b70066d6420"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "71eaef62392885656703bcc84ab976cc7e0eaf0cbe11e6508641666275219aad"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "openai/gpt-6-luna",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "pass": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "guesses",
+                "pass"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-1"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "db82776",
+    "costUsd": 0.00027457,
+    "latencyMs": 4921,
+    "recordedAt": "2026-11-23T22:15:07.656Z",
+    "recordedBy": "claude",
+    "servedBy": "OpenAI",
+    "servedModel": "openai/gpt-6-luna",
+    "tags": {
+      "run": "calibrate-or-luna"
+    },
+    "usage": {
+      "cacheReadTokens": 4727,
+      "cacheWriteTokens": 152,
+      "inputTokens": 4882,
+      "outputTokens": 416,
+      "reasoningTokens": 387
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"Greyhound racing\",\"Greyhound trainer\",\"Jockey\"],\"pass\":false}",
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "data": {
+                "$llmemo.text": "6080f90d9ca161133e7fc09348eaceac35c6deaa614619b9ec8938dc3f1ec245"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_0f60a6e9ec3afa82016b04bae7438887d1b3128dad4b61a039",
+              "index": 0,
+              "type": "reasoning.encrypted"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "completed"
+      }
+    ],
+    "created": 1795472102,
+    "id": "gen-1795472102-LLbd0HfOSyHigta2ky2J",
+    "model": "openai/gpt-6-luna",
+    "object": "chat.completion",
+    "provider": "OpenAI",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 416,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 387
+      },
+      "cost": 0.00027457,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000208,
+        "upstream_inference_cost": 0.00027457,
+        "upstream_inference_prompt_cost": 0.00006657
+      },
+      "is_byok": false,
+      "prompt_tokens": 4882,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 152,
+        "cached_tokens": 4727,
+        "video_tokens": 0
+      },
+      "total_tokens": 5298
+    }
+  }
+}

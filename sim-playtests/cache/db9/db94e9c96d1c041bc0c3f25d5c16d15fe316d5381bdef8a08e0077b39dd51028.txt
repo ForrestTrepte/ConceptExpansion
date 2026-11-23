@@ -1,0 +1,23 @@
+*   `?g A4`: Main Concept is Fauna/Animal.
+    *   `+ Black`: Color Black.
+    *   `+ White`: Color White.
+    *   `+ E1`: Cold/Snow/Rain/Cloud.
+
+    *   The answer is an animal.
+    *   It is black and white.
+    *   It is associated with cold/snow/ice/clouds.
+
+    *   Polar bear (usually white, but can be black/white? No, usually white).
+    *   Penguin (Black and White, lives in cold/snow).
+    *   Panda (Black and White, but lives in forests/bamboo, not typically associated with "snow/cold" as a primary defining icon, though they can be in snowy areas).
+    *   Orca/Killer Whale (Black and White, live in cold water/ice).
+    *   Zebra (Black and White, but lives in savannah/hot).
+    *   Skunk (Black and White, but not cold).
+
+    *   Penguin (strongest link: black/white + snow/cold).
+    *   Panda (strong link: black/white, less strong link to cold/snow).
+    *   Orca (strong link: black/white + cold water).
+
+    1. Penguin
+    2. Panda
+    3. Orca

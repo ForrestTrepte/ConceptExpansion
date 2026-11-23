@@ -1,0 +1,139 @@
+{
+  "contentSha256": "920b995a0d6624cd040e0f586e970f1978956fd5b26a4062bb3ed90ef3e8cce2",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "90167f6773b23c0d34d7074b521186233b0757584cab853ba7be1b70066d6420"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "377767f9424684e7c865448ea531e159599510eff20382d7b0168c51d33a07f3"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "google/gemma-4-26b-a4b-it",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "pass": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "guesses",
+                "pass"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-1"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "db82776-dirty",
+    "costUsd": 0.000619744,
+    "latencyMs": 17102,
+    "recordedAt": "2026-11-23T22:15:36.715Z",
+    "recordedBy": "claude",
+    "servedBy": "PrimeIntellect",
+    "servedModel": "google/gemma-4-26b-a4b-it",
+    "tags": {
+      "run": "calibrate-or-gemma"
+    },
+    "usage": {
+      "cacheReadTokens": 4,
+      "cacheWriteTokens": 0,
+      "inputTokens": 5052,
+      "outputTokens": 772,
+      "reasoningTokens": 647
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"Umbrella\",\"Tent\",\"Raincoat\"],\"pass\":false}",
+          "reasoning": {
+            "$llmemo.text": "eee33ea8104fd022c5661de41ba6b7fea3ef2a4e30c7e6b77fcb7e6a4d8f2d9e"
+          },
+          "reasoning_details": [
+            {
+              "format": "unknown",
+              "index": 0,
+              "text": {
+                "$llmemo.text": "eee33ea8104fd022c5661de41ba6b7fea3ef2a4e30c7e6b77fcb7e6a4d8f2d9e"
+              },
+              "type": "reasoning.text"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "stop"
+      }
+    ],
+    "created": 1795472119,
+    "id": "gen-1795472119-XF1MbirjxVaIBO5jiPyQ",
+    "model": "google/gemma-4-26b-a4b-it",
+    "object": "chat.completion",
+    "provider": "PrimeIntellect",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 772,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 647
+      },
+      "cost": 0.000619744,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000220792,
+        "upstream_inference_cost": 0.000619744,
+        "upstream_inference_prompt_cost": 0.000398952
+      },
+      "is_byok": false,
+      "prompt_tokens": 5052,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 4,
+        "video_tokens": 0
+      },
+      "total_tokens": 5824
+    }
+  }
+}

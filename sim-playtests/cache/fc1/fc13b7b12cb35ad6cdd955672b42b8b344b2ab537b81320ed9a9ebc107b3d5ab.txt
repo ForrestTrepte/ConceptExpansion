@@ -1,0 +1,516 @@
+*   `?g H14`: Main Concept is an Action/Verb (H14: Use – Action / Do – Verb / Button).
+    *   `!r A1` (Object/Box) `+ D8` (Time/Duration) `+ C13` (Ear/Sound/Hearing): A red sub-concept involving a box/object, related to time/duration and sound/hearing.
+    *   `!y E2` (Night/Space/Moon/Star) `+ B14` (House/Room/Domestic) `+ G14` (Turn/Around/Cycle/Repetition) `+ C3` (Slow/Slow motion) `+ D4` (Attack/Conflict/Weapon): A yellow sub-concept involving night/space, house/domestic, cycle/repetition, slow, and attack/conflict.
+
+    *   Step 1: `H14` (Action/Verb/Button). Guesses: Press, Click, Start. Clue-giver: No.
+    *   Step 2: `!r A1` (Object), `D8` (Time), `C13` (Sound). Guesses: Unbox, Deliver, Ship. Clue-giver: No. (Not related to shipping/delivery).
+    *   Step 3: `+r C13` (Sound). Guesses: Play, Wind, Record. Clue-giver: No. (Not related to playing music or winding a clock/toy).
+    *   Step 4: `!y E2` (Night/Moon/Star), `B14` (House/Room), `G14` (Cycle), `C3` (Slow), `D4` (Attack/Weapon). Guesses: To tick, To chime, To ring. Clue-giver: No. (It's not a clock sound).
+    *   Step 5: `+y D4` (Attack/Weapon). Guesses: To hunt, To stalk, To howl. Clue-giver: No. (Not animal related).
+    *   Step 6: Guesses: To strike, To beat, To hit. Clue-giver: No. (Not a physical striking action).
+
+    *   `?g H14`: An Action.
+    *   `!r` (Red/Part/Feature/Connection):
+        *   `A1` (Box/Object)
+        *   `D8` (Time)
+        *   `C13` (Ear/Sound)
+        *   *Interpretation:* An object related to time and sound? A clock? A buzzer? A bell? A timer? An alarm?
+    *   `!y` (Yellow/Part/Feature/Connection):
+        *   `E2` (Night/Space/Moon/Star)
+        *   `B14` (House/Domestic)
+        *   `G14` (Cycle/Repetition/Turn)
+        *   `C3` (Slow)
+        *   `D4` (Attack/Conflict/Weapon)
+        *   *Wait, look at D4 again:* "Attack / Conflict – Combat / Weapon".
+        *   *Look at E2:* "Night/Space/Moon/Star".
+        *   *Look at G14:* "Cycle/Turn/Repetition".
+        *   *Look at B14:* "House/Domestic".
+        *   *Look at C3:* "Slow".
+
+    *Refining the Interpretation:*
+    *   Red (Sub-concept 1): A box (`A1`) that has a time component (`D8`) and makes a sound (`C13`).
+    *   Yellow (Sub-concept 2): Related to Night/Space (`E2`), happening in a house (`B14`), a cycle/repetition (`G14`), it's slow (`C3`), and involves an attack/weapon (`D4`).
+
+    Wait, let's re-examine the "Yellow" clues.
+    `E2` (Night), `B14` (House), `G14` (Cycle/Repetition), `C3` (Slow), `D4` (Attack/Weapon).
+    Could this be "To dream"? No, that's not an attack.
+    Could this be "To sleep"?
+    Could "D4" (Attack/Conflict) be a metaphor for a "Nightmare"?
+    A nightmare is a "Bad" thing (D6), but "D4" is Attack/Weapon.
+    Wait, "To dream" is an action.
+    Does "To dream" fit the red clues?
+    Red: `A1` (Box), `D8` (Time), `C13` (Sound). No.
+
+    Let's look at the Red clues again: `A1` (Box), `D8` (Time), `C13` (Sound).
+    Maybe a "Music Box"?
+    If the answer is "Music Box":
+    - `?g H14` (Action): No, a music box is a noun. The `?g` is `H14` (Action).
+    - So the answer is an *action* performed with or related to a music box? Or just an action?
+    - "To play music"? No.
+    - "To wind up"? (Guessed "Wind" in step 3, was No).
+
+    Let's look at the clues again.
+    `?g H14` (Action/Verb).
+    `!r A1` (Box), `D8` (Time), `C13` (Sound).
+    `!y E2` (Night/Moon/Star), `B14` (House/Domestic), `G14` (Cycle), `C3` (Slow), `D4` (Attack/Weapon).
+
+    Is the action "To alarm"? "To wake"? "To sleep"?
+    If the action is "To wake":
+    - `!r` (Red): A box (`A1`) with time (`D8`) and sound (`C13`). An alarm clock?
+    - `!y` (Yellow): Night/Space (`E2`), House (`B14`), Cycle (`G14`), Slow (`C3`), Attack (`D4`).
+    - This doesn't quite fit "To wake".
+
+    Let's reconsider the "Attack" (`D4`).
+    In Concept, D4 is "Attack/Conflict/Weapon".
+    In Step 5, the user guessed "To hunt, To stalk, To howl" (relating to predator/prey/attack). The answer was No.
+    In Step 6, the user guessed "To strike, To beat, To hit" (relating to attack/weapon). The answer was No.
+
+    Wait, let's look at the Red clues again.
+    `!r A1` (Box), `D8` (Time), `C13` (Sound).
+    `A1` is also "Object".
+    Maybe it's "To watch"?
+    A watch (Object `A1`) measures time (`D8`) and... sound (`C13`)? No.
+
+    Let's look at the Yellow clues again.
+    `E2` (Night/Space/Star), `B14` (House/Domestic), `G14` (Cycle), `C3` (Slow), `D4` (Attack/Weapon).
+    Could it be a "Lunar Cycle"? "To orbit"?
+    Is "D4" (Attack/Weapon) related to "Moon"?
+    "Moon" -> "Moonlight"? "To moon"? No.
+
+    Wait! Let's look at `D4` (Attack/Conflict) and `E2` (Night/Star) and `G14` (Cycle) and `C3` (Slow) and `B14` (House).
+    Is it "To dream"?
+    Is it "To sleep"?
+    Is it "To snore"?
+    `C13` (Sound). `D8` (Time). `A1` (Box/Object).
+    Could it be "A alarm"? "To set an alarm"?
+    Wait, `A1` is a Box/Object. `D8` is Time. `C13` is Sound.
+    An Alarm Clock.
+    If the answer is the action "To alarm"? No.
+    Maybe the answer is "To snooze"?
+    "To snooze":
+    - `H14` (Action).
+    - `!r`: `A1` (Box/Object), `D8` (Time), `C13` (Sound). (An alarm/clock).
+    - `!y`: `E2` (Night), `B14` (House), `G14` (Cycle), `C3` (Slow), `D4` (Attack/Weapon).
+    - Does "snooze" fit the yellow?
+    - `G14` (Cycle/Repetition): Snoozing is a repetition.
+    - `C3` (Slow): Snoozing is slow.
+    - `B14` (House): Happens in a house/bed.
+    - `E2` (Night/Space): Happens at night or in sleep.
+    - `D4` (Attack/Weapon): This is the tricky one. Is a "snooze button" an attack? No. Is the alarm "attacking" your sleep? Maybe.
+
+    Let's look for other actions.
+    What about "To hunt"? (Guessed, No).
+    What about "To battle/war"?
+    `A1` (Box/Object) + `D8` (Time) + `C13` (Sound).
+    Could it be "To die"?
+    Could it be "To die in one's sleep"?
+
+    Wait, let's re-evaluate `D4` (Attack/Weapon).
+    Is there a verb that means "to attack" but is related to a "box", "time", "sound", "night", "house", "cycle", and "slow"?
+    What about "To moon"? No.
+    What about "To star"? No.
+    What about "To bark"? (Sound/Ear).
+    A dog (A4) barks (C13). But the clue is `A1` (Box).
+
+    Let's look at the symbols again.
+    `!r A1` (Object/Box)
+    `+ D8` (Time)
+    `+ C13` (Sound)
+    `!y E2` (Night/Space)
+    `+ B14` (House/Room)
+    `+ G14` (Cycle/Repetition)
+    `+ C3` (Slow)
+    `+ D4` (Attack/Weapon)
+
+    Could the answer be "To hibernate"?
+    - `H14` (Action).
+    - `!r`: `A1` (Object), `D8` (Time), `C13` (Sound). (Not really).
+    - `!y`: `E2` (Night/Winter/Space?), `B14` (House/Den), `G14` (Cycle/Season), `C3` (Slow), `D4` (Attack/Conflict). (No).
+
+    Could the answer be "To shadow"?
+    `E2` (Space/Moon/Star), `G14` (Cycle/Rotation).
+
+    Wait, look at `D4` (Attack) and `E2` (Night/Space/Star).
+    Is it "To eclipse"?
+    - `H14` (Action).
+    - `!y`: `E2` (Moon/Star), `G14` (Cycle), `C3` (Slow), `D4` (Attack/Conflict - an eclipse "attacks" the light?).
+    - `!r`: `A1` (Box), `D8` (Time), `C13` (Sound). (Doesn't fit).
+
+    Let's try "To ring". (Guessed, No).
+    Let's try "To alarm". (Not a common verb).
+    "To wake up"?
+    "To sleep"?
+
+    Wait, look at `!r A1` (Box) + `D8` (Time) + `C13` (Sound) again.
+    A "Music Box"? (Already considered, it's a noun).
+    A "Clock"? (Noun).
+    The answer is an action `H14`.
+    "To wind"? (Guessed, No).
+    "To chime"? (Guessed, No).
+    "To tick"? (Guessed, No).
+    "To play"? (Guessed, No).
+
+    Let's look at the "Yellow" clue again.
+    `E2` (Night/Space/Moon), `B14` (House), `G14` (Cycle), `C3` (Slow), `D4` (Attack/Weapon).
+    Is there a word related to "Moon" and "Attack"?
+    "To moon"? "To wolf"?
+    Wait, "To wolf"? (Like a wolf/predator).
+    `D4` (Attack) + `C3` (Slow) + `G14` (Cycle) + `E2` (Night) + `B14` (House/Den).
+    If the answer is "To wolf":
+    - `!r A1` (Box), `D8` (Time), `C13` (Sound). (Doesn't fit).
+
+    Wait! What about "To alarm"? No.
+    What about "To watch"?
+    "To watch" (Action).
+    `!r`: `A1` (Box/Object - a watch?), `D8` (Time), `C13` (Sound - ticking?).
+    `!y`: `E2` (Night - watch the night?), `B14` (House - watching the house?), `G14` (Cycle - cycles of time?), `C3` (Slow), `D4` (Attack - to watch someone/something being attacked?).
+
+    Let's look at `D4` (Attack) and `A1` (Box/Object) and `D8` (Time).
+    "To bomb"? (Attack/Weapon).
+    "To time"?
+
+    What about "To strike"? (Guessed, No).
+    "To beat"? (Guessed, No).
+    "To hit"? (Guessed, No).
+
+    Let's look at the Red Clues again.
+    `A1` (Object/Box), `D8` (Time), `C13` (Sound).
+    What if `A1` is not a box, but a "Case"? (A case of...?)
+    What if `A1` is a "Recorder"? (No, that's `C7` or `B12` or `C13`).
+    What if `A1` is a "Radio"?
+    `D8` (Time) + `C13` (Sound) + `A1` (Object).
+    "To broadcast"?
+    "To tune"?
+
+    Let's look at the Yellow Clues again.
+    `E2` (Night/Moon/Star), `B14` (House), `G14` (Cycle), `C3` (Slow), `D4` (Attack/Weapon).
+    Wait... "To moon"? No.
+    "To sun"? No.
+    "To star"? No.
+    "To comet"? No.
+    "To orbit"?
+    "To rotate"?
+
+    Let's think about "Slow" (`C3`) and "Cycle" (`G14`) and "Night/Space" (`E2`) and "House" (`B14`) and "Attack/Weapon" (`D4`).
+    Is it "To nocturnal"? No, that's an adjective.
+    Is it "To sleep"?
+    "To sleep" (Action).
+    `!r`: `A1` (Box/Object), `D8` (Time), `C13` (Sound).
+    Could `A1` be a "Bed"? (No, `B14` is House/Room).
+    Could `A1` be a "Casket/Coffin"? (Box, `D5` Death).
+    If the answer is "To die":
+    - `!r`: `A1` (Coffin), `D8` (Time), `C13` (Sound).
+    - `!y`: `E2` (Night/Death?), `B14` (House/Home?), `G14` (Cycle/Life?), `C3` (Slow), `D4` (Attack/Conflict).
+    - This is a stretch.
+
+    Let's re-examine the `D4` icon (Attack/Conflict/Weapon).
+    And `A1` (Object/Box).
+    And `D8` (Time).
+    And `C13` (Ear/Sound).
+    Is it "To alarm"? (To set an alarm).
+    Is it "To ring"? (Guessed, No).
+    Is it "To beep"?
+    Is it "To buzz"?
+
+    Wait, look at `D4` (Attack) and `G14` (Cycle) and `C3` (Slow).
+    Could it be "To tide"? "To ebb"?
+    "To ebb" (Action).
+    - `!y`: `E2` (Moon/Night - tides are controlled by the moon), `G14` (Cycle - tides cycle), `C3` (Slow), `D4` (Attack/Weapon? No).
+
+    Wait, what about "To shoot"?
+    - `D4` (Attack/Weapon).
+    - `A1` (Object/Box - a box of ammunition?).
+    - `D8` (Time).
+    - `C13` (Sound - the bang).
+    - `E2` (Night/Space - shooting stars?).
+    - `B14` (House - shooting at a house?).
+    - `G14` (Cycle - ?).
+    - `C3` (Slow - ?).
+    - `H14` (Action).
+    - This is getting closer but "To shoot" doesn't feel right.
+
+    Let's look at `E2` (Night/Space), `B14` (House), `G14` (Cycle), `C3` (Slow), `D4` (Attack/Weapon).
+    "To moon"? No.
+    "To star"? No.
+    "To orbit"?
+    "To rotate"?
+    "To spin"?
+    "To turn"? (Already part of the `H14` meaning).
+
+    Wait! What about "To eclipse"?
+    - `E2` (Night/Moon/Star).
+    - `G14` (Cycle/Repetition).
+    - `D4` (Attack/Conflict - an eclipse "attacks" the sun).
+    - `C3` (Slow).
+    - `B14` (House - No).
+    - `A1` (Box/Object - No).
+    - `D8` (Time - Yes).
+    - `C13` (Sound - No).
+
+    Let's try another path.
+    `!r A1` (Object), `D8` (Time), `C13` (Sound).
+    Could the object be a "Clock"?
+    `A1` (Object) + `D8` (Time) + `C13` (Sound/Ticking).
+    The action is `H14`.
+    "To clock"?
+    "To time"?
+    "To watch"?
+    "To set"? (As in "to set an alarm").
+
+    Wait, look at the Yellow Clue again.
+    `E2` (Night/Space), `B14` (House), `G14` (Cycle), `C3` (Slow), `D4` (Attack/Weapon).
+    What if the "Attack" is a "Storm"? (`F2` is Storm, but the clue is `D4`).
+    What if the "Attack" is a "Bite"?
+    "To bite"?
+    - `D4` (Attack).
+    - `C3` (Slow - a slow bite?).
+    - `G14` (Cycle - ?).
+    - `E2` (Night/Star - ?).
+    - `B14` (House - ?).
+
+    Wait, I just noticed something.
+    `!r A1` (Object), `D8` (Time), `C13` (Sound).
+    `!y E2` (Night/Moon), `B14` (House), `G14` (Cycle), `C3` (Slow), `D4` (Attack/Weapon).
+    Could it be "To wolf"? (To eat greedily).
+    "To wolf" (Action).
+    - `D4` (Attack/Weapon/Conflict - a wolf attacks).
+    - `E2` (Night/Moon - wolves howl at the moon).
+    - `G14` (Cycle - lunar cycle?).
+    - `C3` (Slow - No).
+    - `B14` (House/Domestic - No).
+    - `!r A1` (Object), `D8` (Time), `C13` (Sound). (No).
+
+    Let's rethink the whole thing.
+    `?g H14` (Action)
+    `!r A1` (Object)
+    `+ D8` (Time)
+    `+ C13` (Sound)
+    `!y E2` (Night/Moon)
+    `+ B14` (House/Room)
+    `+ G14` (Cycle/Repetition)
+    `+ C3` (Slow)
+    `+ D4` (Attack/Conflict)
+
+    What about "To alarm"? "To wake"?
+    What about "To siren"? (No, that's a noun).
+    What about "To siren"? "To siren"? No.
+
+    What about "To hammer"?
+    - `D4` (Attack/Weapon).
+    - `B12` is Hammer, but the clue is `D4`.
+    - `D4` is "Attack/Conflict/Weapon".
+    - `B12` is "Tool/Construction".
+    - Is there an action "To hammer"?
+    - `A1` (Object), `D8` (Time), `C13` (Sound). (No).
+
+    Let's look at "To watch" again.
+    "To watch" (Action).
+    `!r`: `A1` (Object - a watch), `D8` (Time), `C13` (Sound - ticking).
+    `!y`: `E2` (Night - watching the night/stars), `B14` (House - watching the house), `G14` (Cycle - watching the cycle of the moon), `C3` (Slow - watching slowly?), `D4` (Attack - watching an attack?).
+
+    Wait, what about "To hunt"? (Guessed, No).
+    "To star"? "To moon"?
+    What about "To shadow"?
+    "To shadow" (Action).
+    `!y`: `E2` (Moon/Star/Shadow), `B14` (House/Shadow/Domestic?), `G14` (Cycle), `C3` (Slow), `D4` (Attack/Weapon? No).
+
+    Let's try to think of a word that combines "Time", "Sound", "Object", "Night", "Cycle", "Slow", and "Attack".
+    Could it be "To siren"? No.
+    Could it be "To siren"? No.
+    Could it be "To alarm"?
+    Could it be "To snooze"?
+
+    Wait, let's look at the "Yellow" clue again.
+    `E2` (Night/Moon/Star), `B14` (House/Room), `G14` (Cycle), `C3` (Slow), `D4` (Attack/Weapon).
+    What if it's "To dream"? (Already considered, but "Attack/Weapon" is still the problem).
+    What if the "Attack/Weapon" is a "Dream"? "A nightmare"?
+    If the answer is "To dream":
+    - `!y`: `E2` (Night), `B14` (House/Bedroom), `G14` (Cycle/Repetition - dream cycles), `C3` (Slow), `D4` (Attack - Nightmare).
+    - `!r`: `A1` (Object/Box?), `D8` (Time), `C13` (Sound).
+    - This doesn't fit the red clues.
+
+    Let's look at the red clues one more time.
+    `A1` (Object), `D8` (Time), `C13` (Sound).
+    `A1` is a "Box".
+    What if it's "A Music Box"? (Noun).
+    If the answer is "To play a music box"? (Too long).
+    If the answer is "To wind"? (Guessed, No).
+
+    What if the action is "To record"? (Guessed, No).
+    What if the action is "To listen"?
+    `C13` (Sound/Ear).
+    `A1` (Box - a radio?), `D8` (Time), `C13` (Sound).
+    `E2` (Night), `B14` (House), `G14` (Cycle), `C3` (Slow), `D4` (Attack).
+    "To listen to the night/the cycle/the attack?" No.
+
+    Wait! "To combat"? "To fight"?
+    "To fight" (Action).
+    `D4` (Attack/Conflict).
+    `A1` (Object/Box - a box of...?), `D8` (Time), `C13` (Sound).
+    `E2` (Night), `B14` (House), `G14` (Cycle), `C3` (Slow).
+
+    Wait, let's look at "D4" (Attack/Conflict) and "C3" (Slow) and "G14" (Cycle).
+    Could it be "To battle"?
+    Could it be "To war"?
+    Could it be "To raid"?
+
+    What about "To siege"?
+    - `D4` (Attack/Conflict).
+    - `G14` (Cycle/Repetition).
+    - `C3` (Slow - a siege is a slow attack).
+    - `E2` (Night/Space - ?).
+    - `B14` (House/Building - ?).
+    - `A1` (Object/Box - ?).
+    - `D8` (Time - ?).
+    - `C13` (Sound - ?).
+
+    Let's look at the red clues again.
+    `A1` (Object), `D8` (Time), `C13` (Sound).
+    `A1` could be "A clock".
+    `D8` is "Time".
+    `C13` is "Sound".
+    Is there a verb for what a clock does?
+    "To tick" (Guessed, No).
+    "To chime" (Guessed, No).
+    "To ring" (Guessed, No).
+    "To run"?
+    "To wind"? (Guessed, No).
+    "To tell"? (As in "to tell time").
+    "To strike"? (Guessed, No).
+    "To watch"? (Already considered).
+
+    Wait, what about "To countdown"?
+    - `H14` (Action).
+    - `!r`: `A1` (Object/Box - a timer?), `D8` (Time), `C13` (Sound - beep).
+    - `!y`: `E2` (Night/Space - countdown to launch?), `B14` (House/Domestic - kitchen timer?), `G14` (Cycle/Repetition), `C3` (Slow - ?), `D4` (Attack/Weapon - countdown to an attack?).
+
+    Wait, let's look at the "Yellow" clue one more time.
+    `E2` (Night/Moon), `B14` (House), `G14` (Cycle), `C3` (Slow), `D4` (Attack/Weapon).
+    Is it "To lunar"? No.
+    Is it "To tidal"? No.
+    Is it "To ebb"? (Already considered).
+    Is it "To tide"?
+
+    Let's look at "D4" (Attack/Weapon) again.
+    Could the answer be "To bomb"?
+    Could the answer be "To strike"? (Guessed, No).
+    Could the answer be "To hit"? (Guessed, No).
+    Could the answer be "To beat"? (Guessed, No).
+
+    Is the answer "To alarm"?
+    "To alarm" (Action).
+    "To alarm" (Verb).
+    Wait, "To alarm" can mean to frighten someone.
+    - `D4` (Attack/Conflict/Weapon).
+    - `C3` (Slow - ?).
+    - `G14` (Cycle - ?).
+    - `E2` (Night/Space - ?).
+    - `B14` (House - ?).
+    - `A1` (Object), `D8` (Time), `C13` (Sound). (Alarm clock).
+
+    Let's try a different direction.
+    `A1` (Object), `D8` (Time), `C13` (Sound).
+    What if it's "A timer"?
+    "To time"?
+    "To count"?
+    "To record"? (Guessed, No).
+
+    Wait, I have another idea.
+    `A1` (Object/Box), `D8` (Time), `C13` (Sound).
+    `E2` (Night), `B14` (House), `G14` (Cycle), `C3` (Slow), `D4` (Attack/Weapon).
+    "To sleep"? (Already considered).
+    What about "To snore"?
+    - `C13` (Sound).
+    - `B14` (House/Bed).
+    - `E2` (Night).
+    - `C3` (Slow).
+    - `G14` (Cycle/Repetition).
+    - `D4` (Attack/Conflict/Weapon - Is snoring an "attack" on the ears/peace?).
+    - `A1` (Object/Box - ?).
+    - `D8` (Time - ?).
+
+    What about "To dream"? (Already considered).
+    What about "To wake"? (Already considered).
+
+    Wait, look at `D4` (Attack/Conflict/Weapon) and `E2` (Night/Space/Moon/Star).
+    Is it "To shoot"? (Already considered).
+    Is it "To star"?
+    Is it "To moon"?
+    Is it "To eclipse"?
+
+    Let's look at the `A1` (Object/Box) again.
+    A "Music box" makes music.
+    A "Jack-in-the-box"?
+    - `A1` (Box).
+    - `H14` (Action/Verb).
+    - "To pop"? (As in "To pop out of a jack-in-the-box").
+    - `D4` (Attack/Conflict - a sudden jump/attack?).
+    - `C3` (Slow - No, it's fast).
+
+    Wait, "To spring"?
+    - `D4` (Attack/Conflict - to spring a trap/attack?).
+    - `G14` (Cycle/Repetition - Spring/Season?).
+    - `E2` (Night/Space - ?).
+    - `B14` (House - ?).
+    - `A1` (Object/Box - ?).
+    - `D8` (Time - ?).
+    - `C13` (Sound - ?).
+
+    Let's look at the `!r` (Red) clues again.
+    `A1` (Object/Box), `D8` (Time), `C13` (Sound).
+    Could it be "A clock"?
+    If the answer is "To clock"?
+    "To clock" (Action).
+    "To clock someone" (To hit them - `D4` Attack).
+    "To clock" (To time someone - `D8` Time).
+    "To clock" (A watch - `A1` Object).
+    "To clock" (The sound of ticking - `C13` Sound).
+    `!y` (Yellow) clues:
+    `E2` (Night/Space), `B14` (House), `G14` (Cycle), `C3` (Slow), `D4` (Attack).
+    Does "To clock" fit the yellow?
+    - `E2` (Night - night watch/clock?).
+    - `B14` (House - clock in the house?).
+    - `G14` (Cycle - the cycle of a clock?).
+    - `C3` (Slow - a slow clock?).
+    - `D4` (Attack - to clock someone/hit them?).
+
+    This is a possibility. "To clock".
+    Let's try another. "To watch".
+    "To watch" (Action).
+    - `A1` (Watch/Object), `D8` (Time), `C13` (Sound/Ticking).
+    - `E2` (Night/Stars - watching the stars), `B14` (House - house watch/security), `G14` (Cycle - cycles of time), `C3` (Slow - watching slowly), `D4` (Attack - watching an attack).
+
+    Wait, what about "To monitor"?
+    "To monitor" (Action).
+    - `A1` (Object/Monitor), `D8` (Time), `C13` (Sound).
+    - `E2` (Night), `B14` (House), `G14` (Cycle), `C3` (Slow), `D4` (Attack).
+
+    Let's think of another.
+    "To siren"? No.
+    "To buzzer"? No.
+    "To timer"? No.
+
+    Wait, let's look at `D4` (Attack) and `C13` (Sound).
+    "To bark"? (Guessed, No).
+    "To howl"? (Guessed, No).
+    "To bite"?
+    "To snap"? (A snap/sound, to snap/attack).
+
+    What about "To alarm"?
+    Let's try "To snooze".
+    "To snooze" (Action).
+    - `A1` (Object/Box/Alarm?), `D8` (Time), `C13` (Sound).
+    - `E2` (Night), `B14` (House), `G14` (Cycle), `C3` (Slow), `D4` (Attack - the alarm attacking the sleep?).
+
+    Wait, let's look at the `!y` (Yellow) again.
+    `E2` (Night/Moon/Star), `B14` (House), `G14` (Cycle), `C3` (Slow), `D4` (Attack/Weapon).
+    Is there a verb for "Moon" and "Attack"?
+    "To moon"? "To wolf"?
+    Wait, "To wolf" (to eat/attack).
+    "To wolf" (to eat/attack/weapon/conflict).
+    `C3` (Slow - No).
+    `G14` (Cycle - No).
+
+    Let's try "To cycle"?
+    "To cycle" (Action).
+    `G14` (Cycle).

@@ -1,0 +1,23 @@
+*   `?g A4`: Main concept is Fauna / Animal.
+    *   `+ C3`: Attribute is Slow / Slow motion.
+    *   `+ Brown`: Color is Brown.
+    *   `+ H10`: Attribute is Small / Low.
+    *   `+ G3`: Shape/Attribute is Spiral / Drunkenness / Coil.
+
+    *   An animal (A4).
+    *   It is slow (C3).
+    *   It is brown (Brown).
+    *   It is small (H10).
+    *   It is spiral/coiled (G3).
+
+    *   Snail? (Slow, brown/earthy, small, spiral shell).
+    *   Tortoise? (Slow, brown, small, but not spiral).
+    *   Slug? (Slow, brown, small, but not spiral).
+    *   Caterpillar? (Slow, brown, small, some coil up).
+    *   Hermit crab? (Small, slow, spiral shell).
+
+    *   A snail fits "slow", "brown", "small", and "spiral" perfectly.
+
+    *   1. Snail
+    *   2. Slug
+    *   3. Tortoise

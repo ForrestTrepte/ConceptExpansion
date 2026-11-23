@@ -1,0 +1,138 @@
+{
+  "contentSha256": "c4d01a508c1492bcf681bc2d0ba6b71e3e09f28bfbc50ab2fec6a77e3bcdff10",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "90167f6773b23c0d34d7074b521186233b0757584cab853ba7be1b70066d6420"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "30e84ace4bc2f624753ac9dfb1ec679d0fb01ca76f9b2d20809eb1a2952d260f"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "openai/gpt-6-luna",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "pass": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "guesses",
+                "pass"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-3"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "db82776",
+    "costUsd": 0.00025907,
+    "latencyMs": 4654,
+    "recordedAt": "2026-11-23T22:15:02.510Z",
+    "recordedBy": "claude",
+    "servedBy": "OpenAI",
+    "servedModel": "openai/gpt-6-luna",
+    "tags": {
+      "run": "calibrate-or-luna"
+    },
+    "usage": {
+      "cacheReadTokens": 4727,
+      "cacheWriteTokens": 172,
+      "inputTokens": 4902,
+      "outputTokens": 380,
+      "reasoningTokens": 346
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"Fred Rogers\",\"Steve from Blue’s Clues\",\"Macaulay Culkin\"],\"pass\":false}",
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "data": {
+                "$llmemo.text": "614e6c58965cb891e2ad7f9f724f60a12357f8eefb81ddacd64ed2f4aecb7c65"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_04eedd05f8c81756016b04bae2742087d1b0f6540135ff79a3",
+              "index": 0,
+              "type": "reasoning.encrypted"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "completed"
+      }
+    ],
+    "created": 1795472097,
+    "id": "gen-1795472097-HUquZ0dRaQXyWc3KCnhC",
+    "model": "openai/gpt-6-luna",
+    "object": "chat.completion",
+    "provider": "OpenAI",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 380,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 346
+      },
+      "cost": 0.00025907,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00019,
+        "upstream_inference_cost": 0.00025907,
+        "upstream_inference_prompt_cost": 0.00006907
+      },
+      "is_byok": false,
+      "prompt_tokens": 4902,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 172,
+        "cached_tokens": 4727,
+        "video_tokens": 0
+      },
+      "total_tokens": 5282
+    }
+  }
+}

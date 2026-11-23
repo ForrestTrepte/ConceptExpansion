@@ -1,0 +1,441 @@
+*   `?g F7`: Main concept is `F7` (Paper / Sheet).
+    *   `+ Yellow`: Yellow color is associated with the main concept.
+    *   `+ C8`: Money / Rich / Expensive is associated with the main concept.
+    *   `!r A14`: Sub-concept (Red/Related/Part) is `A14` (Food / Eating / Edible).
+    *   `+ Brown`: Brown color is associated with the food sub-concept.
+
+    *   *Current Summary:* It's a piece of paper (F7) that is yellow (Yellow) and involves money (C8). Related to it is food (A14) that is brown (Brown).
+
+    *   *Initial Guesses (rejected):* Receipt (paper, money, but not really food/brown), Menu (paper, food, but not quite yellow/money), Coupon (paper, money, not food).
+
+    *   `+g G6`: Main concept is a rectangle/square (G6). So, the "paper" is a rectangle/square shape.
+    *   `!y A6`: Sub-concept (Yellow/Related) is `A6` (Cinema / Movie).
+    *   `+ C1`: Sub-concept (Yellow/Related) is `C1` (Baby / Child / Young / New).
+    *   `+ B9`: Sub-concept (Yellow/Related) is `B9` (Building / Monument / City).
+
+    *   *Revised Summary:*
+        *   Main Concept: A rectangular/square piece of paper (F7, G6) that is Yellow and involves Money (C8).
+        *   Red Sub-concept: Food (A14) that is Brown (Brown).
+        *   Yellow Sub-concept: Cinema (A6) AND Baby/Young (C1) AND Building/City (B9).
+
+    *   *Wait, let's re-evaluate the "Yellow Sub-concept":*
+        The yellow marker `!y` is on `A6`. This means the yellow group describes a relation to `A6` (Cinema), `C1` (Baby/Young), and `B9` (Building/City).
+        Actually, looking at the notation: `!y A6` is the pawn. `+ C1` and `+ B9` are cubes in that same group.
+
+    *   *Re-analyzing the Yellow Group:*
+        `!y A6` (Cinema/Movie)
+        `+ C1` (Baby/Child)
+        `+ B9` (Building/City)
+
+    *   *Wait, let's look at the target concept again:*
+        Main Concept: Yellow, Money, Rectangular/Square Paper.
+        Red Group: Brown Food.
+        Yellow Group: Cinema, Baby, Building.
+
+    *   *Let's combine them:*
+        Yellow paper + money + rectangle.
+        Food (brown) + cinema + baby + building.
+
+    *   *Could it be a "Golden Ticket"?*
+        - Yellow/Gold? Yes.
+        - Paper/Rectangle? Yes.
+        - Money/Value? Yes.
+        - Food? (Chocolate/Candy? Brown food?)
+        - Cinema? (Charlie and the Chocolate Factory / Willy Wonka relates to Cinema/Movies/Books).
+        - Baby? (Maybe not directly, but maybe "new"?)
+        - Building? (Chocolate factory?).
+
+    *   *Let's check "Golden Ticket" components:*
+        - Golden (Yellow/Gold)
+        - Ticket (Paper/Rectangle/Cinema)
+        - Chocolate Factory (Building/Cinema/Food/Brown)
+        - Willy Wonka (Character/Movie/Cinema)
+
+    *   *Wait, let's look at the "Baby" (C1) and "City" (B9) and "Cinema" (A6) again.*
+        Yellow group: Cinema, Baby, Building.
+        Maybe the answer is a specific person or thing from a movie.
+
+    *   *Is it "Charlie and the Chocolate Factory"?*
+        - Cinema (A6) - Yes.
+        - Food (A14) - Yes.
+        - Building (B9) - Factory.
+        - Brown (Brown) - Chocolate.
+        - Yellow (Yellow) - Golden.
+        - Paper (F7/G6) - Ticket.
+        - Money (C8) - Ticket has value.
+        - Baby (C1) - ??
+
+    *   *Wait, let's reconsider the "Baby" (C1).*
+        What if the answer is a "Yellow Brick Road" (Wizard of Oz)?
+        - Yellow (Yellow)
+        - Brick (Building/B9/F4/E5?)
+        - Road (A12?)
+        - Cinema (A6)
+        - Baby? No.
+
+    *   *What about "Pac-Man"?*
+        - Yellow (Yellow)
+        - Food (A14 - pellets)
+        - Cinema (A6 - video games/animation)
+        - Baby (C1 - "baby" or "new"?) - No.
+
+    *   *Let's look at the "Money/C8" and "Yellow" and "Paper/F7" again.*
+        Maybe a "Banknote"?
+        - Paper (F7)
+        - Money (C8)
+        - Yellow (some money is yellow?)
+        - Food (No)
+
+    *   *Let's look at the "Yellow" group again: A6 (Cinema), C1 (Baby), B9 (Building).*
+        Could it be "Baby Shark"? (A song, but also a character/movie/child thing).
+        - Cinema (A6) - Yes (animated).
+        - Baby (C1) - Yes.
+        - Building (B9) - No.
+
+    *   *What about "Star Wars"?*
+        - Cinema (A6)
+        - Building (B9) - Death Star/Base.
+        - Baby (C1) - Grogu (Baby Yoda)?
+        - Yellow (Yellow) - Lightsaber/Ship?
+        - Food (A14) - ?
+        - Paper (F7) - ?
+
+    *   *Let's re-read the clues carefully:*
+        `?g F7` (Paper)
+        `+ Yellow` (Yellow)
+        `+ C8` (Money)
+        `+ G6` (Rectangle)
+        `!r A14` (Food)
+        `+ Brown` (Brown)
+        `!y A6` (Cinema)
+        `+ C1` (Baby)
+        `+ B9` (Building)
+
+        Maybe it's a "Goldfish" cracker?
+        - Food (A14)
+        - Yellow (Yellow)
+        - Building (B9) - No.
+
+    *   *What about "LEGO"?*
+        - Toy (A13)
+        - Building (B9)
+        - Cinema (A6) - Lego movies.
+        - Baby (C1) - Baby Lego? No.
+
+    *   *Wait! "Willy Wonka" or "Charlie and the Chocolate Factory" fits quite well:*
+        - Paper (F7) / Rectangle (G6) -> Ticket.
+        - Yellow (Yellow) -> Golden.
+        - Money (C8) -> Value/Gold.
+        - Food (A14) / Brown (Brown) -> Chocolate.
+        - Cinema (A6) -> The movie.
+        - Building (B9) -> The factory.
+        - Baby (C1) -> Is there a baby in it? Or is it "New/Young"? (Charlie is a young child).
+
+    *   *Let's try another angle. Is it a "Gold Nugget"?*
+        - Yellow
+        - Building (B9)? No.
+
+    *   *Is it a "Yellow Pages"?*
+        - Paper
+        - Yellow
+        - Money (C8) - Business advertising.
+        - Building (B9) - Listings for buildings/businesses.
+        - Cinema (A6) - Listings for movies?
+        - Baby (C1) - Listings for...?
+        - Food (A14) - Listings for restaurants?
+
+    *   *Let's look at the "Brown Food" (A14/Brown) and "Yellow Paper" (F7/Yellow/Money/G6) and "Cinema/Baby/Building" (A6/C1/B9).*
+
+    *   *Is it "Pac-Man"?* (Yellow, Food, Cinema/Game, maybe Building/Ghost House, maybe Baby/New?)
+
+    *   *Wait, "Yellow Submarine" (The Beatles song/movie)?*
+        - Yellow (Yellow)
+        - Cinema (A6) - Movie.
+        - Building (B9) - ?
+        - Baby (C1) - ?
+        - Food (A14) - ?
+
+    *   *Let's rethink the "Money/C8" and "Yellow Paper" and "Brown Food".*
+        How about "Honey"?
+        - Food (A14)
+        - Yellow/Brown
+        - Bee (A4) - (Not listed)
+
+    *   *Let's try: "Golden Ticket".*
+        - It's a piece of paper (F7).
+        - It's a rectangle (G6).
+        - It's yellow/gold (Yellow).
+        - It represents money/value (C8).
+        - It's related to a movie (A6 - Charlie and the Chocolate Factory).
+        - It's related to a building/factory (B9).
+        - It's related to food/chocolate (A14 / Brown).
+        - It's related to a child/baby (C1 - Charlie is a boy/child).
+
+    *   *This seems very strong.*
+
+    *   *Let's double check "Golden Ticket" vs "Cinema/Baby/Building".*
+        - Cinema: Yes (Wonka is a famous film).
+        - Baby: Charlie is a child (C1).
+        - Building: The Chocolate Factory (B9).
+        - Food: Chocolate (A14) which is brown (Brown).
+        - Paper: The ticket (F7) is a rectangle (G6) that is yellow (Yellow) and has value (C8).
+
+    *   *Alternative: "Star Wars" (specifically something about it)?*
+        - Yellow: Lightsaber.
+        - Paper/Money: ?
+        - No.
+
+    *   *Alternative: "Money" (The song or the concept)?* No.
+
+    *   *Let's look at "The Wizard of Oz"?*
+        - Yellow Brick Road.
+        - Cinema.
+        - Building (Emerald City).
+        - Baby (Dorothy is a young girl).
+        - Food (No).
+
+    *   *What about "Mickey Mouse"?*
+        - Cinema (A6).
+        - Building (Disneyland/B9).
+        - Baby (C1 - Mickey Mouse Clubhouse/Baby Mickey?).
+        - Food? No.
+
+    *   *What about "Charlie and the Chocolate Factory" directly?*
+        The clue-giver says "Paper/Rectangle/Yellow/Money" is the main concept. A "Golden Ticket" is a specific paper.
+
+    *   *Another thought: "Sandwich"?* No.
+
+    *   *Let's check "Gold" (the metal) or "Goldfish".* No.
+
+    *   *Wait, look at the "Yellow Sub-concept" again:*
+        `!y A6` (Cinema)
+        `+ C1` (Baby)
+        `+ B9` (Building)
+        This means the yellow *group* is describing the answer.
+        If the answer is "Golden Ticket":
+        - Is a Golden Ticket a part of a Movie (A6)? Yes.
+        - Is it a part of a Baby (C1)? No, but it's part of a child's story/movie.
+        - Is it a part of a Building (B9)? No.
+
+    *   *Wait!* The notation says:
+        `!r A14` (Red Sub-concept: Food)
+        `+ Brown` (Cube on Brown in the Red group)
+        `!y A6` (Yellow Sub-concept: Cinema)
+        `+ C1` (Cube on Baby in the Yellow group)
+        `+ B9` (Cube on Building in the Yellow group)
+
+        This means the Yellow group is *another set of clues* about the same answer.
+        So:
+        Main concept: Yellow, Rectangular, Paper, Money.
+        Red: Brown Food.
+        Yellow: Cinema, Baby, Building.
+
+        "Golden Ticket" still fits:
+        - It's a piece of paper (F7/G6/Yellow/C8).
+        - It's related to Chocolate/Food/Brown (A14/Brown).
+        - It's related to Cinema (A6), Child (C1), and Building/Factory (B9).
+
+    *   *Is there any other possibility?*
+        "Yellow Submarine"?
+        - Yellow/Paper? No.
+        "Pac-Man"?
+        - Yellow/Paper/Money? No.
+        "Monopoly"?
+        - Money (C8).
+        - Paper (F7).
+        - Building (B9).
+        - Food? No.
+        - Cinema? No.
+
+    *   *Let's try "Golden Ticket".*
+
+    *   *Wait, could it be "Lion King"?* (Cinema, Baby/Simba, Building/Pride Rock, Food/Eating?) No, paper/money/yellow?
+
+    *   *What about "Pokémon"?*
+        - Cinema (A6).
+        - Building (B9).
+        - Baby (C1 - Pichu/Baby Pokémon).
+        - Food (A14)?
+        - Yellow (Yellow) - Pikachu.
+        - Paper/Money (F7/C8)? (Cards/Trading?)
+
+    *   *Wait, "Trading Card" / "Pokemon Card"?*
+        - Paper (F7).
+        - Rectangle (G6).
+        - Yellow (Yellow - Pikachu).
+        - Money (C8 - Value/Trading).
+        - Cinema (A6 - Pokémon movies).
+        - Baby (C1 - Baby Pokémon/Pichu).
+        - Building (B9 - Gyms/Indigo Plateau).
+        - Food (A14) - ? (Maybe not).
+
+    *   *Let's stick with "Golden Ticket". It's more iconic for the "Yellow/Money/Paper" combo.*
+
+    *   *One more look:*
+        `?g F7` (Paper)
+        `+ Yellow`
+        `+ C8` (Money)
+        `+ G6` (Rectangle)
+        `!r A14` (Food)
+        `+ Brown` (Brown food)
+        `!y A6` (Cinema)
+        `+ C1` (Baby/Young)
+        `+ B9` (Building/City)
+
+        Actually, if the answer is "Golden Ticket":
+        - It's a piece of paper (F7/G6).
+        - It's yellow/gold (Yellow).
+        - It's related to money/value (C8).
+        - It's related to food/chocolate/brown (A14/Brown).
+        - It's related to cinema (A6).
+        - It's related to a child (C1).
+        - It's related to a factory/building (B9).
+
+    *   *Wait, let me think if there's anything else. "Chocolate Bar"?*
+        - Food (A14)
+        - Brown (Brown)
+        - Paper (F7)
+        - Building (B9) - Factory?
+        - Cinema (A6) - Movie?
+        - Baby (C1) - ?
+        - Yellow (Yellow) - ?
+
+    *   *What about "Goldfish" (the cracker)?* No.
+
+    *   *What about "The Wonka Bar"?* (Similar to Golden Ticket).
+
+    *   *Let's try "Golden Ticket" or "Charlie and the Chocolate Factory".*
+
+    *   *Wait!* Could it be "Yellow Pages"? No, the "Food" clue is too specific.
+
+    *   *Is it "Star Wars"?*
+        - Yellow (Lightsaber)
+        - Cinema (A6)
+        - Building (B9)
+        - Baby (C1 - Baby Yoda/Grogu)
+        - Paper (F7) - ?
+
+    *   *Let's try "Golden Ticket".* It's a very specific thing that is a piece of paper, yellow, relates to money/value, relates to food (chocolate), relates to a movie, a factory, and a child.
+
+    *   *Wait, one more possibility:* "A Monopoly Board/Game"?
+        - Paper/Rectangle.
+        - Money.
+        - Building.
+        - Food? No.
+
+    *   *Let's look at the "Cinema/Baby/Building" again.*
+        Is it "Disney"?
+        - Cinema (A6).
+        - Building (B9) - Disneyland.
+        - Baby (C1) - Mickey?
+        - Food? No.
+        - Paper/Money? No.
+
+    *   *I'll go with "Golden Ticket".*
+
+    *   *One last check:* "Paper" (F7), "Yellow", "Money" (C8), "Rectangle" (G6).
+        The "Red" group is "Food" (A14) + "Brown".
+        The "Yellow" group is "Cinema" (A6), "Baby" (C1), and "Building" (B9).
+        If the answer is "Golden Ticket":
+        1. Main concept is a Yellow, Rectangular, Paper/Money-like object. (Check)
+        2. Related to Brown Food. (Check - Chocolate)
+        3. Related to Cinema, Baby/Child, and Building. (Check - Movie, Child, Factory)
+
+    *   *Wait, could the answer be "Wonka Bar"?*
+        A chocolate bar is a rectangle of paper (wrapper), brown (chocolate), food.
+        But does it relate to "Cinema/Baby/Building"?
+        A "Wonka Bar" is related to the movie (Cinema) and the factory (Building). Is it related to a Baby? Not really.
+
+    *   *What about "Golden Ticket"?* It's the *ticket* itself.
+
+    *   *Wait, let me think of other "Yellow" + "Money" + "Paper".*
+        "Gold Coin"? (Not paper).
+        "Goldfish"? (Not paper).
+        "Yellow Pages"? (No).
+
+    *   *What about "Pokémon card"?*
+        - Paper (F7) / Rectangle (G6)
+        - Yellow (Yellow/Pikachu)
+        - Money (C8 - Value/Trading)
+        - Food (A14) - ?
+        - Cinema (A6) - Yes.
+        - Baby (C1) - Yes (Baby Pokémon).
+        - Building (B9) - Yes (Gyms).
+
+    *   *Is there a "Brown Food" connection to Pokémon?*
+        Maybe... brown... energy/food? No.
+
+    *   *What about "Harry Potter"?*
+        - Cinema.
+        - Building (Hogwarts).
+        - Food (Great Hall feast).
+        - Paper (Letters/Gryffindor/etc).
+        - Money (Wizarding money).
+        - Baby (Harry is a baby/child).
+        - Yellow? (No).
+
+    *   *Let's rethink the "Yellow" and "Money" and "Paper".*
+        Maybe "A Gold Nugget"? No.
+        "Gold Leaf"? No.
+
+    *   *Wait, "Yellow" (color), "C8" (Money), "F7" (Paper), "G6" (Rectangle).*
+        "Gold bar"? (Not paper).
+        "Goldfish"? (No).
+
+    *   *Let's look at the "Brown Food" again.*
+        What is a Brown Food that is a Yellow Rectangle of Paper and relates to Cinema, Baby, and Building?
+        It has to be the "Golden Ticket". The food connection is the chocolate (Brown food).
+
+    *   *Wait, is there a "Baby" in "Charlie and the Chocolate Factory"?*
+        Charlie is a child. C1 is "Baby - Child / Young / New".
+
+    *   *Let's try: "Golden Ticket".*
+
+    *   *Wait!* Another thought: "A yellow brick road"?
+        - Yellow.
+        - Building (B9).
+        - Cinema (A6).
+        - Baby (C1) - Dorothy?
+        - Paper? No.
+
+    *   *Let's try "Golden Ticket".*
+
+    *   *Final check:*
+        - `?g F7` (Paper)
+        - `+ Yellow` (Yellow)
+        - `+ C8` (Money)
+        - `+ G6` (Rectangle)
+        - `!r A14` (Food)
+        - `+ Brown` (Brown)
+        - `!y A6` (Cinema)
+        - `+ C1` (Baby/Child)
+        - `+ B9` (Building)
+
+        Everything fits "Golden Ticket" (from Charlie and the Chocolate Factory).
+
+    *   *Wait, one more:* "A Star Wars Lego set"?
+        - Lego (Building/B9/Toy/A13/Cinema/A6).
+        - Paper/Money? No.
+
+    *   *Could it be "A Pokemon Card"?*
+        - Yellow (Pikachu/cards).
+        - Money (Trading).
+        - Paper (F7).
+        - Cinema (A6).
+        - Baby (C1 - Baby Pokemon).
+        - Building (B9 - Gyms).
+        - Food (A14) - Is there a brown food in Pokemon? Not a major one.
+
+    *   *Let's try "Golden Ticket".* It's the most cohesive.
+
+    *   *Wait, "C1" is Baby/Child/Young/New.*
+    *   *Wait, "B9" is Building/Monument/City.*
+    *   *Wait, "A6" is Cinema/Movie.*
+
+    *   *Could it be "A chocolate bar"?*
+        - Brown food.
+        - Rectangle (G6).
+        - Paper (F7).
+        - Cinema? No.
+
+    *   *I'll go with "Golden Ticket".*

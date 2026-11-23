@@ -1,0 +1,124 @@
+*   `?g H14`: The Main Concept is an Action/Verb/Button/Using something (H14).
+    *   `+ C14`: It involves the Eye/Sight/Vision.
+    *   `+ C11`: It involves the Head/Face/Neck.
+
+    *   `!r A1`: A Sub-concept (Red/Relational) is an Object/Box.
+    *   `+ C7`: This object is Electronic/Computing.
+    *   `+ C14`: This object is related to Eye/Sight/Vision.
+
+    *   An action (`?g H14`) involving sight/eyes/face (`C14`, `C11`).
+    *   A related object (`!r A1`) that is electronic (`C7`) and sight-related (`C14`).
+
+    *   The "Action" involves sight/eyes/face.
+    *   The "Related Object" is an electronic thing related to sight.
+    *   Action: Watching? Looking? Seeing? (Already guessed and rejected).
+    *   Action: Taking a photo? Recording?
+    *   Object: Camera? Smartphone? Monitor? Television?
+    *   Let's look at the "Action" again: H14 (Action/Verb/Button).
+    *   Maybe the action is *to photograph* or *to record*.
+    *   The object is a camera or a phone.
+
+    *   Guess 1: Camera (fits electronic, sight, and action of using it/pressing a button).
+    *   Guess 2: Photograph (the action/thing produced).
+    *   Guess 3: Video (the action/thing produced).
+
+    *   Action: H14 (Verb).
+    *   Details: Eye, Head.
+    *   Sub: Object (A1), Electronic (C7), Eye (C14).
+    *   The action of using an electronic eye-related object.
+    *   Maybe "Take a picture"? (But "Picture" is a noun).
+    *   Maybe "Video"? "Recording"?
+    *   "Camera" is a strong candidate for the object. The prompt says the *Main Concept* is H14 (an action).
+    *   If the Main Concept is "Taking a picture" or "Photographing" (the action of pressing the button/using the device).
+
+    Let's refine:
+    The Main Concept is an Action (H14).
+    The object is Electronic (C7) and Eye-related (C14).
+    Action: To record/capture.
+    Object: Camera/Phone.
+
+    Wait, `?g H14` is the *Main Concept*. So the answer itself is an action/verb.
+    The red group `!r A1` is a *Sub-concept* (a related idea). The related idea is an electronic object related to eyes.
+    A related idea to "Photographing" is a "Camera".
+
+    Let's try:
+    1. Photograph
+    2. Film
+    3. Record
+
+    Wait, if the answer is "Photograph" (the verb) or "To take a photo".
+    Actually, "Camera" might be the answer if the person used the H14 marker to mean "using a device/button". But the rule says `?g` is what the thing *is*. If it's a camera, the `?g` would likely be A1 (Object) or B12 (Tool).
+    Since `?g` is H14 (Action), the answer *must* be an action.
+
+    Action: Take a photo / Photograph / Record.
+
+    Let's try:
+    1. Photograph
+    2. Video
+    3. Record
+
+    Actually, "Watch" was rejected. "Look", "Watch", "See" were all rejected. These are all vision-related.
+    If the action is "To record" or "To take a photo".
+
+    Another thought: Is the action "To blink"? No, that wouldn't involve an electronic object.
+    "To video call"? "To FaceTime"?
+    "To use a computer"?
+
+    Let's try "Photograph" or "Film".
+
+    Let's look at `C11` (Head/Face) and `C14` (Eye).
+    An action involving the face and eyes.
+    And a related electronic object (C7, C14).
+    "To blink"? (No). "To wink"? (No).
+    "To look"? (Already rejected).
+
+    Could the action be "To take a picture"?
+    The electronic object (red group) is a Camera.
+
+    Let's go with:
+    1. Photograph
+    2. Record
+    3. Film
+
+    Or maybe:
+    1. Selfie (An action/concept involving head/face/eye/electronic)
+    2. Photo
+    3. Camera (Even though it's an object, sometimes people use the verb marker for the thing itself). No, follow the rules.
+
+    Wait, `H14` is "Use - Action - Do - Verb - Button".
+    If the answer is "Selfie", that's a noun. But often in Concept, things are treated loosely.
+    If the answer is "To take a photo".
+
+    Let's try:
+    1. Photograph
+    2. Take a photo
+    3. Record
+
+    Actually, "Film" is also a verb.
+
+    Let's try:
+    1. Photograph
+    2. Record
+    3. Film
+
+    (Self-correction: "Watch" was rejected. "Watch" can be a verb. "See" can be a verb. "Look" can be a verb.)
+
+    Could it be "To blink"? No.
+    "To eye"? No.
+    "To recognize"? No.
+
+    What if the answer is "Cinema" or "Movie"? No, that's H14 (Action).
+    What if the action is "To watch a movie"?
+    A related electronic object is a TV.
+
+    Let's try:
+    1. Photograph
+    2. Record
+    3. Capture
+
+    Actually, "Selfie" is a very strong possibility for "Action involving face/eye + Electronic object".
+
+    Let's go with:
+    1. Photograph
+    2. Record
+    3. Selfie

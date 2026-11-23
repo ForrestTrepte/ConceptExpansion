@@ -1,0 +1,252 @@
+*   `?g A6`: Main Concept is Cinema / Movie.
+    *   `+ D5`: (Add detail to Main Concept) D5 is Death / Bad / Illness. So, a movie about death/something bad.
+    *   `!r A10`: Sub-concept (Red) is Date / Event / Day.
+    *   `+ D5`: (Add detail to Red Sub-concept) Death / Bad / Illness. An event related to death or a bad day.
+    *   `!y F11`: Sub-concept (Yellow) is One / Unit / Number.
+    *   `+ G2`: (Add detail to Yellow Sub-concept) Cross / Crossing / Addition.
+    *   `+ F11`: (Add detail to Yellow Sub-concept) One. So, the number one or something about 1 + 1? Or just "1".
+
+    *   Main concept: Cinema.
+    *   Theme/Topic: Death/Bad things.
+    *   Sub-concept 1 (Red): A date/event involving death.
+    *   Sub-concept 2 (Yellow): The number 1 (or related to addition/crosses/one).
+
+    *   "A movie about a death event involving the number 1" or "A movie title with 'One' and 'Death' or a date".
+    *   Is it a specific movie title?
+    *   Maybe "One Day"? No, that's not necessarily death-centric, though it is a romance.
+    *   "The Day of the Dead"? (A10: Date/Event, D5: Death). But what about the "One" (F11)?
+    *   "One"? (Too simple).
+    *   "13th Friday"? (Not really a standard title).
+    *   Wait, `!y F11` + `+ G2` + `+ F11`.
+    *   F11 is One. G2 is Cross/Plus.
+    *   Maybe the number is part of the title.
+    *   "One" (F11) + "Death" (D5) + "Movie" (A6).
+    *   "The Day" (A10) + "Death" (D5) + "Movie" (A6).
+    *   "One" + "Day" + "Death"?
+    *   Could it be *The Day of the Dead*? (A10, D5, A6).
+    *   Could it be *One*? No.
+    *   What about *10 Cloverfield Lane*? No.
+    *   Wait, `!y F11` + `+ G2` + `+ F11` might mean something else.
+    *   F11 is 1. G2 is +.
+    *   1 + 1 = 2?
+    *   `!y F11` (One) + `+ G2` (Plus) + `+ F11` (One). 1 + 1.
+    *   Is it *The Two Towers*? No.
+    *   Is it *One*?
+    *   Let's re-examine `!r A10` + `+ D5`. A date/event about death.
+    *   *April Fool's Day*? (A10 is April Fools Day, but D5 is Death/Bad).
+    *   *Friday the 13th*? (A10 is Date, D5 is Bad/Death, F11 is One... maybe the "1" in 13?).
+    *   Wait, *Friday the 13th*.
+        *   A6: Cinema.
+        *   A10: Date.
+        *   D5: Bad/Death.
+        *   F11 (One) + G2 (Plus) + F11 (One)... 1 + 1 = 2? No.
+        *   Wait, `!y F11` (One) `+ G2` (Plus) `+ F11` (One) could simply be the number "1" or "11" or "2"?
+        *   If it's "1" (F11), and the movie is *Friday the 13th*.
+
+    *   Let's look at `!y F11 + G2 + F11` again.
+    *   F11 is 1. G2 is addition. F11 is 1.
+    *   1 + 1 = 2.
+    *   *The Two Towers*? (Not about death/bad date primarily).
+    *   *28 Days Later*?
+        *   A6: Movie.
+        *   D5: Death/Bad (Zombie movie).
+        *   A10: Date/Day (28 Days).
+        *   F11/G2/F11: 1 + 1 = 2 (the "2" in 28).
+
+    *   Let's look at *Friday the 13th* again.
+    *   A6 (Movie) + D5 (Bad/Death) + A10 (Date).
+    *   How does F11/G2/F11 fit?
+    *   Maybe the "1" in 13? Or 1+3? No.
+
+    *   What about *One*? No.
+    *   What about *Seven*? (D5: Death/Bad, A6: Movie).
+    *   Wait, `!y F11` is 1. `+ G2` is plus. `+ F11` is 1.
+    *   1 + 1 = 2.
+    *   *28 Days Later*.
+    *   Is there a movie called *One*?
+    *   What about *The Day of the Dead*?
+    *   What about *Death Note*? (Not a movie, primarily).
+    *   *The 13th Warrior*?
+
+    *   Let's look at the markers again:
+        `?g A6` (Movie) `+ D5` (Bad/Death)
+        `!r A10` (Date) `+ D5` (Bad/Death)
+        `!y F11` (1) `+ G2` (Plus) `+ F11` (1)
+
+    *   Could it be *10 Things I Hate About You*? No.
+    *   Could it be *The 40-Year-Old Virgin*? No.
+    *   What if the `!y F11 + G2 + F11` means "2"?
+    *   Movies with "2" or "Two" and "Death/Bad" and "Date/Day".
+    *   *28 Days Later*.
+    *   *Day of the Dead* (no number).
+    *   *Friday the 13th* (the number 13?).
+
+    *   Let's think of other "Death/Bad Date" movies.
+    *   *Groundhog Day*? (A10: Date/Event, D5: Bad? No).
+    *   *A Nightmare on Elm Street*? (A6: Movie, D5: Death, A10: Date? No).
+
+    *   Wait, `!y F11` (One) `+ G2` (Plus) `+ F11` (One).
+    *   Could it be *1+1*? No.
+    *   Could it be *One*?
+    *   What about *The Ring*? (A6, D5).
+    *   What about *Seven*?
+
+    *   Let's try *28 Days Later*. It fits "Movie", "Death", "Date/Day", and "2".
+    *   Let's try *Friday the 13th*. It fits "Movie", "Death", "Date".
+    *   Let's try *One*... no.
+
+    *   Wait! `!y F11` (One) `+ G2` (Plus) `+ F11` (One).
+    *   Could it be the movie *11*? Or *2*?
+    *   What if the number is actually 11? (F11 is 1).
+    *   Wait, `!y F11` (One) `+ G2` (Plus) `+ F11` (One) => 1+1 = 2.
+    *   Is there a movie *The Day of the Dead*?
+    *   Let's look at `A10` (Date/Event) and `D5` (Death).
+    *   Is there a movie with "One" and "Death" and "Date"?
+    *   *One Day* is not a death movie.
+    *   *The Day of the Dead*.
+    *   *28 Days Later*.
+
+    *   Let's try *Friday the 13th*.
+    *   Let's try *28 Days Later*.
+    *   Let's try *The Day of the Dead*.
+
+    *   Actually, let's look at `!y F11 + G2 + F11` one more time.
+    *   F11 is 1. G2 is +. F11 is 1.
+    *   Maybe the number is 11? (One and one).
+    *   *11:11*? No.
+    *   *11/22/63*? (Date/Event, Movie).
+
+    *   Wait! `!r A10` is a Date. `D5` is Death.
+    *   *Friday the 13th*.
+    *   `!y F11` (One) `+ G2` (Plus) `+ F11` (One).
+    *   If you put two 1s together you get 11.
+    *   If you add them you get 2.
+    *   If the answer is *Friday the 13th*:
+        *   Movie (A6) - Yes.
+        *   Death (D5) - Yes.
+        *   Date (A10) - Yes.
+        *   1 (F11) - Part of 13.
+
+    *   Let's consider *28 Days Later*.
+    *   Movie (A6) - Yes.
+    *   Death (D5) - Yes.
+    *   Date/Day (A10) - Yes.
+    *   2 (F11 + G2 + F11) - Yes.
+
+    *   Let's try *28 Days Later* first, as it's a very strong fit for the math.
+
+    *   Another possibility: *One*? No.
+    *   What about *The Day of the Dead*? (No number).
+    *   What about *Halloween*? (A10: Date/Holiday, D5: Death/Bad, A6: Movie).
+    *   But where does the number 2 (1+1) fit in *Halloween*? It doesn't.
+
+    *   Let's check `!y F11 + G2 + F11` again.
+    *   Is it *1+1*?
+    *   Wait, *28 Days Later*. 2 (F11 + G2 + F11) and 28 (A10 - Day/Date).
+    *   That fits perfectly.
+
+    *   One more check:
+        *   `?g A6` (Movie) `+ D5` (Death/Bad)
+        *   `!r A10` (Date) `+ D5` (Death/Bad)
+        *   `!y F11` (1) `+ G2` (+) `+ F11` (1) = 2.
+        *   *28 Days Later*. (Movie about death/bad things that happens over a period of days, starting with the number 2).
+
+    *   Wait, could it be *The Day of the Dead*? No.
+    *   Could it be *One*?
+    *   What about *Friday the 13th*?
+    *   If it's *Friday the 13th*, the number part is hard to explain.
+
+    *   Let's go with:
+        1. 28 Days Later
+        2. Friday the 13th
+        3. The Day of the Dead
+
+    *   Wait, `!y F11 + G2 + F11` could also mean "11".
+    *   If the answer is *11/22/63*? (Date, Movie, Death).
+
+    *   Let's stick to *28 Days Later*.
+
+    *   Wait, `!y F11 + G2 + F11` is 1 + 1 = 2.
+    *   Another movie with 2: *The Two Towers*? No.
+    *   *2:22*? (A movie about a date/time).
+
+    *   Let's try:
+        1. 28 Days Later
+        2. Friday the 13th
+        3. The Day of the Dead
+
+    *   Wait, "A10" is "Date / Event / Day".
+    *   "D5" is "Death / Bad / Illness".
+    *   "A6" is "Cinema".
+    *   "F11" is "One".
+    *   "G2" is "Plus".
+    *   "F11" is "One".
+    *   Result: 2.
+    *   Title: *28 Days Later*.
+
+    *   Wait, looking at `!r A10 + D5`.
+    *   A10 is "Date/Event/Day".
+    *   D5 is "Death/Bad".
+    *   So a "Death Day" or "Bad Day".
+    *   *28 Days Later* fits "Day" (A10) and "Bad" (D5).
+
+    *   Let's try *28 Days Later*.
+
+    *   What about *One Day*? (A10 is Day, but not Death/Bad).
+    *   What about *Seven*? (D5 is Death/Bad, A6 is Movie, but no Date/Number).
+
+    *   One more thought: *Day of the Dead*? (No number).
+    *   How about *The Day of the Jackal*? (No).
+
+    *   Let's try *28 Days Later*.
+
+    *   Wait, I just thought of another: *10 Cloverfield Lane*. (A6, D5, A10/A1, F11... no).
+    *   *The 13th Floor*?
+    *   *Friday the 13th* is a very common guess for "Movie + Date + Death".
+    *   Let's refine the guesses.
+
+    *   1. 28 Days Later
+    *   2. Friday the 13th
+    *   3. The Day of the Dead (or maybe *Halloween*).
+
+    *   Let's go with:
+    1. 28 Days Later
+    2. Friday the 13th
+    3. Halloween
+
+    *   Actually, *28 Days Later* is the most mathematically sound for the `!y F11 + G2 + F11` part.
+
+    *   Wait! `!y F11` (One) `+ G2` (Plus) `+ F11` (One) ... could it be "11"?
+    *   If the answer is *11*? No.
+    *   If the answer is *11/22/63*? (It's a series, but also a movie/book).
+
+    *   Let's try *28 Days Later*.
+
+    *   Final check:
+    *   `?g A6` + `D5` = A bad/death movie.
+    *   `!r A10` + `D5` = A bad/death day/date.
+    *   `!y F11` + `G2` + `F11` = 1 + 1 = 2.
+    *   *28 Days Later*.
+
+    *   Wait, *28 Days Later* is about a virus (D5: Illness).
+    *   It's a movie (A6).
+    *   It's about days (A10).
+    *   The number 2 is the first digit.
+
+    *   One more: *The Day of the Dead*.
+    *   A10: Date.
+    *   D5: Death.
+    *   A6: Movie.
+    *   Number? Not really.
+
+    *   Let's stick to *28 Days Later*.
+
+    *   Wait, looking at `!y F11` (One) `+ G2` (Plus) `+ F11` (One) again.
+    *   What if the `G2` (Cross) means "X"?
+    *   `F11` (1) `X` `F11` (1)? No.
+    *   What if `G2` is just "Plus"? 1+1.
+
+    *   One more thought: *The 1st Day of Death*? No.
+    *   *One Day*? No.
+
+    *   Let's go with *28 Days Later*.

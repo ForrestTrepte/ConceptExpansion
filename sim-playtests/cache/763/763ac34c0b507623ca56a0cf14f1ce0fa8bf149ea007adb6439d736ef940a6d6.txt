@@ -1,0 +1,28 @@
+New prompt.
+
+Step 1, markers placed:
+?g A6
++ B5
+!r C13
+!y B5
+Board now:
+?g A6 | B5
+!r C13
+!y B5
+Guesses: Musical, Soundtrack, Disney movie
+Clue-giver: Yes: Soundtrack
+
+Step 2, markers placed:
+!b C9
++ C2
+!k A9
++ Red
++ White
+Board now:
+?g A6 | B5
+!r C13
+!y B5
+!b C9 | C2
+!k A9 | Red, White
+
+Give up to 3 guesses, best first, or pass.

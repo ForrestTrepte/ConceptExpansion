@@ -1,0 +1,62 @@
+*   `?g A1`: Main concept is an Object / Box.
+    *   `+ C9`: Related idea: Religion / Myth / Spirituality.
+    *   `+ C2`: Related idea: Feminine / Female.
+    *   `!r D5`: Red sub-concept is Death / Bad / Illness.
+    *   `+ E10`: Red sub-concept related to Inside / Internal.
+
+    *   Main concept: An object or box.
+    *   Traits/Associations:
+        *   Feminine (C2)
+        *   Religion/Spirituality (C9)
+        *   Death/Bad/Illness (D5)
+        *   Inside/Internal (E10)
+
+    *   *Idea 1: Coffin/Casket.* Is a coffin a box? Yes (A1). Is it associated with death (D5)? Yes. Is it associated with religion/spirituality (C9)? Yes. Is it "inside" (E10)? Not really "inside" in the way a component is, but maybe the person is inside? Does it have a "feminine" (C2) connection? Not necessarily, unless it's a specific type of box or there's a specific myth.
+    *   *Idea 2: Pandora's Box.* Is it a box (A1)? Yes. Is it religious/myth (C9)? Yes. Is it feminine (C2) - Pandora is a woman? Yes. Does it involve death/bad/illness (D5)? Yes (it releases evil/misery). Is it "inside" (E10)? The evils are *inside* the box.
+
+    *   `?g A1` (Box)
+    *   `+ C9` (Myth)
+    *   `+ C2` (Female - Pandora)
+    *   `!r D5` (Bad/Illness/Death)
+    *   `+ E10` (Inside - the evils are inside)
+
+    This fits "Pandora's Box" perfectly.
+
+    1. Pandora's box
+    2. Coffin
+    3. Reliquary (maybe too obscure?)
+
+    Let's stick to the most likely.
+
+    *   Pandora's Box (Strongest)
+    *   Coffin (Strong, but C2/C9/E10 are a bit of a stretch compared to Pandora)
+    *   Urn (Strong, but Pandora is better)
+
+    Wait, let's look at `!r D5 + E10` again.
+    The red sub-concept (a part/feature/related idea) is Death/Bad (D5) and Inside (E10).
+    Death/Bad is *inside* the box.
+    Pandora's Box contains "evils" (D5) which are *inside* (E10).
+
+    Let's try Pandora's box.
+
+    Guesses:
+    1. Pandora's box
+    2. Coffin
+    3. Grave
+
+    Actually, "Pandora's Box" is the most cohesive fit for all markers.
+
+    Let's refine:
+    ?g A1 (Box)
+    + C9 (Myth)
+    + C2 (Female)
+    !r D5 (Death/Bad)
+    + E10 (Inside)
+
+    Pandora is a female character from myth. Her box (object) has bad/evil things inside it.
+
+    1. Pandora's Box
+    2. Coffin
+    3. Tomb
+
+    Let's go with these.

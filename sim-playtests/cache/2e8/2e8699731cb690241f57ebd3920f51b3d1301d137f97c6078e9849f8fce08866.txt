@@ -1,0 +1,506 @@
+*   `?g B8`: Main Concept (green ?) is "Expression – Quote / Talking / Words".
+    *   `!r B8`: Red Sub-Concept (red !) is "Expression – Quote / Talking / Words".
+    *   `+ D14`: Red cube on D14 "Mouth / Taste".
+    *   `!y B9`: Yellow Sub-Concept (yellow !) is "Building / Monument / City".
+    *   `+ H10`: Yellow cube on H10 "Small / Low".
+
+    *   The main concept is a "Word/Expression/Quote/Talking".
+    *   The first sub-concept (red) is also "Word/Expression/Quote/Talking" and adds "Mouth/Taste". This suggests the word is spoken or related to the mouth.
+    *   The second sub-concept (yellow) is "Building/City" and is "Small/Low".
+
+    *   *Possibility 1:* A phrase or quote about a building or city that is small?
+    *   *Possibility 2:* A specific name of a place that is a "word/expression"? (Unlikely given B8).
+    *   *Possibility 3:* A "Small City" or "Small Building" that is also a phrase/quote?
+    *   *Possibility 4:* A proverb/quote about a city/building?
+    *   *Possibility 5:* "Manhattan"? No, B8 is the concept.
+    *   *Possibility 6:* "Little Italy"? (Small + City/Location + Phrase).
+    *   *Possibility 7:* "Small talk"? (Small + Talking).
+        *   `?g B8` (Talking)
+        *   `!r B8` (Talking)
+        *   `+ D14` (Mouth/Talking)
+        *   `!y B9` (City/Building - wait, "Small" is H10. Does "Small talk" fit "Building/City"?) - Actually, "Small talk" doesn't involve a building/city.
+    *   *Wait, let's re-evaluate the Yellow clue:*
+        *   `!y B9` (Building/Monument/City)
+        *   `+ H10` (Small/Low)
+        *   "Small Building"? "Small City"?
+    *   *Let's re-evaluate the Red clue:*
+        *   `!r B8` (Expression/Quote/Talking/Words)
+        *   `+ D14` (Mouth/Taste)
+        *   "A word from the mouth"? "Spoken word"?
+
+    *   *Combined:*
+        *   Main concept: A word/expression/quote.
+        *   Red sub: Related to talking/mouth.
+        *   Yellow sub: Related to a small/low building or city.
+
+    *   *Think of phrases/expressions/titles involving "Small" and "City/Building":*
+        *   "Small town"? (Small + City/Town - B9 covers City/Monument/Building).
+        *   Is "Small town" an expression/quote/phrase? Yes.
+        *   Does it involve talking? Maybe not directly, but B8 is the *type* of thing it is.
+        *   Wait, if the answer is "Small town", the main concept `?g B8` says the *thing itself* is a word or expression. "Small town" is a common phrase.
+
+    *   *Let's look at "Small town" again:*
+        *   `?g B8` (Expression/Phrase/Word) - Fits "Small town".
+        *   `!r B8` (Expression/Phrase) + `D14` (Mouth) - This is a bit weird. Why a mouth? Maybe it's "Small talk"?
+        *   If it's "Small talk":
+            *   `?g B8` (Expression/Phrase) - Yes.
+            *   `!r B8` (Expression/Phrase) + `D14` (Mouth/Taste) - Yes, you "talk" with your mouth.
+            *   `!y B9` (Building/City/Monument) + `H10` (Small/Low). Does "talk" have a connection to a building/city? No.
+
+    *   *Backtrack:*
+        *   `!y B9` (Building/City)
+        *   `+ H10` (Small)
+        *   Could the phrase be "City Hall"? No, that's not "small".
+        *   "Little White House"? No.
+        *   "Manhattan"? (Not a phrase).
+        *   "The Big Apple"? (Wait, "Big" is the opposite of H10).
+        *   "Small town"?
+            *   `?g B8` (Phrase/Expression)
+            *   `!y B9` (City/Building/Town)
+            *   `+ H10` (Small)
+            *   What about the Red clue? `!r B8` (Phrase) + `D14` (Mouth).
+            *   Maybe the phrase is "Small talk"? But B9 (Building/City) doesn't fit "Talk".
+
+    *   *Let's look at the combination of B8 (Expression) and B9 (Building/City) and H10 (Small) and D14 (Mouth).*
+        *   Could it be a specific quote?
+        *   Could it be "A little bird told me"? (No, B9 is City/Building).
+        *   Could it be "Wall Street"?
+            *   `?g B8` (Expression/Phrase) - Yes.
+            *   `!r B8` (Expression) + `D14` (Mouth/Taste) - "Street" isn't mouth.
+            *   `!y B9` (City/Building/Monument) + `D4` (Attack/Conflict/Weapon)? No.
+            *   Wait, "Wall" is C4.
+        *   Could it be "Manhattan"? (No).
+        *   What if the answer is a person? No, `?g B8` is Expression/Word.
+        *   What if the answer is "The White House"? (No, not an expression).
+
+    *   *Let's look at the Red clue again:* `!r B8` (Expression) + `D14` (Mouth/Taste).
+        *   Could the expression be "Sweet talk"?
+            *   `?g B8` (Expression) - Yes.
+            *   `!r B8` (Expression) + `D14` (Taste) - Yes! "Sweet" relates to taste.
+            *   `!y B9` (Building/City) + `H10` (Small/Low).
+            *   Does "Sweet talk" have a connection to a "Small Building/City"? Not really.
+
+    *   *Let's try "Small town" again:*
+        *   `?g B8` (Expression/Phrase)
+        *   `!y B9` (City/Building) + `H10` (Small)
+        *   `!r B8` (Expression/Phrase) + `D14` (Mouth).
+        *   Wait, if the expression is "Small talk", the `!y B9` (City/Building) doesn't work.
+
+    *   *What if the answer is "New York"?* (Not a phrase).
+
+    *   *Let's re-examine the clues very carefully:*
+        `?g B8` -> The answer is an expression, a quote, or a word.
+        `!r B8` -> Sub-concept is an expression, and it is related to `D14` (Mouth/Taste).
+        `!y B9` -> Sub-concept is a Building/City/Monument, and it is related to `H10` (Small/Low).
+
+        *Wait!* A "Small City/Building" that is an "Expression" and is related to "Mouth/Taste".
+        Is it "Little bit"? (No, B9).
+        Is it "Small talk"? (No, B9).
+        Is it "Speak of the devil"? (No, B9).
+        "Small wonder"? (No, B9).
+        "In a nutshell"?
+            *   `?g B8` (Expression/Phrase) - Yes.
+            *   `!y B9` (Building/City/Monument) - A nutshell? No, that's more of an object (A1).
+            *   `!r B8` (Expression) + `D14` (Mouth/Taste) - Nut/Taste.
+            *   Wait, is a nut a building/city? No.
+
+    *   *Let's rethink B9 (Building/City) and H10 (Small).*
+        *   "A little town"?
+        *   "Tiny house"?
+        *   "Small house"?
+        *   "Little White House"?
+        *   "The Pentagon"? (No).
+
+    *   *Is there an expression involving "Mouth" and "Small Building"?*
+        *   "Lip service"?
+            *   `?g B8` (Expression) - Yes.
+            *   `!r B8` (Expression) + `D14` (Mouth/Lips) - Yes!
+            *   `!y B9` (Building/City) + `H10` (Small/Low).
+            *   Does "Service" relate to B9/H10? No.
+
+    *   *Look at B9 again: Building / Monument / City.*
+        *   Could the answer be "City Hall"?
+        *   Could it be "Wall Street"?
+        *   Could it be "Empire State Building"?
+        *   Could it be "Mount Rushmore"?
+
+    *   *What about "Small fry"?* (No, B9).
+
+    *   *Let's try to find an expression that sounds like a small building/city.*
+        *   "Little Italy"? (City/Location).
+            *   `?g B8` (Expression/Name?) - It's a name.
+            *   `!y B9` (City/Location) + `H10` (Small/Little).
+            *   `!r B8` (Expression/Name) + `D14` (Mouth/Taste)? No.
+
+    *   *Wait!* `B8` can mean "Talking/Words". `D14` is "Mouth/Taste".
+        *   "Sweet talk"? (Doesn't fit B9).
+        *   "Salt of the earth"? (No, B9).
+        *   "A piece of cake"? (No, B9).
+        *   "Small wonder"? (No, B9).
+
+    *   *Let's look at B9/H10 again. Maybe it's a "Small monument" or "Small building"?*
+        *   "A little piece of...?"
+        *   "A small...?"
+
+    *   *What if the answer is "A small town"?*
+        *   `?g B8` (Expression/Phrase)
+        *   `!r B8` (Expression/Phrase) + `D14` (Mouth/Taste)? Maybe the phrase is spoken?
+        *   `!y B9` (City/Building) + `H10` (Small).
+
+    *   *Let's try another path. What phrase/word is "Small" + "City" + "Mouth"?*
+        *   Is it "Small wonder"? (No).
+        *   "Little bitty"? (No).
+        *   "Tiny"? (No).
+
+    *   *Wait!* "B8" is "Talking/Words". "B9" is "City/Building/Monument".
+        *   Could it be "London Bridge"? (No, B8 is the concept).
+        *   "The Big Apple"? (B9: City, H10: Small - No, Big).
+        *   "The Big Easy"? (New Orleans).
+
+    *   *Think about "B8" (Expression) and "B9" (City/Building).*
+        *   Is it "City speak"?
+        *   Is it "Urban legend"?
+            *   `?g B8` (Expression/Legend) - Yes.
+            *   `!r B8` (Expression) + `D14` (Mouth/Talking) - Yes, legends are spoken.
+            *   `!y B9` (City/Building) + `H10` (Small). Does "Urban" mean "Small building"? No, "Urban" means City. Does "Urban Legend" imply a small building? No.
+
+    *   *Wait, B9 is "Building/Monument/City".*
+        *   Maybe the answer is "Wall Street"?
+        *   Maybe the answer is "Wall"? (No, B8).
+
+    *   *Let's re-examine the red/yellow sub-concepts.*
+        *   Red: B8 (Words/Talking) + D14 (Mouth/Taste).
+        *   Yellow: B9 (Building/Monument/City) + H10 (Small/Low).
+
+    *   *Could it be "Little White House"?* No.
+    *   *Could it be "Small talk"?* No (B9).
+    *   *Could it be "Small fry"?* No.
+    *   *Could it be "Sweet talk"?* (Fits B8, B8, D14, but not B9).
+    *   *Could it be "Small-town"?* (Fits B8, B9, H10, but what about D14?)
+
+    *   *Wait, what if the answer is "A bit"?* (No).
+    *   *What if the answer is "The White House"?* (No).
+    *   *What if the answer is "A word"?* (No).
+
+    *   *Wait!* `B8` (Expression) + `D14` (Mouth) = "To say/speak/word".
+    *   `B9` (City/Building) + `H10` (Small) = "Small town/Small building".
+    *   Is there a phrase like "Small town gossip"?
+        *   `?g B8` (Expression/Phrase) - Yes.
+        *   `!r B8` (Expression) + `D14` (Mouth/Talking) - Yes, gossip is talking.
+        *   `!y B9` (City/Building) + `H10` (Small) - Yes, "small town".
+        *   This seems plausible.
+
+    *   *Let's check another one:* "Small town"?
+        *   `?g B8` (Phrase)
+        *   `!y B9` (City) + `H10` (Small)
+        *   `!r B8` (Phrase) + `D14` (Mouth) - This is the weak link. Why would "Small town" be linked to "Mouth/Taste"? Unless it's "Small talk"?
+
+    *   *Let's rethink "Small talk":*
+        *   `?g B8` (Phrase)
+        *   `!r B8` (Phrase) + `D14` (Mouth) - Perfect.
+        *   `!y B9` (City/Building) + `H10` (Small). Does "talk" connect to B9/H10?
+        *   Is there a "Small town" in B9? Yes. Is there a "Small building"? Yes.
+        *   Wait, "Small talk" is an expression/phrase. It involves "mouth" (speaking). It involves "small". But does it involve "building/city"? No.
+
+    *   *Is there any other phrase?*
+        *   "Speak of the devil"? (No).
+        *   "A small world"?
+            *   `?g B8` (Expression/Phrase) - Yes.
+            *   `!r B8` (Expression) + `D14` (Mouth)? (Not really).
+            *   `!y B9` (Building/City/Monument) + `H10` (Small)? (A world is big, but the phrase is "Small world").
+            *   Wait, `H10` is "Small". If the answer is "A small world":
+                *   `?g B8` (Expression)
+                *   `!y B9` (City/World/Monument) + `H10` (Small)
+                *   `!r B8` (Expression) + `D14` (Mouth)? (No).
+
+    *   *Let's look at B8 + D14 and B9 + H10 again.*
+        *   Could it be "Small town"?
+        *   Could it be "Little Italy"?
+        *   Could it be "City speak"?
+
+    *   *Wait!* What if the answer is "Mouthpiece"?
+        *   `?g B8` (Expression/Word) - A mouthpiece can be a spokesperson.
+        *   `!r B8` (Expression/Word) + `D14` (Mouth) - Yes.
+        *   `!y B9` (Building/City) + `H10` (Small). No.
+
+    *   *Let's try "Manhattan"?* (No, B8).
+
+    *   *What if the answer is "A building"?* (No, B8).
+
+    *   *Let's think about "B8" (Expression) and "B9" (City) and "D14" (Mouth).*
+        *   Is it "Urban legend"?
+        *   Is it "Small talk"?
+        *   Is it "Street talk"?
+            *   `?g B8` (Expression/Phrase) - Yes.
+            *   `!r B8` (Expression) + `D14` (Mouth) - Yes, talking.
+            *   `!y B9` (City/Building) + `H10` (Small)? No, "Street" is not necessarily small.
+
+    *   *Wait, "Street" is B12/B9?* No, B12 is road. B9 is City/Building.
+        *   If the phrase is "Street talk":
+            *   `?g B8` (Expression/Phrase)
+            *   `!r B8` (Expression) + `D14` (Mouth)
+            *   `!y B9` (City/Building) + `H10` (Small). (Does not fit).
+
+    *   *Let's try "Small town" again and see if D14 can fit.*
+        *   D14 is Mouth/Taste.
+        *   Is there a "Small town" expression involving taste? "Small talk"? (Wait, "Small talk" is a phrase).
+        *   If the answer is "Small talk":
+            *   `?g B8` (Expression)
+            *   `!r B8` (Expression) + `D14` (Mouth) - Perfect.
+            *   `!y B9` (City/Building) + `H10` (Small).
+            *   Wait, is "Talk" a building? No.
+            *   Is "Small" a building? No.
+
+    *   *Wait!* Is the answer "A small piece of cake"? (No, B8).
+
+    *   *Let's try: "A small wonder"?* (No).
+
+    *   *Let's look at the markers again. Is it possible the red and yellow are different sub-concepts?*
+        *   `!r B8` (Expression/Word) + `D14` (Mouth/Taste)
+        *   `!y B9` (Building/Monument/City) + `H10` (Small/Low)
+
+    *   *Could the answer be "Little White House"?* (No).
+    *   *Could it be "Capitol Hill"?* (No).
+    *   *Could it be "Small fry"?* (No).
+
+    *   *Let's look at "B9" (Building) and "D14" (Mouth).*
+        *   "Wall" (C4) + "Street" (B12/B9)?
+        *   "Lip" (D14) + "Service" (B1)?
+        *   "Mouth" + "something"?
+
+    *   *Wait, what if the answer is "Sweet talk"?*
+        *   `?g B8` (Expression)
+        *   `!r B8` (Expression) + `D14` (Taste/Sweet)
+        *   `!y B9` (Building/City) + `H10` (Small).
+        *   Does "Sweet" or "Talk" relate to a Small Building/City? No.
+
+    *   *What if the answer is "Small town"?*
+        *   `?g B8` (Expression/Phrase)
+        *   `!y B9` (City/Building) + `H10` (Small)
+        *   `!r B8` (Expression) + `D14` (Mouth/Taste)
+        *   Wait, is there a phrase "Small town" that is related to the mouth? Not really.
+
+    *   *Is there an expression like "The Little [Name of City]"?*
+        *   "The Big Apple"? (No, it's "Big").
+        *   "The Little [City]"?
+
+    *   *Wait!* "Small talk".
+        *   If the answer is "Small talk":
+        *   `?g B8` (Expression)
+        *   `!r B8` (Expression) + `D14` (Mouth)
+        *   `!y B9` (City) + `H10` (Small).
+        *   Could "Talk" be a "City/Building"? No.
+        *   Could "Small" be a "City/Building"? No.
+
+    *   *Let's try one more time. What is a "Small Building" that is an "Expression"?*
+        *   "A little cottage"?
+        *   "A small shack"?
+        *   "A small town"?
+
+    *   *Is it "Village"?* (No, B8).
+
+    *   *Wait, B8 is "Expression/Quote/Talking/Words".*
+        *   Could the answer be "A word"? (No).
+        *   Could it be "A quote"? (No).
+
+    *   *Let's think about the Red and Yellow clues together.*
+        *   `!r B8` + `D14` (Talking/Words + Mouth)
+        *   `!y B9` + `H10` (Building/City + Small)
+
+        *   Is there an expression that means a "small building" or "small city" and is "spoken"?
+        *   "Small talk"? (No, B9/H10).
+        *   "Small wonder"? (No).
+        *   "Small world"? (No, B9).
+        *   "A little bit"? (No, B9).
+
+    *   *Wait, is "B9" (Building/City) and "H10" (Small) a "Town"?*
+        *   If the answer is "Town"? (No, B8).
+        *   If the answer is "Small town"?
+        *   If "Small town" is the expression, how does it connect to "Mouth/Taste"?
+        *   Maybe the word "Town" is related to "Mouth"? No.
+        *   Maybe the word "Small" is related to "Mouth"? No.
+
+    *   *Let's try to find an expression involving "Mouth" and "City".*
+        *   "Lip service"? (No, B9).
+        *   "Street talk"? (No, B9).
+        *   "Urban legend"? (Maybe?)
+            *   `?g B8` (Expression/Legend)
+            *   `!r B8` (Expression) + `D14` (Mouth/Talking) - Yes.
+            *   `!y B9` (City/Urban) + `H10` (Small)? - No, "Urban" is the opposite of small.
+
+    *   *Wait!* "A little bit". (No).
+    *   *What about "Little bitty"?* (No).
+
+    *   *Could the answer be "Small town gossip"?* (Already considered).
+    *   *Could it be "Talk of the town"?*
+        *   `?g B8` (Expression/Phrase) - Yes.
+        *   `!r B8` (Expression) + `D14` (Mouth/Talking) - Yes.
+        *   `!y B9` (City/Town) + `H10` (Small)?
+        *   Wait, "Talk of the town" doesn't necessarily mean the town is *small*. But `H10` is "Small/Low".
+        *   Is there another expression? "Small town"? "Small wonder"?
+
+    *   *Let's try "Small talk" again.*
+        *   Maybe `!y B9` (City/Building) and `+ H10` (Small) is not "Small City", but the answer is "Small talk" and the clue `B9 + H10` is actually something else? No, the clues are what they are.
+
+    *   *Could the answer be "A little town"?* (No, B8).
+    *   *Could the answer be "Small talk"?* (Let's assume B9/H10 is "Small town" and see if "Small talk" works. No).
+
+    *   *What if "B8/D14" is "Mouth/Taste" and "B9/H10" is "Small City"?*
+        *   "Little Italy"? (No).
+        *   "Small fry"? (No).
+        *   "Small wonder"? (No).
+
+    *   *Wait, what is "D14" (Mouth/Taste) + "B8" (Expression)?*
+        *   "Sweet talk"?
+        *   "Sour grapes"?
+            *   `?g B8` (Expression/Phrase) - Yes.
+            *   `!r B8` (Expression) + `D14` (Taste) - Yes.
+            *   `!y B9` (Building/City) + `H10` (Small)? - No.
+
+    *   *Let's try "Small town" one more time.*
+        *   `?g B8` (Expression/Phrase)
+        *   `!y B9` (City) + `H10` (Small)
+        *   `!r B8` (Expression) + `D14` (Mouth)?
+        *   Wait, is "Town" a type of mouth? No.
+
+    *   *Is it "Little end of a big stick"?* (No).
+    *   *Is it "Small town gossip"?* (Maybe).
+
+    *   *Let's try to look for "Small" + "Building" + "Mouth/Taste".*
+        *   "Sweet home"? (No, B8).
+        *   "Sweet shop"? (No, B8).
+        *   "Small talk"? (Let's look at "Talk" and "Building" one more time).
+        *   Is there a building called "Talk"? No.
+
+    *   *Rethink:*
+        *   `?g B8`: Expression/Phrase
+        *   `!r B8` + `D14`: Talking + Mouth
+        *   `!y B9` + `H10`: Building + Small
+
+        *   "Small talk" (Phrase, Mouth, but no Building).
+        *   "Small town" (Phrase, Building, but no Mouth).
+        *   "Talk of the town" (Phrase, Mouth, Building, but no Small).
+        *   "Small town gossip" (Phrase, Mouth, Building, Small).
+
+    *   *Let's look for other "Small" + "City/Building" + "Mouth" expressions.*
+        *   "A little piece of the pie"? (No).
+        *   "Small town"?
+        *   "Little [Something]"?
+
+    *   *Wait, B8 is also "Words/Talking/Quote".*
+        *   "A little word"?
+        *   "A small word"?
+
+    *   *What if the answer is "Small talk"?* (The most common "Small" + "Talk" expression).
+    *   *What if the answer is "Small town"?* (The most common "Small" + "Town" expression).
+    *   *What if the answer is "Talk of the town"?* (The most common "Talk" + "Town" expression).
+
+    *   Let's look at "Small talk" one more time. Is there *any* way `B9` (Building/City/Monument) and `H10` (Small) could mean "Talk"? No.
+    *   Is there *any* way `B8` (Expression) and `D14` (Mouth) could mean "Town"? No.
+
+    *   Wait! `B9` is "Building/Monument/City". `H10` is "Small".
+    *   What about "A small church"? "A small house"?
+    *   What about "A little bit"? (No).
+
+    *   *Wait!* "Little" (H10/Small) + "White House" (B9/Building)?
+        *   `?g B8` (Expression/Phrase) - "The Little White House" is not really a phrase.
+        *   `!r B8` (Expression) + `D14` (Mouth)? - No.
+
+    *   *What if the answer is "Sweetheart"?* (No, B8).
+
+    *   *Let's try "Small town" as the first guess.*
+    *   *Let's try "Small talk" as the second guess.*
+    *   *Let's try "Talk of the town" as the third guess.*
+
+    *(Self-Correction):* Let's look at B8 (Expression) + D14 (Mouth) again. "Small talk" is a very strong candidate for that. "Small town" is a strong candidate for B9 + H10. "Talk of the town" combines both.
+
+    Wait! "Small talk". If the answer is "Small talk", then `!y B9` (Building/City/Monument) must be "talk". That's impossible.
+    If the answer is "Small town", then `!r B8` (Expression) + `D14` (Mouth) must be "town". That's impossible.
+
+    Wait... what if the answer is "Mouthpiece"? (Already tried).
+    What if the answer is "Little piece of..."?
+
+    Let's try "Small talk" and "Small town" and "Talk of the town".
+
+    Wait! `B8` is "Expression/Quote/Talking/Words".
+    What if the answer is "Small fry"? (No, B9).
+
+    *Wait, one more idea:* "A small bit of...". No.
+    "A little [something]"...
+
+    Let's look at B9 again. "Building / Monument / City".
+    Could it be "A small monument"? "A small building"?
+    Is there an expression "A small [something]"?
+
+    *Wait!* "Small talk".
+    *Wait!* "Small wonder".
+    *Wait!* "Small town".
+
+    Let's try "Small talk" first.
+
+    *Actually*, let's try "Talk of the town". It's the only one that uses both themes.
+    Theme 1: Expression/Talking/Mouth.
+    Theme 2: City/Building/Small.
+
+    *Wait!* "Talk of the town" doesn't have "Small".
+    Is there a phrase "Small talk of the town"? No.
+
+    Let's look at the clues one more time.
+    `?g B8` (Expression)
+    `!r B8` (Expression) + `D14` (Mouth)
+    `!y B9` (Building/City) + `H10` (Small)
+
+    Is it "Small talk"?
+    If "Small talk" is the answer:
+    - `?g B8` (Expression) - Yes.
+    - `!r B8` (Expression) + `D14` (Mouth) - Yes.
+    - `!y B9` (Building) + `H10` (Small) - *No!*
+
+    Is it "Small town"?
+    If "Small town" is the answer:
+    - `?g B8` (Expression) - Yes.
+    - `!y B9` (City/Building) + `H10` (Small) - Yes.
+    - `!r B8` (Expression) + `D14` (Mouth) - *No!*
+
+    Wait, there must be a phrase that fits all.
+    "Small town gossip"?
+    - `?g B8` (Expression/Phrase) - Yes.
+    - `!r B8` (Expression) + `D14` (Mouth/Talking) - Yes (Gossip is talking).
+    - `!y B9` (City/Building) + `H10` (Small) - Yes (Small town).
+
+    This fits perfectly!
+
+    Wait, another one: "Small talk".
+    - `?g B8` (Expression) - Yes.
+    - `!r B8` (Expression) + `D14` (Mouth) - Yes.
+    - `!y B9` (Building) + `H10` (Small) - *Only if "Talk" is a building/city, which it isn't.*
+
+    Another one: "Little Italy".
+    - `?g B8` (Expression/Name) - Yes.
+    - `!y B9` (City/Location) + `H10` (Small) - Yes.
+    - `!r B8` (Expression) + `D14` (Mouth) - *No.*
+
+    Let's try "Small town gossip" and "Small talk" and "Small town".
+
+    *Self-correction:* In Concept, the `?g` is the *category* of the answer. If the answer is "Small talk", the category `B8` (Expression/Word) is correct.
+
+    Let's try:
+    1. Small talk
+    2. Small town
+    3. Talk of the town
+
+    *Wait!* "Small talk" is more common. Let's look at B9 again. "Building / Monument / City".
+    Is "Talk" a "Building / Monument / City"? No.
+    Is "Small" a "Building / Monument / City"? No.
+
+    *Wait!* "Small wonder"? No.
+
+    Let me think... "Small town gossip" is a bit long for a single phrase in a game.
+    What about "Urban legend"?
+    `?g B8` (Expression)
+    `!r B8` (Expression) + `D14` (Mouth)
+    `!y B9` (City) + `H10` (Small)... No, "Urban" isn't small.
+
+    *Wait!* "Small town".
+    What if the answer is "Small town"?
+    `?

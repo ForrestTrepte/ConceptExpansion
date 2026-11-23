@@ -8,5 +8,5 @@ a person or character, a place, a title, an activity, or a common phrase or idio
   hunt for clever readings; react the way a person glancing at the board would.
 - Use the clue-giver's answers. After **Yes: \<guess\>**, that guess is on the right
   track. After **No**, none of your last guesses is it.
-- Pass only if nothing comes to mind.
+- To pass, give no guesses. Pass only if nothing comes to mind.
 - Give the guesses only, with no explanations.

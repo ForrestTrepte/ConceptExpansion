@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Look",
+    "Wink",
+    "Blink"
+  ]
+,
+"pass": false
+}

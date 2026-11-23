@@ -1,0 +1,260 @@
+*   `?g B8`: Main Concept is "Expression – Quote / Talking / Words".
+    *   `!r B8` (Red Sub-Concept):
+        *   `+ D14`: Mouth / Taste.
+        *   *Interpretation:* A thing related to words/expression involving the mouth.
+    *   `!y B9` (Yellow Sub-Concept):
+        *   `+ H10`: Small / Low.
+        *   *Interpretation:* A thing related to words/expression involving a small building/city/place.
+    *   `+y B1`: (Added in Step 3) Human / Society / Group.
+        *   *Interpretation:* The yellow group (related to small place/building) now also includes "Human / Society / Group".
+
+    *   `?g B8`: Words/Expression.
+    *   `!r B8`: Mouth (Red group).
+    *   `!y B9`: Small (Yellow group) + Building/City + Human/Society.
+
+    *   *Round 1:* "Small talk", "Small world", "Small town" -> **No**. (Eliminates "Small" + "Talk" or "Small" + "World/Town" as the direct answer).
+    *   *Round 2:* "Dialect", "Accent", "Slang" -> **No**. (Eliminates linguistic variations).
+    *   *Round 3:* Added `+g B1` (Human/Society) and `+ E9` (Multitude/Cluster).
+        *   The Main Concept is still "Words/Expression".
+        *   The Red Group is "Words/Expression" and "Mouth".
+        *   The Yellow Group is "Small" + "Building/City" + "Human/Society".
+
+    *   *Main concept:* Words/Expression.
+    *   *Red:* Mouth/Talking.
+    *   *Yellow:* A small building/city/place + Human/Society + Small.
+    *   *Wait, looking at the notation again:*
+        *   Step 1: `?g B8` (Main: Expression). `!r B8` (Red: Expression) + `D14` (Mouth). `!y B9` (Yellow: Building/City) + `H10` (Small).
+        *   Step 2: `+g B1` (Green cube: Human/Society) + `E9` (Green cube: Multitude/Cluster).
+        *   Step 3: `+y B1` (Yellow cube: Human/Society).
+
+    *   *Re-evaluating the associations:*
+        *   The Main Concept is `B8` (Expression/Talking).
+        *   The Red group is `B8` (Expression) and `D14` (Mouth).
+        *   The Yellow group is `B9` (Building/City), `H10` (Small), and `B1` (Human/Society).
+        *   The Green group (Main Concept details) is `B1` (Human/Society) and `E9` (Multitude/Cluster).
+
+    *   *Synthesis:*
+        *   Something related to talking/expression (B8).
+        *   Involving the mouth (D14).
+        *   Associated with a small human society or small buildings (B9, H10, B1).
+        *   Involves many people/clusters (E9).
+
+    *   *Hypothesis 1:* A joke? A proverb? A rumor?
+    *   *Hypothesis 2:* A specific type of speech or word?
+    *   *Hypothesis 3:* "Gossip"? "Rumor"? "Chatter"?
+    *   *Hypothesis 4:* "Whisper"?
+    *   *Hypothesis 5:* "Lullaby"? (No, B8 is expression).
+    *   *Hypothesis 6:* A "Secret"? (But B8 is expression, and it's about many people/society).
+
+    *Let's look at the Yellow group again:* `B9` (Building/City), `H10` (Small), `B1` (Society).
+    A "Small City" + "Society" + "Expression".
+    Maybe a "Language"? (Already tried dialect/accent/slang - No).
+
+    *Let's look at the Green Group (Main Concept Details):* `B1` (Human/Society) and `E9` (Multitude/Cluster).
+    The "Main Concept" is "Expression".
+    The expression involves a "Multitude of Humans/Society".
+    Red: Mouth.
+    Yellow: Small Building/City.
+
+    Could it be **"Gossip"**?
+    Gossip is expression (B8).
+    It involves the mouth (D14).
+    It involves a multitude of people (E9, B1).
+    Often associated with a "small town" (B9, H10), but "Small town" was rejected. However, the concept of "Gossip" is a thing.
+
+    Could it be **"Lies"**?
+    Could it be **"Story"**?
+    Could it be **"News"**?
+
+    Wait, let's look at "Small town" again. The user guessed "Small town" and the clue-giver said "No".
+    Maybe the answer is **"Rumor"**?
+    A rumor is an expression (B8), comes from the mouth (D14), spreads through a multitude of people (E9, B1), and is often associated with small places/societies (B9, H10).
+
+    What about **"A secret"**?
+    What about **"A joke"**?
+
+    Let's re-examine `B8` (Expression) + `B1` (Human/Society) + `E9` (Multitude/Cluster) + `H10` (Small) + `B9` (Building/City).
+    Maybe it's **"A rumor"**?
+    Maybe it's **"A legend"**?
+
+    What if the answer is **"A song"**? (No, B8 is expression/talking).
+    What if it is **"A myth"**?
+    What if it is **"A poem"**?
+
+    Let's try to find a phrase.
+    "Small talk" was No.
+    "Small town" was No.
+    "Dialect" was No.
+
+    Wait, look at the Yellow group again: `B9` (Building/City), `H10` (Small), `B1` (Human/Society).
+    `B9` is Building/Monument/City.
+    `H10` is Small.
+    `B1` is Human/Society.
+    `B8` is Expression.
+    `D14` is Mouth.
+    `E9` is Multitude.
+
+    Could it be **"Gossip"**? It fits the "multitude of people" and "mouth" and "expression".
+    Could it be **"Rumor"**?
+    Could it be **"Chatter"**?
+
+    Let's think about "Small" + "City" + "Society" + "Expression".
+    **"A rumor"**?
+    **"A legend"**?
+    **"A proverb"**?
+
+    What if the answer is **"A Secret"**?
+    Actually, the clue "Small town" was "No". This implies the answer isn't "Small town", but "Small" and "Town" are clues.
+
+    How about **"A whisper"**?
+    How about **"A riddle"**?
+
+    Let's think about the "Small" part. `H10` is Small.
+    `B9` is Building.
+    `B1` is Society.
+    `B8` is Expression.
+    `D14` is Mouth.
+    `E9` is Multitude.
+
+    Could it be **"A rumor"**?
+    Could it be **"Gossip"**?
+    Could it be **"A scandal"**?
+
+    Let's consider the possibility of a person or character? `?g B8` is the main concept, which is "Expression". So it's a word or concept.
+
+    What if it's **"A gossip"** (the person)? No, B8 is the expression itself.
+    What if it's **"A poem"**?
+    What if it's **"A story"**?
+
+    Let's look at the Yellow group again: `B9` (Building/City) + `H10` (Small) + `B1` (Human/Society).
+    Could the answer be **"A rumor"**?
+    A rumor is an expression (`B8`).
+    It is spread by the mouth (`D14`).
+    It involves a multitude of people (`E9`, `B1`).
+    It often happens in a small place/city (`B9`, `H10`).
+
+    Wait, what about **"A joke"**?
+    What about **"A song"**? (B5 is song, B8 is expression).
+
+    Let's try to think of words for "talking" that fit "small/city/society".
+    **"Gossip"** seems the strongest.
+    **"Rumor"** is also strong.
+    **"Legend"**?
+
+    Let's try to refine.
+    `?g B8` (Expression)
+    `!r B8` (Expression) + `D14` (Mouth)
+    `!y B9` (Building) + `H10` (Small) + `B1` (Society)
+    `+g B1` (Society) + `E9` (Multitude)
+
+    If the answer is **"Gossip"**:
+    Expression? Yes.
+    Mouth? Yes.
+    Small building/city/society? (Small-town gossip).
+    Multitude/Cluster? Yes (spreads).
+
+    If the answer is **"A rumor"**:
+    Expression? Yes.
+    Mouth? Yes.
+    Small city/society? (Rumors in a small town/city).
+    Multitude? Yes.
+
+    What about **"A secret"**?
+    A secret is often a single piece of info, but "multitude/cluster" might suggest it's not.
+
+    What about **"A myth"**?
+    What about **"A proverb"**?
+
+    Let's try to see if there's a common phrase.
+    **"Small talk"** was No.
+    **"Small world"** was No.
+
+    Is there a word for a "Small city/society expression"?
+    Maybe **"A rumor"**?
+
+    Let's try a different angle. `B9` (Building/City/Monument).
+    Could it be **"A slogan"**?
+    Could it be **"A name"**?
+
+    How about **"A rumor"**, **"Gossip"**, **"A legend"**?
+
+    Let's look at `E9` again: Fragment / Multitude / Cluster.
+    And `B1`: Human / Society.
+    And `B9`: Building / Monument / City.
+    And `H10`: Small.
+    And `B8`: Expression.
+    And `D14`: Mouth.
+
+    Is it **"A gossip"**? (Person). No, `?g B8` is Expression.
+    Is it **"A rumor"**?
+    Is it **"Gossip"**?
+    Is it **"A scandal"**?
+
+    Let's think if there's anything else.
+    **"A whisper"**?
+    **"A secret"**?
+
+    What if the "Small Building/City" refers to a "Village"?
+    **"Village gossip"**? (No, the answer is usually a single word or phrase).
+    **"Gossip"**?
+
+    Let's try **"Gossip"**, **"Rumor"**, **"A legend"**.
+
+    One more thought: `B8` is also "Quote/Talking/Words".
+    `B9` is "Building/Monument/City".
+    Could it be **"A monument"**? No, B8 is the main concept.
+    Could it be **"A slogan"**?
+    Could it be **"A speech"**? (A speech is an expression, involves the mouth, involves a multitude of people, but "small city/building"? Not really).
+
+    What about **"A joke"**?
+    What about **"A story"**?
+
+    Let's go with **Gossip**, **Rumor**, and **Legend**. (Actually, let's try **Gossip** and **Rumor**).
+
+    Wait, "Small talk" was a guess. "Small" is a clue.
+    "Small town" was a guess. "Town" is a clue.
+    "Dialect/Accent" was a guess. "Expression" is a clue.
+
+    What if the answer is **"A rumor"**?
+    A rumor is often called "Small town gossip"? No.
+    What about **"A myth"**?
+
+    Let's try:
+    1. Gossip
+    2. Rumor
+    3. A legend
+
+    (Self-correction: "Gossip" and "Rumor" are very similar. Let's see if there's anything else. Could it be **"A proverb"**? A proverb is a small/short expression... but `B9` is a building/city. Maybe the answer is **"A joke"**? A joke is an expression, uses the mouth, can be small... but "building/city/society"? No.)
+
+    Wait! `B9` is Building/Monument/City. `B1` is Human/Society. `H10` is Small.
+    Could it be **"A landmark"**? No, B8 is Expression.
+    Could it be **"A name"**?
+    Could it be **"A story"**?
+
+    Let's look at `E9` (Multitude/Cluster/Fragment).
+    Could the answer be **"A rumor"**?
+    A rumor is a fragment of truth? It spreads through a multitude of people?
+    It's a "Small-town" thing?
+
+    Let's try **Gossip**, **Rumor**, **A story**.
+
+    Wait, I just noticed something.
+    `!y B9` (Yellow: Building/City)
+    `+ H10` (Small)
+    `+ B1` (Society)
+    These are in the *same* group (Yellow).
+    So the Yellow group is "Small Building/City/Society".
+    The Red group is "Expression" + "Mouth".
+    The Green group is "Expression" + "Human/Society" + "Multitude".
+
+    If the answer is **"Gossip"**:
+    It's an expression (`B8`).
+    It involves a multitude of humans (`E9`, `B1`).
+    It's spread by mouth (`D14`).
+    It's associated with small towns/societies (`B9`, `H10`, `B1`).
+
+    If the answer is **"A rumor"**:
+    Same logic.
+
+    What else? **"A myth"**? **"A legend"**?
+    Let's go with **Gossip**, **Rumor**, **A legend**.

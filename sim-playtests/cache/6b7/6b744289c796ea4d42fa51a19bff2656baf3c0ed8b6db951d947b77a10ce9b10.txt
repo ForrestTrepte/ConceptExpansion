@@ -1,0 +1,36 @@
+*   `?g` (Main Concept) is missing, but the notation says `+g E2` and `+ D4`. Wait, the notation provided says:
+        `+g E2 [cube on the stars in the picture]`
+        `+ D4`
+    *   Looking at the notation rules:
+        *   `?g A4` means place the Main Concept pawn on A4.
+        *   `+ B11` means place a cube on B11 in the same group as the line before.
+        *   `+g G14` means place a cube on G14 in group g.
+    *   The user wrote `+g E2` and `+ D4`. This is slightly non-standard notation compared to the instructions (usually the pawn `?g` is placed first), but the context clarifies:
+        *   Group `g` (Main Concept) has cubes on `E2` and `D4`.
+        *   `E2` = Night – Evening / Space / Moon – Star.
+        *   `D4` = Attack / Conflict – Combat / Weapon.
+    *   The "Board now" section clarifies: `g (no pawn) | E2, D4`.
+    *   Wait, the notation `+g E2` implies a cube is being added to group `g`.
+    *   Since there is no `?g` (Main Concept pawn), the guesser doesn't know *what* kind of thing it is (is it an object? a person? a place?).
+    *   The clues are:
+        1.  `E2`: Night, Moon, Stars, Space.
+        2.  `D4`: Attack, Conflict, Combat, Weapon.
+
+    *   Space + Combat/Weapon -> Star Wars? War in space? An astronaut in combat?
+    *   Night/Moon + Attack/Weapon -> Moon invasion?
+    *   Common phrase/title involving space and fighting/war.
+
+    *   "Star Wars" (Title)
+    *   "War in space"
+    *   "Moon invasion"
+    *   "Astronaut" (but that's a person, and the clues are more about the setting and action)
+    *   "Alien invasion" (if E2 is seen as space)
+
+    *   `E2` (Space/Night/Moon/Star) + `D4` (Attack/Conflict/Weapon).
+    *   If the answer is a title: "Star Wars" fits perfectly.
+    *   If the answer is an event: "Space war".
+    *   If the answer is an object: "Laser"? (Maybe, but E2 is more about the environment).
+
+    1. Star Wars
+    2. Space war
+    3. Moon invasion

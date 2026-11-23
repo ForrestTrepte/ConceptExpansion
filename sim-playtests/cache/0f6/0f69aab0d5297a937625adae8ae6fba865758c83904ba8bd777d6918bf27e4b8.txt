@@ -1,0 +1,328 @@
+*   `?g B7`: Main concept is a Title/Brand/Name.
+    *   `+ F10`: (Sub-concept group `g`) Cube on F10 (Grid/Network/Wire).
+    *   `+ C7`: (Sub-concept group `g`) Cube on C7 (Electronic/Computing).
+    *   `!r B8`: Red Sub-concept is an Expression/Quote/Words/Talking.
+    *   `+ F10`: (Sub-concept group `r`) Cube on F10 (Grid/Network/Wire).
+    *   `+ A7`: (Sub-concept group `r`) Cube on A7 (Television/Program/Show).
+
+    *   Main Concept (`?g`): A Title/Brand/Name.
+    *   Attributes of the Title (`g` cubes): Related to Grid/Network and Electronic/Computing.
+    *   Related idea (`!r` red): Related to Words/Quotes/Talking and also a Television/Program/Show and a Grid/Network/Wire.
+
+    *   A Title (Brand/Name) that is Electronic/Computing/Grid-based.
+    *   A related idea involving Words/Talking and Television/Shows and a Grid/Network.
+
+    *   *Possibility 1: "The Matrix"*
+        *   Title? Yes.
+        *   Electronic/Computing/Grid/Network? Yes (The Matrix is a computer simulation).
+        *   Television/Program/Show? It's a movie/franchise.
+        *   Words/Talking/Quote? "There is no spoon", etc.
+        *   Grid? The digital world looks like a grid.
+
+    *   *Possibility 2: "The Internet"* (Not a title/brand in the same way, but maybe?)
+        *   Title/Brand? Not really a title.
+
+    *   *Possibility 3: "Silicon Valley"* (TV Show)
+        *   Title? Yes.
+        *   Electronic/Computing? Yes.
+        *   TV Program? Yes.
+        *   Grid/Network? The tech world is connected.
+
+    *   *Possibility 4: "Twitter" or "X"*
+        *   Title/Brand? Yes.
+        *   Electronic/Computing? Yes.
+        *   Network? Yes.
+        *   Words/Talking? Yes (tweets/words/talking).
+        *   Television/Program/Show? No.
+
+    *   *Possibility 5: "The Grid" (from Tron)*
+        *   Title? Yes.
+        *   Electronic/Computing/Grid? Yes.
+        *   TV Show? It's a movie/concept.
+
+    *   *Possibility 6: "Wikipedia"*? No.
+
+    *   *Possibility 7: "CNN" or a News program?*
+        *   TV Show? Yes.
+        *   Network? Yes.
+        *   Words/Talking? Yes.
+        *   Computing/Grid? Not central.
+
+    *   *Possibility 8: "The Sims"?* No.
+
+    *   *Let's look at the combination of `!r B8`, `+ F10`, `+ A7` again.*
+        *   Red sub-concept: Words/Talking + Grid/Network + Television/Program.
+        *   A "Network" that is a "TV Program" and involves "Talking/Words".
+        *   "The News"?
+        *   "CNN"?
+        *   "BBC"?
+        *   "Netflix"?
+
+    *   *Wait, look at the main concept `?g B7` (Title/Brand) + `g F10` (Grid/Network) + `g C7` (Electronic).*
+        *   The title is a "Network" and "Electronic".
+        *   The related thing is "Words/Talking" and "Television Program" and "Grid/Network".
+
+    *   Could it be "The Internet"? (Often described as a network, though it's not a title/brand).
+    *   Could it be "Facebook"?
+        *   Brand/Title? Yes.
+        *   Electronic/Computing? Yes.
+        *   Network? Yes.
+        *   Words/Talking/Show? Not really a TV show.
+
+    *   What about "The Grid"? Or "The Matrix"?
+
+    *   Let's try "The Matrix" or "Silicon Valley".
+    *   Wait, "The News Network"?
+    *   What about "The Word"? No.
+
+    *   Let's re-examine `!r B8` (Words) + `F10` (Grid) + `A7` (TV).
+        *   A TV show/program about a network or grid and words.
+        *   Maybe "The Wire"? (A TV show, uses the word "Wire" which relates to `F10` Grid/Network/Wire).
+        *   Is "The Wire" a Title? Yes.
+        *   Is it Electronic/Computing? Not really.
+
+    *   Let's try another angle. `?g B7` (Title) + `g F10` (Grid) + `g C7` (Electronic).
+        *   The title is a computing/grid thing.
+        *   `!r B8` (Words) + `F10` (Grid) + `A7` (TV).
+        *   A TV program about a network/grid/words.
+
+    *   Could it be "Twitch"? (Brand, Electronic, Network, Video/TV).
+    *   Could it be "YouTube"? (Brand, Electronic, Video/TV, Network).
+
+    *   What about "The News"?
+    *   What about "Twitter"?
+
+    *   Let's look at the red subconcept again: `B8` (Words/Quotes) + `F10` (Grid/Network) + `A7` (TV Show).
+    *   A TV show consisting of words/quotes on a grid/network?
+    *   "The Alphabet"? No.
+    *   "Wordle"? (Not a TV show).
+
+    *   Let's rethink the "Grid/Network" (F10) and "Electronic/Computing" (C7).
+        *   A Brand/Title that is a Computing Network.
+        *   And a related idea of a TV Show (A7) about Words (B8) on a Grid (F10).
+
+    *   Wait... "The Matrix".
+        *   `?g B7` (Title)
+        *   `+ F10` (Grid/Network)
+        *   `+ C7` (Computing)
+        *   `!r B8` (Words/Quotes - "There is no spoon")
+        *   `+ F10` (Grid/Network)
+        *   `+ A7` (TV? The Matrix isn't a TV show, but maybe the clue-giver sees it as "Media/Show"?)
+
+    *   Wait, "The Internet"?
+        *   `?g B7` (Brand/Title? Not exactly, but often used as a name).
+        *   `+ F10` (Grid/Network).
+        *   `+ C7` (Computing).
+        *   `!r B8` (Words/Talking/Quotes).
+        *   `+ A7` (TV/Program/Show? Not really).
+
+    *   What about "Wikipedia"? (Not a TV show).
+
+    *   Let's look at the "Red" group again. `B8` (Words), `F10` (Grid/Network), `A7` (TV/Show).
+    *   Is there a show called "The Net"? Or "The Wire"?
+    *   "The Wire" is a TV show. "Wire" means a network/grid (F10).
+    *   "The Wire" (Title B7).
+    *   "The Wire" (Computing/Electronic? Not really, unless they mean the literal wire/electronics).
+    *   "Words" (B8) - The dialogue in the show is famous?
+
+    *   Let's try "The Matrix".
+    *   Let's try "Silicon Valley".
+    *   Let's try "The Internet".
+
+    *   Actually, let's look at `F10` (Grid/Network) and `C7` (Electronic/Computing) and `A7` (TV/Show) and `B8` (Words/Quotes).
+    *   Could it be "CNN"? (Brand/Title, Network, Electronic, TV Show, Words/Talking).
+    *   "BBC"?
+    *   "Fox News"?
+
+    *   What about "The Grid"?
+    *   What about "Twitter"? (Brand, Electronic, Network, Words/Talking).
+
+    *   Let's try a different approach. Is there a specific brand/title that is a "Computing Network" and a "TV Show"?
+    *   "The Simpsons"? No.
+
+    *   Wait, `?g B7` (Title) + `g F10` (Grid) + `g C7` (Electronic).
+    *   Maybe it's "The Internet".
+    *   Maybe it's "Google".
+    *   Maybe it's "Facebook".
+
+    *   Let's try "The Matrix" as my first guess. It fits "Title", "Computing", "Grid", "Words/Quotes". The "TV Show" part is the weakest link, but in Concept, people often use "TV/Show" to mean "Media/Cinema/Entertainment".
+
+    *   Wait! "The Grid" is a place in Tron.
+    *   What about "The Internet"?
+    *   What about "Star Trek"? (No).
+
+    *   Let's reconsider the `!r` group: `B8` (Words), `F10` (Network), `A7` (TV).
+    *   A "Network" that is a "TV Program" and "Words".
+    *   Could it be "The News"?
+    *   Could it be "BBC"?
+
+    *   Actually, "The Matrix" is a very strong candidate for a title that is a computing network/grid.
+    *   "Silicon Valley" is also strong.
+
+    *   Let's try:
+        1. The Matrix
+        2. Silicon Valley
+        3. The Internet
+
+    *   Actually, let's look at `C7` (Computing) and `F10` (Grid/Network) and `B7` (Title).
+    *   Could it be "The Net"? (A movie/title).
+
+    *   Let's look at `A7` (TV Show) and `B8` (Words) again.
+    *   "Wordle"? No.
+    *   "Jeopardy"? (Title, TV show, Words, Grid/Network? Not really).
+
+    *   What about "Facebook"?
+        *   Brand (B7).
+        *   Computing (C7).
+        *   Network (F10).
+        *   Words (B8) - it's about words/status.
+        *   TV (A7)? No.
+
+    *   Wait, "The News"?
+    *   "A News Network"?
+
+    *   Let's think: A brand (B7) that is a network (F10) and electronic (C7).
+    *   The related idea is a TV show (A7) that is about words (B8) and a network (F10).
+    *   Is there a show called "The Network"?
+    *   Is there a show called "The Wire"?
+
+    *   Let's try "The Matrix". It's a classic Concept answer.
+
+    *   Wait, looking at the icons again.
+    *   `F10` is "Grid / Network / Wire".
+    *   `C7` is "Electronic / Computing".
+    *   `B8` is "Words / Quotes".
+    *   `A7` is "TV / Program / Show".
+    *   `B7` is "Title / Brand / Name".
+
+    *   Is it "Twitter"?
+    *   Is it "The Internet"?
+    *   Is it "The Matrix"?
+    *   Is it "The Wire"?
+
+    *   Let's try:
+        1. The Matrix
+        2. The Internet
+        3. Silicon Valley
+
+    *   Wait, `F10` is also "Wire".
+    *   "The Wire" (TV Show).
+    *   `?g B7` (Title) + `g F10` (Wire/Grid) + `g C7` (Electronic).
+    *   "The Wire" is a title. It's a network (F10). Is it electronic (C7)? A wire is a part of electronics.
+    *   `!r B8` (Words) + `F10` (Network) + `A7` (TV).
+    *   "The Wire" is a TV show about a network (of drugs/police/wires).
+
+    *   Let's try "The Matrix" first. It's more "Electronic/Computing".
+
+    *   Wait, what if it's "Google"? No.
+    *   What if it's "Facebook"?
+
+    *   Let's go with:
+        1. The Matrix
+        2. The Internet
+        3. Silicon Valley
+
+    *   Actually, "The Matrix" is a movie, not a TV show. But `A7` is a sub-concept. The sub-concept is "related to the answer". If the answer is The Matrix, the sub-concept "TV Show" might be there to represent "Entertainment/Media" or the person thinks it's a TV show.
+
+    *   Wait, another one: "The Net"? (A title).
+    *   "The Net" (F10 Grid/Network).
+    *   "The Net" (C7 Electronic/Computing).
+    *   "The Net" (A7 TV Show? It's a movie).
+
+    *   Let's try "The Matrix" and "The Internet" and "The Wire".
+
+    *   Actually, let's look at `B8` again: "Expression / Quote / Talking / Words".
+    *   "The Matrix" has very famous quotes.
+    *   "The Wire" is a TV show (A7).
+    *   Is "The Wire" a computing thing? Not really.
+
+    *   Let's try:
+        1. The Matrix
+        2. The Internet
+        3. The Wire
+
+    *   One more thought: "The Grid"? (No).
+    *   "Twitch"? (Brand, Electronic, Network, TV/Show).
+
+    *   Let's try "The Matrix".
+
+    *   Wait! `?g B7` (Title/Brand/Name).
+    *   `+ F10` (Grid/Network).
+    *   `+ C7` (Electronic/Computing).
+    *   `!r B8` (Words/Quotes).
+    *   `+ F10` (Grid/Network).
+    *   `+ A7` (TV Show).
+
+    *   "The Matrix" fits "Title", "Grid", "Computing", "Quotes".
+    *   "The Internet" fits "Network", "Computing".
+    *   "Twitter" fits "Title/Brand", "Electronic", "Network", "Words".
+
+    *   Let's try "The Matrix" first.
+
+    *   *Self-Correction:* Let's look at `F10` again. It's "Grille / Network / Grid".
+    *   Could it be "The Internet"?
+    *   Could it be "Wikipedia"?
+    *   Could it be "Google"?
+    *   Could it be "Facebook"?
+
+    *   Let's try "The Matrix" and "The Internet" and "Twitter".
+
+    *   Actually, "The Wire" is a very strong candidate for `A7` (TV Show) + `F10` (Network/Wire).
+    *   If the answer is "The Wire", how does `C7` (Computing) fit? Maybe it's "The Wire" (a real wire)? But `C7` is computing.
+    *   Is there a show called "The Net"? Or "The Grid"?
+
+    *   Let's try:
+        1. The Matrix
+        2. The Internet
+        3. The Wire
+
+    *   Wait, one more: "CNN".
+        *   Title/Brand (B7).
+        *   Network (F10).
+        *   Electronic/Computing (C7)? A news network uses it.
+        *   Words/Talking (B8).
+        *   TV Show/Program (A7).
+        *   This is a very strong fit for a "Network" that is "Electronic" and "TV".
+
+    *   Let's go with:
+        1. The Matrix
+        2. CNN
+        3. The Internet
+
+    *   Actually, "The Matrix" is more likely for `C7` (Computing).
+
+    *   Let's try:
+        1. The Matrix
+        2. The Internet
+        3. CNN
+
+    *   Final check:
+        `?g B7` Title
+        `g F10` Grid/Network
+        `g C7` Electronic/Computing
+        `!r B8` Words/Quotes
+        `r F10` Network
+        `r A7` TV Show
+
+    *   If the answer is "The Matrix":
+        - Title? Yes.
+        - Network/Grid? Yes (the digital world).
+        - Computing? Yes.
+        - Quotes? Yes.
+        - TV/Show? (Maybe the person thinks it's a TV show or is using it for "Media").
+
+    *   If the answer is "CNN":
+        - Title/Brand? Yes.
+        - Network? Yes.
+        - Computing? (A bit of a stretch, but it's a digital network).
+        - Words/Talking? Yes.
+        - TV Show? Yes.
+
+    *   If the answer is "The Internet":
+        - Title/Brand? (Not really, but...).
+        - Network? Yes.
+        - Computing? Yes.
+        - Words/Talking? Yes.
+        - TV Show? No.
+
+    *   Let's try "The Matrix" as the primary guess.

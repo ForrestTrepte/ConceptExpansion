@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Small talk",
+    "Small world",
+    "Small town"
+  ]
+,
+  "pass": false
+}

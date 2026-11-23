@@ -1,0 +1,86 @@
+*   `?g A5`: Main Concept is Literature / Writing / Book.
+    *   `+ C1`: Details for the main concept include Baby / Child / Young / New.
+    *   `!r Green`: Sub-Concept 1 (Red/Green): Color Green is present.
+    *   `!y A14`: Sub-Concept 2 (Yellow): Food / Eating / Edible.
+    *   `+ Green`: Details for yellow sub-concept include Color Green.
+    *   `!b A14`: Sub-Concept 3 (Blue): Food / Eating / Edible.
+    *   `+ D12`: Details for blue sub-concept include Leg / Foot.
+
+    *   Main concept: A book/writing about something young/new.
+    *   Sub-concept 1 (Red): Green.
+    *   Sub-concept 2 (Yellow): Green + Food.
+    *   Sub-concept 3 (Blue): Food + Leg/Foot.
+
+    *Refining the connections:*
+    *   `?g A5` (Book) + `C1` (Child/Young) $\rightarrow$ Children's book.
+    *   `!r Green` $\rightarrow$ Green.
+    *   `!y A14` (Food) + `Green` $\rightarrow$ Green food (maybe?).
+    *   `!b A14` (Food) + `D12` (Leg) $\rightarrow$ Food involving a leg? Or a leg as part of the food?
+
+    Wait, look at the markers again.
+    `?g A5` (Book)
+    `+ C1` (Child/Young)
+    `!r Green` (Red group has Green swatch)
+    `!y A14` (Yellow group has Food)
+    `+ Green` (Yellow group has Green swatch)
+    `!b A14` (Blue group has Food)
+    `+ D12` (Blue group has Leg)
+
+    Let's rethink the associations.
+    `?g A5 + C1`: Children's book.
+    `!r Green`: The book is green? Or the characters are green?
+    `!y A14 + Green`: Green food.
+    `!b A14 + D12`: Food with a leg.
+
+    Is it a specific children's book?
+    Green food + Leg... Green eggs and ham?
+    Let's check "Green Eggs and Ham":
+    - Is it a book? Yes (`A5`).
+    - Is it for children/young? Yes (`C1`).
+    - Is it green? Yes (`Green`).
+    - Is it food? Yes (`A14`).
+    - Is there a leg? Ham is a leg (of a pig). (`D12`).
+
+    *Check markers against "Green Eggs and Ham":*
+    `?g A5` (Book)
+    `+ C1` (Children's)
+    `!r Green` (The color green)
+    `!y A14` (Food) + `Green` (Green food)
+    `!b A14` (Food) + `D12` (Leg - ham)
+
+    This matches perfectly.
+
+    1. Green Eggs and Ham
+    2. The Very Hungry Caterpillar (Green, Food, but leg?)
+    3. Peter Rabbit (Green, but food?)
+
+    "Green Eggs and Ham" fits the "Food + Leg" and "Green + Food" clues very specifically.
+
+    *Wait, let's double check the markers for `!b A14 + D12`.*
+    `!b A14` (Blue group: Food)
+    `+ D12` (Blue group: Leg)
+    Food that is a leg. Ham.
+
+    *Wait, let's check `!y A14 + Green`.*
+    `!y A14` (Yellow group: Food)
+    `+ Green` (Yellow group: Green)
+    Green food. Eggs? Green eggs.
+
+    *Wait, let's check `!r Green`.*
+    Red group: Green.
+    Just says "Green".
+
+    Everything points to "Green Eggs and Ham".
+
+    Guesses:
+    1. Green Eggs and Ham
+    2. The Very Hungry Caterpillar
+    3. Little Green Sprout? (No)
+
+    Actually, I'll stick to the most likely.
+
+    1. Green Eggs and Ham
+    2. The Very Hungry Caterpillar
+    3. Grinch? (No, that's a character/movie)
+
+    Let's try Green Eggs and Ham.

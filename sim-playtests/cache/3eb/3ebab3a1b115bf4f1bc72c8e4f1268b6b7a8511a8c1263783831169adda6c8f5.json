@@ -1,0 +1,138 @@
+{
+  "contentSha256": "88832a64847060633d019783cbc9f6c5585a0218ff3fcd70ca8146801fe2e89c",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "90167f6773b23c0d34d7074b521186233b0757584cab853ba7be1b70066d6420"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "7b10dd29395e55b3ed918ab023407f667b7b4aac26951b35b20c64f10291d7df"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "openai/gpt-6-luna",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "pass": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "guesses",
+                "pass"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-1"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "db82776",
+    "costUsd": 0.000259695,
+    "latencyMs": 4289,
+    "recordedAt": "2026-11-23T22:11:49.231Z",
+    "recordedBy": "claude",
+    "servedBy": "OpenAI",
+    "servedModel": "openai/gpt-6-luna",
+    "tags": {
+      "run": "calibrate-or-luna"
+    },
+    "usage": {
+      "cacheReadTokens": 4727,
+      "cacheWriteTokens": 217,
+      "inputTokens": 4947,
+      "outputTokens": 370,
+      "reasoningTokens": 339
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"Changing Rooms\",\"Extreme Makeover: Home Edition\",\"Trading Spaces\"],\"pass\":false}",
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "data": {
+                "$llmemo.text": "4816499c133f23c1f7b1afa4ef049c93e6c5986468cb505bbd35deff174b9de0"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_0166ec231c3e9793016b04ba218a0c87d1a4226d16800a771e",
+              "index": 0,
+              "type": "reasoning.encrypted"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "completed"
+      }
+    ],
+    "created": 1795471904,
+    "id": "gen-1795471904-ZjjVLA8PTcHOOtaDKmCv",
+    "model": "openai/gpt-6-luna",
+    "object": "chat.completion",
+    "provider": "OpenAI",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 370,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 339
+      },
+      "cost": 0.000259695,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000185,
+        "upstream_inference_cost": 0.000259695,
+        "upstream_inference_prompt_cost": 0.000074695
+      },
+      "is_byok": false,
+      "prompt_tokens": 4947,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 217,
+        "cached_tokens": 4727,
+        "video_tokens": 0
+      },
+      "total_tokens": 5317
+    }
+  }
+}

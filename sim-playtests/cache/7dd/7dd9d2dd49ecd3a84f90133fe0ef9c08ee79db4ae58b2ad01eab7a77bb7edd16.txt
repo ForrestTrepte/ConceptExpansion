@@ -1,0 +1,410 @@
+*   Current Clues:
+        *   Main Concept (?g): B8 (Expression – Quote / Talking / Words)
+        *   Sub-concept (red !r): B8 (Expression/Talking) + D14 (Mouth/Taste) -> Talking/Words with a mouth.
+        *   Sub-concept (yellow !y): B9 (Building / Monument / City) + H10 (Small / Low) -> A small city or small building.
+        *   New addition (+g): B1 (Human/Society/Group) + E9 (Fragment/Multitude/Cluster) -> A group of people or a cluster of humans.
+
+    *   *Recap of clues:*
+        1.  Something involving words/expression/talking (B8).
+        2.  Relates to the mouth/taste (D14).
+        3.  Relates to a small city/building (B9 + H10).
+        4.  Relates to a group of people (B1 + E9).
+
+    *   *Synthesizing the clues:*
+        *   "A group of people (B1 + E9) in a small city (B9 + H10) talking/using words (B8) with a mouth (D14)."
+        *   Wait, B1 + E9 could also mean a "society" of fragments or a large group.
+        *   Let's look at the "Small talk, Small world, Small town" guesses that were "No".
+        *   The target is B8 (Expression/Talking/Words).
+        *   Maybe a specific phrase?
+        *   "Small city" + "talking/words" + "group of people".
+        *   What about a "rumor"? A "gossip"?
+        *   "Gossip" fits: Words (B8), Mouth (D14), Group of people (B1/E9), maybe a specific place?
+        *   Wait, B9 is "Building/Monument/City". H10 is "Small/Low".
+        *   What about "Metropolis"? (No, that's big).
+        *   What about "Small talk" (already guessed)?
+        *   "Language"? "Dialect"?
+        *   "A group of people in a small place" -> "Community"? "Village"?
+        *   The Main Concept is B8 (Expression/Talking/Words). So the answer *is* a word, a phrase, or something related to speech.
+        *   If the answer is a phrase/idiom:
+            *   "Word of mouth"? (B8 = words, D14 = mouth).
+            *   Does "Word of mouth" fit the other clues?
+            *   Yellow clue: B9 (City) + H10 (Small). "Small city"? Doesn't quite fit "Word of mouth".
+            *   Wait, B1 (Society) + E9 (Cluster) + B9 (City).
+            *   Maybe the answer is "The Grapevine"?
+            *   "Heard it through the grapevine" (Expression/Words B8, Mouth/Taste D14, Grapevine is a network/cluster E9, maybe a group/society B1?).
+            *   Let's check "Grapevine".
+            *   B8 (Words/Talking) - Yes.
+            *   D14 (Mouth/Taste) - Grapes/Taste?
+            *   B1/E9/B9/H10 - A cluster of people/buildings?
+            *   Maybe "Rumor"?
+
+    *   *Re-evaluating the clues:*
+        *   ?g B8 (Words/Expression/Talking)
+        *   !r B8 (Expression) + D14 (Mouth) -> "Word of mouth"?
+        *   !y B9 (City/Building) + H10 (Small) -> "Small town"? "Small city"?
+        *   +g B1 (Human/Society) + E9 (Cluster) -> "Crowd"? "Population"? "Masses"?
+
+    *   *Wait, let's look at the logic again:*
+        *   The answer is a *thing* that is a B8 (Words/Expression).
+        *   It has a red relation to Mouth/Taste (D14).
+        *   It has a yellow relation to a Small City (B9 + H10).
+        *   It has a green detail of a Cluster of Humans (B1 + E9).
+
+        Maybe "Gossip"?
+        "Gossip" (B8 - words).
+        "Mouth" (D14 - mouth/taste).
+        "Small town" (B9/H10) - Gossip happens in small towns.
+        "Cluster of humans" (B1/E9) - Gossip spreads through groups.
+
+        What about "Street slang"? "Slang"?
+        What about "Language"?
+
+        Let's try "Rumor".
+        "Rumor" (B8 - expression).
+        "Mouth" (D14 - mouth).
+        "Small town" (B9/H10) - Rumors in small towns.
+        "Cluster of humans" (B1/E9) - Rumors spread in groups.
+
+        What about "Idiom"? "Proverb"? "Slogan"?
+
+        Let's consider the phrase "Small town" was rejected.
+        What if the answer is "Gossip"? Or "Rumor"? Or "Urban legend"?
+        "Urban legend" (B9/B1/E9/H10/B8).
+        B9 (City) + B1 (Society/People) + E9 (Cluster).
+        B8 (Words/Talking).
+        Urban (City) Legend (Words).
+        Does D14 (Mouth/Taste) fit "Urban Legend"? Not directly, unless it's "Word of mouth".
+
+        Let's look at the colors again.
+        Main concept: B8 (Words).
+        Red: B8 (Words) + D14 (Mouth). -> "Word of mouth".
+        Yellow: B9 (City/Building) + H10 (Small). -> "Small city/town".
+        Green: B1 (Human/Society) + E9 (Cluster). -> "Crowd/Population/Society".
+
+        Wait, if the answer is "Gossip", the clues are:
+        - It is a word/expression (B8).
+        - Related to mouth (D14).
+        - Related to small towns/cities (B9 + H10).
+        - Related to groups of people (B1 + E9).
+
+        Another possibility: "Dialect"? "Accent"?
+        "Accent" (B8 - words).
+        "Mouth" (D14 - mouth).
+        "Small place" (B9/H10).
+        "Group of people" (B1/E9).
+
+        Another possibility: "Slang"?
+
+        Wait, what if the answer is "Social media"?
+        B8 (Expression), B1/E9 (Cluster of people), B9 (City/Digital city?), D14 (?). No.
+
+        Let's try "Rumor". It's a strong candidate for a B8-based answer involving mouth and small towns/groups.
+        Or "Gossip".
+
+        Wait, look at the prompt again.
+        The target is a B8 (Expression/Talking/Words).
+        The red clue is B8 + D14. (Words + Mouth).
+        The yellow clue is B9 + H10. (City + Small).
+        The green clue is B1 + E9. (People + Cluster).
+
+        Could the answer be "Small talk"? No, that was guessed.
+        "Small town"? No, that was guessed.
+        "Small world"? No, that was guessed.
+
+        What about "Rumor"?
+        What about "Gossip"?
+        What about "Urban Legend"?
+        What about "Language"?
+        What about "Slang"?
+        What about "Jargon"?
+        What about "Dialect"?
+        What about "Accent"?
+
+        Let's think about the word "Mouth" (D14).
+        "Word of mouth" is a very common phrase.
+        If the answer is "Word of mouth":
+        - B8 (Words) - Yes.
+        - D14 (Mouth) - Yes.
+        - B9/H10 (Small city) - Does "Word of mouth" relate to a small city? Not really.
+        - B1/E9 (Group/Cluster) - Does "Word of mouth" relate to a group? Yes, it's how it spreads.
+
+        Wait, "Village gossip"?
+        "Gossip" seems very likely.
+
+        Let's try "Gossip", "Rumor", "Urban Legend".
+
+        Wait, one more look at "B9 + H10". B9 is "Building/Monument/City". H10 is "Small/Low".
+        Could it be "Micro-city"? "Metropolis"? No, H10 is small.
+        Could it be "Town"?
+        "Town Hall"? (B9/B14).
+        "Town" is not B8.
+
+        Is there a phrase like "The word on the street"?
+        Street (A12? No, B9 is city).
+        "Street" is often associated with "urban".
+
+        Let's try "Gossip". It's a B8. It uses the mouth (D14). It's often associated with small communities (B1/E9) and small towns (B9/H10).
+
+        Wait, the prompt says "?g B8" is the main concept. The answer *is* a B8 (a word, a name, a title, or a phrase).
+        If the answer is "Gossip":
+        - Is "Gossip" an expression/talking/words? Yes.
+        - Is it related to the mouth? Yes.
+        - Is it related to a small city? Yes (cliché).
+        - Is it related to a group of humans? Yes.
+
+        Let's check "Rumor". Same logic.
+        "Urban legend"? (Words + City + People).
+
+        Let's try:
+        1. Gossip
+        2. Rumor
+        3. Urban legend
+
+        Wait, "Language" or "Dialect"?
+        A dialect is spoken (B8) by a group (B1/E9) in a place (B9/H10) using a mouth (D14).
+
+        Let's reconsider the "Small" part.
+        B9 + H10 = Small City.
+        B1 + E9 = Group/Cluster of humans.
+        Could it be "Population"? No, that's not B8.
+
+        What about "Slang"?
+
+        Let's think of B8 words.
+        "Chatter"? "Blather"? "Babble"? "Murmur"?
+        "Whisper"?
+        A whisper (B8) is done with a mouth (D14).
+        Is a whisper related to a small city? Not really.
+
+        Let's look at "B9" again. "Building/Monument/City".
+        "H10" is "Small/Low".
+        "B1" is "Human/Society/Group".
+        "E9" is "Fragment/Multitude/Cluster".
+
+        Wait! "Community"? No, not B8.
+        "Culture"? B8 (Expression/Words) + B1 (Society) + B9 (City/Place).
+        Does "Culture" relate to "Mouth" (D14)? "Oral culture"?
+        Does "Culture" relate to "Small" (H10)? Not necessarily.
+
+        What about "Local slang"?
+        "Local" (B9/H10/B1/E9) "Slang" (B8/D14).
+        This fits very well.
+        B9/H10/B1/E9 -> Local/Community/Small area.
+        B8/D14 -> Slang/Words/Mouth.
+
+        Let's refine "Local slang" to "Dialect" or "Accent".
+
+        Actually, "Gossip" is more of a "thing" that matches the "Small town" feel.
+        But "Small talk/Small world/Small town" were already rejected.
+
+        Let's try "Gossip", "Rumor", and "Slang".
+
+        One more look:
+        ?g B8 (Words)
+        !r B8 + D14 (Words + Mouth) -> "Word of mouth"
+        !y B9 + H10 (City + Small) -> "Small town"
+        +g B1 + E9 (Society + Cluster) -> "Crowd" or "Community"
+
+        If the answer is "Word of mouth":
+        It's a B8.
+        It has "mouth" (D14).
+        Does it have "Small town" (B9/H10) or "Community" (B1/E9)?
+        "Word of mouth" is the *way* information spreads through a community.
+
+        Wait, maybe the answer is "A Rumor"?
+        "A rumor" (B8).
+        "Word of mouth" (B8/D14).
+        "Small town" (B9/H10).
+        "Community/People" (B1/E9).
+
+        What about "Gossip"?
+        "Gossip" is a common B8.
+
+        Let's go with:
+        1. Gossip
+        2. Rumor
+        3. Slang
+
+        Wait, "Slang" might be too broad.
+        "Accent"?
+        "Dialect"?
+
+        Let's look at the B1 + E9 again. "Human/Society" + "Fragment/Multitude".
+        This really sounds like a "Crowd" or "Population".
+        But the Main Concept is B8 (Words).
+
+        Is it "Public opinion"?
+        B1 (Society) + E9 (Cluster) + B8 (Words) + B9 (City/Public space)?
+        "Public opinion" is a B8.
+
+        How about "News"? "News" (B8).
+        "Local news"?
+        "News" spreads by mouth (D14) in a town (B9/H10) to people (B1/E9).
+
+        Let's look at B8 again. "Expression - Quote / Talking / Words".
+        "Speech"?
+        "Speech" (B8).
+        "Speech" (D14 - Mouth).
+        "Speech" (B1/E9 - Society/Group).
+
+        What if the answer is "Language"?
+        "Language" (B8).
+        "Language" (D14 - Mouth/Speech).
+        "Language" (B1/E9 - Society).
+        "Language" (B9/H10 - ...? No.)
+
+        Let's try "Gossip" and "Rumor". They feel the most "party game" answer-y.
+        And maybe "Urban legend".
+
+        Actually, let's look at "Small town" and "Small world" being rejected.
+        They were the *guesses*.
+        The clue-giver said "No".
+        So the answer is *not* "Small talk", "Small world", or "Small town".
+
+        If the answer was "Gossip", the guesses "Small talk" or "Small town" would be "Yes" or "On the right track". Since the clue-giver said "No" to all, "Gossip" might not be it, or "Small town" is not close enough.
+
+        Wait, if "Small town" was "No", then "Gossip" (which is often in a small town) might also be a "No".
+
+        Let's look at the clues again.
+        B8 (Words).
+        B8 + D14 (Words + Mouth).
+        B9 + H10 (City + Small).
+        B1 + E9 (Society + Cluster).
+
+        What about "Demographics"? No, B8.
+        What about "Statistics"? No, B8.
+        What about "Culture"? (B8/B1/B9/E9).
+        Is "Culture" related to the mouth (D14)? Oral culture?
+
+        What about "Tradition"? (B8).
+        "Tradition" (B8).
+        "Tradition" (D14 - Oral/Mouth).
+        "Tradition" (B1/E9 - Society/Group).
+        "Tradition" (B9/H10 - ...?).
+
+        Let's try another angle.
+        B8 (Expression/Words)
+        D14 (Mouth)
+        B9 (City)
+        H10 (Small)
+        B1 (People)
+        E9 (Cluster)
+
+        "Metropolis" (Large city) - No, H10 is small.
+        "Hamlet" (Small village) - Is a hamlet B8? No, it's a place.
+        "Idiom"? "Proverb"? "Slogan"? "Catchphrase"?
+        "Catchphrase" (B8).
+        "Catchphrase" (D14 - Mouth).
+        "Catchphrase" (B1/E9 - Popular among people).
+        "Catchphrase" (B9/H10 - ...?).
+
+        Wait! "Slang" is a good guess.
+        "Dialect" is a good guess.
+        "Accent" is a good guess.
+
+        Let's think about the phrase "Word of mouth" again.
+        If the answer is "Word of mouth", it's a B8.
+        Red: B8 + D14 (Words + Mouth).
+        Yellow: B9 + H10 (City + Small).
+        Green: B1 + E9 (People + Cluster).
+
+        Could "Small city" and "People/Cluster" be describing "Word of mouth"?
+        Not really.
+
+        What about "Language"?
+        Or "Talk"? "Conversation"?
+        "Conversation" (B8).
+        "Conversation" (D14 - Mouth).
+        "Conversation" (B1/E9 - People/Group).
+        "Conversation" (B9/H10 - ...?).
+
+        Let's try:
+        1. Gossip
+        2. Rumor
+        3. Slang
+
+        Wait, could the answer be "Vocabulary"?
+        "Vocabulary" (B8).
+        "Vocabulary" (D14 - Mouth/Words).
+        "Vocabulary" (B1/E9 - Group/Society).
+        "Vocabulary" (B9/H10 - ...?).
+
+        Let's try one more: "Meme"?
+        "Meme" (B8/B1/E9).
+        "Meme" (B9/H10 - ...?).
+
+        Actually, let's look at the "Small" (H10) and "City" (B9) and "People" (B1/E9) and "Words" (B8).
+        "Small population"? (No, B8).
+        "Small talk"? (Already guessed).
+
+        What if the answer is "A Joke"?
+        "Joke" (B8).
+        "Joke" (D14 - Mouth).
+        "Joke" (B1/E9 - People/Group).
+        "Joke" (B9/H10 - ...?).
+
+        What if the answer is "A Story"?
+        "Story" (B8).
+        "Story" (D14 - Mouth).
+        "Story" (B1/E9 - People/Group).
+        "Story" (B9/H10 - ...?).
+
+        Wait, "Urban legend" is looking better and better.
+        Urban = City (B9).
+        Legend = Words/Stories (B8).
+        People/Cluster (B1/E9).
+        Small (H10) - Urban legends are often "small" stories or- no.
+
+        Let's try:
+        1. Gossip
+        2. Rumor
+        3. Slang
+
+        Actually, I'll go with:
+        1. Gossip
+        2. Rumor
+        3. Dialect
+
+        Wait, the clue-giver just added "B1 + E9" (People/Cluster).
+        Before that, it was "B9 + H10" (Small City).
+        So it's:
+        - Words (B8)
+        - Mouth (D14)
+        - Small City (B9/H10)
+        - People/Society (B1/E9)
+
+        "Gossip" fits all of these.
+        "Rumor" fits all of these.
+        "Slang" fits some of these.
+
+        Let's look at "B8" again. "Expression - Quote / Talking / Words".
+        "Gossip" is a B8.
+        "Rumor" is a B8.
+        "Slang" is a B8.
+
+        Is "Small world" (guess) a "No" because it's a phrase/concept that is *not* B8?
+        "Small world" is not an expression/quote/talking. It's a phrase about a coincidence.
+        "Small town" is a place.
+        "Small talk" is B8. So if "Small talk" was "No", then the answer is definitely not a phrase containing "Small".
+
+        This is a big clue. If "Small talk" (which *is* B8/Words) was "No", the answer is not "Small [something]".
+
+        Let's look at the clues again.
+        B8 (Words)
+        D14 (Mouth)
+        B9 (City)
+        H10 (Small)
+        B1 (People)
+        E9 (Cluster)
+
+        What about "Population"? No, B8.
+        "Census"? No, B8.
+        "Demographics"? No, B8.
+
+        What about "Dialect"?
+        A dialect is a B8.
+        It involves the mouth (D14).
+        It is specific to a group of people (B1/E9).
+        It is specific to a place (B9/H10).
+
+        Let's try "Dialect", "Accent", "Slang".

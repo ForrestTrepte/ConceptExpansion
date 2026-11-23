@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Cave",
+    "Crater",
+    "Black hole"
+  ]
+,
+  "pass": false
+}

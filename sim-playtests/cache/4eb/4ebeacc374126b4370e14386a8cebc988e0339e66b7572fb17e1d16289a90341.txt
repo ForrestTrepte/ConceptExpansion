@@ -1,0 +1,386 @@
+*   `?g H14`: Main Concept is H14 (Use, Action, Do, Verb, Button). So, the answer is a verb or an action.
+    *   `!r A1`: Red Sub-concept is A1 (Object/Box).
+    *   `+ D8`: Cube on D8 (Time/Duration).
+    *   `+ C13`: Cube on C13 (Ear/Sound/Hearing).
+    *   `!y E2`: Yellow Sub-concept is E2 (Night/Space/Moon/Star).
+    *   `+ B14`: Cube on B14 (House/Dwelling/Room/Domestic).
+    *   `+ G14`: Cube on G14 (Turn/Around/Cycle/Repetition).
+    *   `+ C3`: Cube on C3 (Slow).
+    *   `+ D4`: Cube on D4 (Attack/Conflict/Combat/Weapon).
+
+    *   `?g H14`: It's an action or a verb.
+    *   `!r (A1, D8, C13)`:
+        *   A1: Box.
+        *   D8: Time/Duration.
+        *   C13: Sound/Hearing.
+        *   *Connecting these:* An action involving a box, related to time and sound? Or maybe a box that makes sound over time? Or an action involving a box that sounds?
+    *   `!y (E2, B14, G14, C3, D4)`:
+        *   E2: Night/Space/Moon/Star.
+        *   B14: House/Room.
+        *   G14: Turn/Cycle/Repetition.
+        *   C3: Slow.
+        *   D4: Attack/Conflict/Weapon.
+        *   *Connecting these:* An action occurring at night/in space, in a house, that is repetitive, slow, and involves attack/conflict?
+
+    Wait, let's re-read the markers carefully.
+
+    *   `?g H14`: Action/Verb.
+    *   Red Sub-concept (Group r):
+        *   A1 (Object/Box)
+        *   D8 (Time/Duration)
+        *   C13 (Ear/Sound/Hearing)
+        *   *Possibility:* A box that makes a sound at a certain time? An alarm?
+    *   Yellow Sub-concept (Group y):
+        *   E2 (Night/Space/Moon/Star)
+        *   B14 (House/Room/Domestic)
+        *   G14 (Turn/Cycle/Repetition)
+        *   C3 (Slow)
+        *   D4 (Attack/Conflict/Combat/Weapon)
+        *   *Possibility:* A repetitive, slow attack/conflict at night in a house? This is confusing.
+
+    Let's look at the previous guesses and "No" answers:
+    *   Press, Click, Start -> No.
+    *   Unbox, Deliver, Ship -> No.
+    *   Play, Wind, Record -> No.
+    *   To tick, To chime, To ring -> No.
+
+    Wait, "To tick, To chime, To ring" were "No". So it's not a sound-making action like a clock or a bell.
+
+    Let's re-evaluate the markers.
+    `?g H14` (Action)
+    `!r A1` (Box)
+    `+ D8` (Time)
+    `+ C13` (Sound)
+    `!y E2` (Night/Moon)
+    `+ B14` (House)
+    `+ G14` (Cycle/Turn)
+    `+ C3` (Slow)
+    `+ D4` (Attack/Combat)
+
+    Maybe the red group and yellow group aren't "features of the answer" but "related ideas"?
+    Red: A box, time, sound. (Maybe a music box? A jukebox? A radio?)
+    Yellow: Night, house, cycle, slow, attack. (Maybe a wolf? A werewolf?)
+
+    Wait, if the answer is a verb/action (`?g H14`):
+    "To howl"?
+    "To hunt"?
+    "To sleep"?
+    "To dream"?
+
+    Let's check "To howl" against the markers:
+    `?g H14`: To howl (Action).
+    `!r A1` (Box/Object), `D8` (Time), `C13` (Sound). Does a howl relate to a box, time, and sound? Not really.
+
+    Let's look at the red group again: `A1` (Box), `D8` (Time), `C13` (Sound).
+    Could it be "To listen"? No, that's not it.
+    Could it be "To wait"?
+    Could it be "To sleep"?
+
+    Wait, look at the red group again. `A1` is a Box. `D8` is Time. `C13` is Sound.
+    What if it's "To Box"? No, that's a sport (B3).
+    What if it's "To Record"? No, that was a guess.
+
+    Let's look at the yellow group again: `E2` (Night/Moon/Stars), `B14` (House/Domestic), `G14` (Cycle/Repetition), `C3` (Slow), `D4` (Attack/Conflict).
+    "To howl" fits "Night/Moon" and "Attack/Conflict" (wolf) and "Repetition" (howling at the moon). But what about "House/Domestic" and "Slow" and "Box/Time/Sound"?
+
+    Wait! `A1` is "Object/Box". `D8` is "Time/Duration". `C13` is "Sound".
+    What about "To alarm"? "To wake up"?
+    "To wake up":
+    Action: Yes.
+    Red (Box/Time/Sound): An alarm clock?
+    Yellow (Night/House/Cycle/Slow/Attack): Waking up from a dream/night/house/cycle?
+
+    Let's try another angle.
+    Red: `A1` (Box), `D8` (Time), `C13` (Sound).
+    Yellow: `E2` (Night), `B14` (House), `G14` (Cycle), `C3` (Slow), `D4` (Attack).
+
+    Is it "To howl"?
+    Is it "To dream"?
+    Is it "To fight"?
+
+    Let's rethink the "Box" (`A1`). In Concept, a box is also "Object".
+    `A1` (Object), `D8` (Time), `C13` (Sound).
+    `E2` (Night), `B14` (House), `G14` (Cycle), `C3` (Slow), `D4` (Attack).
+
+    Could it be "To hunt"? (Red: A box/trap? Time? Sound? Yellow: Night? House/Domestic? Cycle? Slow? Attack?)
+    Could it be "To die"? (Red: Box/Coffin? Time? Sound? Yellow: Night? House? Cycle? Slow? Attack?)
+
+    Let's look at the colors/markers again.
+    `!r A1` (Box)
+    `+ D8` (Time)
+    `+ C13` (Sound)
+    `!y E2` (Night)
+    `+ B14` (House)
+    `+ G14` (Turn/Cycle)
+    `+ C3` (Slow)
+    `+ D4` (Attack/Weapon)
+
+    What if the answer is "To watch"? "To guard"?
+    "To guard":
+    Action: Yes.
+    Red: A box (protecting/containing), time (duration), sound (hearing/alert)?
+    Yellow: Night (guarding at night), House (guarding a house), Cycle (patrolling?), Slow (patrol is slow?), Attack (defending against attack)?
+
+    "To patrol"?
+    "To hunt"?
+
+    Wait, look at the Red group again. `A1` (Box/Object), `D8` (Time), `C13` (Sound).
+    If the answer is "To hunt":
+    Red: A trap (object/box), time (duration of hunt), sound (tracking)?
+    Yellow: Night (hunting at night), House (domestic/hunting in/around houses?), Cycle (seasonal?), Slow (stalking?), Attack (hunting is an attack).
+
+    Actually, let's look at the word "Box" and "Attack" and "Night".
+    Could it be "To bite"?
+    Could it be "To bark"?
+
+    Let's look at the `A1` (Box) and `D4` (Attack) together.
+    "To punch"? "To box"? (No, B3 is Sport).
+
+    Wait, `A1` (Box) + `D4` (Attack) + `H14` (Verb/Action) = "To punch"? No, a punch isn't a box.
+    `A1` (Object/Box) + `D4` (Attack) + `B14` (House).
+    Maybe the "Box" is a "Coffin"?
+    If the answer is "To die":
+    Red: Coffin (A1), Time (D8 - end of time?), Sound (C13 - funeral sounds?).
+    Yellow: Night (E2 - end of life/darkness?), House (B14 - death in house?), Cycle (G14 - cycle of life?), Slow (C3), Attack (D4 - battle/conflict?).
+
+    This feels too abstract. Let's try something else.
+    Look at the `H14` again (Action/Verb).
+    `A1` (Box/Object) + `C13` (Sound).
+    `D8` (Time).
+    `E2` (Night/Space/Moon).
+    `G14` (Cycle/Turn).
+    `C3` (Slow).
+    `D4` (Attack).
+
+    Is it "To howl"?
+    Is it "To dream"?
+    Is it "To sleep"?
+
+    Wait! "To howl" -> `E2` (Moon) + `C13` (Sound) + `D4` (Attack/Conflict - wolf).
+    Does "Howl" fit `A1` (Box), `D8` (Time), `B14` (House), `G14` (Cycle), `C3` (Slow)?
+    Not really.
+
+    Let's look at the `A1` (Box) and `B14` (House) and `E2` (Night) and `C13` (Sound) and `D8` (Time) and `D4` (Attack) and `C3` (Slow) and `G14` (Cycle).
+    What about "To scare"? (Like a jump scare/horror movie?)
+    "To scare":
+    `?g H14` (Action): Yes.
+    `!r A1` (Object/Box), `D8` (Time), `C13` (Sound): A jump scare (box/object/timing/sound)?
+    `!y E2` (Night/Moon), `B14` (House), `G14` (Cycle), `C3` (Slow), `D4` (Attack): Horror movies (night, house, cycle/repetition, slow build-up, attack/scare)?
+
+    Let's try "To bark"? "To howl"?
+    What about "To howl"?
+    Wait, "To bark"? (A dog/wolf?)
+    Red: Object/Box? (A doghouse/crate?), Time (?), Sound (Bark).
+    Yellow: Night (?), House (?), Cycle (?), Slow (?), Attack (?).
+
+    Let's look at `A1` (Object) and `C13` (Sound) and `D8` (Time) and `D4` (Attack).
+    What about "To alarm"?
+    "To alarm":
+    Red: Alarm (Object), Time (Time-based), Sound (Hearing).
+    Yellow: Night (Night alarm?), House (Domestic/House alarm), Cycle (Repeat), Slow (?), Attack (Alert/Combat/Defense?).
+
+    Wait, `A1` (Object) + `D4` (Attack) = "To fight"?
+    `A1` (Object) + `C13` (Sound) = "To ring"? (Already guessed).
+
+    What if the answer is "To hunt"?
+    "To hunt":
+    Red: Box/Trap (A1), Time (D8), Sound (C13 - tracking).
+    Yellow: Night (E2), House/Domestic (B14 - hunting animals in house?), Cycle (G14 - seasonal?), Slow (C3 - stalking), Attack (D4).
+
+    Let's look at the markers one more time.
+    `?g H14` (Verb)
+    `!r A1` (Box) + `D8` (Time) + `C13` (Sound)
+    `!y E2` (Night/Moon) + `B14` (House) + `G14` (Cycle) + `C3` (Slow) + `D4` (Attack)
+
+    Could it be "To prowl"?
+    Could it be "To bark"?
+    Could it be "To howl"?
+
+    Wait, "To howl" at the moon.
+    Moon: `E2`.
+    Sound: `C13`.
+    Night: `E2`.
+    Action: `H14`.
+    Attack/Conflict: `D4` (Wolf).
+    Cycle: `G14` (Moon cycle).
+    Slow: `C3` (Slow movement).
+    House: `B14` (Dog in house).
+    Box/Object/Time/Sound (Red group): This is the sticking point.
+
+    Wait, "A box" and "Sound" and "Time".
+    A "Music Box"!
+    If the answer is "To play" (already guessed) or "To wind" (already guessed) or "To sing"?
+    Is the answer "To dance"?
+
+    Let's look at the Red group again. `A1` (Object/Box), `D8` (Time), `C13` (Sound).
+    If the answer is "To alarm"? Or "To ring"? (Ring was No).
+
+    Let's look at `A1` (Box) and `C13` (Sound) and `D8` (Time).
+    "To record"? (Already guessed).
+    "To play"? (Already guessed).
+    "To hear"?
+
+    What if the answer is "To watch"?
+    "To watch":
+    Red: A watch (Object/Box/A1?), Time (D8), Sound (C13 - tick?).
+    Yellow: Night (E2), House (B14), Cycle (G14), Slow (C3), Attack (D4 - watching for an attack?).
+
+    Wait, the guess "To tick" was "No". So it's not "To watch" (in the sense of a clock).
+
+    Let's look at `A1` (Box) and `B14` (House) and `E2` (Night) and `D4` (Attack).
+    "To haunt"?
+    "To haunt":
+    Action: Yes.
+    Red: Box (Object/A1), Time (D8 - duration), Sound (C13 - ghosts make noise).
+    Yellow: Night (E2), House (B14), Cycle (G14 - haunting/repetition), Slow (C3), Attack (D4 - ghost attacking).
+
+    "To haunt" fits many elements.
+    Let's try "To haunt".
+
+    Another possibility: "To hunt".
+    Let's try "To hunt", "To howl", "To haunt".
+
+    Wait, "To hunt" vs "To haunt".
+    "To haunt":
+    Red: Object (A1), Time (D8), Sound (C13).
+    Yellow: Night (E2), House (B14), Cycle (G14), Slow (C3), Attack (D4).
+
+    Wait, "To sleep"?
+    "To sleep":
+    Red: Box (A1 - box/bed?), Time (D8), Sound (C13 - snoring?).
+    Yellow: Night (E2), House (B14), Cycle (G14 - sleep cycle), Slow (C3), Attack (D4 - fight or flight/dreaming of attack?).
+
+    Let's look at the Red group one more time.
+    `A1` (Object/Box)
+    `D8` (Time/Duration)
+    `C13` (Sound/Hearing)
+    Is it "To listen"? (No).
+
+    What about "To hunt"?
+    If the answer is "To hunt":
+    Red: A trap (A1), Time (D8), Sound (C13).
+    Yellow: Night (E2), House (B14), Cycle (G14), Slow (C3), Attack (D4).
+
+    Let's try "To hunt", "To howl", "To haunt".
+
+    Wait, look at `D4` (Attack/Conflict/Weapon) and `A1` (Object/Box).
+    Could it be "To fight"? (No).
+    Could it be "To bite"?
+
+    Let's re-examine the Red group: `A1` (Object/Box), `D8` (Time), `C13` (Sound).
+    What if it is "To chime"? (No, "To chime" was No).
+    What if it is "To ring"? (No, "To ring" was No).
+
+    Wait, "To hunt"... "To hunt"...
+    What if the answer is "To bark"?
+    What if the answer is "To growl"?
+
+    Let's check the yellow group again. `E2` (Night/Moon/Stars), `B14` (House), `G14` (Cycle), `C3` (Slow), `D4` (Attack/Weapon).
+    "To prowl"?
+    "To prowl":
+    Action: Yes.
+    Red: Box/Object (A1), Time (D8), Sound (C13).
+    Yellow: Night (E2), House (B14), Cycle (G14), Slow (C3), Attack (D4).
+
+    Let's try:
+    1. To hunt
+    2. To howl
+    3. To haunt
+
+    Wait, one more thought. `A1` (Object) + `C13` (Sound) + `D8` (Time) + `B14` (House) + `D4` (Attack).
+    "To alarm"? (Already considered).
+    "To scare"? (Already considered).
+
+    Wait! `A1` (Box) + `D4` (Attack) + `E2` (Night) + `B14` (House) + `C3` (Slow).
+    "To stalk"?
+    "To stalk":
+    Action: Yes.
+    Red: A box/object (trap/A1), Time (duration/D8), Sound (hearing/C13).
+    Yellow: Night (E2), House (B14), Cycle (G14), Slow (C3), Attack (D4).
+
+    "To stalk" is a very strong candidate.
+
+    Let's try:
+    1. To stalk
+    2. To hunt
+    3. To howl
+
+    Actually, let's look at "To hunt" again. It fits the "Attack" and "Night" and "Slow" and "Sound" and "Time" and "Cycle" and "Object" (trap).
+
+    Another thought: "To sleep".
+    Wait, what about "To dream"?
+    "To dream":
+    Red: Box/Object (A1 - a dream box? no), Time (D8), Sound (C13).
+    Yellow: Night (E2), House (B14), Cycle (G14), Slow (C3), Attack (D4 - nightmares/attack).
+
+    Let's look at `A1` (Object/Box) + `D4` (Attack).
+    "To box"? "To punch"?
+    No, `H14` is the main concept.
+
+    Let's try "To hunt", "To stalk", "To howl".
+
+    One more look at Red: `A1` (Object/Box), `D8` (Time/Duration), `C13` (Ear/Sound/Hearing).
+    Is it "To wait"? (Red: Box/Object/Time/Sound? No).
+    Is it "To listen"? (No).
+
+    Wait, what if the answer is "To howl"?
+    "To howl":
+    `?g H14` (Verb)
+    `!r A1` (Object - a dog crate/box?), `D8` (Time), `C13` (Sound).
+    `!y E2` (Night/Moon), `B14` (House/Domestic), `G14` (Cycle/Repetition), `C3` (Slow), `D4` (Attack/Conflict).
+    This is plausible.
+
+    What about "To prowl"?
+    What about "To stalk"?
+
+    Let's go with "To stalk", "To hunt", "To howl".
+
+    Actually, look at "To hunt" again.
+    `A1` (Object/Box/Trap)
+    `D8` (Time/Duration)
+    `C13` (Sound/Hearing)
+    `E2` (Night/Moon)
+    `B14` (House/Domestic)
+    `G14` (Cycle/Repetition)
+    `C3` (Slow)
+    `D4` (Attack)
+
+    Wait, "To hunt" is a very good fit for a "slow attack" that is "repetitive" (the hunt/the season/the cycle) occurring at "night" or in a "house" (domestic/hunting animals).
+
+    Let's refine the guesses.
+    1. To hunt
+    2. To stalk
+    3. To howl
+
+    Wait, what about "To guard"? (Already considered).
+    What about "To bark"?
+
+    Let's try "To hunt", "To stalk", "To howl".
+
+    Wait, "To hunt" (Action) + "Box" (Trap) + "Time" + "Sound" (tracking).
+    "To hunt" is my best guess.
+
+    Let's try one more: "To watch"? No, "To tick" was No.
+    "To hide"? (Red: Box (A1), Time (D8), Sound (C13)? Yellow: Night (E2), House (B14), Cycle (G14), Slow (C3), Attack (D4)?).
+    "To hide" could fit.
+
+    Wait, "A1" is "Object/Box". "D4" is "Attack/Conflict/Weapon". "D8" is "Time". "C13" is "Sound".
+    "To fight"? "To battle"?
+    "To hunt" is still better.
+
+    One more: "To bark".
+    (Red: Object/Box (crate), Time, Sound. Yellow: Night/Moon, House, Cycle, Slow, Attack).
+
+    Let's try "To hunt", "To stalk", "To howl".
+
+    Wait, let me check the `A1` icon again. "Object/Box/Question Mark".
+    Could the answer be "To wonder"? No.
+    "To hide"?
+    "To hunt"?
+
+    Actually, the most cohesive set of markers is for "To hunt" or "To stalk".
+
+    Let's try:
+    1. To hunt
+    2. To stalk
+    3. To howl

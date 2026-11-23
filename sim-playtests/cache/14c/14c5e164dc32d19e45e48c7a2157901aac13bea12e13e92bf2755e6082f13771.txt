@@ -1,0 +1,41 @@
+*   `?g A6`: Main Concept (Green Pawn) is A6 (Cinema / Movie / Film).
+    *   `+ B5`: Add a cube to B5 (Music / Song / Note) in the same group as the previous marker (Group `g` or just a detail). Actually, the notation says `+ B5` follows `?g A6`, so this is a cube on B5 in the Main Concept group.
+    *   `!r C13`: Red Sub-Concept Pawn on C13 (Ear / Sound / Hearing).
+    *   `!y B5`: Yellow Sub-Concept Pawn on B5 (Music / Song). Note: There was a cube on B5 in group `g`, now there is a pawn on B5 in group `y`.
+
+    *   Main Concept: A Movie (`?g A6`) about Music/Songs (`+ B5`).
+    *   Related Idea 1 (Red): Hearing/Sound (`!r C13`).
+    *   Related Idea 2 (Yellow): Music/Song (`!y B5`).
+
+    *   A movie about music.
+    *   A movie that involves hearing/sound.
+    *   Famous movies about music: *Bohemian Rhapsody*, *Sing*, *Coco*, *Amadeus*, *The Sound of Music*, *Whiplash*, *A Star is Born*, *Elvis*.
+    *   Given the "Sound" aspect (`C13`), it could be a movie where music or sound is central (like *Whiplash* or *A Star is Born*).
+
+    *   *Bohemian Rhapsody*
+    *   *Sing*
+    *   *Coco*
+    *   *Whiplash*
+
+    *   Guess 1: *Bohemian Rhapsody* (Very popular music movie).
+    *   Guess 2: *Sing* (Animated movie about singing).
+    *   Guess 3: *Coco* (Animated movie about music).
+
+    *Self-Correction:* Let's look closer at `!r C13`. It's a sub-concept. It might be a movie about a sound or something auditory.
+    *Alternative:* Maybe a movie title with "Sound" or "Music"?
+    *Wait*, `?g A6` is Cinema. `+ B5` (Music) is a detail of the movie.
+    `!r C13` (Hearing) is a sub-concept.
+    `!y B5` (Music) is a sub-concept.
+
+    Could it be *The Sound of Music*?
+    `A6` (Movie)
+    `B5` (Music) - detail/characteristic
+    `C13` (Hearing/Sound) - related concept
+    `B5` (Music) - related concept
+
+    This fits very well.
+
+    Let's try:
+    1. The Sound of Music
+    2. Bohemian Rhapsody
+    3. Coco

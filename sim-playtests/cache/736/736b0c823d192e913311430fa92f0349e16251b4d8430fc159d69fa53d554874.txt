@@ -1,0 +1,343 @@
+*   `?g A14`: Main concept is A14 (Food / Eating / Edible).
+    *   `+ C1`: A cube on C1 (Baby – Child / Young / New) in the same group as `?g A14`.
+    *   `+ H4`: A cube on H4 (Round) in the same group as `?g A14`.
+    *   `!r G1`: Sub-concept (red) is G1 (Line – Straight / Diagonal / Stiff).
+    *   `+ H4`: A cube on H4 (Round) in the same group as `!r G1`.
+    *   `!y D14`: Sub-concept (yellow) is D14 (Mouth / Taste).
+    *   `+ Pink`: A cube on Pink in the same group as `!y D14`.
+
+    *   Main Concept (Green): Food/Edible + Young/New + Round.
+    *   Sub-concept 1 (Red): Straight line/Stiff + Round.
+    *   Sub-concept 2 (Yellow): Taste/Mouth + Pink.
+
+    *   `?g A14 (Food) + C1 (Young/New) + H4 (Round)`:
+        *   Maybe a fruit? A baby fruit?
+        *   An egg? (It's edible, round-ish, maybe "new/young" life?)
+        *   A seed?
+        *   A baby food?
+        *   A pea? (Round, green/new?)
+
+    *   `!r G1 (Straight) + H4 (Round)`:
+        *   This is a bit confusing. A straight line and a round shape?
+        *   A stick with a ball?
+        *   A piece of food that is straight and round?
+        *   Maybe a shape of a specific food?
+
+    *   `!y D14 (Taste) + Pink`:
+        *   Pink food?
+        *   Something pink-colored that tastes a certain way?
+        *   Pink candy?
+
+    *   `?g A14 (Food) + C1 (Young/New) + H4 (Round)`: A round, "new/young" thing that is edible.
+    *   Could it be an **egg**? (Round-ish, represents new life).
+    *   What about the red/yellow clues?
+    *   Red: `G1 (Straight) + H4 (Round)`. Maybe a "rod" shape or a specific way a food is shaped?
+    *   Yellow: `D14 (Taste) + Pink`. Pink/tasting.
+    *   Wait, `C1` is Baby/Child/Young. `A14` is Food.
+    *   Could it be **Baby food**?
+    *   Could it be a **Pink grapefruit**? (Round, edible, pink inside).
+        *   Let's check the "Straight" and "Round" clue. Maybe it's a fruit with a straight stem?
+        *   Let's check "New/Young". Not really.
+    *   Could it be **Strawberry**? (Pink, edible, round-ish).
+    *   Could it be **Cotton candy**? (Pink, sweet/taste, round/cloud-like, but not "straight").
+
+    *   `?g A14` (Food)
+    *   `+ C1` (Young/New)
+    *   `+ H4` (Round)
+    *   `!r G1` (Straight)
+    *   `+ H4` (Round)
+    *   `!y D14` (Mouth/Taste)
+    *   `+ Pink` (Color)
+
+    Wait, `!r G1 + H4`. A straight line and a round shape.
+    `!y D14 + Pink`. Taste and Pink.
+
+    Is it a **Lollipop**?
+    - Food (A14): Yes.
+    - New/Young (C1): Not really.
+    - Round (H4): Yes.
+    - Straight (G1): The stick.
+    - Round (H4): The candy part.
+    - Taste (D14): It's candy.
+    - Pink (Color): Often pink.
+
+    Is it a **Cherry**?
+    - Food (A14): Yes.
+    - Young (C1): Small/new?
+    - Round (H4): Yes.
+    - Straight (G1): Stem?
+    - Pink: Sometimes.
+
+    Is it an **Egg**?
+    - Food (A14): Yes.
+    - New/Young (C1): Yes, contains new life.
+    - Round (H4): Yes.
+    - Straight (G1) + Round (H4): ?
+    - Taste/Pink: No.
+
+    Let's look at `C1` (Baby/Young/New) again.
+    What if it's **Sprout** or **Seedling**? Not round.
+
+    What if the answer is **Pink grapefruit**?
+    What if it's **Watermelon**? (Round, pink inside, juice/taste).
+
+    Let's rethink the red clue: `G1` (Straight) and `H4` (Round).
+    Maybe a **Spaghetti**? (Long/Straight, but not round... wait, it's a cylinder).
+    Maybe a **Hot dog**? (Straight, but not round).
+
+    What about a **Donut**?
+    - Food (A14): Yes.
+    - Round (H4): Yes.
+    - Taste (D14): Yes.
+    - Pink (Color): Pink frosting.
+    - G1 (Straight) + H4 (Round): This part is still weird.
+
+    Let's look at `C1` (Baby/Child/Young) + `A14` (Food).
+    **Baby carrots**?
+    - Food (A14): Yes.
+    - Young/New (C1): Yes, they are small/baby.
+    - Straight (G1): Carrots are long/straight.
+    - Round (H4): No, they are tapered.
+
+    **Cherry**?
+    - Food (A14): Yes.
+    - Young (C1): Small?
+    - Round (H4): Yes.
+    - Straight (G1) + Round (H4): The stem (straight) and the fruit (round).
+    - Taste (D14) + Pink: Sweet and pink.
+
+    This fits well!
+    Red clue: `G1` (Straight - stem) + `H4` (Round - fruit).
+    Yellow clue: `D14` (Taste) + `Pink` (Color).
+    Green clue: `A14` (Food) + `C1` (Young/Small) + `H4` (Round).
+
+    Wait, `C1` is "Baby / Child / Young / New".
+    A cherry is a fruit, but is it "New"?
+    What about **Strawberry**?
+    What about **Apple**?
+
+    Let's consider **Cotton Candy**.
+    - Food (A14).
+    - Round (H4).
+    - Pink (Color).
+    - Taste (D14).
+    - But where is `G1` (Straight) and `C1` (Young/New)?
+
+    What about **Pink Lemonade**?
+    - Food/Drink (A14).
+    - Taste (D14).
+    - Pink.
+    - Round (Lemon) + Straight (Straw)?
+
+    Let's try **Cherry** first. Or **Strawberry**. Or **Pink grapefruit**.
+
+    Let's look at the red clue again. `G1` (Straight) + `H4` (Round).
+    Could it be a **Spaghetti**? No.
+    Could it be a **Pickle**? No.
+
+    What if `C1` refers to **New**?
+    A **Newborn**? No, that's not food.
+    A **New fruit**?
+    How about **Seed**?
+
+    Let's try **Cherry**.
+    - Food.
+    - Round.
+    - Stem (Straight) + Round body.
+    - Pink/Taste.
+    - Small/Young (C1)? Not really.
+
+    How about **Pea**?
+    - Food.
+    - Round.
+    - Small/Young (C1)?
+    - Straight (G1) + Round (H4)? No.
+
+    Let's try **Strawberry**.
+    - Food.
+    - Taste.
+    - Pink.
+    - Round? (ish).
+    - Stem?
+
+    Actually, looking at `C1` (Baby/Young) and `H4` (Round) and `A14` (Food)...
+    **Egg** is a very strong candidate for "Round, Food, Young/New".
+    But how does the red clue fit? `G1` (Straight) + `H4` (Round).
+    Maybe an egg and a straight thing?
+    How does the yellow clue fit? `D14` (Taste) + `Pink`.
+    An egg is not pink.
+
+    What if the answer is **Pink grapefruit**?
+    - Food.
+    - Round.
+    - Taste.
+    - Pink.
+    - What about `C1` and `G1`?
+
+    Wait! **Pinky**? No.
+    What about **Macaron**?
+    - Food.
+    - Round.
+    - Pink.
+    - Taste.
+    - `C1`? No.
+
+    Let's look at `G1` (Straight) and `H4` (Round) again.
+    A **Stick** and a **Ball**?
+    **Lollipop** fits `G1` (Stick) and `H4` (Round) very well.
+    Does `C1` (Young/New) fit Lollipop? Not really.
+    Does `D14` (Taste) + `Pink` fit Lollipop? Yes.
+    Is a Lollipop "Young/New"? No.
+
+    Wait, `C1` (Baby/Child/Young/New).
+    Is there a food called **Baby ...**?
+    **Baby corn**?
+    - Food.
+    - Small/Young (C1).
+    - Straight (G1).
+    - But it's not round (H4).
+
+    What about **Pink grapefruit**? No.
+
+    Let's reconsider **Cherry**.
+    - Food (A14).
+    - Small/Young (C1).
+    - Round (H4).
+    - Straight (G1) [Stem] + Round (H4) [Fruit].
+    - Taste (D14).
+    - Pink (Color).
+
+    This seems like a very cohesive set of clues.
+
+    One more possibility: **Raspberry**?
+    - Food (A14).
+    - Round (H4).
+    - Pink (Color).
+    - Taste (D14).
+    - Stem (G1)?
+    - Young/Small (C1)?
+
+    Let's try:
+    1. Cherry
+    2. Strawberry
+    3. Raspberry
+
+    Wait, `C1` can also mean "New".
+    Is there a food that is "New"?
+    Maybe the answer is **New York Cheesecake**? (No).
+
+    Let's look at the Red/Yellow distinction.
+    Red: A part/feature/connection.
+    Yellow: A part/feature/connection.
+
+    Red: A straight thing (G1) and a round thing (H4).
+    Yellow: Taste (D14) and Pink (Color).
+
+    If the answer is **Cherry**:
+    Red (Feature/Part): A stem (straight) and a fruit (round).
+    Yellow (Feature/Part): Taste and Pink.
+    Green (Main Concept): Food that is small (young) and round.
+
+    This feels solid.
+
+    What about **Cotton Candy**?
+    Red: Straight/Round? No.
+
+    What about **Watermelon**?
+    Red: Straight/Round? No.
+
+    What about a **Lollipop**?
+    Red: Straight (stick) and Round (candy).
+    Yellow: Taste and Pink.
+    Green: Food, Round, and... "New/Young"? Maybe if it's a "new" toy? No, it's a food.
+
+    Wait, `C1` is Baby/Child/Young/New.
+    Could the answer be **Baby pink**? No, that's not a food.
+    Could the answer be **Pink icing**? No.
+
+    Let's look at `C1` again. It's "Baby / Child / Young / New".
+    Maybe the food is **Baby food**?
+    But "Round" and "Straight" and "Pink" doesn't quite fit.
+
+    Let's try **Cherry**.
+
+    Wait, another idea: **Pink bubblegum**?
+    - Food (A14).
+    - Round (H4) when blown.
+    - Taste (D14).
+    - Pink (Color).
+    - Straight (G1) [The stick/wrapper?] + Round (H4) [The bubble].
+    - Young (C1)? Not really.
+
+    Let's try **Cherry** as the primary guess.
+
+    One more thought: **A pink donut**?
+    - Food.
+    - Round.
+    - Pink.
+    - Taste.
+    - Red: Straight (G1) and Round (H4)? Maybe the sprinkles or a line of icing?
+
+    Wait, `C1` (Baby/Young/New).
+    Could it be **Pink grapefruit**? No.
+    Could it be **Egg**? No.
+
+    Let's go with **Cherry**, **Strawberry**, **Raspberry**.
+
+    Wait, look at `C1` again. `C1` is also "New".
+    Is there a "New" food?
+    Maybe **New/Small** refers to a **Seed**?
+    A **Seed** is a food (sometimes), it's "New" (life), it's "Small".
+    Is it round?
+    Is it pink?
+    Is it straight? No.
+
+    Let's try **Cherry**.
+
+    Actually, one more thing. `C1` (Baby). `A14` (Food). `H4` (Round).
+    **Peas**?
+    **Baby carrots**?
+    **Baby corn**?
+
+    Let's try **Cherry**. It fits the "Straight + Round" (stem + fruit) and "Taste + Pink" very well.
+
+    One more look at `G1` and `H4` in the Red group.
+    `G1` is a line. `H4` is a circle.
+    A stick and a ball.
+    A **Lollipop**.
+    Does `C1` (Young/New) fit a Lollipop?
+    Maybe a "New" thing? No.
+    What about "Child"?
+    Lollipops are a "Child" food? `C1` can mean "Child/Young".
+    A "Child's food" or a food for children.
+    That fits!
+
+    Let's re-evaluate **Lollipop**:
+    - `?g A14` (Food)
+    - `+ C1` (Child/Young)
+    - `+ H4` (Round)
+    - `!r G1` (Straight - the stick)
+    - `+ H4` (Round - the candy)
+    - `!y D14` (Taste)
+    - `+ Pink` (Color)
+
+    This is a very strong fit.
+
+    1. Lollipop
+    2. Cherry
+    3. Strawberry
+
+    (Self-correction: Is a lollipop a "child" food? Yes, very much so. Is it round? Yes. Is it straight? The stick is. Is it pink? Often. Is it a food? Yes.)
+
+    Let's try **Lollipop** first.
+
+    Wait, one more: **Pink cotton candy**?
+    Is it straight? No.
+
+    **Lollipop** is the best fit for the red clue (`G1` + `H4`).
+
+    Wait, `C1` (Baby/Child/Young/New).
+    Could it be a **Baby bottle**? Not food.
+    Could it be **Baby food**? Not round/straight/pink.
+
+    **Lollipop** it is.

@@ -1,0 +1,298 @@
+*   `?g H14`: Main concept is "Use - Action / Do - Verb / Button" (H14 is a finger pressing a red button).
+    *   `!r A1 | D8, C13`: Red sub-concept (related ideas/details):
+        *   `A1`: Object / Box
+        *   `D8`: Time / Duration (hourglass/clock)
+        *   `C13`: Ear / Sound / Hearing
+    *   `!y E2 | B14, G14, C3`: Yellow sub-concept (related ideas/details):
+        *   `E2`: Night / Evening / Space / Moon / Star
+        *   `B14`: House / Dwelling / Room
+        *   `G14`: Turn / Around / Cycle / Repetition
+        *   `C3`: Slow / Slow motion (turtle)
+
+    *   `H14`: The answer is an action, a verb, or something you do with a button.
+    *   `!r A1, D8, C13`: It's related to an object (box?), time/duration, and sound/hearing.
+    *   `!y E2, B14, G14, C3`: It's related to night/stars, houses/rooms, repetition/cycles, and being slow.
+
+    *Wait, let's re-evaluate.*
+    *   `H14` (Button/Action) + `A1` (Object/Box) + `D8` (Time) + `C13` (Sound).
+    *   Maybe a timer? A clock? A music box?
+    *   `!y` (Yellow group): `E2` (Night/Space), `B14` (House), `G14` (Cycle/Repeat), `C3` (Slow).
+    *   Wait, "Repeat" (`G14`) + "Sound" (`C13`) + "Time" (`D8`) + "Button" (`H14`).
+    *   Is it a lullaby? (No, H14 is a verb/action).
+    *   Is it an alarm clock?
+        *   `H14`: Press (button to stop it).
+        *   `A1`: Box (the clock itself).
+        *   `D8`: Time.
+        *   `C13`: Sound.
+        *   `B14`: House (in a house).
+        *   `G14`: Repetition (the alarm repeats).
+        *   `E2`: Night (when you sleep).
+        *   `C3`: Slow? (Maybe not).
+    *   Wait, `C3` is Slow. `G14` is Repeat. `D8` is Time. `C13` is Sound.
+    *   What about "Sleep"? (No, H14 is a button/action).
+    *   What about "Tick-tock"? (No, H14 is a button/action).
+    *   What about "Watch"? (Verb: to watch/observe).
+        *   `H14`: Button (on a watch).
+        *   `A1`: Object.
+        *   `D8`: Time.
+        *   `C13`: Sound (ticking).
+        *   `E2`: Night (time/space?).
+        *   `G14`: Cycle (the hands).
+        *   `C3`: Slow (the movement).
+        *   `B14`: House (wear it in a house?).
+
+    *Let's look at the clues again.*
+    `?g H14`: An action or thing with a button.
+    `!r`: Object, Time, Sound.
+    `!y`: Night/Space, House, Cycle/Repetition, Slow.
+
+    Could it be "Snooze"?
+    - Button (`H14`)
+    - Object (`A1`)
+    - Time (`D8`)
+    - Sound (`C13`)
+    - Cycle/Repeat (`G14`)
+    - Night/Sleep context (`E2`)
+    - Slow (`C3`)
+    - It's a verb/action.
+
+    Wait, Step 3 guesses were "Record, Snooze, Alarm". The clue-giver said "No".
+    So it is *not* Snooze or Alarm.
+
+    Let's re-examine:
+    `?g H14`: Action/Button.
+    `!r`: Box/Object, Time, Sound.
+    `!y`: Night/Space, House, Cycle, Slow.
+
+    What about "Clock"? (A noun, but H14 is a button/action... though "Clock" can be a verb in some contexts, usually it's a noun). However, Concept often uses the Main Concept `?g` to define the category. If `?g` is `H14` (Action/Button), the answer is likely a verb or the name of a button/action.
+
+    Wait, `H14` is "Use - Action / Do - Verb / Button".
+    Maybe the answer is "Sleep"? (No, H14 is button).
+    Maybe "Dream"? (No).
+
+    Let's look at `!r` again: `A1` (Object/Box), `D8` (Time), `C13` (Sound).
+    Let's look at `!y` again: `E2` (Night), `B14` (House), `G14` (Repeat), `C3` (Slow).
+
+    What about "Music Box"?
+    `A1` (Box), `D8` (Time/Duration), `C13` (Sound), `E2` (Night/Lullaby?), `B14` (House), `G14` (Repeat/Cycle), `C3` (Slow/Lullaby?).
+    But `?g` is `H14` (Action/Button). A music box is an object.
+    *Wait*, is "Wind" (verb) the answer?
+    `H14`: Action/Button (winding a watch/box).
+    `A1`: Object (the box/watch).
+    `D8`: Time.
+    `C13`: Sound.
+    `G14`: Turn/Cycle.
+    `C3`: Slow (the movement).
+
+    What about "Tick"? (The sound).
+    `H14`: Action (the movement of the clock).
+    `C13`: Sound.
+    `D8`: Time.
+    `G14`: Cycle.
+
+    Let's look at `!y` (Yellow) again. `E2` (Night), `B14` (House), `G14` (Repeat), `C3` (Slow).
+    Could it be "Bedtime"? (No, `H14`).
+    Could it be "Lullaby"? (No, `H14`).
+
+    What about "Record" (the verb)?
+    Clue-giver said No to "Record" in Step 3.
+
+    How about "Watch" (the verb)?
+    `H14`: You press a button on a watch.
+    `A1`: Object (the watch).
+    `D8`: Time.
+    `C13`: Sound (ticking).
+    `E2`: Night (the stars/space/night time).
+    `B14`: House (at home).
+    `G14`: Cycle (the hands).
+    `C3`: Slow (ticking/movement).
+
+    Wait, "Watch" (noun/object) fits many, but the category is "Action/Button".
+    If the answer is "Watch" (to observe), does that fit?
+    If the answer is "Watch" (the object), `?g` would usually be `A1`.
+
+    Let's rethink.
+    `H14` (Action/Button)
+    `A1` (Box/Object)
+    `D8` (Time)
+    `C13` (Sound)
+    `E2` (Night/Space)
+    `B14` (House)
+    `G14` (Cycle/Repeat)
+    `C3` (Slow)
+
+    Is it "Moonlight"? (No).
+    Is it "Star"? (No).
+    Is it "Nightlight"?
+    - `H14`: You press a button to turn it on.
+    - `A1`: It's an object/box-like.
+    - `E2`: Night/Moon/Star.
+    - `B14`: House/Room.
+    - `C13`: Sound? (No, nightlights are usually silent).
+
+    Wait, `C13` is Sound. `D8` is Time.
+    "Clockwork"?
+    "Metronome"? (Too specific?).
+
+    Let's reconsider `H14` as "Button".
+    What do you do with a button in a house, at night, that involves sound, time, cycles, and is slow?
+    "Dim"? (To dim the lights).
+    - `H14`: Action (dimming).
+    - `E2`: Night.
+    - `B14`: House.
+    - `C3`: Slow (dimming is a slow transition).
+    - `C13`: Sound? (No).
+
+    "Tock"? (The sound).
+    "Chime"?
+    - `H14`: Action (to chime).
+    - `C13`: Sound.
+    - `D8`: Time.
+    - `G14`: Repeat.
+    - `A1`: Object (the clock).
+    - `B14`: House.
+    - `E2`: Night (clocks chiming at night).
+    - `C3`: Slow.
+
+    Is it "Sleep"? (Already checked, no).
+    Is it "Dream"? (No).
+
+    What about "Radio"?
+    - `H14`: Press a button.
+    - `A1`: Object.
+    - `C13`: Sound.
+    - `D8`: Time (programming).
+    - `E2`: Night (late night radio).
+    - `B14`: House.
+    - `G14`: Repeat (playing songs).
+    - `C3`: Slow (slow songs?).
+
+    Wait, look at the clues again.
+    `!r`: `A1` (Object/Box), `D8` (Time), `C13` (Sound).
+    `!y`: `E2` (Night/Space), `B14` (House), `G14` (Cycle/Repeat), `C3` (Slow).
+
+    What about a "Music Box"?
+    `A1`: Box.
+    `C13`: Sound.
+    `G14`: Cycle (winding/playing).
+    `C3`: Slow (the tempo).
+    `E2`: Night (lullaby).
+    `B14`: House (in a bedroom).
+    `D8`: Time (duration of song).
+    `H14`: Button/Action (to wind or turn it on).
+    *But* "Music box" is a noun, and `?g` is `H14` (Action/Verb/Button).
+    Wait, "Wind" (the verb) was my earlier thought.
+
+    Let's think of other "Actions/Buttons":
+    "Turn on"? "Turn off"?
+    "Play"? (Step 3: Record, Snooze, Alarm. "Record" was a no. "Play" is related).
+    "Listen"?
+    - `H14`: Action.
+    - `C13`: Sound.
+    - `D8`: Time.
+    - `G14`: Cycle (repeated listening).
+    - `E2`: Night.
+    - `B14`: House.
+    - `C3`: Slow (listening to slow music).
+
+    Wait, "Listen" doesn't really involve a "Button" as the *main* concept, though you press a button to play.
+
+    Let's look at `!y` again. `E2` (Space/Night), `B14` (House), `G14` (Cycle), `C3` (Slow).
+    Is it "Orbit"? (No, `H14`).
+    Is it "Rotate"?
+    Is it "Spin"?
+
+    What about "Clock"?
+    If "Clock" is the answer:
+    - `?g H14`: Button/Action? (You press buttons on a digital clock).
+    - `!r A1`: Object.
+    - `D8`: Time.
+    - `C13`: Sound.
+    - `!y E2`: Night.
+    - `B14`: House.
+    - `G14`: Cycle.
+    - `C3`: Slow.
+    But "Snooze" and "Alarm" (which are parts of a clock/actions related to it) were "No". Usually, if the answer is "Clock", "Alarm" would be a "Yes" or "On the right track".
+
+    Wait! "Alarm" was a "No".
+    If "Alarm" is No, then "Clock" is unlikely.
+
+    What about a "Watch"? (As in a timepiece).
+    Wait, the user guessed "Alarm" and it was "No".
+    What about "Timer"?
+    `H14`: Button.
+    `A1`: Object.
+    `D8`: Time.
+    `C13`: Sound.
+    `G14`: Cycle.
+    `B14`: House.
+    `C3`: Slow.
+
+    Let's look at `E2` (Night/Space/Moon/Stars) again.
+    How does "Space" or "Moon" or "Stars" fit?
+    "Moon"? (No, `H14`).
+    "Star"? (No).
+    "Satellite"? (No).
+    "Telescope"?
+    - `H14`: Action/Button (focusing?).
+    - `A1`: Object.
+    - `C13`: Sound? (No).
+    - `E2`: Night/Space.
+    - `D8`: Time (duration of viewing).
+
+    Let's go back to the "Sound" and "Time" and "Cycle" and "Slow" and "Night" and "House".
+    Could it be "Tick-tock"? (No, `H14`).
+    Could it be "Nightwatch"? (No).
+    Could it be "Lullaby"? (No, `H14`).
+
+    What about "Wind" (the verb)?
+    To wind a clock/music box.
+    - `H14`: Action.
+    - `A1`: Object (the thing you wind).
+    - `D8`: Time.
+    - `C13`: Sound (it makes sound).
+    - `G14`: Turn/Cycle.
+    - `C3`: Slow.
+    - `B14`: House.
+    - `E2`: Night (winding it before bed).
+
+    Wait, let's look at the symbols again.
+    `!r A1` (Box/Object), `D8` (Time), `C13` (Sound).
+    `!y E2` (Night/Space), `B14` (House), `G14` (Cycle), `C3` (Slow).
+
+    What about "Record Player"? (No, "Record" was "No").
+    What about "Music"? (No, `H14`).
+    What about "Song"? (No, `H14`).
+
+    Let's think about `E2` (Night/Space/Moon/Star) more.
+    `E2` is a very strong clue.
+    `!y E2 | B14, G14, C3`
+    Night, House, Repeat, Slow.
+    Could it be "Sleep"? (No, `H14`).
+    Could it be "Dream"? (No).
+
+    Is it "Moon"? (No).
+    Is it "Stars"? (No).
+
+    What about "Radio"? (Already thought of that).
+    "Television"? (No).
+
+    Wait! "Moon" + "Slow" + "Cycle" + "House" + "Sound" + "Time" + "Button".
+    What about "Clock" again? I dismissed it because "Alarm" was "No". But "Alarm" is a *feature* of a clock. If the answer is "Clock", "Alarm" might be "No" if the clue-giver is being very strict, but usually, it's "Yes".
+
+    Let's look at `H14` again. "Use - Action / Do - Verb / Button".
+    "Press"? "Push"? "Click"? (All were "No").
+    "Turn"?
+    - `H14`: Action (to turn).
+    - `G14`: Turn/Cycle.
+    - `C3`: Slow.
+    - `A1`: Object (the thing you turn).
+    - `D8`: Time (turning a page/time?).
+    - `C13`: Sound (the sound of turning).
+    - `E2` / `B14`? Doesn't fit well.
+
+    "Watch"? (The verb).
+    "Observe"?
+
+    Wait, let's look at `!y E2` (Night/Space/Moon/Star).
+    What action involves a button, is related to space/night, and is slow/repetitive/in a house

@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Smartphone",
+    "Selfie",
+    "Video"
+  ]
+,
+"pass": false
+}

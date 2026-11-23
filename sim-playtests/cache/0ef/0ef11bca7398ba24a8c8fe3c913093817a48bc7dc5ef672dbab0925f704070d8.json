@@ -1,0 +1,139 @@
+{
+  "contentSha256": "d5a8b6bc940c645ade63fee136ad5702d76f69f4d043c18353fc3e9e3c3de80b",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 1,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "90167f6773b23c0d34d7074b521186233b0757584cab853ba7be1b70066d6420"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "fea6a99ac25a597470e5845a37c0c84a0514f57ff7622ebe7a7c700e13da8dda"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "google/gemma-4-26b-a4b-it",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "pass": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "guesses",
+                "pass"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-3"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "db82776-dirty",
+    "costUsd": 0.00059023,
+    "latencyMs": 22768,
+    "recordedAt": "2026-11-23T22:23:53.767Z",
+    "recordedBy": "claude",
+    "servedBy": "Darkbloom",
+    "servedModel": "google/gemma-4-26b-a4b-it",
+    "tags": {
+      "run": "calibrate-or-gemma"
+    },
+    "usage": {
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
+      "inputTokens": 5090,
+      "outputTokens": 1767,
+      "reasoningTokens": 1747
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"Elvis Presley\",\"Shakespeare\",\"Mozart\"],\"pass\":false}",
+          "reasoning": {
+            "$llmemo.text": "e2da211215206a46d018ded8785d77e410848fb6ea192fadc7b9b5d67c1d52c1"
+          },
+          "reasoning_details": [
+            {
+              "format": "unknown",
+              "index": 0,
+              "text": {
+                "$llmemo.text": "e2da211215206a46d018ded8785d77e410848fb6ea192fadc7b9b5d67c1d52c1"
+              },
+              "type": "reasoning.text"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "stop"
+      }
+    ],
+    "created": 1795472611,
+    "id": "gen-1795472611-4iS0XjmQWdTAhvdeGwze",
+    "model": "google/gemma-4-26b-a4b-it",
+    "object": "chat.completion",
+    "provider": "Darkbloom",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1767,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 1747
+      },
+      "cost": 0.00059023,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00033573,
+        "upstream_inference_cost": 0.00059023,
+        "upstream_inference_prompt_cost": 0.0002545
+      },
+      "is_byok": false,
+      "prompt_tokens": 5090,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 6857
+    }
+  }
+}

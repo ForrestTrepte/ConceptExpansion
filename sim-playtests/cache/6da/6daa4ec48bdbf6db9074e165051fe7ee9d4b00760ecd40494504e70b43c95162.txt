@@ -1,0 +1,44 @@
+*   `?g B8`: The Main Concept pawn is on B8.
+    *   B8 = "Expression – Quote / Talking / Words".
+    *   `?g` means the main concept is an "Expression, Quote, Talking, or Words".
+
+    *   A word?
+    *   A quote?
+    *   A phrase?
+    *   An idiom?
+    *   Talking?
+    *   A speech?
+    *   A conversation?
+
+    *   "A quote"
+    *   "A phrase"
+    *   "Speaking"
+
+    *   The clue is extremely broad. It just says the answer is a type of thing: an expression/quote/talking/words.
+    *   Without further clues, it's impossible to narrow down *which* specific expression or word it is.
+    *   However, the instructions say "Give up to 3 guesses, best first: what the clues bring to mind."
+    *   Since the clue is just the category, I'll guess things related to that category.
+
+    *   Guess 1: A quote
+    *   Guess 2: A phrase
+    *   Guess 3: An idiom
+
+    *   Wait, the clue is `?g B8`. This literally means "The answer is an expression/quote/talking/words".
+    *   This is a very weak clue if it's the *only* clue. Usually, there are sub-concepts.
+    *   Maybe the answer is just "Words" or "Speech"?
+
+    *   Let's try:
+        1. A quote
+        2. An expression
+        3. Speech
+
+    *   Actually, looking at the game mechanics, if the clue-giver only places the category, the guesser might be looking for a specific word that is a "quote". But the prompt says "The clue-giver knows a secret answer". If the answer is "Shakespeare", and the clue is `?g B8`, it means "Shakespeare is an expression/quote/talking/words". That doesn't make sense. Shakespeare is a person.
+    *   If the answer is "A proverb", and the clue is `?g B8`, it makes sense.
+    *   If the answer is "Silence", and the clue is `?g B8`, it doesn't fit well (unless it's an expression?).
+    *   If the answer is "A saying", it fits.
+
+    *   Let's provide guesses that are common types of things in that category.
+
+    *   1. A quote
+    *   2. A proverb
+    *   3. An idiom

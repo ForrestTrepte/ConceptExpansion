@@ -1,0 +1,61 @@
+*   `?g B2`: Main Concept is a Character / Fictional / Imaginary.
+    *   `+ C9`: Related to Religion / Myth / Spirituality.
+    *   `!r D12`: Sub-Concept (Red) is Leg / Foot / Ankle.
+    *   `+ D5`: Part of/Feature/Connection is Death / Bad / Illness.
+    *   `+ D4`: Part of/Feature/Connection is Attack / Conflict / Weapon.
+    *   *Result from Step 1:* The guess "Achilles" was "Yes". Achilles is a mythical hero (B2 + C9) known for his heel (D12), which was his weakness leading to death (D5), often involving combat/weapons (D4).
+
+    *   `!y B8`: New Sub-Concept (Yellow) is Expression / Quote / Talking / Words.
+    *   `+ D12`: Related to Leg / Foot / Ankle (already in Red, but now in Yellow).
+    *   `+ H10`: Related to Small / Low.
+
+    *   Wait, the answer is Achilles.
+    *   The new markers are Yellow: `B8` (Words/Quote), `D12` (Leg/Foot/Heel), `H10` (Small/Low).
+    *   What famous "words" or "quotes" are associated with Achilles' foot/heel?
+    *   "Achilles' heel" is a common expression/idiom (B8).
+    *   "Achilles' heel" refers to a small/low (H10) weakness in the heel (D12).
+
+    *   Wait, the prompt says "The answer can be... a common phrase or idiom."
+    *   The first set of clues pointed to the *person* Achilles.
+    *   The second set of clues adds "Words/Quote", "Leg/Foot", and "Small/Low".
+    *   This strongly suggests the idiom: "Achilles' heel".
+
+    *   Guess 1: Achilles' heel.
+    *   Guess 2: Achilles (already guessed, but maybe they are moving from the person to the phrase).
+    *   Guess 3: Heel (too broad).
+
+    Let's look at the markers again.
+    `!y B8` (Words/Quote/Expression)
+    `+ D12` (Leg/Foot)
+    `+ H10` (Small/Low)
+
+    This is definitely the idiom "Achilles' heel".
+
+    1. Achilles' heel
+    2. Achilles' heel idiom (redundant)
+    3. Weakness (might be too abstract)
+
+    Actually, the question is asking for guesses.
+
+    "Achilles' heel" is the most logical leap.
+
+    *   Character: Achilles
+    *   Myth: Yes
+    *   Leg/Foot: Yes
+    *   Death: Yes (vulnerability)
+    *   Weapon: Yes (was killed by an arrow)
+    *   Expression/Quote: Achilles' heel
+    *   Leg/Foot: Yes
+    *   Small: The heel is a small part, or the vulnerability is small.
+
+    Wait, could it be something else? "Achilles' heel" is the phrase.
+    The player guessed "Achilles" in step 1 and got "Yes: Achilles".
+    The clue-giver is now refining the clue or moving towards a specific aspect.
+    By adding `B8` (Expression/Quote), they are shifting from the character to the phrase.
+
+    Guesses:
+    1. Achilles' heel
+    2. Achilles' heel (phrase)
+    3. Weakness (as a fallback)
+
+    I will provide "Achilles' heel".

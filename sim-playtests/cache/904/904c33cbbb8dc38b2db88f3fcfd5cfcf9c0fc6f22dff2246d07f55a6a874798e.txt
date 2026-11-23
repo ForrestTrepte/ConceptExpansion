@@ -1,0 +1,8 @@
+{
+  "guesses": [
+    "To wind",
+    "To spin",
+    "To rotate"
+  ]
+,"pass": false
+}

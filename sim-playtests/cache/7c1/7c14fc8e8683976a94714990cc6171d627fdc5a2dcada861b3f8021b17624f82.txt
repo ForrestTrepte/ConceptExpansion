@@ -1,0 +1,215 @@
+*   Main Concept (`?g`): A14 (Food / Eating / Edible)
+    *   Detail 1 (`+`): F11 (One / Unit / Number) x8. This means "8" or "eight" or "eight of something".
+    *   Detail 2 (`!y`): Yellow + H11 (Thin – Fine / Narrow / Short). This means "Yellow" and "Thin/Narrow".
+
+    *   A food/edible thing.
+    *   There are 8 of them.
+    *   They are Yellow and Thin.
+
+    *   8 pieces of yellow spaghetti?
+    *   8 thin yellow noodles?
+    *   8 yellow french fries (though they are usually many, if I say "8 fries" it's a bit specific, but the count is 8)?
+    *   8 thin slices of lemon/banana?
+    *   8 sticks of yellow candy/licorice?
+    *   8 yellow noodles?
+
+    *   "8 noodles"
+    *   "8 yellow noodles"
+    *   "8 french fries" (Wait, fries aren't usually "thin" in the way a noodle is, but they are "thin" enough. However, "noodles" or "spaghetti" fits "thin" better).
+    *   "8 lemon slices" (Not necessarily thin/long, but could be).
+    *   "8 sticks of yellow candy"
+
+    *   Wait, "8" and "Thin" and "Yellow" and "Food".
+    *   Spaghetti is thin.
+    *   Yellow noodles/spaghetti.
+    *   "8 spaghetti" or "8 noodles".
+
+    *   Spaghetti/Noodles are a very strong contender for "thin" and "yellow".
+    *   The count is exactly 8.
+
+    *   "8 noodles"
+    *   "8 yellow noodles"
+    *   "8 spaghetti" (Doesn't make much sense)
+    *   "8 sticks of pasta"
+    *   "8 pieces of yellow pasta"
+
+    Let's refine.
+    1. 8 yellow noodles
+    2. 8 spaghetti
+    3. 8 french fries (maybe?)
+
+    Actually, looking at F11 (One / Unit / Number) x8. It implies the quantity is 8.
+    A14 (Food)
+    H11 (Thin)
+    Yellow (Color)
+
+    Maybe it's "8 yellow pencils"? No, A14 is Food.
+    "8 yellow straws"? No, A14 is Food.
+    "8 yellow noodles" is the best.
+
+    Wait, what if it's "Spaghetti"?
+    A14 (Food)
+    H11 (Thin)
+    Yellow (Noodle color)
+    F11 x8 (This is the tricky part. Why 8?)
+
+    Is there a food that famously comes in 8? Or is it just "8 [food item]"?
+    Maybe "8 pieces of pasta"?
+    Maybe "8 sticks of lemongrass" (not yellow)?
+
+    Could it be "spaghetti"? If the answer is just "Spaghetti", why the 8?
+    Maybe the answer is "8-piece chicken nugget"? No, nuggets aren't thin.
+    "8 sticks of celery"? No, not yellow.
+
+    Let's look at the markers again.
+    ?g A14 (Food)
+    + F11 x8 (8 units)
+    !y Yellow (Yellow)
+    + H11 (Thin)
+
+    "8 yellow noodles"
+    "8 spaghetti"
+    "8 pieces of yellow pasta"
+
+    Maybe it's "8 yellow fries"?
+
+    Actually, let's think about the number 8.
+    Could it be "Octopus"? (Already guessed, No).
+    Could it be "Spaghetti"?
+    Could it be "Corn"? (No, not thin).
+
+    What about "8 yellow sticks of [something]"?
+    "8 sticks of yellow licorice"?
+    "8 thin yellow noodles"?
+
+    Let's try:
+    1. 8 yellow noodles
+    2. 8 pieces of yellow pasta
+    3. 8 french fries
+
+    Wait, what if "8" refers to a name? Like "8-piece chicken"?
+    No, "8" is a number.
+
+    What if the answer is "Noodles"?
+    If the answer is "Noodles", why the 8?
+    Maybe the answer is "Spaghetti"?
+    Maybe the answer is "8-bit"? No, A14 is food.
+
+    Let's try:
+    1. 8 yellow noodles
+    2. 8 thin yellow noodles
+    3. 8 spaghetti
+
+    Actually, "8 yellow sticks of pasta" is more descriptive.
+    Let's try to be more direct.
+
+    1. 8 yellow noodles
+    2. 8 spaghetti
+    3. 8 french fries
+
+    Wait, "thin" (H11) + "yellow" + "food".
+    Could it be "Spaghetti"?
+    Could it be "Angel hair pasta"?
+    Could it be "Vermicelli"?
+
+    If the answer is "Spaghetti", the "8" is very weird. Unless it's "8-strand spaghetti"? No.
+    What if the answer is "8-piece chicken"? No, not thin.
+
+    Let's reconsider the 8.
+    F11 is "One/Unit/Number". x8 means 8 units.
+    Could the answer be "Spaghetti"?
+    Maybe it's "8 sticks of lemongrass"? No.
+    Maybe it's "8-legged [something]"? No, A14 is food.
+
+    Wait! "8-legged" -> Octopus (Already guessed, No).
+    How about "Spiders"? No, A14 is food.
+
+    Is there a food called "8-something"?
+    "8-piece nuggets"? (Not thin).
+
+    Let's try:
+    1. 8 yellow noodles
+    2. 8 thin noodles
+    3. 8 sticks of pasta
+
+    Wait, "8-piece chicken" is common, but not thin.
+    What about "8-fold"? No.
+
+    Let's look at the "thin" icon H11 again.
+    "Thin - Fine - Narrow - Short".
+    "Yellow".
+    "8".
+    "Food".
+
+    Could it be "8 yellow sticks of candy"?
+    Could it be "8 pieces of macaroni"? (Macaroni is tubes, not thin).
+    Could it be "8 spaghetti strands"?
+
+    Let's try:
+    1. 8 yellow noodles
+    2. 8 spaghetti
+    3. 8 thin pieces of pasta
+
+    Actually, let's look at "8" and "Thin" and "Yellow" and "Food" again.
+    Is it "8-inch corn"? No.
+
+    What about "8 pieces of corn"? No.
+    "8 yellow corn sticks"?
+
+    Let's try:
+    1. 8 yellow noodles
+    2. 8 spaghetti
+    3. 8 french fries
+
+    Wait, could the 8 be "Octopus" (8 legs)? But the user already guessed Octopus and the clue-giver said "No".
+    If the answer isn't Octopus, then the 8 isn't about legs. It's the quantity or the number 8.
+
+    Maybe the answer is "8-piece chicken"? But "thin" doesn't fit.
+    Maybe "8 pieces of yellow pasta"?
+
+    Let's go with:
+    1. 8 yellow noodles
+    2. 8 pieces of spaghetti
+    3. 8 sticks of yellow pasta
+
+    Wait! "8 thin yellow noodles".
+
+    Could it be "Spaghetti"?
+    If I guess "8 yellow noodles", and it's "Spaghetti", they'll say "Yes: [something]".
+
+    Another thought:
+    "8" + "Yellow" + "Thin" + "Food".
+    Could it be "8-piece nugget"? (No, thin).
+    "8 yellow sticks of butter"? (No, not thin).
+    "8 sticks of banana"? (No).
+
+    What about "8-piece fried chicken"? (No, thin).
+    "8-ounce [something]"? (No, that's weight).
+
+    Let's look at H11 again. "Thin/Fine/Narrow/Short".
+    "8 Yellow Thin Food".
+    "8 yellow noodles".
+
+    Maybe "8 noodles" is too simple.
+    Could it be "Spaghetti"?
+    I'll try "8 yellow noodles".
+
+    Wait, is it "8 pieces of corn"? (Corn is yellow, but not thin).
+    "8-strand spaghetti"?
+
+    Let's try:
+    1. 8 yellow noodles
+    2. 8 thin noodles
+    3. 8 pieces of spaghetti
+
+    Wait, "8-piece chicken" is common, but I'll stick to the "thin" aspect.
+
+    One more idea: "8-piece something".
+    "8 yellow french fries"
+
+    Let's try:
+    1. 8 yellow noodles
+    2. 8 spaghetti
+    3. 8 pieces of pasta
+
+    If the "8" is the number of items, then "8 noodles" makes sense.

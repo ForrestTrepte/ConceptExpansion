@@ -1,0 +1,81 @@
+*   `!r B9`: Red sub-concept on B9 (Building / Monument / City).
+    *   `+ A8`: Cube on A8 (Idea / Intelligence / Concept) in the red group. The instruction says "[on the light bulb in the picture]", which reinforces the "Idea/Concept" meaning.
+    *   `+ B14`: Cube on B14 (House / Dwelling / Room / Domestic) in the red group.
+
+    *   Red sub-concept markers:
+        *   B9 (Building)
+        *   A8 (Idea)
+        *   B14 (House)
+
+    *   Connection between Building, Idea, and House.
+    *   Maybe a famous building?
+    *   Maybe a concept related to a house or a home?
+    *   Maybe a specific type of house?
+    *   "Home" as a concept?
+    *   "Idea" + "House"?
+    *   Wait, `!r` is a red sub-concept. It's one group of related ideas.
+    *   The markers are B9 (Building), A8 (Idea), B14 (House).
+    *   Could it be "The White House"?
+    *   Could it be "Headquarters"?
+    *   Could it be "Think tank"? (Idea + Building?)
+    *   Could it be "Home"?
+    *   Let's look at the icon meanings again.
+        *   B9: Building / Monument / City
+        *   A8: Idea / Intelligence / Concept
+        *   B14: House / Dwelling / Room / Domestic
+
+    *   "Think tank" fits "Idea" (A8) and "Building" (B9). Does "House" (B14) fit? Not necessarily.
+    *   "The White House"? (Building, House). Does "Idea" fit? Maybe if it refers to a political concept, but it's a stretch.
+    *   "Idea of a home"?
+    *   "Dream house"? (Idea + House). Does "Building" fit? Yes.
+
+    *   Think tank
+    *   Dream house
+    *   The White House
+
+    Let's re-evaluate.
+    `!r B9` (Building)
+    `+ A8` (Idea)
+    `+ B14` (House)
+
+    Is it "Architecture"?
+    Is it "Real estate"?
+    Is it "A home"?
+
+    Let's try "Think tank" first, then "Dream house", then "The White House".
+    Actually, "Think tank" is a very strong link between Building and Idea. But "House" is specifically listed.
+
+    What about "Home"? (House, Building, Idea of home).
+    What about "Blueprint"? (Idea, Building/House concept).
+
+    Let's try:
+    1. Think tank
+    2. Dream house
+    3. White House
+
+    Wait, let's look at the red marker again. It's a *sub-concept*.
+    The *main concept* (`?g`) hasn't been placed yet. This means the answer is something that *has* these three characteristics/connections.
+
+    If the answer is "Architecture":
+    - It's related to buildings (B9).
+    - It's a concept (A8).
+    - It involves houses (B14).
+
+    If the answer is "Home":
+    - Related to building (B9).
+    - Related to house (B14).
+    - It's an idea/concept (A8).
+
+    If the answer is "Blueprint":
+    - It's an idea (A8).
+    - It's for a building (B9) or house (B14).
+
+    Let's try "Think tank", "Dream house", "Blueprint".
+
+    Wait, "Think tank" is a building used for ideas.
+    "Dream house" is an idea of a house.
+
+    Let's try:
+    1. Think tank
+    2. Dream house
+    3. Blueprint

@@ -1,0 +1,41 @@
+*   `?g A4`: Main Concept is Fauna/Animal.
+    *   `+ C3 x2`: Two cubes on C3 (Slow/Slow motion) in the main group (g).
+    *   `+ Brown`: A brown cube in the main group (g).
+    *   `!r B4`: Red sub-concept pawn on B4 (Flora/Plant/Nature).
+    *   `+ H12`: A cube on H12 (Low/Descend/Below) in the red sub-concept group (r).
+
+    *   Main Concept (g): Animal + very slow (x2) + brown.
+    *   Sub-Concept (r): Related to plants/nature + low/on the ground.
+
+    *   Animal + Very Slow + Brown + related to nature/ground.
+    *   Possible candidates:
+        *   Snail (slow, brown, lives on ground/plants).
+        *   Sloth (slow, though usually more grey/brown, lives in trees/nature).
+        *   Turtle/Tortoise (slow, brown, nature).
+        *   Caterpillar (slow, often brown, nature/plants).
+
+    *   *Snail*: Fits "slow" (x2), "brown" (often), "nature/plants" (B4), "low/ground" (H12).
+    *   *Sloth*: Fits "slow" (x2), "brown", "nature" (B4), but usually in trees (not necessarily "low").
+    *   *Tortoise*: Fits "slow" (x2), "brown", "nature" (B4), "low" (H12).
+
+    *   Snail
+    *   Sloth
+    *   Tortoise
+
+    *Wait, let's re-examine the "slow" markers.*
+    `?g A4` + `+ C3 x2` means the animal *is* slow (the quality defines the concept).
+    `!r B4` + `+ H12` means the sub-concept is about nature/plants and is low to the ground.
+
+    Snail is a very strong candidate.
+    Sloth is also possible but usually associated with trees.
+    Tortoise is possible.
+    Caterpillar is possible.
+
+    Let's try Snail, Sloth, Tortoise.
+
+    *Self-Correction*: A snail is often associated with being low (H12) and slow (C3). Sloths are slow but high up.
+
+    Let's refine the guesses.
+    1. Snail
+    2. Sloth
+    3. Tortoise

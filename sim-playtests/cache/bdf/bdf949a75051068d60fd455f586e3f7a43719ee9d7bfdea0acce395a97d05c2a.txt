@@ -1,0 +1,86 @@
+
+*   `+g E2`: A cube in the Main Concept group (green) on E2. E2 means "Night – Evening / Space / Moon – Star". The prompt specifies the cube is on the stars.
+    *   `+ D4`: A cube in the Main Concept group (green) on D4. D4 means "Attack / Conflict – Combat / Weapon".
+    *   `Board now`: `g (no pawn) | E2, D4`. This means the Main Concept *pawn* (the `?` icon) hasn't been placed, but there are green cubes on E2 and D4.
+    *   Wait, looking at the notation: `?g A4` places the pawn. `+g G14` adds a cube. The user says `+g E2`. This means a green cube is on E2.
+    *   The prompt says `g (no pawn) | E2, D4`. This implies the category of the answer is being described by the attributes E2 (Night/Space/Stars) and D4 (Conflict/Weapon).
+    *   Wait, if the `?g` pawn isn't placed, it's harder, but the attributes are clear: Night/Stars/Space AND Attack/Conflict/Weapon.
+
+    *   Space/Stars + Weapon/Conflict.
+    *   Star Wars (Conflict in space).
+    *   A meteor/asteroid (A "weapon" from space?).
+    *   Death Star (Star + Weapon/Destruction).
+    *   War in space.
+    *   Alien invasion.
+    *   A comet (could be seen as destructive).
+    *   Star Trek? (Less about "weapon/attack" than "exploration", but possible).
+    *   The word "Star Wars" is very strong.
+
+    *   "Star Wars"
+    *   "Death Star"
+    *   "Alien invasion"
+
+    *   The markers are `E2` (Night/Space/Stars) and `D4` (Attack/Conflict/Weapon).
+    *   `Star Wars` fits perfectly.
+    *   `Death Star` fits perfectly.
+    *   `Meteor` (maybe, but less "conflict" focused).
+
+    Let's go with:
+    1. Star Wars
+    2. Death Star
+    3. Alien invasion
+
+    *Self-Correction:* The notation `+g E2` means the *Main Concept* group has a cube on E2. In Concept, if the `?` pawn isn't placed, the cubes themselves define the concept. Usually, the `?` pawn is placed to say "The answer is a [Category]". If it's missing, it might mean the answer *is* those things or the clue-giver is being efficient.
+
+    Attributes:
+    - E2: Night, Space, Moon, Star.
+    - D4: Attack, Conflict, Combat, Weapon.
+
+    "Star Wars" is the most iconic "Star" + "War/Conflict" entity.
+
+    1. Star Wars
+    2. Death Star
+    3. Meteor
+
+    Actually, let's try:
+    1. Star Wars
+    2. Death Star
+    3. Alien invasion
+
+    *Wait*, "Star Wars" is a title. "Death Star" is an object.
+    Let's try "Star Wars" first.
+
+    1. Star Wars
+    2. Death Star
+    3. Alien invasion
+
+    Let's check if there's any other meaning.
+    E2: Night, Space, Moon, Star.
+    D4: Attack, Conflict, Combat, Weapon.
+
+    Maybe "War in space"?
+    Maybe "Starship"? No, D4 is attack/weapon.
+
+    Let's stick to the strongest candidates.
+
+    1. Star Wars
+    2. Death Star
+    3. Meteor
+
+    Actually, let's refine the list:
+    1. Star Wars
+    2. Death Star
+    3. Alien invasion
+
+    Wait, if it's an object, `Death Star` is better. If it's a movie, `Star Wars` is better.
+    If the answer is "Star Wars", it's a title.
+
+    Let's try:
+    1. Star Wars
+    2. Death Star
+    3. Alien invasion
+
+    Let's re-read `E2`: Night, Space, Moon, Star.
+    `D4`: Attack, Conflict, Combat, Weapon.
+
+    "Star Wars" is very likely.

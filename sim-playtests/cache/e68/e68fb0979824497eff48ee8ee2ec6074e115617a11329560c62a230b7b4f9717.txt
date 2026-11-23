@@ -1,0 +1,123 @@
+*   `?g A3`: Main Concept is Work / Occupation (A3).
+    *   `+ G14`: It involves repetition, cycles, or turns.
+    *   `!r A4`: Red sub-concept (related idea): Fauna / Animal (A4).
+    *   `+ H10`: The animal is small / low (H10).
+    *   `+ Grey`: The animal is grey.
+    *   `+r D5`: Red sub-concept addition: Death / Bad / Illness (D5).
+    *   `!y D3`: Yellow sub-concept (related idea): Fast / Race (D3).
+    *   `+y A12`: Yellow sub-concept addition: Ground transportation / Road (A12).
+    *   `+ B3`: Yellow sub-concept addition: Hobby / Sport (B3).
+
+    *   *Main Concept*: An occupation (A3).
+    *   *Red Group (Related to Occupation)*: Involves small, grey animals (A4, H10, Grey) and death/illness/bad things (D5).
+        *   Possible jobs involving small grey animals and death: Pest control (Exterminator - already guessed and rejected), maybe something related to handling mice or insects?
+    *   *Yellow Group (Related to something else?)*: Fast (D3), Road (A12), Sport/Hobby (B3).
+        *   Wait, if the yellow group is a *different* related idea: something fast on the road that is a hobby/sport. Racing?
+        *   Or is the occupation related to "fast on the road" and "sport"? A race car driver?
+        *   Let's re-evaluate the grouping.
+        *   Yellow Group: D3 (Fast), A12 (Road), B3 (Sport).
+        *   Red Group: A4 (Animal), H10 (Small), Grey, D5 (Death/Bad).
+
+    *   Occupation (A3).
+    *   Red clues: Small grey animal, death/illness. (Maybe dealing with vermin? But Exterminator was "No").
+    *   Yellow clues: Fast, Road, Sport. (Racing?)
+    *   Wait, maybe the occupation *is* related to the yellow group, and the red group is a characteristic?
+    *   Let's look at "Small grey animal" + "Death/Bad". A mouse? A rat?
+    *   Occupation involving "Fast", "Road", "Sport". A Race car driver.
+    *   Is there a connection between a race car driver and small grey animals/death? No.
+
+    *   Maybe the occupation is **Racer** or **Driver**?
+    *   `?g A3` (Occupation)
+    *   `!y D3` (Fast) + `A12` (Road) + `B3` (Sport). This fits a racing driver perfectly.
+    *   What about the Red group? `!r A4` (Animal) + `H10` (Small) + `Grey` + `D5` (Death/Bad).
+    *   A small grey animal associated with death/bad... A rat?
+    *   Is the answer **Rat Race**?
+        *   "Rat Race" is a common phrase/idiom.
+        *   `?g A3` (Occupation/Work) - A rat race is about the struggle of work.
+        *   `!r A4` (Animal) + `H10` (Small) + `Grey` + `D5` (Bad/Death) = Rat.
+        *   `!y D3` (Fast) + `A12` (Road/Movement?) + `B3` (Sport/Competition?) = Race.
+        *   `+ G14` (Repetition/Cycle) = The repetitive nature of a rat race.
+
+    *   Concept: Work/Occupation (A3) + Cycle/Repetition (G14).
+    *   Red (Rat): Animal (A4) + Small (H10) + Grey + Bad (D5).
+    *   Yellow (Race): Fast (D3) + Road (A12 - as in a track/path) + Sport (B3).
+    *   "Rat Race" is a common phrase.
+
+    *   Race car driver (Doesn't fit the "Rat" part).
+    *   Pest control (Already guessed Exterminator).
+    *   Rat Race (Strong contender).
+    *   Let's check if "Race" fits the yellow group better. D3 (Fast), A12 (Road), B3 (Sport). Yes.
+
+    *   "Rat race" is a very common idiom for the repetitive, competitive struggle of modern work life.
+    *   `?g A3` (Work) + `G14` (Repetition) = The nature of the rat race.
+    *   `!r A4` (Animal) + `H10` (Small) + `Grey` + `D5` (Bad) = Rat.
+    *   `!y D3` (Fast) + `A12` (Road) + `B3` (Sport) = Race.
+
+    *   1. Rat race
+    *   2. Racing driver (just in case)
+    *   3. Mouse (just in case)
+
+    Wait, "Rat Race" is a phrase. The clues for "Race" are D3 (Fast), A12 (Road), B3 (Sport/Hobby). That's quite solid for "Race". The clues for "Rat" are A4 (Animal), H10 (Small), Grey, D5 (Bad). That's quite solid for "Rat". The connection between them is the phrase.
+
+    Let's consider if there's another "Rat" related work. A lab technician? (Small grey animals/rats, work/occupation). But "Race" (Fast, Road, Sport) wouldn't fit a lab technician.
+
+    "Rat race" seems the most likely.
+
+    1. Rat race
+    2. Racer
+    3. Racing
+
+    Actually, I'll just provide the most confident one.
+
+    *Self-Correction:* The prompt asks for "up to 3 guesses, best first".
+
+    Guesses:
+    1. Rat race
+    2. Race car driver
+    3. Racing
+
+    Let's try to see if "Race car driver" fits the "Rat" part. No.
+    "Rat race" fits all markers.
+
+    Wait, could it be "Mouse trap"?
+    `?g A3` (Work)? No.
+    `!r A4` (Animal) + `H10` (Small) + `Grey` + `D5` (Death)? Yes.
+    `!y D3` (Fast) + `A12` (Road) + `B3` (Sport)? No.
+
+    Could it be "Rat"?
+    `?g A3` (Work)? No.
+
+    Could it be "Marathon"?
+    `?g A3` (Work)? No.
+
+    "Rat race" is the only one that bridges the two groups via a phrase where one part is the Red group and the other part is the Yellow group.
+
+    *Final check of the markers:*
+    `?g A3` (Work)
+    `+ G14` (Repetition)
+    `!r A4` (Animal) + `H10` (Small) + `Grey` + `D5` (Bad) -> Rat
+    `!y D3` (Fast) + `A12` (Road) + `B3` (Sport) -> Race
+
+    The "Work" and "Repetition" are descriptors of the "Rat Race" concept.
+
+    Wait, `A12` is "Ground transportation / Road". A race happens on a track/road.
+    `B3` is "Hobby / Sport". Racing is a sport.
+    `D3` is "Fast".
+
+    This looks very strong.
+
+    One more thought: "Ratified"? No.
+    "Rat exterminator"? (Already guessed Exterminator).
+
+    I will go with "Rat race".
+
+    *Wait, let me look at the A3 + G14 again.*
+    A3 (Work) + G14 (Repetition). A "Rat race" is a repetitive work cycle.
+
+    What if the answer is "Road Race"?
+    Red group (Rat) wouldn't fit.
+
+    What if the answer is "Racing"?
+    Red group wouldn't fit.
+
+    "Rat race" is the answer.

@@ -1,0 +1,229 @@
+*   `?g A14`: Main Concept is A14 (Food / Eating / Edible).
+    *   `+ F3`: Cube in the same group (green) on F3 (Water / Liquid / Aquatic).
+    *   `+ F1`: Cube in the same group (green) on F1 (Hot / Day / Light / Sun).
+    *   `!r A14`: Red Sub-Concept pawn on A14 (Food / Eating / Edible).
+    *   `+ H9`: Cube in the red group on H9 (Hollow / Hole / Pierced).
+
+    *   The Main Concept is a food.
+    *   Attributes: It is liquid (F3) and it is hot (F1).
+    *   Related idea (Red group): It is an edible thing (A14) that is hollow or has a hole (H9).
+
+    *   *Soup?* (Hot, liquid, edible, but not really "hollow" in the way an object is, though it's in a bowl? No, the clue says the food *itself* is hollow/pierced via H9).
+    *   *Donut?* (Edible, hollow/has a hole, but not hot/liquid... unless it's a hot liquid food?)
+    *   *Coffee/Tea?* (Hot, liquid, edible/drinkable, but not hollow).
+    *   *Noodle/Pasta?* (Hot, liquid [sauce], edible, some are hollow like penne/macaroni).
+    *   *Spaghetti?* (Similar to pasta).
+    *   *Dumpling/Pierogi?* (Can be hot, but not really liquid/hollow).
+    *   *Ice cream?* (No, it's cold).
+    *   *Bowl of soup?* (Maybe).
+    *   *Hot chocolate?* (Hot, liquid, but not hollow).
+    *   *A donut?* (Wait, H9 is "Hollow / Hole / Pierced"). Is there a hot liquid food with a hole?
+    *   *Looking at H9 again:* "Hollow / Hole / Pierced".
+    *   *Maybe the food is a donut and the "hot/liquid" refers to the glaze or the fact it's hot?* No, the markers are in the same group.
+    *   *Let's re-evaluate the groups.*
+        *   `?g A14 (Food) + F3 (Liquid) + F1 (Hot)` -> A hot liquid food.
+        *   `!r A14 (Food) + H9 (Hollow)` -> A food that is hollow.
+    *   *Could it be Macaroni?* (Hot, liquid [sauce], edible, hollow shape).
+    *   *Could it be a donut?* (Hollow, but not liquid).
+    *   *Wait, maybe the red group isn't "The food is hollow", but "A food that has a hole".*
+    *   *What about a bagel?* (Hollow/Hole, edible, but usually not liquid/hot unless...?)
+    *   *What about a "Hot Dog"?* (No).
+    *   *What about "Soup"?* (Is a soup hollow? No).
+    *   *What about "Pasta"?* (Hot, liquid [sauce], edible, hollow [macaroni/penne]).
+
+    *Refining the "Hollow" aspect:*
+    If the answer is "Soup", why the H9? Maybe the *container*? No, the clue is for the answer itself.
+    If the answer is "Donut", why the F1 and F3?
+    Maybe the answer is **Macaroni and cheese**? (Hot, liquid-ish, hollow).
+    Maybe the answer is **Coffee**? (Hot, liquid, but not hollow).
+
+    *Wait... what about "A bowl of soup"?* (Not a single word usually).
+    *What about "Noodle"?*
+    *What about "Pasta"?*
+
+    *Let's look at the H9 again. "Hollow / Hole / Pierced".*
+    If the answer is "Donut", maybe the "Hot/Liquid" part refers to something else? No, they are cubes on the main concept.
+    What if the answer is **Hot Chocolate**? (No hole).
+    What if the answer is **Tea**? (No hole).
+
+    *Let's try a different angle: Is the answer "A hole"? No, A14 is Food.*
+    *Is the answer "A donut"?* It's a food. It has a hole (H9). But is it hot (F1) and liquid (F3)? Maybe the "liquid" refers to the glaze? Or maybe it's a "Liquid" food? No.
+
+    *Wait!* What if the answer is **Pasta**?
+    Hot (F1), Liquid (F3 - sauce or liquid-based), Food (A14).
+    Red group: Food (A14) + Hollow (H9). Macaroni/Penne are hollow.
+
+    *Wait, could it be "Spaghetti"?* (Not hollow).
+    *Could it be "Soup"?* (Not hollow).
+
+    *How about "Ice Cream"?* (No, F1 is Hot).
+    *How about "Tea"?* (No, H9 is Hollow).
+
+    *Let's rethink H9: Hollow / Hole / Pierced.*
+    What if the answer is **A bagel**? (Hole, but not liquid).
+    What if the answer is **A donut**?
+    What if the answer is **A dumpling**?
+
+    *Wait, look at the F3 and F1 again.*
+    `?g A14 (Food) + F3 (Liquid) + F1 (Hot)`
+    Could it be **Soup**? If it's soup, where does the H9 (Hole/Hollow) fit?
+    Is there a "Hollow" soup? No.
+    Maybe the answer is **Macaroni**?
+    Maybe the answer is **A donut**? (Is there a "liquid donut"? No).
+
+    *Let's try another guess:* **Pasta**.
+    *Let's try another guess:* **Macaroni**.
+    *Let's try another guess:* **Donut**.
+
+    *Rethink:* What if the "Hollow/Hole" refers to the *shape* of the food?
+    A **donut** has a hole.
+    A **bagel** has a hole.
+    **Penne/Macaroni** has a hole.
+    Is there a hot liquid food with a hole?
+    ...**A donut hole**? (No, that's the absence of a hole).
+    ...**Coffee**? (No).
+
+    *Actually, let's look at the food "Soup" again. Is there a "hole" in a bowl? No.*
+    *Wait!* What if the answer is **A donut**? And the "Hot/Liquid" refers to the fact it's a "hot" food? No, that's a stretch.
+
+    *Wait!* Is the answer **Melted cheese**? (No).
+    **Hot Dog**? (No).
+
+    *Let's look at the markers again.*
+    `?g A14 (Food) + F3 (Liquid) + F1 (Hot)` -> This describes a type of food.
+    `!r A14 (Food) + H9 (Hollow/Hole)` -> This describes a related concept.
+
+    Maybe the answer is **Soup** and the red clue is a "hole" in a different sense? No.
+    Maybe the answer is **Pasta**?
+    What about **Cereal**? (No, F1 is Hot).
+    What about **Porridge**? (Hot, liquid-ish, but not hollow).
+
+    *Is it **Macaroni**?*
+    A14 (Food)
+    F3 (Liquid - sauce)
+    F1 (Hot)
+    H9 (Hollow/Hole) - the shape of the pasta.
+
+    *Is it **Donut**?*
+    A14 (Food)
+    H9 (Hole)
+    But F1 and F3? Maybe the "liquid/hot" is a separate clue for something else? No, they are in the `?g` group.
+
+    *What about **Tea**?* (No).
+    *What about **Coffee**?* (No).
+
+    *Let's think of "Hollow" + "Hot" + "Liquid" + "Food".*
+    **Soup** in a bowl? No, the answer is the food.
+    **Macaroni**?
+    **Penne**?
+    **Ravioli**? (Not hollow).
+    **Dumpling**? (Not liquid).
+
+    *Wait, is it **Chili**?* (No).
+    *Is it **A taco**?* (No).
+
+    *Let's try a different approach. What if the answer is **A donut** and the person is describing a "Hot liquid" something? No.*
+
+    *Let's reconsider the red group.*
+    `!r A14 (Food) + H9 (Hole/Hollow)`
+    This means "A related idea: a food with a hole".
+    So the main concept is a food that is hot and liquid.
+    If the answer is **Soup**, what is a "food with a hole"? A donut?
+    If the answer is **Pasta**, what is a "food with a hole"? A donut?
+    Wait, the red group is a *related* idea. It doesn't have to be the answer.
+    So:
+    Main concept: Hot, liquid food.
+    Related: Food with a hole (e.g., a donut).
+
+    If the Main Concept is "Hot, liquid food", possible answers:
+    1. **Soup**
+    2. **Tea/Coffee** (though A14 is food/eating, and these are drinks, but in Concept they often overlap).
+    3. **Porridge**
+    4. **Cereal** (usually cold, but can be hot).
+
+    If the answer is **Soup**, a "food with a hole" (Donut) is a very distinct related idea.
+    If the answer is **Tea**, a "food with a hole" is a bit of a leap.
+
+    Let's try **Soup** first.
+
+    *Wait, look at F1 and F3 again.*
+    F1 (Hot/Sun/Day)
+    F3 (Liquid/Water/Aquatic)
+    Could it be **A bagel**? No, A14 is Food.
+
+    Let's try:
+    1. Soup
+    2. Coffee
+    3. Tea
+
+    Actually, "Liquid" + "Hot" + "Food" is almost certainly **Soup**.
+    And the red clue `!r A14 + H9` (Food with a hole) might be a way to say "It's not a donut" or "Something else that is food"? Or perhaps it's a hint for a specific type of soup? No.
+    Wait, if the answer is **Soup**, a "food with a hole" (Donut) is a *different* kind of food. This is a classic Concept way to provide a contrast or a related category.
+
+    Let's try **Soup**.
+    If it's not Soup, maybe **Macaroni**? (It's a food, it's liquid/sauce, it's hot, and it's a *different* kind of food than a hollow one? No, Macaroni *is* hollow).
+
+    Wait! If the answer is **Macaroni**, then the red clue `!r A14 + H9` (Food with a hole) is actually a description of the answer itself!
+    `?g A14 + F3 + F1` (Hot, liquid food)
+    `!r A14 + H9` (Hollow food)
+    This would mean the answer is something like **Macaroni** or **Penne**.
+
+    Let's try:
+    1. Soup
+    2. Macaroni
+    3. Pasta
+
+    Wait, "Liquid" (F3) and "Hot" (F1) and "Food" (A14).
+    A soup is a liquid.
+    Pasta is a solid, but is often served in a liquid (sauce).
+    However, in Concept, "Liquid" (F3) usually refers to the substance itself.
+    **Soup** is a liquid.
+
+    Let's try:
+    1. Soup
+    2. Pasta
+    3. Macaroni
+
+    *Self-correction:* If the answer is "Soup", the red clue "A food with a hole" (Donut) is a bit weird unless it's a way to distinguish it from a "solid" food.
+    If the answer is "Macaroni", the red clue "A food with a hole" is a perfect description.
+
+    Let's look at the markers again.
+    `?g A14 (Food) + F3 (Liquid) + F1 (Hot)`
+    `!r A14 (Food) + H9 (Hole/Hollow)`
+
+    What if the answer is **A Donut**?
+    A14 (Food)
+    H9 (Hole)
+    But F1 and F3? Is there a "Hot Liquid Donut"? No.
+
+    What if the answer is **A bagel**? No.
+
+    What if the answer is **Coffee**?
+    A14 (Food/Eating/Edible - loosely)
+    F1 (Hot)
+    F3 (Liquid)
+    But H9 (Hole)? A coffee cup has a handle (not a hole)? No.
+
+    Let's go with **Soup**, **Pasta**, and **Macaroni**.
+
+    Wait, one more thought: **Hot chocolate**? (No hole).
+    **Noodle**? (Hot, liquid [soup], edible. Is a noodle hollow? Some are).
+
+    Let's try:
+    1. Soup
+    2. Macaroni
+    3. Pasta
+
+    Wait, "Liquid" + "Hot" + "Food".
+    If I say "Soup", and it's "Pasta", the clue-giver will say "Yes: Pasta".
+    If I say "Soup", and it's "Macaroni", same.
+
+    Final check:
+    `?g A14 (Food) + F3 (Liquid) + F1 (Hot)`
+    `!r A14 (Food) + H9 (Hollow/Hole)`
+
+    If the answer is **Macaroni**, it fits perfectly.
+    If the answer is **Soup**, the red clue is a "related idea" (a food with a hole).
+    If the answer is **Donut**, the green clue is a "related idea" (a hot liquid food).
+
+    Let's try the most direct ones.

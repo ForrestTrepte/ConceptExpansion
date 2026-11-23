@@ -167,6 +167,8 @@ def load_spec(spec_id: str, specs_dir: Path = SPECS_DIR) -> Spec:
     for name, r in (("guesser", guesser), ("clue_giver", clue_giver)):
         if r is not None and r.backend not in ("claude-cli", "openrouter"):
             raise ValueError(f"spec {spec_id}: [{name}] backend must be claude-cli or openrouter")
+        if r is not None and r.effort == "none" and r.backend != "openrouter":
+            raise ValueError(f"spec {spec_id}: [{name}] effort none is for OpenRouter models")
     if clue_giver is not None and clue_giver.backend != "claude-cli":
         raise ValueError(f"spec {spec_id}: only the guesser can use OpenRouter")
     if mode == "model-clues" and clue_giver is None:
@@ -208,9 +210,8 @@ GUESS_SCHEMA_BASE: dict[str, Any] = {
     "type": "object",
     "properties": {
         "guesses": {"type": "array", "items": {"type": "string"}},
-        "pass": {"type": "boolean"},
     },
-    "required": ["guesses", "pass"],
+    "required": ["guesses"],
     "additionalProperties": False,
 }
 
@@ -305,7 +306,7 @@ def guesser_request(spec: Spec, turns: Sequence[Turn]) -> dict[str, Any]:
     prompt = (
         "New prompt.\n\n"
         + history(turns, for_clue_giver=False)
-        + f"\nGive up to {guesses(spec.max_guesses)}, best first, or pass."
+        + f"\nGive up to {guesses(spec.max_guesses)}, best first, or none to pass."
     )
     parts = system(text(spec.guesser_prompt, guesses=guesses(spec.max_guesses)), spec.reference)
     if spec.guesser.backend == "openrouter":
@@ -342,7 +343,9 @@ def openrouter_request(
             "json_schema": {"name": "reply", "strict": True, "schema": loose},
         },
     }
-    if role.effort:
+    if role.effort == "none":
+        body["reasoning"] = {"enabled": False}
+    elif role.effort:
         body["reasoning"] = {"effort": role.effort}
     if role.max_tokens:
         body["max_tokens"] = role.max_tokens
@@ -456,10 +459,10 @@ def _obj(reply: object) -> dict[str, Any]:
 
 
 def parse_guesses(reply: object, max_guesses: int) -> tuple[list[str], bool]:
-    r = _obj(reply)
-    raw, passed = r.get("guesses"), r.get("pass")
-    if not isinstance(raw, list) or not isinstance(passed, bool):
-        raise Invalid("guesses must be a list and pass a boolean")
+    """The guesses, and whether the guesser passed (an empty list)."""
+    raw = _obj(reply).get("guesses")
+    if not isinstance(raw, list):
+        raise Invalid("guesses must be a list")
     guesses: list[str] = []
     for g in raw:
         if not isinstance(g, str):
@@ -469,9 +472,7 @@ def parse_guesses(reply: object, max_guesses: int) -> tuple[list[str], bool]:
             guesses.append(g)
     if len(guesses) > max_guesses:
         raise Invalid(f"at most {max_guesses} guesses")
-    if not guesses and not passed:
-        raise Invalid("give at least one guess, or pass")
-    return ([] if passed else guesses), passed
+    return guesses, not guesses
 
 
 def parse_verdict(r: dict[str, Any], guesses: Sequence[str]) -> tuple[str, str]:

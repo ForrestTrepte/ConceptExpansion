@@ -1,0 +1,139 @@
+{
+  "contentSha256": "75d37441feee4415af8301510057c8d9d07788a58d65df8a320dd61e78c81d22",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "90167f6773b23c0d34d7074b521186233b0757584cab853ba7be1b70066d6420"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "d7a45661b3bac63333b65dd03d8aacfa815983b0486e53f4906a69d845e7f1e3"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "google/gemma-4-26b-a4b-it",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "pass": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "guesses",
+                "pass"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-3"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "db82776-dirty",
+    "costUsd": 0.000346796,
+    "latencyMs": 3694,
+    "recordedAt": "2026-11-23T22:38:25.786Z",
+    "recordedBy": "claude",
+    "servedBy": "Makora",
+    "servedModel": "google/gemma-4-26b-a4b-it",
+    "tags": {
+      "run": "calibrate-or-gemma"
+    },
+    "usage": {
+      "cacheReadTokens": 4864,
+      "cacheWriteTokens": 0,
+      "inputTokens": 5002,
+      "outputTokens": 343,
+      "reasoningTokens": 320
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\": [\"Batman\", \"Darth Vader\", \"Black Panther\"], \"pass\": false}",
+          "reasoning": {
+            "$llmemo.text": "5d2747e09ba79d7247f639adf75880535598c211da8e4d13710043807cc64d10"
+          },
+          "reasoning_details": [
+            {
+              "format": "unknown",
+              "index": 0,
+              "text": {
+                "$llmemo.text": "5d2747e09ba79d7247f639adf75880535598c211da8e4d13710043807cc64d10"
+              },
+              "type": "reasoning.text"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "stop"
+      }
+    ],
+    "created": 1795473502,
+    "id": "gen-1795473502-sBIB6accdkozLV12D0BR",
+    "model": "google/gemma-4-26b-a4b-it",
+    "object": "chat.completion",
+    "provider": "Makora",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 343,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 320
+      },
+      "cost": 0.000346796,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00009604,
+        "upstream_inference_cost": 0.000346796,
+        "upstream_inference_prompt_cost": 0.000250756
+      },
+      "is_byok": false,
+      "prompt_tokens": 5002,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 4864,
+        "video_tokens": 0
+      },
+      "total_tokens": 5345
+    }
+  }
+}

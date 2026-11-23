@@ -1,0 +1,143 @@
+*   `?g D8`: Main concept is D8 (Time / Duration).
+    *   `+ A12`: Related to A12 (Ground transportation / Road).
+    *   `+ B1`: Related to B1 (Human / Society / Group).
+    *   `!r D3`: Sub-concept (red) is D3 (Fast / Race).
+    *   `+ A12`: Further detail for the red sub-concept: A12 (Ground transportation / Road).
+    *   `!y D8`: Sub-concept (yellow) is D8 (Time / Duration).
+
+    *   `?g D8`: Something involving Time/Duration.
+    *   `+ A12` (Ground transport) and `+ B1` (Human/Society): A person/group involved in road transportation or a period of time on the road.
+    *   `!r D3` (Fast/Race) and `+ A12` (Ground transport): A race or fast movement involving road vehicles.
+    *   `!y D8` (Time/Duration): The time or duration of this event.
+
+    *   Idea 1: A race (D3) involving cars/road (A12).
+    *   Idea 2: A road trip (A12 + B1/D8?).
+    *   Idea 3: Formula 1 (Race, car, time).
+    *   Idea 4: Grand Prix.
+    *   Idea 5: Pit stop (Time, road, car).
+    *   Idea 6: A marathon (though usually running, not A12).
+    *   Idea 7: Speed limit (Time, road, fast).
+
+    *   `?g D8` (The answer is a duration/time)
+    *   `+ A12` (Related to road/transport)
+    *   `+ B1` (Related to people/society)
+    *   `!r D3` (Red group: Fast + Road)
+    *   `!y D8` (Yellow group: Duration/Time)
+
+    Wait, if the *Main Concept* is "Time/Duration", then the answer itself is a measurement of time or a specific time-related thing.
+    Examples: A second, a minute, a year, an hour, a decade, a millennium, a race (if time-based), a deadline.
+
+    But the sub-concepts are "Fast/Race + Road" and "Duration/Time".
+    Is it a "Lap"? (Time + Road/Car + Fast).
+    Is it "Speed"? (Not really a duration).
+    Is it a "Pit stop"?
+    Is it "Grand Prix"? (Maybe).
+    Is it "Formula 1"?
+    Is it "Tour de France"? (No, that's B4/A4 maybe).
+    Is it "Time trial"?
+
+    Let's re-evaluate `?g D8`. If the answer is "A second", how do "Fast/Race" and "Road" fit? They don't.
+    If the answer is "The Indy 500" or a "Race"? A race is an event (A10), but `?g D8` is Time/Duration.
+
+    Let's look at `?g D8` again. If the answer is a specific time period...
+    "A pit stop"? (A duration of time, involves cars/road, involves people/society, is fast/racing).
+
+    What about "A lap"?
+    "A record" (as in a time record)?
+
+    Let's look at the sub-concepts again.
+    `!r` is "Fast/Race" + "Road". This points to Car Racing.
+    `!y` is "Time/Duration".
+    `?g` is "Time/Duration".
+
+    If the answer is "A race", the main concept would usually be A10 (Date/Event).
+    If the answer is "A pit stop", the main concept is D8 (Time/Duration).
+
+    Guesses:
+    1. Pit stop
+    2. Lap
+    3. Race
+
+    Wait, let's check "Pit stop" again.
+    Main concept: Duration (D8) - a pit stop is a period of time.
+    Sub 1 (Red): Fast/Race (D3) + Road/Transport (A12) - Car racing context.
+    Sub 2 (Yellow): Time/Duration (D8) - It's a specific duration.
+
+    Another possibility: "Formula 1".
+    Another possibility: "The Tour de France".
+    Another possibility: "Speed limit".
+
+    Let's try "Pit stop", "Lap", "Race".
+
+    Actually, looking at `?g D8`, if the answer is "A second" or "An hour", the `!r` and `!y` wouldn't make sense.
+    If the answer is "Fastest lap"?
+    If the answer is "Pit stop"?
+
+    Let's consider "A race".
+    If the answer is "A race", `?g` would be A10 (Event).
+    The clue-giver used `?g D8`. So the answer *is* a duration or a period of time.
+
+    Could it be "A minute"? "A moment"?
+    What about "A rally"? (An event).
+
+    Let's try:
+    1. Pit stop
+    2. Lap
+    3. Race
+
+    Wait, if the answer is "Race", the clue-giver might have used `?g A10`.
+    If the answer is "A second", the `!r` (Fast/Race + Road) is weird.
+
+    What about "A stopwatch"? (No, that's a tool B12).
+    "A clock"? (D8 is time/duration, but A12/B1 doesn't fit).
+
+    Let's look at "A pit stop" again.
+    Duration? Yes.
+    Fast/Race? Yes.
+    Road/Car? Yes.
+    People/Society? Yes (Pit crew).
+
+    What about "A Grand Prix"? It's an event.
+    "A marathon"? Event.
+
+    What if the answer is "The speed limit"?
+    `?g D8` (Time/Duration/Rate?) - No, speed is distance/time.
+    `!r D3` (Fast) + `A12` (Road).
+
+    Let's try "Pit stop" and "Lap".
+
+    One more look: `?g D8` (Time/Duration).
+    Maybe "A split second"?
+    "A pit stop" is the strongest for "Duration" + "Racing/Road".
+
+    Wait, "A lap"? A lap is a distance, but often measured as a time.
+    "A pit stop" is a duration.
+
+    Let's try:
+    1. Pit stop
+    2. Lap
+    3. Race
+
+    Actually, looking at `!y D8`, if they are placing a cube on the same icon as the main concept, they are emphasizing that the sub-concept is also "Time".
+    `?g D8`
+    `!y D8`
+    This means the answer is a duration, and it is *characterized* by being a duration.
+
+    What about "A pit stop"?
+    What about "A qualifying lap"?
+
+    Let's go with:
+    1. Pit stop
+    2. Lap
+    3. Race (just in case)
+
+    Wait, could it be "A crash"? (No, D8).
+    "A collision"? (No).
+
+    Let's try:
+    1. Pit stop
+    2. Lap
+    3. Race
+
+    Actually, "A race" might be too broad.
+    "Pit stop" fits the duration aspect best.

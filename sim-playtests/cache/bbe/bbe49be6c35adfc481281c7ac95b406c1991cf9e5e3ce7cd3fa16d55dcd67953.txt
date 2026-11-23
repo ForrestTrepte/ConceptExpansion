@@ -1,0 +1,211 @@
+*   `?g D8`: Main Concept is D8 (Time / Duration).
+    *   `+ A12`: Detail for group `g` is A12 (Ground transportation / Road).
+    *   `+ B1`: Detail for group `g` is B1 (Human / Society / Group).
+    *   `!r D3`: Sub-concept group `r` (Red) is D3 (Fast / Race).
+    *   `+ A12`: Detail for group `r` is A12 (Ground transportation / Road).
+    *   `!y D8`: Sub-concept group `y` (Yellow) is D8 (Time / Duration).
+
+    *Summary of Clues:*
+    *   Main Concept: A duration/time period related to road travel and human/society.
+    *   Red Sub-concept: A fast/race-related thing involving ground transportation/road.
+    *   Yellow Sub-concept: Related to time/duration.
+
+    *   `Pit stop`, `Lap`, `Race` -> No.
+    *   `Marathon`, `Sprint`, `Road trip` -> No.
+
+    *   The answer is a "Time/Duration" (`?g D8`).
+    *   It relates to "Road/Ground Transportation" (`A12`).
+    *   It relates to "Human/Society" (`B1`).
+    *   It relates to "Fast/Race" (`!r D3`) + "Road" (`A12`).
+    *   It relates to "Time/Duration" (`!y D8`).
+
+    *Hypothesis 1:* A specific time period or event in racing/road travel.
+    *Wait, let's look at the "Red" clue again:* `!r D3 + A12`. A "Fast/Race" thing with "Road".
+    *Maybe a "Formula 1" race? No, that's a thing/sport. The main concept is "Time/Duration".*
+
+    *Hypothesis 2:* A specific unit of time or a duration of an event.
+    *   "Lap"? Guessed (No).
+    *   "Second"? "Minute"? "Hour"?
+    *   "A season"?
+    *   "A decade"?
+
+    *Wait, let's look at the "Yellow" clue:* `!y D8`. This is a bit redundant if the main concept is Time. Usually, in Concept, if you put a clue on the same icon as the main concept, it's a defining characteristic or a synonym.
+
+    *Let's re-examine the Red clue:* `!r D3 + A12`. Fast/Race + Road.
+    A "Drag race"? (That's an event, not a duration).
+    A "Speed limit"? (Not a duration).
+    A "Pit stop"? (Guessed - No).
+
+    *What about "Time" + "Road" + "Human/Society" + "Fast/Race" + "Road"?*
+    Maybe the "Time" is a specific event?
+    "Rush hour"?
+    *   Is "Rush hour" a duration? Yes.
+    *   Does it relate to roads/transportation? Yes (A12).
+    *   Does it relate to humans/society? Yes (B1).
+    *   Is it "Fast/Race"? A "Rush" is fast.
+    *   Is it a "Time/Duration"? Yes.
+
+    Let's check other possibilities:
+    *   "Commute"? (A duration/period of travel).
+    *   "Traffic jam"? (Not a duration).
+    *   "Holiday"? (Time, but maybe not racing).
+
+    Let's look at "Rush hour" again.
+    `?g D8` (Time)
+    `+ A12` (Road)
+    `+ B1` (Society)
+    `!r D3` (Fast/Race)
+    `+ A12` (Road)
+    `!y D8` (Time)
+
+    "Rush" = Fast/Race? Maybe.
+    "Hour" = Time.
+
+    Another idea: "Grand Prix"? No, that's a title/event.
+    "Daylight savings"? No.
+
+    What about "Speeding"? Not a duration.
+    "Fast track"? Not a duration.
+
+    Let's reconsider the "Human/Society" (B1) and "Road" (A12) with "Time" (D8).
+    A "Weekend"? "Working hours"?
+    "Shift" (as in a work shift)?
+    A "Shift" is a duration of time (D8).
+    It involves people (B1).
+    Does it involve "Fast/Race/Road"? Probably not.
+
+    Let's go back to the "Fast/Race" + "Road" clue.
+    Maybe it's "Grand Prix" or "Formula 1" or "Racing"? But the main concept is "Time".
+    Is a "Race" a duration? A race *has* a duration.
+    What about "A millisecond"? "A split second"?
+
+    Wait, "Pit stop" was guessed. "Lap" was guessed.
+    "Race" was guessed.
+
+    Look at `!r D3 + A12` again. Fast/Race + Road.
+    Could it be "Drag racing"? (Not a duration).
+    Could it be "Speed limit"? (Not a duration).
+    What about "A long drive"? (Not a duration).
+
+    Let's think about "Time" (D8) + "Road" (A12) + "Human/Society" (B1).
+    Maybe "Commute"? A commute is a duration of travel.
+    Does "Commute" relate to "Fast/Race"? Not really.
+
+    What about "Traffic"? (Not a duration).
+    "Rush hour" seems like a strong candidate for "Fast" + "Road" + "Time/Duration".
+
+    Let's try a different angle.
+    What if the "Fast/Race" (D3) is actually "Speed"?
+    "Speed limit"? (No, duration).
+    "Speed trap"? (No).
+
+    How about "Tour de France"? (No, duration).
+    "Season"? (D8).
+
+    Let's try "Rush hour".
+    If the answer is "Rush hour":
+    `?g D8` (Time)
+    `+ A12` (Road)
+    `+ B1` (Society)
+    `!r D3` (Fast/Race) -> "Rush" is fast.
+    `+ A12` (Road) -> "Traffic/Road".
+    `!y D8` (Time) -> "Hour".
+
+    Wait, `!y D8` is the same icon as `?g D8`. This is unusual. It might be emphasizing that the concept is a specific *kind* of time.
+
+    Let's try:
+    1. Rush hour
+    2. Traffic jam (though it's a thing, it's often used interchangeably with a period of time)
+    3. Commute
+
+    Wait, I'll check "Traffic jam" - is it a duration? No, it's a state. "Rush hour" is a time.
+
+    What about "Speed"? (Not a duration).
+    What about "Fast break"? (No).
+
+    Let's consider "Racing" related durations.
+    "Lap"? (Guessed).
+    "Heat" (as in a racing heat)?
+    A "Heat" is a duration of time. It is a "Race" (D3).
+    Is it related to "Road" (A12)? Not necessarily.
+
+    Let's look at the Red clue again: `!r D3 + A12`.
+    D3 is Fast/Race. A12 is Road.
+    Maybe "Drag race"? (Guessed? No, but "Race" was guessed).
+    "Formula 1"?
+    "Rally"?
+
+    Is there a time-related word for a car race?
+    "Grand Prix"?
+    "Time trial"?
+    A "Time trial" is a type of race. It is a "Time" (D8).
+    It involves "Road/Transportation" (A12).
+    It involves "Fast/Race" (D3).
+    It is a "Duration" (D8).
+
+    Let's try "Time trial".
+
+    Another possibility: "Speeding". (Not a duration).
+
+    Let's try "Rush hour" first. It fits "Society" (B1) and "Road" (A12) and "Time" (D8) and "Fast" (D3) very well.
+
+    One more: "Traffic"? No.
+    "A countdown"? (Duration, but not road-based).
+
+    Let's think about the "Red" clue again.
+    `!r D3 + A12`.
+    Is it "Formula 1"? "MotoGP"?
+    If it's "Formula 1", what is the `?g D8`? A "Race" is a duration?
+
+    Actually, looking at the markers:
+    `?g D8` (Time)
+    `+ A12` (Road)
+    `+ B1` (Society)
+    `!r D3` (Fast/Race)
+    `+ A12` (Road)
+    `!y D8` (Time)
+
+    If the answer is "Rush hour":
+    `?g D8` - It's a time.
+    `+ A12` - It's on the road.
+    `+ B1` - It involves people/society.
+    `!r D3` - It's a "Rush" (Fast).
+    `+ A12` - It involves road/traffic.
+    `!y D8` - It's an "Hour" (Time).
+
+    This seems very solid.
+
+    What about "Commute"?
+    It's a duration. It's on a road. It involves people.
+    But does "Commute" imply "Fast/Race"? Not really.
+
+    "Rush hour" is better.
+
+    What about "Speeding"? (Not a duration).
+    "Pit stop"? (Guessed - No).
+
+    Let's look at "D3" (Fast/Race) + "A12" (Road) one more time.
+    Could it be "Fast lane"?
+    Is "Fast lane" a duration? No.
+
+    Could it be "Drag race"?
+    A "Drag race" is a race. It's fast. It's on a road (sort of).
+    But is it a "Duration"? A race is an event, but "Time" (D8) is the main concept.
+
+    I'll bet on "Rush hour" or "Commute".
+
+    Let's try "Rush hour", "Traffic", "Commute".
+    Wait, "Traffic" isn't a duration.
+    "Rush hour", "Commute", "Time trial".
+
+    Actually, let's look at `!r D3 + A12` again.
+    D3 is "Fast / Race / Combat / Weapon".
+    A12 is "Road / Ground transportation".
+    Maybe "Car race"? (But that's not a duration).
+    Maybe "Motorcycle race"?
+
+    Wait, if the main concept is D8 (Time), and the clue is "Fast/Race" + "Road"...
+    "A split second"?
+    "A minute"?
+
+    Let's try "Rush hour".

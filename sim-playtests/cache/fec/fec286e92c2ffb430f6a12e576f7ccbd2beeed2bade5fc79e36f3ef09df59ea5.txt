@@ -1,0 +1,333 @@
+*   `?g F7`: Main Concept is a piece of paper (F7 is "Paper / Sheet").
+    *   `+ Yellow` (in group g): The paper is Yellow.
+    *   `+ C8` (in group g): The paper involves Money (C8 is "Money / Rich / Expensive").
+    *   `!r A14` (Sub-concept 1 - red): A part of it or related to it is Food (A14).
+    *   `+ Brown` (in group r): Related to food/money/paper is Brown.
+    *   `+g G6` (in group g): The main object is a Rectangle/Square (G6). (Updating Main Concept description).
+    *   `!y A6` (Sub-concept 2 - yellow): A related idea (yellow) is Cinema/Movie (A6).
+    *   `+ C1` (in group y): Related to movies is Baby/Child (C1).
+    *   `+ B9` (in group y): Related to movies is Building/Monument/City (B9).
+
+    *   Main Object: A yellow, rectangular piece of paper related to money.
+    *   Connection to Food (A14) and Brown (Brown).
+    *   Connection to Cinema (A6), Child (C1), and City/Building (B9).
+
+    *   *Initial thought (Step 1):* Menu, Bill, Coupon (all rejected).
+    *   *Refining based on Step 2:*
+        *   Paper + Yellow + Money + Food + Brown.
+        *   Paper + Movie + Child + City.
+
+    *   Let's look at "Yellow Paper + Money + Food + Brown":
+        *   Maybe a receipt? (A14/C8). But "Menu/Bill/Coupon" were rejected.
+        *   A snack wrapper?
+        *   A banana? (No, it's paper).
+        *   A takeaway menu? (Already guessed "Menu").
+
+    *   Let's look at the "Cinema (A6) + Child (C1) + City/Building (B9)" connection:
+        *   A movie theater?
+        *   A cinema?
+        *   A cartoon?
+        *   A specific movie about a child/city?
+
+    *   Wait, let's re-examine the "Paper + Money" + "Food" + "Cinema + Child + City" link.
+        *   Could it be a *Ticket*?
+            *   Paper (F7)? Yes.
+            *   Yellow? Many tickets are yellow.
+            *   Money (C8)? You buy them with money.
+            *   Food (A14)? You get snacks at a cinema.
+            *   Brown? Maybe a specific color or related to the cardboard/paper?
+            *   Cinema (A6)? Yes.
+            *   Child (C1)? Kids go to the movies.
+            *   City (B9)? Movies/Theaters are in cities.
+
+    *   Let's try other "Yellow Paper" items:
+        *   A flyer?
+        *   A poster? (A6/B9/C1/C8/A14 connection?). A movie poster?
+        *   A comic book? (A6/B6/C1/B9/A14/C8/F7 connection).
+
+    *   Re-evaluating "Cinema + Child + Building + Paper":
+        *   A "Movie Ticket" fits very well.
+        *   Let's check "Food/Brown" for a Ticket. Popcorn/Concessions? Popcorn isn't really brown, but maybe "Brown paper bag"? Or "Chocolates"?
+        *   Wait, "Brown" and "Food" and "Paper" and "Yellow" and "Money"...
+        *   A "McDonald's" thing? No, that's a brand.
+        *   A "Golden Ticket"? (Charlie and the Chocolate Factory).
+            *   Paper (F7)? Yes.
+            *   Yellow (Golden)? Yes.
+            *   Money (C8)? It's valuable.
+            *   Food (A14)? Chocolate.
+            *   Brown (Brown)? Chocolate/Cocoa/Cardboard.
+            *   Cinema (A6)? It's a famous movie.
+            *   Child (C1)? Charlie is a child.
+            *   City/Building (B9)? Wonka's factory.
+
+    *   *Is "Golden Ticket" too specific?* Usually, in Concept, you go for the literal object unless it's a very common phrase.
+    *   Let's try "Ticket" first.
+
+    *   *Wait, look at the "Brown" and "A14" and "Yellow" and "C8" again.*
+        *   Yellow paper + Money + Food + Brown.
+        *   What about a "Cracker"? No.
+        *   What about a "Cereal Box"? (Paper, Yellow/Brown, Food, Money/C8, maybe a movie/child link?).
+        *   What about a "Hamburger"? No, that's not paper.
+        *   What about a "Menu" was already rejected.
+
+    *   *Let's look at "A6 (Cinema) + C1 (Child) + B9 (Building/City)":*
+        *   Could it be a "Cartoon"? (A6/C1/B9/F7/A14?). A cartoon character? No, "Paper".
+        *   Could it be "Disney"? (A6/C1/B9/F7/C8/A14).
+        *   Could it be "Star Wars"?
+
+    *   Let's reconsider "Ticket":
+        *   Paper? Yes.
+        *   Yellow? Often.
+        *   Money? Cost.
+        *   Food? Cinema snacks.
+        *   Cinema? Yes.
+        *   Child? Yes.
+        *   Building? Cinema building.
+
+    *   Another possibility: **Poster**.
+        *   Paper? Yes.
+        *   Yellow? Sometimes.
+        *   Money? Used for advertising/selling.
+        *   Cinema? Movie posters.
+        *   Child? Cartoon posters.
+        *   Building/City? Advertisements in cities.
+
+    *   Another possibility: **Comic book**.
+        *   Paper? Yes.
+        *   Yellow/Money/Food/Brown? Less direct.
+        *   Cinema/Child/Building? More likely.
+
+    *   Wait, "Yellow Paper + Money + Food + Brown":
+        *   Could it be "Cheese"? (No, paper).
+        *   Could it be "Honey"? (No, paper).
+        *   What about a "Goldfish cracker"? (No, paper).
+
+    *   Let's look at the markers again.
+        *   `?g F7` (Paper/Sheet)
+        *   `+ Yellow`
+        *   `+ C8` (Money)
+        *   `!r A14` (Food/Eating)
+        *   `+ Brown`
+        *   `+g G6` (Rectangle/Square)
+        *   `!y A6` (Cinema/Movie)
+        *   `+ C1` (Child/Baby)
+        *   `+ B9` (Building/City)
+
+    *   **Ticket** is a strong candidate for: Paper, Money, Cinema, Child, Building.
+    *   How does "Food" and "Brown" and "Yellow" fit "Ticket"?
+        *   A "Movie Ticket".
+        *   Yellow? Some are.
+        *   Food? Popcorn (Yellow/Brown?).
+        *   Brown? Paper bags?
+
+    *   What about **Advertisement** or **Ad**?
+        *   Paper, Yellow/Brown, Money, Cinema, Building/City.
+
+    *   What about **Newspaper**?
+        *   Paper, Money (ads), Food (comics/ads), Cinema (entertainment section), City (local news), Child (comics). But newspaper isn't typically "Yellow".
+
+    *   What about **A Cereal Box**?
+        *   Paper, Rectangle, Yellow/Brown (color/grains), Money (price), Food, Cinema (cartoons on box), Child (target audience), Building (factory).
+
+    *   What about **A Play/Musical**? No, it's a "Paper".
+
+    *   Let's try **Ticket**. It's a very common Concept answer.
+
+    *   Wait, look at the "Brown" and "Food" and "A14" and "Yellow" and "C8" together.
+    *   Could it be **"Money"** itself? No, the main concept is Paper.
+    *   Could it be a **"Dollar Bill"**? (Paper, Money, Yellow/Green, but not really Food/Cinema/Child/Building).
+
+    *   What about **"A Book"**? (A5 is literature, not F7).
+    *   What about **"A Magazine"**? (Paper, Rectangle, Money (ads), Food (recipes), Cinema (reviews), Child (comics), Building (news)).
+
+    *   Let's try "Ticket" and "Poster".
+
+    *   Actually, let's look at "Yellow + Brown + Food + Paper + Money + Cinema + Child + Building".
+    *   **Golden Ticket** is a very high probability for a "Concept"-style clue if the person is thinking of the movie.
+    *   Let's think about **"Popcorn"**? No, it's Paper.
+    *   **"A Menu"** was rejected.
+
+    *   What about a **"Concession Stand"**? No, paper.
+    *   What about a **"Snack"**? No, paper.
+
+    *   Let's look at the "Yellow + Brown + Food" + "Paper" + "Money" combo again.
+    *   **"A Receipt"**? (Rejected via "Bill").
+    *   **"A Coupon"**? (Rejected).
+    *   **"A Newspaper"**?
+    *   **"A Flyer"**?
+
+    *   Wait... **"A Card"**? (Playing card? Greeting card?).
+        *   Paper? Yes.
+        *   Rectangle? Yes.
+        *   Money? (A13/C8).
+        *   Food? (A14). No.
+
+    *   Let's go back to **Ticket**.
+        *   `?g F7` (Paper)
+        *   `+ Yellow` (Yellow ticket?)
+        *   `+ C8` (Money/Cost)
+        *   `!r A14` (Food) - Movie food.
+        *   `+ Brown` (Brown/Food?) - Popcorn/Chocolate?
+        *   `!y A6` (Cinema)
+        *   `+ C1` (Child)
+        *   `+ B9` (Building)
+
+    *   Another thought: **"A Movie Theater"**? No, the main concept is a piece of paper.
+
+    *   Let's try:
+        1. Ticket
+        2. Poster
+        3. Magazine
+
+    *   Wait, let's re-examine "Cinema + Child + Building + Paper + Yellow + Food + Brown".
+    *   Is it a **"Golden Ticket"**?
+        *   Paper (F7)
+        *   Yellow (Golden)
+        *   Money (C8)
+        *   Food (A14) - Chocolate
+        *   Brown (Brown) - Chocolate/Cocoa
+        *   Cinema (A6) - Movie
+        *   Child (C1) - Charlie
+        *   Building (B9) - Factory
+
+    *   This fits *every single clue* perfectly.
+
+    *   Let's double check "Ticket" vs "Golden Ticket".
+        *   If I guess "Ticket", and it is "Golden Ticket", the clue-giver would say "Yes: Ticket".
+        *   If I guess "Golden Ticket", it might be too specific, but it fits all the "Sub-concepts" (Food, Brown, Cinema, Child, Building) which are very specific.
+
+    *   Let's look at the "Yellow/Brown/Food/Money/Paper" again.
+        *   If the answer is "Ticket", why the "Food/Brown/Yellow" connection?
+        *   Maybe "Yellow/Brown" refers to popcorn? Popcorn is a food (A14) sold at the cinema (A6).
+        *   If the answer is "Golden Ticket", the "Food/Brown" is the *literal* connection to the story.
+
+    *   Let's try "Ticket" first as it's the broader, more likely Concept answer.
+
+    *   Wait, look at the board again.
+    *   `?g F7` (Paper)
+    *   `+ Yellow`
+    *   `+ C8` (Money)
+    *   `!r A14` (Food)
+    *   `+ Brown`
+    *   `!y A6` (Cinema)
+    *   `+ C1` (Child)
+    *   `+ B9` (Building)
+
+    *   Actually, "Popcorn" is a very common thing in "Cinema/Child/Food". But Popcorn isn't "Paper".
+    *   "Ticket" is the best fit for "Paper + Cinema + Money".
+
+    *   Let's consider **"A Comic"** or **"Comic Book"**.
+        *   Paper (F7).
+        *   Yellow/Brown (Colors/Paper quality?).
+        *   Money (C8)? Not really.
+        *   Cinema (A6)? Yes.
+        *   Child (C1)? Yes.
+        *   Building (B9)? Yes.
+        *   Food (A14)? No.
+
+    *   Let's reconsider **"Ticket"**.
+        *   Yellow/Brown/Food: Could be a "Popcorn" connection?
+        *   Or maybe "Corn" (Yellow/Brown/Food) is a sub-concept?
+        *   Wait, the clue-giver used `!r A14` (Food) and `+ Brown`.
+        *   Is "Corn" the answer? No, "Paper" is the main concept.
+        *   Is "Popcorn" the answer? No, "Paper" is the main concept.
+        *   Is "A Popcorn Bag" the answer? (Paper bag, Yellow/Brown, Food, Cinema, Child, Building/City).
+            *   Paper? Yes.
+            *   Yellow/Brown? Yes.
+            *   Food? Yes.
+            *   Cinema? Yes.
+            *   Child? Yes.
+            *   Building/City? Yes.
+
+    *   Let's try "Ticket" as the primary guess.
+
+    *   *Self-Correction:* A "Golden Ticket" is a specific thing. In Concept, if someone uses "Food" and "Brown" as sub-concepts for a "Paper" and "Cinema", they are almost certainly pointing to the chocolate factory.
+
+    *   Let's try:
+        1. Ticket
+        2. Golden Ticket
+        3. Movie Ticket
+
+    (Actually, I'll just provide the guesses).
+
+    *Wait*, one more look.
+    `?g F7` (Paper)
+    `+ Yellow`
+    `+ C8` (Money)
+    `!r A14` (Food)
+    `+ Brown`
+    `!y A6` (Cinema)
+    `+ C1` (Child)
+    `+ B9` (Building)
+
+    If I guess "Ticket", and the answer is "Golden Ticket", I'll get "Yes: Ticket".
+    If I guess "Golden Ticket" and the answer is "Ticket", I might be wrong.
+    But "Golden Ticket" covers the "Food/Brown" (Chocolate) and "Cinema/Child/Building" (Wonka) much better than a generic "Ticket" covers "Food/Brown".
+
+    However, standard Concept etiquette: start with the most obvious. "Ticket" is more obvious.
+
+    *Another possibility:* **"A Cereal Box"**.
+    Paper? Yes.
+    Yellow/Brown/Food? Yes.
+    Money? Yes.
+    Cinema/Child? Yes (cartoons).
+    Building/City? Yes.
+
+    *Another:* **"A Menu"** (already rejected).
+
+    Let's go with "Ticket".
+
+    Wait... "Yellow" + "Brown" + "Food" + "Paper" + "Money"...
+    Could it be **"A Banana"**? No, it's paper.
+    Could it be **"A Chocolate Bar"**? No, it's paper.
+    Could it be **"A Wrapper"**?
+    *   Paper/Sheet (F7)? Yes (often paper or plastic, but can be paper).
+    *   Yellow/Brown (Colors)? Yes.
+    *   Food (A14)? Yes.
+    *   Money (C8)? Yes (bought with money).
+    *   Cinema (A6)? Yes (candy wrappers in cinema).
+    *   Child (C1)? Yes.
+    *   Building/City (B9)? Yes.
+
+    "Ticket" is still the strongest.
+
+    Final check:
+    Could it be a **"Movie Poster"**?
+    - Paper (F7)
+    - Yellow (Sometimes)
+    - Money (Ads)
+    - Food (??)
+    - Cinema (A6)
+    - Child (C1)
+    - Building (B9)
+
+    I will provide:
+    1. Ticket
+    2. Movie ticket
+    3. Golden ticket
+
+    Wait, the user wants 3 guesses.
+
+    Let's try to be more creative.
+    "Yellow" + "Brown" + "Food" + "Paper" + "Cinema" + "Child".
+    "Popcorn" is a huge clue. "Popcorn bag" or "Popcorn"?
+    But the main concept is "Paper".
+    So "Popcorn bag"? Or "Ticket"?
+
+    Let's stick with:
+    1. Ticket
+    2. Movie ticket
+    3. Poster
+
+    (Actually, "Golden Ticket" is such a perfect fit for the "Brown/Food/Cinema/Child" that it's hard to ignore).
+
+    Let's look at the "Brown" again.
+    `!r A14` (Food)
+    `+ Brown`
+    In many versions of Concept, `+ Brown` on a `Food` icon might be used for "Chocolate".
+    If the "Paper" is "Yellow", and the "Food" is "Chocolate", then "Golden Ticket" is nearly certain.
+
+    Let's try:
+    1. Ticket
+    2. Movie ticket
+    3. Golden ticket

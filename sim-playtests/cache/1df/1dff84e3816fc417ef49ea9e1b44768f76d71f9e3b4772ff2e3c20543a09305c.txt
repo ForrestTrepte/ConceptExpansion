@@ -1,0 +1,225 @@
+*   Main Concept (`?g`): `H14` (Use – Action / Do – Verb / Button)
+    *   Details on Main Concept:
+        *   `C14` (Eye / Sight)
+        *   `C11` (Head / Face / Neck)
+    *   Sub-Concept (`!r` - Red): `A1` (Object / Box)
+    *   Details on Sub-Concept:
+        *   `C7` (Electronic / Computing)
+        *   `C14` (Eye / Sight)
+
+    *   *Step 1 Clues:*
+        *   `?g H14` (Action/Verb/Button)
+        *   `+ C14` (Eye/Sight)
+        *   `+ C11` (Head/Face/Neck)
+        *   *Meaning:* An action involving the eye or face.
+        *   *Guesses (Look, Wink, Blink) and result (No):* The action is *not* looking, winking, or blinking.
+
+    *   *Step 2 Clues (Added to the board):*
+        *   `!r A1` (Object/Box)
+        *   `+ C7` (Electronic/Computing)
+        *   `+ C14` (Eye/Sight)
+        *   *Meaning of the Sub-concept:* An electronic object related to sight/eyes (e.g., a camera, a computer, a screen, a sensor).
+
+    *   Main Concept: An action or verb (`H14`) related to the face/eye (`C11`, `C14`).
+    *   Sub-Concept: An electronic object/box related to sight/eyes (`A1`, `C7`, `C14`).
+
+    *   *Possibility A: Recording/Capturing.*
+        *   Action: Record? Capture?
+        *   Object: Camera (Electronic, Sight, Box-like/Object).
+        *   The action is related to the eye/face? (Wait, if the answer is "Record", the icon H14 fits. But does "Record" relate to face/eye?)
+        *   Maybe the action is "Watch"? (Already guessed "Look" which was No).
+
+    *   *Possibility B: Photography/Video.*
+        *   Action: Photograph? Film?
+        *   Object: Camera.
+
+    *   *Possibility C: Scanning.*
+        *   Action: Scan?
+        *   Object: Scanner/Sensor (Electronic, Eye-related).
+
+    *   *Possibility D: Software/Computer interaction.*
+        *   Action: Click? (H14 is Button/Action/Verb).
+        *   Object: Mouse/Computer (C7).
+        *   Does "Click" relate to Eye/Face? Probably not.
+
+    *   *Possibility E: Facial recognition/Scanning.*
+        *   Action: Recognize? (H14 - Verb)
+        *   Object: Camera/Sensor (A1, C7, C14).
+        *   Does it relate to face/eye? (C11, C14). Yes, facial recognition.
+
+    *   *Possibility F: A specific gadget/Action.*
+        *   Action: Zoom?
+        *   Object: Camera lens.
+
+    *   *Re-evaluating Step 1:* The verb is related to the Head/Face/Eye.
+        *   Maybe "Smile"? (H14 - Verb, C11/C14 - Face/Eye).
+        *   Does "Smile" relate to an Electronic Box with Sight (A1, C7, C14)? A selfie camera? A "smile" detector? Unlikely.
+
+    *   *Re-evaluating Step 2:* The red sub-concept is an Electronic Object with Sight.
+        *   A Camera (A1 - Object, C7 - Electronic, C14 - Eye).
+        *   The main concept is a verb related to the eye/face.
+        *   What is a verb for an eye/face that relates to a camera?
+        *   "Snap"? "Capture"? "Film"? "Record"? "Scan"? "Watch"? "Observe"?
+        *   Wait, "Watch" was basically "Look" (No).
+        *   "Photograph"?
+        *   "Scan"? (Like scanning a face).
+        *   "Capture"?
+        *   "See"? (No, usually "See" is an action, but "Look" was No).
+
+    *   *What about "Snap"?* (Snap a photo).
+    *   *What about "Focus"?* (H14 - Action/Verb. C14/C11 - Eye/Face. C7/C14/A1 - Camera/Electronic/Eye).
+        *   If you "Focus" your eyes, and you "Focus" a camera.
+        *   Is "Focus" a verb/action? Yes.
+
+    *   *What about "Photo"?* (Not a verb, but people use it as one).
+    *   *What about "Camera"?* (The main concept is a verb/action, so the answer is likely a verb).
+
+    *   *Let's look at the icons again:*
+        *   ?g H14 (Action/Verb)
+        *   + C14 (Eye)
+        *   + C11 (Face)
+        *   !r A1 (Object/Box)
+        *   + C7 (Electronic)
+        *   + C14 (Eye)
+
+    *   *Candidates:*
+        1.  **Focus** (Action related to eye/face and a camera/electronic eye).
+        2.  **Scan** (Action related to eye/face and an electronic eye/sensor).
+        3.  **Record** (Action, electronic eye).
+        4.  **Identify** (Face recognition).
+        5.  **Observe** (Verb, eye).
+
+    *   *Refining "Focus":*
+        *   H14: Action/Verb.
+        *   C14/C11: Eye/Face.
+        *   A1/C7/C14: Electronic Eye (Camera).
+        *   "Focus" fits very well.
+
+    *   *Refining "Scan":*
+        *   H14: Action.
+        *   C14/C11: Face/Eye.
+        *   A1/C7/C14: Electronic Eye (Scanner).
+        *   "Scan" is a strong candidate.
+
+    *   *Refining "Observe":*
+        *   H14: Action.
+        *   C14: Eye.
+        *   "Observe" is a bit too close to "Look".
+
+    *   *Another angle:* "Capture".
+        *   H14: Verb.
+        *   C14: Eye/Sight.
+        *   A1/C7/C14: Electronic Eye/Camera.
+
+    *   *Let's consider the "Box/Object" (A1) for the electronic eye.*
+        *   A camera is a box-like object.
+        *   A smartphone is an electronic object.
+
+    *   *Wait, could the answer be "See"?* (Already said no to Look/Blink/Wink).
+    *   *Could the answer be "Video"?* (Not a verb).
+    *   *Could the answer be "Record"?*
+
+    *   Let's try:
+        1.  Focus
+        2.  Scan
+        3.  Capture
+
+    *   Wait, is there an action that is a "Button" (H14)?
+        *   "Click"? (No, doesn't fit eye/face).
+        *   "Press"? (No).
+        *   "Snap"? (Like snapping a photo).
+
+    *   Let's look at C11 (Face/Neck/Head) again.
+        *   Does "Focus" relate to the head/face? You focus your eyes, which are on your face.
+        *   "Scan"? Scanning a face.
+        *   "Recognize"? (Facial recognition).
+
+    *   Let's look at A1 (Object/Box).
+        *   A camera is a common object/box.
+
+    *   *Alternative Idea:* **Surveillance**? (Not a verb). **Monitor**? (Verb).
+        *   H14: Verb/Action.
+        *   C14/C11: Eye/Face.
+        *   A1/C7/C14: Electronic Eye/Camera.
+
+    *   *Another thought:* **Face ID**? (Not a verb).
+
+    *   Let's try "Focus", "Scan", "Capture".
+
+    *   *Wait!* One more look at H14: "Use - Action - Do - Verb - **Button**".
+        *   Is there a button involved?
+        *   "Snap"? (The shutter button).
+        *   "Click"?
+        *   "Record"?
+
+    *   If the answer is "Record":
+        *   H14 (Verb).
+        *   C14/C11 (Action related to eye/face - maybe seeing/looking/recording a face).
+        *   A1/C7/C14 (Electronic Eye - Camera).
+
+    *   If the answer is "Photograph":
+        *   H14 (Verb).
+        *   A1/C7/C14 (Camera).
+        *   C14/C11 (Eye/Face).
+
+    *   Let's go with:
+        1. Focus
+        2. Scan
+        3. Capture
+
+    (Self-correction: "Focus" is a very common Concept answer for camera-related clues).
+
+    *Wait*, let's think about "Eye" and "Electronic".
+    A "Computer Vision" thing?
+    An "Iris" scan?
+    Answer: **Iris scan**? (No, that's a noun).
+    **Scan**?
+
+    Let's try "Focus" first.
+
+    *   H14 (Action/Verb)
+    *   C14 (Eye/Sight)
+    *   C11 (Head/Face)
+    *   A1 (Object/Box)
+    *   C7 (Electronic)
+    *   C14 (Eye/Sight)
+
+    It's highly likely to be a verb related to a camera or electronic sensing of a face.
+
+    Guesses:
+    1. Focus
+    2. Scan
+    3. Capture
+
+    *Wait, one more:* **Watch**? (Already guessed Look). **Observe**? **Notice**?
+    What about **See**? (No, "Look" was "No").
+    What about **Vision**? (Noun).
+
+    Let's try:
+    1. Focus
+    2. Scan
+    3. Record
+
+    (Actually, "Capture" is good too. Let's stick to Focus/Scan/Capture).
+
+    *Wait, "Button" (H14)...*
+    Is it **Click**? No, "Click" doesn't fit C14/C11 (Face/Eye).
+    Is it **Snap**?
+    Maybe **Photo**? (Verb usage).
+
+    Let's look at H14 again: "Use – Action / Do – Verb / Button".
+    This means the answer is a Verb or a Button.
+    "Focus" is a verb.
+    "Scan" is a verb.
+    "Capture" is a verb.
+
+    Actually, looking at the "Face" (C11) and "Eye" (C14) and "Electronic" (C7) and "Object/Box" (A1) and "Eye" (C14).
+    It's almost certainly something a camera or a sensor does to a face.
+    "Recognize"? (Facial recognition).
+    "Scan"?
+
+    Let's try "Scan" as the primary.
+
+    1. Scan
+    2. Focus
+    3. Capture

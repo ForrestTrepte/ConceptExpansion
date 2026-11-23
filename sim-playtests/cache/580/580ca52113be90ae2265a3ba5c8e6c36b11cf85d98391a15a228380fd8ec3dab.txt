@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Chili",
+    "Hot sauce",
+    "Spicy curry"
+  ]
+,
+  "pass": false
+}

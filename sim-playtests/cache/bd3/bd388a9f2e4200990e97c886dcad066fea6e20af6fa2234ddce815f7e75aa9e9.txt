@@ -1,0 +1,3 @@
+**Identifying arctic animals**
+
+I'm trying to infer which animals are associated with cold white snow and a tall or high presence. A polar bear definitely comes to mind. I might also consider a snowy owl and an arctic fox. So, I guess I should focus on no more than three options. I think using a JSON format could help organize this information neatly! Let's see how I can put that together.

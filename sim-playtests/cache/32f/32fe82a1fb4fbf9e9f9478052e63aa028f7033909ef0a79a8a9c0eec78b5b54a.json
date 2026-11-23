@@ -1,0 +1,157 @@
+{
+  "contentSha256": "1e2e29d29557975729b105ad9b10840425c27bf0e89f22ff9f660a25fbb91dbf",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "90167f6773b23c0d34d7074b521186233b0757584cab853ba7be1b70066d6420"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "051f780172b0175950a5928151dde9483fd3eb0b8e2d6811e8acd9ca93c40e7e"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "openai/gpt-6-luna",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "pass": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "guesses",
+                "pass"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-1"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "db82776",
+    "costUsd": 0.00042082,
+    "latencyMs": 7971,
+    "recordedAt": "2026-11-23T22:14:11.950Z",
+    "recordedBy": "claude",
+    "servedBy": "OpenAI",
+    "servedModel": "openai/gpt-6-luna",
+    "tags": {
+      "run": "calibrate-or-luna"
+    },
+    "usage": {
+      "cacheReadTokens": 4727,
+      "cacheWriteTokens": 182,
+      "inputTokens": 4912,
+      "outputTokens": 701,
+      "reasoningTokens": 670
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"2012\",\"Independence Day\",\"The Day After Tomorrow\"],\"pass\":false}",
+          "reasoning": {
+            "$llmemo.text": "cc3060a19a4824d37a6ad733b1bd47ea39198b521b4940010d534b520dc62710"
+          },
+          "reasoning_details": [
+            {
+              "format": "openai-responses-v1",
+              "index": 0,
+              "summary": {
+                "$llmemo.text": "cc3060a19a4824d37a6ad733b1bd47ea39198b521b4940010d534b520dc62710"
+              },
+              "type": "reasoning.summary"
+            },
+            {
+              "data": {
+                "$llmemo.text": "64f3135bd67246e1684b11008e10de683adfc861213a6b8f9261f58b72e701a0"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_075e8d6ad47d94fb016b04baac860487d19fad708e2d9ac081",
+              "index": 1,
+              "type": "reasoning.encrypted"
+            },
+            {
+              "data": {
+                "$llmemo.text": "b64ca2e43f9fcd69f2767e797241c9c31192265bef4fbd569e27d3a1918d0401"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_075e8d6ad47d94fb016b04bab2de6887d1ae04ecda942956be",
+              "index": 2,
+              "type": "reasoning.encrypted"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "completed"
+      }
+    ],
+    "created": 1795472044,
+    "id": "gen-1795472044-YPNoba0AFa7YPYd5JDN7",
+    "model": "openai/gpt-6-luna",
+    "object": "chat.completion",
+    "provider": "OpenAI",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 701,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 670
+      },
+      "cost": 0.00042082,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0003505,
+        "upstream_inference_cost": 0.00042082,
+        "upstream_inference_prompt_cost": 0.00007032
+      },
+      "is_byok": false,
+      "prompt_tokens": 4912,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 182,
+        "cached_tokens": 4727,
+        "video_tokens": 0
+      },
+      "total_tokens": 5613
+    }
+  }
+}

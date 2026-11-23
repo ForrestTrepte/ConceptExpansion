@@ -1,0 +1,63 @@
+*   `?g B10`: Main Concept is B10 (Celebration / Anniversary / Holiday).
+    *   `+ A10`: Detail on B10 is A10 (Date / Event / Day).
+    *   `+ C1`: Detail on B10 is C1 (Baby – Child / Young / New).
+    *   `!r A8`: Sub-concept (red group) is A8 (Idea / Intelligence / Concept).
+    *   `+ H13`: Detail on A8 is H13 (Right / End / After / Future).
+    *   `+ B8`: Detail on A8 is B8 (Expression – Quote / Talking / Words).
+
+    *   The main subject is a holiday or celebration (`B10`) that is related to a date/event (`A10`) and something young/new (`C1`).
+    *   The red sub-concept relates to an idea (`A8`) involving words/quotes (`B8`) and the future/end (`H13`).
+
+    *   *Idea 1: New Year's Eve?* (Celebration/Holiday, a new year/date, a new start/young, ideas about the future/quotes/resolutions?)
+    *   *Idea 2: Birthday?* (Celebration/Holiday, a specific date, child/young, words/quotes/wishes about the future?)
+    *   *Idea 3: Christmas?* (Celebration, Dec 25, maybe not quite the future/words connection).
+    *   *Idea 4: Baby shower?* (Celebration, but usually not a specific "date/event" in the same way as a holiday).
+
+    *   `?g B10`: Celebration/Holiday.
+    *   `+ A10`: Date/Event.
+    *   `+ C1`: Baby/Child/New.
+    *   `!r A8`: Idea/Concept.
+    *   `+ H13`: Future.
+    *   `+ B8`: Words/Expressions.
+
+    Wait, let's look at `!r A8 + H13 + B8` again.
+    An idea (`A8`) that is about words (`B8`) and the future (`H13`).
+    Maybe a "New Year's Resolution"?
+    A resolution is an idea/concept (A8), it's a phrase/expression (B8), it's about the future (H13).
+    Is a "New Year's Resolution" a `B10` (Celebration/Holiday)? Not strictly a holiday, but closely tied to the New Year celebration.
+    Actually, let's check if "New Year's" itself is the answer.
+    `?g B10` (Holiday) + `A10` (Date) + `C1` (New). That fits New Year perfectly.
+    The red group `!r A8 + H13 + B8` (Idea + Future + Words) fits "Resolution" perfectly.
+
+    Combined: New Year's Resolution.
+
+    Let's check other possibilities.
+    Birthday?
+    `?g B10` (Celebration) + `A10` (Date) + `C1` (Young) = Birthday?
+    `!r A8` (Idea) + `H13` (Future/End) + `B8` (Words) = Birthday wishes/predictions? A bit of a stretch.
+
+    What about "New Year"?
+    `?g B10` (Holiday) + `A10` (Date) + `C1` (New).
+    The red group might be describing the *nature* of the celebration (an idea about words/future).
+
+    Let's try:
+    1. New Year's Resolution
+    2. New Year's Day
+    3. Birthday
+
+    Wait, `C1` is "Baby - Child / Young / New". In Concept, "New" is a valid interpretation of C1.
+    `A10` is "Date / Event / Day".
+    `B10` is "Celebration".
+
+    Could it be "Happy New Year"?
+    `B8` is expression/words. `B10` is celebration. `A10` is date. `C1` is new. `A8` is idea. `H13` is end/future.
+    "Happy New Year" is an expression (B8).
+
+    Let's refine the guesses.
+    "New Year's Resolution" is a very strong candidate for the red group.
+    "New Year's Day" is a very strong candidate for the green group.
+
+    Let's try:
+    1. New Year's Resolution
+    2. New Year's Day
+    3. Birthday

@@ -1,0 +1,18 @@
+*   `?g A13`: Main concept is A13 (Game / Toy).
+    *   `+ B11`: An additional detail (cube) related to the main concept is B11 (Aircraft / Aerial / Flying).
+
+    *   A game or toy that involves flying/aircraft.
+    *   Possible answers:
+        *   Toy airplane.
+        *   Paper airplane.
+        *   Drone (if considered a toy).
+        *   Flight simulator (if considered a game).
+        *   Helicopter toy.
+
+    *   "Toy airplane" is a very direct interpretation of "Game/Toy" + "Aircraft".
+    *   "Paper airplane" is a common specific type.
+    *   "Drone" is a modern possibility.
+
+    *   Guess 1: Toy airplane
+    *   Guess 2: Paper airplane
+    *   Guess 3: Drone

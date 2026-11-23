@@ -1,0 +1,132 @@
+*   `?g A14`: Main Concept (green pawn) is on A14 (Food / Eating / Edible).
+    *   `+ F3`: Cube on F3 (Water / Liquid / Aquatic) in group `g`.
+    *   `+ F1`: Cube on F1 (Hot / Day – Light / Sun) in group `g`.
+    *   `!r A14`: Sub-Concept (red pawn) is on A14 (Food / Eating / Edible).
+    *   `+ H9`: Cube on H9 (Hollow / Hole / Pierced) in group `r`.
+
+    *   Main concept: Food.
+    *   Qualities of the food (group `g`): Liquid and Hot.
+    *   Related idea (group `r`): Food that is hollow or has a hole in it.
+
+    *   Soup (Liquid, Hot, but not typically hollow/pierced).
+    *   Coffee (Liquid, Hot, but not typically hollow).
+    *   Tea (Liquid, Hot, but not typically hollow).
+    *   Donut (Food, has a hole, but not typically liquid or hot - though some are hot).
+    *   Bagel (Food, has a hole, but not liquid).
+    *   Noodle/Pasta (Food, often in liquid, can be hot, but "hollow" refers more to the shape like macaroni).
+    *   Dumpling (Food, can be hot, sometimes has liquid inside? No, that's not "hollow").
+    *   Shell pasta (Macaroni/Penne) - Food, can be in a hot liquid (soup/sauce), and is hollow (H9).
+    *   Bouillon/Broth - Liquid, hot, but not hollow.
+    *   Maybe something like a "hole in a donut" but the "liquid/hot" part points towards a dish.
+    *   Wait, "Food + Liquid + Hot" (Main concept) + "Food + Hollow" (Sub-concept).
+    *   Could it be "Soup"? But how is soup hollow?
+    *   Could it be "Macaroni"? It's a food (A14), it's often in a hot liquid (F3, F1), and it is hollow (H9).
+    *   Could it be "Coffee"? No.
+    *   Could it be "Tea"? No.
+    *   Could it be "Ramen"? Liquid, hot, but the noodles aren't necessarily hollow (unless they are specific types).
+    *   Could it be "Dumplings"? No.
+    *   What about "Donut"? It's a food, it's hollow, but it's not a liquid.
+    *   Is there a food that is a liquid, hot, and hollow? That's a contradiction unless the "hollow" part refers to the container or a specific type of food.
+    *   Let's re-read: `?g A14` (The thing is Food) `+ F3` (It is Liquid) `+ F1` (It is Hot). `!r A14` (Related to food) `+ H9` (Related to food: it is hollow).
+    *   Maybe "Soup" and the "hollow" part refers to a bowl? No, H9 is an icon meaning.
+    *   Maybe "Pasta"? (Macaroni/Penne). It's food, often served in hot liquid, and is hollow.
+    *   Maybe "Dumpling"? No.
+    *   Maybe "Egg"? (Liquid inside, hot, but not hollow).
+    *   Wait, "Hot Liquid" + "Hollow Food".
+    *   Could it be "Spaghetti"? No.
+    *   "Macaroni"? It fits.
+    *   "Donut"? (If someone considers it "hot" and "liquid" somehow? Unlikely).
+    *   "Bowl of soup"?
+    *   What about "Tea"? No.
+    *   What about "Coffee"? No.
+    *   "Hot chocolate"?
+    *   "Noodle"?
+    *   Let's look at H9 again: "Hollow / Hole / Pierced".
+    *   Think of foods with holes: Donut, Bagel, Swiss Cheese, Macaroni, Penne, Cannoli.
+    *   Which of these are "Liquid" and "Hot"?
+    *   Macaroni is often in hot liquid.
+    *   Is there a "Hollow" food that *is* a liquid? No.
+    *   So the Main Concept is "Food" which is "Liquid" and "Hot" (Soup).
+    *   And a related idea is "Food" that is "Hollow" (Macaroni/Donut).
+    *   Wait, `?g` is the main concept. `?g A14` means the answer is food.
+    *   `+ F3` and `+ F1` describe the food: it is liquid and hot.
+    *   `!r A14` describes a related idea: another food.
+    *   `+ H9` describes that related food: it is hollow.
+    *   So: A hot liquid food, related to a hollow food.
+    *   Or: A hot liquid food, related to something with a hole.
+    *   Maybe the answer is "Soup"? (Hot, liquid). Related to "Macaroni"? (Hollow).
+    *   Or maybe the answer is "Macaroni"? (Food, can be in hot liquid, and is hollow).
+    *   If the answer is "Macaroni":
+        *   `?g A14` (Food) - Yes.
+        *   `+ F3` (Liquid) - It's eaten in liquid (often).
+        *   `+ F1` (Hot) - Usually hot.
+        *   `!r A14` (Food) - Yes.
+        *   `+ H9` (Hollow) - Yes.
+    *   If the answer is "Soup":
+        *   `?g A14` (Food) - Yes.
+        *   `+ F3` (Liquid) - Yes.
+        *   `+ F1` (Hot) - Yes.
+        *   `!r A14` (Food) - Yes.
+        *   `+ H9` (Hollow) - Is soup related to hollow food? Macaroni is in soup.
+    *   Let's try "Soup" or "Macaroni".
+    *   What about "Donut"? `?g A14` (Food), `+ F3` (Liquid)? No.
+    *   What about "Coffee"? `?g A14` (Food/Drink), `+ F3` (Liquid), `+ F1` (Hot). `!r A14` (Food) `+ H9` (Hollow)? No.
+    *   Could the answer be "Spaghetti"? No.
+    *   "Ramen"? (Liquid, hot, food). Related to hollow food? Noodles aren't usually hollow.
+    *   "Macaroni" seems like a very strong candidate because it is both liquid-related (soup/sauce) and hollow.
+
+    1. Macaroni
+    2. Soup
+    3. Donut (less likely, but fits the "hollow" part)
+
+    Wait, let's look at `?g A14` (Food) again. If the answer is "Macaroni":
+    It is a food. It is liquid (in sauce/soup). It is hot.
+    A related food is hollow. (Macaroni itself is hollow).
+
+    What about "Tea"? "Coffee"? "Hot chocolate"?
+    None are "hollow".
+
+    What about "Swiss cheese"? No.
+    "Bagel"? No.
+
+    "Macaroni" or "Penne" or "Pasta" seems best.
+    "Soup" is also possible.
+
+    Let's try "Soup", "Macaroni", "Donut".
+    Actually, "Macaroni" covers both the main concept (food that is liquid/hot) and the sub-concept (hollow food).
+
+    Another thought: "Hot dog"? No.
+    "Dumpling"? No.
+
+    Let's go with:
+    1. Macaroni
+    2. Soup
+    3. Donut
+
+    Wait, "Macaroni" is a type of food. "Soup" is a type of food.
+    If the answer is "Macaroni":
+    `?g A14` (Food)
+    `+ F3` (Liquid)
+    `+ F1` (Hot)
+    `!r A14` (Food)
+    `+ H9` (Hollow)
+    This works perfectly.
+
+    If the answer is "Soup":
+    `?g A14` (Food)
+    `+ F3` (Liquid)
+    `+ F1` (Hot)
+    `!r A14` (Food)
+    `+ H9` (Hollow) -> Related to Macaroni? Possible.
+
+    Let's try "Macaroni".
+
+    One more check: `?g A14` (Food). `+ F3` (Liquid), `+ F1` (Hot). `!r A14` (Food), `+ H9` (Hollow).
+    Could it be "Bowl"? No, `?g A14` means the answer is a food.
+
+    Guesses:
+    1. Macaroni
+    2. Soup
+    3. Donut (as a backup for the "hollow" part)
+
+    Actually, "Macaroni" is a more cohesive answer for the whole set of clues.

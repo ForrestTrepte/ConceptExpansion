@@ -1,0 +1,16 @@
+New prompt.
+
+Step 1, markers placed:
+?g B8
+Board now:
+?g B8
+Guesses: An idiom, A proverb, A saying
+Clue-giver: No
+
+Step 2, markers placed:
+!b E1 [on the rain under the cloud]
+Board now:
+?g B8
+!b E1
+
+Give up to 3 guesses, best first, or pass.

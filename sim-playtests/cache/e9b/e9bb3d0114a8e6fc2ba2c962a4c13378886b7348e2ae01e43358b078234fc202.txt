@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Amazon",
+    "Amazon Prime",
+    "Apple"
+  ]
+,
+  "pass": false
+}

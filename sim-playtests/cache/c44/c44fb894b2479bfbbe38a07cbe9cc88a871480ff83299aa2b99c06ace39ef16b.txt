@@ -1,0 +1,213 @@
+*   `?g A3`: Main Concept (green `?`) is A3 (Work / Occupation). So the answer is a job or occupation.
+    *   `+ G14`: A cube in the green group on G14 (Turn / Around / Cycle – Repetition). So the occupation involves something cyclical or repetitive.
+    *   `!r A4`: Red Sub-Concept (red `!`) is A4 (Fauna / Animal).
+    *   `+ H10`: A cube in the red group on H10 (Small / Low).
+    *   `+ Grey`: A cube in the red group on Grey.
+    *   `!y D3`: Yellow Sub-Concept (yellow `!`) is D3 (Fast / Race).
+
+    *   Occupation (`?g A3`)
+    *   Related to animals (`!r A4`)
+    *   Small/Low and Grey (`+ H10, + Grey`) - Could be a specific animal or a feature of the work.
+    *   Fast/Race (`!y D3`) - Suggests speed or racing.
+
+    *   Animal + Fast + Occupation + Small/Grey?
+    *   Maybe a jockey? (But jockeys race humans/horses, not necessarily "small grey animals").
+    *   Maybe a Greyhound racer? (Greyhound = dog = animal, fast, racing).
+    *   Wait, `!r A4` (Animal) + `H10` (Small) + `Grey` (Color). A small grey animal.
+    *   A mouse? A rabbit? A greyhound isn't small.
+    *   What occupation involves animals and racing?
+    *   Horse racing? (Not small/grey).
+    *   Greyhound racing? The *job* could be a Greyhound trainer or a Greyhound racer (though the animal is the racer).
+    *   Let's look at `G14` (Repetition/Cycle). Maybe a scheduled thing?
+    *   Wait, "Grey" and "Small/Low" and "Animal". A mouse?
+    *   Is there an occupation related to mice and racing?
+    *   Maybe "Mouse catcher"? (Not fast/race).
+    *   What about a "Greyhound"? But the answer is an occupation (`?g A3`).
+    *   Is "Greyhound" an occupation? No.
+    *   Is "Racing driver"? No, that's not an animal.
+    *   Let's re-evaluate `!r A4` (Animal) + `H10` (Small) + `Grey` (Color) + `D3` (Fast/Race).
+    *   Small, grey, fast animal... a mouse? A greyhound (though not small)?
+    *   Wait, `!y D3` is a yellow sub-concept.
+    *   Could the answer be "Greyhound racing"? (Not an occupation).
+    *   Could the answer be "Jockey"? (Occupation, involves animals, racing). But is a horse small and grey? No.
+    *   How about "Dog walker"? (Occupation, animals). Not really racing.
+    *   "Mouse catcher"? No.
+    *   What about "Greyhound"? Is it possible the clue-giver misapplied `?g A3`? No, I must assume they are correct.
+    *   Wait... `A3` is Work/Occupation.
+    *   What if the occupation is "Racer"? (Like a racing driver or a jockey).
+    *   The sub-concepts describe the *subject* of the work.
+    *   Subject: An animal (`A4`), that is small/low (`H10`) and grey (`Grey`), and is fast/racing (`D3`).
+    *   Small, grey, fast animal... A mouse? A greyhound is fast, but not small.
+    *   Is there a job called "Greyhound trainer"?
+    *   Let's look at `G14` (Cycle/Repetition/Turn).
+    *   What if the answer is "Driver"? (Occupation).
+    *   What if the answer is "Pilot"?
+    *   Let's rethink the "Small, grey, fast animal".
+    *   Could it be a "Greyhound"? (Wait, `?g A3` is Work/Occupation).
+    *   Is "Greyhound" a name for a person? No.
+    *   What about "Racing"? (Not an occupation).
+    *   Maybe "Track star"? (Not an occupation).
+    *   Could the answer be "Runner"? (Occupation/Activity).
+    *   Is there a small grey animal involved in running?
+    *   Let's look at `H10` (Small/Low) and `Grey` again.
+    *   Could it be a "Rat"? A "Mouse"?
+    *   Is "Rat catcher" a job? Yes. Does it involve racing? No.
+    *   Wait, `D3` is "Fast/Race".
+    *   Could the occupation be "Greyhound racer"?
+    *   Wait, "Greyhound" itself is a dog.
+    *   Is "Greyhound" the answer? If so, the `?g A3` is wrong.
+    *   Let's check if `A3` can mean anything else. `A3` is Work/Occupation.
+    *   What if the answer is "Jockey"?
+    *   What if the answer is "Trainer"?
+    *   What if the answer is "Breeder"?
+    *   Let's think about "Small, grey, fast, animal, occupation, repetition".
+    *   Maybe "Courier"? (Fast, but not animal).
+    *   Maybe "Messenger"?
+    *   What if the animal is a "Greyhound" and the occupation is "Greyhound racer"? But is a greyhound small and grey? They are grey/brindle, but not "small".
+    *   Wait, `H10` is "Small/Low".
+    *   What animal is small, grey, and fast? A mouse.
+    *   Is there a job related to mice and racing? No.
+    *   What about "Rabbit"? (Fast, but not grey/small/occupation).
+    *   Wait... `A3` is Occupation. `A4` is Animal. `D3` is Fast/Race. `H10` is Small. `Grey` is Grey. `G14` is Repetition.
+    *   Could it be "Dog walker"?
+    *   Let's try "Greyhound trainer". Or just "Jockey". Or "Racer".
+    *   Actually, let's look at the "Small, grey, fast" thing again.
+    *   Could it be a "Hare"? (Fast, but not grey/small in the same way).
+    *   What about a "Racing driver"? (Not an animal).
+    *   Let's reconsider the `?g A3` (Occupation).
+    *   Maybe the answer is "Dog catcher"? No.
+    *   Maybe "Animal trainer"?
+    *   What about a "Cheetah"? (Not an occupation).
+    *   "Racehorse"? (Not an occupation).
+    *   Wait, "Greyhound" (the dog) is often used in the context of racing.
+    *   Is it "Greyhound racing"? (That's an activity).
+    *   Is it "Jockey"?
+    *   Let's try to think of an occupation that involves a small, grey, fast animal.
+    *   ...A "Mouse catcher"? No.
+    *   Is there a job called "Greyhound"? No.
+    *   What if the animal is a "Greyhound" and the user thinks "Greyhound" is an occupation (like a person who races)? No, that's a stretch.
+    *   Let's look at `G14` (Cycle/Repetition/Turn/Around).
+    *   A job that is repetitive?
+    *   "Runner"?
+    *   "Delivery driver"?
+    *   What about "Courier"?
+    *   Let's look at the "Small, grey, fast" animal again.
+    *   Could it be a "Rabbit"? (A "Greyhound" is a dog, a "Rabbit" is a prey).
+    *   Wait! "Greyhound" is a dog. Dogs are animals.
+    *   Is there a job involving a "Greyhound"?
+    *   Maybe "Jockey" is the best guess for a racing-related occupation.
+
+    *   Occupation (`A3`)
+    *   Animal (`A4`)
+    *   Small (`H10`)
+    *   Grey (`Grey`)
+    *   Fast/Race (`D3`)
+    *   Cycle/Repetition (`G14`)
+
+    If the occupation is "Jockey":
+    - Animal: Horse (not small/grey).
+    - Fast/Race: Yes.
+    - Cycle/Repetition: Races are repetitive?
+
+    If the occupation is "Trainer":
+    - Animal: Yes.
+    - Fast/Race: Yes.
+
+    Wait, could the answer be "Greyhound"? (Even though it's an animal?) In some games, people misidentify the main concept. But I should assume `A3` is correct.
+    Wait! "Small, grey, fast". A "Greyhound" is a dog.
+    Is there an occupation called a "Greyhound"? No.
+    What if the occupation is "Breeder"?
+    What if the occupation is "Dog walker"?
+
+    Let's look at `H10` (Small) and `Grey` again.
+    What about a "Mouse"?
+    Is there a "Mouse racer"? No.
+    What about "Rat"?
+    "Rat catcher"?
+    "Rat racing"? (That's an idiom). Is "Rat race" an occupation? No.
+    Is "Rat race" a common phrase? Yes. `A3` is "Work/Occupation". "Rat race" is a common phrase *about* work/occupation.
+    Let's check:
+    - `?g A3` (Work/Occupation): "Rat race" is about the grind of work.
+    - `!r A4` (Animal): Rat.
+    - `+ H10` (Small): Rat is small.
+    - `+ Grey`: Rats are grey.
+    - `!y D3` (Fast/Race): Rat "race".
+    - `+ G14` (Cycle/Repetition): The rat race is a repetitive cycle.
+
+    This fits perfectly!
+
+    1. Rat race
+    2. Rat catcher (less likely)
+    3. Jockey (less likely)
+
+    Wait, "Rat race" is a common phrase. The instructions say the answer can be a common phrase.
+    Does "Rat race" fit `?g A3` (Work/Occupation)?
+    It is a phrase *describing* a type of work/lifestyle.
+
+    Let's double check the icons.
+    A3: Work/Occupation.
+    A4: Animal.
+    H10: Small/Low.
+    Grey: Grey.
+    D3: Fast/Race.
+    G14: Turn/Around/Cycle/Repetition.
+
+    "Rat race"
+    - Rat (Animal, small, grey)
+    - Race (Fast/Race)
+    - Cycle (G14)
+    - Work (A3)
+
+    This is a very strong candidate.
+
+    *Self-Correction/Refinement:*
+    Is "Rat race" a common phrase? Yes.
+    Is it an occupation? It's an idiom *about* occupation/work.
+
+    Let's try:
+    1. Rat race
+    2. Jockey
+    3. Greyhound trainer (or just "Greyhound") - but Greyhound isn't an occupation.
+
+    Let's stick with "Rat race".
+
+    One more thought: Could the answer be "Racing driver"? No animal. "Dog walker"? No race/small/grey. "Mouse catcher"? No race.
+
+    "Rat race" seems most likely.
+
+    Guesses:
+    1. Rat race
+    2. Jockey
+    3. Greyhound racing (though it's an activity)
+
+    Actually, let's look at the `?g A3` again. It's the "Main Concept".
+    If the answer is "Rat race", the main concept is "Work/Occupation" (A3).
+    That's a bit of a stretch for an idiom, but possible.
+
+    Wait, what about "A rat catcher"? (Occupation).
+    Does a rat catcher involve a race? No.
+
+    What about "Runner"?
+    Small grey animal? No.
+
+    Let's try "Rat race".
+
+    *Actually*, let's look at `A4` (Animal) and `D3` (Race).
+    "Greyhound" is an animal.
+    "Greyhound racing" is an activity.
+    "Jockey" is an occupation.
+    "Rat race" is a phrase.
+
+    Wait, `G14` (Turn / Around / Cycle – Repetition).
+    The "Rat race" is definitely a cycle.
+
+    Let's check if there's any other animal.
+    "Small, grey, fast"... Mouse?
+    "Mouse race"? No.
+
+    Final decision: "Rat race" is the best fit for all clues including the metaphorical "cycle" and "work".
+
+    Guesses:
+    1. Rat race
+    2. Jockey
+    3. Greyhound racing

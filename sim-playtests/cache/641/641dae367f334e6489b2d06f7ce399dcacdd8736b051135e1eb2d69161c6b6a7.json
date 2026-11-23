@@ -1,0 +1,138 @@
+{
+  "contentSha256": "9376496d194eee00413e598c03924d36e5db89e05137e9c7fc215c3df8fbfa63",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "90167f6773b23c0d34d7074b521186233b0757584cab853ba7be1b70066d6420"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "be1d3f5a2aec51ee8e59769e98d41a9e2ff201e39b29fca883f6d7ba565a7778"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "openai/gpt-6-luna",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "pass": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "guesses",
+                "pass"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-3"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "db82776",
+    "costUsd": 0.00027245,
+    "latencyMs": 5303,
+    "recordedAt": "2026-11-23T22:14:05.849Z",
+    "recordedBy": "claude",
+    "servedBy": "OpenAI",
+    "servedModel": "openai/gpt-6-luna",
+    "tags": {
+      "run": "calibrate-or-luna"
+    },
+    "usage": {
+      "cacheReadTokens": 4815,
+      "cacheWriteTokens": 0,
+      "inputTokens": 4818,
+      "outputTokens": 448,
+      "reasoningTokens": 414
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"Friday the 13th\",\"Day of the Dead\",\"Death Becomes Her\"],\"pass\":false}",
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "data": {
+                "$llmemo.text": "47d0ce8a289f54a3730ed1886d2d3947e93da724a6167beada3d977fd7fd0db7"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_091ca6d38f63e1ed016b04baa9219087d18725fb36cbaa2acf",
+              "index": 0,
+              "type": "reasoning.encrypted"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "completed"
+      }
+    ],
+    "created": 1795472040,
+    "id": "gen-1795472040-LsYs7xrMY7bdzE14NfxP",
+    "model": "openai/gpt-6-luna",
+    "object": "chat.completion",
+    "provider": "OpenAI",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 448,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 414
+      },
+      "cost": 0.00027245,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000224,
+        "upstream_inference_cost": 0.00027245,
+        "upstream_inference_prompt_cost": 0.00004845
+      },
+      "is_byok": false,
+      "prompt_tokens": 4818,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 4815,
+        "video_tokens": 0
+      },
+      "total_tokens": 5266
+    }
+  }
+}

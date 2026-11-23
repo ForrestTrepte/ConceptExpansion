@@ -1,0 +1,8 @@
+{
+  "guesses": [
+    "A low blow",
+    "Love is a battlefield",
+    "Heart attack"
+  ]
+,"pass": false
+}

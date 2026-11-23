@@ -1,0 +1,275 @@
+*   `?g B7`: Main Concept is a Title / Brand / Name.
+    *   `+ F10`: Grid / Network.
+    *   `+ C7`: Electronic / Computing.
+    *   `!r B8`: Sub-concept (red) is an Expression / Quote / Talking / Words.
+        *   `+ F10`: Grid / Network.
+        *   `+ A7`: Television / Program / Show.
+    *   *Clue 1 Summary:* A title/brand about computing/networks and words/quotes/TV/shows.
+    *   *Guesser's previous guesses (failed):* The Matrix, The Internet, CNN.
+
+    *   `!y G2`: Sub-concept (yellow) is a Cross / Addition.
+        *   `+ G1`: Line / Straight.
+        *   `+ H14`: Use / Action / Button.
+    *   `!b B10`: Sub-concept (blue) is a Celebration / Anniversary / Holiday.
+        *   `+ B8`: Expression / Quote / Talking / Words.
+    *   *Clue 2 Summary:*
+        *   Yellow (relationship to main?): Addition/Cross, Straight line, Action/Button.
+        *   Blue (relationship to main?): Celebration/Holiday, Words/Quotes.
+
+    *   Main: A Title/Name.
+    *   Details of Title: Computing, Network, Grid.
+    *   Red (related detail): Words/Quotes, TV/Show, Network.
+    *   Yellow (related detail): Cross/Addition, Straight line, Action/Button.
+    *   Blue (related detail): Celebration, Words/Quotes.
+
+    *Wait, let's re-examine the markers:*
+    *   `?g B7` (Title)
+        *   `+ F10` (Grid/Network)
+        *   `+ C7` (Computing)
+    *   `!r B8` (Words/Quotes/Talking)
+        *   `+ F10` (Grid/Network)
+        *   `+ A7` (TV/Show)
+    *   `!y G2` (Cross/Addition/Intersection?)
+        *   `+ G1` (Straight Line)
+        *   `+ H14` (Button/Action/Use)
+    *   `!b B10` (Celebration/Holiday)
+        *   `+ B8` (Words/Quotes)
+
+    *Synthesis:*
+    A Title/Brand related to computing/networks.
+    A related idea: Words/Quotes/Talking on a TV show/Network.
+    A related idea: Cross/Addition + Straight Line + Button.
+    A related idea: Celebration + Words.
+
+    *Looking for a Title/Brand:*
+    - "The Cross"? No.
+    - "Click"? No.
+    - "New Year's Eve"? No (Computing doesn't fit).
+    - "Facebook"? (Social/Network, but the words part?)
+    - "Twitter"? (Words, Network).
+    - "TikTok"? (Celebration/Holiday?)
+    - "YouTube"? (TV/Show/Video, Network, Computing).
+    - "Netflix"? (TV/Show, Network, Computing).
+
+    Let's look at the "Yellow" group again: `G2` (Cross/Plus), `G1` (Straight line), `H14` (Button).
+    Does a "Plus" or "Cross" or "Button" connect to a brand?
+    "Cross"? "Add"?
+    What about "Happy New Year"? (Celebration/Holiday). But the main concept is a Title/Brand.
+
+    Wait, maybe the Title is a specific phrase or a very famous show.
+    `!b B10` + `B8`: Words + Celebration/Holiday.
+    "Happy Birthday"?
+    "Merry Christmas"?
+    If the answer is "Merry Christmas", does it fit the main concept? `?g B7` (Title/Brand/Name). Usually "Merry Christmas" is a phrase.
+    Is there a brand called "Merry Christmas"? No.
+
+    Let's look at the "Yellow" again: `G2` (Cross), `G1` (Straight), `H14` (Button).
+    `G2` is a "plus" sign. `H14` is a "button".
+    Could the title be related to "Plus"?
+    "Disney+"?
+    `?g B7` (Disney is a brand).
+    `+ F10` (Network?)
+    `+ C7` (Computing?)
+    `!r B8` (Words/Talking) + `A7` (TV).
+    Does Disney+ have "Words/Quotes" on a "Network/TV"? Yes.
+    What about `!y G2` (Plus sign)? "Disney+"... the plus sign is the icon!
+    `G2` (Cross/Plus) + `G1` (Straight line) + `H14` (Button/Use).
+    What about `!b B10` (Celebration/Holiday) + `B8` (Words/Quotes)?
+    "Disney" - is there a celebration? "Disney World"? "Disney Parks"?
+    Wait, "Disney" is a brand.
+    Let's check the "Blue" again. `!b B10` (Celebration) + `B8` (Words).
+    "Happy Birthday"? No.
+    "Merry Christmas"? No.
+    Maybe "New Year's Eve"? No.
+
+    Let's reconsider the "Yellow" group.
+    `G2` (Cross/Plus), `G1` (Straight line), `H14` (Button/Action).
+    It's very specifically describing the "+" sign.
+    If the answer is "Disney+", it matches perfectly.
+    - `?g B7` (Brand)
+    - `+ F10` (Network/Grid - streaming service/internet)
+    - `+ C7` (Computing)
+    - `!r B8` (Words/Quotes) + `A7` (TV) (Disney+ shows/content)
+    - `!y G2` (Plus sign) + `G1` (Straight line) + `H14` (Button) (The actual logo/plus sign)
+    - `!b B10` (Celebration) + `B8` (Words) -> This is the tricky part.
+    Does "Disney" relate to "Celebration" and "Words/Quotes"?
+    Disney is known for "Magic" or "Celebrations" or "Happy" themes?
+    Or maybe the Blue group is `B10` (Celebration) and `B8` (Words/Quotes) -> "Happy Birthday"? No.
+    Maybe `B10` is "Holiday" and `B8` is "Quote".
+
+    Wait, let's look at `!b B10` again. `B10` is Celebration/Anniversary/Holiday.
+    If the answer is "Disney+", what is the blue clue?
+    Is there a Disney celebration? "Disney's Very Merry Christmas"?
+    What if the answer is not Disney+?
+    What else has a "plus" in the name?
+    "Google+" (defunct).
+    "Apple TV+"?
+    "Paramount+"?
+
+    Let's look at `!y G2` (Plus) again.
+    The `!y` is a sub-concept.
+    `G2` (Plus), `G1` (Line), `H14` (Button).
+    If the answer is "Disney+", then "Plus" is a sub-concept of the name.
+    `?g B7` (Brand)
+    `+ F10` (Network)
+    `+ C7` (Computing)
+    `!r B8` (Quotes) + `A7` (TV)
+    `!y G2` (Plus) + `G1` (Line) + `H14` (Button)
+    `!b B10` (Celebration/Holiday) + `B8` (Words/Quotes/Talking)
+
+    Could the blue part be "Happy Holidays"?
+    "Happy Holidays" (Words) + "Celebration" (Holiday).
+    How does "Happy Holidays" relate to Disney+?
+    It doesn't really.
+
+    Wait! Let's look at the Blue group again.
+    `!b B10` (Celebration)
+    `+ B8` (Words/Quotes)
+    Maybe the answer is "Happy Birthday"? No, that's not a Brand/Title.
+    "Happy New Year"? No.
+
+    Wait, what if the "Blue" group describes the "Disney" part?
+    Disney is associated with "Magic" and "Celebrations".
+    `B10` (Celebration) and `B8` (Talking/Words) -> "Magic words"?
+    "Disney" -> "Magic" + "Words"?
+
+    Let's think about `B10` (Celebration/Anniversary/Holiday) + `B8` (Words/Quote/Talking).
+    "Merry Christmas"? "Happy Birthday"? "Season's Greetings"?
+    "Congratulations"?
+
+    Wait, let's look at the whole thing again.
+    Title/Brand.
+    Computing/Network.
+    Quotes/TV.
+    Plus sign (+).
+    Celebration/Words.
+
+    Is there a brand called "Plus"?
+    Is there a brand called "Celebration"?
+
+    Let's look at the "Yellow" group again.
+    `G2` (Cross), `G1` (Straight), `H14` (Button).
+    This is definitely a "Plus" sign or a "Cross".
+    If the title is "Disney+", the "Plus" is a sub-concept.
+    If the title is "Netflix", does it have a plus? No.
+    If the title is "Paramount+", "Apple TV+", "Discovery+", "Peacock"?
+
+    Let's look at `!b B10` + `B8` one more time.
+    `B10`: Celebration/Anniversary/Holiday.
+    `B8`: Expression/Quote/Talking/Words.
+    "Happy Birthday"? "Happy New Year"?
+    Wait... "Disney+" ... "Disney" ... "Magic"?
+    What if the answer is "The Oscars"? (Celebration/Award, Words/Speeches, TV Show).
+    But `G2` (Plus/Cross) doesn't fit.
+
+    What about "TikTok"?
+    `?g B7` (Brand)
+    `+ F10` (Network)
+    `+ C7` (Computing)
+    `!r B8` (Words/Talking) + `A7` (TV/Show) (Videos are like shows).
+    `!y G2` (Plus) -> No.
+
+    Let's re-evaluate `!y G2`.
+    `G2` is a Cross/Plus.
+    `G1` is a Straight line.
+    `H14` is a Button/Action.
+    This is so strongly a description of a "+" symbol.
+    If the answer is a Title/Brand that *is* [Something] + [Plus], then "Disney+" is the strongest candidate.
+    Does "Disney" fit `!b B10` (Celebration) + `B8` (Words)?
+    Disney is often associated with "Celebrations" (Theme parks).
+    And "Words"? "Disney" is a name.
+    Wait, `B10` is "Celebration/Anniversary".
+    Maybe it's "Disney World"? No, `?g B7` is Title/Brand.
+    Maybe the blue part is "Magic"? (Not an icon).
+
+    Let's try another angle.
+    Is there a brand called "Cross"?
+    Is there a brand called "Plus"?
+
+    What if the answer is "Facebook"? (No plus).
+    What if the answer is "Twitter"? (No plus).
+    What if the answer is "Instagram"? (No plus).
+
+    Wait, `!b B10` + `B8`.
+    `B10` = Celebration.
+    `B8` = Words/Quotes.
+    "Happy New Year"?
+    If the answer is "Happy New Year", it's not a Title/Brand (usually).
+    But could it be a "Title" of a song or movie?
+    Is there a movie called "The Internet"? (The guesser already tried that).
+
+    Let's look at the `!r` group again.
+    `!r B8` (Words/Quotes)
+    `+ F10` (Network)
+    `+ A7` (TV/Show)
+    This describes "Content" or "A TV show with dialogue".
+    If the answer is "Disney+", the content is on a network (the service) and it's TV shows.
+
+    Let's think about the Yellow group again.
+    `G2` (Cross), `G1` (Straight), `H14` (Button).
+    Could this be "Click"? (Button).
+    "Click" is a movie title.
+    `?g B7` (Title).
+    `+ F10` (Network)? `+ C7` (Computing)?
+    `!r B8` (Words) + `A7` (TV)?
+    `!y G2` (Cross) + `G1` (Straight)?
+    Doesn't fit "Click".
+
+    What about "YouTube"?
+    `?g B7` (Brand).
+    `+ F10` (Network).
+    `+ C7` (Computing).
+    `!r B8` (Words/Quotes) + `A7` (TV/Show) (YouTube videos).
+    `!y G2` (Cross/Plus) ... Does YouTube have a plus? No, it has a play button.
+    Is `H14` (Button) the play button?
+    If `H14` is a button, and `G2` is... wait, `G2` is a cross.
+    A play button is a triangle. `G5` is a triangle.
+    So it's not YouTube.
+
+    Let's go back to "Disney+".
+    The "+" is a `G2` (Cross) made of `G1` (Straight lines). And you "use" it or it's a "button" (`H14`).
+    The brand is "Disney+".
+    The red part: TV/Shows (`A7`) on a Network (`F10`) involving Words (`B8`). (Describes the content/experience).
+    The blue part: `B10` (Celebration) and `B8` (Words).
+    Maybe "Disney" is the "Celebration" and "Words" (the name/brand)?
+    Actually, looking at `B10` (Celebration/Anniversary) and `B8` (Words/Quotes)...
+    Could it be "Happy Birthday"? No.
+
+    Wait! `B10` (Celebration) and `B8` (Words/Quotes)...
+    What about "Merry Christmas"?
+    If the answer is "Merry Christmas", then:
+    `?g B7` (Title/Phrase).
+    `!r B8` (Words) + `A7` (TV) + `F10` (Network). (Christmas shows on TV?)
+    `!y G2` (Cross/Plus). (Christmas is associated with a cross?)
+    `!b B10` (Celebration) + `B8` (Words). (Fits perfectly).
+    But `+ F10` (Network) and `+ C7` (Computing) and `G2` (Cross/Plus)? Doesn't fit well.
+
+    Let's search for brands with "Plus".
+    Disney+, Paramount+, Apple TV+, Discovery+, ESPN+.
+    "Disney+" is the most famous "Plus" brand.
+    How to explain the blue part (`B10` + `B8`) for Disney?
+    "Disney" -> `B10` (Celebration/Holiday) + `B8` (Words)?
+    Disney is synonymous with "Magic" and "Celebrations".
+    And "Words"? Maybe "Disney" is a "Name" (B7) that people "say" (B8)?
+
+    Let's look at the Red group again.
+    `!r B8` (Words/Quotes/Talking)
+    `+ F10` (Grid/Network)
+    `+ A7` (TV/Show)
+    This sounds like "News".
+    Is there a brand called "Plus News"? No.
+
+    Wait! "The Voice"? (TV Show, Words/Singing).
+    "The Voice" (Title).
+    `?g B7` (Title).
+    `!r B8` (Words/Singing) + `A7` (TV).
+    `!y G2` (Cross) ... no.
+
+    Let's rethink the "Yellow" group one more time.
+    `G2` (Cross), `G1` (Straight line), `H14` (Button).
+    Could it be "Add"? Or "Plus"?
+    If the answer is "Disney+", the `!y` group is specifically describing the "+" in the name.
+    The `?g` group describes the "Disney+" service (Computing, Network, Brand).
+    The `!r` group describes the content (TV, Words, Network).
+    The `!b` group... what if `B10` (Celebration) and `B8` (Words) refers to the "Disney" part?
+    

@@ -1,0 +1,461 @@
+*   `?g B8` (Main Concept: Expression – Quote / Talking / Words) -> The answer is a quote, an expression, a phrase, or involves speech.
+    *   `+ D4` (Sub-concept in group g: Attack / Conflict – Combat / Weapon) -> The expression/phrase involves conflict, weapons, or fighting.
+    *   `+ C5` (Sub-concept in group g: Life / Heart / Love) -> The expression/phrase involves life, heart, or love.
+    *   `!r F4` (Red Sub-concept: Earth / Ground / Soil) -> A related idea: something to do with earth, ground, or soil.
+    *   `+ H12` (Red Sub-concept: Low / Descend / Below) -> Related idea: something low, descending, or below.
+    *   `!y B12` (Yellow Sub-concept: Tool / Construction) -> A related idea: something to do with tools or construction.
+    *   `+ D4` (Yellow Sub-concept: Attack / Conflict – Combat / Weapon) -> Related idea: something to do with weapons/conflict.
+
+    *Wait, let me re-check the notation/groups.*
+
+    `?g B8` -> Main Concept is a phrase/expression.
+    `+ D4` (in `?g`) -> The expression is about attack/conflict/weapon.
+    `+ C5` (in `?g`) -> The expression is about heart/love/life.
+    `!r F4` (Red Sub-concept) -> Red group is about Earth/Ground/Soil.
+    `+ H12` (in Red group) -> Earth/Ground/Soil + Low/Descend. (Maybe "dirt" or "ground"?)
+    `!y B12` (Yellow Sub-concept) -> Yellow group is about Tool/Construction.
+    `+ D4` (in Yellow group) -> Tool/Construction + Attack/Conflict/Weapon. (Maybe a hammer, or a weapon?)
+
+    *   Answer: A phrase/expression (`B8`).
+    *   Attributes of the phrase: Conflict (`D4`) and Heart/Love/Life (`C5`).
+    *   Related concept 1 (Red): Earth/Ground (`F4`) and Low/Below (`H12`).
+    *   Related concept 2 (Yellow): Tool (`B12`) and Conflict/Weapon (`D4`).
+
+    *   `B8 + D4 + C5`: A phrase about conflict and heart/love. "To break someone's heart"? (Conflict = break/attack, Heart = C5).
+    *   `F4 + H12`: Earth/Ground + Low. "Down to earth"?
+    *   `B12 + D4`: Tool + Weapon. "Sword"? "Hammer"?
+    *   Let's look for a phrase that fits all.
+    *   "Down to earth"? (F4/H12). Does it involve conflict/heart? Not really.
+    *   "Heart of stone"? (C5/E5/F4).
+    *   "To have a heart of gold"?
+    *   "Fight for love"?
+    *   "A dagger to the heart"? (D4=Weapon/Attack, C5=Heart, B8=Expression).
+    *   What about the Red/Yellow stuff?
+    *   Red: Ground/Earth + Low.
+    *   Yellow: Tool + Weapon/Conflict.
+
+    Let's rethink.
+    `?g B8` (Expression/Phrase)
+    `?g + D4` (Conflict/Attack)
+    `?g + C5` (Heart/Life/Love)
+    `!r F4` (Earth/Ground)
+    `!r + H12` (Low/Below)
+    `!y B12` (Tool)
+    `!y + D4` (Conflict/Weapon)
+
+    Maybe the answer is "Heart of stone"?
+    `B8` (Expression)
+    `C5` (Heart)
+    `E5` (Stone/Mineral) - but the clue uses `F4` (Earth/Ground) and `H12` (Low).
+    Wait, `F4` is Earth/Ground/Soil. `H12` is Low/Descend.
+    `B12` is Tool. `D4` is Weapon/Attack.
+
+    Is it "Under the hammer"? (B12/B8/H12/F4?) No.
+    Is it "Fighting words"? (D4/B8).
+    Is it "Love is a battlefield"? (C5/D4/B8).
+    `B8` (Expression)
+    `C5` (Love)
+    `D4` (Battlefield/Conflict)
+    Does "Love is a battlefield" fit Red and Yellow?
+    Red: `F4` (Earth) + `H12` (Low). A battlefield is on the ground?
+    Yellow: `B12` (Tool) + `D4` (Weapon). Tools of war?
+
+    Let's try another. "Down in the dirt"? No.
+    "To have your heart in your mouth"? No.
+    "To strike a chord"? (B5/D4/B12/B8?) No.
+
+    Wait, look at the Red group again: `F4` (Earth) and `H12` (Low).
+    Look at the Yellow group: `B12` (Tool) and `D4` (Conflict/Weapon).
+    Is the answer "Sword in the stone"?
+    `B8` (Expression/Legend)
+    `D4` (Sword/Weapon)
+    `C5` (Life/Heart/Love?? - No, maybe not)
+    `F4` (Earth/Ground) + `H12` (Low/Below) (Stone is in the ground)
+    `B12` (Tool/Construction) + `D4` (Weapon/Conflict) (Sword is a tool/weapon)
+
+    Let's check the phrase "A dagger to the heart".
+    Is there a "tool" (B12) "weapon" (D4)? A dagger is a tool/weapon.
+    Is there "earth" (F4) "low" (H12)? No.
+
+    What about "Heart of stone"?
+    `C5` (Heart)
+    `F4` (Earth) + `E5` (Stone) - but it's `F4` (Earth) and `H12` (Low).
+    Wait, `H12` is "Low/Descend/Below".
+    Is the answer "Deep down in your heart"?
+    `B8` (Expression)
+    `H12` (Deep/Below)
+    `C5` (Heart)
+    `F4` (Earth/Ground)
+    `D4` (Conflict/Attack?? - No)
+
+    Let's look at the `D4` in the Main Concept.
+    `?g B8` (Expression)
+    `+ D4` (Conflict)
+    `+ C5` (Heart/Love)
+    This sounds like "To break a heart" or "Battle of hearts" or "Love is a battlefield".
+
+    Let's look at the Red/Yellow sub-concepts again.
+    `!r F4` (Earth/Ground)
+    `+ H12` (Low/Below)
+    `!y B12` (Tool)
+    `+ D4` (Conflict/Weapon)
+
+    Could the answer be "A chip off the old block"? No.
+    "The bottom line"? No.
+    "A way to a man's heart is through his stomach"? No.
+
+    Wait! "A shot in the dark"? No.
+    "To strike a blow"? (D4/B12/D4/B8?)
+    "A heavy heart"?
+    "To kill two birds with one stone"?
+    `B8` (Expression)
+    `D4` (Kill/Attack)
+    `A4` (Bird - but clue uses C5 Heart)
+    `E5` (Stone - but clue uses F4 Earth)
+
+    Let's try: "To hit below the belt".
+    `B8` (Expression)
+    `D4` (Hit/Attack)
+    `H12` (Below)
+    `C5` (Belt/Life? No. Belt is B13/clothing).
+    Wait, `C5` is Heart/Life.
+    `B12` is Tool.
+
+    Let's look at the `D4` and `C5` again.
+    `?g B8` (Expression)
+    `+ D4` (Conflict/Attack)
+    `+ C5` (Heart/Love)
+    `!r F4` (Earth)
+    `+ H12` (Low)
+    `!y B12` (Tool)
+    `+ D4` (Conflict/Weapon)
+
+    Is it "To strike a chord"? No.
+    Is it "The heart of the matter"?
+    Is it "A dagger to the heart"? (D4/C5/B8).
+    Is the Red/Yellow related to a dagger?
+    `B12` (Tool) + `D4` (Weapon) = A dagger/knife.
+    `F4` (Earth/Ground) + `H12` (Low/Below) = ?
+
+    Wait, maybe the answer is "To break someone's heart"?
+    Is there a "tool" (B12) "weapon" (D4)? A hammer?
+    Is there "earth" (F4) "low" (H12)?
+
+    Let's try "To strike a blow"?
+    Let's try "A heart of stone"? (But the clues are Earth/Low/Tool/Weapon).
+
+    What about "To dig a grave"?
+    `F4` (Earth) + `H12` (Low) = Digging.
+    `B12` (Tool) + `D4` (Weapon/Attack) = Shovel/Weapon?
+    `C5` (Life/Heart/Death?? - D5 is death, C5 is heart/life)
+    `D4` (Conflict)
+
+    "To win someone's heart"?
+    "To break a heart"?
+
+    Wait, look at `D4` in the main concept. It means Conflict/Attack/Weapon.
+    Look at `D4` in the yellow concept. It means Conflict/Attack/Weapon.
+    Look at `B12` (Tool) in the yellow concept.
+    A tool that is a weapon: A hammer? A sword? A knife?
+    `C5` (Heart).
+    `F4` (Earth) and `H12` (Low).
+
+    Is it "To hit someone where it hurts"?
+    `B8` (Expression)
+    `D4` (Hit/Attack)
+    `C5` (Heart/Where it hurts)
+    `F4` (Earth) / `H12` (Low) / `B12` (Tool) / `D4` (Weapon) -> This is still the hard part.
+
+    Wait... "To drive a nail into someone's heart"? No.
+    "A dagger to the heart"?
+
+    Let's look at the symbols for "Hammer":
+    `B12` (Tool)
+    `D4` (Attack/Conflict/Weapon - a hammer can be a weapon)
+    Is "Hammer" a phrase? "To hammer something home"?
+    `B8` (Expression)
+    `D4` (Attack/Hammering)
+    `C5` (Heart??)
+
+    What about "To strike a chord"?
+    "To strike a blow"?
+
+    Let's look at `F4` (Earth/Ground) and `H12` (Low/Below).
+    Could the phrase be "Down in the dirt"?
+    "To hit below the belt"?
+
+    Wait! "To strike a hammer"? No.
+    "To drive a point home"?
+
+    Let's try a different angle.
+    `?g B8` (Expression)
+    `+ D4` (Conflict)
+    `+ C5` (Heart)
+    This is almost certainly a phrase involving "Heart" and "Conflict" (like "Heartbreak" or "Attack the heart").
+    `!r F4` (Earth) + `H12` (Low)
+    `!y B12` (Tool) + `D4` (Weapon)
+    Could the "Tool/Weapon" be a "Sword"?
+    And the "Earth/Low" be "Ground"?
+    "Sword in the stone"?
+    Wait, "Sword in the stone" is an expression/legend.
+    `D4` (Weapon/Sword)
+    `B12` (Tool/Sword?)
+    `F4` (Earth/Ground)
+    `H12` (Low/Below - it's in the ground)
+    Does it have `C5` (Heart/Love)? No.
+    Does it have `D4` (Conflict) in the main concept? A sword is a weapon/conflict.
+
+    Let's look at `C5` (Heart/Life) and `D4` (Conflict/Weapon).
+    "To kill a heart"? No.
+    "To strike a heart"?
+
+    Wait, "To strike a match"? No.
+
+    Let's try "To hit the ground running"?
+    `F4` (Ground)
+    `D4` (Hit/Attack)
+    `H12` (Low/Below)
+    `B12` (Tool??)
+
+    Is the answer "To break a heart"?
+    `B8` (Phrase)
+    `D4` (Break/Attack)
+    `C5` (Heart)
+    `B12` (Tool) + `D4` (Weapon) -> A hammer is a tool/weapon used to break things?
+    `F4` (Earth) + `H12` (Low) -> ?
+
+    What about "To strike a vein"? No.
+    "To strike a chord"?
+
+    Let's try "To strike/hit/attack" (D4) "the heart" (C5).
+    "To hit the nail on the head"?
+    `B8` (Expression)
+    `D4` (Hit/Attack)
+    `B12` (Tool)
+    `D4` (Weapon/Nail? - No, nail isn't a weapon)
+    `H12` (Low/Below? No)
+
+    Let's try "To drive a nail into the heart"? No.
+
+    What about "To heart of the matter"? No.
+
+    Wait, "To hit a low note"?
+    `H12` (Low)
+    `D4` (Hit/Attack)
+    `B8` (Expression)
+    `B5` (Music - but it uses C5 Heart/Life/Love)
+
+    Could the answer be "Love is a battlefield"?
+    `B8` (Expression)
+    `C5` (Love)
+    `D4` (Battlefield/Conflict)
+    `F4` (Earth/Ground - Battlefield is ground)
+    `H12` (Low/Below - ?)
+    `B12` (Tool - ?)
+    `D4` (Weapon - ?)
+
+    Wait, "To strike a chord" involves a "tool" (pick/hammer?) and "low" (low note?). No.
+
+    Let's look at `C5` (Heart/Life) and `D4` (Conflict/Weapon) again.
+    "To fight for your life"?
+    `D4` (Fight)
+    `C5` (Life)
+    `B8` (Expression)
+    `B12` (Tool) + `D4` (Weapon) = Fighting/War.
+    `F4` (Earth) + `H12` (Low) = Ground/Battlefield.
+
+    "Love is a battlefield"?
+    "To win someone's heart"?
+
+    Let's try "Heart of gold"?
+    `C5` (Heart)
+    `F4` (Earth) + `H12` (Low/Below)? No.
+
+    What about "The bottom of my heart"?
+    `B8` (Expression)
+    `C5` (Heart)
+    `H12` (Below/Bottom)
+    `F4` (Earth/Ground)
+    `B12` (Tool) + `D4` (Weapon) -> ?
+
+    Wait, what if the answer is "A dagger to the heart"?
+    `B8` (Phrase)
+    `D4` (Weapon/Attack)
+    `C5` (Heart)
+    `B12` (Tool) + `D4` (Weapon) = Dagger.
+    `F4` (Earth) + `H12` (Low/Below) = ? Maybe a dagger is "low" or "in the earth"? No.
+
+    Let's try "To strike a blow to the heart"?
+    Let's try "To break a heart".
+
+    Let's rethink the "Tool/Weapon" and "Earth/Low" clues.
+    `B12` (Tool) + `D4` (Weapon/Conflict)
+    `F4` (Earth) + `H12` (Low)
+    Could this be "A shovel"?
+    A shovel is a tool (`B12`).
+    It's used to dig (Earth/Ground `F4` and Low/Below `H12`).
+    Is there an expression/phrase about a shovel and the heart?
+    "To dig a hole for someone"? No.
+
+    Wait, what about "A pickaxe"?
+    What about "A hammer"?
+    "To hammer a heart"? No.
+
+    "To strike a chord"?
+    `B12` (Tool/Instrument?)
+    `D4` (Attack/Strike?)
+    `B8` (Expression)
+    `C5` (Heart/Life/Love - No)
+
+    Could the answer be "To strike a nerve"? (Wait, Nerve is not on the board, but `C5` is Life/Heart/Love).
+
+    Let's look at `D4` (Conflict/Weapon) and `C5` (Heart) and `B8` (Expression).
+    "A strike to the heart"?
+    "A dagger in the heart"?
+    "To pierce the heart"?
+
+    If the answer is "A dagger in the heart":
+    `B8` (Phrase)
+    `D4` (Weapon/Attack)
+    `C5` (Heart)
+    `B12` (Tool/Weapon)
+    `D4` (Weapon)
+    `F4` (Earth) + `H12` (Low) = ?
+
+    What about "To hit/strike" (D4) "low" (H12) "in the heart" (C5)?
+    "To hit below the belt"?
+    `D4` (Hit)
+    `H12` (Below)
+    `B8` (Expression)
+    `C5` (Heart/Life/Love... no, the belt is `B13`).
+
+    Let's try "To strike at the heart".
+    "To strike a match"?
+
+    Wait! "To hit the nail on the head"?
+    `B12` (Tool)
+    `D4` (Conflict/Weapon/Nail?? No)
+
+    Let's look at `B12` (Tool) and `D4` (Weapon/Conflict) again.
+    Could it be "A sword"?
+    Could it be "A knife"?
+    Could it be "A spear"?
+    Could it be "A shield"? (No, that's `C4`).
+
+    What about "To win a war"?
+    "To fight for love"?
+
+    Let's try:
+    1. "Love is a battlefield"
+    2. "A dagger to the heart"
+    3. "To hit below the belt"
+
+    Wait, one more look at `F4` (Earth) and `H12` (Low).
+    "Down to earth"?
+    "Bottom of the heart"?
+
+    What if the answer is "A heart of stone"?
+    `B8` (Expression)
+    `C5` (Heart)
+    `F4` (Earth/Ground/Stone - Stone is `E5`, but `F4` is Earth/Ground/Soil)
+    `H12` (Low - Stones are low/on the ground?)
+    `B12` (Tool) + `D4` (Weapon) = A tool/weapon used to break stone?
+
+    Actually, let's try "To strike a chord". No.
+
+    Let's try "To break a heart".
+    If I guess "To break a heart", "Love is a battlefield", and "A dagger to the heart", I cover the most likely bases.
+
+    Wait, `!r F4` + `H12` (Earth + Low) and `!y B12` + `D4` (Tool + Weapon).
+    What if the answer is "A shovel"? No, it's a `B8` (Expression).
+    "To dig one's way out of a hole"?
+
+    What about "To hit the ground running"?
+    `F4` (Ground)
+    `D4` (Hit)
+    `H12` (Low/Down)
+    `B8` (Expression)
+    `B12` (Tool) + `D4` (Weapon/Conflict) -> ?
+
+    Is "A hammer" an expression? "To hammer home"?
+    `B8` (Expression)
+    `D4` (Conflict/Strike)
+    `B12` (Tool)
+    `D4` (Weapon/Strike)
+    `C5` (Heart??)
+    `F4` (Earth/Ground) + `H12` (Low) -> ?
+
+    Let's try:
+    1. Love is a battlefield
+    2. A dagger to the heart
+    3. To hit below the belt
+
+    Actually, let's look at `B12` (Tool) + `D4` (Weapon) and `F4` (Earth) + `H12` (Low) one more time.
+    A "pickaxe"? A "shovel"? A "hammer"?
+    "To hit the ground"?
+    "To strike a blow"?
+
+    Let's try:
+    1. Love is a battlefield
+    2. A dagger to the heart
+    3. To strike a blow
+
+    Wait, "To strike a chord" is better for `D4` (Strike/Attack) and `B12` (Tool/Instrument?). But it's not a `B8` phrase about `C5` (Heart).
+
+    What about "To strike a match"?
+    What about "A heart of stone"?
+
+    Let's look at `C5` again. Life/Heart/Love.
+    And `D4` is Conflict/Attack/Weapon.
+    And `B8` is Expression.
+    "To kill/attack the heart".
+    "A strike to the heart".
+    "A dagger to the heart".
+    "To break a heart".
+
+    Let's look at the red/yellow again.
+    `F4` (Earth) + `H12` (Low/Below)
+    `B12` (Tool) + `D4` (Weapon/Attack)
+    Could it be "A pickaxe"? No, `B8`.
+    "To dig a grave"? (Doesn't fit `B8` or `C5`).
+
+    What about "To strike a nerve"? (Nerve is not there).
+    "To hit the nail on the head"?
+    `B8` (Phrase)
+    `D4` (Hit)
+    `B12` (Tool)
+    `D4` (Attack/Weapon -> Nail is a tool, but is it a weapon?)
+    `C5` (Heart/Life... No).
+
+    Let's go with:
+    1. Love is a battlefield
+    2. A dagger to the heart
+    3. To break a heart
+
+    One more possibility: "To hit/strike/attack" (D4) "the ground" (F4) "low" (H12)? No.
+
+    Wait, `B12` (Tool) + `D4` (Weapon) = A sword/dagger.
+    `F4` (Earth) + `H12` (Low) = A sword/dagger in the ground/earth?
+    Is the answer "Excalibur"? (A name/title/expression).
+    `B8` (Title/Name/Expression)
+    `D4` (Weapon)
+    `B12` (Tool/Weapon)
+    `F4` (Earth) + `H12` (Low - in the earth)
+    `C5` (Heart/Love?? - maybe the connection to Arthur?).
+
+    "Sword in the stone"?
+    `B8` (Expression)
+    `D4` (Weapon/Sword)
+    `F4` (Earth/Ground)
+    `H12` (Low/Below)
+    `B12` (Tool/Sword)
+    `D4` (Weapon/Sword)
+    `C5` (Heart/Life/Love) -> This is the only one that doesn't fit perfectly. Is there a "heart" in "Sword in the stone"? Not really.
+
+    What about "A shot to the heart"?
+    "A wound to the heart"?
+
+    Let's try:
+    1. Love is a battlefield
+    2. A dagger to the heart
+    3. Sword in the stone

@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Lifeguard",
+    "Coast Guard",
+    "Navy medic"
+  ]
+,
+  "pass": false
+}

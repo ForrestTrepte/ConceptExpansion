@@ -1,0 +1,44 @@
+*   `?g` (Main Concept pawn) is not placed.
+    *   The notation says: `+g E2 [cube on the stars in the picture]` and `+ D4`.
+    *   Wait, the notation rules say:
+        *   `?g A4` -> Place Main Concept pawn on A4.
+        *   `+g G14` -> Cube on G14 in group g.
+        *   `+ [Icon]` -> Cube on [Icon] in the same group as the line before.
+    *   Current markers:
+        *   Line 1: `+g E2` (Cube on E2 in group g).
+        *   Line 2: `+ D4` (Cube on D4 in group g).
+    *   Actually, looking at the notation provided: `+g E2` is a cube in group g. Usually, a turn starts with `?g [Icon]` to establish the main concept, but here it seems the clue-giver is using cubes to describe the *Main Concept* itself (which is possible, though slightly unconventional as usually the pawn is placed first).
+    *   The summary says: `g (no pawn) | E2, D4`. This means the main concept is described by two cubes in group g.
+    *   Cube 1: `E2` (Night – Evening / Space / Moon – Star).
+    *   Cube 2: `D4` (Attack / Conflict – Combat / Weapon).
+
+    *   `E2`: Night, Space, Moon, Stars.
+    *   `D4`: Attack, Conflict, Combat, Weapon.
+
+    *   War in space?
+    *   Star Wars? (A very common title/phrase).
+    *   A battle in the night?
+    *   Space combat?
+    *   Astronaut fighting?
+
+    *   "Star Wars" is a huge cultural icon that fits "Star" (E2) and "War/Combat" (D4) perfectly.
+    *   "Space battle" is another possibility.
+    *   "Attack on Titan" (No, that's not space).
+    *   "Star Trek" (Usually exploration, not combat, though there is combat).
+
+    *   `E2` (Stars/Space) + `D4` (Attack/Combat/War).
+    *   "Star Wars" fits very well.
+
+    1. Star Wars
+    2. Space war
+    3. Star battle
+
+    *Wait, let me re-read the prompt to see if I missed anything.*
+    "Step 1, markers placed: +g E2 ... + D4 ... g (no pawn) | E2, D4"
+    Yes, the main concept (group g) is described by stars/space and combat/war.
+
+    "Star Wars" is the most likely answer for a party game like Concept.
+
+    *   Guess 1: Star Wars
+    *   Guess 2: Space battle
+    *   Guess 3: War in space

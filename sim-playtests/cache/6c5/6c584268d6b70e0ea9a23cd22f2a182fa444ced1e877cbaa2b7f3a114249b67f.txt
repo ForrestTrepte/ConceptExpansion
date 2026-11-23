@@ -1,0 +1,289 @@
+*   `?g B2`: Main Concept is a Character/Fictional/Imaginary.
+    *   `+ D2`: Sub-concept (group g) - Masculine/Male.
+    *   `+ A6`: Sub-concept (group g) - Cinema/Movie.
+    *   `!r D4`: Sub-concept (group r) - Attack/Conflict/Combat/Weapon.
+    *   `+ Black`: Sub-concept (group r) - Black color.
+    *   `!y E11`: Sub-concept (group y) - Zero/None/Absence.
+    *   `+ E11`: Sub-concept (group y) - Zero/None/Absence (redundant/emphasis).
+    *   `!b C14`: Sub-concept (group b) - Eye/Sight.
+    *   `+ Clear`: Sub-concept (group b) - Transparent/Invisible/Glass.
+
+    *   Character/Fictional/Imaginary
+    *   Male
+    *   Cinema/Movie
+    *   Related to Attack/Conflict/Weapon + Black
+    *   Related to Zero/None/Absence
+    *   Related to Eye/Sight + Clear (Transparent/Invisible)
+
+    *   *Theme 1: Invisible/Transparent + Eyes + Black + Movie + Male.*
+    *   *Theme 2: Zero + Eye + Movie + Male.*
+
+    *   *Candidate 1: Invisible Man.*
+        *   Male? Yes.
+        *   Cinema? Yes (classic).
+        *   Attack/Black? Maybe not inherently black, but often associated with noir or shadows.
+        *   Zero/None? Yes (absence of body).
+        *   Eye/Sight + Clear? Yes, he's invisible (transparent).
+        *   Wait, "Black" was attached to `!r D4` (Attack/Conflict/Weapon). So "Black Weapon" or "Black Attack"? Or a character who uses black weapons/combat?
+
+    *   *Candidate 2: James Bond?* (No, doesn't fit Zero/None/Invisible).
+
+    *   *Candidate 3: Thanos?* (No).
+
+    *   *Candidate 4: A character associated with "Zero" and "Eyes" and "Black".*
+
+    *   *Let's look at "E11" (Zero) and "C14/Clear" (Eye/Sight/Transparent).*
+    *   *Maybe "Zero" refers to a name?*
+    *   *Or "Zero vision"?*
+    *   *Or "Nothing to see here"?*
+
+    *   *Wait, look at the markers again:*
+    *   `?g B2` (Character) + `D2` (Male) + `A6` (Movie)
+    *   `!r D4` (Attack/Weapon) + `Black`
+    *   `!y E11` (Zero/None)
+    *   `!b C14` (Eye/Sight) + `Clear` (Transparent/Invisible)
+
+    *   Could it be **The Invisible Man**?
+        *   Male character in movies.
+        *   Attack/Weapon + Black: Maybe he uses shadows or dark weapons?
+        *   Zero: He is "nothing".
+        *   Eye/Sight + Clear: He can't be seen (transparent).
+        *   *Critique:* "Black" was with "Attack". A "Black Attack" or "Black Weapon"? Or maybe a character like **Black Widow** (but she's female)? No, `D2` is male.
+
+    *   Could it be **Agent Zero**? (Doesn't fit "Eye/Sight + Clear").
+
+    *   What about **Predator**? (Invisible, but not "Zero").
+
+    *   What about **Star Wars** characters?
+        *   Darth Vader was guessed and was "No".
+        *   Is there a character called "Zero"?
+        *   What about a character who has "nothing" to do with eyes? Or "blind"?
+        *   "Eye/Sight + Clear" -> "Invisible sight"? Or "Seeing through things"? Or "Clear eyes"?
+
+    *   Let's re-evaluate `!y E11` (Zero/None/Absence).
+    *   And `!b C14` (Eye) + `Clear` (Transparent).
+    *   "Invisible eye"? "Blindness"?
+
+    *   Wait, `!r D4` (Attack/Conflict) + `Black`.
+    *   Maybe a character with a **Black Sword**? Or **Black Blade**?
+    *   **Zoro** from One Piece? (He's not a movie character primarily, and the name is pronounced differently, though `E11` is "Zero").
+    *   Let's check: Zoro (One Piece) -> Male, Cinema/Anime, Attack/Weapon/Black (Black blade?), Zero (name), Eye (he has a scar over one eye?). Doesn't fit "Clear/Transparent" well.
+
+    *   Let's look at the "Zero" and "Transparent Eye" combo again.
+    *   **Invisible Man** is the strongest for "Transparent" + "Male" + "Movie" + "None".
+    *   Does he use a "Black Weapon"? Not typically.
+
+    *   What about **Doctor Strange**? (No).
+    *   What about **Harry Potter**? (No).
+
+    *   Wait, `!y E11` (Zero) + `!b C14` (Eye) + `Clear` (Transparent).
+    *   **Nothingness** + **Vision**?
+    *   **Zero Vision**?
+    *   **Blindness**?
+
+    *   Let's reconsider the "Black" part.
+    *   `!r D4` (Attack/Combat) + `Black`.
+    *   **Black Ninja**? **Black Swordsman**?
+    *   **Guts** from Berserk? (Male, Combat, Black Swordsman, Cinema/Anime, but "Zero" and "Transparent Eye"?)
+
+    *   Let's try another angle.
+    *   `?g B2` (Character)
+    *   `D2` (Male)
+    *   `A6` (Movie)
+    *   `!r D4` (Attack/Weapon) + `Black`
+    *   `!y E11` (Zero)
+    *   `!b C14` (Eye/Sight) + `Clear` (Transparent/Invisible)
+
+    *   Could it be **The Invisible Man**?
+        If the person is thinking:
+        Character: Yes
+        Male: Yes
+        Movie: Yes
+        Attack/Combat: He's a villain/attacker.
+        Black: Maybe they are thinking of "Black" as in dark/shadowy? Or maybe I'm misinterpreting `Black`.
+        Zero: He is "nothing" (absence).
+        Eye/Sight + Clear: He is invisible/transparent.
+
+    *   Is there a character named **Zero**?
+        *   Zero (Mega Man)? (Not primarily movie).
+        *   Zero (Final Fantasy)?
+        *   Zero (from a movie)?
+
+    *   What if the "Zero" refers to **007**?
+        *   James Bond.
+        *   Male: Yes.
+        *   Movie: Yes.
+        *   Attack/Weapon/Black: He uses weapons, and maybe "Black" refers to "Black Tie" (formal)? Or "Black ops"?
+        *   Zero: 007 has two zeros.
+        *   Eye/Sight + Clear: ? This doesn't fit.
+
+    *   What about **The Terminator**?
+        *   Male: Yes.
+        *   Movie: Yes.
+        *   Attack/Weapon: Yes.
+        *   Black: ?
+        *   Zero: ?
+        *   Eye/Sight + Clear: His eyes glow? Or he's a machine?
+
+    *   Let's look at the "Eye" + "Clear" + "Zero" again.
+    *   **Empty eyes**?
+    *   **Void**?
+    *   **A character with no eyes**?
+    *   **A character with transparent eyes**?
+
+    *   Could it be **Sauron**? (He's an eye, but not "transparent").
+    *   Could it be **The Eye** (from a movie)?
+
+    *   Let's rethink `!r D4` (Attack/Combat) + `Black`.
+    *   Could it be **Black Widow**? (No, `D2` is Male).
+    *   **Black Panther**? (Already guessed, "No").
+    *   **Black Knight**?
+
+    *   Wait! `!y E11` (Zero) + `!b C14` (Eye) + `Clear` (Transparent).
+    *   What if the answer is **Invisible Man**?
+        *   `E11` (Zero/None/Absence) -> He is absent/not there.
+        *   `C14` (Eye) + `Clear` (Transparent) -> You can see through him / his eyes are invisible.
+
+    *   Let's try a different "Zero" connection.
+    *   **Zero** (the character) in *The Nightmare Before Christmas*? (Not male in the standard sense, not primarily a combat movie character).
+
+    *   How about **Ghost**?
+        *   Male character? (Usually).
+        *   Movie? Yes.
+        *   Attack/Combat: Yes.
+        *   Black: Ghostly/Shadowy?
+        *   Zero: Absence.
+        *   Eye/Sight + Clear: Transparent/Invisible.
+
+    *   What about **A character who is a "Black Hole"**?
+        *   Zero (nothingness).
+        *   Black.
+        *   Sight/Eye (it's a thing you see).
+        *   Attack (destroys things).
+        *   But is it a "Character"?
+
+    *   Let's look at the "Attack" + "Black" + "Male" + "Movie".
+    *   **Neo** from The Matrix?
+        *   Male: Yes.
+        *   Movie: Yes.
+        *   Attack/Weapon: Yes.
+        *   Black: Wears black.
+        *   Zero: ?
+        *   Eye/Sight: The "glitch in the matrix", seeing the code (transparent/digital)?
+
+    *   Wait, **The Invisible Man** fits "Zero" (Absence) and "Clear Eye" (Transparent sight) very well.
+    *   What about the "Black" and "Attack"?
+    *   Maybe the clue `!r D4 + Black` refers to a **Black Mask**? Or **Black Suit**?
+    *   Or a character like **The Shadow**?
+        *   Male: Yes.
+        *   Movie: Yes.
+        *   Attack/Weapon: Yes.
+        *   Black: Yes (wears black).
+        *   Zero: He is a "shadow" (absence of light).
+        *   Eye/Sight + Clear: He is hard to see? Or his eyes are hidden?
+
+    *   Let's think about **Zero** and **Eyes**.
+    *   **Zero vision**?
+    *   **Blindness**?
+    *   **Cyclops**? (Male, Movie/X-Men, Attack/Weapon [beams], but "Zero" and "Transparent Eyes"?)
+
+    *   Let's go back to **Invisible Man**.
+    *   If I guess "The Invisible Man", it covers:
+        - B2 (Character)
+        - D2 (Male)
+        - A6 (Movie)
+        - E11 (Zero/Absence)
+        - C14 (Eye) + Clear (Transparent)
+    *   The only slight mismatch is `!r D4 + Black`. Unless they mean "Black" as in "Darkness" or "Black clothing" (often used in modern adaptations) or "Black" is part of a "Black Attack" (not a thing).
+    *   *Wait!* Could `!r D4 + Black` be **Blackout**? (A character or event?) No, `B2` is Character.
+
+    *   What about **Batman**? (Already guessed "No").
+    *   **Spider-Man**? (Not really "Zero" or "Black/Attack").
+
+    *   Let's try to find a character with "Zero" in the name.
+    *   **Zero** from *Mega Man*? (Not movie).
+    *   **Agent Zero**?
+
+    *   Wait! **Zero** (the character) in *The Matrix*? No.
+    *   What about **The Man in the Black Mask**? No.
+
+    *   Let's look at the "Eye" + "Clear" + "Zero" again.
+    *   Is it **The Void**? (Not a character).
+    *   Is it **A character with a glass eye?**
+        *   `C14` (Eye) + `Clear` (Glass/Transparent).
+        *   Male: Yes.
+        *   Movie: Yes.
+        *   Attack/Weapon: ?
+        *   Zero: ?
+
+    *   Let's look at the markers one more time.
+    *   `?g B2` (Character) + `D2` (Male) + `A6` (Movie)
+    *   `!r D4` (Attack/Combat) + `Black`
+    *   `!y E11` (Zero/None/Absence)
+    *   `!b C14` (Eye/Sight) + `Clear` (Transparent/Invisible)
+
+    *   Could it be **The Invisible Man**?
+    *   Could it be **A character that is invisible?** (Like a ghost or a ninja).
+    *   **Black Ninja**?
+        *   Male: Yes.
+        *   Movie: Yes.
+        *   Attack/Weapon: Yes.
+        *   Black: Yes.
+        *   Zero/Absence: They are "unseen".
+        *   Eye/Sight + Clear: They are invisible.
+
+    *   What about **Zero** as in "The number zero"?
+    *   **007**? (Already dismissed).
+
+    *   Let's try to combine "Black", "Weapon", "Zero", and "Eye".
+    *   **Black Hole**? (Not a character).
+    *   **The Black Knight**?
+
+    *   Wait, what if the "Zero" refers to the movie **"Zero Dark Thirty"**?
+        *   No, `B2` is a character.
+
+    *   What about **A character from a movie called "Zero"?**
+
+    *   Let's think about "Clear Eye" + "Zero".
+    *   **Clear vision**?
+    *   **Zero vision**?
+    *   **Nothing to see**?
+
+    *   Let's try to think of a male movie character who is associated with "Black", "Combat/Weapon", "Zero/Nothing", and "Invisible/Transparent eyes".
+
+    *   Could it be **The Invisible Man**? It's the most cohesive for the "Zero", "Transparent", "Eye/Sight", "Male", "Movie" part.
+    *   Why "Black Attack/Weapon"?
+        *   Maybe they are using a black weapon?
+        *   Or maybe the "Black" marker was meant for something else? No, the notation says `!r D4 + Black`.
+
+    *   Is there a character called **Black Zero**?
+    *   Is there a character called **Zero Black**?
+
+    *   Wait... **Zero** (the character) from **Mega Man**... no.
+    *   What about **Shadow** from Sonic? (Male, Movie/Games, Black, Attack/Weapon, "Zero/Absence" as a shadow, "Eye/Sight"?)
+
+    *   Let's try: **The Invisible Man**.
+    *   Let's try: **A ghost**.
+    *   Let's try: **A character with a black eye**. (But "Clear" eye?)
+
+    *   Wait! **"Clear"** is a color swatch. It means **Transparent/Invisible/Glass**.
+    *   **"Black"** is a color swatch.
+    *   `!r D4 + Black` = A black weapon/attack.
+    *   `!b C14 + Clear` = A transparent eye/sight.
+    *   `!y E11` = Zero/None.
+
+    *   Could the character be **The Invisible Man**? (The eyes are invisible).
+    *   Could the character be **A character who uses a black sword and has no eyes?**
+    *   **Zoro** (One Piece) has a black sword (Sandai Kitetsu/Shusui/etc). He has a "Zero" in his name. He is a "Character". He's in "Movies/Anime". He's "Male". He "Attacks/Weapon". He has a scarred eye. But "Clear/Transparent" eye? Not really.
+
+    *   Let's think about **"Zero"** and **"Black"**.
+    *   **"Zero Dark Thirty"**?
+    *   **"Black Zero"**?
+
+    *   What about **The Terminator**?
+        *   Male: Yes.
+        *   Movie: Yes.
+        *   Attack: Yes.
+        *   Black: Often wears black.
+        *   Zero: ?
+        *   Eye: Red glowing eyes

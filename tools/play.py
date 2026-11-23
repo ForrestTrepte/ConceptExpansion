@@ -112,13 +112,13 @@ def human_guesser(game: Game, meanings: dict[str, str], read: Input) -> simplay.
                 print(game.turns[-1].board)
                 continue
             if text.lower() == "pass":
-                return {"guesses": [], "pass": True}
+                return {"guesses": []}
             guesses = [g.strip() for g in text.split(",") if g.strip()]
             most = request["jsonSchema"]["properties"]["guesses"]["maxItems"]
             if len(guesses) > most:
                 print(f"At most {most} guesses at a time.")
             elif guesses:
-                return {"guesses": guesses, "pass": False}
+                return {"guesses": guesses}
 
     return ask
 

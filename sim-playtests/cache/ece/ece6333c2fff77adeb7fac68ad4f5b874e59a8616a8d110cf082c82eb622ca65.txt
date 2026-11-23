@@ -1,0 +1,32 @@
+*   `?g A12`: The Main Concept is A12 (Ground transportation / Road).
+    *   `+ A14`: A cube is placed on A14 (Food / Eating / Edible) in the same group as A12.
+
+    *   The main thing is something related to ground transportation/roads.
+    *   It also has a connection to food/eating.
+
+    *   Food truck?
+    *   Drive-thru?
+    *   Car (with a food connection? maybe a snack in a car?)
+    *   Roadside diner?
+    *   Ice cream truck?
+    *   Delivery truck?
+    *   A sandwich on a road?
+    *   A meal in a car?
+
+    *   "Food truck" is a very strong candidate for "Ground transportation" + "Food".
+    *   "Drive-thru" is more of a service/place, but it fits.
+    *   "Ice cream truck" is specific.
+
+    1. Food truck
+    2. Drive-thru
+    3. Ice cream truck
+
+    Wait, let's look at the markers again.
+    `?g A12` (Main Concept: Ground transportation)
+    `+ A14` (Sub-Concept detail: Food)
+
+    Is it "Food truck"?
+    Is it "Roadside restaurant"?
+    Is it "Takeaway"? (Maybe not A12)
+
+    Let's try "Food truck" first.

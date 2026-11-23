@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Break the ice",
+    "Cold feet",
+    "Rain check"
+  ]
+,
+"pass": false
+}

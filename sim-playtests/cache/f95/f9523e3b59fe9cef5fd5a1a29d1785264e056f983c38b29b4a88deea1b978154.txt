@@ -1,0 +1,216 @@
+*   `?g B2`: Main Concept is Character/Fictional/Imaginary.
+    *   `+ D2`: Details for B2 include Male.
+    *   `+ A6`: Details for B2 include Cinema/Movie.
+    *   `!r D4`: Sub-concept (red group) is Attack/Conflict/Weapon.
+    *   `+ Black`: Sub-concept detail is the color Black.
+    *   *Initial Guesses (Batman, Darth Vader, Black Panther) were "No".*
+
+    *   `!y E11`: Sub-concept (yellow group) is Zero/None/Absence.
+    *   `+ E11`: Two cubes/more Zero/None/Absence.
+    *   `!b C14`: Sub-concept (blue group) is Eye/Sight.
+    *   `+ Clear`: Sub-concept detail is Clear (Transparent/Invisible).
+
+    *   *Character/Male/Movie/Weapon/Black.*
+    *   *Absence/None/Zero (x2).*
+    *   *Eye/Sight/Clear (Transparent/Invisible).*
+
+    *   *Link 1: Eye/Sight + Clear/Invisible.*
+        *   Invisible man?
+        *   Cyclops (no, eyes aren't clear)?
+        *   A character with no eyes?
+        *   A character who sees through things?
+    *   *Link 2: Zero/None/Absence (x2) + Eye/Sight/Clear.*
+        *   "Zero sight"? "No eyes"?
+        *   Could "Zero" mean "None"? "None/No sight"?
+        *   "No eyes"?
+    *   *Link 3: Character/Male/Movie/Weapon/Black/Zero sight.*
+        *   Daredevil? (He is male, movie character, has a weapon [billy clubs], is associated with blindness/no sight, though his eyes aren't "clear/invisible", he is "blind").
+        *   Wait, let's look at "Clear" again. "Clear" = Transparent/Invisible/Glass.
+        *   "Eye/Sight" + "Clear" = An eye that is clear? Or sight that is invisible?
+        *   Let's re-examine `!y E11 | E11`. "Zero/None" x2. "No eyes"? "None eyes"?
+        *   "Black" + "Weapon" + "Male" + "Movie".
+        *   Could it be *The Invisible Man*? (He is a character, male, movie, uses weapons/conflict, is black (maybe clothing?), and is invisible (Clear/Eye/Sight/None)). But "Black" was a red sub-concept (related to the weapon/conflict/character).
+        *   What about *Mad Eye Moody*? (Eye is part of him).
+        *   What about *Nick Fury*? (One eye, but not clear).
+        *   Let's look at the "Black" + "Weapon" + "Male" + "Movie" + "Zero Eyes" + "Clear Eye".
+        *   Wait, "Black" is a sub-concept `!r`. `!r D4 + Black`. This means the red concept (Weapon/Attack) is Black. A black weapon? Or the character is associated with a black weapon? Or the *concept* of the attack/weapon is black?
+        *   Let's reconsider the "Zero/None" (x2) and "Eye/Sight" (Clear).
+        *   "No eyes"? "Blind"?
+        *   "Black" + "No eyes" + "Male" + "Movie".
+        *   *Daredevil*. He's a male movie character. He uses weapons (billy clubs). He is blind (Zero/None sight). But is there a "Black" connection? His suit is red, but maybe the clue refers to something else?
+        *   Wait, `!r D4 + Black`. The red sub-concept is Weapon/Attack. The detail is Black. Black weapon? A black sword?
+        *   Let's look at "Clear" and "Eye/Sight" again. "Clear" can mean "Transparent/Invisible/Glass".
+        *   A character with a glass eye?
+        *   *Mad-Eye Moody*? (He has a magical eye). Is he "Black"? Not really.
+        *   What about *Sauron*? (One eye, but it's a flaming eye).
+        *   What about *Thanos*? (No).
+        *   Let's look at "Zero/None/Absence" (x2) again. "No eyes" (plural).
+        *   *The Invisible Man*? He is a male character, movie, uses weapons, is "Black" (maybe dark/shadowy?), and is "Invisible" (Clear) and has "No sight" (Zero)? This is a stretch.
+
+    *   *Let's re-read `!y E11 + E11`.* It's the yellow group. The icon E11 is "Zero/None/Absence". Putting a second cube means "more" or "count". "Zero/None/None"? "No eyes"?
+    *   `!b C14 + Clear`. Blue group. Eye/Sight/Seeing. Detail: Clear (Transparent/Invisible/Glass).
+    *   "Invisible Eye"? "Glass Eye"?
+    *   "No eyes"?
+    *   What male movie character has a "Black" weapon and "No eyes" or a "Glass eye"?
+    *   *Daredevil*'s eyes are often depicted as being "blind" or "non-functional".
+    *   Let's try to find a character associated with "Black" and "No Eyes".
+    *   *The Shadow*? (Male, movie/pulp, uses weapons, is shadowy/black, and he's more about being unseen/invisible?).
+    *   Wait, "Black" could be the color of the character. *Black Panther* was already guessed and was "No".
+    *   *Batman* was "No".
+    *   *Darth Vader* was "No".
+    *   *Black Widow* is female (and B2/D2 say Male).
+
+    *   *Could it be "Black" + "Weapon" = Black Sword?*
+    *   *Could it be "Zero" + "Eye" = Blindness?*
+    *   *Male + Movie + Blind + Black weapon.*
+    *   *Daredevil* is the strongest fit for "Blind" + "Male" + "Movie" + "Weapon".
+    *   Is Daredevil associated with "Black"? His suit is red. But maybe the *weapon* is black? Or maybe I'm misinterpreting "Black".
+    *   What about *Kratos*? (No).
+    *   What about *John Wick*? (No).
+
+    *   Let's look at "Clear" + "Eye" again. A "Glass Eye".
+    *   Who is a male movie character with a glass eye?
+    *   *Mad-Eye Moody* (Harry Potter).
+    *   Is he "Black"? Not really.
+    *   Is his weapon "Black"? He has a wand.
+    *   What about a character who is "Black" and has "No eyes"?
+    *   *The Invisible Man*. (Male, Movie, "Black" (shadowy?), "Invisible" (Clear), "No sight" (None)).
+
+    *   Wait, let's look at the `!r D4 + Black`. The red group is "Attack/Conflict/Weapon". The detail is "Black".
+    *   If the answer is *Daredevil*, the red group (Weapon) has the color Black. Are his billy clubs black? Usually, they are red.
+    *   What if "Black" refers to the character? (Wait, the rules say: "A color is part of a clue only when a cube is on a color swatch." and "The clue-giver doesn't say which meaning they intend, so the guesser has to work it out from the other markers." The red group is `!r D4`. The detail `+ Black` is in that group. So the "Attack/Weapon" is "Black").
+    *   A black weapon. A black sword? A black gun?
+    *   A male movie character with a black weapon and no eyes (blind).
+    *   *Daredevil*?
+    *   *Mad-Eye Moody*? (Glass eye = Clear/Eye).
+
+    *   Let's try *Daredevil*.
+    *   Let's try *The Invisible Man*.
+    *   Let's try *Mad-Eye Moody*.
+
+    *   Wait, `!y E11 + E11`. E11 is "Zero/None/Absence". `+ E11` means "more". "No... no...". "No sight"?
+    *   `!b C14 + Clear`. "Sight" is "Clear/Transparent/Invisible".
+    *   "Invisible sight"? "Blindness"?
+    *   "Black weapon".
+    *   *Daredevil* is the most iconic "blind" hero.
+    *   Is there another? *Nick Fury*? (One eye).
+    *   What about *Sauron*? (Male? Yes. Movie? Yes. Weapon? Yes (mace/sword). Eye? Yes. Black? Yes). But he is "One" eye, not "Zero/None".
+
+    *   What about a character with *no* eyes?
+    *   A character who is *invisible*? *The Invisible Man*.
+    *   Is he "Black"? Maybe his clothes/shadow?
+    *   Is his weapon "Black"?
+
+    *   Let's rethink "Black" + "Weapon" + "Male" + "Movie".
+    *   *Black Panther* (No).
+    *   *Darth Vader* (No).
+    *   *Batman* (No).
+    *   *Black Widow* (No, female).
+    *   *Black Knight*?
+    *   *The Black Panther* was already guessed.
+
+    *   Wait! "Black" + "Weapon" + "Male" + "Movie" + "Blind".
+    *   Is there a character called *Black...*?
+    *   What if the "Black" is not the color of the weapon, but the color of the character?
+    *   If the red sub-concept is "Weapon/Conflict", and the color is Black... it could be "Black combat" or "Black war"? No.
+    *   "Black" + "Weapon". A Black Sword? *Black Knight*?
+    *   Does *Black Knight* have no eyes? No.
+
+    *   Let's go back to *Daredevil*. He is a male, fictional, movie character. He uses weapons. He is blind (Zero sight).
+    *   What about "Clear" + "Eye"? A "Glass eye".
+    *   Who has a glass eye and is associated with "Black"?
+    *   Actually, `!b C14 + Clear` is a blue sub-concept. Blue is "Eye/Sight". Detail is "Clear".
+    *   If the answer is *Mad-Eye Moody*:
+        *   Character: Yes.
+        *   Male: Yes.
+        *   Movie: Yes.
+        *   Weapon/Conflict: Yes (Wand/Combat).
+        *   Black: ?
+        *   Zero/None: ?
+        *   Eye/Sight/Clear: Yes (Glass eye).
+
+    *   Wait! What if the "Black" is `!r D4` (Attack/Conflict) and `+ Black`. A "Blackout"?
+    *   A character associated with a "Blackout"?
+    *   "Blackout" + "Blindness" (Zero/None sight).
+    *   *Daredevil*?
+
+    *   Let's try another path. `!y E11 + E11` (Zero/None/Absence x2) and `!b C14 + Clear` (Eye/Sight + Transparent/Invisible).
+    *   "No eyes" + "Invisible eyes".
+    *   "No eyes" + "Clear eyes".
+    *   "No sight" + "Invisible sight".
+    *   Could it be *The Invisible Man*?
+    *   If the answer is *The Invisible Man*:
+        *   Character: Yes.
+        *   Male: Yes.
+        *   Movie: Yes.
+        *   Weapon: Yes (he's a killer).
+        *   Black: (His clothes?)
+        *   Zero/None (sight/eyes): Yes.
+        *   Clear/Invisible (eye/sight): Yes.
+
+    *   Let's try *Daredevil* and *The Invisible Man*.
+    *   What about *Sauron*? (One eye, not zero).
+    *   What about *Cyclops*? (No).
+
+    *   Wait, one more thought: `!r D4 + Black`. `D4` is "Attack/Conflict/Weapon". `Black` is the color.
+    *   "Black combat"? "Black weapon"?
+    *   Is there a character called *Black...*?
+    *   *Black Widow*? (Female).
+    *   *Black Panther*? (Guessed).
+    *   *Black Knight*?
+    *   *Black Mamba*?
+
+    *   Let's look at `!y E11 + E11` again. E11 is "Zero/None/Absence".
+    *   "Zero" + "Zero" = "None"? Or "Double zero"?
+    *   "None" + "None".
+    *   Could it be *Agent 007* (James Bond)?
+    *   `?g B2` (Character), `D2` (Male), `A6` (Movie).
+    *   `!r D4` (Weapon/Conflict) + `Black` (Black weapon/Black suit/Black ops?).
+    *   `!y E11` (Zero) + `E11` (Zero) = 00.
+    *   `!b C14` (Eye/Sight) + `Clear` (Clear/Glass?). Does Bond have a glass eye? No.
+
+    *   Wait, 007.
+    *   "Zero" (E11) + "Zero" (E11) = 00.
+    *   "Seven" (F11)? Not there.
+    *   But the "Eye/Sight" + "Clear" part doesn't fit Bond.
+
+    *   Let's look at `!y E11 + E11` (Zero/None) and `!b C14 + Clear` (Eye/Sight/Transparent).
+    *   "No eyes" + "Invisible eyes".
+    *   *The Invisible Man*.
+    *   *Daredevil*.
+    *   Let's try *Daredevil* and *The Invisible Man*. And maybe *Mad-Eye Moody*.
+
+    *   Wait, "Black" + "Weapon". *Black Blade*? *Black Sword*?
+    *   What about *Thanos*? (He has a black glove/weapon? No, it's gold).
+    *   What about *Luke Skywalker*? (No).
+
+    *   Let's think about "Black" and "Weapon" and "Zero" and "Eye".
+    *   Could it be *The Blind Swordsman*?
+    *   `?g B2` (Character), `D2` (Male), `A6` (Movie), `D4` (Weapon) + `Black` (Black weapon?), `E11` (Zero/None sight), `C14` (Eye/Sight) + `Clear` (Invisible/Transparent).
+    *   *Zatoichi*? (The blind swordsman).
+    *   Is he "Black"?
+
+    *   What about *Daredevil*? (Most likely).
+    *   What about *The Invisible Man*? (Very possible).
+
+    *   One more look at `!r D4 + Black`. If `D4` is "Attack/Conflict" and the color is "Black", maybe "Black" is the *kind* of attack? A "Black attack"? No.
+    *   Wait, `!r` is a sub-concept. `D4` is the icon. `Black` is a cube on the icon.
+    *   So the "Attack/Conflict/Weapon" is "Black".
+    *   A black weapon.
+    *   A character who is male, in movies, uses a black weapon, and is blind (no sight/clear eyes).
+    *   *Daredevil*'s billy clubs are often red.
+    *   Who has a black weapon?
+    *   *Black Panther* has vibranium claws (black/purple). But he's not blind.
+
+    *   Let's try *Daredevil*, *The Invisible Man*, and *Mad-Eye Moody*.
+
+    *   *Self-Correction:* Is there a character known as "Zero"?
+    *   What about *007*? I already checked, the eye part doesn't fit.
+    *   Wait, "Clear" + "Eye". "Clear sight"?
+    *   If someone has "Zero sight" and "Clear sight"? That's a contradiction.
+    *   UNLESS... it means "No eyes" (Zero eyes) and "Transparent/Invisible" (Clear).
+    *   *The Invisible Man* fits "Invisible" and "No eyes" (because you can't see them).
+
+    *   Let's try *The Invisible Man*.
+    *   And *Daredevil*.
+    *   

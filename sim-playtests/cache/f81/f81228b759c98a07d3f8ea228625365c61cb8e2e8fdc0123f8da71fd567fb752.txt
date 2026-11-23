@@ -1,0 +1,224 @@
+*   Main Concept (?g): B10 (Celebration/Anniversary/Holiday)
+        *   Cubes: A10 (Date/Event/Day), C1 (Baby/Child/Young/New)
+        *   *Interpretation:* A celebration related to a date/event involving a baby/child/new thing.
+    *   Red Sub-Concept (!r): A8 (Idea/Intelligence/Concept)
+        *   Cubes: H13 (Right/End/After/Future), B8 (Expression/Quote/Talking/Words)
+        *   *Interpretation:* An idea/concept involving words/expressions about the future/end/after. (Wait, A8 + B8 is "Words/Expression about an idea". H13 is "After/Future").
+    *   Yellow Sub-Concept (!y): H14 (Use/Action/Verb/Button)
+        *   Cubes: H13 (Right/End/After/Future), B8 (Expression/Quote/Talking/Words), G14 (Turn/Around/Cycle/Repetition)
+        *   *Interpretation:* An action involving words/expressions, repetition, and the future/end.
+    *   Blue Sub-Concept (!b): D8 (Time/Duration)
+        *   Cubes: G14 (Turn/Around/Cycle/Repetition), F11 (One/Unit/Number), C1 (Baby/Child/Young/New)
+        *   *Interpretation:* Time/duration involving cycles/repetition, the number one, and baby/new/child.
+
+    *   Step 1: ?g B10 (Celebration) + A10 (Date) + C1 (Baby/New) -> "Birthday" was YES.
+    *   Step 2: !y (Action/Verb) + H14 (Button/Action) + H13 (End/After) + B8 (Words) + G14 (Cycle) -> No to Anniversary, Graduation, Wedding. (So it's not a *type* of celebration like those).
+    *   Step 3: !b (Time/Duration) + D8 (Time) + G14 (Cycle) + F11 (One/Unit) + C1 (Baby/New) -> No to First Birthday, Happy Birthday, Birthday Song.
+
+    *   The answer is a "Birthday" related thing.
+    *   It is NOT: Anniversary, Graduation, Wedding (Step 2), First Birthday, Happy Birthday, Birthday Song (Step 3).
+    *   The clues:
+        *   !r (Idea/Concept) + B8 (Words/Expression) + H13 (End/Future).
+        *   !y (Action/Verb) + B8 (Words/Expression) + H13 (End/Future) + G14 (Cycle/Repetition).
+        *   !b (Time) + G14 (Cycle) + F11 (One/Unit) + C1 (New/Child).
+
+    *   Let's look at !b again: Time (D8) + Cycle (G14) + One (F11) + New/Child (C1).
+        *   A "one year" cycle for a "new" thing/child. This strongly suggests the concept of an "Anniversary" or "Birthday" concept, but we already know it's "Birthday" related.
+        *   Wait, F11 (One) + G14 (Cycle) + D8 (Time) -> "Year"? Or "Annual"?
+    *   Let's look at !r and !y:
+        *   B8 (Words) + H13 (End/Future/After) + G14 (Cycle).
+        *   "Words" used in a "Cycle" "After/End".
+        *   "Happy Birthday" was rejected. "Birthday Song" was rejected.
+        *   "First Birthday" was rejected.
+    *   What about "Birthday Card"? (A1, B8, etc. - no).
+    *   What about "Birthday Cake"? (A14, B4, etc. - no).
+    *   What about "Birthday Wish"?
+        *   !r (Idea/Concept) + B8 (Words/Expression) + H13 (End/Future/After). A wish is an expression/idea about the future.
+        *   !y (Action/Verb) + B8 (Words/Expression) + H13 (End/Future) + G14 (Cycle). To wish? To say words for the future in a cycle?
+        *   !b (Time) + G14 (Cycle) + F11 (One) + C1 (New). A wish occurs on the cycle (birthday).
+
+    *   Let's re-examine the "Words" clues:
+        *   !r A8 (Idea) + B8 (Words) + H13 (Future/After). -> A "Wish"? (An idea expressed in words about what happens next/future).
+        *   !y H14 (Action) + B8 (Words) + H13 (Future) + G14 (Cycle/Repeat). -> "To wish"? Or "Make a wish"?
+
+    *   Wait, let's look at the "Time" clue again:
+        *   !b D8 (Time) + G14 (Cycle) + F11 (One) + C1 (New/Baby).
+        *   "One year cycle" = A year.
+        *   "Birthday" is the main concept.
+        *   Maybe the answer is "Age"? No, B10 is Celebration.
+
+    *   Is it "Birthday Party"?
+        *   B1 (Human/Group) + A10 (Date) + B10 (Celebration).
+        *   Clues don't suggest a group.
+
+    *   Is it "Birthday Greeting"?
+        *   !r A8 (Idea) + B8 (Words) + H13 (After/Future).
+        *   !y H14 (Action) + B8 (Words) + G14 (Cycle).
+        *   A "Greeting" is words spoken/written.
+
+    *   Is it "Birthday Present" / "Birthday Gift"?
+        *   B10 (Celebration) + A10 (Date) + C1 (New/Baby).
+        *   !r (Idea) + B8 (Words)? No.
+
+    *   Is it "Birthday Candle"?
+        *   B10 (Celebration).
+        *   !b (Time/Duration) + G14 (Cycle) + F11 (One) + C1 (Baby/New)? No.
+
+    *   Let's rethink:
+        *   Main Concept: Birthday (Celebration, Date, New/Baby).
+        *   Red: Idea + Words + Future.
+        *   Yellow: Action + Words + Future + Cycle.
+        *   Blue: Time + Cycle + One + New/Baby.
+
+    *   What if the answer is "Blow out the candles"? No, that's a phrase.
+    *   "Make a wish"?
+        *   !r (Idea/Concept) + B8 (Words) + H13 (Future).
+        *   !y (Action) + B8 (Words) + H13 (Future) + G14 (Cycle).
+        *   !b (Time) + G14 (Cycle) + F11 (One) + C1 (New).
+        *   This fits "Make a wish" (Action: H14, Words: B8, Future: H13, Cycle: G14). The time part (one year cycle) fits the context of the birthday.
+
+    *   Wait, is "Birthday Wish" more likely than "Make a wish"?
+    *   "Birthday Greeting"?
+    *   Let's check "Birthday Cake" again.
+        *   !b (Time) + G14 (Cycle) + F11 (One) + C1 (New/Baby).
+        *   Doesn't really fit.
+
+    *   Let's look at the "Time" clue again very carefully.
+        *   !b D8 (Time) + G14 (Cycle) + F11 (One) + C1 (New/Baby).
+        *   Could this be "New Year"? No, that was rejected in Step 1.
+        *   Could it be "Age"? No, B10 is the concept.
+        *   Could it be "Anniversary"? No, rejected in Step 2.
+
+    *   Wait! Step 1: ?g B10 (Celebration) + A10 (Date) + C1 (New).
+        *   Answer is "Birthday".
+    *   Step 2: !y (Action) + H14 (Action) + H13 (Future) + B8 (Words) + G14 (Cycle).
+    *   Step 3: !b (Time) + D8 (Time) + G14 (Cycle) + F11 (One) + C1 (New).
+
+    *   Let's re-evaluate "Birthday Song" being rejected. If "Birthday Song" (words) is rejected, then maybe it's not about the words themselves, but the *act* of saying them or something else.
+    *   What about "Birthday Card"?
+    *   What about "Blow out the candles"?
+    *   What about "A wish"?
+
+    *   Let's look at the Blue clue: Time (D8), Cycle (G14), One (F11), New/Baby (C1).
+        *   One cycle (Year) of a New thing (Baby/Person)? This defines a "Birthday".
+        *   But the Main Concept is already "Birthday".
+        *   So the sub-concepts are describing a *part* of the birthday or a *related* thing.
+
+    *   Let's look at the Yellow clue: Action (H14) + Words (B8) + Future (H13) + Cycle (G14).
+        *   "Make a wish" is an action involving words and a wish for the future.
+
+    *   Let's look at the Red clue: Idea (A8) + Words (B8) + Future (H13).
+        *   A "Wish" is an idea/concept expressed in words about the future.
+
+    *   Wait, is the answer "Birthday Wish"?
+        *   Or just "Wish"? (But B10 is Celebration).
+
+    *   Let's check the "Blue" clue one more time.
+        *   !b D8 (Time) + G14 (Cycle) + F11 (One) + C1 (Baby).
+        *   Could it be "Year"? (D8+G14+F11).
+        *   If the answer is "Birthday Wish"...
+        *   Wait, "First Birthday" was rejected.
+
+    *   Could it be "Birthday Cake"? (No, B8/H13/H14 don't fit).
+    *   Could it be "Candles"? (No).
+
+    *   What about "Age"?
+        *   ?g B10 (Celebration). No, Age is not a celebration.
+
+    *   Wait, the clues are:
+        *   !r: Idea + Words + Future
+        *   !y: Action + Words + Future + Cycle
+        *   !b: Time + Cycle + One + New
+
+    *   If the answer is "Birthday Wish":
+        *   !r: A wish (idea) expressed in words about the future. (Checks out)
+        *   !y: To make a wish (action) with words about the future in a cycle (every year). (Checks out)
+        *   !b: The time/cycle of one year for a new person. (Checks out)
+
+    *   Another possibility: "Blow out the candles"? No, that's too many words for the clues.
+    *   What about "Birthday Party"? No.
+
+    *   Let's try "Birthday Wish" or "Make a wish".
+    *   Actually, let's think if there's anything else.
+    *   What about "Age"? (No).
+    *   "Congratulations"? (Too broad).
+    *   "Happy Birthday"? (Rejected).
+
+    *   Let's look at the "One" (F11) and "Cycle" (G14) and "Time" (D8).
+        *   This is a very strong "Yearly" or "Annual" indicator.
+    *   "Words" (B8) and "Future" (H13) and "Action" (H14).
+        *   "Wish" or "To wish".
+
+    *   Is there anything else?
+    *   "Birthday Greeting"?
+    *   "Birthday Message"?
+
+    *   Let's look at !b again. C1 is "Baby/Child/Young/New".
+    *   The main concept is B10 (Celebration) + A10 (Date) + C1 (New/Baby).
+    *   So the answer is a Birthday.
+    *   The sub-concepts describe something specific about the birthday.
+    *   "Birthday wish" seems the most plausible given the "words", "future", "action", and "cycle" clues.
+
+    *   Wait, "Birthday Song" was rejected. "Birthday Song" is words in a cycle.
+    *   "Make a wish" involves an action, words (saying it in your head/out loud), and the future.
+
+    *   Let's consider "Birthday Candle".
+        *   !b (Time/Duration) + G14 (Cycle) + F11 (One) + C1 (New).
+        *   A candle burns (time) and you blow it out (action). But the words/future clue doesn't fit.
+
+    *   Let's consider "Greeting Card". (Words/Action). No.
+
+    *   Is it "Wishing"?
+    *   Is it "Make a wish"?
+
+    *   Let's try:
+        1. Birthday wish
+        2. Make a wish
+        3. Birthday cake (just in case, though it's weak)
+
+    *   Actually, let's look at the Red/Yellow again.
+    *   !r A8 (Idea) + B8 (Words) + H13 (Future).
+    *   !y H14 (Action) + H13 (Future) + B8 (Words) + G14 (Cycle).
+    *   If the answer is "Birthday wish", then:
+        *   ?g B10 + A10 + C1 = Birthday.
+        *   !r A8 + B8 + H13 = A wish (idea + words + future).
+        *   !y H14 + H13 + B8 + G14 = To wish (action + words + future + cycle).
+        *   !b D8 + G14 + F11 + C1 = One year/cycle/new.
+
+    *   Wait, "First Birthday" was rejected.
+    *   "Birthday Song" was rejected.
+    *   "Happy Birthday" was rejected.
+
+    *   What about "Aged"? No.
+    *   What about "Birthday gift"? No.
+
+    *   Let's try "Birthday wish".
+
+    *   Wait, could it be "New Year's Resolution"?
+        *   ?g B10 (Celebration/Holiday).
+        *   A10 (Date).
+        *   C1 (New).
+        *   !r (Idea + Words + Future).
+        *   !y (Action + Words + Future + Cycle).
+        *   !b (Time + Cycle + One + New).
+        *   BUT... Step 1: "New Year" was guessed and the answer was "Yes: Birthday".
+        *   So the answer is definitely related to "Birthday".
+
+    *   If "Birthday" is the answer to Step 1, and the clue-giver said "Yes: Birthday", that means the *concept* the user is looking for is "Birthday".
+    *   Wait... the prompt says:
+        "Guesses: New Year, Birthday, New Year's Eve"
+        "Clue-giver: Yes: Birthday"
+        This means the *answer* to the game is "Birthday".
+
+    *   Wait, if the answer is "Birthday", then why are there more markers in Step 2, 3, and 4?
+    *   In Concept, if the answer is guessed, the game ends.
+    *   If the answer is "Birthday", and the guesser said "Birthday" in Step 1 and got "Yes: Birthday", the game should have ended.
+    *   Wait, let me re-read the rules.
+    *   "The clue-giver answers with exactly one of: Correct, Yes: <one of the guesses> (that guess is on the right track), or No."
+    *   If the guesser says "Birthday" and the clue-giver says "Yes: Birthday", the guesser knows it's "Birthday". If the game continues, it means "Birthday" was not the *exact* answer, but was "on the right track".
+    *   Ah! So the answer is something like "Birthday Party" or "Birthday Cake" or "Birthday Wish".
+
+    *   Step 1: Guess "Birthday" -> "Yes: Birthday". (The answer is a type of Birthday or something closely related to it).
+    *   Step 2: (Add clues about Action, Words, Future, Cycle).
+    *   Step 3: (Add clues about Time, Cycle, One, New).
+    *   Step 4: (No new markers).

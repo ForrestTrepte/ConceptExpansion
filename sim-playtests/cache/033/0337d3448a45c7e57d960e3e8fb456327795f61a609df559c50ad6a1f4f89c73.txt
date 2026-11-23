@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Reverse-Flash",
+    "The Flash",
+    "Slowpoke"
+  ]
+,
+  "pass": false
+}

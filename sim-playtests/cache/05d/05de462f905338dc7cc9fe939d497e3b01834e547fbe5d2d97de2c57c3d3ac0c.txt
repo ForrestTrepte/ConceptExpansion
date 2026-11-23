@@ -1,0 +1,311 @@
+*   Initial clue (`?g H14`): The main concept is "Use – Action / Do – Verb / Button".
+    *   Initial guesses (`Action, Verb, Do`) were met with `No`. This means the answer isn't just an abstract concept like "to act" or "to do". It's something specific that *uses* a button or involves an action/verb in a more concrete way.
+
+    *   New marker (`!r A1`): A red sub-concept relating to "Object / Box".
+    *   New marker (`+ D8`): A red sub-concept detail/feature relating to "Time / Duration".
+    *   Summary of clue: An object/box that involves use/action/button and something to do with time/duration.
+
+    *   Clue: `?g H14` (Action/Use/Button) + `!r A1` (Object/Box) + `D8` (Time/Duration).
+    *   Wait, let's re-read `?g H14`. `H14` is "Use – Action / Do – Verb / Button".
+    *   `!r A1` is "Object / Box".
+    *   `+ D8` means the red sub-concept (Object/Box) has a feature of "Time / Duration".
+
+    *   An object (box) used with a button that involves time.
+    *   A stopwatch? (Is a stopwatch a box? It's an object. Does it have a button? Yes. Time? Yes.)
+    *   An alarm clock? (Object, button, time. Is it a box? Often shaped like one.)
+    *   A microwave? (Object/box, button, time/duration.)
+    *   A timer? (Object, button, time.)
+    *   A vending machine? (Object, button, time? Not really.)
+    *   A remote control? (Object, button, time? Not primarily.)
+    *   A music box? (Object, button/winding, time/music.)
+    *   A mailbox? (Object/box, but no button/time connection.)
+    *   A computer? (Object, button, time? Too broad.)
+    *   A game console? (Object/box, button, time?)
+    *   A cassette player/CD player? (Object/box, button, time?)
+
+    *   `?g H14`: Use/Action/Button. The *main thing* is the action or the thing that is used/pressed.
+    *   `!r A1 + D8`: A red sub-concept (related detail) is a box related to time.
+    *   Let's look at `H14` again: "Use – Action / Do – Verb / Button".
+    *   If the answer is a "Button", `?g H14` would have been "Correct". Since it was "No", the answer is likely the *thing* that uses the button.
+    *   Wait, the rule says: `?g` is the Main Concept (the answer is a type of thing). If the answer is "A Button", the clue would be `?g H14`. But the guesser said "Action, Verb, Do" and the clue-giver said "No".
+    *   Maybe the answer is "Push a button" (a phrase)?
+    *   Or maybe the answer is an object that is pressed.
+    *   Let's look at `!r A1 + D8` again. A box/object associated with time.
+    *   An alarm clock?
+    *   A stopwatch?
+    *   A timer?
+    *   A microwave?
+    *   A wristwatch? (Not a box).
+    *   A calendar? (Not a button).
+
+    *   A microwave is a box-like object. You press a button. You set a time (duration).
+    *   An alarm clock is an object. You press a button. It's about time.
+    *   A stopwatch/timer.
+    *   A music box (often a box, involves time/duration/action).
+
+    Let's try:
+    1. Alarm clock
+    2. Microwave
+    3. Timer
+
+    Actually, let's refine "Action/Button".
+    Is the answer "Press a button"? No, that was rejected by "Action/Verb/Do".
+    Is it "To press a button"?
+    Is it "A button"? No.
+
+    Let's re-examine `!r A1 + D8`.
+    Red sub-concept: Object/Box.
+    Red sub-concept detail: Time/Duration.
+    The clue-giver is saying: The answer is an [Action/Button] AND it is related to a [Box/Object] that is [Time/Duration].
+
+    Wait. `?g H14` means "The answer is an action/use/button".
+    If the answer is "Pressing a button" or something similar.
+    But `!r A1 + D8` describes a *related* idea (sub-concept).
+    A related idea is a box involving time.
+    What action/button is related to a box involving time?
+    Setting an alarm?
+    Pressing a timer?
+    Pressing start on a stopwatch?
+
+    Let's try to think of the answer being an action.
+    "Set an alarm"?
+    "Press start"?
+    "Time out"?
+
+    Wait, let's look at the board again.
+    `?g H14`: Main Concept is an Action/Button.
+    `!r A1 + D8`: Red Sub-concept is an Object/Box + Time/Duration.
+    So: [Action/Button] that is related to [Box/Object + Time/Duration].
+
+    If the answer is "Alarm clock", the main concept `?g` would likely be `A1` (Object) or `B9` (Building) or something, not `H14` (Action).
+    If `?g` is `H14`, the answer itself *is* an action or a button.
+    What action/button is related to a box/object and time?
+    "Pressing a button" on a timer?
+    "Pushing a button" on a microwave?
+
+    Could the answer be "A timer"? If it's a timer, it's an object, so `?g` should be `A1`.
+    Could the answer be "Pushing a button"?
+    Could the answer be "Start"?
+
+    Let's look at `H14` again: "Use – Action / Do – Verb / Button".
+    If the answer is "Pressing a button", the clue-giver would use `H14`.
+    If the answer is "Pushing a button", the clue-giver would use `H14`.
+    How does `!r A1 + D8` (Box + Time) relate to "Pushing a button"?
+    Maybe a "Stopwatch" or "Timer"?
+
+    Let's reconsider the `?g` icon.
+    If `?g` is `H14`, the answer is a verb or an action.
+    "Set an alarm"?
+    "Press start"?
+    "Rewind"? (No, that's not a button).
+    "Pause"?
+
+    What if the answer is "A stopwatch"? No, that's an object.
+    What if the answer is "Timing"? No.
+
+    Let's try:
+    1. Press a button
+    2. Set a timer
+    3. Push start
+
+    Wait, `!r A1 + D8` (Object/Box + Time/Duration).
+    A "Clock" is an object. A "Timer" is an object.
+    If the answer is "Timer", `?g` should be `A1`.
+    If the answer is "Set a timer", `?g` should be `H14` (Action).
+    Is "Set a timer" a common phrase? Yes.
+
+    Let's think about "Box" (`A1`).
+    A "vending machine"? (Not an action).
+    "Press a button"?
+    "Push a button"?
+
+    Let's try:
+    1. Press a button
+    2. Set a timer
+    3. Alarm clock (Even though `?g` is action, people guess objects often).
+
+    Wait, look at `!r A1 + D8` again.
+    Is the answer "A button"? No.
+    Is it "An alarm"? (Action/sound).
+    Is it "To press a button"?
+
+    Let's try focusing on the "Box" and "Time" and "Action/Button".
+    "Pushing a button on a timer"? No.
+    "Pressing a button"?
+
+    Let's try:
+    1. Press a button
+    2. Set an alarm
+    3. Timer
+
+    Actually, maybe the answer is "A remote control"? No, `?g` is action.
+    Maybe the answer is "To push a button"?
+
+    Let's think about the "Box" again.
+    A microwave is a box. You press buttons to set time.
+    A timer is a box.
+    A stopwatch.
+    What if the answer is "Pushing a button"?
+    What if the answer is "Start"?
+
+    Let's try:
+    1. Press a button
+    2. Set a timer
+    3. Alarm clock
+
+    Wait! "Pressing a button" is a verb/action.
+    "A button" is a noun.
+    If the answer was "A button", the clue would be `?g H14`. But "Action/Verb/Do" was rejected.
+    Maybe the answer is "Pushing a button".
+    But how does "Box + Time" relate?
+    A stopwatch is an object (box-ish) used for time. You press the button on it.
+
+    Let's try:
+    1. Press a button
+    2. Set a timer
+    3. Push a button
+
+    Actually, let's try "Pressing a button" or "Pushing a button".
+    Is there a phrase? "Push the button"?
+    "Press start"?
+
+    Let's look at `A1` (Object/Box) and `D8` (Time/Duration) as a *sub-concept*.
+    The sub-concept is "a box involving time".
+    The main concept is "an action/button".
+    Maybe "Pushing a button" on a timer/watch/clock?
+    Or "To press a button"?
+
+    Wait, could the answer be "A timer"?
+    If the answer is "A timer", why is `?g` "Action/Button"?
+    Maybe because you "time" something? No, `H14` is very specific to buttons/use.
+
+    Let's try:
+    1. Press a button
+    2. Set a timer
+    3. Stopwatch
+
+    Wait, "Stopwatch" is an object.
+    "Set a timer" is an action.
+    "Alarm clock" is an object.
+    "Press a button" is an action.
+
+    Another possibility: "A clock"? No.
+    "A watch"? No.
+
+    Let's try:
+    1. Press a button
+    2. Set a timer
+    3. Push a button
+
+    Wait, "Push a button" is a very good guess for `H14`.
+    But `!r A1 + D8` must link it.
+    A timer or alarm clock is an object (box) related to time.
+    The action associated with it is pressing the button.
+
+    Let's try:
+    1. Press a button
+    2. Set an alarm
+    3. Timer
+
+    Let's rethink `H14`. "Use – Action / Do – Verb / Button".
+    If the answer is "To press a button", that's an action.
+    If the answer is "Button", that's a noun.
+    The user guessed "Action, Verb, Do" and was told "No".
+    This implies the answer is not a generic concept of acting, but a specific action.
+
+    "Press a button" fits `H14`.
+    "Set a timer" fits `H14` and `!r A1 + D8`.
+
+    Let's try:
+    1. Press a button
+    2. Set a timer
+    3. Push a button (or maybe "Pressing a button")
+
+    Actually, let's look at `A1` (Box) again.
+    Could the answer be "A jukebox"?
+    `H14` (Action/Button) + `A1` (Box) + `B5` (Music) - wait, there's no music.
+    Could it be "A vending machine"?
+    `H14` (Action/Button) + `A1` (Box) + `C8` (Money) - no money.
+
+    What about "A microwave"?
+    `H14` (Action/Button) + `A1` (Box) + `D8` (Time).
+    This fits perfectly.
+    But `?g` is `H14` (Action/Button).
+    If the answer is "Microwave", `?g` should be `A1` (Object).
+    UNLESS the answer is "Pressing a button"? No.
+    Wait, what if the answer is "Pushing a button"?
+    Is "Pushing a button" an answer? It's an action.
+    The clue-giver says `?g H14`. This means "The answer is an action/use/button".
+    So the answer *is* a verb or an action.
+    What action involves a box and time?
+    "Set a timer"?
+    "Set an alarm"?
+    "Pressing a button"?
+
+    Let's try:
+    1. Press a button
+    2. Set a timer
+    3. Set an alarm
+
+    One more thought: "A countdown"?
+    An action? Yes.
+    Related to a box and time? A timer/clock is a box and it does time.
+    Is "Countdown" a button? Not really.
+
+    What about "Pressing a button"?
+    Let's try:
+    1. Press a button
+    2. Set a timer
+    3. Push a button
+
+    Wait, let's try "Pressing a button".
+
+    Actually, let's think if "Timer" could be the answer.
+    If "Timer" is the answer, `?g` would be `A1` (Object).
+    If the answer is "To time", `?g` would be `H14` (Action).
+    But `H14` is "Use/Action/Button". "To time" isn't really a button action.
+
+    What about "To press a button"?
+    Let's try:
+    1. Press a button
+    2. Set a timer
+    3. Push a button
+
+    Looking at the clues again:
+    `?g H14` (Action/Button)
+    `!r A1` (Object/Box)
+    `+ D8` (Time/Duration)
+
+    Could it be "Pressing the button"?
+    Or "Pressing a button"?
+    Or "Press start"?
+
+    Let's try:
+    1. Press a button
+    2. Set a timer
+    3. Push a button
+
+    Wait, "Pressing a button" is the most direct interpretation of `H14`.
+    "Set a timer" is a specific action that uses a button and relates to a box (timer) and time.
+    "Alarm clock" is an object, but people often guess objects.
+
+    Let's refine the guesses.
+    "Press a button" is a bit too close to the clue.
+    "Set a timer"
+    "Push a button"
+    "Start a timer"
+
+    Actually, "Pressing a button" is an action.
+    Let's go with:
+    1. Press a button
+    2. Set a timer
+    3. Push a button
+
+    Wait, I'll try:
+    1. Press a button
+    2. Set an alarm
+    3. Push a button
+
+    (Self-correction: `A1` is box, `D8` is time. The sub-concept is a "time-box". The main concept is an "action/button". The action/button is related to a time-box. "Press a button" is related to a "timer".)
+
+    Let's try these three.

@@ -1,0 +1,509 @@
+*   `?g B2`: Main concept is Character / Fictional / Imaginary (B2).
+    *   `+ D2`: (In group g) Character is Masculine / Male (D2).
+    *   `+ A6`: (In group g) Character is related to Cinema / Movie (A6).
+    *   `!r D4`: Sub-concept (Red) is Attack / Conflict / Combat / Weapon (D4).
+    *   `+ Black`: (In group r) Sub-concept is Black (Black).
+    *   *Initial guesses (Batman, Darth Vader, Black Panther) were rejected.*
+
+    *   `!y E11`: Sub-concept (Yellow) is One / Unit / Number (E11).
+    *   `+ E11`: (In group y) Sub-concept is One (E11) - *Wait, there is already an E11 marker. Adding a cube to E11 means "more" or "count". However, E11 is a single unit. This is slightly redundant or emphasizes the number 1.*
+    *   `!b C14`: Sub-concept (Blue) is Eye / Sight (C14).
+    *   `+ Clear`: (In group b) Sub-concept is Clear (Transparent/Invisible/Glass) (Clear).
+
+    *   Character (B2).
+    *   Male (D2).
+    *   Movie/Cinema (A6).
+    *   Black (Black) + Combat/Weapon/Attack (D4).
+    *   One (E11).
+    *   Eye/Sight (C14) + Clear/Transparent/Invisible (Clear).
+
+    *Let's synthesize:*
+    A male fictional character from a movie, associated with "Black" and "Weapon/Attack/Conflict".
+    There is also a "One" (E11) and a "Clear/Invisible Eye/Sight" (C14 + Clear).
+
+    *Wait, let's look at the "One" and "Eye/Sight/Clear" markers again.*
+    `!y E11` (Yellow) + `E11` -> One/Single.
+    `!b C14` (Blue) + `Clear` -> Transparent Eye/Sight.
+
+    *Could it be related to "One Eye"?*
+    "One" (E11) + "Eye" (C14).
+    The "Clear" swatch is on the blue group (C14). So "Transparent Eye" or "Invisible Eye".
+
+    *Let's look at the Black/D4 connection again:*
+    Black + Weapon/Attack/Conflict.
+    Maybe "Black Widow"? (No, that's a woman, and the character is male).
+    Maybe a specific character with one eye?
+    *Nick Fury?* (One eye, but is he a "Black" weapon/attack? Not really. He's a person/group).
+    *Mike Wazowski?* (One eye, but not a movie/black/weapon context usually).
+    *The Terminator?* (One eye/red eye/eye-sight, machine/attack, but "Black"?)
+
+    *Let's rethink the "Black" + "D4" (Weapon/Attack):*
+    Could "Black" be the color of the character or the weapon?
+    "Black" + "D4" (Attack/Weapon).
+    "One" (E11).
+    "Eye" (C14) + "Transparent" (Clear).
+
+    *Wait, is the character "One Eye" or does he have one eye?*
+    *Is it "One-Eyed Jack"?* (No, movie focus).
+    *Is it "One-Eyed Willie"?* (Pirates of the Caribbean - Pirate/Sea, not much mention of Black/Weapon/Attack here, though).
+
+    *Let's consider "Black" as a color/name:*
+    Black + Weapon/Combat (D4).
+    Black Panther was already rejected.
+    Could it be a "Black" weapon?
+    A black sword? Black eye?
+
+    *Wait, let's re-examine the "Clear" on "C14" (Eye):*
+    A transparent eye.
+    A glass eye.
+    *A glass eye!*
+
+    *If the character has a "Glass Eye" (C14 + Clear):*
+    And is "One" (E11).
+    "One Glass Eye".
+    And is a "Male" (D2) "Character" (B2) "from a Movie" (A6).
+    And is "Black" (Black) and "Attack/Weapon/Conflict" (D4).
+
+    *Who is a male movie character with a glass eye and is associated with "Black" and "Attack"?*
+    Maybe "Blackbeard"? (Pirate, often has one eye/glass eye, "Black" is in the name, "Weapon/Conflict" fits a pirate).
+    Is Blackbeard a movie character? (Treasure Island, Pirates of the Caribbean).
+    Does he have a "One" (E11) connection? "One eye".
+
+    *Wait, let's check the markers again.*
+    `!y E11` (Yellow) + `E11` (One)
+    `!b C14` (Blue) + `Clear` (Transparent Eye)
+    `!r D4` (Red) + `Black` (Black) + `D4` (Attack/Weapon/Conflict)
+
+    *Blackbeard:*
+    - Male (D2)
+    - Character (B2)
+    - Movie (A6)
+    - Black (Black)
+    - Conflict/Weapon (D4)
+    - One (E11)
+    - Eye (C14)
+    - Transparent (Clear - glass eye)
+
+    *What else?*
+    Could it be a "Black Eye"? (But that's an injury, not a character).
+    The clue says `?g B2` (Character).
+
+    *Other possibilities:*
+    A character with a black weapon and one transparent eye?
+    *Mad-Eye Moody?* (Harry Potter - character, male, movie, one eye (magical/glass-like?), but "Black" and "Weapon/Attack"? He's a wizard, not a "black weapon" guy necessarily).
+
+    *What about "Black" being "Black" (the color) and "D4" (Attack/Conflict)?*
+    Maybe "Black Widow" (Already ruled out gender).
+    Maybe "Black Knight"? (Male, character, movie, black, weapon/attack/combat, but "one eye/transparent eye"?).
+
+    *Let's look at the "One" and "Eye/Clear" again.*
+    "One" + "Eye" + "Clear/Transparent".
+    "One glass eye".
+    "One transparent eye".
+    "One clear eye".
+
+    *Is there a character named "One-Eyed [Something Black]"?*
+    "One-Eyed Black..."? No.
+
+    *Wait, let's look at the `!r D4` + `Black` again.*
+    Maybe the character is "Black" (Black) and "D4" (Attack/Conflict)?
+    A "Black Strike"? A "Black Attack"?
+    No, the `?g` is B2 (Character).
+
+    *Is it a "Black eye"?* No, that's a thing, not a character.
+    *Is it "Eye of Sauron"?* (Not male, not "Black", not "one" in that way, though it is one eye).
+
+    *Let's try to think of characters with a glass eye:*
+    - Mad-Eye Moody (Harry Potter)
+    - Nick Fury (Marvel)
+    - Blackbeard (Pirates)
+    - Captain Hook (One hand, not one eye usually)
+
+    *Let's look at the "Black" marker again.*
+    `!r D4` + `Black`.
+    Is it "Black Combat"? "Black Weapon"?
+    Maybe the character is "Black" and "D4" (Weapon/Conflict/Attack)?
+    "Black Claw"? "Black Blade"?
+
+    *Wait!* "Black" (Color) + "D4" (Attack/Weapon/Combat).
+    "Black" + "Conflict".
+    "Black" + "Weapon".
+    "Black" + "Attack".
+
+    Could it be "Black Widow" (if the clue-giver thinks the gender is neutral? No, D2 is Male).
+
+    *Let's rethink the "One" and "Clear Eye".*
+    "One" + "Clear Eye".
+    Could it be "One-eyed [Something]"?
+    If the character is "Black" and "D4" (Combat/Weapon)...
+    "Black" + "D4" (Combat) = "Black combat"?
+    "Black" + "D4" (Weapon) = "Black weapon"?
+
+    *What about "Blackbeard"?*
+    He is a "Character" (B2).
+    "Male" (D2).
+    "Movie" (A6).
+    "Black" (Black).
+    "Weapon/Conflict" (D4).
+    "One" (E11).
+    "Eye" (C14).
+    "Transparent/Glass" (Clear).
+    This fits really well.
+
+    *Are there other characters?*
+    "One-eyed" + "Black" + "Weapon/Combat/Conflict" + "Movie" + "Male".
+
+    *Let's try "Blackbeard".*
+    *Let's try "Mad-Eye Moody".* (But where does "Black" fit? Maybe his name? No. Maybe his magic? No).
+
+    *Wait, could "Black" and "D4" be "Black Power"?* (D9 is Power, but D4 is Attack/Conflict).
+    *Could it be "Black Hole"?* (Not a character).
+
+    *Let's look at the "One" (E11) and "Clear Eye" (C14 + Clear) again.*
+    "One" "Transparent" "Eye".
+    A "Glass Eye".
+    A male character with a glass eye.
+    "Black" + "Weapon/Combat/Attack".
+    Could the character be "Blackbeard"?
+    Or maybe "Black" is the weapon? "Black Sword"?
+    "One-eyed Black Sword"? No.
+
+    *What about "Black Knight"?*
+    Male (D2).
+    Character (B2).
+    Movie (A6).
+    Black (Black).
+    Weapon/Combat (D4).
+    One (E11)? (Doesn't fit).
+    Eye (C14)? (Doesn't fit).
+
+    *Let's search for "One Eye" and "Black" and "Weapon/Attack/Conflict".*
+    "One-eyed Black..."
+    Is there a character with a "Black Eye"?
+    Wait, "Black eye" is an injury.
+    "One" "Black" "Eye"?
+    "One black eye"? No.
+
+    *Is it "One-Eyed Jack"?* (No).
+
+    *Let's look at the colors again.*
+    Red: D4 (Attack/Weapon) + Black.
+    Yellow: E11 (One/Unit).
+    Blue: C14 (Eye) + Clear (Transparent/Glass).
+
+    Maybe the character *is* a "Black" (Black) "Weapon" (D4)?
+    "Black" + "D4" (Weapon) + "Male" (D2) + "Character" (B2) + "Movie" (A6).
+    And has "One" (E11) "Glass Eye" (C14 + Clear).
+
+    *Who is a male movie character with a glass eye and a black weapon?*
+    Actually, "Blackbeard" is often depicted with a black beard, not a black weapon.
+    But he's a pirate (Conflict/Weapon/Combat).
+
+    *Let's think about "One" + "Clear Eye" again.*
+    "One" "Glass" "Eye".
+    A character with a glass eye.
+    Is there a character named "Black..." who has a glass eye?
+    *Blackbeard*? (He has a black beard).
+
+    *Wait!* Could "Black" be part of the name and "D4" be the occupation/trait?
+    If "Black" is "Black" and "D4" is "Conflict/Attack"...
+    "Black" + "Attack"?
+    "Black" + "Weapon"?
+
+    *Wait, what about "Black" + "D4" (Conflict/Attack) being "Black Ops"?* (Not a character).
+
+    *Let's try thinking of "One" (E11) and "Clear Eye" (C14 + Clear) again.*
+    "One" "Transparent" "Eye".
+    "One" "Glass" "Eye".
+    *Could it be "One-Eyed [Something]"?*
+    Is there a "One-eyed Black..."?
+    *One-eyed Black [something]*?
+
+    *Wait!* "Black" (Black) + "D4" (Attack/Conflict).
+    "Black" + "D4" (Weapon).
+    "Black" + "D4" (Combat).
+
+    Could it be *Black Widow* (if gender is ignored)? No, the clue-giver is specific.
+
+    *What about "One" (E11) "Transparent" (Clear) "Eye" (C14)?*
+    "One" "Clear" "Eye".
+    "One" "Glass" "Eye".
+    If the character has a "Black Eye" (the injury)?
+    But "Black" is in the "Red" group, which is a sub-concept.
+    The Red group is "Attack/Conflict/Weapon" (D4) + "Black".
+    So "Black" is a detail of the "Attack/Conflict/Weapon".
+    A "Black Weapon"? A "Black Attack"? A "Black Conflict"?
+
+    *Let's try:*
+    "A Black Weapon/Attack" (Sub-concept)
+    "One" (Sub-concept)
+    "Transparent Eye" (Sub-concept)
+    "Male Character from a Movie" (Main concept)
+
+    *Could it be "The Terminator"?*
+    - Male (D2).
+    - Character (B2).
+    - Movie (A6).
+    - One (E11) - One eye/sensor?
+    - Transparent Eye (C14 + Clear) - The red eye is a sensor/glass-like?
+    - Black (Black) + Weapon/Attack (D4) - He uses weapons/attacks? (A bit of a stretch).
+
+    *What about "One-Eyed" characters?*
+    - Nick Fury
+    - Mad-Eye Moody
+    - Blackbeard
+    - Mike Wazowski
+
+    *Let's look at the "Black" and "D4" again.*
+    "Black" "Weapon".
+    "Black" "Attack".
+    "Black" "Conflict".
+    "Black" "Combat".
+
+    Could it be "Black Widow" (if she's a weapon)? But she's female.
+    What about "Black Panther" (already rejected).
+
+    *Is there a character named "Black..."?*
+    "Black..."
+    *Black Jack?* (Manga/Anime/Movie).
+    *Blackbeard?*
+
+    Let's look at "One" (E11) and "Clear Eye" (C14 + Clear) one more time.
+    Could it be a "One-eyed" character?
+    "One" (E11) + "Eye" (C14).
+    And "Clear" (Clear) modifies "Eye" (C14).
+    So "One Clear Eye" = "One Glass Eye".
+
+    Who is a famous male movie character with a glass eye and a "Black" "Weapon/Attack"?
+    "Black" + "Weapon/Attack".
+    "Black" + "Conflict".
+    "Black" + "D4" (Attack).
+    "Black Strike"?
+    "Black Blade"?
+    "Black..."
+
+    Wait, *is* the character "Blackbeard"?
+    If the answer is "Blackbeard":
+    - B2 (Character)
+    - D2 (Male)
+    - A6 (Movie)
+    - D4 (Conflict/Weapon) + Black (Black) -> He is a pirate (Conflict/Weapon) and his name/look is "Black" (Black).
+    - E11 (One) + C14 (Eye) + Clear (Clear) -> He has one glass eye.
+
+    This is a strong possibility.
+
+    Another one: *Mad-Eye Moody*?
+    - D4 (Conflict/Attack/Weapon)? (He's a wizard/combatant).
+    - Black? (Doesn't fit).
+
+    Another one: *Nick Fury*?
+    - Black (Black).
+    - D4 (Conflict/Attack/Weapon)? (He's a soldier/combatant).
+    - One eye (E11, C14, Clear)? (Fits).
+    - Movie (A6)? (Fits).
+    - Male (D2)? (Fits).
+
+    Let's look at the "Black" (Black) and "D4" (Weapon/Attack/Conflict) again.
+    If the answer is "Nick Fury":
+    - Black (Black)
+    - D4 (Conflict/Attack/Weapon) -> He is an agent of conflict/combat.
+    - One (E11) Eye (C14) + Clear (Clear) -> One glass eye.
+    - Male (D2) Character (B2) Movie (A6).
+
+    Let's try searching for "Black" + "Weapon" + "Character".
+    "Black Blade"? "Black Sword"?
+    "Black Widow" (already rejected).
+
+    Wait, "Black" (Black) and "D4" (Conflict/Weapon/Attack).
+    What if the "Black" part describes the "D4" (Attack/Weapon)?
+    A "Black Weapon"?
+    A "Black Attack"?
+    A "Black Conflict"?
+
+    Wait! "Black" + "D4" (Attack) + "E11" (One) + "C14" (Eye) + "Clear" (Clear).
+    *Is the character "Black Eye"?* (No, it's a character).
+
+    What about *Blackjack*? (No).
+
+    *Wait!* "One" (E11) "Clear" (Clear) "Eye" (C14).
+    Could it be "One-eyed" + "Black" (Black) + "Weapon" (D4)?
+    "One-eyed Black Blade"? No.
+
+    Let's try to think about "Black" and "D4" (Attack/Weapon) differently.
+    Could it be "Black" + "D4" = "Black Mask"? (A character, but is he male? Usually. Movie? Yes. One eye? No).
+
+    Let's try "Nick Fury".
+    Let's try "Blackbeard".
+    Let's try "Mad-Eye Moody".
+
+    Wait, I've got it!
+    "Black" (Black) + "D4" (Attack/Conflict/Weapon).
+    "One" (E11) "Eye" (C14) "Clear" (Clear).
+    Could the character be *one* with a *black eye*? No, it's a character.
+
+    Let's try thinking about the "One" and "Clear Eye" again.
+    "One" (E11) "Glass" (Clear) "Eye" (C14).
+    "One-eyed" character.
+    "Black" (Black) "Weapon" (D4).
+    "Black" "Sword"? "Black" "Weapon"?
+    Is there a character named "Black..." who has a glass eye?
+    *Blackbeard* (as discussed).
+    *Black Panther* (already rejected).
+
+    Wait, let's look at the "Black" marker again.
+    `!r D4` (Red - Sub-concept) + `Black`.
+    `!y E11` (Yellow - Sub-concept) + `E11`.
+    `!b C14` (Blue - Sub-concept) + `Clear`.
+
+    Could it be "The Terminator"?
+    He is "One" (E11) "Eye" (C14) and he is a "Machine" (D7)? (But D7 isn't there).
+    Wait, D4 is "Attack/Conflict/Weapon". A machine is a weapon?
+    Is there a "Black" connection? His endoskeleton is black?
+
+    Let's try a different approach.
+    "Black" (Black) + "D4" (Attack/Conflict/Weapon).
+    "One" (E11).
+    "Eye" (C14) + "Clear" (Clear).
+    Male (D2) Character (B2) Movie (A6).
+
+    "One" "Clear" "Eye" (C14 + Clear).
+    "Black" (Black) "Weapon" (D4).
+    "One-eyed Black Weapon"? No.
+
+    "One" (E11) "Eye" (C14) "Clear" (Clear) -> One-eyed/Glass-eye.
+    "Black" (Black) "D4" (Attack/Conflict/Weapon) -> ?
+    Could it be "Blackbeard"?
+    (He's a pirate, so "Conflict/Weapon/Attack" fits, and "Black" is in his name).
+
+    Let's try to find other "Black" + "Weapon/Conflict" + "One Eye" characters.
+    Maybe "Black..."?
+    Is there a "Black" + "D4" + "One Eye" character?
+    "Black" (Black) + "D4" (Weapon) = "Black Sword"?
+    "Black" (Black) + "D4" (Attack) = "Black Strike"?
+
+    Wait, *what about "One-eyed Black..."?*
+    "One-eyed Black Widow"? (No, gender).
+    "One-eyed Black..."?
+
+    Let's try:
+    1. Blackbeard
+    2. Nick Fury
+    3. Mad-Eye Moody
+
+    Wait, another thought: "One" (E11) "Clear" (Clear) "Eye" (C14).
+    Is it "One-eyed" + "Black" (Black) + "D4" (Attack/Conflict)?
+    Could it be "Black Knight"? (No, eye).
+
+    Wait, let's look at the colors again.
+    Red (Sub-concept): D4 (Attack/Weapon) + Black.
+    Yellow (Sub-concept): E11 (One/Unit).
+    Blue (Sub-concept): C14 (Eye) + Clear.
+
+    If the character is "Blackbeard":
+    - Black (Black)
+    - D4 (Conflict/Weapon/Attack) -> He is a pirate (Combat/Conflict).
+    - E11 (One) + C14 (Eye) + Clear (Clear) -> One glass eye.
+    - B2 (Character), D2 (Male), A6 (Movie).
+
+    This seems like the most logical fit for a Concept game.
+
+    Wait, another possibility: "The Terminator" (T-800).
+    - One eye (E11, C14).
+    - Clear eye (Clear).
+    - Black (Black) + D4 (Weapon/Attack).
+    - Male (D2), Character (B2), Movie (A6).
+    But is he "Black"? His endoskeleton is black/metallic.
+
+    Let's try to think of one more.
+    "Black" (Black) + "D4" (Conflict/Weapon/Attack).
+    "One" (E11) "Clear" (Clear) "Eye" (C14).
+    *Could it be "One-eyed Black...?"*
+    Wait, "Black" (Black) and "D4" (Weapon/Attack).
+    "Black" + "D4" (Weapon) = "Black Blade"?
+    Is there a character named "Black Blade"? No.
+
+    Let's try "Blackbeard".
+
+    *Wait!* "One" (E11) + "Clear" (Clear) + "Eye" (C14) = One glass eye.
+    "Black" (Black) + "D4" (Attack/Conflict/Weapon) = Black...
+    Wait, "Black" (Black) "D4" (Attack) = "Black Ops"? No.
+
+    Let's try "Blackbeard". It's a common character.
+    Wait, let me look at "D4" again. "Attack/Conflict - Combat / Weapon".
+    "Black" (Black) + "D4" (Weapon) = "Black Weapon"?
+    Is there a character named "Black..." who is a "Black Weapon"? No.
+
+    Could the character be "One-eyed" (E11, C14) + "Black" (Black) + "D4" (Weapon)?
+    *Is it "Blackbeard"?*
+    He is a pirate (Combat/Weapon) and has a black beard (Black).
+
+    Let me try "Blackbeard", "Nick Fury", "Mad-Eye Moody".
+    (Wait, I should just provide 3 guesses).
+
+    Let's try "Blackbeard" as the primary.
+    What else?
+    What about "Black" (Black) + "D4" (Attack/Conflict/Weapon)?
+    "Black Knight"?
+    "Black Widow" (female).
+    "Black Panther" (already rejected).
+
+    What if "Black" (Black) + "D4" (Weapon) is the *name* of the character?
+    "Black" + "Weapon"?
+    "Black" + "Attack"?
+
+    Wait! "Black" (Black) + "D4" (Weapon/Attack/Conflict/Combat).
+    What if it's "Black" + "D4" (Combat) = "Black Combat"? No.
+    What if it's "Black" + "D4" (Weapon) = "Black Blade"?
+    Is "Black Blade" a character? No.
+
+    Let's try "Blackbeard" and "Nick Fury".
+    Wait, let me think of another one.
+    "One" (E11) "Eye" (C14) "Clear" (Clear).
+    "Black" (Black) "D4" (Weapon/Attack/Conflict/Combat).
+    "Male" (D2) "Character" (B2) "Movie" (A6).
+
+    What about "One-eyed" (E11, C14) + "Black" (Black) + "D4" (Attack/Conflict)?
+    "One-eyed Black..."
+    Could it be "Blackbeard"?
+    His name is "Blackbeard".
+    His appearance is "Black" (beard).
+    He is "D4" (Conflict/Weapon/Combat/Pirate).
+    He is "One" (E11) "Eye" (C14) "Clear" (Clear).
+
+    Let's go with that.
+
+    Another thought:
+    Is there a character with a "Black Eye"?
+    A "Black eye" is an injury (D4/D5/D6?).
+    But it's a character.
+    "Black Eye"? No.
+
+    Let's try:
+    1. Blackbeard
+    2. Nick Fury
+    3. Mad-Eye Moody
+
+    Wait, let's think. Is there a character called "Black"?
+    "Black" (Black) + "D4" (Weapon/Attack)?
+    "Black" (Black) + "D4" (Conflict)?
+    "Black" + "D4" (Weapon)?
+
+    Wait, I just thought of something.
+    "Black" (Black) + "D4" (Weapon/Attack) = "Black Sword"?
+    Is there a character called "Black Sword"? No.
+    What about "Black Knight"? (A character, but the "one-eye" thing?).
+
+    Let's look at the "One" (E11) and "Clear Eye" (C14 + Clear) again.
+    "One-eyed" character.
+    "Black" (Black) + "D4" (Weapon/Attack/Conflict/Combat).
+    Could it be "Blackbeard"?
+    Let's try to think of any other "One-eyed" male "Black" character.
+    "One-eyed" "Black" "Combat"?
+    No.
+
+    Let's try:
+    1. Blackbeard
+    2. Nick Fury
+    3. Mad-Eye Moody (Actually, let's try "The Terminator" instead of Mad-Eye).
+
+    Actually, let's try "Blackbeard" first.

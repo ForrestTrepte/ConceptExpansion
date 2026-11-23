@@ -1,0 +1,141 @@
+{
+  "contentSha256": "7758b09e2ad9ff3351e55b7bb42e0d83987ea9d6d4f9a61d8194f1b5725aac3a",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 2,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "90167f6773b23c0d34d7074b521186233b0757584cab853ba7be1b70066d6420"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "a6d3e7bcc64a713fe2eab017b28f20d0cb606d90949c6ab5bf97969966dbc2bb"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "google/gemma-4-26b-a4b-it",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "pass": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "guesses",
+                "pass"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-2"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "db82776-dirty",
+    "costUsd": 0.001171215,
+    "latencyMs": 17377,
+    "recordedAt": "2026-11-23T22:28:19.927Z",
+    "recordedBy": "claude",
+    "servedBy": "NextBit",
+    "servedModel": "google/gemma-4-26b-a4b-it",
+    "tags": {
+      "run": "calibrate-or-gemma"
+    },
+    "usage": {
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
+      "inputTokens": 5100,
+      "outputTokens": 3063,
+      "reasoningTokens": 3025
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": {
+            "$llmemo.text": "20aca84a09ef5f3686857979e93ba42696af91b0e35a13e15ad1de26bf38b1c9"
+          },
+          "reasoning": {
+            "$llmemo.text": "f36e675ae421b50b6f52338ae5102f540ed4934e47c1462885b511bb93be6505"
+          },
+          "reasoning_details": [
+            {
+              "format": "unknown",
+              "index": 0,
+              "text": {
+                "$llmemo.text": "f36e675ae421b50b6f52338ae5102f540ed4934e47c1462885b511bb93be6505"
+              },
+              "type": "reasoning.text"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "stop"
+      }
+    ],
+    "created": 1795472882,
+    "id": "gen-1795472882-21tQ3V9TkO3e5LHJWLHx",
+    "model": "google/gemma-4-26b-a4b-it",
+    "object": "chat.completion",
+    "provider": "NextBit",
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.34.0-d957f7d6",
+    "usage": {
+      "completion_tokens": 3063,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 3025
+      },
+      "cost": 0.001171215,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000781065,
+        "upstream_inference_cost": 0.001171215,
+        "upstream_inference_prompt_cost": 0.00039015
+      },
+      "is_byok": false,
+      "prompt_tokens": 5100,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 8163
+    }
+  }
+}

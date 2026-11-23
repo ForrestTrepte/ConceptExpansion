@@ -160,7 +160,11 @@ aliases such as `sonnet`).
 - **OpenRouter for non-Claude guessers** (llmemo's `OpenRouter`), added 2026-11-23
   after Claude guessers proved too easy. A spec's `[guesser]` sets
   `backend = "openrouter"` with an OpenRouter model ID; `effort` becomes OpenRouter's
-  reasoning effort, and `max_tokens` caps the reply (leave room for reasoning models).
+  reasoning effort (`"none"` turns reasoning off), and `max_tokens` caps the reply.
+  The first attempt showed why both matter: at "low" effort, gemma often reasoned
+  until it hit `max_tokens`, and with a two-field reply (`guesses`, `pass`) it often
+  got stuck writing blank space after the guesses. Guesser replies now have only
+  `guesses`; an empty list is a pass. No model guesser had ever passed.
   The request carries the same system text and prompt as a Claude guesser, with a
   JSON-schema `response_format`. The judge and clue-giver stay on Claude. Calls spend
   the owner's OpenRouter credit; the key is in `OPENROUTER_API_KEY`, a Codespaces

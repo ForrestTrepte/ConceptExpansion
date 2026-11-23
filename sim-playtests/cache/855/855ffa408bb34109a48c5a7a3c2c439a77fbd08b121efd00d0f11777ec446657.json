@@ -1,0 +1,139 @@
+{
+  "contentSha256": "b6933312adf9eec5cfafe00584e68850d51bd9ea2e78f8ddfc5e12d842171c0a",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "90167f6773b23c0d34d7074b521186233b0757584cab853ba7be1b70066d6420"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "3a3dc2b5206384b558066fffe4db59137e653c15c29f5143dc2265c6468c56fa"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "google/gemma-4-26b-a4b-it",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "pass": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "guesses",
+                "pass"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-2"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "db82776-dirty",
+    "costUsd": 0.000689716,
+    "latencyMs": 39841,
+    "recordedAt": "2026-11-23T22:21:19.109Z",
+    "recordedBy": "claude",
+    "servedBy": "PrimeIntellect",
+    "servedModel": "google/gemma-4-26b-a4b-it",
+    "tags": {
+      "run": "calibrate-or-gemma"
+    },
+    "usage": {
+      "cacheReadTokens": 4,
+      "cacheWriteTokens": 0,
+      "inputTokens": 5058,
+      "outputTokens": 1015,
+      "reasoningTokens": 815
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"Star Wars\",\"Death Star\",\"Alien invasion\"],\"pass\":false}",
+          "reasoning": {
+            "$llmemo.text": "bdf949a75051068d60fd455f586e3f7a43719ee9d7bfdea0acce395a97d05c2a"
+          },
+          "reasoning_details": [
+            {
+              "format": "unknown",
+              "index": 0,
+              "text": {
+                "$llmemo.text": "bdf949a75051068d60fd455f586e3f7a43719ee9d7bfdea0acce395a97d05c2a"
+              },
+              "type": "reasoning.text"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "stop"
+      }
+    ],
+    "created": 1795472439,
+    "id": "gen-1795472439-6dUb1ny4sIGOGkJOtfgE",
+    "model": "google/gemma-4-26b-a4b-it",
+    "object": "chat.completion",
+    "provider": "PrimeIntellect",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1015,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 815
+      },
+      "cost": 0.000689716,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00029029,
+        "upstream_inference_cost": 0.000689716,
+        "upstream_inference_prompt_cost": 0.000399426
+      },
+      "is_byok": false,
+      "prompt_tokens": 5058,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 4,
+        "video_tokens": 0
+      },
+      "total_tokens": 6073
+    }
+  }
+}

@@ -1,0 +1,46 @@
+*   `?g A13`: Main Concept is A13 (Game / Toy).
+    *   `+ D11`: (Sub-concept in group g) A detail about the Game/Toy is D11 (Arm / Hand / Finger). This implies the game/toy involves hands or fingers.
+    *   `!r E5`: Red sub-concept (group r) is E5 (Stone / Mineral / Hard). This means a part of it or something connected to it is stone or hard.
+    *   `!y F7`: Yellow sub-concept (group y) is F7 (Paper / Sheet). This means a part of it or something connected to it is paper.
+    *   `!b F8`: Blue sub-concept (group b) is F8 (Cut – Break / Separation / Half). This means a part of it or something connected to it involves cutting or breaking.
+
+    *   Main category: Game/Toy.
+    *   Physical characteristic 1 (Red): Hard/Stone.
+    *   Physical characteristic 2 (Yellow): Paper.
+    *   Physical characteristic 3 (Blue): Cutting/Breaking.
+    *   Physical characteristic 4 (Green): Hands/Fingers.
+
+    *   *Idea 1: Rock Paper Scissors.*
+        *   A13 (Game): Yes.
+        *   D11 (Hand/Finger): Yes, played with hands.
+        *   E5 (Stone): Yes (Rock).
+        *   F7 (Paper): Yes (Paper).
+        *   F8 (Cut): Yes (Scissors cut).
+        *   Wait, the clue-giver uses `!r E5` (Stone), `!y F7` (Paper), and `!b F8` (Cut).
+        *   In Rock Paper Scissors, the three elements are Rock (Stone), Paper (Paper), and Scissors (which Cut).
+        *   This matches perfectly.
+
+    *   *Idea 2: Jenga?*
+        *   A13 (Game): Yes.
+        *   D11 (Hand): Yes.
+        *   E5 (Hard): Yes (Wood, but maybe seen as hard?).
+        *   F7 (Paper): No.
+        *   F8 (Cut/Break): No.
+
+    *   *Idea 3: Playing cards?*
+        *   F7 (Paper): Yes.
+        *   F8 (Cut/Break): Not really.
+
+    *   *Idea 4: Puzzle?*
+        *   F8 (Break/Part): Yes.
+        *   F7 (Paper): Sometimes.
+        *   E5 (Hard): No.
+
+    "Rock paper scissors" fits all categories.
+    - Game/Toy (A13)
+    - Hand/Finger (D11)
+    - Stone (E5)
+    - Paper (F7)
+    - Cut/Break (F8)
+
+    1. Rock paper scissors.

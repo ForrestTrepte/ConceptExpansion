@@ -1,0 +1,256 @@
+*   Main Concept (`?g B8`): Expression – Quote / Talking / Words.
+    *   Details for Main Concept:
+        *   `+ D4`: Attack / Conflict – Combat / Weapon.
+        *   `+ C5`: Life / Heart / Love.
+    *   Sub-Concept 1 (`!r F4`): Earth / Ground / Soil.
+        *   Details for Sub-Concept 1:
+            *   `+ H12`: Low / Descend / Below.
+    *   Sub-Concept 2 (`!y B12`): Tool / Construction.
+        *   Details for Sub-Concept 2:
+            *   `+ D4`: Attack / Conflict – Combat / Weapon.
+    *   Sub-Concept 3 (`!k H13`): Right / End / After / Future.
+        *   Details for Sub-Concept 3:
+            *   `+ D4`: Attack / Conflict – Combat / Weapon.
+            *   + `E11`: Zero / None / Absence.
+
+    *   `B8` (Words/Expression) + `D4` (Conflict/Weapon) + `C5` (Love/Heart) -> Something said about love/heart/combat.
+    *   *Previous guesses (rejected):* "A low blow", "Love is a battlefield", "Heart attack".
+    *   `F4` (Earth) + `H12` (Low/Below) -> Grounded/low/down.
+    *   `B12` (Tool) + `D4` (Weapon/Conflict) -> Fighting tool or weaponized tool.
+    *   `H13` (Future/End/After) + `D4` (Conflict) + `E11` (Zero/None) -> No conflict in the future? Or end of conflict?
+
+    Let's re-evaluate.
+    The answer is a "common phrase or idiom" (based on the context of the previous rejected guesses).
+
+    *   `?g B8` (Words/Speech)
+    *   `D4` (Combat/Weapon)
+    *   `C5` (Love/Heart)
+    *   `F4` (Earth/Ground)
+    *   `H12` (Low/Below)
+    *   `B12` (Tool)
+    *   `D4` (Conflict)
+    *   `H13` (End/Future/After)
+    *   `D4` (Conflict)
+    *   `E11` (Zero/Nothing)
+
+    Wait, let's look at `!r F4` (Earth) + `H12` (Low) + `B12` (Tool) + `D4` (Conflict/Weapon).
+    Could the tool/weapon part relate to a phrase like "Digging a grave"?
+    `F4` (Earth) + `H12` (Low/Below) + `B12` (Tool) + `D4` (Conflict) -> A weapon or tool used in earth? A shovel?
+    `?g B8` (Words) + `C5` (Love/Heart) + `D4` (Conflict/Weapon) -> "Break someone's heart"?
+    "A heavy heart"?
+
+    Let's look at the `!k` group: `H13` (After/End) + `D4` (Conflict) + `E11` (Zero/None).
+    "No more fighting"? "Peace"?
+    "The end of the war"?
+    "Peace treaty"? (Words/B8, Peace/C5? No, B8 is words/quote).
+
+    Let's reconsider `!r F4` (Earth/Ground) + `H12` (Low/Below).
+    Maybe "Down to earth"?
+    But we have `B12` (Tool) + `D4` (Combat) and `?g B8` (Words) + `D4` (Combat) + `C5` (Love).
+
+    Let's rethink `B12` (Tool) and `D4` (Weapon). A sword? An axe?
+    `B12` (Tool) + `D4` (Conflict) -> A tool used for fighting?
+    `H13` (Future/End) + `D4` (Conflict) + `E11` (Zero/None) -> No more war?
+
+    Wait, let's look at the clues collectively:
+    Main: Words/Quote about Conflict and Love.
+    Sub1: Earth and Low.
+    Sub2: Tool/Weapon.
+    Sub3: Future/End, Conflict, and Zero.
+
+    Could it be "The pen is mightier than the sword"?
+    `?g B8` (Words/Pen/Writing)
+    `D4` (Conflict/Sword)
+    `C5` (Love/Heart... no, that doesn't fit).
+
+    Let's re-examine `C5` (Life/Heart/Love).
+    "To love is to fight"? No.
+    "Kill with kindness"?
+    `D4` (Conflict/Kill) + `C5` (Love/Kindness) + `B8` (Words)?
+    Let's check the other markers for "Kill with kindness".
+    `F4` (Earth/Ground) + `H12` (Low)? No.
+    `B12` (Tool)? No.
+
+    What about "Lay down your arms"?
+    `B12` (Tool/Weapon) + `D4` (Conflict/Weapon)
+    `H13` (End/Future) + `D4` (Conflict) + `E11` (Zero/None) -> End of fighting/Zero weapons.
+    `F4` (Earth) + `H12` (Low) -> Laying something down on the ground?
+    `B8` (Words) + `C5` (Love) + `D4` (Conflict) -> A phrase about ending conflict/love?
+
+    "Lay down your arms" (to stop fighting).
+    `B12` (Tool/Weapon) + `D4` (Conflict/Weapon) - Fits "Arms" (as in weapons).
+    `H13` (End) + `E11` (Zero) + `D4` (Conflict) - Fits the meaning of the phrase (end of conflict).
+    `F4` (Earth) + `H12` (Low) - Fits "Lay down" (placing on the ground).
+    `B8` (Words) + `C5` (Love) + `D4` (Conflict) - This is the tricky part. Is it a phrase about love? Or is `C5` used differently?
+    Wait, `B8` is "Expression/Quote". `C5` is "Heart/Love". `D4` is "Conflict/Weapon".
+    Maybe the phrase is "Fight for love"? No.
+
+    Let's try another path.
+    `F4` (Earth/Ground) + `H12` (Low/Below).
+    `B12` (Tool) + `D4` (Conflict/Weapon).
+    `H13` (End) + `E11` (Zero) + `D4` (Conflict).
+    `B8` (Words) + `C5` (Love) + `D4` (Conflict).
+
+    Is it "Broken heart"? (No, `B8` is words).
+    "A bitter pill to swallow"? No.
+
+    Wait! `B12` (Tool) + `D4` (Combat) = Weapon.
+    `F4` (Earth) + `H12` (Low) = Ground.
+    `H13` (End/After) + `E11` (None) + `D4` (Conflict) = No more fighting.
+    `B8` (Words) + `C5` (Heart/Love) + `D4` (Combat/Weapon).
+
+    What about "To die for love"?
+    `D5` (Death) isn't there.
+
+    Look at `B12` (Tool) and `D4` (Conflict/Weapon).
+    `B12` could be a "shield" (C4 is shield, but B12 is tool).
+    `B12` is a tool/construction.
+    `D4` is attack/conflict/weapon.
+    `B8` is words/speech.
+
+    Is the answer "Peace treaty"?
+    `B8` (Words)
+    `H13` (End) + `E11` (Zero) + `D4` (Conflict) (End of fighting)
+    `C5` (Love/Life/Peace?)
+    `F4` (Earth) + `H12` (Low)? No.
+
+    Let's look at the `!r` and `!y` again.
+    `!r`: F4 (Earth) + H12 (Low).
+    `!y`: B12 (Tool) + D4 (Weapon).
+    `!k`: H13 (End) + D4 (Weapon) + E11 (None).
+    `?g`: B8 (Words) + D4 (Weapon) + C5 (Love).
+
+    "Drop your weapons"?
+    "Lay down your arms"?
+    "Break a heart"? (rejected "Heart attack").
+
+    Wait, `H13` (End/After) + `E11` (None/Zero) + `D4` (Conflict/Weapon).
+    Could it be "No more war"?
+    `B8` (Words) + `C5` (Love) + `D4` (Conflict/War).
+
+    Let's try "Cross my heart"?
+    `G2` (Cross) isn't there.
+
+    What about "In the heat of the moment"? (No).
+    "A shot in the dark"? (No).
+
+    Let's look at `B12` (Tool) and `B8` (Words) again.
+    `B12` is Tool. `D4` is Weapon.
+    `B8` is Speech.
+    Could it be "The pen is mightier than the sword"?
+    `B8` (Words/Pen)
+    `D4` (Conflict/Sword)
+    `B12` (Tool/Sword)
+    `H13` (After/End) -> If you use the pen, the sword ends?
+    `E11` (None) -> No more sword?
+    `F4` (Earth) + `H12` (Low) -> ?
+
+    Let's rethink the `!r` (F4/H12) and `!y` (B12/D4).
+    `B12` is Tool/Construction.
+    `F4` is Earth. `H12` is Low.
+    Maybe "Digging your own grave"?
+    `F4` (Earth) + `H12` (Low/Below) -> Digging in the ground.
+    `B12` (Tool) + `D4` (Weapon/Conflict) -> Tool for digging? (Shovel).
+    `B8` (Words/Speech) + `C5` (Heart/Love) + `D4` (Conflict) -> ?
+    `H13` (End/Future) + `E11` (Zero/None) + `D4` (Conflict) -> ?
+
+    What if the answer is "The end of the world"?
+    `B8` (Words)
+    `H13` (End)
+    `F4` (Earth)
+    `E11` (Zero/None)
+    `D4` (Conflict/Attack)
+    `C5` (Life/Love - the end of life?)
+    `B12` (Tool) - No.
+
+    Let's look at `!k H13 | D4, E11` again.
+    `H13` (End/After), `D4` (Conflict/Weapon), `E11` (None/Zero).
+    "After the war"? "End of combat"? "No more fighting"?
+
+    Let's look at `?g B8 | D4, C5`.
+    "Words of war and love"?
+    "A declaration of war"?
+    `B8` (Declaration)
+    `D4` (War/Conflict)
+    `C5` (Love/Life) -> ?
+    `B12` (Tool) + `D4` (Weapon) -> ?
+
+    Wait, "Words" + "Conflict" + "Love".
+    "Speak from the heart"?
+    `B8` (Speak)
+    `C5` (Heart)
+    But where does `D4` (Conflict/Weapon) and `F4/H12` (Earth/Low) fit?
+
+    Could it be "Down to earth"? (No).
+
+    Let's try: "The pen is mightier than the sword".
+    `B8` (Words/Pen)
+    `B12` (Tool/Sword)
+    `D4` (Conflict/Sword)
+    `H13` (After) -> After the pen...
+    `E11` (Zero) -> ...zero sword.
+    `F4` (Earth) + `H12` (Low) + `C5` (Love) -> This doesn't fit.
+
+    Let's look at "Lay down your arms" again.
+    `B12` (Tool/Weapon) + `D4` (Conflict/Weapon) = Arms (weapons).
+    `F4` (Earth) + `H12` (Low) = Lay down (to the ground).
+    `H13` (End) + `E11` (None) + `D4` (Conflict) = End of fighting (the meaning).
+    `B8` (Words/Quote) + `C5` (Heart/Love) + `D4` (Conflict) = ?
+
+    Actually, `B8` (Words) + `C5` (Love) + `D4` (Conflict) might be "A broken heart" or "To fight for love" or...
+    Wait, "A declaration of love"? No.
+
+    What about "Kill two birds with one stone"?
+    `D4` (Kill/Conflict)
+    `F4` (Earth/Stone?)
+    `H13` (One - wait, `F11` is one)
+    `E11` (Zero)
+    No.
+
+    Let's look at `B12` (Tool) and `D4` (Conflict) again.
+    Is the tool a "Sword"?
+    Is the tool a "Shield"?
+    Is the tool an "Axe"?
+
+    Wait, `!y B12 + D4`. `B12` is Tool/Construction. `D4` is Conflict/Weapon.
+    `!k H13 + D4 + E11`. `H13` is End/Future. `D4` is Conflict. `E11` is Zero/None.
+    `!r F4 + H12`. `F4` is Earth/Ground. `H12` is Low/Below.
+    `?g B8 + D4 + C5`. `B8` is Words. `D4` is Conflict. `C5` is Love/Heart.
+
+    What if the answer is "Peace talks"?
+    `B8` (Talks)
+    `C5` (Peace/Love?)
+    `H13` (End) + `E11` (Zero) + `D4` (Conflict) (End of fighting)
+    `F4` (Earth) + `H12` (Low) -> ?
+    `B12` (Tool) -> ?
+
+    Let's try "To fight tooth and nail"?
+    No.
+
+    Let's try "A white flag"?
+    `E11` (Zero/None/Absence)
+    `White` (Color)
+    `B8` (Words/Expression - it's a symbol/expression)
+    `D4` (Conflict/Surrender)
+    `H13` (End/After) + `E11` (None) (End of fighting)
+    `F4` (Earth) + `H12` (Low) (Laying it down on the ground)
+    `B12` (Tool/Weapon) -> (It's the opposite of a weapon)
+    `C5` (Love/Heart/Life) -> ?
+
+    "A white flag" or "Surrender".
+    If the answer is "Surrender":
+    `B8` (Expression)
+    `D4` (Conflict/Weapon)
+    `C5` (Love/Life/Heart - maybe a stretch)
+    `H13` (End) + `E11` (None) + `D4` (Conflict) (End of fighting)
+    `F4` (Earth) + `H12` (Low) (Laying it down)
+    `B12` (Tool) -> ?
+
+    Let's re-examine `B12`. `B12` is "Tool / Construction".
+    Is there a tool that is a symbol for something?
+    A hammer? A screwdriver?
+
+    Wait! "The pen is mightier than the sword".
+    `B8` (Words)
+    `B12` (Tool - Pen/Sword)
+    `D4` (Conflict - Sword)

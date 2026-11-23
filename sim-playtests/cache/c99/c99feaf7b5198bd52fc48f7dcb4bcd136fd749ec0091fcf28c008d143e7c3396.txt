@@ -1,0 +1,137 @@
+*   `?g B8`: Main Concept is an Expression, Quote, Talking, or Words.
+    *   `!r B8`: Related idea 1: Expression, Quote, Talking, or Words.
+    *   `+ D14`: (of !r B8) Mouth/Taste. (Connecting words to the mouth/speaking).
+    *   `!y B9`: Related idea 2: Building, Monument, City.
+    *   `+ H10`: (of !y B9) Small/Low.
+    *   `+g B1`: Main Concept is also/has Human/Society/Group.
+    *   `+ E9`: Main Concept is also/has Multitude/Cluster.
+    *   `+y B1`: (of !y B9) Human/Society/Group.
+
+    *   `?g B8` (Expression/Words) + `B1` (Society/Group) + `E9` (Multitude/Cluster).
+    *   `!r B8` (Words) + `D14` (Mouth).
+    *   `!y B9` (City/Building) + `H10` (Small) + `B1` (Society/Group).
+
+    *   The clue-giver said "Yes: Gossip" to the guesses "Gossip, Rumor, A legend".
+    *   "Gossip" is definitely on the right track.
+
+    *   Gossip is a type of *talk* or *expression* (`B8`).
+    *   It involves *people* (`B1`).
+    *   It's often about *many people* or a *crowd* (`E9`).
+    *   It's spoken via the *mouth* (`D14`).
+    *   The `!y` group (B9, H10, B1) suggests a *small community* or *small group of people/city*. This is a very strong hint for "Small town gossip" or something related to social networks in a confined space.
+
+    *   "Gossip" (confirmed on track).
+    *   "Rumors" (similar to gossip).
+    *   "Small town gossip".
+    *   "Word of mouth".
+    *   "Urban legend" (Wait, "A legend" was guessed, but "Gossip" was the "Yes").
+    *   "Social networking" (too modern?).
+    *   "Scandal" (a type of gossip).
+    *   "The grapevine" (Wait, "grapevine" is a common idiom for gossip). Let's check the icons. Is there a grapevine icon? No. But it's a common phrase/idiom.
+    *   Wait, looking at `!y B9 + H10 + B1`. A small human society/group in a city/building.
+    *   Could the answer be "Small town gossip"? Or just "Gossip"? "Gossip" was already guessed and got a "Yes".
+    *   Wait, let's re-read Step 3: Guesses were "Gossip, Rumor, A legend". Clue-giver said "Yes: Gossip". This means the answer *is* likely "Gossip" or something very closely related that is a type of gossip or a specific phrase/expression involving gossip.
+    *   However, usually, when someone says "Yes: [Guess]", the answer is the guess itself or a very close variant. If "Gossip" is the guess and the answer is "Gossip", the game would end. Since the game is continuing, the answer is a *phrase* or a *specific type* of gossip, or perhaps the guess was just "on the right track".
+    *   Let's look at the `!y` group again: Small (H10) + City/Place (B9) + Human/Society (B1).
+    *   Maybe "Small town gossip"? Or "Town gossip"?
+    *   Is there an idiom? "Spreading rumors"?
+    *   What about "Word of mouth"? `B8` (Words) + `D14` (Mouth). But the `!y` markers (Small town/group) don't quite fit "Word of mouth" as perfectly as "Small town gossip".
+    *   Let's try "Small town gossip" or "Rumors". Wait, "Rumor" was guessed and the answer was "Yes: Gossip". This means the answer is more specific or a phrase involving gossip.
+    *   Maybe "Social gossip"? "Street gossip"?
+    *   Look at `E9` (Multitude/Cluster). Gossip spreads through a cluster of people.
+    *   Is it "Gossip"? If the answer is "Gossip", the clue-giver would have said "Correct". "Yes: Gossip" means "You are on the right track with the concept of gossip".
+
+    *   Gossip/Rumor (on track).
+    *   It involves a small community/town (B9, H10, B1).
+    *   It involves many people/a crowd (E9).
+    *   It involves mouth/speaking (D14).
+    *   It's a type of expression (B8).
+
+    Candidate: **"Small town gossip"**
+    Candidate: **"Grapevine"** (Idiom for gossip).
+    Candidate: **"Scandal"**
+    Candidate: **"Word of mouth"**
+
+    Wait, "Word of mouth" fits `B8` (Words) and `D14` (Mouth) very well. Does it fit `B9` (City) and `H10` (Small) and `B1` (Society)? Not really.
+    "Small town gossip" fits `B9`, `H10`, `B1`, and `E9` (the crowd/cluster) and `D14` (mouth) and `B8` (words) perfectly.
+
+    Let's look at the markers again.
+    `?g B8` (Expression/Words)
+    `+g B1` (Human/Society)
+    `+g E9` (Multitude)
+    `!r B8` (Expression) `+ D14` (Mouth)
+    `!y B9` (City) `+ H10` (Small) `+ B1` (Human)
+
+    Answer could be "Small town gossip".
+
+    What about "Urban legend"? "A legend" was guessed, but clue-giver said "Yes: Gossip". So it's a *type* of gossip or something related. "Urban legend" is a type of legend/story that spreads. "Urban" = City (B9). "Legend" is a story/expression (B8).
+    But `H10` is *Small*. "Urban legend" doesn't imply "small".
+    "Small town gossip" implies "Small" (H10) + "Town" (B9) + "Gossip" (B8/D14).
+
+    Let's check "Small town gossip".
+    `B8` (Expression) - Yes.
+    `B1` (Society) - Yes.
+    `E9` (Multitude/Cluster) - Yes, many people talking.
+    `D14` (Mouth) - Yes.
+    `B9` (City/Town) - Yes.
+    `H10` (Small) - Yes.
+
+    Another possibility: "Rumor mill"?
+    "Mill" would be `D7` (Mechanical) or `B12` (Tool), not `B9` (City).
+
+    Let's try:
+    1. Small town gossip
+    2. Word of mouth
+    3. Scandal
+
+    Wait, "Word of mouth" was a good thought, but the "Small town" part is very specific.
+    Could it be "Gossip"? If I guess "Gossip" and it's "Correct", the game ends. But "Yes: Gossip" means "Gossip" is the *category* or is *part* of the answer.
+
+    Let's refine "Small town gossip".
+    Is there any other idiom? "Spreading rumors"?
+    "Small town" is so clearly `B9 + H10 + B1`.
+
+    Let's look at `E9` (Multitude/Cluster) again. A crowd of people.
+    "Small town gossip" seems the strongest.
+
+    Another look at `B9` (City/Building/Monument). Could it be "Local news"? "Local gossip"?
+
+    Let's try:
+    1. Small town gossip
+    2. Gossip
+    3. Rumor
+
+    Wait, if the guesser says "Gossip" and the clue-giver says "Yes: Gossip", it means "Gossip" is not the answer, but it's the right direction. If the answer were "Gossip", the clue-giver would have said "Correct".
+
+    Wait! If the answer is "Gossip", why would the clue-giver say "Yes: Gossip"?
+    In Concept, if you guess the exact word, the clue-giver says "Correct".
+    If you guess something *close* to the word, the clue-giver says "Yes: [your guess]".
+    So the answer is *not* "Gossip". It is something *like* gossip, or a phrase containing "gossip".
+
+    "Small town gossip" is a very strong candidate.
+    "Urban legend" was close (they guessed "A legend"), but it didn't fit "Small".
+    "Small town rumors"?
+
+    Let's try "Small town gossip".
+
+    Wait, one more look. `!y B9 + H10 + B1`.
+    `B9` is Building/Monument/City.
+    `H10` is Small.
+    `B1` is Human/Society.
+    This is almost certainly "Small town".
+
+    `?g B8` (Expression/Words)
+    `!r B8 + D14` (Words from mouth)
+    `+g B1 + E9` (A lot of people/society)
+
+    "Small town gossip" fits everything.
+
+    What about "Town gossip"?
+    What about "Local gossip"?
+
+    Let's try "Small town gossip".
+
+    Another thought: "Social media"?
+    `C7` (Electronic/Computing) is not there. `E9` (Multitude) and `B1` (Society) could be social media, but `B9` (City) and `H10` (Small) and `D14` (Mouth) don't fit.
+
+    "Small town gossip" is my primary guess.

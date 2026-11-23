@@ -1,0 +1,119 @@
+*   Initial markers:
+        *   `?g B8` (Main Concept: Expression – Quote / Talking / Words)
+        *   `+ F8` (Sub-concept: Cut – Break / Separation / Half)
+    *   Initial guesses: "A broken promise", "A comma", "A broken record".
+    *   Clue-giver says: "No" to all.
+    *   New marker:
+        *   `+g E1` (Sub-concept for the main concept: Cold / Snow – Rain / Cloud)
+    *   Summary of current clues:
+        *   Main Concept: An expression, a quote, talking, or words.
+        *   Detail 1: Related to cutting, breaking, or separation.
+        *   Detail 2: Related to cold, snow, rain, or clouds.
+
+    *   `B8` (Words/Expression) + `F8` (Break/Cut/Separate) + `E1` (Cold/Snow/Rain/Cloud).
+    *   Let's look at expressions related to "cold" or "snow" or "rain" and "breaking" or "cutting".
+
+    *   *Possibility 1: "Break the ice"*
+        *   `B8` (Expression/Talking): Yes.
+        *   `F8` (Break): Yes.
+        *   `E1` (Cold/Ice): Yes.
+        *   Does "Break the ice" fit? "Break" (F8) the "Ice" (E1). It's an expression (B8).
+    *   *Possibility 2: "Cold feet"*
+        *   `B8` (Expression): Yes.
+        *   `E1` (Cold): Yes.
+        *   `F8` (Break/Separate): Doesn't really fit.
+    *   *Possibility 3: "Rain check"*
+        *   `B8` (Expression/Words): Yes.
+        *   `E1` (Rain): Yes.
+        *   `F8` (Break/Cut/Separation): Not really.
+    *   *Possibility 4: "A storm in a teacup"*
+        *   `E1/F2`: Storm.
+        *   `B8`: Expression.
+        *   `F8`: No.
+    *   *Possibility 5: "Walking on thin ice"*
+        *   `E1`: Ice.
+        *   `F8`: Thin/Cut? Not quite.
+
+    *   "Break the ice" fits all three categories perfectly:
+        *   `B8` (Expression/Talking)
+        *   `F8` (Break)
+        *   `E1` (Cold/Ice/Snow)
+
+    1. Break the ice
+    2. Cold feet (less likely, but worth considering if 1 isn't it)
+    3. Rain check (less likely)
+
+    Wait, let's look at `F8` again: "Cut – Break / Separation / Half".
+    `E1`: "Cold / Snow – Rain / Cloud".
+    `B8`: "Expression – Quote / Talking / Words".
+
+    "Break the ice" seems extremely strong.
+
+    Let's check if there's anything else.
+    What about "cutting edge"?
+    `B8`: No, that's an adjective/concept.
+    `F8`: Cut.
+    `E1`: No.
+
+    "Snowed under"?
+    `E1`: Snow.
+    `B8`: Expression.
+    `F8`: No.
+
+    "Break the news"?
+    `B8`: Yes.
+    `F8`: Break.
+    `E1`: No.
+
+    "Break a leg"?
+    `B8`: Yes.
+    `F8`: Break.
+    `E1`: No.
+
+    "Break the ice" is definitely the strongest candidate.
+
+    1. Break the ice
+    2. A cold shoulder (Wait, "Cold" = E1, "Shoulder" = C12, "Expression" = B8. "Break" = F8. Does "Break the cold shoulder" exist? No. "Give someone the cold shoulder"?)
+    3. Brain freeze (Not an expression/quote in the same sense?)
+
+    Let's re-examine `F8` (Cut/Break/Separate/Half).
+    "Break the ice" fits "Break" and "Ice".
+
+    Another one: "Cutting rain"? No.
+    "A rip in the clouds"? No.
+
+    Let's stick with "Break the ice".
+
+    *Self-Correction:* The user wants up to 3 guesses.
+
+    1. Break the ice
+    2. A cold shoulder (even though F8 is a stretch)
+    3. Brain freeze (stretch)
+
+    Actually, I'll just provide the most likely one.
+
+    Wait, let's look at `F8` (Cut/Break/Separation/Half).
+    Could it be "a divide"? No, B8 is expressions.
+    "A split decision"?
+    `B8`: Expression.
+    `F8`: Split.
+    `E1`: No.
+
+    "Break the ice" is the winner.
+
+    1. Break the ice
+    2. Cold feet
+    3. Snowed under
+
+    Wait, I should prioritize the most logical ones based on the symbols.
+
+    `?g B8` (Expression)
+    `+ F8` (Break)
+    `+g E1` (Cold/Ice)
+
+    "Break the ice" is 100% the intended answer.
+
+    Guesses:
+    1. Break the ice
+    2. Cold feet
+    3. Rain check

@@ -1,0 +1,170 @@
+*   `?g B10` (Main Concept): Celebration/Anniversary/Holiday.
+    *   `+ A10` (Detail for B10): Date/Event/Day.
+    *   `+ C1` (Detail for B10): Baby/Child/Young/New.
+    *   `!r A8` (Sub-concept 1 - Red): Idea/Intelligence/Concept.
+    *   `+ H13` (Detail for A8): Right/End/After/Future.
+    *   `+ B8` (Detail for A8): Expression/Quote/Talking/Words.
+
+    *   Main Concept: A celebration/holiday/anniversary.
+    *   Details of Main Concept: It's related to a "day" and "babies/children/newness".
+    *   Sub-concept: An idea/concept related to "future" and "words/expression/speaking".
+
+    *   *Scenario 1: A specific holiday.*
+        *   "Baby" + "Holiday/Celebration" + "Day" =?
+        *   Maybe "New Year's Day"? (Newness/Young/C1).
+        *   Maybe "Baby Shower"? (Not really a day/holiday in the strict sense, but a celebration).
+        *   Maybe "Birthday"? (A celebration of a day, celebrates a birth/newness).
+
+    *   *Scenario 2: Analyzing the Sub-concept (Red).*
+        *   `!r A8` (Idea/Concept) + `H13` (Future/After) + `B8` (Words/Expressions).
+        *   Maybe "Blessing"? (A word/expression of hope/future).
+        *   Maybe "Prophecy"? (Words about the future).
+        *   Maybe "Greeting"? (Words spoken).
+        *   Maybe "Toast"? (Words spoken during a celebration).
+        *   Maybe "New Year's Resolution"? (An idea/concept, about the future, spoken/expressed).
+
+    *   *Scenario 3: Connecting Main and Sub.*
+        *   Main: Celebration/Day/Newness.
+        *   Sub: Future/Words/Idea.
+        *   "Happy New Year" (The phrase)? (Celebration + Words/Expression + Future).
+        *   "Birthday"? (A celebration of a day. Does it fit the sub-concept? Not clearly).
+        *   "Baptism"? (A celebration/ritual for a child, a concept/idea, involves words/spoken).
+        *   "New Year's Eve"?
+        *   "New Year's Day"?
+
+    *   Let's look closer at `!r A8` + `H13` + `B8`.
+        *   `A8` (Idea) + `H13` (Future/After) + `B8` (Words).
+        *   Maybe "Blessing"? "Prayer"? "Wishing"?
+        *   Is the answer "New Year"?
+            *   `?g B10` (Celebration)
+            *   `+ A10` (Day/Date)
+            *   `+ C1` (New/Baby/Young) -> New Year.
+            *   `!r A8` (Idea/Concept) + `H13` (Future) + `B8` (Words) -> "New Year's Resolutions" or just "New Year"?
+            *   Actually, "New Year's Resolution" is a concept (`A8`), about the future (`H13`), and expressed via words (`B8`).
+
+    *   Let's try "Birthday".
+        *   `?g B10` (Celebration)
+        *   `+ A10` (Day)
+        *   `+ C1` (Child/New/Birth)
+        *   `!r A8` (Concept) + `H13` (Future) + `B8` (Words) -> ??? Doesn't fit well.
+
+    *   Let's try "New Year".
+        *   `?g B10` (Holiday)
+        *   `+ A10` (Day)
+        *   `+ C1` (New/Young)
+        *   `!r A8` (Concept) + `H13` (Future) + `B8` (Words) -> "New Year's Resolution"? Or "New Year's Eve"? Or "New Year's Greetings"?
+
+    *   Wait, let's check `A8` + `H13` + `B8` again.
+        *   `A8` (Idea)
+        *   `H13` (Future)
+        *   `B8` (Words/Talking)
+        *   Could be "Resolution" or "New Year's Resolution"? Or "Promise"? Or "Greeting"?
+
+    *   Could the answer be "Baby Shower"?
+        *   `?g B10` (Celebration)
+        *   `+ C1` (Baby)
+        *   `+ A10` (Date/Day/Event)
+        *   `!r A8` (Idea) + `H13` (Future) + `B8` (Words/Speech) -> A "wish"? A "blessing"?
+
+    *   Let's look at the "New" part of `C1` again. It's often used for "New Year" or "New Beginning".
+    *   If the answer is "New Year's Eve":
+        *   `?g B10` (Holiday)
+        *   `+ A10` (Day)
+        *   `+ C1` (New - for New Year)
+        *   `!r A8` (Concept/Idea) + `H13` (Future) + `B8` (Words) -> "New Year's Eve" doesn't quite fit the red markers as a sub-concept, but a "Resolution" does.
+
+    *   What about "Birthday"?
+        *   `?g B10` (Celebration)
+        *   `+ A10` (Day)
+        *   `+ C1` (Birth/Young)
+        *   `!r A8` (Idea) + `H13` (Future) + `B8` (Words) -> "Birthday wish"?
+
+    *   Let's re-examine `A8 + H13 + B8`.
+        *   `A8`: Idea
+        *   `H13`: Future/After
+        *   `B8`: Speech/Words
+        *   "Prophecy"? "Prediction"? "Fortune Telling"? (No, not a celebration).
+        *   "Resolution"? (Is a resolution a celebration? Not really, it's an idea/concept/words/future).
+        *   "New Year's Resolution" - It's an idea (`A8`), about the future (`H13`), and involves words/expression (`B8`). Is it a celebration? Not a celebration itself, but closely tied to New Year.
+
+    *   Let's try "New Year's Resolution".
+    *   Let's try "Birthday".
+    *   Let's try "New Year".
+
+    Wait, look at `?g B10` (Celebration) and `+ A10` (Day) and `+ C1` (Child/New).
+    Could it be "Christening" or "Baptism"?
+    `?g B10` (Celebration/Event)
+    `+ C1` (Baby)
+    `+ A10` (Day)
+    `!r A8` (Idea) + `H13` (Future) + `B8` (Words/Speech) -> A "Blessing" or "Vow"?
+
+    Actually, let's try "New Year's Eve" or "New Year's Resolution".
+    Wait, `C1` also means "New".
+    `A10` is "Date/Event".
+    `B10` is "Celebration".
+    `A8` is "Idea/Intelligence".
+    `H13` is "Future/After".
+    `B8` is "Words/Speech".
+
+    Could it be "New Year's Eve"?
+    Or "New Year's Resolution"?
+
+    Let's look at `C1` again. "Baby/Child/Young/New".
+    If the answer is "New Year":
+    Main: Holiday (`B10`), Day (`A10`), New (`C1`).
+    Sub: Idea (`A8`), Future (`H13`), Words (`B8`).
+    This fits "New Year's Resolution" better as the sub-concept, but the main concept is the Holiday.
+
+    Another possibility: "Christmas"? No, doesn't fit "New/Child" as well as "New Year".
+    Another: "Birthday".
+    Another: "Baby Shower".
+
+    Let's consider "New Year's Resolution" as a whole?
+    `?g B10` (Celebration - a bit of a stretch for a resolution, but maybe).
+    Actually, `B10` is "Celebration/Anniversary/Holiday". A "Resolution" isn't a holiday.
+
+    Let's try "New Year".
+    Guesses:
+    1. New Year
+    2. Birthday
+    3. New Year's Resolution
+
+    Wait, `!r A8` (Idea) + `H13` (Future) + `B8` (Words/Expression).
+    This is very specific. "Promise"? "Vow"? "Resolution"?
+    If the sub-concept is "Resolution", the main concept (Celebration/Day/New) is "New Year".
+
+    Let's try:
+    1. New Year
+    2. Birthday
+    3. New Year's Resolution
+
+    *Self-Correction:* If the answer is "New Year's Resolution", the `?g` would be `A8`. But the `?g` is `B10`.
+    So the answer is a Celebration/Holiday/Anniversary.
+    A holiday that is a "Day" and "New" (C1).
+    "New Year" or "New Year's Eve".
+    And there is an idea/concept related to it that is "Future-oriented" and "Spoken/Words".
+    "New Year's Resolution" is the sub-concept.
+
+    Let's go.
+
+    1. New Year
+    2. Birthday
+    3. Baby Shower
+
+    Wait, "New Year's Eve" is also a strong candidate.
+
+    Final check:
+    `?g B10` (Celebration)
+    `+ A10` (Day)
+    `+ C1` (New)
+    `!r A8` (Idea)
+    `+ H13` (Future)
+    `+ B8` (Words)
+
+    "New Year" fits the main concept perfectly.
+    The sub-concept `A8-H13-B8` is a "Resolution" (an idea about the future expressed in words).
+
+    Let's try:
+    1. New Year
+    2. Birthday
+    3. New Year's Eve

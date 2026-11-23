@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Octopus",
+    "8-minute egg",
+    "8-course meal"
+  ]
+,
+  "pass": false
+}

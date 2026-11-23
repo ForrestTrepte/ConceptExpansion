@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Banknote",
+    "Paper money",
+    "Dollar"
+  ]
+,
+"pass": false
+}

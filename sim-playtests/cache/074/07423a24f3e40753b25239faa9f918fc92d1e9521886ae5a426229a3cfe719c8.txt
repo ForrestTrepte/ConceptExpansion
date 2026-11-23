@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Pandora's box",
+    "Urn",
+    "Reliquary"
+  ]
+,
+  "pass": false
+}

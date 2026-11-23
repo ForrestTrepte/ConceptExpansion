@@ -50,7 +50,7 @@ def nxt(verdict: str, lines: list[str], yes_to: str = "", action: str = "clue") 
 
 
 def guess(*g: str) -> dict[str, Any]:
-    return {"guesses": list(g), "pass": False}
+    return {"guesses": list(g)}
 
 
 def judged(*correct: bool) -> dict[str, Any]:
@@ -146,7 +146,7 @@ def test_skip_and_give_up_and_pass() -> None:
         judge=[judged(False)],
     )
     assert run_full(gave_up).outcome == "gave_up"
-    passed = Script(clue_giver=[first(["?g A14"])], guesser=[{"guesses": [], "pass": True}])
+    passed = Script(clue_giver=[first(["?g A14"])], guesser=[{"guesses": []}])
     assert run_full(passed).outcome == "passed"
 
 
@@ -292,9 +292,9 @@ def test_openrouter_guesser_request() -> None:
 
 
 def test_structured_reply_from_either_backend() -> None:
-    assert simplay.structured({"structured_output": {"pass": True}}) == {"pass": True}
-    fenced = {"choices": [{"message": {"content": '```json\n{"guesses": ["Cat"], "pass": false}\n```'}}]}
-    assert simplay.structured(fenced) == {"guesses": ["Cat"], "pass": False}
+    assert simplay.structured({"structured_output": {"guesses": []}}) == {"guesses": []}
+    fenced = {"choices": [{"message": {"content": '```json\n{"guesses": ["Cat"]}\n```'}}]}
+    assert simplay.structured(fenced) == {"guesses": ["Cat"]}
     assert simplay.structured({"choices": [{"message": {"content": "Cat!"}}]}) is None
     assert simplay.structured("nope") is None
 
@@ -307,3 +307,10 @@ def test_only_the_guesser_uses_openrouter(tmp_path: Path) -> None:
     )
     with pytest.raises(ValueError, match="only the guesser"):
         simplay.load_spec("x", tmp_path)
+
+
+def test_openrouter_reasoning_off() -> None:
+    s = replace(spec("human-clues"), guesser=Role("google/gemma-4-26b-a4b-it", "none", "openrouter"))
+    body = simplay.guesser_request(s, [])["body"]
+    assert body["reasoning"] == {"enabled": False}
+    assert set(body["response_format"]["json_schema"]["schema"]["properties"]) == {"guesses"}

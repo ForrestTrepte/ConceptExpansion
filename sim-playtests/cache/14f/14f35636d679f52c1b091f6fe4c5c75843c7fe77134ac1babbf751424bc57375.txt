@@ -1,0 +1,7 @@
+{
+  "guesses": [
+    "Rock, Paper, Scissors"
+  ]
+,
+  "pass": false
+}

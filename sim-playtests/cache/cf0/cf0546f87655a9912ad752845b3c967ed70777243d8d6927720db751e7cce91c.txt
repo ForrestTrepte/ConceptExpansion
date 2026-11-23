@@ -1,0 +1,75 @@
+*   `?g A13`: Main Concept is A13 (Game / Toy).
+    *   `+ D11`: Feature/Related is D11 (Arm / Hand / Finger).
+    *   `!r E5`: Sub-concept 1 (red) is E5 (Stone / Mineral / Hard).
+    *   `!y F7`: Sub-concept 2 (yellow) is F7 (Paper / Sheet).
+    *   `!b F8`: Sub-concept 3 (blue) is F8 (Cut / Break / Separation / Half).
+
+    *   Subject: A Toy or Game.
+    *   Feature/Detail: Involves hands/fingers.
+    *   Red Detail: Made of or associated with stone/hard material.
+    *   Yellow Detail: Made of or associated with paper.
+    *   Blue Detail: Involves cutting, breaking, or half.
+
+    *   A game or toy.
+    *   Needs hands/fingers.
+    *   Stone/Hard (E5).
+    *   Paper (F7).
+    *   Cut/Break/Half (F8).
+
+    *   Maybe a puzzle? (F9 is puzzle, but F8 is cut/break).
+    *   Jigsaw puzzle (F9 is pieces, but maybe a paper puzzle?).
+    *   What about a game that uses stone and paper?
+    *   Rock, Paper, Scissors?
+        *   A13 (Game/Toy): Yes.
+        *   D11 (Hand/Finger): Yes, uses hands.
+        *   E5 (Stone/Hard): "Rock".
+        *   F7 (Paper): "Paper".
+        *   F8 (Cut/Break/Half): "Scissors" (Scissors cut/break).
+
+    *   *Rock, Paper, Scissors* fits perfectly.
+
+    1. Rock, Paper, Scissors
+    2. Jigsaw puzzle (Wait, F7 is paper, F8 is cut/half. Jigsaw fits but doesn't quite hit "stone" as well as "Rock" in the idiom).
+    3. Dice (A13, but doesn't fit the rest well).
+
+    *   Rock, Paper, Scissors.
+
+    *   `?g A13`: Game/Toy.
+    *   `+ D11`: Hands/Fingers.
+    *   `!r E5`: Stone/Rock.
+    *   `!y F7`: Paper.
+    *   `!b F8`: Cut/Scissors.
+
+    The mapping is extremely strong.
+
+    *Wait, let me double check the markers notation.*
+    `?g A13` = Main concept is a Toy/Game.
+    `+ D11` = Add detail to the main concept: Arm/Hand/Finger.
+    `!r E5` = Sub concept (red) is Stone/Hard.
+    `!y F7` = Sub concept (yellow) is Paper.
+    `!b F8` = Sub concept (blue) is Cut/Break/Separation/Half.
+
+    "Rock, Paper, Scissors"
+    Rock (E5)
+    Paper (F7)
+    Scissors (F8 - cut/separate)
+    Hand/Finger (D11)
+    Game (A13)
+
+    This is a perfect match.
+
+    *Another possibility?*
+    Paper airplanes? (A13, F7, D11, maybe B11/E4, but doesn't fit E5 or F8).
+    Building blocks? (A13, E5, but doesn't fit F7/F8).
+
+    "Rock, Paper, Scissors" is the most logical.
+
+    *One more check on F8:* "Cut - Break - Separation - Half". Scissors are the tool used for cutting/separating.
+
+    Guess 1: Rock, Paper, Scissors.
+    Guess 2: Jigsaw puzzle.
+    Guess 3: Board game. (Or maybe something else? Let's just stick to the strongest).
+
+    Actually, I'll just provide the strongest.
+
+    1. Rock, Paper, Scissors.

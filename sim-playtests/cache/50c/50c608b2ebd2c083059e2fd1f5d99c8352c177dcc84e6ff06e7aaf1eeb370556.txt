@@ -1,0 +1,222 @@
+*   ?g B10 (Celebration/Anniversary/Holiday)
+    *   + A10 (Date/Event/Day)
+    *   + C1 (Baby/Child/Young)
+    *   !r A8 (Idea/Intelligence/Concept)
+    *   + H13 (Right/End/After/Future)
+    *   + B8 (Expression/Quote/Talking/Words)
+    *   !y H14 (Use/Action/Verb/Button)
+    *   + H13 (Right/End/After/Future)
+    *   + B8 (Expression/Quote/Talking/Words)
+    *   + G14 (Turn/Around/Cycle/Repetition)
+    *   !b D8 (Time/Duration)
+    *   + G14 (Turn/Around/Cycle/Repetition)
+    *   + F11 (One/Unit/Number)
+    *   + C1 (Baby/Child/Young)
+
+    *   *Current Answer State:* A Celebration/Holiday (B10) that is a Date/Event (A10) involving a Child/Baby (C1).
+    *   *Clue-giver feedback:* "Yes: Birthday" (The answer is related to Birthday).
+    *   *Sub-concept 1 (Red - !r):* An Idea/Concept (A8) about the future (H13) or words/expressions (B8).
+    *   *Sub-concept 2 (Yellow - !y):* An action/verb (H14) involving words (B8) and repetition/cycle (G14).
+    *   *Sub-concept 3 (Blue - !b):* Time/Duration (D8) involving repetition/cycle (G14), the number one (F11), and baby/child (C1).
+
+    *   *Re-evaluating the clues for "Birthday":*
+        *   The answer is *related* to Birthday, but it's not "Anniversary", "Graduation", "Wedding", "First Birthday", "Happy Birthday", or "Birthday Song".
+    *   *Wait, let's look at the "?" marker again:* `?g B10`. The main concept is a Celebration.
+    *   *The Red group (!r):* Idea (A8) + Future/End (H13) + Words (B8). This could be "Wishing" or "Saying".
+    *   *The Yellow group (!y):* Action (H14) + End/Future (H13) + Words (B8) + Cycle (G14). "Repeating words"? "Saying it every year"?
+    *   *The Blue group (!b):* Time (D8) + Cycle (G14) + One (F11) + Child (C1). "Once a year for a child"? "Annual"?
+
+    *   Let's look at the combination:
+        *   A celebration (B10) that happens on a specific day (A10) for a young person (C1).
+        *   An idea/word/expression (A8, B8) that repeats (G14).
+        *   Time (D8) that is one (F11) and cycles (G14).
+
+    *   The answer is "Birthday" related.
+    *   Common phrases: "Happy Birthday" (Rejected), "Birthday Boy/Girl", "Birthday Party", "Birthday Cake", "Birthday Present", "Birthday Card".
+    *   Wait, look at Step 3: "Happy Birthday" was rejected. "Birthday Song" was rejected.
+    *   Look at the Red group again: `A8` (Idea) + `B8` (Words). "A saying/expression".
+    *   Look at the Yellow group: `H14` (Action) + `B8` (Words) + `G14` (Cycle). "Saying it regularly"?
+    *   Look at the Blue group: `D8` (Time) + `G14` (Cycle) + `F11` (One) + `C1` (Child). "Every year for a child"? "Once a year"?
+
+    *   Let's reconsider the concept. Is the answer **"Birthday Cake"**?
+        *   B10 (Celebration) - Yes.
+        *   A10 (Date) - Yes.
+        *   C1 (Child) - Yes.
+        *   Wait, how do the sub-concepts fit "Cake"?
+        *   !r A8 (Idea) + B8 (Words)? No.
+        *   !y H14 (Action) + B8 (Words) + G14 (Cycle)? No.
+
+    *   Is the answer **"Birthday Card"**?
+        *   !r A8 (Idea) + B8 (Words)? Yes.
+        *   !y H14 (Action) + B8 (Words) + G14 (Cycle)? Yes (Writing/Saying/Sending).
+        *   !b D8 (Time) + F11 (One) + C1 (Child)? Not really.
+
+    *   What about **"Birthday Party"**?
+        *   !r A8 (Idea) + B8 (Words)? No.
+
+    *   Let's look at the Blue group again: `D8` (Time) + `G14` (Cycle) + `F11` (One) + `C1` (Baby/Child).
+    *   "One year old"? "Age"?
+    *   "Every year"? "Annually"?
+    *   The main concept is B10 (Celebration).
+    *   What is a celebration involving words (B8), an idea (A8), and happening once a year (D8, G14, F11)?
+    *   Maybe the answer is **"Birthday Wish"**?
+        *   B10 (Celebration) - Yes.
+        *   A10 (Date) - Yes.
+        *   C1 (Child) - Yes.
+        *   !r A8 (Idea) + B8 (Words) - Yes, a wish is an idea expressed in words.
+        *   !y H14 (Action) + B8 (Words) + G14 (Cycle) - "Making a wish"?
+        *   !b D8 (Time) + G14 (Cycle) + F11 (One) + C1 (Child) - "Make one wish every year"?
+
+    *   Let's try another angle. The clues:
+        *   ?g B10 (Celebration)
+        *   !r A8 (Idea) + B8 (Words)
+        *   !y H14 (Action) + B8 (Words) + G14 (Cycle)
+        *   !b D8 (Time) + G14 (Cycle) + F11 (One) + C1 (Child)
+        *   "Birthday" was "Yes".
+
+    *   Could the answer be **"Birthday Cake"**? (Already checked).
+    *   Could it be **"Candle"**?
+        *   B10 (Celebration) - Yes.
+        *   A10 (Date) - Yes.
+        *   C1 (Child) - Yes.
+        *   !r A8 (Idea/Words)? No.
+    *   Could it be **"Birthday Present"**? No.
+
+    *   Let's re-examine `!y H14 | H13, B8, G14`.
+        *   H14 (Action)
+        *   H13 (End/Future/Right)
+        *   B8 (Words/Expression)
+        *   G14 (Cycle/Repeat)
+        *   Action of repeating words for the future? "Saying Happy Birthday"? (Rejected).
+
+    *   Let's re-examine `!b D8 | G14, F11, C1`.
+        *   D8 (Time)
+        *   G14 (Cycle/Repeat)
+        *   F11 (One)
+        *   C1 (Baby/Child)
+        *   "One year of age"? "Age"?
+
+    *   Wait... **"Age"**?
+        *   Is "Age" a Celebration (B10)? No.
+
+    *   What about **"Birthday"** itself? (The clue-giver said "Yes: Birthday", implying the answer is related to but not necessarily "Birthday" itself). Usually, in Concept, if the guess is "Birthday" and the answer is "Birthday", they say "Correct". Since they said "Yes: Birthday", the answer is a *type* of birthday or something *at* a birthday.
+
+    *   Let's look at the sub-concepts again.
+        *   !r A8 (Idea) + B8 (Words) -> "A phrase" or "A greeting".
+        *   !y H14 (Action) + B8 (Words) + G14 (Cycle) -> "Saying a greeting".
+        *   !b D8 (Time) + G14 (Cycle) + F11 (One) + C1 (Child) -> "Once a year for a child".
+
+    *   What is a greeting for a birthday?
+        *   "Happy Birthday" (Rejected).
+        *   "Birthday wishes"?
+        *   "Birthday greeting"?
+
+    *   Wait, look at the Blue group again: `D8` (Time), `G14` (Cycle), `F11` (One), `C1` (Child).
+    *   Could it be **"Age"**? No, main concept is Celebration.
+    *   Could it be **"Year"**? No.
+    *   Could it be **"First Birthday"**? (Rejected).
+
+    *   Let's look at the Red/Yellow/Blue distinction.
+        *   Red: Idea (A8) + Words (B8).
+        *   Yellow: Action (H14) + Words (B8) + Cycle (G14).
+        *   Blue: Time (D8) + Cycle (G14) + One (F11) + Child (C1).
+
+    *   Is the answer **"Birthday Party"**? (No, doesn't fit the word/idea clues well).
+    *   Is the answer **"Birthday Wish"**?
+    *   Is the answer **"Birthday Cake"**?
+    *   Is the answer **"Candle"**? (A candle on a cake... one candle for each year?)
+
+    *   Let's look at `!b D8 | G14, F11, C1` again.
+        *   Time (D8)
+        *   Cycle (G14)
+        *   One (F11)
+        *   Child (C1)
+        *   "One year old"? "One year cycle"?
+    *   Look at `!y H14 | H13, B8, G14`.
+        *   Action (H14)
+        *   End (H13)
+        *   Words (B8)
+        *   Cycle (G14)
+        *   "To say a word at the end of a cycle"?
+
+    *   Could the answer be **"Birthday"**? (Wait, I already thought about this. If the answer is "Birthday", the clue-giver would say "Correct" when the user guessed "Birthday".)
+
+    *   What about **"Age"**? No, B10 is Celebration.
+    *   What about **"Anniversary"**? (Rejected).
+    *   What about **"New Year"**? (User guessed, but clue-giver said "Yes: Birthday", so it's a birthday-related thing).
+
+    *   Let's look at the Blue group again. `F11` is "One". `G14` is "Cycle". `D8` is "Time".
+    *   "One year"?
+    *   If the answer is **"Age"**, it doesn't fit B10.
+    *   If the answer is **"Birthday Cake"**, it doesn't fit A8/B8/H14.
+
+    *   Wait! `!r A8 (Idea) + B8 (Words)` and `!y H14 (Action) + B8 (Words) + G14 (Cycle)`.
+    *   Maybe the answer is **"Birthday Greeting"** or **"Birthday Wish"**?
+    *   Or... **"Birthday Card"**?
+    *   Or... **"Birthday Boy"**? (C1 is Child, but A8/B8/H14/G14/D8/F11 is a lot of info for "Boy").
+
+    *   Let's look at `!b D8 | G14, F11, C1` one more time.
+        *   `D8` (Time)
+        *   `G14` (Cycle)
+        *   `F11` (One)
+        *   `C1` (Child)
+        *   This strongly suggests "One year" or "A year".
+    *   Let's look at `!y H14 | H13, B8, G14`.
+        *   `H14` (Action)
+        *   `H13` (Future/End)
+        *   `B8` (Words)
+        *   `G14` (Cycle)
+        *   "To say words at the end of a cycle/year"?
+
+    *   Is the answer **"Birthday Wish"**?
+        *   Celebration (B10) - Yes.
+        *   Date (A10) - Yes.
+        *   Child (C1) - Yes.
+        *   Idea/Words (A8, B8) - Yes.
+        *   Action/Words/Cycle (H14, B8, G14) - Yes, you make a wish.
+        *   Time/Cycle/One/Child (D8, G14, F11, C1) - One wish every year?
+
+    *   Wait, another possibility: **"Birthday"** is the concept, but the answer is **"Age"**? No, B10.
+    *   Is it **"Cake"**? No.
+    *   Is it **"Candle"**?
+    *   Is it **"Present"**?
+    *   Is it **"Party"**?
+
+    *   Let's look at the Blue group again. `F11` (One), `G14` (Cycle), `D8` (Time), `C1` (Child).
+    *   Could the answer be **"Age"**? (If we ignore B10 for a second). No, can't ignore B10.
+    *   What about **"A Year"**? No.
+    *   What about **"Milestone"**?
+        *   B10 (Celebration) - Yes.
+        *   A10 (Date) - Yes.
+        *   C1 (Child) - Yes.
+        *   !r A8 (Idea) + B8 (Words)? Maybe.
+        *   !y H14 (Action) + B8 (Words) + G14 (Cycle)? Maybe.
+        *   !b D8 (Time) + G14 (Cycle) + F11 (One) + C1 (Child)? Maybe.
+
+    *   Let's try: **"Birthday Wish"**, **"Birthday Card"**, **"Birthday Cake"**.
+    *   Wait, the user already guessed "Happy Birthday" and "Birthday Song" and "First Birthday" and "Anniversary" and "Graduation" and "Wedding".
+
+    *   Let's look at `!r A8 (Idea) + B8 (Words)`. This is a very strong indicator for a phrase or a saying.
+    *   And `!y H14 (Action) + B8 (Words) + G14 (Cycle)`. This is "saying words repeatedly".
+    *   And `!b D8 (Time) + G14 (Cycle) + F11 (One) + C1 (Child)`. This is "one year of age".
+    *   What if the answer is **"Age"**? No, B10.
+    *   What if the answer is **"Birthday"** and the user just hasn't guessed it correctly? (But the clue-giver said "Yes: Birthday").
+
+    *   Let's look at the symbols again.
+    *   `?g B10` (Celebration)
+    *   `+ A10` (Date)
+    *   `+ C1` (Child)
+    *   `!r A8` (Idea)
+    *   `+ H13` (Future/End)
+    *   `+ B8` (Words)
+    *   `!y H14` (Action)
+    *   `+ H13` (End)
+    *   `+ B8` (Words)
+    *   `+ G14` (Cycle)
+    *   `!b D8` (Time)
+    *   `+ G14` (Cycle)
+    *   `+ F11` (One)
+    *   `+ C1` (Child)
+
+    *   Could it be **"Age"**? (If the main concept was A8/A10?) No.
+    *   Could it be **"Birthday

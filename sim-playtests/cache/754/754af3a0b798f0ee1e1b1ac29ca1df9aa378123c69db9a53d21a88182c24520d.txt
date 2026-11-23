@@ -1,0 +1,319 @@
+
+*   `?g H14`: Main concept is "Use - Action / Do - Verb / Button".
+    *   `+ C14`: Detail (eye/sight).
+    *   `+ C11`: Detail (head/face/neck).
+    *   *Interpret Step 1:* An action involving eyes/face/head (like looking, blinking, winking).
+    *   *Clue-giver's Response:* "No" to "Look, Blink, Wink".
+
+    *   `!r A1`: Sub-concept (Object/Box) is red.
+    *   `+ C7`: Detail (Electronic/Computing).
+    *   `+ C14`: Detail (Eye/Sight).
+    *   *Interpret Step 2:* A red object/box that is electronic and related to sight.
+    *   *Clue-giver's Response:* "No" to "Scan, Photograph, Record".
+
+    *   `+r D11`: Detail (Arm/Hand/Finger) in the red group.
+    *   `+ F11`: Detail (One/Unit/Number) in the red group.
+    *   *Interpret Step 3:* The red object involves a hand/finger and is "one".
+    *   *Re-evaluating the red group:*
+        *   Object/Box (A1)
+        *   Electronic/Computing (C7)
+        *   Eye/Sight (C14)
+        *   Arm/Hand/Finger (D11)
+        *   One/Unit (F11)
+
+    *   Main Concept: An action/verb/button (H14) involving the eyes/face (C14/C11).
+    *   Red Sub-concept: An electronic device/object (A1/C7) that deals with sight (C14) and is operated by a hand/finger (D11) and is a single unit (F11).
+
+    Wait, let's look at the structure:
+    `?g H14` (Verb/Action/Button)
+    `+ C14` (Eye)
+    `+ C11` (Head)
+
+    `!r A1` (Object/Box)
+    `+ C7` (Electronic)
+    `+ C14` (Eye)
+    `+ D11` (Hand/Finger)
+    `+ F11` (One)
+
+    Let's combine: An action involving eyes/head, and an electronic eye-related object operated by a finger.
+
+    Possible candidates:
+    *   Click? (Button action, eye involved in watching, electronic, finger)
+    *   Press?
+    *   Tap?
+    *   Focus?
+    *   Zoom?
+    *   Capture? (Already rejected "Record/Photograph")
+    *   Watch? (Rejected "Look")
+    *   Snap? (Rejected "Photograph")
+
+    Wait, "Button" is H14.
+    Electronic (C7) + Eye (C14) + Hand (D11) + One (F11) + Object (A1).
+    Maybe a "Camera"? No, that's a noun, but H14 is a verb/action/button.
+    A "Button" is H14. Is the answer a button?
+    Is it "Click"?
+    "Click" is a button action (H14).
+    It uses the eyes (C14/C11) to see what you are clicking.
+    The object is a computer mouse (A1/C7/D11/C14)? A mouse isn't really an "eye" though.
+    Wait, what about a "Selfie"? No.
+
+    Let's look at the red group again.
+    A1 (Object/Box)
+    C7 (Electronic)
+    C14 (Eye/Sight)
+    D11 (Hand/Finger)
+    F11 (One)
+
+    Is it "Point"?
+    Is it "Tap"? (Like on a touchscreen). A touchscreen (A1/C7) involves the eye (C14) and finger (D11).
+    What about "Capture"? (Rejected).
+
+    Think about the "Eye" + "Electronic" + "Hand/Finger" + "One" + "Verb/Action".
+    A "Click"?
+    A "Mouse"? (Not a verb).
+    A "Touch"?
+
+    What if the red group is "A Camera"?
+    A1: Box/Object
+    C7: Electronic
+    C14: Eye/Sight
+    D11: Hand/Finger (pressing the shutter)
+    F11: One (One shot?)
+
+    But the main concept is an action/verb/button (H14).
+    Action: "Click"? "Shoot"? "Snap"?
+    "Shoot" - No, rejected "Photograph".
+
+    Let's look at "H14" again. It's "Use - Action / Do - Verb / Button".
+    The answer could be the *word* for the action of pressing a button.
+    "Press"?
+    "Push"?
+    "Click"?
+
+    Let's reconsider the "Eye/Sight" part.
+    Main concept (H14): A verb/action/button.
+    C14 (Eye) and C11 (Face).
+    Maybe the action is "Wink" (Rejected), "Blink" (Rejected), "Look" (Rejected).
+    "Smile"? (No C14/C11 specifically for smile, though it involves face).
+    "Squint"?
+    "Stare"?
+    "Watch"?
+
+    What if the red group is describing a specific device?
+    Red: One (F11) Electronic (C7) Eye (C14) Object (A1) operated by a hand/finger (D11).
+    A "Smartphone"? A "Webcam"?
+    A "Webcam" is an object (A1), electronic (C7), eye (C14), operated by hand (D11)?
+    If the answer is "Webcam", H14 (Action/Button) doesn't fit well unless the answer is "Turn on" or something. But "Webcam" is a noun.
+
+    Wait, H14 means the answer *is* an action, a verb, or a button.
+    What action involves an eye and a button?
+    "Click"?
+    "Tap"?
+    "Double click"?
+
+    Let's re-read C14 (Eye/Sight).
+    If the answer is "Click":
+    H14 (Action/Button) - Yes.
+    C14 (Eye) - You click with your eyes on the screen? A bit weak.
+    C11 (Head) - No.
+
+    Wait, "A1" (Object/Box) + "C7" (Electronic) + "C14" (Eye) + "D11" (Hand/Finger) + "F11" (One).
+    Could it be a "Remote control"?
+    "Button"? (Answer can be "Button").
+    If the answer is "Button":
+    H14 (Button) - Yes.
+    C14/C11 (Eye/Face) - No.
+
+    Wait! "H14" is the icon for "Use/Action/Do/Button".
+    The marker is on H14.
+    Maybe the answer is "Click"?
+    If you "Click", you are doing an action (H14).
+    Red group: A "Mouse" (A1/C7/D11)? But where does C14 (Eye) fit?
+    Unless... "Optical mouse"? (An optical mouse uses an "eye" - a sensor/light).
+    "Optical" = Eye (C14).
+    "Mouse" = A1 (Object/Box - it's a shape), C7 (Electronic), D11 (Hand/Finger - used to move it), F11 (One - one mouse?).
+    But "Mouse" is a noun. The main concept is H14 (Action/Verb/Button).
+    The action of using a mouse is "Click".
+
+    Is it "Click"?
+    Is it "Scroll"?
+    Is it "Tap"?
+
+    Let's look at the "One" (F11) and "Eye" (C14) and "Electronic" (C7) and "Object" (A1) again.
+    What about "Selfie"? (A "Selfie" is an action/event, involves an eye, a phone/electronic, a finger to press the button).
+    But the clues "Scan, Photograph, Record" were rejected.
+
+    Let's look at "H14" again. "Action/Do/Verb/Button".
+    "Watch"? (Rejected "Look").
+    "See"?
+    "Observe"?
+    "Focus"? (Like on a camera).
+    "Zoom"? (Action/Verb).
+    "Zoom":
+    H14 (Action) - Yes.
+    C14 (Eye) - Yes, related to sight.
+    C11 (Face) - No.
+    Red group:
+    A1 (Object)
+    C7 (Electronic)
+    C14 (Eye)
+    D11 (Hand)
+    F11 (One)
+    A "Camera lens"?
+
+    Let's rethink. "C14" (Eye) + "C11" (Face).
+    "C14" (Eye) + "C7" (Electronic) + "A1" (Object) + "D11" (Hand/Finger).
+    Maybe "Capture"? (Rejected).
+    "Click"?
+    "Snap"? (Rejected).
+    "Shot"? (No, verb).
+    "Shoot"? (Rejected).
+
+    What about "A Button"?
+    If the answer is "Button":
+    H14 (Button) - Yes.
+    Red group:
+    A1 (Object)
+    C7 (Electronic)
+    C14 (Eye/Sight) - Is there a "button" related to eyes? "Eye button"? No.
+    Wait, the red group is a *separate* concept (a sub-concept).
+    Sub-concept 1 (Red): An electronic object/box (A1/C7) that involves an eye (C14) and is operated by a finger (D11) and is a single unit (F11).
+    This describes a "Camera" or a "Smartphone".
+    Main Concept (Green): An action (H14) involving the eyes (C14) and head (C11).
+
+    Action involving eyes/head + Camera/Smartphone.
+    "Snap"? (Rejected).
+    "Click"?
+    "Selfie"?
+    "Smile"?
+    "Pose"?
+
+    Wait, "Click" is very common in Concept for "Button" or "Mouse".
+    Let's try "Click".
+    If "Click" is the answer:
+    H14 (Button/Action) - Yes.
+    C14/C11 (Eye/Head) - Maybe you click with your eyes? (Weak).
+    Red group (Camera):
+    A1 (Object)
+    C7 (Electronic)
+    C14 (Eye)
+    D11 (Hand)
+    F11 (One)
+    This describes a camera perfectly.
+
+    Wait, what if the answer is "Capture"? (Rejected).
+    What if the answer is "Focus"?
+    What if the answer is "Flash"?
+    "Flash":
+    H14 (Action/Verb) - Yes.
+    C14 (Eye) - Yes, it's light for the eye.
+    C11 (Face/Head) - A flash in the face?
+    Red group (Camera):
+    A1 (Object)
+    C7 (Electronic)
+    C14 (Eye)
+    D11 (Hand)
+    F11 (One)
+    A "Flash" is part of a camera.
+
+    Let's try "Click", "Tap", "Snap" (Wait, Snap was rejected via "Photograph/Record").
+    "Click", "Tap", "Press".
+    "Click" is a very strong candidate for H14.
+
+    Wait, "A1 (Object/Box) + C7 (Electronic) + C14 (Eye) + D11 (Hand) + F11 (One)".
+    Could it be a "Touchscreen"?
+    If the answer is "Touch" or "Tap":
+    H14 (Action/Verb) - Yes.
+    C14/C11 (Eye/Face) - You touch your face?
+    Red group (Touchscreen):
+    A1 (Object)
+    C7 (Electronic)
+    C14 (Eye) - No, how does "Eye" fit "Touchscreen"?
+
+    Let's look at "C14" again. "Eye/Sight".
+    What if the red group is a "Video camera"?
+    "View"? (Verb).
+    "Watch"? (Rejected).
+
+    Let's look at the clues again.
+    Step 1: ?g H14 (Action/Button) + C14 (Eye) + C11 (Head).
+    Guesses: Look, Blink, Wink. (All "Eye/Head" actions). Result: No.
+    Step 2: !r A1 (Object) + C7 (Electronic) + C14 (Eye).
+    Guesses: Scan, Photograph, Record. (All "Electronic/Eye" actions). Result: No.
+    Step 3: +r D11 (Hand) + F11 (One).
+    The red group is now: A1 (Object), C7 (Electronic), C14 (Eye), D11 (Hand), F11 (One).
+
+    It's an electronic object with an eye, operated by a hand.
+    A "Camera" or "Smartphone".
+    The main concept is an action/button involving the eye and head.
+
+    "Smile"? (You smile for a camera/phone).
+    H14 (Action/Do/Verb) - Yes.
+    C14/C11 (Eye/Face) - Yes, smiling involves the eyes and face.
+    Red group (Camera/Phone):
+    A1 (Object)
+    C7 (Electronic)
+    C14 (Eye)
+    D11 (Hand)
+    F11 (One)
+    A camera is an electronic object (A1/C7) with an eye (C14) used by a hand (D11).
+
+    Let's try "Smile".
+    Another option: "Pose"?
+    Another option: "Click"? (But "Click" doesn't involve the face/head/eyes directly, except as the *object* of the action).
+
+    Wait, "Click" (H14) + "Camera" (Red).
+    If you click a camera...
+    But the clues "Photograph/Record" were rejected.
+    If the answer was "Click", wouldn't "Photograph" or "Record" be a "Yes" or "On the right track"?
+    If the answer is "Click", "Photograph" is a *result* of clicking, but it's not the same as "Clicking".
+    However, in Concept, "Yes: [guess]" means the guess is on the right track.
+    If the answer is "Click" and the guess was "Photograph", the clue-giver would likely say "Yes: Photograph" or "No".
+    If the clue-giver said "No" to "Photograph", it's unlikely the answer is "Click".
+
+    Let's look at "Smile" again.
+    If you "Smile" (Action/Verb), it involves the eyes and face.
+    A "Camera/Phone" (Red group) is the tool used for it.
+    Is "Smile" a common Concept answer? Yes.
+
+    What about "Wink"? (Rejected).
+    "Blink"? (Rejected).
+    "Look"? (Rejected).
+    "See"?
+    "Watch"?
+
+    What about "Focus"?
+    What about "Capture"? (Rejected).
+
+    Let's think about the "One" (F11) in the red group.
+    "One" electronic eye object.
+    "A webcam"?
+    If the answer is "Webcam", the main concept H14 (Action/Verb) is tricky.
+    Unless the answer is "Video call"? (Action/Verb).
+    "Video call":
+    H14 (Action) - Yes.
+    C14/C11 (Eye/Face) - Yes, you use your eyes/face during a call.
+    Red group (Webcam/Phone):
+    A1 (Object)
+    C7 (Electronic)
+    C14 (Eye)
+    D11 (Hand)
+    F11 (One)
+
+    Is it "Call"?
+    Is it "Talk"?
+
+    Let's try "Smile" or "Pose" or "Click".
+    Actually, let's look at Step 1 again.
+    ?g H14 (Action/Verb) + C14 (Eye) + C11 (Face).
+    This is a very strong clue for "Smile" or "Wink" or "Blink".
+    Since those were rejected, what else?
+    "Laugh"? (Doesn't involve eyes/sight as much as "Smile").
+    "Cry"? (Involves eyes).
+    "Stare"?
+    "Gaze"?
+    "Glance"?
+    "Peek"?
+
+    Wait, "Peek"?
+    "Peek" (Action) + Camera (Red

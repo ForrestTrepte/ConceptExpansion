@@ -1,0 +1,142 @@
+*   `?g A14` (Main Concept: Food / Eating / Edible)
+    *   `+ C1` (Detail: Baby / Child / Young / New)
+    *   `+ H4` (Detail: Round)
+    *   `!r G1` (Sub-concept red: Line - Straight / Diagonal / Stiff)
+    *   `+ H4` (Detail: Round - *Wait, G1 is a line, H4 is a circle. This might mean a line shape or a specific pattern? Or maybe it's describing a part of the food.*)
+    *   `!y D14` (Sub-concept yellow: Mouth / Taste)
+    *   `+ Pink` (Color: Pink)
+
+    *   `+g C6` (Main Concept detail: Happy / Positive)
+    *   `!b G3` (Sub-concept blue: Spiral / Drunkenness / Coil)
+    *   `+ H4` (Detail: Round)
+
+    *   Main Concept: Food (A14), Young/New (C1), Round (H4), Happy (C6).
+    *   Red Sub-concept: Straight line (G1), Round (H4).
+    *   Yellow Sub-concept: Mouth/Taste (D14), Color is Pink.
+    *   Blue Sub-concept: Spiral/Coil (G3), Round (H4).
+
+    *   Pink, round, edible, tastes good/happy.
+    *   Blue sub-concept: Spiral/Coil + Round.
+    *   Red sub-concept: Line + Round.
+    *   Yellow sub-concept: Pink + Taste.
+
+    *   A pink, round, spiral-shaped, edible thing.
+    *   Pink frosting or candy?
+    *   "Pink donut" was guessed and was "No".
+    *   "Strawberry" was guessed and was "No".
+    *   "Pink lollipop" was guessed and was "No".
+
+    *   Spiral + Round + Pink + Food:
+        *   Pink swirl lollipop? (Wait, "Pink lollipop" was No).
+        *   Pink swirl candy?
+        *   Pink frosting/icing on a pastry?
+        *   Macaron? (Usually not spiral).
+        *   Cotton candy? (Not really a "line" or "spiral" in the same way).
+        *   Pink frosted swirl cupcake?
+        *   Pink swirl ice cream? (Round, spiral, edible, pink).
+        *   Pink glazed pastry with a swirl?
+        *   A pink cinnamon roll (but pink)?
+
+    *   `!r G1` (Straight line) + `H4` (Round): Maybe a striped pattern? Or a specific brand?
+    *   `!b G3` (Spiral) + `H4` (Round): Definitely a swirl.
+    *   `C1` (Young/New): Maybe "new" as in "fresh"? Or a "baby" version? Or maybe a "kid's" food?
+    *   `C6` (Happy): Sweet?
+
+    *   Pink swirl ice cream.
+    *   Pink swirl cupcake.
+    *   Pink swirl pastry.
+    *   Cotton candy (Pink, sweet/happy, soft/new/cloud-like?) - but it's not really "round" in a geometric sense as much as a clump.
+    *   Pink frosted swirl donut (Donut was already No).
+    *   Pink swirl candy.
+
+    Let's look at the Red marker again: `!r G1` (Line) + `H4` (Round).
+    If it's a swirl, a line + a circle...
+    Is it a pink jelly bean? No.
+    Is it a pink macaron? No.
+    Is it pink frosting?
+
+    What about "Pink swirl candy"? Or "Pink swirl icing"?
+    "Pink swirl cupcake"?
+    "Pink swirl ice cream"?
+
+    Wait, `C1` is Baby/Child/Young.
+    Could it be a "Baby" something?
+    Or "New"?
+    Maybe "Pink swirl cake"?
+
+    Wait, `!r G1` + `H4` (Line + Round). Could it be a "Pink ring"? No, food.
+    `!b G3` + `H4` (Spiral + Round).
+
+    Could it be **Cotton candy**?
+    It's pink, sweet (happy), round-ish, and the structure is made of tiny fibers (lines/spirals). But the previous guesses (lollipop, donut, strawberry) were rejected.
+
+    How about **Pink swirl frosting**?
+    How about **Pink swirl ice cream**?
+    How about **Pink swirl cupcake**?
+
+    Let's consider the `C1` (Baby/Young/New) again.
+    "Pink swirl..."
+    Wait, `C1` can also mean "New".
+    "New" + "Pink" + "Swirl" + "Food".
+
+    What about a **Pink swirl marshmallow**?
+    What about **Pink swirl taffy**?
+
+    Let's rethink the Red sub-concept: `!r G1` (Line) + `H4` (Round).
+    Is it a **Pink frosted swirl cupcake**?
+    Is it **Pink swirl icing**?
+
+    Let's try:
+    1. Pink swirl ice cream
+    2. Pink swirl cupcake
+    3. Pink swirl candy
+
+    Wait, could it be **Cotton candy**? The user didn't guess it. It fits "Pink", "Round" (the stick/cone), "Happy" (sweet), and the texture is "Spiral/Line".
+
+    Actually, look at `!r G1` (Line) + `H4` (Round) and `!b G3` (Spiral) + `H4` (Round).
+    The shape is a spiral.
+    `A14` (Food).
+    `C1` (Young/New/Baby).
+    `C6` (Happy).
+
+    Is it **Pink frosted cupcake**?
+    Is it **Pink swirl macaron**?
+
+    Let's try a different angle. `C1` = Baby.
+    **Pink swirl candy**?
+    **Pink swirl cake**?
+
+    Wait, "Pink donut" was "No".
+    What is a pink, round, spiral-shaped food?
+    **Pink swirl ice cream**.
+    **Pink swirl cupcake**.
+
+    Let's go with:
+    1. Pink swirl ice cream
+    2. Pink swirl cupcake
+    3. Pink swirl candy
+
+    Actually, "Pink lollipop" was "No". Lollipops are often spirals.
+    Maybe it's **Pink swirl frosting**?
+    No, let's try **Pink swirl cupcake**.
+
+    Wait, `C1` (Baby/Child) + `A14` (Food) + `Pink`.
+    **Pink gummy bear**? No, not round/spiral.
+    **Pink swirl gummy**?
+
+    What about **Pink swirl marshmallow**?
+
+    Let's look at the "Line" + "Round" again.
+    If I have a line and a circle, is it a **Pink ring**?
+    But `A14` is food.
+    A **Pink glazed donut**? (Donut was No).
+    A **Pink frosted ring**?
+
+    What if the answer is **Cotton candy**?
+    It's often pink. It's round. It's sweet (happy). It's made of lines/spirals.
+    It's often associated with kids (`C1`).
+
+    Let's try:
+    1. Pink swirl ice cream
+    2. Cotton candy
+    3. Pink swirl cupcake

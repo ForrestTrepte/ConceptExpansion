@@ -1,0 +1,8 @@
+{
+  "guesses": [
+    "Cyclist",
+    "Jockey",
+    "Dog racer"
+  ]
+,"pass": false
+}

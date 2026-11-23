@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Batman",
+    "Darth Vader",
+    "Black Panther"
+  ]
+,
+"pass": false
+}

@@ -1,0 +1,139 @@
+{
+  "contentSha256": "8e15e46ab8d0d5330427d6f7ed0ccb673b7bdb5d5e54cd4ea416d6d7fd9df6bd",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "90167f6773b23c0d34d7074b521186233b0757584cab853ba7be1b70066d6420"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "177cbbe6981477cfbfe561294335f297d605c7342a43822f06a21e834ef16e9b"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "google/gemma-4-26b-a4b-it",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "pass": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "guesses",
+                "pass"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-2"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "db82776-dirty",
+    "costUsd": 0.00013712,
+    "latencyMs": 2717,
+    "recordedAt": "2026-11-23T22:21:48.849Z",
+    "recordedBy": "claude",
+    "servedBy": "Darkbloom",
+    "servedModel": "google/gemma-4-26b-a4b-it",
+    "tags": {
+      "run": "calibrate-or-gemma"
+    },
+    "usage": {
+      "cacheReadTokens": 4096,
+      "cacheWriteTokens": 0,
+      "inputTokens": 5081,
+      "outputTokens": 193,
+      "reasoningTokens": 173
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"model airplane\",\"drone\",\"paper airplane\"],\"pass\":false}",
+          "reasoning": {
+            "$llmemo.text": "4d4048fadb667588775d8ccc4471bb0e553359baa60ef65cd8bc7ee33e0fedb1"
+          },
+          "reasoning_details": [
+            {
+              "format": "unknown",
+              "index": 0,
+              "text": {
+                "$llmemo.text": "4d4048fadb667588775d8ccc4471bb0e553359baa60ef65cd8bc7ee33e0fedb1"
+              },
+              "type": "reasoning.text"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "stop"
+      }
+    ],
+    "created": 1795472506,
+    "id": "gen-1795472506-wUxreVrTnzl7aV2IOYZX",
+    "model": "google/gemma-4-26b-a4b-it",
+    "object": "chat.completion",
+    "provider": "Darkbloom",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 193,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 173
+      },
+      "cost": 0.00013712,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00003667,
+        "upstream_inference_cost": 0.00013712,
+        "upstream_inference_prompt_cost": 0.00010045
+      },
+      "is_byok": false,
+      "prompt_tokens": 5081,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 4096,
+        "video_tokens": 0
+      },
+      "total_tokens": 5274
+    }
+  }
+}

@@ -1,0 +1,71 @@
+*   `?g D2`: The main concept (green `?` pawn) is on `D2`.
+    *   `D2` means "Masculine / Male".
+    *   The note says "[placed between C2 and D2: a person of either sex]". Wait, looking at the notation: `?g D2`. The prompt says "placed between C2 and D2". This is a bit confusing. Let's re-read.
+    *   Actually, the prompt says `?g D2` and then an explanation: `[placed between C2 and D2: a person of either sex]`. Looking at the grid: `C2` is "Feminine / Female" and `D2` is "Masculine / Male".
+    *   However, the notation provided is just `?g D2`. If the clue-giver *intended* to represent "a person of either sex", they might have placed it between them on the physical board, but in notation, they only listed `D2`.
+    *   Wait, looking closely at the prompt: `?g D2 [placed between C2 and D2: a person of either sex]`. This looks like the clue-giver is using the *physical location* of the pawn on the board to imply something.
+    *   If the pawn is literally between `C2` and `D2`, and `C2` is female and `D2` is male, the concept is likely "Person", "Human", or "Man/Woman".
+    *   Actually, `A2` is "Human / Real / Historical". `B1` is "Human / Society / Group".
+    *   If the main concept `?g` is on `D2` (Male), but the *position* implies a spectrum or "Human", I should guess things related to a man or a person.
+
+    *   Main concept: A male (D2).
+    *   Modifier: Between female and male (suggesting "Human" or "Man/Woman").
+    *   Let's look at the most common targets. A "man", a "person", "humanity".
+
+    *   Guess 1: Man
+    *   Guess 2: Human
+    *   Guess 3: Person
+
+    *Self-Correction:* In Concept, the `?g` pawn defines the category. If the pawn is on `D2`, the category is "Male". The note about it being placed between `C2` and `D2` is a hint that the category is actually more general, like "Human".
+
+    *Wait, let's look at the board again.*
+    `A2` = Human / Real / Historical.
+    `D2` = Masculine / Male.
+    If they placed it between `C2` (Female) and `D2` (Male), they are signaling "Person" or "Human".
+
+    Let's try:
+    1. Man
+    2. Human
+    3. Person
+
+    Wait, if the category is `D2`, the most direct guess is "Man". But the hint "between C2 and D2" strongly suggests the answer is a general term for a person.
+
+    Let's refine:
+    1. Man
+    2. Person
+    3. Human
+
+    Actually, "Man" is more specific to `D2`. If the answer is "Man", they wouldn't need to put it between `C2` and `D2`. They'd just put it on `D2`.
+    If they put it between, they are likely saying "a person".
+
+    Let's try these:
+    1. Man
+    2. Person
+    3. Human
+
+    Actually, let's consider if it's a specific person? No, usually it's a general concept first.
+
+    Let's look at `D2` again. `D2` is Male. `C2` is Female.
+    Between them is "Person" or "Human".
+
+    Guess 1: Man
+    Guess 2: Person
+    Guess 3: Human
+
+    Wait, I'll check the prompt again. "A person of either sex".
+    If I guess "Man", and the answer is "Person", I'll get a "Yes: Man" or "No".
+    If I guess "Person", and it's "Man", I'll get a "Yes: Person".
+
+    Let's go with:
+    1. Man
+    2. Person
+    3. Human
+
+    Wait, let's think about common Concept answers. "Man" is a very common answer. "Human" is common. "Person" is common.
+
+    Another possibility: "Man" (as in mankind).
+
+    Let's try:
+    1. Man
+    2. Person
+    3. Human

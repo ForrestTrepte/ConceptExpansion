@@ -1,0 +1,106 @@
+*   `!r B9`: Red sub-concept marker on B9 (Building / Monument / City).
+    *   `+ A8`: A cube in the red group on A8 (Idea / Intelligence / Concept). The prompt specifies the cube is on the "light bulb" in the picture.
+    *   `+ B14`: A cube in the red group on B14 (House – Dwelling / Room / Domestic).
+
+    *   `!r` (Red sub-concept) indicates a group of related ideas.
+    *   B9 (Building/City) + A8 (Idea/Concept/Lightbulb) + B14 (House/Home).
+    *   This looks like a single theme: A building related to ideas or a concept related to a home/city.
+
+    *   Idea + Building + House/Home.
+    *   "Idea" is often associated with "lightbulb".
+    *   "Building" + "Idea" -> A place where ideas are born? An office? A laboratory? A university?
+    *   "Building" + "House" -> A home for something?
+    *   Maybe it's a specific famous building known for ideas?
+    *   Wait, B9 is Building/Monument/City.
+    *   Is it "Home of [something]"?
+    *   Is it "Think Tank"? (Idea/A8 + Building/B9).
+    *   Is it "Idea House"?
+    *   Is it "Silicon Valley"? (B9 + A8).
+    *   Is it "White House"? (B14 - House, B9 - Building/Monument).
+    *   Is it "Home Sweet Home"?
+    *   Is it "Brainstorm"? (A8/Lightbulb + B9/City? No).
+
+    Let's look closer:
+    The red markers (sub-concepts) are:
+    1. Building/City (B9)
+    2. Idea (A8)
+    3. House/Home (B14)
+
+    Could it be "A way of thinking"? No.
+    Could it be "A house of ideas"?
+    Could it be "Architecture"? (Building + Idea).
+    Could it be "Real Estate"? (Building + House).
+    Could it be "Planning"?
+
+    Let's try:
+    1. Think tank (Building + Idea)
+    2. White House (Building + House)
+    3. Silicon Valley (Building/City + Idea) - maybe too specific.
+
+    Actually, "Idea" (A8) + "House/Home" (B14) + "Building" (B9).
+    What about "Dream house"? (Dream ~ Idea/A8 + House/B14).
+    What about "Mind palace"? (Idea/A8 + Building/B9).
+
+    Let's try "Think tank" first. It combines Building and Idea.
+    Let's try "Dream house". It combines Idea and House.
+    Let's try "Silicon Valley". It's a place (B9) known for ideas (A8).
+
+    Wait, look at the red grouping. `!r B9` then two `+`. These are sub-concepts. They are all related to the main concept.
+    Is the answer "A concept"? No, that's the icon.
+    The answer is a thing that is a Building/City AND an Idea AND a House.
+
+    Maybe "Idea" isn't a separate concept, but the *type* of thing it is? No, it's a red marker, which means it's a sub-concept.
+
+    Think of a building that is also a concept or idea.
+    "White House"? (Monument/B9 + House/B14). Where does Idea/A8 fit?
+    "Pentagon"?
+    "Home"? (House/B14).
+    "Brainstorm"?
+
+    What if the answer is "Intelligence Agency"? (Idea + Building).
+    What if the answer is "University"? (Building + Idea).
+    What if the answer is "Library"? (Building + Idea).
+
+    Let's reconsider "Dream house".
+    "Lightbulb" -> Idea.
+    "House" -> B14.
+    "Building/City" -> B9.
+
+    How about "Silicon Valley"?
+    "Mind palace"?
+    "Think tank"?
+
+    Let's go with "Think tank", "Dream house", and "White House".
+
+    Wait, "Idea" + "House" = "Brainchild"? No.
+    "Idea" + "Building" = "Think tank".
+    "House" + "Building" = "Home".
+
+    Let's try "Think tank".
+    Let's try "Dream house".
+    Let's try "Silicon Valley".
+
+    Actually, let's look at the icons again.
+    B9: Building/Monument/City.
+    A8: Idea/Intelligence/Concept.
+    B14: House/Dwelling/Room.
+
+    Is it "Philosophy"? (No, that's not a building).
+    Is it "A concept"?
+    Is it "Real estate"?
+
+    Let's try "Think tank".
+    Let's try "Dream house".
+    Let's try "Home".
+
+    Wait, "Idea" (A8) and "House" (B14) and "Building" (B9).
+    Could it be "The House of Representatives"? (House + Building).
+    "A house of cards"? (No, A8 doesn't fit).
+
+    What about "Knowledge"?
+    How about "Architecture"?
+
+    Let's try:
+    1. Think tank
+    2. Dream house
+    3. Silicon Valley

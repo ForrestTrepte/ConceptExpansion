@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Love is a battlefield",
+    "A dagger to the heart",
+    "Sword in the stone"
+  ]
+,
+  "pass": false
+}

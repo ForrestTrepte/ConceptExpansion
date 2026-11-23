@@ -1,0 +1,212 @@
+*   `?g B8`: Main Concept is an "Expression – Quote / Talking / Words".
+    *   `!r B8`: Sub-concept (Red group) is "Expression – Quote / Talking / Words".
+    *   `+ D14`: Cube on D14 ("Mouth / Taste") in the red group.
+    *   `!y B9`: Sub-concept (Yellow group) is "Building / Monument / City".
+    *   `+ H10`: Cube on H10 ("Small / Low") in the yellow group.
+
+    *   The main concept is an expression, a quote, or something related to talking/words.
+    *   Red details (related to the word/expression): Mouth/Taste. This suggests the phrase might involve speaking, tasting, or something mouth-related.
+    *   Yellow details (related to the word/expression): Building/City + Small/Low. This suggests the phrase might involve a small building, a city, or something low in a city.
+
+    *   *Wait, let's re-examine the connections:*
+        *   `?g B8` (Expression/Talking)
+        *   `!r B8 + D14` (Talking + Mouth/Taste) -> Maybe "Actions speak louder than words" (no, doesn't fit city), "A word of mouth"?
+        *   `!y B9 + H10` (City/Building + Small/Low) -> A small building? A low city?
+
+    *   *Could the red group and yellow group be different parts of a phrase?*
+        *   Red: Words + Mouth (e.g., "Word of mouth")
+        *   Yellow: City/Building + Small (e.g., "Little house on the prairie"? No, that's not an expression/quote).
+
+    *   *Let's look at the combination:*
+        *   Expression involving "Mouth" and "Small Building/City".
+        *   "Small world"? (B8 doesn't fit "Small world" as the main concept).
+        *   "Piece of cake"? (No).
+        *   "Talk of the town"?
+            *   Talking (`B8`)
+            *   Town (`B9`)
+            *   Let's check the details:
+                *   `!r B8 + D14` (Talking + Mouth): "Talk" involves the mouth.
+                *   `!y B9 + H10` (City/Building + Small): A town is a type of city/place, and maybe "Small" is used to differentiate it or is a descriptor? Actually, the "Talk of the town" idiom fits `B8` (Expression) and `B9` (City).
+                *   Let's check `H10` (Small) for "Town". A town is smaller than a city.
+                *   Let's check `D14` (Mouth) for "Talk". Talking uses the mouth.
+
+    *   *Alternative:* "Small talk"?
+        *   Main concept: Expression/Talking (`B8`).
+        *   `!r B8 + D14`: Talking involves the mouth (`D14`).
+        *   `!y B9 + H10`: Small (`H10`) + ... City? No, "Small talk" doesn't involve a city.
+
+    *   *Alternative:* "A small town"? (Not really an expression/quote).
+
+    *   *Let's look at "Talk of the town" again:*
+        *   `?g B8` (Expression/Quote/Talking) - Fits.
+        *   `!r B8 + D14` (Talking + Mouth) - Fits (Talk/Mouth).
+        *   `!y B9 + H10` (City + Small) - Fits (Town is a small city).
+
+    *   *Are there other idioms?*
+        *   "Word of mouth"?
+            *   `B8` (Words/Expression)
+            *   `D14` (Mouth)
+            *   But where does the "Small City" (`B9` + `H10`) fit? It doesn't.
+
+    *   *Let's re-evaluate the groups:*
+        *   `?g B8`: The answer is a phrase/expression.
+        *   `!r B8 + D14`: One part of the phrase is "Mouth" or "Talking".
+        *   `!y B9 + H10`: Another part of the phrase is "Small" + "City/Building".
+
+    *   *Check "Small town" again:* If the answer is just "Small town", the main concept `B8` (Expression/Quote/Talking) doesn't fit.
+
+    *   *How about "Speak of the devil"?* (No city).
+
+    *   *How about "The walls have ears"?* (No city).
+
+    *   *What about "City of God"?* (Not an expression/quote in the common idiom sense).
+
+    *   *Let's look at the "Mouth" part again:*
+        *   `D14` is Mouth/Taste.
+        *   `B8` is Words/Talking.
+        *   Could it be "Food for thought"?
+            *   `B8` (Thought/Idea/Concept/Words) - `A8` is Idea, `B8` is Expression/Words.
+            *   `D14` (Taste/Mouth) - Fits.
+            *   `B9` (City) + `H10` (Small)? No.
+
+    *   *Wait, could `B9` (City/Building) and `H10` (Small) be "Town"?*
+        *   `!y B9 + H10` -> Small City = Town.
+        *   `!r B8 + D14` -> Talking/Words + Mouth = Talk.
+        *   Phrase: "Talk of the town".
+
+    *   *Let's check if "Talk of the town" is the best fit.*
+        *   `?g B8` (Expression/Quote) - Yes.
+        *   `!r B8 + D14` (Talking + Mouth) - "Talk"
+        *   `!y B9 + H10` (City + Small) - "Town"
+
+    *   *Another option: "Small talk"?*
+        *   `?g B8` (Expression) - Yes.
+        *   `!r B8 + D14` (Talk + Mouth) - Yes.
+        *   `!y B9` + `H10`? This would require "Small" and "City" to mean "Talk". That doesn't make sense.
+
+    *   *Is there any other idiom?*
+        *   "In a nutshell"?
+            *   `B8` (Expression)
+            *   `H10` (Small)
+            *   `B9`? No.
+
+    *   *Let's try to think of expressions with "Mouth" and "City/Town":*
+        *   "Talk of the town" is the most prominent.
+
+    1. Talk of the town
+    2. Small talk
+    3. Word of mouth (though the city part is tricky)
+
+    *Wait*, let me look at the symbols again.
+    `?g B8`
+    `!r B8`
+    `+ D14`
+    `!y B9`
+    `+ H10`
+
+    Could it be "A small world"?
+    `B8` is Expression/Words. "It's a small world" is a common expression.
+    `B9` is City/Place.
+    `H10` is Small.
+    `D14` is Mouth/Taste. Does "small world" involve a mouth? No.
+
+    "Talk of the town" seems strongest because:
+    `B8` (Expression/Talk)
+    `B8 + D14` (Talking + Mouth) = Talk
+    `B9 + H10` (City + Small) = Town
+    Result: Talk of the town.
+
+    Another look:
+    Could `B9` be "Building" and `H10` "Small"? "Small house"?
+    `B8` is Expression. "House of cards"? (No).
+
+    "Talk of the town" is my primary guess.
+
+    Wait, one more check.
+    Could `!r B8 + D14` be "Speech"?
+    `!y B9 + H10` be "Small City"?
+    "Talk of the town" fits perfectly.
+
+    1. Talk of the town
+    2. Small talk
+    3. Word of mouth
+
+    (Actually, I'll just provide the strongest one first).
+
+    Wait, let's consider if the yellow part `B9 + H10` refers to a specific place name?
+    `B9` (Building/City) + `H10` (Small).
+    "Little Rock"? (Not an expression/quote).
+    "Small town"? (Not an expression).
+
+    "Talk of the town" is a very common expression/idiom.
+
+    *Self-Correction:*
+    Could `!y B9 + H10` be "Little" (H10) + "City" (B9) = "Small town"?
+    Could `!r B8 + D14` be "Talk" (B8) + "Mouth" (D14)?
+    Yes.
+
+    Let's re-verify `B8`: "Expression – Quote / Talking / Words".
+    Yes.
+
+    Let's re-verify `D14`: "Mouth / Taste".
+    Yes.
+
+    Let's re-verify `B9`: "Building / Monument / City".
+    Yes.
+
+    Let's re-verify `H10`: "Small / Low".
+    Yes.
+
+    Everything aligns with "Talk of the town".
+
+    One more possibility: "Food for thought"?
+    `B8` (Thought/Concept).
+    `D14` (Food/Taste/Mouth).
+    `B9 + H10`? No.
+
+    "Talk of the town".
+
+    One more check: "Small talk".
+    `?g B8` (Expression)
+    `!r B8 + D14` (Talk + Mouth)
+    `!y B9 + H10` (City + Small)?
+    If the answer was "Small talk", why would there be a "City" icon (`B9`)? It wouldn't make sense.
+
+    Therefore, "Talk of the town" is the best guess.
+
+    *Final thoughts on "Talk of the town":*
+    - `?g B8` (The whole thing is an expression)
+    - `!r B8 + D14` (Talk is the first part of the phrase; uses the mouth)
+    - `!y B9 + H10` (Town is the second part; a small city)
+
+    Wait, maybe the order matters?
+    "Talk (r) of the town (y)".
+    `!r` is Red, `!y` is Yellow.
+    The clue-giver placed `!r` first, then `!y`.
+    So:
+    Part 1: `B8 + D14` (Talk)
+    Part 2: `B9 + H10` (Town)
+    "Talk of the town".
+
+    This fits perfectly.
+
+    Another one: "Word of mouth"?
+    `!r B8 + D14` (Word of Mouth).
+    `!y B9 + H10` (Small City)? Doesn't fit.
+
+    "Talk of the town".
+
+    1. Talk of the town
+    2. Small talk
+    3. Word of mouth (Wait, I'll go with "A small world" if "Talk of the town" is wrong, but "Talk of the town" is better).
+
+    Actually, I'll stick with:
+    1. Talk of the town
+    2. Small talk
+    3. Word of mouth
+
+    Wait, I'll look for other "Mouth" expressions.
+    "Put your money where your mouth is"? (No).
+    "Keep your mouth shut"? (No).
+
+    "Talk of the town" is the strongest.

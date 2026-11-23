@@ -1,0 +1,323 @@
+*   `?g A8`: Main Concept is "Idea / Intelligence / Concept".
+    *   `+ G11`: Cube on G11 (Big / High / Long) in the main concept group (g).
+    *   `!r D11`: Red Sub-Concept (part/feature/connection) is "Arm / Hand / Finger".
+    *   `+ G12`: Cube on G12 (High / Climb / Above) in the red group (r).
+    *   `!y B14`: Yellow Sub-Concept (part/feature/connection) is "House – Dwelling / Room / Domestic".
+    *   `+ B14`: (Wait, there is no cube on B14 listed in the marker list, only `!y B14`. But the notation says `!y B14` is a pawn, and the board view says `!y B14`. Let me re-read.)
+    *   Wait, looking at the notation again:
+        `?g A8` (Green pawn on A8)
+        `+ G11` (Green cube on G11)
+        `!r D11` (Red pawn on D11)
+        `+ G12` (Red cube on G12)
+        `!y B14` (Yellow pawn on B14)
+
+    *Summary of clues:*
+    *   Main concept: An idea/concept (A8) that is "Big/High/Long" (G11).
+    *   Red relationship: Something about arms/hands/fingers (D11) that is "High/Above" (G12).
+    *   Yellow relationship: Something about houses/dwellings/rooms (B14).
+
+    *   A8 (Idea/Concept) + G11 (Big/High/Long)
+    *   D11 (Arm/Hand/Finger) + G12 (High/Above)
+    *   B14 (House/Dwelling)
+
+    *   "Brainstorming"? (Idea/concept + Big + Hands/fingers? No.)
+    *   "Fingerprint"? (Idea? No, that's a physical thing. Is it a concept? Maybe. Hands/fingers (D11) + Idea (A8)?)
+    *   "Hands down"? (Idiom: "Hands down" means easily/without doubt. B14 doesn't fit. A8 (Idea) might.)
+    *   "Hand in glove"? (Idiom. B14? No.)
+    *   "Give a hand"? (D11 + A8?)
+    *   "Home stretch"? (B14 + G11/G12?)
+    *   "In someone's hands"? (D11/B14)
+    *   "Handy"? (D11)
+    *   "High five"? (D11 + G12 (High) + A8 (Concept? Maybe not.)
+    *   "Peace of mind"? (A8 + ... no.)
+    *   "Thinking outside the box"? (A8 (Idea) + G12 (Above?) + B14 (House/Room/Box-ish?))
+    *   "Brain"? (A8 + D11 (is a part of the body, but clue uses D11 for the red group).)
+    *   "Clap your hands"? (D11)
+    *   "Handshake"? (D11)
+    *   "Palm"? (D11)
+    *   "Handicap"? (A8? No.)
+
+    *Re-evaluating:*
+    `?g A8` (Idea/Concept) + `G11` (Big/Long)
+    `!r D11` (Arm/Hand/Finger) + `G12` (High/Above)
+    `!y B14` (House/Dwelling)
+
+    Maybe "A long arm of the law"? (A8 - Law/Concept? D11 - Arm. G11 - Long. G12 - ? B14 - ?)
+    Maybe "Brainstorm"? (No)
+
+    What about an idiom about "hands"?
+    "Hands down" (D11).
+    "Hand in hand" (D11).
+    "At hand" (D11).
+
+    What about the "House" (B14)?
+    "Home"?
+    "Housewarming"?
+    "House rules"? (A8: Concept/Rule + B14: House)
+    "Housework"?
+    "Make yourself at home"?
+
+    Look at "D11 (Hand/Arm) + G12 (High/Above)".
+    "High five"?
+    "Hand in the air"?
+
+    Wait, `?g A8` (Idea/Concept) + `G11` (Long/Big).
+    Could the concept be "Theory"? "Philosophy"? "Knowledge"?
+    What if the concept is "Memory"?
+
+    Let's look at `!r D11 + G12` again. High hand? Raised hand?
+    `!y B14`. House.
+    Maybe the concept is "Intelligence" or "Knowledge".
+    "Home run"? (B14 + D11 (No) + G11/G12 (No)).
+
+    Wait... `?g A8` (Idea/Concept) ... "Rule"?
+    "House rules"? (B14 + A8).
+    Does D11/G12/G11 fit "House rules"? No.
+
+    Let's try another angle.
+    D11 (Hand) + G12 (High) = "Raised hand".
+    A8 (Concept) + G11 (Long/Big) = ?
+    B14 (House) = ?
+
+    Is the answer "Handwriting"? (D11 + A8/B14? No).
+    Is the answer "Fingerprint"? (D11 + A8? No).
+
+    Let's re-examine the cubes.
+    `?g A8` (Idea/Concept) + `G11` (Big/High/Long)
+    `!r D11` (Arm/Hand/Finger) + `G12` (High/Above)
+    `!y B14` (House/Dwelling)
+
+    Maybe "High five" (D11 + G12)? But A8 is the main concept.
+    Maybe "A stroke of genius"? (D11/Hand + A8/Genius).
+    Does "G11" (Long/Big) or "B14" (House) fit "Stroke of genius"? Not really.
+
+    Wait! "Idea" + "Hand" + "House"...
+    "Brain"? (No, that's anatomy).
+    "Mind"? (A8).
+    "Mind your manners"? (No).
+    "Mind your house"? (No).
+
+    What if `?g A8` is "Law"? (A8 can be Concept/Idea/Intelligence).
+    "Long arm of the law"?
+    - Long (G11)
+    - Arm (D11)
+    - Law (A8)
+    - Does B14 (House) fit? "Law of the house"? No.
+
+    What about "Head in the clouds"? (A8/Head + E1/Clouds + B14/House? No).
+
+    Let's try "Knowledge".
+    "Wisdom".
+    "Thought".
+
+    What if the red group `!r D11 + G12` means "Raised hand"?
+    What if the yellow group `!y B14` means "Home"?
+    "Home" + "Raised hand"...? No.
+
+    What if `?g A8` is "The law"?
+    "The long arm of the law".
+    - A8 (Concept/Law)
+    - G11 (Long)
+    - D11 (Arm)
+    - G12 (Above/High) - "High law"? No.
+    - B14 (House) - "House law"? No.
+
+    Let's try "Hand" + "House".
+    "Handyman"? (D11 + B14/Home).
+    Does A8 (Concept) + G11 (Long/Big) fit "Handyman"? No.
+
+    "High five"?
+    "High" (G12) "Hand" (D11).
+    Is "High five" an idea (A8)? Not really.
+
+    "Mastermind"?
+    - A8 (Concept/Mind)
+    - G11 (Big)
+    - B14 (House/Dwelling - Master of the house?)
+    - D11 (Hand? No).
+
+    Wait... "Aha moment"? (A8).
+    "Brainstorm"?
+
+    Look at `?g A8` (Idea) + `G11` (Long/Big).
+    `!r D11` (Hand) + `G12` (High/Above).
+    `!y B14` (House/Home).
+
+    Is it "Handwriting"? (D11 + A8 (writing is A5, but A8 is concept/idea)).
+    Is it "Fingerprint"?
+    Is it "Sign language"? (D11 + A8/B8).
+
+    Could it be "Home rule"? (B14 + A8).
+    G11 (Long) + D11 (Arm) + G12 (High)...? No.
+
+    Let's try "Handicap"? (No).
+    "Handmade"? (D11 + G14 (cycle/repetition? No)).
+
+    What about `A8` = "Philosophy"?
+    "A long-winded...?" No.
+
+    Let's look at `!r D11 + G12` again.
+    "High five"? "High hand"? "Hand raised"?
+    "Reach"?
+
+    Wait, "Hand" (D11) + "Home" (B14).
+    "Handyman"?
+    "Housewarming"?
+
+    Let's think about "A8" + "G11".
+    "Big Idea"?
+    "Great thought"?
+
+    "Big idea" + "Hand" + "House"...
+    "Brainstorm"?
+
+    Wait, what if the answer is "Memory"?
+    A8 (Concept/Idea).
+    D11 (Hand? No).
+
+    Let's try "Fingerprint" again.
+    D11 (Finger).
+    A8 (Concept? Not really).
+    B14 (House? No).
+
+    What about "Handrail"?
+    "Handmade"?
+    "Handshake"?
+
+    Wait! "A8" (Concept/Idea) + "G11" (Big/Long) + "D11" (Hand) + "G12" (High/Above) + "B14" (House).
+    Could it be "Landlord"? (No).
+    "Housework"? (B14 + D11 (hands) + G11/G12 (No)).
+
+    What if `?g A8` is "Theory"?
+    What if `?g A8` is "Knowledge"?
+
+    Let's look at the icons again.
+    A8: Idea / Intelligence / Concept.
+    G11: Big / High / Long.
+    D11: Arm / Hand / Finger.
+    G12: High / Climb / Above.
+    B14: House / Dwelling / Room / Domestic.
+
+    Maybe "Handy"? (No).
+    Maybe "Hands down"? (No).
+    Maybe "High-rise"? (G12/G11 + B14/Building).
+    If the answer is "High-rise":
+    - A8 (Concept) - Is a skyscraper a concept? No.
+    - D11 (Hand) - Is a skyscraper a hand? No.
+
+    What if the concept is "Architecture"? (A3 or B9/B14).
+    What if the concept is "Construction"? (B12/D7).
+
+    Let's look at `D11` (Hand) + `G12` (High/Above).
+    "Reach"?
+    "Above hand"?
+    "Hand above"?
+    "High hand"?
+
+    Wait, "A8" (Concept/Idea) + "G11" (Big/Long) + "B14" (House/Home).
+    "Long-term"? (G11 + D8/Time).
+
+    Is it "Brainpower"?
+    A8 (Idea/Intelligence) + G11 (Big) + D11 (Hand? No).
+
+    Wait! `D11` (Hand) + `G12` (High/Above) ... "High-five"?
+    `A8` (Concept) + `G11` (Big/Long) ... "Big idea"?
+    `B14` (House).
+
+    Could it be "Home run"? (B14 + D3/Fast + G11/Long?). No.
+
+    Let's try "Handprint"? (D11 + B14? No).
+    "Fingerprint"?
+
+    What about "Rule of thumb"?
+    - A8 (Rule/Concept)
+    - D11 (Thumb/Finger/Hand)
+    - G11/G12 (??)
+    - B14 (??)
+    Actually, "Rule of thumb" is an idiom (A8).
+    Thumb is D11.
+    Does B14 or G11/G12 fit? No.
+
+    What about "Hand in hand"?
+    A8 (Concept/Idea) + D11 (Hand) + B14 (House)? No.
+
+    Is it "Housewarming"?
+    B14 (House) + C6 (Happy) + ... no.
+
+    Let's look at the clues again.
+    `?g A8` (Idea) + `G11` (Big)
+    `!r D11` (Hand) + `G12` (High)
+    `!y B14` (House)
+
+    Could it be "Mastermind"?
+    "Master" (D1/Adult?) + "Mind" (A8).
+    Does G11/G12/B14 fit? No.
+
+    "Brainchild"?
+    - A8 (Idea/Concept)
+    - B4 (Plant/Nature? No, Child is C1).
+
+    "Hands" (D11) + "House" (B14) + "Big/Long" (G11/G12) + "Idea" (A8).
+    "Housework"?
+    "Handyman"?
+    "Handwritten"?
+
+    Wait, what if the "Idea" (A8) is "Knowledge"?
+    "Handy"? (No).
+
+    Is it "Information"? (A8).
+    "Big information"? No.
+
+    What about "High-handed"? (Idiom).
+    - G12 (High)
+    - D11 (Hand)
+    - A8 (Concept/Trait/Idea)
+    - Does B14/G11 fit? "High-handedness"?
+    Maybe? G11 (Big/Long)? No.
+
+    "Hand in glove"? (D11 + B14/Dwelling/Room?).
+    - D11 (Hand)
+    - B14 (Dwelling/Glove is not a dwelling, but maybe "inside"?)
+    - A8 (Concept/Idiom)
+    - G11/G12 (??)
+
+    Wait... "Hand" (D11) + "Above" (G12).
+    "Hand" (D11) + "Home" (B14).
+    "Idea" (A8).
+
+    "Thought" (A8).
+    "A thought"?
+
+    Let's try "Fingerprint" one more time.
+    D11 (Finger)
+    A8 (Concept - an idea of identity?)
+    G11 (Long/Big - no)
+    B14 (House - no)
+
+    Wait! `B14` is "House / Dwelling / Room / Domestic".
+    `D11` is "Arm / Hand / Finger".
+    `G12` is "High / Above".
+    `A8` is "Idea / Intelligence / Concept".
+    `G11` is "Big / High / Long".
+
+    Is it "Hand-eye coordination"? (D11 + C14 + ... no).
+
+    Could it be "Brainstorm"?
+    A8 (Idea/Brain).
+    G11 (Big).
+    D11 (Hand/Hand-made/Action?).
+    B14 (House/Room? No).
+
+    What about "Think tank"? (A8 + B9/Building).
+    "Tank" (A1/Box or B14/Domestic? No).
+
+    Wait, "A8" + "G11" (Big Idea).
+    "D11" + "G12" (High hand/High five).
+    "B14" (House).
+
+    "Big hand"? (D11 + G11).
+    "A big hand" (as in applause).
+    - A8 (Concept/Expression/Quote - B8 is more accurate, but A8 works for "Idea").
+    - G11 (Big).
+    - D11 (Hand).
+    - Does B

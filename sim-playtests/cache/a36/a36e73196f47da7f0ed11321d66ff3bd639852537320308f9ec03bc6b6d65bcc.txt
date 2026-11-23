@@ -1,0 +1,68 @@
+*   `?g B9`: Main Concept is B9 (Building / Monument / City).
+    *   `+ D10`: Add details to B9 (D10 = Medical / Medicine / Health).
+    *   `!r D10`: Sub-concept (red) is D10 (Medical / Medicine / Health).
+    *   `+ B14`: Add detail to the red sub-concept (B14 = House – Dwelling / Room / Domestic).
+    *   `!y A3`: Sub-concept (yellow) is A3 (Work / Occupation).
+    *   `+ D10`: Add detail to the yellow sub-concept (D10 = Medical / Medicine / Health).
+
+    *   Main Idea: A Building/Monument/City related to Medicine/Health.
+    *   Red connection (related idea/part): A home/room/dwelling that is medical.
+    *   Yellow connection (related idea/part): An occupation that is medical.
+
+    *   Building + Medical + Home/Room + Medical Occupation.
+    *   A hospital?
+        *   Building (B9): Yes.
+        *   Medical (D10): Yes.
+        *   Room (B14): Hospitals have rooms/wards.
+        *   Medical occupation (A3 + D10): Doctors/Nurses.
+
+    *   Clinic?
+    *   Pharmacy?
+    *   Doctor's office?
+
+    *   `?g B9` (Building)
+    *   `+ D10` (Medical) -> A Medical Building.
+    *   `!r D10` (Medical)
+    *   `+ B14` (Room/House) -> A medical room/dwelling.
+    *   `!y A3` (Occupation)
+    *   `+ D10` (Medical) -> A medical professional.
+
+    So: "A medical building, related to medical rooms, related to medical professionals."
+
+    Most logical guess: Hospital.
+
+    1. Hospital
+    2. Clinic
+    3. Doctor's office
+
+    *Self-Correction/Refinement:* Could it be "Nursing home"?
+    - B9 (Building)
+    - D10 (Medical)
+    - B14 (Home/Dwelling) - This fits "Nursing Home" very well.
+    - A3 + D10 (Medical Occupation) - Nurses.
+
+    Let's look at the markers again.
+    `?g B9 + D10` = A medical building.
+    `!r D10 + B14` = Medical room/house.
+    `!y A3 + D10` = Medical job.
+
+    "Hospital" is the strongest candidate. "Clinic" is also strong. "Nursing home" is a possibility.
+
+    Wait, could it be "Pharmacy"?
+    - B9 (Building)
+    - D10 (Medical)
+    - B14 (House/Room) - Not really a primary feature of a pharmacy in the way a hospital has wards.
+    - A3 + D10 (Pharmacist).
+
+    Could it be "Ambulance"?
+    - No, B9 is Building/City/Monument.
+
+    Could it be "Doctor"?
+    - No, B9 is Building.
+
+    Let's stick with Hospital.
+
+    Guesses:
+    1. Hospital
+    2. Clinic
+    3. Nursing home

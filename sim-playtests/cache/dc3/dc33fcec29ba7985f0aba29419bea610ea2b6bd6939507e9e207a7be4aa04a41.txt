@@ -1,0 +1,250 @@
+*   `?g A2`: Main Concept is Human/Real/Historical (A2).
+    *   `+ D2`: Male (D2).
+    *   `+ A7`: Television/Program/Show (A7).
+    *   `+ C1`: Baby/Child/Young (C1).
+    *   `!r B13`: Red Sub-concept (r) related to Clothing/Accessory (B13).
+    *   `+ Red`: The sub-concept (r) is Red.
+    *   *Previous Guesses (rejected):* A child star, A boy on television, A person in red clothing.
+
+    *Summary so far:* A young male on television, wearing something red.
+
+    *   `+g C5`: New detail for Main Concept: Life/Heart/Love (C5).
+    *   `!y B14`: Yellow Sub-concept (y) related to House/Dwelling/Room/Domestic (B14).
+    *   `+ B14 x2`: Two yellow cubes on B14.
+    *   `+ B1`: One yellow cube on B1 (Human/Society/Group).
+
+    *Let's analyze the yellow sub-concept:*
+    *   `!y B14` (House/Dwelling) + `B14 x2` + `B1` (Human/Society/Group).
+    *   Wait, `B1` is Human/Society/Group.
+    *   `B14` is House.
+    *   The Yellow sub-concept is about a house/family/society.
+
+    *Re-evaluating the whole picture:*
+    *   Main Concept: A young male human (A2 + D2 + C1) on TV (A7) associated with Love/Heart (C5).
+    *   Red Sub-concept: Wearing Red clothing (B13 + Red).
+    *   Yellow Sub-concept: Related to a House (B14) and Human/Society (B1).
+
+    *Synthesizing:*
+    *   A young boy, on TV, wearing red, associated with heart/love, and a house/family.
+    *   Could it be a specific character?
+    *   *Mickey Mouse?* (Not a boy, not usually human).
+    *   *Elmo?* (Not a boy, not usually human).
+    *   *Clark Kent?* (Too old).
+    *   *Spider-Man?* (Not a child, though Peter Parker is young).
+    *   *The Grinch?* (No).
+    *   *A character from a show about a family/house?*
+    *   Wait, "Life/Heart/Love" (C5) + "Red clothing" (B13).
+    *   What about *Simpsons*? (Not a person, but people in a house).
+    *   What about *Peanuts/Charlie Brown*? (Charlie Brown is a boy, but his shirt is yellow).
+    *   What about *Sesame Street* characters?
+    *   What about *Red Riding Hood*? (Not a boy).
+    *   Let's look at `!y B14` (House/Dwelling) + `B14 x2` + `B1` (Human/Society/Group). This looks like "Family" or "Home life".
+    *   What about a specific boy on TV in red?
+    *   *Blue's Clues?* (Steve/Joe/Josh - no red clothing focus).
+    *   *Arthur?* (Yellow sweater).
+    *   *Caillou?* (Yellow shirt).
+    *   *The Powerpuff Girls?* (Not boys).
+    *   What about a boy in a red suit? *Santa Claus?* (Not a boy).
+    *   What about *The Little Prince*? (Not a TV show primarily).
+    *   Let's look at the "Love/Heart" (C5) again.
+    *   Is it *Romeo*? (Not a child on TV).
+    *   *A boy in a red shirt in a family show?*
+    *   Wait, "Human/Society/Group" (B1) and "House" (B14).
+    *   Could it be *The Flintstones*? No.
+    *   Could it be *The Brady Bunch*? No.
+    *   What about *Red Riding Hood*? (No, it's a boy).
+    *   How about *Pinocchio*? (Not usually a TV thing).
+    *   What about *Baby Shark*? (Not human).
+    *   Let's rethink the "Red clothing" + "Young boy" + "TV" + "Heart/Love" + "House/Family".
+    *   Maybe a boy from a cartoon?
+    *   *Bart Simpson?* (Red shirt, lives in a house, part of a family, on TV).
+    *   Wait, Bart Simpson wears a red shirt. He is a boy. He is on TV. He is part of a human/family group in a house.
+    *   Does "Heart/Love" (C5) fit Bart? Maybe not primarily, but maybe the concept of "Family/Love"?
+    *   Let's check *Bart Simpson*:
+        *   A2 (Human), D2 (Male), C1 (Child), A7 (TV) - Yes.
+        *   B13 (Clothing) + Red - Yes (his shirt).
+        *   C5 (Love/Heart) - Maybe the family aspect?
+        *   B14 (House) + B1 (Human/Group) - The Simpson family in their house.
+
+    *Alternative:*
+    *   *Red Riding Hood's brother?* (No).
+    *   *A boy in a specific TV show like "Red Wall"?* (No).
+    *   *A character from "The Love Boat"?* (No).
+    *   What about *The Boy in the Striped Pyjamas*? (No, not a TV show).
+    *   What about a character from *Sesame Street*?
+    *   Let's look at the "Heart/Love" (C5) again. Could it be *Cupid*? (Not a boy on TV).
+    *   Could it be *The Little Rascals*?
+    *   Could it be *Rugrats*? (Tommy Pickles wears a blue shirt/diaper).
+    *   Wait, *Bart Simpson* is a very strong candidate for "Boy, TV, Red shirt, Family/House". Let's check if there are other boys in red.
+    *   *Ash Ketchum* (Pokemon)? (Red hat/vest, but maybe not "Heart/Love" as the primary driver).
+    *   What about *Clifford the Big Red Dog*? (Not a human boy).
+
+    *Let's look at the yellow sub-concept again:*
+    `!y B14 (House) + B14 (House) + B1 (Human/Group)`.
+    This really emphasizes the "Household" or "Family" aspect.
+    And the Red sub-concept is "Red clothing".
+    And the Main Concept is "Young male on TV" + "Love/Heart".
+
+    Is it *Charlie Brown*? (He's a boy, on TV, but wears yellow).
+    Is it *Linus*? (Blue blanket).
+    Is it *Snoopy*? (Not human).
+
+    Let's reconsider the "Heart/Love" (C5) + "Red clothing" (B13).
+    A boy in red... who is known for love/heart?
+    Maybe a character from a Christmas special?
+    Wait, *The Grinch*? No.
+
+    What about *Red Riding Hood*? (No, it's a boy).
+    What about *Alvin and the Chipmunks*?
+    *Alvin* is a boy (chipmunk), wears red, on TV (cartoon), part of a group (the chipmunks), and they are a "family" (in a house).
+    But A2 is "Human/Real/Historical". Alvin is an animal.
+
+    Back to *Bart Simpson*.
+    A2: Human.
+    D2: Male.
+    C1: Child.
+    A7: TV.
+    B13 + Red: Red shirt.
+    C5: Heart/Love (Maybe "Family" or "Love of family"? Or maybe the user means "Heart" in a different way).
+    B14 (House) + B1 (Group/Human): The Simpson family.
+
+    Another possibility: *A specific person?*
+    A child actor?
+    *Boy Wonder* (Robin)?
+    Robin (Dick Grayson) wears red/green, is a boy, but is he a "Real/Historical" human (A2)? He's fictional (B2). The clue says A2 (Real/Historical).
+    Wait, if the answer is B2 (Fictional), the clue-giver used A2 (Real/Human). In Concept, A2 means "Human/Real/Historical". This usually distinguishes between a real person and a fictional character.
+    If the clue-giver used A2, the answer is likely a real person.
+
+    Let's re-examine A2: "Human / Real / Historical".
+    If the answer is a real person:
+    A young male (C1, D2), on TV (A7), wearing red (B13, Red), associated with love (C5), and a family/house (B14, B1).
+    *A child actor?*
+    *A boy from a famous family?*
+    *A boy in a red outfit in a famous TV show?*
+
+    Wait, could it be *The Beatles*? (No, they are adults/men).
+    Could it be a boy from a real family on a reality show?
+    What about *someone in the news?*
+
+    Let's look at "Heart/Love" (C5) again.
+    Could the answer be *Romeo*? (No, not a child on TV).
+    Could it be *A boy with a broken heart?*
+
+    Let's rethink the `!y` (Yellow) sub-concept.
+    `!y B14 (House) + B14 (House) + B1 (Human/Society/Group)`.
+    This is a very strong "Household/Family" clue.
+    If the answer is a real person...
+    A young boy, on TV, red clothes, love/heart, and a family/household.
+    *Maybe a child in a famous TV family?*
+    *The kids from "The Brady Bunch"?* (Not specifically a boy in red).
+    *The kids from "Full House"?*
+
+    Wait! What about *someone like a young Prince?* Or *a child of a celebrity?*
+    What about *a person in a red suit?* (Like a singer?)
+
+    Let's look at the clues again.
+    `?g A2 + D2 + A7 + C1` = A young boy on television.
+    `!r B13 + Red` = Wearing red clothes.
+    `+g C5` = Associated with love/heart.
+    `!y B14 + B14 + B1` = Associated with a house/family.
+
+    Is it *a boy in a red sweater?*
+    What about *a boy in a red uniform?*
+    Wait, what if the "red clothing" is a *red jumpsuit* or something?
+    What about *a character like "The Little Prince" but played by a real person?* No.
+
+    Let's try to think of real people/boys/TV/Red/Love/Family.
+    *Maybe a boy from a Christmas special?*
+    *The boy from "Miracle on 34th Street"?* (Not a TV show, a movie).
+
+    Wait, what about *a child singer?*
+    *A boy in a famous band?*
+    *The "Heart" (C5) could refer to a band name?* (Like the band Heart, but they are women).
+
+    Let's look at `B1` (Human/Society/Group) + `B14` (House).
+    Could it be *a member of a famous household?*
+    *A member of the Royal Family?* (They are real, on TV, sometimes wear red, and are a family/household).
+    But "Young boy" (C1) + "On TV" (A7).
+    Maybe a young Prince (like Prince George)? But "Heart/Love" (C5)?
+
+    Let's reconsider the "Fictional" vs "Real" distinction.
+    The clue-giver used A2 (Human/Real/Historical).
+    In many games of Concept, players use A2 for any human, but strictly it means real.
+    If the answer is *Bart Simpson*, the clue-giver should have used B2 (Character/Fictional).
+    Since they used A2, I should focus on real people.
+
+    *Real young boy, on TV, red clothes, heart/love, family.*
+    Is it *a boy in a Red Cross?* (No).
+    Is it *a boy who is a "heartthrob"?*
+
+    What if the "Red clothing" is a *red cape*? (A boy in a red cape... like a superhero?)
+    *A real child who is a superhero?* No.
+
+    What if "Heart/Love" (C5) + "Red clothing" (B13) + "Young boy" (C1) = *A boy in a Valentine's Day thing?*
+
+    Let's try another angle.
+    `!y B14 (House) + B14 (House) + B1 (Group)`.
+    Could this be "Family members" or "A household"?
+    `A boy on TV in red clothes in a family/house...`
+    Could it be *a boy from "The Waltons"?*
+    *A boy from "Little House on the Prairie"?*
+
+    Wait... *A boy in a red suit on TV...*
+    Could it be *a boy who plays Santa?*
+    Could it be *a boy in a red outfit in a musical?*
+
+    Let's think about "Heart" (C5) again.
+    *Heartthrob?*
+    *Love/Life?*
+
+    Let's try to search for "Boy, red shirt, TV, family".
+    *Bart Simpson* is the most iconic "Boy, Red Shirt, TV, Family".
+    If the clue-giver is slightly imprecise with A2/B2, it's almost certainly Bart Simpson.
+    Let's look at the yellow sub-concept again: `B14` (House) x2 and `B1` (Human/Society).
+    In Concept, adding a cube to an icon means "more".
+    So "House, House, Human/Group".
+    This strongly points to "A family in a house".
+    The Simpsons live in a house, they are a group of humans, and Bart is a boy on TV in a red shirt.
+
+    What about *the character from "Peanuts"?* (No, red shirt is not the main thing, and they are not humans (A2)).
+
+    Let's look at `C5` (Heart/Love/Life) again.
+    Is there any other connection?
+    *A boy in a red shirt...*
+    *Maybe "Red" is a name?* No, it's a color swatch.
+
+    Could it be *a specific real person?*
+    *A boy from a famous family on a reality show?*
+    *A boy in a red sweater in a famous video?*
+
+    Let's try to think of "Red clothing" + "Boy" + "TV" + "Heart".
+    What if the "Heart" is a *brand* or a *logo*?
+    *Like "Love" or "Heart"?*
+
+    Wait, what about *a boy on "Sesame Street"?*
+    But they are characters.
+
+    Let's try a different guess.
+    Could it be *a boy in a red uniform?*
+    What if the "House" (B14) and "Human/Group" (B1) refers to a *reigning dynasty*?
+    A young boy (C1) from a royal family (B1) living in a palace (B14) who is often on TV (A7)?
+    *A young Prince?* (But the red clothing?)
+
+    Wait, *Bart Simpson* is such a strong match for "Boy, TV, Red clothes, Family/House".
+    Let's look at "Heart/Love" (C5) for Bart.
+    Maybe it's not "Love", but "Life"? (C5: Life/Heart/Love).
+    Is Bart "Life"? No.
+    Is the show "Life"? No.
+    Is it "Love"? No.
+
+    Wait, what if the answer is *a boy in a red shirt from "The Simpsons"?* (Which is just Bart).
+
+    Let's consider *the boy in the red sweater*... from a movie?
+    *The boy from "The Sixth Sense"?* (No).
+
+    What about *a boy from "The Sound of Music"?* (Not a TV show).
+
+    Let's rethink.
+    `?g A2` (Human) + `D2` (Male) + `A7` (TV) + `C1` (Child).
+    `!r B13` (Clothing) + `Red` (Color).
+    `+g C5` (

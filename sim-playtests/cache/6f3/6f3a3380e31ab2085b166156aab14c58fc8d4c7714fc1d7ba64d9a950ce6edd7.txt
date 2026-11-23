@@ -1,0 +1,244 @@
+*   `?g B8`: Main concept is an Expression, Quote, or Words.
+    *   `!r F11`: Red sub-concept (related idea/part) is One or Single.
+    *   `!b Blue`: Blue sub-concept (related idea/part) is Blue.
+    *   `!k E2`: Black sub-concept (related idea/part) is Night, Space, Moon, or Star.
+
+    *   `B8`: Words/Expression.
+    *   `F11`: One/Single.
+    *   `Blue`: Blue.
+    *   `E2`: Night/Space/Moon/Star.
+
+    *   *Connection between "Words", "One", "Blue", and "Night/Star":*
+    *   Is it "One Blue Word"? No.
+    *   Is it related to "Blue Moon"? "Blue Moon" is a phrase.
+    *   Wait, the `?g B8` is the *answer*. The answer is a "Word/Expression/Quote".
+    *   The `!r F11` means "One".
+    *   The `!b Blue` means "Blue".
+    *   The `!k E2` means "Moon/Night/Star/Space".
+
+    *   *Hypothesis 1: "Once in a blue moon"*
+        *   `?g B8`: It's a common phrase/expression. (Matches)
+        *   `!r F11`: "One" (Matches "Once" or "Once in a...")
+        *   `!b Blue`: "Blue" (Matches)
+        *   `!k E2`: "Moon" (Matches)
+
+    *   *Check against previous guesses:*
+        *   Guesser guessed: "A quote, A proverb, An idiom" -> Clue-giver said "No". (Note: "Once in a blue moon" *is* an idiom. This is a conflict. Let me re-evaluate.)
+        *   Wait, if the clue-giver said "No" to "An idiom", then the answer is NOT an idiom? Or maybe the clue-giver is being very strict?
+        *   Let's look at the other guesses.
+        *   "A single word, A syllable, A one-liner" -> "No". (If the answer is "Once in a blue moon", it's more than one word).
+        *   "Blue language, Profanity, Swearing" -> "No". (It's not about bad language).
+
+    *   *Wait, let's re-read the markers.*
+        `?g B8` -> The answer is an expression/quote/words.
+        `!r F11` -> One.
+        `!b Blue` -> Blue.
+        `!k E2` -> Night/Moon/Star/Space.
+
+    *   Is there an expression that is "One Blue Star" or "One Blue Night"?
+    *   What about "Blue Moon"? Is "Blue Moon" an expression? Yes.
+    *   What about "Star"? "Star" words? No.
+    *   Maybe "The Blue Moon"?
+    *   Maybe "Starry Night"? No, `?g` is words.
+
+    *   Let's look at `!r F11` (One) + `!b Blue` + `!k E2` (Moon/Night).
+    *   "Once in a blue moon".
+    *   If the user/clue-giver said "No" to "An idiom", I should look for something else.
+    *   Wait, maybe the answer is a *specific* word or phrase that is not an idiom?
+    *   Is there a song title? "Blue Moon"?
+    *   "Blue Moon" is a song.
+    *   `?g B8` (Expression/Words) could refer to a song title or a name.
+    *   `!r F11` (One). Is there a "One Blue Moon"? No.
+    *   Wait, "One" + "Blue" + "Moon".
+    *   "Blue Moon" (the song/phrase).
+    *   Does `!r F11` (One) refer to "Once"?
+    *   If the answer is "Once in a blue moon", it is an idiom. Why did the clue-giver say no?
+    *   Maybe the answer is "Blue moon" (the concept/phrase)?
+
+    *   Let's look at `!r F11` (One) again.
+    *   What if the answer is "One-night stand"?
+        *   `?g B8` (Words/Expression) - Yes.
+        *   `!r F11` (One) - Yes.
+        *   `!k E2` (Night) - Yes.
+        *   `!b Blue` (Blue) - ? Does not fit "Blue".
+
+    *   What if the answer is "Blue Moon"?
+        *   `?g B8` (Expression) - Yes.
+        *   `!b Blue` - Yes.
+        *   `!k E2` (Moon) - Yes.
+        *   `!r F11` (One)? Maybe the number 1 is associated with it? "Once"?
+
+    *   Let's reconsider the "No" to "An idiom".
+    *   If it's not an idiom, what is it?
+    *   A song title? "Blue Moon"?
+    *   A single word? No, "A single word" was guessed and rejected.
+
+    *   Let's look at the clues again.
+    *   `?g B8` (Expression)
+    *   `!r F11` (One)
+    *   `!b Blue` (Blue)
+    *   `!k E2` (Moon/Night)
+
+    *   "One Blue Moon"? "Blue Moon"?
+    *   Is there a phrase "One Blue ___"?
+    *   What about "Star"? "Blue Star"?
+    *   What about "Space"? "Blue Space"?
+
+    *   Let's look at `!r F11` (One) + `!b Blue` (Blue).
+    *   "One Blue..."
+    *   Wait, "One-way street"? No.
+    *   "Once upon a time"? No.
+
+    *   What about "Blueberry"? No.
+    *   What about "Blue Moon"?
+    *   If the answer is "Blue Moon" (the song/expression), then `!r F11` (One) might be a mistake or referring to something else? Or maybe "Once in a blue moon" and the clue-giver is being extremely pedantic about "An idiom" vs "A phrase"?
+
+    *   Let's try another path.
+    *   `B8` (Expression/Quote)
+    *   `F11` (One/Single)
+    *   `Blue` (Blue)
+    *   `E2` (Moon/Star/Night)
+
+    *   Is it "Blue moon"? (A song/phrase).
+    *   Is it "Blueberry"? (No).
+    *   Is it "Star" related? "Blue star"?
+    *   Is it "One-way"? (No).
+
+    *   Let's re-examine the `!r F11` (One).
+    *   Could it be "Single"?
+    *   A "Single" (music/record).
+    *   "Blue Moon" single?
+    *   "Blue" (the color/album)?
+    *   "Blue Moon" (the song).
+
+    *   What if the answer is "Blue" (the song/album/phrase/expression)?
+    *   No, `?g B8` is the expression itself.
+
+    *   Let's think about "Once in a blue moon" again.
+    *   If the clue-giver says "No" to "An idiom", then maybe it's a song title.
+    *   "Blue Moon" (the song/phrase).
+    *   "Once in a blue moon" (the idiom).
+    *   If the clue-giver is not a person but a logic-driven instruction, maybe they reject "Idiom" if it's a "Song Title".
+
+    *   Let's try:
+    *   1. Blue Moon
+    *   2. Once in a blue moon (even though they said no to idiom, I'll try the phrase itself)
+    *   3. A song?
+
+    *   Wait, `!r F11` is "One".
+    *   Is there a phrase with "One" and "Blue"?
+    *   "One blue..."
+    *   "One blue star"?
+    *   "One Blue Moon"?
+
+    *   Wait! `!k E2` (Night/Space/Moon/Star).
+    *   `!b Blue` (Blue).
+    *   `!r F11` (One).
+    *   `?g B8` (Expression).
+
+    *   Could it be "Blue Moon"?
+    *   "Blue Moon" (the song).
+    *   Is "Blue Moon" a "One" thing? No.
+    *   Is it "Once in a blue moon"?
+
+    *   Let's look at the "No" to "A single word, A syllable, A one-liner".
+    *   This means the answer is *not* one word or a single syllable. It's a multi-word phrase.
+    *   "Once in a blue moon" fits the "multi-word" and the "Blue" and the "Moon" and the "One" (Once).
+
+    *   Why did they say "No" to "An idiom"?
+    *   Maybe it's a "Song Title"? Or "A Phrase"?
+    *   If I say "Blue Moon", I'm covering both the song and the concept.
+
+    *   Let's check `!r F11` (One) again.
+    *   Maybe the answer is "One Blue Moon"? (Not a common phrase).
+    *   Maybe the answer is "Blue moon"?
+    *   Maybe the answer is "A blue moon"?
+
+    *   Let's try:
+    *   1. Blue moon
+    *   2. Once in a blue moon
+    *   3. A song
+
+    *   Wait, I'll look for other "One" + "Blue" connections.
+    *   "Blue Moon" (the song).
+    *   "Blue" (the album).
+    *   "One" (the album/song).
+    *   "Blue Moon" is a very strong candidate for the components.
+
+    *   Actually, let's think about "Star".
+    *   "One Blue Star"? No.
+    *   "Blue Star"? (A brand/name).
+    *   "Blue Moon" (The beer!).
+    *   `?g B8` (Expression/Name/Brand/Title).
+    *   `!r F11` (One)? Maybe "One" refers to a single brand? No.
+    *   But "Blue Moon" is a beer brand.
+    *   `!b Blue` (Blue).
+    *   `!k E2` (Moon).
+    *   Is it a "Brand"? (B7).
+    *   The clue-giver used `B8` (Expression/Quote/Words).
+    *   But `B8` is "Expression/Quote/Talking/Words".
+    *   `B7` is "Title/Brand/Name".
+    *   If the answer is "Blue Moon" (the beer), they might have used `B7`.
+    *   They used `B8`.
+
+    *   Let's go back to "Once in a blue moon".
+    *   It's a phrase (B8).
+    *   It has "Once" (F11 - One).
+    *   It has "Blue" (Blue).
+    *   It has "Moon" (E2).
+    *   It's an idiom (already rejected).
+    *   It's a phrase/expression (B8).
+
+    *   What if the answer is "Blue moon" (the song)?
+    *   A song title (B7/B8).
+    *   "Once in a blue moon" (the phrase).
+
+    *   Is there anything else?
+    *   "Blue" + "One" + "Night".
+    *   "One Blue Moon"?
+    *   "Blue Moon"?
+    *   "Blue" + "Star"?
+    *   "Blue" + "Sky"? (No, E2 is Moon/Night).
+
+    *   Could it be "Star Wars"? (No, B8 is words).
+    *   "One"? "The one"?
+    *   "Blue" + "One"?
+
+    *   Let's try "Blue Moon" and "Once in a blue moon".
+
+    *   Wait, another possibility: "Moonlight"?
+    *   `?g B8` (Expression/Words).
+    *   `!r F11` (One).
+    *   `!b Blue` (Blue).
+    *   `!k E2` (Moon).
+    *   "Blue Moonlight"? No.
+
+    *   What about "Blue Moon" (the song)?
+    *   I will guess "Blue Moon" and "Once in a blue moon".
+
+    *   Wait, what if `!r F11` (One) means "Single"?
+    *   "Single" + "Blue" + "Moon".
+    *   "Blue Moon Single"? (No).
+
+    *   Let's look at the "No" to "A single word...".
+    *   The answer is a phrase.
+    *   "Once in a blue moon" is the most logical.
+    *   If the clue-giver said "No" to "An idiom", they might be looking for "A phrase" or "A song title".
+
+    *   Let's try:
+    *   1. Once in a blue moon
+    *   2. Blue moon
+    *   3. A song title
+
+    *   Actually, I'll just go with the most likely phrase.
+
+    *   One more check: `!r F11` (One) + `!b Blue` (Blue) + `!k E2` (Moon/Night).
+    *   "One Blue Moon"?
+    *   "Once in a blue moon".
+
+    *   Wait! "Blue moon" is a brand of beer.
+    *   But the `?g` is `B8` (Words/Expression).
+    *   A brand/name is `B7`.
+    *   A quote/expression is `B8`.
+
+    *   I'll go with "Once in a blue moon" and "Blue moon".

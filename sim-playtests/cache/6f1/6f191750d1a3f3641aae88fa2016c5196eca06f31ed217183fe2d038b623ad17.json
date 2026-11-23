@@ -1,0 +1,127 @@
+{
+  "contentSha256": "7b949bee1e8774d2cdc81f44ec5e56a98337d115fa920cbb54a3f15360c91806",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "90167f6773b23c0d34d7074b521186233b0757584cab853ba7be1b70066d6420"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "8a2de29163c6f0640fdbb6b7733bfb2c69d162e7ad642e317eaf32d39685f532"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "openai/gpt-6-luna",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "pass": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "guesses",
+                "pass"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-2"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "db82776",
+    "costUsd": 0.00007632,
+    "latencyMs": 946,
+    "recordedAt": "2026-11-23T22:11:29.316Z",
+    "recordedBy": "claude",
+    "servedBy": "OpenAI",
+    "servedModel": "openai/gpt-6-luna",
+    "tags": {
+      "run": "calibrate-or-luna"
+    },
+    "usage": {
+      "cacheReadTokens": 4727,
+      "cacheWriteTokens": 126,
+      "inputTokens": 4856,
+      "outputTokens": 26,
+      "reasoningTokens": 0
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"Statue of Liberty\",\"Torch\",\"Prometheus\"],\"pass\":false}",
+          "reasoning": null,
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "completed"
+      }
+    ],
+    "created": 1795471888,
+    "id": "gen-1795471888-dVWYVjPtnese9gs5Ui95",
+    "model": "openai/gpt-6-luna",
+    "object": "chat.completion",
+    "provider": "OpenAI",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 26,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.00007632,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000013,
+        "upstream_inference_cost": 0.00007632,
+        "upstream_inference_prompt_cost": 0.00006332
+      },
+      "is_byok": false,
+      "prompt_tokens": 4856,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 126,
+        "cached_tokens": 4727,
+        "video_tokens": 0
+      },
+      "total_tokens": 4882
+    }
+  }
+}

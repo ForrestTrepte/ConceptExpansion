@@ -1,0 +1,104 @@
+*   `?g D8`: Main Concept is `D8` (Time / Duration).
+    *   `+ A12`: Part of Main Concept is `A12` (Ground transportation / Road).
+    *   `+ B1`: Part of Main Concept is `B1` (Human / Society / Group).
+    *   `!r D3`: Red Sub-Concept (feature/related) is `D3` (Fast / Race).
+    *   `+ A12`: Red Sub-Concept is `A12` (Ground transportation / Road).
+    *   `!y D8`: Yellow Sub-Concept (feature/related) is `D8` (Time / Duration).
+
+    *   The core concept (`?g`) is Time/Duration.
+    *   The main concept involves Road/Transportation and People/Society.
+    *   The red clue (detail/feature) highlights Speed/Racing and Road/Transportation.
+    *   The yellow clue (detail/feature) reinforces Time/Duration.
+
+    *   *Idea 1: A race.* (Matches D3 Fast, A12 Road, D8 Time).
+    *   *Idea 2: A commute.* (Matches A12 Road, D8 Time, B1 Human/Society).
+    *   *Idea 3: Traffic jam.* (Matches A12 Road, B1 People/Society, D8 Time (duration of waiting), but D3 is "Fast/Race" which is the opposite).
+    *   *Idea 4: Formula 1 or Grand Prix.* (Matches D3 Fast, A12 Road/Track, B1 Society/Group (teams), D8 Time/Duration).
+    *   *Idea 5: A trip or journey.* (Matches A12 Road, D8 Time, B1 People).
+    *   *Idea 6: A marathon?* (Usually running, not A12 Road/Transportation).
+    *   *Idea 7: Speed limit?* (Matches A12 Road, D8 Time/Duration (implied speed), D3 Fast).
+    *   *Idea 8: A car race.*
+
+    *   `?g D8` (Time/Duration) suggests the subject is "a period of time" or "a time-related thing".
+    *   `+ A12` (Road) + `+ B1` (People) -> Travel/Commuting/Driving.
+    *   `!r D3` (Fast) + `+ A12` (Road) -> Racing/Speeding.
+    *   `!y D8` (Time) -> Duration/Timeframe.
+
+    Let's combine: "A period of time involving fast road transport and people."
+    Maybe "A race"? "A car race"? "A commute"?
+
+    Wait, `?g D8` (Time) is the *Main Concept*. This usually means the answer is a duration or a specific time-related event.
+    A "race" is an event.
+    A "commute" is an activity (but `D8` is Time).
+    A "trip"?
+    "A season"? No.
+    "A weekend"? No.
+
+    Let's look at `!r D3` (Fast) and `+ A12` (Road). This strongly points to racing.
+    Is the answer "A race"?
+    Is the answer "A commute"? (Usually not fast).
+    Is the answer "A road trip"?
+
+    Wait, `?g D8` (Time/Duration) + `A12` (Road) + `B1` (People).
+    If the answer is "A race", does it fit "Time"? A race is an event that takes a certain amount of time.
+    If the answer is "Speeding", that's an action.
+    If the answer is "A commute", it's a duration.
+
+    Let's reconsider:
+    `?g D8` (Time/Duration)
+    `+ A12` (Road)
+    `+ B1` (People)
+    `!r D3` (Fast) + `A12` (Road) -> Racing
+    `!y D8` (Time)
+
+    Maybe "A car race"?
+    "A marathon" (No, A12 is road transport).
+    "A trip"?
+    "A commute"?
+
+    What about "A detour"? No.
+    "A traffic jam"? No, because of `D3` (Fast).
+
+    "A race" or "A car race" seems very strong.
+    "A trip" or "A road trip"?
+    "A commute"?
+
+    Let's try "A race".
+
+    Wait, let's look at the `!y D8` again. It's a sub-concept of Time.
+    The main concept is Time.
+    Maybe the answer is "A second"? "A minute"? No, those don't fit A12/B1.
+    Maybe "An era"? No.
+
+    Could it be "A commute"? A commute is a duration (D8), involves people (B1) and roads (A12). But `D3` (Fast) contradicts the typical slow commute, unless it's "a fast commute" or something? Unlikely.
+
+    What about "A rally"? (Racing, road-based, time-based).
+    What about "A journey"?
+
+    Let's look at `?g D8` again. If the answer is "A race", is "Time" the main concept? A race is an event. Usually, `?g` defines the category. `D8` is Time/Duration.
+    Is "A race" a duration? Not really, it's an event.
+    Is "A commute" a duration? Yes.
+    Is "A trip" a duration? Yes.
+
+    Let's look at the markers again.
+    `?g D8` (Time)
+    `+ A12` (Road)
+    `+ B1` (People)
+    `!r D3` (Fast)
+    `+ A12` (Road)
+    `!y D8` (Time)
+
+    Could it be "A sprint"? No, A12.
+    "A drag race"? (Fast, road/track, time-based).
+    "A Grand Prix"?
+
+    Let's try:
+    1. A race
+    2. A car race
+    3. A road trip
+
+    Actually, "A commute" is a very common "Time" concept in these games, but "Fast" is the outlier.
+    What if the answer is "A deadline"? No.
+    "A schedule"? No.
+
+    Let's go with "A race".

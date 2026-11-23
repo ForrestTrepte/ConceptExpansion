@@ -1,0 +1,42 @@
+*   `?g B9`: Main Concept is a Building / Monument / City.
+    *   `+ D10`: Cube on D10 (Medical / Medicine / Health) in the same group (`?g`). So, the main concept is a building related to medicine/health.
+    *   `!r D10`: Red Sub-Concept (a part or feature) is Medical / Medicine / Health.
+    *   `+ B14`: Cube on B14 (House / Dwelling / Room / Domestic) in the same group (`!r`). So, a part of it is a house or room.
+    *   `!y A3`: Yellow Sub-Concept is a Work / Occupation.
+    *   `+ D10`: Cube on D10 (Medical / Medicine / Health) in the same group (`!y`). So, a related idea is a medical occupation.
+
+    *   Main Concept: A building/place related to medicine/health.
+    *   Sub-Concept 1 (Red): It's a place of medicine/health, and it includes rooms/houses.
+    *   Sub-Concept 2 (Yellow): It involves medical occupations.
+
+    *   Hospital
+    *   Clinic
+    *   Doctor's office
+    *   Nursing home
+    *   Pharmacy (maybe, but "house/room" suggests something bigger)
+    *   Ambulance (no, that's a vehicle)
+    *   Medical center
+
+    *   `?g B9` (Building) + `D10` (Medical): Hospital/Clinic.
+    *   `!r D10` (Medical) + `B14` (House/Room): Hospital wards/rooms? Or maybe a clinic?
+    *   `!y A3` (Occupation) + `D10` (Medical): Doctor/Nurse/Medical professional.
+
+    The strongest candidate is "Hospital".
+
+    1. Hospital
+    2. Clinic
+    3. Doctor
+
+    *Self-Correction:* "Hospital" is the most iconic "Building + Medical + Occupation" combination. "Clinic" is also very strong. "Medical center" is a bit long.
+
+    Let's look at the markers again.
+    `?g B9` (Building) + `D10` (Medical) = A medical building.
+    `!r D10` (Medical) + `B14` (Room) = A part of it is a medical room/house.
+    `!y A3` (Job) + `D10` (Medical) = A job involving medicine.
+
+    Hospital seems the best fit.
+
+    Guesses:
+    1. Hospital
+    2. Clinic
+    3. Doctor's office

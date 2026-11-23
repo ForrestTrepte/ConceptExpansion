@@ -1,0 +1,243 @@
+*   `?g F7`: Main Concept is Paper (F7).
+    *   `+ Yellow`: Sub-concept (on F7) has Yellow color.
+    *   `+ C8`: Sub-concept (on F7) has Money/Rich/Expensive (C8).
+    *   `!r A14`: Red Sub-concept is Food/Eating/Edible (A14).
+    *   `+ Brown`: Sub-concept (on A14) has Brown color.
+
+    *   Main Concept: Paper (F7).
+    *   Attributes of the Main Concept: Yellow (Yellow swatch), Money/Rich/Expensive (C8).
+    *   Related Idea (Red group): Food (A14) that is Brown (Brown swatch).
+
+    *   *Hypothesis 1: Money is made of paper.*
+        *   Is money yellow? Not usually (though gold is yellow, paper money is often green or different colors, but "Yellow" might represent gold-colored paper or a specific currency).
+        *   Wait, if the Main Concept is Paper, and it's associated with Yellow and Money... maybe "Banknote"? Or "Currency"?
+        *   "Yellow" + "Money" + "Paper" $\rightarrow$ Gold? No, Gold isn't paper.
+        *   Maybe "Yellow Pages"? No, that doesn't fit the Money/Food part.
+
+    *   *Hypothesis 2: The red sub-concept is a related idea.*
+        *   Red Sub-concept: Food (A14) + Brown (Brown swatch).
+        *   What is a brown food related to paper/money/yellow?
+        *   Maybe "Chocolate"? "Bread"? "Coffee"? "Toast"?
+        *   How does "Chocolate" or "Bread" relate to "Paper/Money/Yellow"?
+        *   Maybe "Chocolate wrapper"? (Paper/Food/Brown).
+        *   "Banknote" $\rightarrow$ Chocolate? No.
+
+    *   *Hypothesis 3: Rethinking the whole thing.*
+        *   `?g F7`: It is a Paper (F7).
+        *   Attributes: Yellow (Yellow swatch) and Money (C8).
+        *   Related: Food (A14) + Brown (Brown swatch).
+        *   Could it be a **Recipe**? (Paper + Food + Yellow?). No, recipes aren't usually "money".
+        *   Could it be **Check**? (A bank check is paper, related to money, maybe yellow/gold ink/paper). Related food? No.
+        *   Could it be **Menu**? (Paper, food).
+        *   Wait... **Gold leaf**? (Used in food, looks like gold/yellow, paper/thin sheet).
+        *   **Cookie**? (Food, Brown, Paper... cookie sheet?).
+        *   **Money/Currency**: "Paper" + "Yellow" + "Money". In some cultures, maybe?
+        *   Wait, what about **Credit Card**? (Not paper).
+        *   What about **Receipt**? (Paper, Money, Food - if you get it at a restaurant). Is it Yellow? Sometimes thermal paper is yellowish? Is it Brown? No.
+
+    *   *Let's look at the "Yellow" + "Money" + "Paper" combo again.*
+        *   Could it be **Gold**? (Not paper).
+        *   Could it be **Tax**? (Paper, Money).
+        *   What about **Yellow Pages**? (Yellow paper, information/money connection?).
+        *   What about **Bread**? (Money is slang for bread. Bread is a food. It's brown (crust). Is bread paper? No. But maybe the clue is "Paper" $\rightarrow$ "Notebook"? No).
+
+    *   *Let's re-examine the Red Group:*
+        `!r A14` (Food) + `Brown`.
+        A food that is brown.
+        A paper that is yellow and related to money.
+
+        Is the answer **Cash**? (No, paper).
+        Is the answer **Dollar**?
+        Is the answer **Checkbook**?
+        Is the answer **Bill**? (A bill is paper, a bill is money. Is a bill yellow? Is a bill related to brown food? "Bill" $\rightarrow$ "Bird's bill"? No, that's A4).
+
+    *   *Wait!* **Biscuit**? (A biscuit is a food, often brown. In British English, a "biscuit" can be a cookie. In the US, a "biscuit" is a bread. Is a biscuit paper? No. But "Biscuit" is a type of "money/coin" in some contexts? No.)
+
+    *   *Wait!* **Note**? (Banknote = Paper, Money. A musical note? No. A note = Paper. A "yellow note" (post-it)? A "brown food" note? No.)
+
+    *   *Let's look at the colors again.*
+        Maybe the answer is **Gold leaf**?
+        Main Concept: Paper (F7).
+        Attributes: Yellow (Gold color) + Money (Gold).
+        Related: Food (A14) + Brown (?).
+
+        Actually, look at the board again.
+        `?g F7` (Paper)
+        `+ Yellow`
+        `+ C8` (Money)
+        `!r A14` (Food)
+        `+ Brown`
+
+        Is it **Coffee**? (Food/Drink, Brown. Paper = filter?).
+        Is it **Chocolate**? (Food, Brown. Paper = wrapper?).
+        Is it **Bread**? (Food, Brown. Money = dough/bread. Paper = ?).
+
+        Wait... **Chocolate bar**?
+        Paper (Wrapper), Yellow (Gold/Brand?), Money (Expensive/C8?), Food (A14), Brown (Chocolate).
+        This is a bit of a stretch.
+
+        Let's try: **Banknote**? (Paper, Money).
+        Let's try: **Menu**? (Paper, Food).
+
+        What if the answer is **Cookie**?
+        `?g F7` (Paper? No.)
+
+        What if the answer is **Cake**?
+        `?g F7` (Paper? No, sponge/cake can be a paper... no).
+
+        Wait! **Yellow Pages**? (Yellow paper, money/business/advertising).
+        What is a brown food related to it?
+
+        Let's look at `F7` (Paper) + `C8` (Money) + `Yellow`.
+        **Gold**? (Not paper).
+        **Dollar**? (Paper, Money).
+        **Check**? (Paper, Money).
+        **Receipt**? (Paper, Money, Food-related if at a restaurant).
+
+        What about **Sandwich**? (Food, Brown (bread), Paper (wrapper)).
+        Is a sandwich "Money"? No.
+
+        Let's look at the `?g` again. The Main Concept is Paper.
+        If the answer is a "thing" that is Paper, and it is Yellow and Money.
+        Maybe **Gold leaf**? (It's a thin sheet, sometimes treated like paper).
+        Maybe a **Coupon**? (Paper, Money (savings), Yellow (sometimes)).
+        Maybe a **Certificate**? (Paper, Money/Value).
+
+        Wait... **Bread**?
+        `?g F7` (Paper? No, unless it's "paper thin"?)
+        Actually, "Bread" is slang for Money.
+        "Bread" is a Food.
+        "Bread" can be Brown.
+        Is "Bread" paper? No.
+
+        Let's try to find a word that is Paper, Yellow, and Money.
+        **Gold**? No.
+        **Yellow Pages**?
+        **Post-it note**? (Paper, Yellow. Is it money? No. Is it food? No).
+
+        Wait! **Waffle**? (Food, Brown/Yellow. Paper? No).
+
+        Let's try: **Chocolate wrapper**?
+        Let's try: **Paper money**?
+        Let's try: **Banknote**?
+
+        If the answer is **Banknote**:
+        - Paper (F7): Yes.
+        - Yellow: Maybe (some currencies).
+        - Money (C8): Yes.
+        - Related Idea: Food (A14) + Brown (Brown).
+        What is a brown food related to a banknote?
+        Wait... "Bread" (slang for money) is brown.
+
+        This is a very common riddle-style logic.
+        Paper + Money + Yellow = **Banknote** (or just **Money/Cash**).
+        Related: **Bread** (Food + Brown).
+
+        Let's check: Is "Banknote" a single concept? Yes.
+        Is "Bread" a related idea for "Money"? Yes (slang).
+        Is "Bread" brown and a food? Yes.
+        Is "Banknote" paper? Yes.
+
+        Another possibility: **Cookie**?
+        No, the main concept is F7 (Paper).
+
+        Another possibility: **Chocolate**?
+        Wrapper is paper. Chocolate is food. Chocolate is brown.
+        Is chocolate "Money/Rich" and "Yellow"?
+        Maybe "Gold-wrapped chocolate"?
+
+        Let's try to think of other things that are Paper + Money.
+        **Check**? **Bill**?
+        Is a "Bill" a food? (Bird bill?) No, that's A4.
+
+        How about **Coupon**?
+        How about **Receipt**?
+
+        Let's go with the most likely candidates:
+        1. **Banknote** (or **Paper money**)
+        2. **Money** (though the main concept is paper, so it's likely the paper form)
+        3. **Coupon**
+
+        Wait, look at `?g F7`. The answer *is* a Paper.
+        If the answer is "Banknote":
+        - It's Paper.
+        - It's related to Money (C8).
+        - It might be Yellow (some papers).
+        - Related: Food (A14) + Brown $\rightarrow$ Bread (slang for money).
+
+        Let's try these:
+        1. Banknote
+        2. Paper money
+        3. Coupon
+
+        Wait, one more: **Gold leaf**?
+        It's paper-like. It's yellow. It's money-related (gold).
+        Related: Food (A14) + Brown... maybe chocolate?
+
+        Let's refine the guesses.
+
+        1. **Banknote**
+        2. **Paper money**
+        3. **Coupon** (or maybe **Check**)
+
+        Actually, "Bread" is such a strong link for "Money" + "Brown" + "Food".
+        The question is: is the answer "Money" or "Banknote"?
+        The main concept is "Paper". So the answer must be a thing made of paper.
+        "Banknote" or "Paper money" fits perfectly.
+
+        One more thought: **Chocolate**?
+        If the answer is **Chocolate**:
+        - It is a Food (A14).
+        - It is Brown.
+        - Is it Paper? No.
+        The `?g` is the main concept. The clue-giver says the answer is `?g F7` (Paper).
+        So the answer *is* a paper.
+
+        Guesses:
+        1. Banknote
+        2. Paper money
+        3. Check
+
+        Wait, what if the answer is **Yellow Pages**?
+        - Paper.
+        - Yellow.
+        - Money (advertising).
+        - Related: Brown food? Doesn't fit.
+
+        Let's try **Banknote** and **Paper money**.
+
+        Wait, could it be **Menu**?
+        - Paper.
+        - Food (A14).
+        - Brown (maybe a menu cover?).
+        - Money (it's for a business?).
+        - Yellow (?).
+        Doesn't seem as strong.
+
+        Final check on **Banknote**:
+        - `?g F7` (Paper) - Yes.
+        - `+ Yellow` - (Many notes have yellow/gold hues).
+        - `+ C8` (Money) - Yes.
+        - `!r A14` (Food) - Yes, via the slang "Bread" or "Dough".
+        - `+ Brown` - Yes, bread is brown.
+
+        This looks like a clever clue.
+
+        Wait, what about **Cookie**?
+        - No, the main concept is Paper.
+
+        What about **Receipt**?
+        - Paper.
+        - Food (A14).
+        - Money (C8).
+        - Brown (?).
+        - Yellow (?).
+        Less likely.
+
+        What about **Dollar**?
+        - Paper.
+        - Money.
+        - Yellow (some color?).
+        - Related: Food (Bread/Dough).
+
+        Let's go with **Banknote**, **Paper money**, and **Dollar**.

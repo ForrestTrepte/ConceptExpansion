@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Once in a blue moon",
+    "Blue moon",
+    "Blue"
+  ]
+,
+"pass": false
+}

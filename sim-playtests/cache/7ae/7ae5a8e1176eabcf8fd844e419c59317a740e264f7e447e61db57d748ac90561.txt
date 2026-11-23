@@ -1,0 +1,8 @@
+{
+  "guesses": [
+    "Library",
+    "School",
+    "Museum"
+  ]
+,"pass": false
+}

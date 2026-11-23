@@ -1,0 +1,181 @@
+*   `?g B8`: Main Concept is "Expression – Quote / Talking / Words" (B8).
+    *   `!r B8`: Red Sub-Concept (related idea 1) is "Expression – Quote / Talking / Words" (B8).
+        *   `+ D14`: Cube on "Mouth / Taste" (D14) in Red group.
+    *   `!y B9`: Yellow Sub-Concept (related idea 2) is "Building / Monument / City" (B9).
+        *   `+ H10`: Cube on "Small / Low" (H10) in Yellow group.
+        *   `+ B1`: Cube on "Human / Society / Group" (B1) in Yellow group.
+    *   `+g E9`: Cube on "Fragment / Multitude / Cluster" (E9) in Main group.
+
+    *Summary of markers:*
+    *   Main Concept: Talking/Words.
+    *   About it:
+        *   Relates to mouth/talking (Red).
+        *   Relates to many/fragments (Main).
+        *   Relates to small/low (Yellow).
+        *   Relates to cities/buildings (Yellow).
+        *   Relates to people/society (Yellow).
+
+    *   Step 1: "Small talk", "Small world", "Small town" -> **No**. (Eliminates "Small talk").
+    *   Step 2: "Dialect", "Accent", "Slang" -> **No**.
+    *   Step 3: "Gossip", "Rumor", "A legend" -> **Yes: Gossip**. (This is the key. The answer is related to gossip).
+    *   Step 4: "Small town gossip", "Local gossip", "Scandal" -> **No**. (Eliminates "Small town gossip", "Local gossip", "Scandal").
+
+    *   The answer is an "expression/phrase/word" (B8) related to "Gossip" (Yes: Gossip).
+    *   It involves "Many/Fragments" (E9) + "Small" (H10) + "People/Society" (B1) + "City/Place" (B9).
+    *   Wait, let's re-examine the "Small" clues. "Small talk" was No. "Small town gossip" was No.
+    *   The phrase/expression is about "Gossip".
+    *   The "Fragments/Multitude" (E9) might suggest things being spread or many pieces.
+    *   The "City/Place/Society" (B9, B1) and "Small" (H10) combination.
+
+    *Possibilities:*
+    *   "Spilling the beans" (Doesn't fit B9/B1/H10 well).
+    *   "Word of mouth" (B8 + D14/mouth fits well. Does it fit the others? B1/B9/H10/E9? Not really).
+    *   "Heard it through the grapevine" (Doesn't fit B9/B1/H10/E9).
+    *   "Rumor mill" (B8: Expression, B9/B1: Society/Place, E9: Multitude/Fragments, H10: Small? No, mill isn't necessarily small).
+    *   "Talk of the town" (B8: Talking, B9: Town, B1: People, E9: Multitude/Spread, H10: Small? Is a town "small"? The clue-giver said "Small town gossip" was No, but "Talk of the town" is a very common phrase).
+
+    *Re-evaluating "Talk of the town":*
+    *   `?g B8`: Expression/Talking -> Talk.
+    *   `!r B8/D14`: Mouth/Talking -> Talk.
+    *   `!y B9/H10/B1`: City/Society/Small? -> Town.
+    *   `+g E9`: Multitude -> "The talk of the town" implies everyone is talking about it (multitude of people).
+
+    Wait, let's look at the "Small" (H10) marker again.
+    `!y B9` (City/Place)
+    `+ H10` (Small)
+    `+ B1` (Society)
+    If it were "Talk of the town", why put a "Small" marker? Maybe "Town" is considered small compared to "City" (B9)? Or maybe the phrase is something else.
+
+    What about "Street gossip"? No.
+    "Urban legend"? (B9/B1/E9/B8). But "A legend" was No.
+    "Busybody"? No.
+
+    Let's look at the "E9" (Multitude/Fragments) and "H10" (Small) and "B9" (City) again.
+    Could it be "Scuttlebutt"? (Not a common enough phrase for Concept).
+    "Whisper"?
+    "Rumor"? (Guesser tried "Rumor" in step 3 and got "Yes: Gossip", implying Gossip is the direction, but Rumor isn't the answer).
+
+    Wait, "Talk of the town" fits perfectly with:
+    B8 (Talking)
+    B9 (Place/Town)
+    B1 (People)
+    E9 (Multitude of people talking)
+    D14 (Mouth)
+    H10 (Small... is a town small? In the context of "City" (B9), a town is smaller).
+
+    Let's check "Small talk" again. Clue-giver said No. "Talk of the town" is different from "Small talk".
+    "Small town gossip" was No.
+
+    Is there another phrase?
+    "Word on the street"?
+    B8: Word.
+    D14: Mouth/Speech.
+    B9: City/Street.
+    B1: Society/People.
+    E9: Multitude.
+    H10: Small? (A street is small).
+
+    Let's compare "Talk of the town" vs "Word on the street".
+    "Talk of the town":
+    - B8 (Talk)
+    - B9 (Town)
+    - B1 (People)
+    - D14 (Mouth)
+    - E9 (Many people)
+    - H10 (Small - compared to city/world)
+
+    "Word on the street":
+    - B8 (Word)
+    - B9 (Place/City/Street)
+    - B1 (People)
+    - D14 (Mouth/Speech)
+    - E9 (Multitude)
+    - H10 (Small - the street is small)
+
+    Wait, let's look at the markers again.
+    `!y B9 + H10 + B1`
+    This is a sub-concept group.
+    B9 (City/Place), H10 (Small), B1 (Society).
+    A "Small Place/Society".
+    A "Small Town" was "No" in Step 1. But "Small town gossip" was "No" in Step 4.
+    However, "Talk of the town" is a phrase.
+
+    Let's check the "Multitude" (E9) again. It's in the `?g` (Main Concept) group.
+    `?g B8 + E9`.
+    So the Main Concept is "Talking/Expression" and it has the quality of being "Many/Multitude".
+    "Talk of the town" (The talk [many people talking] of the town).
+
+    Another possibility: "Grapevine" (as in "heard it through the grapevine").
+    Does it fit B9, B1, H10, E9? Not really.
+
+    How about "Buzz"?
+    "The buzz"? (B8, E9 - many people talking). But doesn't fit the B9/H10/B1.
+
+    What about "Rumor mill"?
+    B8 (Expression/Rumor)
+    B9/B1/H10/E9? Not really.
+
+    "Talk of the town" seems the strongest.
+    "Word on the street" is also possible.
+
+    Let's look at the `!r` (Red) group: `B8 + D14`.
+    B8 is Talking, D14 is Mouth. So "Talking with the mouth".
+
+    Let's look at the `!y` (Yellow) group: `B9 + H10 + B1`.
+    B9 (Place), H10 (Small), B1 (Society).
+    A "Small society/place".
+
+    The answer is a B8 (Expression/Talking) that is E9 (Multitude) and related to a "Small Society/Place" (B9/H10/B1).
+
+    "Talk of the town"
+    - Talk (B8)
+    - Multitude (E9 - the talk is widespread)
+    - Town (B9 + H10 - a town is a small place)
+    - Society (B1 - people in the town)
+
+    "Word on the street"
+    - Word (B8)
+    - Multitude (E9)
+    - Street (B9 + H10 - small place)
+    - Society (B1)
+
+    "Talk of the town" is a more common "phrase" for a Concept answer than "Word on the street".
+
+    Wait, is there anything else? "Gossip" was "Yes".
+    Is "Gossip" the answer? No, Step 3 says "Yes: Gossip", meaning "Gossip" is a correct direction/on the right track.
+
+    Wait, could the answer be "Rumor mill"?
+    No, the clues B9 (City) and B1 (Society) and H10 (Small) point more towards "Town" or "Street".
+
+    Let's try "Talk of the town".
+
+    Wait, let me re-read Step 1.
+    Guesses: "Small talk, Small world, Small town" -> No.
+    If "Small talk" is No, then "Talk of the town" is a different phrase.
+    If "Small town" is No, it means the answer isn't "Small town".
+
+    What about "Word of mouth"?
+    B8 (Word), D14 (Mouth), B1 (People/Society), B9 (Place/City)... but where does H10 (Small) and E9 (Multitude) fit?
+
+    Let's think about "Talk of the town" again.
+    Is a town "small" (H10) in Concept terms? Usually, B9 (City) is the icon, and if you want to say "Town", you might use B9 + H10 (Small).
+
+    What about "Street gossip"?
+    No, "Scandal" was "No".
+
+    Is the answer "The Grapevine"? No.
+    Is it "Chit-chat"? No.
+
+    Let's look at the `!y` group again: `B9, H10, B1`.
+    A "Small Group/Society/Place".
+    `!r` group: `B8, D14`.
+    "Talking/Words" via "Mouth".
+    `?g` group: `B8, E9`.
+    "Talking/Words" that is "Multitude/Many".
+
+    "Talk of the town"
+    - "Talk" = B8, D14, E9
+    - "of the"
+    - "town" = B9, H10, B1
+
+    This fits all markers perfectly.

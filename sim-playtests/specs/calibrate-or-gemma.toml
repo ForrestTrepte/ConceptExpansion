@@ -23,5 +23,5 @@ spend_limit_usd = 4.0
 [guesser]
 model = "google/gemma-4-26b-a4b-it"
 backend = "openrouter"
-effort = "low"
+effort = "none"  # reasoning off: at "low" it often used up max_tokens
 max_tokens = 4000

@@ -1,0 +1,161 @@
+*   `?g F4`: Main Concept is Earth/Ground/Soil/Sprout.
+    *   `+ E5`: Cube on Stone/Mineral/Hard.
+    *   `+ H9`: Cube on Hollow/Hole/Pierced.
+    *   `+ E10`: Cube on Inside/Internal.
+    *   `!r E2`: Red Sub-Concept is Night/Evening/Space/Moon/Star.
+    *   `+ Black`: Cube on Black color.
+
+    *   Main concept: Earth/Ground/Soil.
+    *   Attributes: Hard/Stone, Hollow/Hole, Inside.
+    *   Red sub-concept (related idea): Space/Moon/Night + Black.
+
+    *   *Idea 1: Space/Earth/Planets.*
+        *   `?g F4` (Earth)
+        *   `!r E2` (Space)
+        *   `+ Black` (Darkness/Space)
+        *   `+ E5` (Hard/Stone - like a planet/asteroid/moon)
+        *   `+ H9` (Hollow? Maybe a crater? Or a specific celestial body?)
+        *   `+ E10` (Inside - Core of the earth?)
+
+    *   *Idea 2: Geology/Cave.*
+        *   `?g F4` (Earth/Ground)
+        *   `+ E5` (Stone)
+        *   `+ H9` (Hole/Hollow)
+        *   `+ E10` (Inside)
+        *   `!r E2` (Night/Dark/Space - maybe indicating darkness?)
+
+    *   *Idea 3: Meteorite/Asteroid.*
+        *   `?g F4` (Earth/Material)
+        *   `+ E5` (Stone)
+        *   `+ H9` (Hole/Hollow?)
+        *   `!r E2` (Space)
+        *   `+ Black`
+
+    *   *Idea 4: Moon.*
+        *   `?g F4` (Nature/Earth-related)
+        *   `!r E2` (Space/Moon)
+        *   `+ E5` (Hard/Stone)
+        *   `+ H9` (Craters/Holes)
+        *   `+ E10` (Inside/Core)
+
+    *   *Idea 5: A cave/Grotto/Mine.*
+        *   `?g F4` (Ground)
+        *   `+ E5` (Stone)
+        *   `+ H9` (Hole)
+        *   `+ E10` (Inside)
+        *   `!r E2` (Night/Dark - "Space" isn't quite right for a cave, but "Night/Darkness" might be the intent).
+
+    Let's look at `!r E2` again. `E2` is "Night – Evening / Space / Moon – Star".
+    If the red clue is "Space", and the main concept is "Earth/Ground", maybe it's a **Planet** or the **Moon**.
+    Wait, `?g F4` is "Earth/Ground/Soil".
+    If the answer is **Moon**:
+    - `?g F4` (Natural thing/Ground) - fits.
+    - `+ E5` (Stone/Hard) - fits.
+    - `+ H9` (Hollow/Hole/Pierced) - fits (craters).
+    - `+ E10` (Inside) - fits (the core).
+    - `!r E2` (Space/Moon) - fits.
+    - `+ Black` (The color of space) - fits.
+
+    If the answer is **Asteroid**:
+    - Fits similar pattern.
+
+    If the answer is **Cave**:
+    - `?g F4` (Ground)
+    - `+ E5` (Stone)
+    - `+ H9` (Hole/Hollow)
+    - `+ E10` (Inside)
+    - `!r E2` (Night/Darkness?) - A bit of a stretch for E2 unless they mean "Darkness".
+
+    If the answer is **Meteor/Meteorite**:
+    - Fits similar to asteroid.
+
+    Let's prioritize "Moon" or "Planet". Actually, the main concept is specifically "Earth/Ground/Soil" (F4).
+    If the answer is "Moon", the main concept is usually "Space" or "Celestial body", but in Concept, you can use F4 to mean "ground/soil" as a characteristic of it.
+
+    What about **The Core** of the Earth?
+    - `?g F4` (Earth)
+    - `+ E10` (Inside)
+    - `+ E5` (Stone/Hard)
+    - `!r E2` (Space/Night/Darkness - the core is dark?) - No.
+
+    Let's try **Moon**. Or **Meteorite**.
+
+    Looking at `?g F4` again. F4 is "Earth / Ground / Soil".
+    `+ E5` (Stone)
+    `+ H9` (Hole)
+    `+ E10` (Inside)
+    `!r E2` (Space)
+    `+ Black`
+
+    Could it be **Mars**?
+    Could it be **Black Hole**? (No, F4 is Earth/Ground).
+
+    Let's try:
+    1. Moon
+    2. Asteroid
+    3. Cave
+
+    Wait, `!r E2` (Space/Moon/Night) + `Black`.
+    Maybe **The Moon** is the best bet.
+
+    Let's consider if `?g F4` is the *subject* or a *feature*.
+    `?g` is the Main Concept. The main concept is "Earth/Ground/Soil".
+    This suggests the answer *is* a thing made of earth/ground or is the earth itself.
+    If the answer is **The Moon**, it's a celestial body. If the clue-giver uses `?g F4`, they are saying "The answer is a piece of ground/earth". That's a slightly weird way to describe the Moon, unless they mean it's a rocky body.
+
+    What if it's **Dust**?
+    `?g F4` (Soil/Earth/Ground)
+    `+ E5` (Hard? No)
+    `+ H9` (Hole? No)
+
+    What if it's a **Meteorite**?
+    `?g F4` (Earth-like material)
+    `+ E5` (Stone)
+    `+ H9` (Hole/Hollow?)
+    `+ E10` (Inside?)
+    `!r E2` (Space)
+    `+ Black`
+
+    What if it's **Crater**?
+    `?g F4` (Ground)
+    `+ H9` (Hole)
+    `+ E5` (Stone)
+    `!r E2` (Space)
+
+    Let's go with:
+    1. Moon
+    2. Crater
+    3. Asteroid
+
+    Actually, the `?g F4` (Earth/Ground/Soil) is quite specific.
+    If the answer is **Moon**, the clue-giver might be saying "It's a rocky thing in space".
+    If the answer is **Meteor**, it's "A rock from space".
+
+    Wait, look at `!r E2` (Space/Moon) and `+ Black`.
+    And `?g F4` (Earth/Ground).
+    Maybe **The Moon**?
+
+    Let's try one more: **Coal**? (No, `!r E2` is Space).
+    **Obsidian**? (No).
+
+    Let's stick to the space theme.
+
+    1. Moon
+    2. Asteroid
+    3. Meteorite
+
+    Wait, `+ H9` (Hole) and `+ E10` (Inside).
+    A **Cave**?
+    `?g F4` (Ground)
+    `+ E5` (Stone)
+    `+ H9` (Hole)
+    `+ E10` (Inside)
+    `!r E2` (Night/Darkness/Space)
+    `+ Black` (Black/Dark)
+    This fits "Cave" very well if `!r E2` is being used to imply "Darkness/Night".
+
+    However, `E2` is also "Space".
+    And `?g F4` is "Earth/Ground".
+    If the answer is **Moon**, it fits all.
+
+    Let's try **Moon**.

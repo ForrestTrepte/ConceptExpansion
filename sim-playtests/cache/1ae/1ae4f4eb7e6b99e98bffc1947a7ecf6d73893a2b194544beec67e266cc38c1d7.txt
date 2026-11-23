@@ -1,0 +1,33 @@
+*   `+g E2`: Cube on E2 (Night/Evening/Space/Moon/Star) in group `g` (Main Concept). This means the answer is characterized by "Space" or "Night" or "Stars".
+    *   `+ D4`: Cube on D4 (Attack/Conflict/Combat/Weapon) in group `g`. This means the answer is also characterized by "Attack" or "Combat" or "Weapon".
+
+    *Note: There is no `?g` pawn placed, but the notation `+g E2` implies a cube was placed on E2 in the main concept group. Wait, the notation says `+g G14` is a cube on G14 in group g. The notation `+g E2` means the clue-giver is adding a cube to the main concept group. Usually, you'd see a `?g` pawn first, but in this simplified input, I have to infer the category.*
+
+    *   Main concept: Space/Night/Stars + Attack/Conflict/Weapon.
+
+    *   *Star Wars* (Stars + Conflict/War)
+    *   *Star Trek* (Stars + but maybe more exploration? though there is conflict)
+    *   War in space (Sci-fi war)
+    *   A meteorite/asteroid (hits earth like an attack?) - No, that's a stretch.
+    *   Alien invasion (Space + Attack)
+    *   *Starship Troopers* (Space + War)
+    *   *Independence Day* (Space + Attack/War)
+
+    *   "Star Wars" is a very strong candidate for "Stars" and "Conflict/War".
+    *   "Alien invasion" is a good candidate.
+    *   "War in space" or a similar sci-fi term.
+
+    1. Star Wars
+    2. Alien invasion
+    3. Star Trek
+
+    Let's look at the icon D4 again. D4 = "Attack / Conflict – Combat / Weapon".
+    E2 = "Night – Evening / Space / Moon – Star".
+
+    "Star Wars" fits perfectly.
+    "Alien invasion" fits well.
+    "Space war" fits well.
+
+    1. Star Wars
+    2. Alien invasion
+    3. War in space

@@ -1,0 +1,304 @@
+*   `?g A3`: Main Concept is "Work / Occupation".
+    *   `+ G14`: Cube in group g on "Turn / Around / Cycle – Repetition". (So, an occupation involving repetition or cycles).
+    *   `!r A4`: Sub-concept (red) is "Fauna / Animal".
+    *   `+ H10`: Cube in group r on "Small / Low".
+    *   `+ Grey`: Cube in group r on "Grey". (So, a small grey animal).
+    *   `!y D3`: Sub-concept (yellow) is "Fast / Race".
+    *   `+y A12`: Cube in group y on "Ground transportation / Road".
+    *   `+ B3`: Cube in group y on "Hobby / Sport". (Wait, $B3$ is Hobby/Sport, so an occupation involving fast road transport or sports?).
+
+    *Previous Guesses/Answers:*
+    *   Guesses: Scientist, Exterminator, Researcher.
+    *   Answer: No.
+
+    *   `?g A3` (Occupation)
+    *   `+ G14` (Repetitive/Cyclical)
+    *   `!r A4` (Animal)
+    *   `+ H10` (Small)
+    *   `+ Grey` (Grey)
+    *   `!y D3` (Fast/Race)
+    *   `+y A12` (Road/Ground transport)
+    *   `+ B3` (Hobby/Sport)
+
+    *Let's synthesize:*
+    An occupation (`A3`) that involves a small (`H10`) grey (`Grey`) animal (`A4`) that is fast/racing (`D3`) on roads (`A12`) or related to sports (`B3`). This occupation is cyclical/repetitive (`G14`).
+
+    *Wait, looking at the grouping again:*
+    `!r` is animal, small, grey.
+    `!y` is fast, road, sport.
+
+    *Could it be a driver?*
+    A jockey? (Horse is an animal, but usually brown/black, not grey. But there are grey horses).
+    A greyhound racer? (Greyhound is a small/medium animal, grey, very fast, racing, sport/hobby, roads/tracks).
+    Is there an occupation? A Greyhound trainer? A driver?
+
+    *Let's re-read:*
+    `?g A3` = Occupation.
+    `!r A4 + H10 + Grey` = Small grey animal.
+    `!y D3 + A12 + B3` = Fast, road, sport.
+    `+ G14` on the main concept (Occupation) = A job involving cycles/repetition.
+
+    Is "Greyhound racer" an occupation? Not exactly, but maybe a "Dog racer" or something.
+    Wait, `D3` is Fast/Race. `A12` is Ground transport/Road. `B3` is Hobby/Sport.
+    A "Greyhound" is a dog. A dog is an animal.
+    Is there an occupation involving dogs?
+    Dog walker? (Not necessarily fast/racing/road).
+    Dog trainer?
+    Dog racer? (Is that an occupation?)
+
+    Let's look at the colors/markers again.
+    `?g A3` (Occupation)
+    `+ G14` (Cycles)
+    `!r A4` (Animal) + `H10` (Small) + `Grey` (Grey) -> A small grey animal.
+    `!y D3` (Fast) + `A12` (Road) + `B3` (Sport) -> Fast, road, sport.
+
+    What small grey animal is associated with racing/speed and roads/sport?
+    A greyhound (dog).
+    Is there an occupation?
+    Maybe a "Dog racer"? No.
+    How about a "Racing driver"? (But the animal?)
+    How about a "Jockey"? (Horse).
+    How about a "Musher"? (Dogsledding - fast, sport, animals). But dogs aren't necessarily grey/small.
+
+    Let's rethink the "small grey animal".
+    Mouse? (Fast, but sport?)
+    Squirrel?
+    Rabbit? (Not grey/small? well, they are).
+    Rat?
+
+    Wait, `!y D3` (Fast), `A12` (Road), `B3` (Sport).
+    Could the occupation be "Racing"?
+    What if the animal is a "Greyhound"?
+    Is there a job called "Greyhound driver"? (Bus driver).
+    A bus driver!
+    - Occupation: Bus driver (`A3`).
+    - Repeat/Cycle: Bus routes are cyclical (`G14`).
+    - Animal: Greyhound (the bus company name).
+    - Small, Grey: This is the tricky part. Is "Greyhound" described as a small grey animal? No, it's a dog. But maybe the clue-giver is using the "Grey" and "Animal" and "Small" icons to point to the *name* "Greyhound".
+    - Fast/Race: Greyhound (the dog is fast/racer).
+    - Road: Bus travels on roads (`A12`).
+    - Sport/Hobby: Greyhound racing is a sport (`B3`).
+
+    Let's check:
+    `?g A3` (Occupation)
+    `+ G14` (Cyclical/Route)
+    `!r A4` (Animal) + `H10` (Small) + `Grey` (Grey) -> Pointer to the word "Greyhound".
+    `!y D3` (Fast) + `A12` (Road) + `B3` (Sport) -> Pointer to "Greyhound" (the dog/racing).
+
+    Is "Bus driver" a good fit?
+    Occupation: Yes.
+    Cyclical: Yes (routes).
+    Greyhound: The bus brand.
+    Is there another occupation? "Driver"?
+
+    Let's try to think of other "small grey animals".
+    Mouse.
+    Rat.
+    A "Mouse driver"? (Computer mouse? No, that's not an occupation).
+
+    Wait, `!y D3` (Fast), `A12` (Road), `B3` (Sport).
+    A "Race car driver"?
+    Is there a small grey animal associated with racing?
+    Maybe a "Mouse"? (In some racing contexts?) No.
+
+    Let's look at the "Greyhound" idea again.
+    Greyhound (the dog) is fast (`D3`), a racing animal (`D3`), associated with sports (`B3`).
+    Greyhound (the bus) is a company.
+    Occupation: Bus driver.
+    The clues `!r A4 + H10 + Grey` describe a small grey animal (a greyhound dog).
+    The clues `!y D3 + A12 + B3` describe racing/speed, road, and sport.
+    The clue `?g A3 + G14` describes a repetitive occupation (bus driver on a route).
+
+    This seems plausible for a Concept play.
+
+    Another possibility:
+    "Dog walker"?
+    "Dog trainer"?
+    "Racing driver"?
+
+    Let's re-examine `!r A4 + H10 + Grey`.
+    Small, Grey, Animal.
+    Could it be a "Mouse"?
+    "Mouse driver"? (Not a real job).
+    "Race car driver"?
+
+    Let's look at the `!y` group: `D3` (Fast), `A12` (Road), `B3` (Sport).
+    Could the answer be "Greyhound racing"? (But that's not an occupation).
+
+    What about "Jockey"?
+    Occupation: Jockey.
+    Animal: Horse (not small/grey necessarily).
+
+    What about a "Pilot"? No.
+
+    Let's look at `!r` again. Small, grey, animal.
+    A "Snail"? (Not grey/fast).
+    A "Rabbit"?
+    A "Hare"?
+    "Greyhound" is a very strong candidate for the word itself.
+    If the word is "Greyhound", is it an occupation? No.
+    Is "Bus driver" the occupation?
+    Or is the answer "Driver"?
+
+    Let's try to find an occupation that is a "Small grey animal".
+    A "Mole"? (A person who informs?).
+    A "Rat"? (A snitch?).
+
+    Let's look at the `!y` group again.
+    `D3` (Fast/Race), `A12` (Road), `B3` (Sport).
+    Could it be "Formula 1 driver"?
+    Could it be "Racing driver"?
+
+    Wait! `!r A4` (Animal) + `H10` (Small) + `Grey` (Grey) + `D3` (Fast) = Greyhound.
+    And the occupation (`A3`) involves this?
+    Is there a "Greyhound driver"? Yes, people call bus drivers that.
+    Is "Bus driver" the answer?
+
+    Let's try "Bus driver".
+    Or maybe "Taxi driver"? (No).
+    "Truck driver"? (No).
+
+    Wait, let's look at the "Grey" and "Small" and "Animal" again.
+    If the answer is "Greyhound", then `?g A3` (Occupation) is wrong.
+    But the user said `?g A3` is the Main Concept.
+    So the answer *must* be an occupation.
+
+    Could it be "Dog walker"?
+    Animal: Dog.
+    Small/Grey: Doesn't fit all dogs.
+    Fast/Race/Road/Sport: Doesn't really fit "Dog walker".
+
+    What about "Racing driver"?
+    Animal: ?
+    Small/Grey: ?
+
+    Let's think about "Greyhound" one more time.
+    If the answer is "Bus driver", the clues fit quite well for a Concept player.
+    `?g A3 + G14` -> Bus driver (cyclical job).
+    `!r A4 + H10 + Grey` -> Greyhound (the animal).
+    `!y D3 + A12 + B3` -> Greyhound (the racing/road/sport aspect).
+
+    Another option: "Driver".
+    `?g A3` -> Driver.
+    `+ G14` -> Driving a route.
+    `!r A4 + H10 + Grey` -> Greyhound.
+    `!y D3 + A12 + B3` -> Greyhound.
+
+    Actually, a "Greyhound" is a specific brand of bus.
+    Maybe the answer is "Bus driver".
+
+    Let me try to think if there's any other occupation.
+    What about "Racer"?
+    Occupation: Racer.
+    Animal: ?
+
+    How about "Dog racer"? (It's a bit of a stretch for an occupation).
+
+    Let's look at `!y D3 A12 B3` again.
+    Fast, Road, Sport.
+    Could it be "Motorcycle racer"?
+    Could it be "Cycling"? (No, that's a hobby).
+
+    Wait, `!r A4 + H10 + Grey`...
+    What if the animal is a "Mouse"?
+    "Computer programmer"? (A3: Work, G14: Cycle/Repetition).
+    But `!y D3 A12 B3` (Fast, Road, Sport) doesn't fit programmer.
+
+    What about "Delivery driver"?
+    `A12` (Road), `D3` (Fast).
+    Does `A4 + H10 + Grey` fit? No.
+
+    Let's stick with the "Greyhound" connection.
+    The word "Greyhound" connects to "Animal", "Small/Grey", "Fast", "Race", "Road", "Sport".
+    And the occupation is "Bus driver" or "Driver".
+
+    Is there any other "small grey animal" in sports?
+    A "Rabbit" (in cycling, the one who sets the pace).
+    - Animal: Rabbit (A4).
+    - Small: Yes (H10).
+    - Grey: Not usually.
+    - Fast/Race: Yes (D3).
+    - Sport: Yes (B3).
+    - Road: Yes (A12).
+    - Occupation: A "rabbit" isn't an occupation, but maybe the person is a "Cyclist"?
+    - `?g A3` (Occupation) + `G14` (Cycle/Repetition)? "Cyclist"? (Cycling is a sport, but is it an occupation?)
+
+    "Bus driver" feels like a stronger link to "Greyhound".
+    Let's try "Bus driver".
+
+    Wait, let's look at the `!r` markers again.
+    `!r A4` (Animal), `+ H10` (Small), `+ Grey` (Grey).
+    If the animal is a "Greyhound", then the color "Grey" is a hint for the name.
+    If the animal is just a "Grey dog", then `!r` is "Small grey dog".
+    Then `!y` is "Fast, Road, Sport".
+    This points to "Greyhound racing".
+    But the main concept is `A3` (Occupation).
+    What occupation is related to greyhound racing?
+    "Dog trainer"? "Jockey"? "Driver"?
+
+    Wait! "Greyhound" is a very common bus.
+    Let's look at `!y` again: `D3` (Fast), `A12` (Road), `B3` (Sport).
+    Could it be "Taxi driver"? No.
+    "Bus driver"?
+    The clue `!y D3 A12 B3` for "Greyhound" (the bus) is a bit weird. A bus is on a road and is a transport, but is it "Fast/Race/Sport"?
+    Maybe the `!y` group refers to the *dog* (racing) and the `!r` group refers to the *dog* (small/grey/animal).
+    And the `?g` group refers to the *bus driver*.
+    This is a classic Concept move: using different sub-concepts to point to different meanings of a word to converge on the answer.
+
+    Word: **Greyhound**
+    Meaning 1 (Sub-concept `!r`): The dog (animal, small, grey).
+    Meaning 2 (Sub-concept `!y`): The race (fast, road/track, sport).
+    Meaning 3 (Main concept `?g` + Sub-concept `!y`'s road/bus context): The bus driver (occupation, cyclical routes).
+
+    Actually, the `!y` group `D3` (Fast), `A12` (Road), `B3` (Sport) fits "Greyhound" (the dog/racing) perfectly.
+    The `!r` group `A4` (Animal), `H10` (Small), `Grey` (Grey) fits "Greyhound" (the dog) perfectly.
+    The `?g` group `A3` (Occupation) + `G14` (Cycle) + (connection to Greyhound) = Bus driver.
+
+    Let's think if there's any other "Greyhound" occupation.
+    "Bus driver" or just "Driver".
+
+    Let's try "Bus driver".
+    Wait, "Greyhound" is a brand. "Bus driver" is a general occupation.
+    Is there a way to get "Bus driver" more directly?
+    `A12` (Road), `A3` (Occupation).
+    If the answer is "Bus driver", why include "Greyhound" details?
+    To provide the specific link.
+
+    Let's check for other options.
+    Could the answer be "Racing driver"?
+    `?g A3` (Occupation).
+    `!y D3` (Fast), `A12` (Road), `B3` (Sport).
+    `!r A4` (Animal), `H10` (Small), `Grey` (Grey).
+    Is there a racing driver related to a small grey animal?
+    "Mouse"? "Rat"?
+    Maybe "Rat"? No.
+
+    What about "Cheetah"? (Not small/grey).
+    What about "Rabbit"?
+    If the answer is "Racing driver" or "Cyclist", does "Rabbit" fit?
+    A "Rabbit" is a term in racing.
+    Is "Rabbit" an animal? Yes.
+    Is it small? Yes.
+    Is it grey? Often.
+    Is it fast? Yes.
+    Is it a sport? Yes.
+    Is there an occupation? "Rabbit" isn't an occupation.
+    But maybe "Driver"?
+
+    Let's consider "Bus driver" again.
+    It's a very common "Concept" style answer.
+
+    Another thought:
+    `!r A4 + H10 + Grey` -> "Greyhound" (dog).
+    `!y D3 + A12 + B3` -> "Greyhound" (race).
+    `?g A3 + G14` -> "Bus driver".
+
+    I will guess "Bus driver".
+    Actually, I'll provide "Bus driver", "Driver", and "Greyhound racer".
+    Wait, I should only provide 3 guesses.
+    "Bus driver"
+    "Taxi driver" (maybe?)
+    "Racing driver"
+
+    Wait, "Bus driver" is more likely.
+    Let's think about "Dog walker".

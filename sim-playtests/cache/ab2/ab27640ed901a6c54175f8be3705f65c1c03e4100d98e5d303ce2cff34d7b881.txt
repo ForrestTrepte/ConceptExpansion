@@ -1,0 +1,179 @@
+*   `?g A3` (Main Concept: Work / Occupation) + `G14` (Turn / Around / Cycle / Repetition) -> An occupation involving cycles or repetition.
+    *   `!r A4` (Sub-concept 1: Fauna / Animal) + `H10` (Small / Low) + `Grey` -> Something about a small, grey animal.
+    *   `!y D3` (Sub-concept 2: Fast / Race) + `A12` (Ground transportation / Road) + `B3` (Hobby / Sport) -> Something about fast racing or sports on roads (like racing cars or bikes).
+    *   `+r D5` (Sub-concept 1 addition: Death / Bad / Illness) -> The grey animal/small creature is related to death or illness.
+
+    *   *A3 (Work) + G14 (Cycle/Repetition)*: A repetitive job.
+    *   *A4 (Animal) + H10 (Small) + Grey + D5 (Death/Illness)*: A small grey animal associated with death/illness.
+        *   Mouse? (Often associated with plague/illness).
+        *   Rat? (Often associated with plague/illness).
+    *   *D3 (Fast/Race) + A12 (Road) + B3 (Sport)*: This is the trickiest part.
+        *   Wait, let's look at the structure again.
+        *   `!y` is the yellow group. `D3` is the anchor for the yellow group.
+        *   `!y D3` (Fast/Race)
+        *   `+y A12` (Road)
+        *   `+ B3` (Hobby/Sport)
+        *   So, Yellow group = Fast, Road, Sport.
+    *   Let's re-examine the connection.
+        *   `?g A3` (Work) + `G14` (Cycle)
+        *   `!r A4` (Animal) + `H10` (Small) + `Grey` + `D5` (Death/Illness)
+        *   `!y D3` (Fast/Race) + `A12` (Road) + `B3` (Hobby/Sport)
+
+    *   *Wait, could the yellow group be describing the "Work"?*
+        *   Occupation (A3) that is fast (D3), on a road (A12), and a sport (B3)?
+        *   Wait, the Red group is the animal.
+        *   Small, Grey, Animal, Death/Illness -> Rat or Mouse.
+        *   If the answer is "Rat Race"?
+        *   Let's check "Rat Race":
+            *   `?g A3` (Occupation/Work/Life concept) - fits.
+            *   `G14` (Cycle/Repetition) - fits perfectly.
+            *   `!r A4` (Animal) - fits (Rat).
+            *   `H10` (Small) + `Grey` - fits (Rat).
+            *   `D5` (Death/Bad/Illness) - fits (The concept of a rat race is bad/struggle, or "rat" associated with death).
+            *   `!y D3` (Fast/Race) + `A12` (Road/Path?) + `B3` (Sport/Competition) - "Race" part of the phrase.
+
+    *   Let's look at the clues again.
+        *   The user rejected "Scientist", "Exterminator", "Researcher".
+        *   The additions: `+y A12` (Road), `+ B3` (Hobby/Sport), `+r D5` (Death/Bad).
+
+    *   "Rat Race" is a common phrase (idiom).
+    *   Work (A3) + Cycle (G14) = The grind/cycle of work.
+    *   Animal (A4) + Small (H10) + Grey + Death/Bad (D5) = Rat (associated with death/illness/bad).
+    *   Fast (D3) + Road (A12) + Sport (B3) = Race.
+
+    Is there another possibility?
+    "Dog racing"? (No, animal is grey/small).
+    "Mouse trap"? (Not a work/cycle).
+    "Chariot race"? (No).
+    "Formula 1"? (No animal).
+
+    The "Rat Race" fits almost all markers.
+    `?g A3` (Work/Occupation)
+    `+ G14` (Cycle)
+    `!r A4` (Animal)
+    `+ H10` (Small)
+    `+ Grey`
+    `+ D5` (Death/Bad)
+    `!y D3` (Fast/Race)
+    `+ A12` (Road - used in many races?)
+    `+ B3` (Sport/Hobby)
+
+    Actually, `A12` (Road) and `B3` (Sport) and `D3` (Fast) clearly point to "Race".
+    And `A4` (Animal) + `Grey` + `Small` + `Death/Bad` points to "Rat".
+    And `A3` (Work) + `G14` (Cycle) describes the "Rat Race" experience.
+
+    1. Rat race
+    2. Mouse race (unlikely)
+    3. Cycle race (doesn't fit the animal)
+
+    Let's try "Rat race".
+
+    Wait, is there a "Race car driver"?
+    - Work (A3)
+    - Fast (D3), Road (A12), Sport (B3)
+    - Animal? No.
+
+    "Rat race" is an idiom/phrase. The prompt says "The answer can be a thing, a person or character, a place, a title, an activity, or a common phrase or idiom."
+
+    Let's re-verify the markers for "Rat race".
+    `?g A3` (Work/Occupation) - A rat race is a way of life/work.
+    `G14` (Cycle) - It's a cycle.
+    `!r A4` (Animal)
+    `H10` (Small)
+    `Grey`
+    `D5` (Bad)
+    `!y D3` (Race)
+    `A12` (Road)
+    `B3` (Sport/Competition)
+
+    This seems extremely strong.
+
+    Could it be "Greyhound racing"?
+    - Animal (A4)
+    - Grey (Color)
+    - Fast (D3)
+    - Race (D3/B3)
+    - Work (A3)? Not really a work/occupation, though it's an activity.
+    - `D5` (Death/Bad)? Greyhound racing is often associated with cruelty/death.
+    - `H10` (Small)? Greyhounds are large dogs, not small.
+
+    "Rat Race" remains the best fit.
+
+    Guesses:
+    1. Rat race
+    2. Mouse race
+    3. Racing car (Unlikely, but follows the "race" theme)
+
+    Actually, I'll stick to the strongest one.
+
+    Wait, look at `A12` (Road) and `B3` (Sport) and `D3` (Fast).
+    "Rat Race" is an idiom about the repetitive cycle of work.
+    `?g A3` (Work) + `G14` (Cycle) = The grind of work.
+    `!r A4` (Animal) + `H10` (Small) + `Grey` + `D5` (Death/Bad) = Rat.
+    `!y D3` (Fast) + `A12` (Road) + `B3` (Sport) = Race.
+
+    Yes.
+
+    One more check: `D5` is under the red group (`!r`). The red group is the animal. A rat is associated with D5 (Bad/Death/Illness/Plague). Perfect.
+
+    The yellow group is `!y`. It contains `D3` (Fast), `A12` (Road), and `B3` (Sport). This refers to the word "Race".
+
+    The main concept `?g` is `A3` (Work) and `G14` (Cycle). This refers to the "Rat Race" being a cycle of work.
+
+    Everything aligns.
+
+    Guesses:
+    1. Rat race
+    2. Mouse race
+    3. Race car driver (just in case, though animal doesn't fit)
+
+    Actually, I will just provide the most likely guesses.
+
+    Wait, what if it's "Dog racing"?
+    - Animal (A4)
+    - Small (H10)? No, dogs aren't necessarily small.
+    - Grey (Color) - Greyhounds are grey.
+    - Fast (D3)
+    - Race (B3)
+    - Work (A3)? No.
+    - Death (D5)? Yes (cruelty).
+
+    "Rat race" is much more fitting for "Work" and "Cycle".
+
+    Final check:
+    - `?g A3` Work
+    - `+ G14` Cycle
+    - `!r A4` Animal
+    - `+ H10` Small
+    - `+ Grey`
+    - `+ D5` Death/Bad
+    - `!y D3` Fast
+    - `+ A12` Road
+    - `+ B3` Sport
+
+    "Rat race" is definitely the answer.
+
+    Guesses:
+    1. Rat race
+    2. Mouse race
+    3. Racehorse (no, animal is small/grey)
+
+    I'll just go with "Rat race".
+
+    Wait, could the answer be "Rat"?
+    If the answer is "Rat", then:
+    - `?g A3` (Work) -> No.
+    - `G14` (Cycle) -> No.
+    - `!y D3` (Race) -> No.
+
+    It has to be the phrase.
+
+    What about "Rat trap"?
+    - Animal (A4)
+    - Small (H10)
+    - Grey
+    - Bad (D5)
+    - Work (A3)? No.
+    - Race (D3/A12/B3)? No.
+
+    "Rat race" is it.

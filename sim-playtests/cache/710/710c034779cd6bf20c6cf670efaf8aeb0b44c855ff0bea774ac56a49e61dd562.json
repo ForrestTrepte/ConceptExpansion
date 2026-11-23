@@ -1,0 +1,138 @@
+{
+  "contentSha256": "7bab1463477787777c6bd0754d304c9c34010f4654fc5b00011c189fd109aa91",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "90167f6773b23c0d34d7074b521186233b0757584cab853ba7be1b70066d6420"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "75a7cef8085104635b76f110eb6f80ed4a3b59c045f8ee7ace1994fc4261b8f2"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "openai/gpt-6-luna",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "pass": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "guesses",
+                "pass"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-3"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "db82776",
+    "costUsd": 0.00015069,
+    "latencyMs": 2509,
+    "recordedAt": "2026-11-23T22:12:14.511Z",
+    "recordedBy": "claude",
+    "servedBy": "OpenAI",
+    "servedModel": "openai/gpt-6-luna",
+    "tags": {
+      "run": "calibrate-or-luna"
+    },
+    "usage": {
+      "cacheReadTokens": 4839,
+      "cacheWriteTokens": 0,
+      "inputTokens": 4842,
+      "outputTokens": 204,
+      "reasoningTokens": 176
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"Dream house\",\"Real estate\",\"Home sweet home\"],\"pass\":false}",
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "data": {
+                "$llmemo.text": "f72345ffad6702f2ddf339cc7d9f56ab232d6576118342db0eb8345aef300a12"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_09485af07a16cfb2016b04ba3c8df487d190837c6d87e7c693",
+              "index": 0,
+              "type": "reasoning.encrypted"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "completed"
+      }
+    ],
+    "created": 1795471932,
+    "id": "gen-1795471932-Ub9PX54bbrSvfbBrNG2i",
+    "model": "openai/gpt-6-luna",
+    "object": "chat.completion",
+    "provider": "OpenAI",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 204,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 176
+      },
+      "cost": 0.00015069,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000102,
+        "upstream_inference_cost": 0.00015069,
+        "upstream_inference_prompt_cost": 0.00004869
+      },
+      "is_byok": false,
+      "prompt_tokens": 4842,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 4839,
+        "video_tokens": 0
+      },
+      "total_tokens": 5046
+    }
+  }
+}

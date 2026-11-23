@@ -1,0 +1,32 @@
+*   `?g B9`: Main Concept is B9 (Building / Monument / City).
+    *   `+ D10`: Cube on D10 (Medical / Medicine / Health) in group `g`.
+    *   `!r D10`: Red Sub-Concept pawn on D10 (Medical / Medicine / Health).
+    *   `+ B14`: Cube on B14 (House – Dwelling / Room / Domestic) in group `r`.
+    *   `!y A3`: Yellow Sub-Concept pawn on A3 (Work / Occupation).
+    *   `+ D10`: Cube on D10 (Medical / Medicine / Health) in group `y`.
+
+    *   *Main Concept (Green):* A building/monument/city that is related to medicine/health.
+    *   *Red Sub-Concept:* Something about the building is medical/health-related AND it involves a house/dwelling/room.
+    *   *Yellow Sub-Concept:* Something about the building/concept is a work/occupation AND is related to medicine/health.
+
+    *   A hospital (Building + Medical + House/Room + Work/Occupation + Medical).
+    *   A doctor's office (Building + Medical + Work + Medical).
+    *   A clinic (Building + Medical + Work + Medical).
+    *   A nursing home (Building + Medical + Age/Health + House/Dwelling).
+    *   An infirmary.
+    *   A pharmacy (Building + Medical + Work).
+
+    *   The main concept is a "Building/City".
+    *   The red group links "Medical" and "House/Room".
+    *   The yellow group links "Occupation" and "Medical".
+
+    "Hospital" seems the strongest fit. It's a building, it's medical, it has rooms/beds (dwelling/house), and it's where medical professionals work.
+    "Doctor" (but B9 is building).
+    "Clinic" (similar to hospital).
+    "Pharmacy" (less likely to be described as a "house/room" context in the red group compared to a hospital).
+
+    Let's look at the "Red" group again: `!r D10` (Medical) and `+ B14` (House/Room). This strongly suggests a place where people stay (a room/house) that is medical. A hospital fits perfectly.
+
+    1. Hospital
+    2. Clinic
+    3. Doctor's office

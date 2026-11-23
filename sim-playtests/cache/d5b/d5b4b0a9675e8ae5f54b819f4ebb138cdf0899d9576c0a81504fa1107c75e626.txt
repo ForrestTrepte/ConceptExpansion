@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Statue of Liberty",
+    "Monument",
+    "Mural"
+  ]
+,
+"pass": false
+}

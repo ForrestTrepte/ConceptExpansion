@@ -1,0 +1,699 @@
+*   `?g H14`: Main Concept is "Use/Action/Do/Verb/Button" (H14).
+    *   `+ C14`: Cube on "Eye/Sight" (C14).
+    *   `+ C11`: Cube on "Head/Face/Neck" (C11).
+    *   `!r A1`: Sub-concept (red) is "Object/Box" (A1).
+    *   `+ C7`: Cube on "Electronic/Computing" (C7).
+    *   `+ C14`: Cube on "Eye/Sight" (C14).
+    *   `+ D11`: Cube on "Arm/Hand/Finger" (D11).
+    *   `+ F11`: Cube on "One/Unit/Number" (F11).
+    *   `+ E8`: Cube on "Opposite/Reverse" (E8).
+
+    *   Step 1: `?g H14 (Action) + C14 (Eye) + C11 (Head)`. Guesses: "Look, Blink, Wink". Result: **No**.
+    *   Step 2: `!r A1 (Object) + C7 (Electronic) + C14 (Eye)`. Guesses: "Scan, Photograph, Record". Result: **No**.
+    *   Step 3: `!r A1 (Object) + D11 (Hand/Finger) + F11 (One/Unit)`. Guesses: "Watch, View, Focus". Result: **No**.
+    *   Step 4: `!r A1 (Object) + E8 (Opposite/Reverse)`.
+
+    *   `?g H14`: It's an action/verb.
+    *   It involves Eyes (C14) and Head/Face (C11).
+    *   `!r A1`: There's an object involved.
+    *   The object is Electronic (C7) and involves Eyes (C14).
+    *   The object involves Hands (D11) and the number One (F11).
+    *   The object (or the action) is the "Opposite" (E8) of something? Or "Reverse"?
+
+    *   Action (H14)
+    *   Related to Eye/Sight (C14)
+    *   Electronic object (A1 + C7)
+    *   Used by hand (D11)
+    *   One? (F11)
+    *   Reverse/Opposite (E8)
+
+    Let's re-evaluate the clues.
+    Main concept: Action/Verb (H14) + Eye (C14) + Head (C11).
+    *Wait, the user's notation for Step 2 says `!r A1 + C7 + C14`. The `+ C14` is a cube in the red group.
+    Red group (Sub-concept 1): Object (A1), Electronic (C7), Eye (C14), Hand (D11), One (F11), Reverse (E8).
+
+    What electronic object (A1, C7) is associated with eyes (C14), hands (D11), the number one (F11), and "opposite/reverse" (E8)?
+    And the main action involves the eyes/head (C14, C11).
+
+    Wait, is it a "Camera"?
+    Step 2 guesses: "Scan, Photograph, Record" (No).
+    Is it a "Smartphone"?
+    Is it "Texting"?
+    Is it "Typing"? (Hand, Electronic, One?) No.
+
+    Let's look at `E8` (Opposite/Reverse) and `F11` (One).
+    Could the action be "Click"? (Button H14).
+    Could the object be a "Remote control"?
+    Could it be "Switching"?
+
+    Let's look at `E8` again. "Opposite/Reverse".
+    Maybe the object is a "Mirror"? (A1 is Object, but C7 is Electronic).
+    Maybe "Digital camera"? No, "Photograph" was rejected.
+
+    What electronic object has an eye (C14)? A camera (already rejected). A sensor?
+    What electronic object has one (F11)?
+    What if the action is "Press"?
+    What if the object is a "Computer mouse"?
+    - A1: Object
+    - C7: Electronic
+    - D11: Hand
+    - F11: One (one click?)
+    - H14: Action (Click)
+    - C14/C11: Eye/Head? (Looking at the screen?)
+
+    Wait, Step 1: `?g H14 + C14 + C11`. Action involving eyes/head.
+    Step 2: `!r A1 + C7 + C14`. Object is electronic and has an "eye".
+    Step 3: `!r A1 + D11 + F11`. Object involves hands and "one".
+    Step 4: `!r A1 + E8`. Object is "reverse" or "opposite".
+
+    Let's rethink.
+    Action: `H14` (Use/Action/Button).
+    Electronic object (A1, C7).
+    The object has an eye (C14).
+    The object is used by hand (D11).
+    One (F11).
+    Opposite (E8).
+
+    Is it "Turn off"? "Switch off"?
+    Action: Turn off (H14).
+    Electronic object: TV/Computer?
+    Eye (C14)? Maybe "Eye" refers to a sensor?
+    Hand (D11)?
+    One (F11)?
+    Reverse (E8)? (Turning off is the opposite of turning on?)
+
+    Let's try "Switch".
+    Wait, Step 1 "Look/Blink/Wink" were No.
+    Step 2 "Scan/Photograph/Record" were No.
+    Step 3 "Watch/View/Focus" were No.
+
+    Is the object a "Remote Control"?
+    - Electronic (C7)
+    - Object (A1)
+    - Hand (D11)
+    - Action: Press button (H14)
+    - Reverse/Opposite (E8): Maybe switching channels/reversing?
+    - One (F11): One button?
+
+    Wait, let's look at the "Eye" (C14) in the Electronic Object.
+    What electronic object has an "Eye"?
+    - A camera (rejected).
+    - A TV (the screen/eye?)
+    - A computer/monitor?
+    - A sensor/motion detector?
+
+    Let's look at "Reverse" (E8) again.
+    Could it be a "Rewind" action?
+    - Action: Rewind (H14)
+    - Object: Tape/VCR/Remote?
+    - Electronic (C7)
+    - One (F11): One button?
+    - Reverse (E8): Rewind is reverse.
+    - Eye (C14): This is the tricky part. Why "Eye"?
+    Wait, maybe "Eye" is not a camera.
+    Maybe "Eye" is a "Lens"?
+    Maybe "Eye" is "Vision"?
+
+    Let's look at the clues again.
+    `?g H14` (Action/Button)
+    `+ C14` (Eye/Sight)
+    `+ C11` (Head/Face)
+    `!r A1` (Object)
+    `+ C7` (Electronic)
+    `+ C14` (Eye/Sight)
+    `+ D11` (Hand)
+    `+ F11` (One)
+    `+ E8` (Opposite/Reverse)
+
+    If the object has an eye (C14) and is electronic (C7), and the action is H14 (Button/Action)...
+    And the action is "Reverse" (E8)?
+    Could it be "Rewind"?
+    Or "Back"?
+    Or "Undo"?
+
+    Is the object a "Mouse"? (Computer mouse).
+    Is the object a "Joystick"?
+    Is the object a "Controller"?
+
+    Let's try: "Control/Controller" or "Remote".
+    Wait, "Eye" (C14) ... "Eye" could be a "Lens"?
+    Could the action be "Zoom"?
+    - Action (H14)
+    - Eye (C14)
+    - Electronic (C7)
+    - Hand (D11)
+    - Reverse (E8): Zoom in/out?
+    - One (F11): One button?
+    - Object (A1)
+
+    Wait, "Zoom" is an action.
+    "Zoom" involves the eye (C14) and head (C11 - focus).
+    An electronic object (A1, C7) like a camera/lens/phone.
+    Hand (D11) to use it.
+    One (F11) - one button?
+    Reverse (E8) - zoom in/out (the opposite)?
+
+    Let's check the "Look/Blink/Wink" and "Scan/Photograph/Record" results.
+    If the answer was "Zoom", "Photograph" being rejected is fine. "Look" being rejected is fine.
+
+    What about "Switch"?
+    "Turn on/off"?
+
+    Wait, let's look at the `C14` (Eye) and `C11` (Head/Face) in the main concept.
+    The action *is* related to the eye and face.
+    "Blink" and "Wink" were No.
+    "Look", "Watch", "View", "Focus" were No.
+
+    Maybe the action is "Smile"?
+    - Action (H14)
+    - Eye/Face (C14/C11)
+    - Object? (A1) - No.
+
+    What about "Close eyes"?
+    What about "Sleep"?
+
+    Let's look at the Sub-concept again.
+    `!r A1` (Object) + `C7` (Electronic) + `C14` (Eye) + `D11` (Hand) + `F11` (One) + `E8` (Opposite).
+    An electronic object that is used by a hand, has an eye, and is "one" and "opposite/reverse"?
+
+    Is it a "Remote"?
+    Is it a "Phone"?
+    Is it a "Monitor"?
+
+    Wait! "E8" (Opposite/Reverse).
+    "E8" is also "Opposite/Reverse".
+    What if the object is a "Mirror"? (Not electronic).
+    What if the object is a "Reflection"? (Not an object).
+
+    Let's think about the "Eye" (C14) as a "Pixel"? No.
+    As a "Lens"?
+    As "Sight"?
+
+    How about "Screen"?
+    - Action (H14): Touch/Press?
+    - Eye/Head (C14/C11): Looking at it.
+    - Object (A1): Screen/TV/Phone.
+    - Electronic (C7): Yes.
+    - Hand (D11): Touching.
+    - One (F11): One screen?
+    - Reverse/Opposite (E8): ?
+
+    Wait, could the "Opposite" (E8) be "Dark/Light" or "On/Off"?
+    If the action is "Turn off" (H14)?
+    - Action (H14)
+    - Eye (C14) - closing eyes?
+    - Electronic (C7)
+    - Hand (D11) - pressing button.
+    - One (F11) - one button.
+    - Opposite (E8) - turning off (the opposite of on).
+
+    But "Look/View/Watch" were No. This implies the answer isn't about the *act of seeing* the object, but the *action performed on the object* or the *object itself*.
+
+    Let's look at the "Eye" (C14) in the object again.
+    What electronic object has an "Eye"?
+    - A computer with a webcam?
+    - A camera (rejected)?
+    - A smartphone?
+    - A robot?
+
+    Wait, "One" (F11) and "Reverse" (E8).
+    Could it be "Undo"? (Action H14).
+    Is "Undo" an object? No, it's an action.
+    Is there an electronic object associated with Undo? (A computer/button).
+
+    Let's look at the "Hand" (D11).
+    "One" (F11). "One hand"? "One finger"?
+    "One button"?
+
+    Could the action be "Scroll"?
+    - Action (H14)
+    - Electronic (C7)
+    - Hand (D11)
+    - One (F11)?
+    - Reverse (E8)? (Scrolling up/down is the opposite?)
+
+    Wait! "Reverse" (E8).
+    "E8" means "Opposite/Reverse".
+    What is the opposite of "Forward"?
+    "Backward".
+    Is the action "Go back"?
+    Is the object a "Button"? (H14 is "Use/Action/Do/Button").
+    Wait, H14 *is* the "Button" icon.
+    So the main concept is a "Button" or an "Action".
+
+    If the action is "Press"?
+    If the action is "Click"?
+    If the action is "Toggle"? (E8 - toggle/opposite).
+    A "Toggle switch"?
+    - Action (H14): Toggle.
+    - Object (A1): Switch.
+    - Electronic (C7).
+    - Eye (C14): ?
+    - Hand (D11): Pressing.
+    - One (F11): One switch?
+    - Reverse (E8): Toggle (on/off, opposite).
+
+    Why the "Eye" (C14) and "Head" (C11)?
+    Maybe "Eye" refers to the "light" of the electronic object?
+    No, "Eye" is "Sight".
+
+    Let's try "Control" or "Switch".
+    Wait, what about "Video"? (No, "Record/Photograph" were No).
+    What about "Movie"?
+
+    Let's look at the "Eye" (C14) again.
+    Could "Eye" be "I"? (The letter I).
+    "One" (F11) is "1".
+    "E8" is "Opposite".
+    This is getting complex.
+
+    Let's try to think of an action (H14) involving eyes (C14) and head (C11) and an electronic object (A1, C7) that is "One" (F11) and "Reverse" (E8).
+    "Rewind"?
+    - Action (H14): Rewind.
+    - Eye (C14): Looking at the screen.
+    - Electronic (C7): VCR/Player.
+    - Hand (D11): Pressing button.
+    - One (F11): One button.
+    - Reverse (E8): Rewind is reverse.
+
+    "Rewind" is a strong possibility for "Reverse".
+    Is "Rewind" an "Action/Do/Button"? Yes.
+    Is it an "Electronic object"? No, it's an action.
+    But the `!r` group (Sub-concept) is "Object/Box" (A1).
+    So the *object* is electronic and is "One" and "Reverse".
+    What electronic object is "Reverse"? A "Remote"? (You use it to reverse).
+    A "Tape"? (Not electronic itself, but in a machine).
+
+    Wait, "E8" (Opposite/Reverse).
+    What about "Flip"?
+    "Flip a coin"?
+    "Flip a switch"?
+
+    Let's try "Switch" or "Toggle".
+    Or "Remote control".
+
+    Another look at `?g H14` (Action/Button) + `C14` (Eye) + `C11` (Head).
+    What if the action is "Close"?
+    "Close your eyes"?
+    - Action (H14)
+    - Eye/Head (C14/C11)
+    - Electronic Object (A1/C7)? No.
+
+    Wait! "C14" (Eye) and "C7" (Electronic).
+    A "Webcam"?
+    - Action (H14): Use/Action.
+    - Eye (C14): It's an "eye" (camera).
+    - Electronic (C7): Yes.
+    - Hand (D11): ?
+    - One (F11): ?
+    - Reverse (E8): ?
+
+    Let's try "Computer".
+    - Action: Using it.
+    - Eye/Head: Looking at it.
+    - Object: A1.
+    - Electronic: C7.
+    - Hand: D11.
+    - One: F11.
+    - Reverse: E8. (Maybe "Undo" or "Back"?).
+
+    What if the answer is "Delete"?
+    - Action (H14)
+    - Electronic (C7)
+    - One (F11) - one click?
+    - Reverse/Opposite (E8) - Delete is the opposite of Create?
+
+    What if the answer is "Backspace"?
+    - Action (H14)
+    - Electronic (C7)
+    - Hand (D11)
+    - One (F11) - one key.
+    - Reverse (E8) - goes backward.
+    - Eye (C14)? No.
+
+    Wait, "Eye" (C14) ... "Eye" ... "I"?
+    "I" ... "One" (F11)?
+    "I" is the first person.
+    "E8" (Opposite) ...
+
+    Let's try "Volume".
+    - Action (H14): Change volume.
+    - Electronic (C7).
+    - One (F11): One button.
+    - Reverse (E8): Volume up/down (opposite).
+    - Eye (C14): No.
+
+    Let's try "Cursor".
+    - Action (H14): Move cursor.
+    - Electronic (C7).
+    - Hand (D11): Mouse.
+    - Eye (C14): Looking at it.
+    - One (F11): One cursor.
+    - Reverse (E8): ?
+
+    Let's rethink the "Eye" (C14) and "Head/Face" (C11) in the *Main Concept*.
+    The action is performed *on* the eye or *with* the eye.
+    "Blink", "Wink", "Look", "Watch", "View", "Focus" were all No.
+    What is an action with the eyes that is NOT looking/watching?
+    "Closing" (eyes).
+    "Opening" (eyes).
+    "Squinting".
+    "Blinding".
+
+    Wait, "Blind"?
+    - Action (H14)
+    - Eye (C14)
+    - Electronic (C7) - "Blinding light"?
+    - Hand (D11) - ?
+
+    What about "Light"? (F1/E1). No, the main concept is H14 (Action).
+    What about "Turn on"?
+    What about "Flash"? (As in a camera flash).
+    - Action (H14): Flash.
+    - Eye (C14): Flash in the eyes.
+    - Electronic (C7): Camera/Flash.
+    - Hand (D11): Pressing button.
+    - One (F11): One button.
+    - Reverse (E8): ? (Flash is light, opposite is dark?)
+
+    Actually, let's look at "E8" (Opposite) again.
+    "E8" is "Opposite/Reverse".
+    If the answer is "Undo"?
+    If the answer is "Back"?
+
+    Wait! What about "Control"?
+    "Remote control"?
+    If the object is "Remote" (A1, C7, D11, F11, E8).
+    - A1: Object
+    - C7: Electronic
+    - D11: Hand (to hold)
+    - F11: One? (One remote?)
+    - E8: Reverse (it can reverse channels/action?)
+    - C14: Eye? (Does it have an eye? No.)
+
+    Let's try "Mouse" (Computer mouse).
+    - A1: Object
+    - C7: Electronic
+    - D11: Hand
+    - F11: One (one mouse)
+    - C14: Eye (the optical sensor at the bottom)?
+    - E8: Reverse? (No).
+
+    Wait, the optical mouse has an "eye" (C14/C7).
+    And the action (H14) is "Click".
+    And it's used by the hand (D11).
+    And it's a single unit (F11).
+    Is there an "Opposite/Reverse" (E8) for a mouse?
+    Double-click? No.
+
+    What about "Scroll wheel"?
+    What about "Direction"?
+
+    Let's try a different approach.
+    Main Concept: Action/Do (H14) + Eye (C14) + Head (C11).
+    Could it be "Sleep"?
+    - Action (H14)
+    - Eye (C14) - close eyes.
+    - Head (C11) - head on pillow.
+    - Electronic (C7) - alarm clock?
+    - Hand (D11) - ?
+    - One (F11) - ?
+    - Reverse (E8) - ?
+
+    Wait, "Alarm clock"!
+    - Action (H14): Setting/Action.
+    - Electronic (C7): Yes.
+    - Eye (C14): Waking up/eyes opening.
+    - Hand (D11): To set/press.
+    - One (F11): One alarm?
+    - Reverse (E8): ?
+
+    Wait, I'm overthinking. Let's look at the "Opposite" (E8) and "One" (F11) and "Hand" (D11) and "Electronic" (C7) and "Object" (A1) and "Eye" (C14).
+    What is "One" "Electronic" "Object" with an "Eye" that is "Opposite"?
+    "Mirror" is not electronic.
+    "Lens"?
+    "Lens" is not an object (A1).
+
+    Wait! "Reverse/Opposite" (E8).
+    "E8" could mean "Negative/Opposite".
+    "E11" is "Zero/None".
+    "F11" is "One".
+    Is it "Negative"?
+
+    Let's try a very simple action.
+    "Press a button".
+    "Click".
+    "Switch".
+
+    Let's look at the first three guesses again.
+    "Look, Blink, Wink" (No)
+    "Scan, Photograph, Record" (No)
+    "Watch, View, Focus" (No)
+
+    These are all vision-related.
+    The answer is NOT a vision-related verb.
+    But the Main Concept (H14) is an Action, and has cubes for Eye (C14) and Head (C11).
+    So the action is *related* to eyes/head, but isn't "seeing".
+    What action involves the eyes/head but isn't seeing?
+    "Closing" (eyes)?
+    "Blinking" (rejected)?
+    "Sleeping"?
+    "Closing" (the eyes)?
+
+    If the action is "Close" (H14).
+    And the object is electronic (C7) and has an eye (C14) and is "One" (F11) and "Reverse" (E8).
+    Is it "Closing a tab"? "Closing a window"?
+    "Close" is the opposite of "Open" (E8).
+    An electronic window/tab (A1, C7).
+    One (F11) window?
+    Hand (D11) - click to close.
+    Eye (C14) - ? (Maybe the window/tab is on the eye/vision?)
+
+    Let's try "Close".
+    Wait, "Close" is an action.
+    If the action is "Close".
+    The object is "Window" (on a computer).
+    - A1: Object (Window)
+    - C7: Electronic (Window)
+    - C14: Eye (Eye/Sight/Window?)
+    - E8: Opposite (Open/Close).
+    - D11: Hand (to click).
+    - F11: One (one window).
+
+    Wait, "Close" (H14) as in "Closing a computer/program".
+    But "Close" is a verb.
+
+    Let's try "Button" or "Switch".
+    What about "Toggle"? (E8 - Toggle is the opposite/reverse).
+    What about "Power"? (Power button).
+
+    Let's try "Close" or "Turn off".
+    Actually, "Switch off" is a good guess.
+
+    Wait, let's look at "E8" again. "Opposite/Reverse".
+    If the answer is "Reverse"? (H14 - Action/Verb).
+    "To reverse"?
+    "To undo"?
+
+    Let's try to think of an electronic object (A1, C7) that is "One" (F11) and "Opposite/Reverse" (E8) and has an "Eye" (C14).
+    "One" "Reverse" "Eye".
+    Is it a "Reflection"? No.
+    Is it a "Mirror"? No.
+
+    What if the "Eye" (C14) is the "I"?
+    What if the "One" (F11) is the "1"?
+    What if the "Reverse/Opposite" (E8) is "Back"?
+    "Back"? (Action H14).
+    "Back" (E8/Reverse).
+    "Back" (One/F11) - backspace?
+    "Back" (D11) - Hand/Keyboard.
+    "Back" (C7) - Electronic.
+    "Back" (C14) - Eye/Head? No.
+
+    Wait, "Backspace" (D11 - Hand/Finger, C7 - Electronic, F11 - One, E8 - Reverse).
+    Does "Backspace" involve the "Eye" (C14)? No.
+
+    Let's try "Enter".
+    "Enter" (H14).
+    "One" (F11) key.
+    "Hand" (D11).
+    "Electronic" (C7).
+    "Eye" (C14)? No.
+
+    What about "Control"?
+    "Control" (H14).
+    "Control" (C7/A1).
+    "Control" (D11).
+    "Control" (E8) - ?
+
+    Let's try "Click".
+    "Click" (H14).
+    "Click" (C7).
+    "Click" (D11).
+    "Click" (F11) - "One" click.
+    "Click" (E8) - ?
+
+    Wait! "E8" is "Opposite/Reverse".
+    "E8" is "Opposite/Reverse".
+    "E4" is "Air/Wind".
+    "E3" is "Fire".
+    "E1" is "Cold".
+    "E2" is "Night/Space".
+    "E8" is "Opposite/Reverse".
+
+    What is the opposite of "Eye"?
+    "Ear"? "Nose"?
+    What is the opposite of "Head"?
+    "Foot"?
+
+    Is the answer "Flip"?
+    "Flip a switch"?
+    "Flip a coin"?
+
+    Let's try "Switch".
+    "Switch" (H14).
+    "Switch" (C7).
+    "Switch" (E8) - toggle.
+    "Switch" (D11) - hand.
+    "Switch" (F11) - one.
+    "Switch" (C14) - ?
+
+    Let's look at the "Eye" (C14) and "Head" (C11) again.
+    The action involves the head and eye.
+    "Blink" was No.
+    "Wink" was No.
+    "Look" was No.
+    "Watch" was No.
+    "View" was No.
+    "Focus" was No.
+
+    What is an action that is "Action/Button" (H14), "Eye" (C14), "Head" (C11), and involves an electronic object (A1, C7) that is "One" (F11), "Hand" (D11), and "Opposite" (E8)?
+
+    "Toggle"?
+    "Reset"?
+    "Undo"?
+
+    "Undo" (H14).
+    "Undo" (E8) - is the opposite/reverse.
+    "Undo" (C7) - Electronic.
+    "Undo" (F11) - One action?
+    "Undo" (D11) - Hand.
+    "Undo" (C14) - Eye/Head? No.
+
+    Wait, "E8" (Opposite/Reverse).
+    "H14" (Action/Button).
+    Could the action be "Reverse"?
+    "To reverse"?
+    If you reverse, you go back (E8).
+    You use a button (H14).
+    On an electronic thing (C7).
+    With a hand (D11).
+    But the "Eye" (C14) and "Head" (C11) are still the problem.
+
+    Wait, "Eye" (C14) and "Head" (C11).
+    Maybe the action is "To see"? (Already rejected).
+    "To feel"?
+    "To hear"?
+
+    Let's try "Turn".
+    "Turn" (H14/G14).
+    "Turn" (C14/C11) - "Turn your head"?
+    "Turn" (C7) - Electronic?
+    "Turn" (D11) - Hand?
+    "Turn" (E8) - Reverse?
+
+    Wait, "Turn" (H14).
+    "Turn" (G14 - Turn/Around/Cycle).
+    The icon for G14 is "Turn/Around/Cycle".
+    The icon for H14 is "Use/Action/Do/Button".
+    The user used H14.
+
+    Let's try "Button" or "Switch" or "Remote".
+    Wait, "Remote" (A1, C7, D11, F11, E8).
+    "Remote" (E8) - "Remote" can mean "Far" (opposite of near/close?).
+    Is "Remote" an action? No, it's a noun.
+    The main concept is H14 (Action).
+    So the answer is a verb.
+
+    Is the verb "Control"?
+    "Control" (H14).
+    "Control" (C7).
+    "Control" (D11).
+    "Control" (E8) - ?
+
+    What about "Switch"?
+    "Switch" (H14).
+    "Switch" (C7).
+    "Switch" (D11).
+    "Switch" (E8) - to switch is to change/reverse.
+    "Switch" (C14) - ?
+
+    Wait, "Eye" (C14) ... "Eye" ... "I".
+    Is it "I" (the person)? No, H14 is an action.
+
+    Let's try "Click".
+    "Click" (H14).
+    "Click" (C7).
+    "Click" (D11).
+    "Click" (F11) - "One" click.
+    "Click" (C14) - "Click" (sound/hearing C13?) No, C14 is Eye/Sight.
+
+    Wait, "Click" (the sound) is C13. "Click" (the action) is H14.
+    "Click" (the action) is often used with a "Mouse" (D11/C7).
+    And "Click" (the action) is related to the "Eye" (C14)? No.
+
+    Let's try "Press".
+    "Press" (H14).
+    "Press" (D11).
+    "Press" (C7).
+    "Press" (F11) - "One" press.
+    "Press" (E8) - ?
+
+    What about "Select"?
+    "Select" (H14).
+    "Select" (C14) - Eye/Sight/Select?
+    "Select" (D11) - Hand?
+    "Select" (C7) - Electronic?
+    "Select" (F11) - One?
+    "Select" (E8) - ?
+
+    Let's try "Zoom".
+    "Zoom" (H14).
+    "Zoom" (C14) - Eye/Sight.
+    "Zoom" (C11) - Head/Face/Focus.
+    "Zoom" (C7) - Electronic.
+    "Zoom" (D11) - Hand.
+    "Zoom" (E8) - In/Out (Opposite).
+    "Zoom" (F11) - One?
+
+    Is "Zoom" a good guess?
+    "Scan, Photograph, Record" (No). "Zoom" is different.
+    "Look, Blink, Wink" (No). "Zoom" is different.
+    "Watch, View, Focus" (No). "Zoom" is similar to "Focus", but "Focus" was rejected.
+
+    Wait, if "Focus" was rejected, "Zoom" might be rejected too.
+    What is a verb that is an action (H14), involves the eye/head (C14/C11), an electronic object (C7/A1) used by hand (D11), is "one" (F11), and is "opposite" (E8)?
+
+    "Toggle"?
+    "Switch"?
+    "Reverse"?
+
+    Let's try "Switch".
+    Wait, "Switch" (the noun) is an object. "Switch" (the verb) is an action.
+    "Switch" (the verb) means to change/reverse (E8).
+    "Switch" (the noun) is an electronic object (C7).
+
+    Let's try:
+    1. Switch
+    2. Toggle
+    3. Remote
+
+    Wait, "Remote" is not a verb.
+    "Control"?
+    "Change"?
+
+    Let's look at "E8" (Opposite/Reverse) again.
+    What if the action is "Turn"?
+    "Turn on/off".
+    "Turn" (H14).
+    "Turn" (E8) - "Turn" means to rotate/reverse.

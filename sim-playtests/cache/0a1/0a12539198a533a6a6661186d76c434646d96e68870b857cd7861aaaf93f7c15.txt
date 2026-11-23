@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Zoom",
+    "To open/close",
+    "To switch"
+  ]
+,
+  "pass": false
+}

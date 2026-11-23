@@ -1,0 +1,242 @@
+*   `?g D8`: The main concept is "Time / Duration".
+    *   `+ A12`: Related to "Ground transportation / Road".
+    *   `+ B1`: Related to "Human / Society / Group".
+    *   `!r D3`: Sub-concept (red) is "Fast / Race".
+        *   `+ A12`: Related to "Ground transportation / Road".
+    *   `!y D8`: Sub-concept (yellow) is "Time / Duration".
+
+    *   Main Concept: Time/Duration (something involving a duration of time).
+    *   Attributes of Main Concept: Road/Ground transportation, Society/Human.
+    *   Sub-concept (Red): A "Race" or "Fast" thing involving "Road/Ground transportation".
+    *   Sub-concept (Yellow): "Time/Duration" (perhaps a specific length of time or a duration-related term).
+
+    *   *Guesses so far:* A race, A car race, A road trip.
+    *   *Clue-giver's response:* "No".
+
+    *   The main concept is "Time/Duration".
+    *   The first sub-concept (red) is "Fast / Race" + "Road/Ground transportation".
+    *   The second sub-concept (yellow) is "Time/Duration".
+
+    Let's re-evaluate:
+    `?g D8` -> The answer *is* a duration/time or something characterized by time.
+    `+ A12` (Road) `+ B1` (People) -> A period of time involving people on a road?
+    `!r D3` (Fast/Race) `+ A12` (Road) -> A fast road-related thing?
+    `!y D8` (Time) -> A time-related thing?
+
+    Wait, if the answer is "No" to "A race", "A car race", "A road trip", let's look at the markers again.
+
+    `?g D8`: The category is Time/Duration.
+    `+ A12`: Road.
+    `+ B1`: Humans.
+    `!r D3`: Fast/Race.
+    `+ A12`: Road.
+    `!y D8`: Time.
+
+    Could the answer be something like "A traffic jam"? (No, that's not a duration, though it takes time).
+    "A commute"? (Time + Road + People).
+    "A marathon"? (Time + Fast/Race? No, marathon is slow. But maybe the sub-concept "Fast/Race" refers to the *type* of event).
+    "A countdown"? (Time).
+    "A deadline"? (Time).
+    "A second"? "A minute"? "An hour"?
+    "Traffic"?
+
+    Let's look at the "Red" group specifically: `!r D3` (Fast/Race) `+ A12` (Road).
+    Maybe the answer is a "Speed limit"? (Time/Duration? No. Road? Yes. Fast/Race? Yes).
+    Maybe "A period of time" spent on a road?
+
+    Wait, if `?g` is `D8` (Time), then the answer *is* a time period.
+    `+ A12` (Road) `+ B1` (Humans).
+    `!r D3` (Fast) `+ A12` (Road) -> A race on a road?
+    `!y D8` (Time) -> A duration.
+
+    Is it "Rush hour"?
+    `?g D8` (Time/Duration/Period of time)
+    `+ A12` (Road)
+    `+ B1` (People/Society)
+    `!r D3` (Fast/Race... maybe refers to the "rush" or speed?)
+    `!y D8` (Time)
+
+    Let's test "Rush hour":
+    Main concept: Time (D8).
+    Details: Road (A12), People (B1).
+    Red: Fast/Race (D3) + Road (A12). "Rush" implies speed/fast/racing.
+    Yellow: Time (D8).
+
+    Another possibility: "A traffic jam"? (But the clue-giver said no to "A road trip").
+    "Driving time"?
+    "A pit stop"? (No, that's not a duration).
+    "A detour"?
+
+    What about "A race"? He said "No" to "A race".
+    What about "Speeding"?
+    "A high speed"?
+
+    Let's look at `!r D3` (Fast/Race) and `+ A12` (Road). This is a strong hint for something related to speed on a road.
+    `?g D8` (Time) + `A12` (Road) + `B1` (People) + `!y D8` (Time).
+    "Rush hour" fits the "Time" concept, "Road", "People", "Fast" (Rush), and "Time" (Duration) themes.
+
+    Another option: "Traffic"? (Not a duration).
+    "A commute"? (A commute is a trip, not a duration, though it's often used to describe the time spent).
+
+    Wait, `?g D8` means the answer *is* a time-related concept.
+    `+ A12` (Road)
+    `+ B1` (Humans)
+    `!r D3` (Fast) `+ A12` (Road)
+    `!y D8` (Time)
+
+    Could it be "A countdown"? No, that doesn't fit road/people.
+    "A deadline"? No.
+    "An era"? No.
+
+    Let's try "Rush hour". It's a specific time (D8) on the road (A12) with people (B1) involving speed/intensity (D3).
+
+    Wait, what if the answer is "The speed limit"?
+    `?g D8` (Time/Duration/Speed is distance/time).
+    `+ A12` (Road)
+    `+ B1` (People/Society - laws)
+    `!r D3` (Fast/Race) `+ A12` (Road)
+    `!y D8` (Time)
+    But "Speed limit" isn't really a "Time/Duration".
+
+    Let's look at "Rush hour" again.
+    `?g D8` (Time/Duration/Period)
+    `+ A12` (Road)
+    `+ B1` (Humans/Society)
+    `!r D3` (Fast) `+ A12` (Road) -> A "rush" on the road.
+    `!y D8` (Time)
+
+    What about "A holiday"? (D8 - Time/Celebration? No, D8 is strictly Time/Duration).
+    "A weekend"?
+
+    What about "Traffic jam"? The clue-giver said "No" to "A road trip". A traffic jam is a state, not a duration.
+    "A commute"? A commute is a process/trip.
+
+    Let's consider "A fast-forward"? No.
+    "A second"? "A minute"?
+
+    How about "A race"? The user guessed "A race" and "A car race" and the answer was "No".
+    But the red sub-concept is "Fast/Race". This usually means the *sub-concept* is a race, not necessarily the answer.
+
+    If `?g` is Time/Duration, the answer is a unit of time or a period of time.
+    A period of time on the road involving people and speed.
+    "Rush hour" is the strongest candidate.
+
+    Another possibility: "A detour"? (No).
+    "A traffic jam"? (No).
+    "A commute"? (Maybe).
+    "A journey"? (No, that's a noun for a trip).
+
+    Let's try "Rush hour".
+
+    Wait, let's look at the `!r` again. `!r D3` (Fast/Race) and `+ A12` (Road).
+    If the answer is "Rush hour", the "Fast/Race" part describes the "Rush" part.
+    If the answer is "Speed limit", the "Fast/Race" part describes the "Speed" part.
+    If the answer is "A commute", the "Fast/Race" part doesn't quite fit unless it's "A fast commute".
+
+    Let's try "Rush hour" and "Commute".
+
+    Actually, looking at `?g D8` (Time/Duration), `+ A12` (Road), `+ B1` (Humans/Society).
+    Maybe it's "A traffic light"? (No, not a duration).
+    "A car crash"? (No, not a duration).
+
+    Is it "A moment"? "A decade"?
+    "A marathon"? (A marathon is a race, but the user guessed "A race" and got "No").
+
+    Wait... "A race" was "No".
+    What if the answer is "A timer"? No.
+
+    Let's try:
+    1. Rush hour
+    2. A commute
+    3. A speed limit (even if D8 is a stretch, it's related to time/speed)
+
+    Actually, let's think about "Time" + "Road" + "People" + "Fast".
+    "Traffic"? No.
+    "Rush hour" is a time.
+    "Driving time"?
+
+    Could it be "A stopwatch"? No.
+    "A clock"? No.
+
+    Let's try "Rush hour".
+
+    *Self-Correction:*
+    The user's guesses were "A race", "A car race", "A road trip".
+    The clue-giver said "No".
+    If the answer was "A race", "A car race" would have been "Yes: A car race" or "Yes: A race".
+    "A road trip" is a trip, not a duration.
+
+    The main concept is `D8` (Time/Duration).
+    The answer must be a time/duration.
+    "Rush hour" is a duration/period.
+    "Commute" is often a period.
+
+    What about "A second" or "A minute"? Doesn't fit Road/People/Fast.
+
+    "Rush hour" seems the most logical.
+
+    Another thought: "A deadline"? (Time, but no road/people connection really).
+    "A countdown"?
+
+    Let's try "Rush hour".
+
+    Wait, let's look at the markers one more time.
+    `?g D8` (Time)
+    `+ A12` (Road)
+    `+ B1` (People)
+    `!r D3` (Fast) `+ A12` (Road)
+    `!y D8` (Time)
+
+    Wait, `!y D8` is just a duplicate of the main concept marker. This is common in Concept when you want to emphasize that the *sub-concept* is also time-related, or to indicate a phrase.
+
+    Is it "Fast forward"? (No road).
+    "A pit stop"? (No duration).
+    "A pit stop" is a thing that happens in a race.
+    "A race track"? (Not a duration).
+
+    What about "A car"? (No, not a duration).
+
+    Could it be "An hour"? (D8).
+    "An hour" on the road?
+
+    Let's go with "Rush hour".
+
+    Wait, could it be "Traffic"?
+    `?g D8` (Time)
+    `+ A12` (Road)
+    `+ B1` (People)
+    `!r D3` (Fast) `+ A12` (Road)
+    Maybe "A car jam" -> "Traffic jam"?
+    But a "Traffic jam" is a thing/event, not a "Time/Duration".
+
+    What about "Speed"?
+    `?g D8` (Time/Duration) - Speed is distance over time.
+    `+ A12` (Road)
+    `+ B1` (Humans/Society - speed limits)
+    `!r D3` (Fast) `+ A12` (Road)
+    `!y D8` (Time)
+
+    Let's try "Rush hour" and "Commute".
+
+    Wait, "Fast" + "Road" + "Time".
+    "A drive"? (No, not a duration).
+    "A detour"?
+
+    What if the answer is "A second"? (No).
+    "A minute"? (No).
+
+    Let's look at `!r D3` (Fast) `+ A12` (Road). This describes the sub-concept.
+    If the answer is "Rush hour", the "Fast" part is the "Rush".
+    If the answer is "A race", it would have been "Yes".
+
+    Is it "Time limit"?
+    `?g D8` (Time)
+    `+ A12` (Road)
+    `+ B1` (Humans/Society - rules)
+    `!r D3` (Fast) `+ A12` (Road) -> A fast road limit?
+    `!y D8` (Time)
+
+    Let's try:
+    1. Rush hour
+    2. Commute
+    3. Speed limit

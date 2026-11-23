@@ -1,0 +1,32 @@
+*   Main Concept (`?g`) is on `H14`.
+    *   `H14` means: "Use – Action / Do – Verb / Button".
+    *   This is a very broad clue. It indicates the answer is an action, a verb, a way to use something, or related to a button/doing something.
+
+    *   `H14` (Action/Do/Button) is the *category* of the answer.
+    *   Wait, the prompt says `?g H14`. This means the *Main Concept* is "Action/Do/Button".
+    *   In Concept, if the `?g` pawn is on `H14`, it means the answer is an action, a verb, or something you do.
+
+    *   *Action/Verb/Do/Button* is extremely vague.
+    *   Could be: Run, Jump, Eat, Sleep, Walk, Push, Press, Click, Use, Play, etc.
+    *   Since it's the *only* clue, it's hard to narrow down.
+
+    *   Guess 1: "Push" (linked to Button)
+    *   Guess 2: "Click" (linked to Button/Action)
+    *   Guess 3: "Press" (linked to Button/Action)
+
+    *Actually, let's think broader. If the answer is an action/verb, maybe it's a common verb.*
+
+    *   "Press"
+    *   "Push"
+    *   "Action" (Unlikely, as it's the category)
+    *   "Do" (Unlikely)
+    *   "Button" (Unlikely)
+    *   "Use" (Unlikely)
+
+    *Let's try "Press", "Push", and maybe "Click" or "Touch".*
+
+    *Wait, if `?g` is on `H14`, the answer is an action. It's a very early stage. I'll try three common verbs associated with buttons/doing.*
+
+    1. Press
+    2. Push
+    3. Click

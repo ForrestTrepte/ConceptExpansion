@@ -1,0 +1,281 @@
+*   `?g B7`: Main Concept is a Title / Brand / Name.
+    *   `+ F10`: Feature (related to B7): Network / Grid / Mesh.
+    *   `+ C7`: Feature (related to B7): Electronic / Computing.
+    *   `!r B8`: Red Sub-Concept (related to B7): Expression – Quote / Talking / Words.
+    *   `+ F10`: (Duplicate cube/detail on F10 for the red group).
+    *   `+ A7`: Feature (related to B8): Television / Program / Show.
+
+    *   *Summary of Step 1:* A brand name/title that involves a network/grid, computing, and talking/words/quotes, specifically related to TV shows.
+    *   *Guesses:* CNN, Twitter, Facebook. (Answer: No).
+
+    *   `!y G2`: Yellow Sub-Concept: Cross / Crossing / Addition.
+    *   `+ G1`: (Detail on G2): Line – Straight / Diagonal.
+    *   `+ H14`: (Detail on G2): Use – Action / Do – Verb / Button.
+    *   `!b B10`: Blue Sub-Concept: Celebration / Anniversary / Holiday.
+    *   `+ B8`: (Detail on B10): Expression – Quote / Talking / Words.
+
+    *   *Summary of Step 2:*
+        *   Main Concept: A Title/Brand/Name.
+        *   Details: Network, Electronic, TV.
+        *   Red (Words/Quotes/Talking): Network, TV.
+        *   Yellow (Crossing/Addition/Line/Button): A cross/plus sign, a straight line, a button? (Maybe a symbol?)
+        *   Blue (Celebration/Holiday): Quotes/Words/Talking.
+
+    *   *Guesses:* Disney+, Netflix. (Answer: No).
+
+    *   `?g B7` (Title/Brand)
+    *   `F10` (Network/Grid), `C7` (Electronic/Computing)
+    *   `!r B8` (Words/Speech/Quotes) + `F10` (Network), `A7` (TV)
+    *   `!y G2` (Cross/Addition) + `G1` (Line), `H14` (Button/Action)
+    *   `!b B10` (Celebration/Holiday) + `B8` (Words/Speech/Quotes)
+
+    *Wait, let's re-evaluate the "Yellow" group:*
+    `!y G2` (Cross/Addition/Crossing) + `G1` (Line) + `H14` (Button/Action).
+    A symbol that is a cross/plus, a line, and involves a button/action?
+    Could it be a "+" sign? Disney+ was guessed and was wrong.
+
+    *Re-evaluating "Blue" group:*
+    `!b B10` (Celebration/Holiday) + `B8` (Words/Speech/Quotes).
+    Something about talking/words during a holiday? Or a brand name related to celebrations?
+
+    *Looking at the combination:*
+    Title/Brand + Network/Electronic + TV/Words + Cross/Plus sign + Holiday/Celebration/Words.
+
+    *Possibility 1: YouTube?*
+    - Brand? Yes.
+    - Electronic? Yes.
+    - TV/Words? Video content.
+    - Cross/Plus? Not really.
+
+    *Possibility 2: TikTok?*
+    - Brand? Yes.
+    - Electronic? Yes.
+    - TV/Shows? Short videos.
+    - Cross/Plus? Not really.
+
+    *Possibility 3: Something related to "New Year's Eve" or "Christmas"?*
+    - Celebration/Holiday? Yes.
+    - B8 (Words/Quotes/Talking)?
+    - B7 (Title/Brand)?
+
+    *Let's look at the Yellow group again:* `G2` (Cross/Addition) + `G1` (Line) + `H14` (Button/Action).
+    Wait, a "plus" sign + a "line" + a "button"?
+    Could it be "Play"? No, that's a triangle (G5).
+    Could it be "Netflix"? (Already guessed).
+    Could it be "Hulu"?
+    Could it be "Amazon Prime"?
+
+    *Let's look at the red group again:* `!r B8` (Words) + `F10` (Network) + `A7` (TV).
+    A brand about words/talking on a network/TV.
+
+    *Let's look at the Blue group again:* `!b B10` (Holiday/Celebration) + `B8` (Words).
+    Is there a holiday related to talking? "Happy Birthday"?
+    Is the answer "Happy Birthday"? No, that's not a Brand/Title (B7) usually, though it is a title of a song.
+    Wait, is it a song title? `B7` is Title/Brand/Name.
+    `B5` is Music/Song. `B7` covers it.
+
+    *Wait! Let's look at the Yellow group one more time:* `G2` (Cross) + `G1` (Line) + `H14` (Button).
+    Could `G2` (Cross) + `G1` (Line) be a specific symbol? Like a "+" with a line through it? No.
+    Could it be "Plus"? Disney+ was guessed.
+    What about "Prime"? (Amazon Prime).
+    What about "HBO"?
+    What about "Paramount"?
+
+    *Let's rethink the "Celebration" (B10) + "Words" (B8):*
+    A brand/title related to celebrations and words.
+    "Merry Christmas"? (Not a brand).
+    "Happy New Year"?
+
+    *Let's look at the whole picture again:*
+    Main: Title/Brand.
+    Feature: Network, Electronic.
+    Red: Talking/Words, Network, TV.
+    Yellow: Cross/Addition, Line, Button.
+    Blue: Celebration, Words.
+
+    Is the answer "YouTube"? (Wait, I checked that).
+    Is the answer "Twitch"?
+    Is the answer "Instagram"?
+
+    What if the "Yellow" group `G2` (Cross) isn't a "plus" sign, but a "cross" as in "crossing" something?
+    `G2` is "Cross / Crossing / Addition".
+    `H14` is "Use/Action/Button".
+    Maybe "Subscribe"? "Like"?
+
+    What if the "Blue" group `B10` (Celebration) + `B8` (Words/Quotes) is "Happy Birthday"?
+    If the answer is "Happy Birthday":
+    - Brand/Title? Yes (Song title).
+    - Red: Talking/Words + Network/TV? (It's sung).
+    - Yellow: Cross/Addition + Line + Button? Doesn't fit well.
+
+    *Let's try another angle:*
+    "Words" + "Network" + "TV" + "Celebration" + "Cross/Plus".
+    Could it be "TED"? (TED Talks).
+    - Brand/Title: Yes.
+    - Network/Electronic: Yes.
+    - Words/Talking: Yes.
+    - TV/Shows: Yes.
+    - Yellow (Cross/Addition/Line/Button): ???
+    - Blue (Celebration/Holiday): ???
+
+    *Wait, look at the Yellow again:* `G2` (Cross), `G1` (Line), `H14` (Button/Action).
+    A cross and a line and a button...
+    Is it a "Play" button? (No, G5 is triangle).
+    Is it "Pause"? (Two lines). `G1` is "Line". `G2` is "Cross".
+    Two lines = `G1` x2? But it says `G2` (Cross).
+    Is it a "Stop" button?
+    Is it "Skip"?
+
+    *Wait!*
+    Yellow: `G2` (Cross), `G1` (Line), `H14` (Button).
+    A cross (G2) and a line (G1) and a button (H14).
+    Maybe a "+" sign and a "-" sign? No.
+
+    Let's look at the Blue group again: `B10` (Celebration/Holiday) + `B8` (Words).
+    "Happy Birthday"? "Merry Christmas"?
+    "Happy" (C6) is not there.
+
+    Is the answer "Podcast"?
+    - Brand/Title? (Kind of).
+    - Network/Electronic/Words/Talking: Yes.
+    - Blue (Celebration/Holiday): No.
+
+    Is the answer "New Year's Eve"? (No, that's not a brand).
+
+    Let's look at the Yellow group one more time very carefully.
+    `G2` Cross, `G1` Line, `H14` Button.
+    If you "cross" (G2) a "line" (G1) with a "button" (H14)...
+    What about a "X" (Cross) mark?
+    Is the brand "X" (formerly Twitter)?
+    - Brand: Yes.
+    - Electronic: Yes.
+    - Red: Words/Talking (it's a social network): Yes.
+    - Yellow: `G2` (Cross) + `G1` (Line) + `H14` (Button/Action). A cross/X is a shape.
+    - Blue: `B10` (Celebration/Holiday) + `B8` (Words/Quotes).
+      Does "X" relate to Celebration/Holiday/Words?
+      Wait, "X" marks the spot? No.
+
+    Let's reconsider the Blue group: `B10` (Celebration/Holiday) + `B8` (Words).
+    "Holiday" + "Words" = "Greeting card"?
+    Is the brand "Hallmark"?
+    - Brand: Yes.
+    - Electronic/Network/TV: They have TV shows/specials?
+    - Red: Words/Quotes: Yes (Cards).
+    - Yellow: Cross/Line/Button: ???
+    - Blue: Celebration/Holiday/Words: Yes (Greeting cards for holidays).
+
+    What about "TikTok"?
+    Wait, `B10` is Celebration. `B8` is Words.
+    "TikTok" is the sound of a clock?
+    `D8` is Time/Duration/Clock. Not used.
+
+    Let's look at `G2` (Cross) again. Could it be "Twitter" (already guessed)?
+    Could it be "Facebook" (already guessed)?
+    Could it be "Instagram"?
+
+    Wait! `!y G2` (Cross) `+ G1` (Line) `+ H14` (Button).
+    A cross, a line, and a button.
+    Is it "Plus"? (Disney+ was guessed).
+    Is it "Prime"?
+
+    Let's look at the "Red" group: `B8` (Words) + `F10` (Network) + `A7` (TV).
+    "Words" on "TV" on a "Network".
+    "News"?
+    "BBC"?
+    "CNN" (guessed).
+
+    What about "YouTube"?
+    "YouTube" -> "You" + "Tube" (TV).
+    `A7` is TV.
+    `B8` is Words (talking).
+    `B10` is Celebration/Holiday? No.
+
+    Let's try to find a brand that fits "Celebration" and "Words".
+    "Party City"?
+    "Coca-Cola"? (No, B7 is Title/Brand, but it's not really words/holiday centric).
+
+    Wait, `!b B10` (Celebration) + `B8` (Words/Quotes).
+    "Happy Birthday" is a song (B5/B7).
+    "Merry Christmas" is a phrase.
+    "Happy" is `C6`. Not used.
+
+    Could the answer be "Spotify"?
+    - Brand: Yes.
+    - Electronic: Yes.
+    - Red (Words/Network/TV): Music/Podcasts/Streaming.
+    - Yellow (Cross/Line/Button): ???
+    - Blue (Celebration/Holiday): Playlists for holidays?
+
+    Let's look at the Yellow group again: `G2` (Cross) + `G1` (Line) + `H14` (Button).
+    Is it "Cancel"? (A cross and a line).
+    Is it "Delete"?
+
+    Let's look at the Blue group again: `B10` (Celebration) + `B8` (Words).
+    Is it "Congratulations"?
+    Is it "Cheers"?
+
+    Wait, let's look at the board again.
+    `?g B7` (Title/Brand)
+    `F10` (Network/Grid)
+    `C7` (Electronic)
+    `!r B8` (Words/Quotes)
+    `F10` (Network)
+    `A7` (TV)
+    `!y G2` (Cross/Addition)
+    `G1` (Line)
+    `H14` (Button)
+    `!b B10` (Celebration/Holiday)
+    `B8` (Words/Quotes)
+
+    Is it "WhatsApp"?
+    - Brand: Yes.
+    - Electronic: Yes.
+    - Red (Words/Network): Yes, messaging.
+    - Yellow (Cross/Line/Button): The icon is a phone in a bubble?
+    - Blue (Celebration/Holiday): Using it for holiday greetings?
+
+    Is it "Snapchat"?
+    - Brand: Yes.
+    - Yellow: The icon is a bright yellow ghost. (But `!y` is a sub-concept group, not the color of the brand).
+    - `G2` (Cross) + `G1` (Line) + `H14` (Button)?
+
+    Let's try to find something that fits the "Yellow" group `G2, G1, H14` perfectly.
+    A cross, a line, and a button.
+    Wait... "X" (Cross) and "I" (Line) and "Button"?
+    Is it "X"? (The rebranding of Twitter).
+    If the answer is "X":
+    - `B7` Title: Yes.
+    - `F10` Network/Grid: Yes, a social network.
+    - `C7` Electronic: Yes.
+    - `!r B8` (Words) + `F10` (Network) + `A7` (TV): It's a platform for words/news.
+    - `!y G2` (Cross) + `G1` (Line) + `H14` (Button): An "X" is a cross made of lines, and you click/press it (button).
+    - `!b B10` (Celebration/Holiday) + `B8` (Words): This is the hard part. Does "X" relate to "Celebration/Holiday" and "Words"?
+    Maybe "X-mas"? (Christmas).
+    "X-mas" is a common abbreviation.
+    "X" is a "Cross" (G2) and "Mas" sounds like "Mass" (C9 - Religion)? No.
+    But "X-mas" is a Celebration (B10) and "X" is a cross.
+    And "X-mas" is words (B8).
+
+    Let's check:
+    Answer: **X** (the brand/platform).
+    - `?g B7`: It's a brand.
+    - `F10`, `C7`: It's an electronic network.
+    - `!r B8` (Words) + `F10` (Network) + `A7` (TV): It's a place for words/news (like a TV network).
+    - `!y G2` (Cross) + `G1` (Line) + `H14` (Button): The shape of the logo (an X/cross) and it's a button you press.
+    - `!b B10` (Celebration/Holiday) + `B8` (Words): "X-mas" (Christmas).
+
+    Wait, "X-mas" is a bit of a stretch for the clue, but in Concept, clues can be a bit lateral.
+    Let's look for other options just in case.
+    Could it be "TikTok"? No.
+    Could it be "YouTube"? No.
+    Could it be "Amazon Prime"? (Prime is addition/plus `G2`?).
+    If the answer is "Amazon Prime":
+    - `?g B7`: Brand.
+    - `F10`, `C7`: Electronic/Network.
+    - `!r B8` (Words) + `F10` (Network) + `A7` (TV): Prime Video.
+    - `!y G2` (Addition/Plus) + `G1` (Line) + `H14` (Button): "Prime" or "Plus"?
+    - `!b B10` (Celebration) + `B8` (Words): ???
+
+    Let's look at "X" again.
+    `!y G2` (Cross) + `G1` (Line). An X is two lines crossing.
+    `!b B1

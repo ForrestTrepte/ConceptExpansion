@@ -1,0 +1,88 @@
+*   `?g A8`: Main Concept is A8 (Idea / Intelligence / Concept).
+    *   `+ E11`: Cube on E11 (Zero / None / Absence) in the `g` group. So, a "zero idea" or "no idea".
+    *   `!r A5`: Sub-Concept (red) is A5 (Literature / Writing / Book).
+    *   `+ A3`: Cube on A3 (Work / Occupation) in the `r` group. So, a "writing job" or "literature work".
+    *   `!y G7`: Sub-Concept (yellow) is G7 (Cube).
+    *   `+ C4`: Cube on C4 (Defense / Protection / Wall) in the `y` group. So, a "cube-shaped wall/shield/protection".
+
+    *Wait, let me re-read the marker logic.*
+
+    `?g A8` (Main concept: Idea)
+    `+ E11` (Idea + Zero/Absence/None) -> "No idea"? "Blank"?
+    `!r A5` (Red sub-concept: Writing/Literature/Book)
+    `+ A3` (Red sub-concept: Work/Occupation) -> "Author"? "Writer"? "Job in writing"?
+    `!y G7` (Yellow sub-concept: Cube)
+    `+ C4` (Yellow sub-concept: Defense/Protection/Wall) -> "Block"? "Box"? "Shield"?
+
+    *Wait, let's combine them:*
+    Main idea: An idea/concept (A8) that is "nothing" (E11).
+    Red group (Related to idea): Literature (A5) + Job (A3) -> Writer/Author?
+    Yellow group (Related to idea): Cube (G7) + Defense/Wall (C4) -> Block/Box/Fortification?
+
+    Wait, the color/cube structure is:
+    `?g A8` (Idea)
+    `+ E11` (Zero)
+    `!r A5` (Book)
+    `+ A3` (Work)
+    `!y G7` (Cube)
+    `+ C4` (Defense)
+
+    Let's look at the markers again.
+    `?g A8` is the main concept. `+ E11` is a cube on E11 in group `g`.
+    So: The answer is a Concept (A8) that is Zero (E11).
+    The red group `r` describes a sub-concept: Writing (A5) + Work (A3).
+    The yellow group `y` describes a sub-concept: Cube (G7) + Defense (C4).
+
+    This doesn't immediately form a single phrase.
+    Let's re-examine "Idea/Zero". "Blank slate"? "Empty mind"? "Nothingness"?
+    "Writer/Book/Work" + "Cube/Defense/Wall".
+    Wait... "Block"?
+    Is it "Writer's block"?
+
+    Let's check "Writer's block":
+    Main Concept (A8 - Idea/Concept): Yes, it's a mental state/concept.
+    `+ E11` (Zero/Absence): Yes, absence of ideas.
+    `!r A5` (Literature/Writing) + `+ A3` (Work/Occupation): Yes, related to the work of writing.
+    `!y G7` (Cube) + `+ C4` (Defense/Wall/Block): A "block" is often represented by a cube or a wall.
+
+    Let's see if there's another possibility.
+    "Blank page"? (A5, E11, etc.) - but the cube/defense part is strong for "block".
+
+    "Writer's block" fits perfectly.
+
+    1. Writer's block
+    2. Blank slate
+    3. Nothing
+
+    Wait, I should just provide the guesses.
+
+    *Self-Correction on marker interpretation:*
+    `?g A8` (Concept)
+    `+ E11` (Zero) -> No ideas.
+    `!r A5` (Book)
+    `+ A3` (Job) -> Writer's job.
+    `!y G7` (Cube)
+    `+ C4` (Wall) -> A block/wall.
+
+    This is a very clever way to clue "Writer's block".
+
+    Guesses:
+    1. Writer's block
+    2. Blank page
+    3. Idea
+
+    Actually, the instructions say "Give up to 3 guesses, best first".
+
+    Let's refine.
+    `?g A8` (Concept)
+    `+ E11` (None)
+    `!r A5` (Writing)
+    `+ A3` (Occupation)
+    `!y G7` (Cube)
+    `+ C4` (Wall)
+
+    The "block" part (Cube + Wall) is a visual metaphor for the concept of "block".
+    The "Writer" part (Writing + Occupation) describes the person.
+    The "Zero/None" (E11) describes the state of the idea (A8).
+
+    Conclusion: Writer's block.

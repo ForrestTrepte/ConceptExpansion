@@ -1,0 +1,223 @@
+*   `?g F7`: Main Concept is F7 (Paper / Sheet / Letter).
+    *   `+ Yellow`: Yellow color on the Main Concept.
+    *   `+ C8`: Money / Rich / Expensive on the Main Concept.
+    *   `!r A14`: Sub-Concept (Red) is A14 (Food / Eating / Edible).
+    *   `+ Brown`: Brown color on the Sub-Concept.
+
+    *   Main Concept: Paper / Sheet / Letter / Writing (Yellow, Money).
+    *   Related Concept: Food (Brown).
+
+    *   *Yellow Paper + Money + Food (Brown):*
+    *   Is it a specific type of paper?
+    *   Is it a "menu"? (Menus are paper, often food-related, maybe yellow/brown?)
+    *   Is it a "receipt"? (Paper, money, sometimes brownish/yellowish?)
+    *   Is it a "bill"? (Money, paper, food connection? Like a restaurant bill?)
+    *   Is it "dough"? (Money, food, but not paper/sheet specifically... though "bread" is slang for money).
+    *   Is it "crackers"? No.
+    *   Is it "corn"? (Yellow, food, but not paper).
+    *   Is it "money" itself? No, the main concept is paper.
+    *   Is it "a bank note"? (Paper, money, but food connection?).
+    *   Is it a "menu"? Let's look at the icons again. F7 is "Paper / Sheet / Letter".
+    *   "Brown" + "Food" = Bread, toast, meat, chocolate, etc.
+    *   "Yellow" + "Money" + "Paper" = A banknote/bill.
+    *   Wait, "Bill" (a piece of paper) vs "Bill" (money).
+    *   Is there a food called a "bill"? No.
+    *   Is it "dough"? (Money = dough, Food = dough). But dough isn't paper.
+    *   Let's look at the "Brown" + "Food" + "Yellow" + "Money" + "Paper" combo.
+    *   Maybe "Bread"? (Slang for money, food is brown/yellow). But is bread "Paper/Sheet"? No.
+    *   What about "A Check/Cheque"? (Paper, Money). Food?
+    *   What about a "Menu"? It's a sheet of paper (F7). It's about food (A14). It's often brown/yellowish in certain styles? Or maybe it's "a restaurant bill"?
+    *   Let's consider "Biscuit"? No.
+    *   "Waffle"? No.
+    *   "Cracker"? No.
+    *   What about "Gold"? (Yellow, Money).
+    *   Let's re-examine `!r A14 + Brown`. This means a sub-concept is food and it's brown.
+    *   Could it be "Money"? If the answer is "Money", the main concept is F7 (Paper/Sheet)? That would be "Paper money/banknotes".
+    *   Is "Money" brown and edible? No.
+    *   Wait, "Bread" (Money) and "Bread" (Food). But "Bread" isn't F7.
+    *   What about "Dollar"?
+    *   What about "A Menu"?
+    *   What about "A Recipe"? (Paper, food).
+    *   What about "A Bill"? (Paper, money). "Bill" can also be related to... bird beaks? No.
+    *   Let's think about the brown food. Chocolate? Bread? Meat?
+    *   Maybe "A wrapper"? (Paper, food).
+    *   Maybe "A napkin"?
+    *   Let's think about the "Yellow" + "Money" + "Paper". This strongly suggests a banknote.
+    *   Is there a banknote that is brown and edible? No.
+    *   Wait, is "Bread" the answer? Let's check. If "Bread" is the answer, `?g F7` (Paper) doesn't fit.
+    *   What if the answer is "A Menu"?
+        *   `?g F7` (Paper) - Yes.
+        *   `+ Yellow` - Maybe?
+        *   `+ C8` (Money) - Yes, you use it to spend money.
+        *   `!r A14` (Food) - Yes.
+        *   `+ Brown` - Maybe?
+    *   What if the answer is "A Receipt"?
+        *   `?g F7` (Paper) - Yes.
+        *   `+ Yellow` - Maybe?
+        *   `+ C8` (Money) - Yes.
+        *   `!r A14` (Food) - Yes, if it's a food receipt.
+    *   What if the answer is "Dough"? (Money and Food). But it's not paper.
+    *   What if the answer is "A Bagel"? No.
+    *   What about "Paper money"?
+    *   Let's look at `!r A14 + Brown` again. Brown food.
+    *   Could it be "A cracker"? No.
+    *   What about "A menu"? It's a common game answer.
+    *   What about "A cookie"? No.
+    *   Let's try "A Menu", "A Receipt", "A Bill".
+
+    *Wait*, re-reading the notation:
+    `?g F7` (Main Concept: Paper/Sheet/Letter)
+    `+ Yellow` (Color: Yellow)
+    `+ C8` (Money)
+    `!r A14` (Sub-concept: Food)
+    `+ Brown` (Color: Brown)
+
+    Maybe the answer is "A Menu".
+    Maybe "A Receipt".
+    Maybe "A Banknote". (But why food?)
+    Wait... "Bread" is a slang for money. "Dough" is slang for money.
+    If the answer is "Bread":
+    Main concept = Paper? No.
+    If the answer is "Dough":
+    Main concept = Paper? No.
+
+    Let's look at the colors again.
+    Main concept (Yellow + Money + Paper).
+    Sub-concept (Brown + Food).
+    Is the answer "A Menu"? It's a sheet of paper, often contains food, and involves money.
+    Is the answer "A Restaurant Bill"?
+    Is the answer "A Newspaper"? No.
+    Is the answer "A Note"? (Banknote, musical note...).
+
+    Let's think about "Yellow" + "Money" + "Paper".
+    Could it be a "Dollar bill"?
+    If the answer is "A Dollar bill":
+    `?g F7` (Paper) - Yes.
+    `+ Yellow` - Money is often associated with gold/yellow.
+    `+ C8` (Money) - Yes.
+    `!r A14` (Food) - Is there a food called a dollar? No.
+    Wait, "A Bill".
+    A "Bill" (money).
+    A "Bill" (paper).
+    Is a "Bill" food? No.
+
+    Let's try another angle.
+    "Paper" (F7) + "Food" (A14).
+    "A wrapper"? "A napkin"? "A menu"? "A recipe"? "A cookbook"? (A cookbook is a book, A5).
+    "A Menu" is a very strong candidate for Paper + Food.
+    Is a menu Yellow and Money-related? Many menus are used in restaurants where you pay (Money).
+    Is there a brown food connection? Maybe "A Menu" is too broad.
+
+    What about "A check"?
+    What about "A cracker"?
+
+    Let's reconsider `!r A14 + Brown`.
+    Sub-concept: Food, specifically Brown food.
+    Main concept: Paper, Yellow, Money.
+
+    Could the answer be "A Menu"?
+    Could the answer be "A Receipt"?
+    Could the answer be "A Banknote"?
+
+    Wait! "Money" (C8) and "Food" (A14).
+    "Bread" is food and money.
+    "Dough" is food and money.
+    "Cabbage" is food and money (slang).
+    "Lettuce" is food and money (slang).
+    "Salt" is... no.
+    "Cheese" is money (slang).
+    But none of these are "Paper" (F7).
+
+    Wait, "A Menu" is a piece of paper.
+    "A Recipe" is a piece of paper.
+
+    Let's think about "Paper" + "Yellow" + "Money".
+    A "Note"? (Banknote).
+    Is "Note" food? No.
+
+    Is it "A Menu"?
+    Is it "A Receipt"?
+    Is it "A Bill"?
+
+    Let's try:
+    1. A menu
+    2. A receipt
+    3. A bill
+
+    Actually, let's look at the colors again.
+    `+ Yellow` is on the Main Concept (Paper).
+    `+ Brown` is on the Sub-Concept (Food).
+    A menu is a sheet of paper. A menu is about food.
+    A receipt is a sheet of paper. A receipt is about money.
+    A menu involves money.
+
+    What if the answer is "A Biscuit"? No.
+    What if the answer is "A cracker"? No.
+    What if the answer is "A wrapper"?
+    What if the answer is "A napkin"?
+
+    Let's look at `F7` (Paper/Sheet/Letter) again.
+    And `C8` (Money).
+    And `A14` (Food).
+    And the colors.
+    Maybe "A Menu"?
+
+    Let's think about "Brown" + "Food".
+    Chocolate? Bread? Meat?
+    "Yellow" + "Money" + "Paper".
+    Gold?
+    Is there a food called "Gold"? No.
+
+    Wait! "Paper" + "Money" + "Food".
+    "A Menu".
+    "A Receipt".
+    "A Bill".
+
+    Let's try:
+    1. A menu
+    2. A receipt
+    3. A bill
+
+    *Self-Correction*: Is "A Bill" the same as "A Receipt"?
+    A "Bill" is what you get at a restaurant.
+    A "Receipt" is what you get after you pay.
+    Both are paper (F7). Both involve money (C8). Both involve food (A14).
+    And the colors?
+    "Yellow" + "Paper" + "Money"... maybe a banknote?
+    "Brown" + "Food"... maybe bread?
+
+    Wait, is the answer "Bread"?
+    If "Bread" is the answer:
+    Is "Bread" a "Paper/Sheet/Letter" (F7)? No.
+    Is "Bread" "Money" (C8)? Yes (slang).
+    Is "Bread" "Food" (A14)? Yes.
+    Is "Bread" "Yellow"? Yes.
+    Is "Bread" "Brown"? Yes.
+    But the `?g` (Main Concept) is `F7` (Paper). So "Bread" cannot be the answer unless "Bread" is a type of paper, which it isn't.
+
+    What about "A Menu"?
+    What about "A Bill"? (Like a restaurant bill).
+
+    Let's search for things that are Paper, Yellow, Money, and Food.
+    Maybe "A Menu".
+    Maybe "A Receipt".
+    Maybe "A Bill".
+
+    Let's think about the colors one more time.
+    The clue-giver puts Yellow on the Main Concept (Paper/Money/Sheet).
+    The clue-giver puts Brown on the Sub-Concept (Food).
+    This implies the *answer* is the Main Concept (Paper/Money/Sheet), and one of its characteristics or related things is Food (which is Brown).
+    So: "A [Paper/Money/Sheet] that is [Yellow] and is related to [Brown Food]".
+    A "Menu"? (A menu is a sheet of paper, often yellowed/brownish, related to food).
+    A "Bill"? (A restaurant bill).
+    A "Receipt"?
+
+    Let's try "A menu".
+
+    Another possibility: "A banknote" or "Money". But money isn't F7 specifically, though banknotes are. And the food connection is weak.
+    Wait, "A menu" is the most logical "Paper" + "Food" connection.
+
+    Let's try:
+    1. A menu
+    2. A bill
+    3. A receipt

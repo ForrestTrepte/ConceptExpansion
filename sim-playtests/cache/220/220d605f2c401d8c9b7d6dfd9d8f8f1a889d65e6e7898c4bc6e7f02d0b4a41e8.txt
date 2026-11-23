@@ -1,0 +1,52 @@
+New prompt.
+
+Step 1, markers placed:
+?g A6
++ D5
+!r A10
++ D5
+!y F11
++ G2
++ F11
+Board now:
+?g A6 | D5
+!r A10 | D5
+!y F11 | G2, F11
+Guesses: Happy Death Day, Groundhog Day, Day of the Dead
+Clue-giver: No
+
+Step 2, markers placed:
+!b D6
++ B9
+!k A10
++ B7
+Board now:
+?g A6 | D5
+!r A10 | D5
+!y F11 | G2, F11
+!b D6 | B9
+!k A10 | B7
+Guesses: 2012, Independence Day, The Day After Tomorrow
+Clue-giver: No
+
+Step 3, markers placed:
+(no new markers)
+Board now:
+?g A6 | D5
+!r A10 | D5
+!y F11 | G2, F11
+!b D6 | B9
+!k A10 | B7
+Guesses: World Trade Center, United 93, Remember Me
+Clue-giver: No
+
+Step 4, markers placed:
+(no new markers)
+Board now:
+?g A6 | D5
+!r A10 | D5
+!y F11 | G2, F11
+!b D6 | B9
+!k A10 | B7
+
+Give up to 3 guesses, best first, or pass.

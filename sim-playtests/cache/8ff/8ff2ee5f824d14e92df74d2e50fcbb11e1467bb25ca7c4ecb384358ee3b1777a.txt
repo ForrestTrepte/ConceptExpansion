@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "CNN",
+    "Twitter",
+    "Facebook"
+  ]
+,
+  "pass": false
+}

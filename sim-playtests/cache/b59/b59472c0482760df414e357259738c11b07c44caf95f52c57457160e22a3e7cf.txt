@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Marathon",
+    "Sprint",
+    "Road trip"
+  ]
+,
+  "pass": false
+}

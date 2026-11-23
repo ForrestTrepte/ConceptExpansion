@@ -1,0 +1,26 @@
+New prompt.
+
+Step 1, markers placed:
+?g D2 [placed between C2 and D2: a person of either sex]
+Board now:
+?g D2
+Guesses: Person, Human, People
+Clue-giver: No
+
+Step 2, markers placed:
+!b E8
++ D3
+Board now:
+?g D2
+!b E8 | D3
+Guesses: Reverse-Flash, The Flash, Speedster
+Clue-giver: No
+
+Step 3, markers placed:
++g B14
++ A7
+Board now:
+?g D2 | B14, A7
+!b E8 | D3
+
+Give up to 3 guesses, best first, or pass.

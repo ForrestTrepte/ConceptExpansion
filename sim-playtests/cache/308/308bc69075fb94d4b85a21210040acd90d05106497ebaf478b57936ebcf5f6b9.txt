@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Ticket",
+    "Movie ticket",
+    "Golden ticket"
+  ]
+,
+"pass": false
+}

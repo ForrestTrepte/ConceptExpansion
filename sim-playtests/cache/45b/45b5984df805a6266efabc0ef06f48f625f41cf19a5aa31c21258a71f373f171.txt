@@ -1,0 +1,258 @@
+*   `?g A3`: Main Concept is A3 (Work / Occupation / Job).
+    *   `+ G14`: A cube on G14 (Turn / Around / Cycle / Repetition) is attached to the Main Concept (A3). So, the job involves a cycle or repetition.
+    *   `!r A4`: Red Sub-Concept is A4 (Fauna / Animal).
+    *   `+ H10`: A cube on H10 (Small / Low) is attached to the Red Sub-Concept.
+    *   `+ Grey`: A Grey cube is attached to the Red Sub-Concept. (Wait, the notation says `+ Grey`. Grey is a color swatch. The rule says "A color is part of a clue only when a cube is on a color swatch." The instruction `+ Grey` means a grey cube is placed on the grey swatch? No, looking at the example: `+ Black` means a black cube is on the black swatch. So a grey cube is on the grey swatch. This is part of the Red Sub-Concept).
+    *   `!y D3`: Yellow Sub-Concept is D3 (Fast / Race).
+
+    *   `?g A3` (Occupation) + `G14` (Repetition/Cycle): A repetitive job.
+    *   `!r A4` (Animal) + `H10` (Small) + `Grey` (Color): A small, grey animal.
+    *   `!y D3` (Fast/Race): Something fast or involving racing.
+
+    *   A job involving a small, grey animal that is fast or involves repetition/cycles.
+    *   Maybe a job related to a specific animal?
+    *   Let's look at the animal: Small, grey, fast? Mouse? Rabbit (but rabbit is white/brown usually, and A4 is fauna, D3 is fast).
+    *   Wait, `!y D3` is the Yellow Sub-concept. D3 is "Fast/Race".
+    *   Could the occupation be related to racing? A jockey? (A4 is animal, but jockey is human).
+    *   Could the occupation be a Vet?
+    *   Could the occupation be a "Mouse catcher"? No.
+    *   Let's rethink `!r A4 + H10 + Grey`. A small grey animal. A mouse? A rat?
+    *   `?g A3` (Occupation) + `G14` (Repetition/Cycle).
+    *   Maybe the job is something like "Race track attendant"?
+    *   Wait, what if the job is a "Runner"? (No, A3 is occupation).
+    *   What if the animal is a greyhound? (A greyhound is a dog, and they race).
+    *   Let's check the clues for "Greyhound Racing":
+        *   Job: Racing (A3/D3 connection).
+        *   Animal: Greyhound (A4).
+        *   Fast (D3).
+        *   Grey (Color).
+        *   Small/Low (H10) - a bit weird for a greyhound, they are medium-sized.
+    *   What about a "Mouse"? No, A3 is the main concept (Occupation).
+    *   Maybe the occupation is "Runner"? Or "Driver"?
+    *   Let's look at the animal again. Small, grey... a mouse? A rat?
+    *   Occupation involving a mouse? "Computer programmer"? (Mouse is a tool, but A4 is fauna).
+    *   How about a "Lab technician" (A3) working with mice (A4, small, grey)? Mice are used in cycles/experiments?
+    *   Wait, `G14` is "Turn/Around/Cycle/Repetition".
+    *   What about a "Race car driver"? (D3 is Fast, A3 is Job). But where does the small grey animal fit?
+    *   Let's look at `!r A4 + H10 + Grey`. A small grey animal.
+    *   Maybe "Hamster"?
+    *   Is there an occupation involving hamsters?
+    *   Let's try to find a job that involves a fast, small, grey animal.
+    *   Is the occupation "Cheetah"? No, A3 is job.
+    *   Could the job be "A racing driver"?
+    *   What if the answer is "Mouse"? No, A3 is the main concept.
+    *   What if the job is "A scientist"? (A3). They use mice (A4). Mice are small (H10) and grey. Experiments are cycles (G14).
+    *   Wait, "Fast" (D3). Scientists/Lab rats?
+    *   Is the answer "Lab rat"? (A3 - occupation/role? No, Lab rat is an animal).
+    *   Let's look at the "Small, grey, fast" aspect. A mouse is fast.
+    *   Could the answer be "A mouse"? (If the clue-giver used A3 for "a person who works with mice"? No).
+    *   What if the job is "A runner"?
+    *   Wait, `!y D3` is a Sub-concept. D3 is "Fast/Race".
+    *   Could the answer be "Marathon"? (A10 is date/event, not A3).
+    *   Could the job be "A jockey"? (A3). They ride animals (A4).
+    *   Is there a small grey animal associated with a job?
+    *   A "Hamster wheel" (G14 - cycle)?
+    *   A "Mouse" (A4 - animal)?
+    *   What about "A computer programmer"? (A3 - Job). They use a mouse (A4 - animal/object? A4 is fauna). A mouse (computer) is not fauna.
+    *   Wait, the clue says `!r A4` which is Fauna. So it *must* be a real animal.
+    *   Small, grey, fast, animal. A mouse.
+    *   Occupation + Cycle + Mouse.
+    *   Maybe "A scientist"?
+    *   Let's try: "Scientist", "Researcher", "Lab technician".
+    *   Actually, let's look at the "Fast" (D3) and "Cycle" (G14) again.
+    *   A mouse on a wheel?
+    *   What's an occupation involving a mouse?
+    *   "Exterminator"? (A3). They deal with mice (A4). Mice are small (H10) and grey.
+    *   Wait, "Fast" (D3). Are mice fast? Yes.
+    *   Is "Exterminator" a job that involves cycles (G14)? Maybe.
+
+    *   Let's try another angle.
+    *   `?g A3` (Job)
+    *   `!r A4` (Animal) + `H10` (Small) + `Grey` (Grey)
+    *   `!y D3` (Fast/Race) + `G14` (Cycle/Repeat)
+    *   Could the job be "A runner"? (D3 is fast).
+    *   Could the job be "A pilot"? (B11 is aircraft).
+    *   What about a "Greyhound racer"?
+    *   Wait, a "Greyhound" is a dog (A4). It's fast (D3). It's grey (color).
+    *   Is there a job called "Greyhound racer"? Or "Dog trainer"?
+    *   Let's try:
+        1.  Scientist
+        2.  Exterminator
+        3.  Dog trainer
+
+    *   Actually, let's look at "Mouse" again.
+    *   A "Mouse" (A4) is a small (H10) grey animal.
+    *   Is there a job related to a mouse and racing/speed?
+    *   Wait, `G14` is "Cycle/Around". A mouse running in a wheel?
+    *   Is there a job called "Mouse catcher"? Not really a standard one.
+    *   What about "A researcher" (A3)?
+
+    *   Let's re-read: `?g A3` (Job) + `G14` (Cycle).
+    *   Maybe the job is "A cyclist"? (D3 - fast, G14 - cycle).
+    *   But where does the small grey animal (A4, H10, Grey) fit?
+    *   Wait... a "Greyhound" is a dog. Is a greyhound small? No.
+    *   Is there a small grey animal that is fast? A mouse.
+    *   Is there an occupation that involves a mouse?
+    *   Maybe the answer is "A computer mouse"? No, A3 is occupation.
+    *   Wait! "A professional gamer"? (B3). No.
+    *   What about a "Rat"? (A4). No, A3 is the job.
+
+    *   Let's look at the icons again.
+    *   A3: Work/Occupation.
+    *   A4: Fauna/Animal.
+    *   H10: Small/Low.
+    *   Grey: Grey.
+        *   D3: Fast/Race.
+    *   G14: Turn/Around/Cycle/Repetition.
+
+    *   Could the answer be "A track star"? No.
+    *   Could it be "A race car driver"?
+    *   Wait, "Small, grey, animal" ... "Fast" ... "Cycle".
+    *   A "Hamster"? (Not a job).
+    *   A "Mouse"? (Not a job).
+    *   Wait, could the job be "A runner"?
+    *   What if the animal is a "Rabbit"? (A4). A rabbit is fast (D3). But it's not grey (usually).
+    *   What about a "Hare"? (D3 is rabbit/hare).
+    *   Is there a job involving a hare?
+    *   A "Hunter"? (A3).
+    *   A "Greyhound" racer?
+
+    *   Let's try "Scientist" first, as the "mouse"/ "lab rat" connection is common in many contexts, but the "fast" and "cycle" parts are a bit weird.
+    *   Wait, "G14" (Cycle) + "D3" (Fast) + "A4" (Animal) + "H10" (Small) + "Grey" (Color).
+    *   A mouse/rat on a wheel?
+    *   Is there a job called "Lab technician"?
+    *   What if the job is "A runner"?
+    *   What if the job is "A pilot"?
+    *   Let's try "Scientist", "Exterminator", "Researcher".
+    *   Actually, let's think about the "Fast" and "Cycle" and "Animal".
+    *   A "Racing driver"? (A3, D3, G14).
+    *   But the animal... "A4" (Animal).
+    *   What if the animal is a "Cheetah"? (Fast).
+    *   What if the animal is a "Horse"? (A4).
+    *   Wait, a "Horse" is not small or grey (usually).
+    *   What about a "Greyhound"? It's a dog (A4). It's fast (D3). It's a "greyhound" (name has grey in it?).
+    *   Wait, "H10" is Small. A greyhound is not small.
+    *   What animal is small, grey, and fast? A mouse.
+    *   What's a job involving a mouse and cycles?
+    *   Is it "A computer programmer"? (A3). A mouse (A4 - but A4 is fauna, and computer mouse is an object).
+    *   Wait, "G14" (Cycle/Around) + "D3" (Fast).
+    *   What about "A sprinter"?
+    *   What if the answer is "A hamster"? (Not a job).
+
+    *   Let's reconsider the "A4" (Animal).
+    *   Maybe the animal is "A mouse".
+    *   Maybe the job is "A researcher"?
+    *   Let's try "Scientist".
+
+    *   Wait, I just thought of something. "A mouse" (A4) + "Fast" (D3) + "Small" (H10) + "Grey" (Color) + "Cycle" (G14).
+    *   Is the answer "A computer"? No, A3 is Job.
+    *   Is the answer "A mouse"? No.
+    *   Is the answer "A racer"?
+    *   What if the occupation is "A runner"?
+    *   What if the occupation is "A driver"?
+    *   Wait, "A4" is Animal.
+    *   Could the job be "A vet"?
+    *   Could the job be "A zookeeper"?
+    *   Let's look at "A4" again.
+    *   What if the animal is a "Cat"? (A4).
+    *   A "Cat" is a "fast" "small" "grey" animal?
+    *   Is there a job "Cat burglar"? (A3 - Occupation).
+    *   A "Cat burglar" is a job (or at least a role).
+    *   A "Cat" (A4) is small (H10), grey (Color), and fast (D3).
+    *   "Cycle/Around" (G14)? A cat burglar "circles" or "goes around" buildings?
+    *   This is a bit of a stretch.
+
+    *   Let's try another: "A mouse catcher"? (Not really a job).
+    *   How about "A technician"?
+    *   Let's try:
+        1. Scientist
+        2. Exterminator
+        3. Researcher
+
+    Wait, I'll look at the markers one more time.
+    `?g A3` (Job)
+    `+ G14` (Cycle/Turn/Around)
+    `!r A4` (Animal)
+    `+ H10` (Small)
+    `+ Grey` (Color)
+    `!y D3` (Fast/Race)
+
+    A job that involves a small, grey, fast animal that cycles/turns.
+    A "hamster" doesn't fit "job".
+    A "mouse" doesn't fit "job".
+    Wait, "A professional racer"? (A3).
+    "A racing driver"?
+    "A jockey"?
+    "A runner"?
+
+    What if the answer is "A lab rat"? (Is that an occupation? No).
+    What if the answer is "A scientist"?
+    What if the answer is "A researcher"?
+
+    Let's try:
+    1. Scientist
+    2. Researcher
+    3. Exterminator
+
+    Actually, "Exterminator" is a very good fit for "Job" + "Small Grey Animal" + "Fast" (mice are fast). "Cycle" (G14) might mean the service is repetitive or they move around.
+
+    Wait, "A4" is Fauna. "H10" is Small. "Grey" is Grey. "D3" is Fast.
+    "A3" is Job. "G14" is Turn/Around/Cycle.
+    Could the job be "A dancer"? (G14 - Turn). But the animal?
+    Could the job be "A pilot"?
+    What about "A marathon runner"?
+    What about "A race car driver"?
+
+    Wait! "A mouse" (A4). "A mouse" is a thing. "A mouse" can be an occupation? No.
+    What about "A computer programmer"? (A3).
+    If the clue-giver thinks a "mouse" is an animal (A4), even though it's a computer mouse.
+    But the instructions say "The clue-giver doesn't say which meaning they intend".
+    If the answer is "Computer programmer", the clue-giver would use "Object" (A1) or "Electronic" (C7). They used "Animal" (A4). So it's a real animal.
+
+    What animal is small, grey, and fast?
+    A mouse.
+    A rat.
+    A greyhound (not small).
+    A squirrel? (not grey/fast/small in that way).
+
+    Let's try "Scientist" or "Lab technician".
+
+    Wait, "G14" (Cycle/Turn) and "D3" (Fast/Race).
+    A "Cycle" is a "Bicycle".
+    Is there a job "A cyclist"?
+    Does a cyclist use a small grey animal? No.
+
+    Let's try one more: "A track and field athlete"?
+    No.
+
+    Let's go with "Scientist", "Exterminator", and "Researcher".
+
+    Wait, I just thought of "A mouse" again.
+    Is there a job called "A mouse"? No.
+    What about "A runner"? (A3).
+    A "Runner" (D3 - fast, G14 - repeat/cycle).
+    But the animal?
+    "A rabbit"? (A4).
+    "A grey rabbit"?
+    Is "A rabbit" a job? No.
+
+    What if the answer is "A racer"?
+    What if the answer is "A driver"?
+
+    Wait, "A3" is Occupation.
+    What if the answer is "A veterinarian"?
+    What if the answer is "A zoologist"?
+
+    Let's look at the "Small, grey, fast" animal again.
+    "A mouse".
+    "A mouse" is "Fast".
+    Is there a job called "A mouse"? No.
+    What about "A mouse trap"? (No, A3 is Job).
+
+    Let's look at "G14" (Cycle/Around).
+    "A3" (Job).
+    "A mouse-catcher"? (Not really a job).
+    "An exterminator"? (A3).
+    "A scientist"? (A3).
+
+    Let's try "Exterminator".

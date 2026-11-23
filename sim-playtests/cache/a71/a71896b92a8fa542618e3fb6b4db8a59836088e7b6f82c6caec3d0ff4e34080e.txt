@@ -1,0 +1,3 @@
+**Evaluating output schema**
+
+I’m thinking about how we need to provide guesses about an icon placed between C2 and D2. It seems like the D2 masculine/male icon suggests a general person rather than someone specific. I’m considering words like “person,” “human,” or “someone” as potential guesses. It appears that the concept could just relate to a generic human. Time to finalize the output schema based on that!

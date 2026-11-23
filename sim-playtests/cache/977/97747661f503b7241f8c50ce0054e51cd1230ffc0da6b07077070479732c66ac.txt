@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "A weather forecast",
+    "A weather report",
+    "A weather warning"
+  ]
+,
+  "pass": false
+}

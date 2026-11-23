@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Writer's block",
+    "Blank slate",
+    "Blank page"
+  ]
+,
+  "pass": false
+}

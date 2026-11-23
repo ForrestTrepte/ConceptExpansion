@@ -1,0 +1,56 @@
+*   `?g A3`: Main Concept is A3 (Work / Occupation / Job).
+    *   `+ C4`: A detail/feature of the job is C4 (Defense / Protection / Wall).
+    *   `+ A11`: A detail/feature of the job is A11 (Seacraft / Naval / Swimming).
+    *   `+ D10`: A detail/feature of the job is D10 (Medical / Medicine / Health).
+
+    *   The main concept is an occupation (`A3`).
+    *   Related ideas are:
+        *   Protection/Defense (`C4`).
+        *   Sea/Naval/Swimming (`A11`).
+        *   Medical/Medicine/Health (`D10`).
+
+    *   *Idea 1:* A job involving sea, medicine, and protection.
+    *   *Idea 2:* A lifeguard? (Protects, near water/sea, medical skills).
+    *   *Idea 3:* A Coast Guard? (Naval/Sea, protects/defense, medical/health/rescue).
+    *   *Idea 4:* A Navy medic? (Naval, medical).
+    *   *Idea 5:* A doctor on a ship?
+
+    *   "Lifeguard" fits the protection (C4), sea/water (A11), and medical (D10) aspects very well.
+    *   "Coast Guard" also fits the naval (A11) and protection/defense (C4) aspects, and they do medical rescues.
+
+    1. Lifeguard
+    2. Coast Guard
+    3. Navy medic
+
+    *Wait, let's look at the specific icon meanings again.*
+    `A3` (Occupation)
+    `C4` (Defense/Protection)
+    `A11` (Sea/Naval)
+    `D10` (Medical)
+
+    Lifeguard: Occupation (A3), Protection (C4), Sea/Water (A11), Medical (D10).
+    Coast Guard: Occupation (A3), Defense/Protection (C4), Naval (A11), Medical (D10 - though less central than lifeguard).
+
+    Let's go with Lifeguard first.
+
+    1. Lifeguard
+    2. Coast Guard
+    3. Navy medic (or maybe Sea rescue?)
+
+    *Refining guesses:*
+    1. Lifeguard
+    2. Coast Guard
+    3. Coast Guard medic? No, let's just say Navy medic.
+
+    Actually, "Lifeguard" is a very strong candidate.
+
+    *Self-Correction/Double Check:*
+    Is there another one?
+    Navy doctor? (A3, A11, D10... maybe not C4 as much unless "defense" means "protecting people").
+    Paramedic? (D10, C4... but A11? Not necessarily).
+
+    "Lifeguard" seems the most intuitive.
+
+    1. Lifeguard
+    2. Coast Guard
+    3. Navy medic

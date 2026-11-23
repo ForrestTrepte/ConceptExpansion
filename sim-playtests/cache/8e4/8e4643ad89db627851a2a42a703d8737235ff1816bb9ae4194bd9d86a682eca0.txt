@@ -1,0 +1,62 @@
+*   `?g A13`: Main concept is A13 (Game / Toy).
+    *   `+ G7 x6`: Six cubes on G7 (Cube). The description "the six cubes arranged in a 2×3 rectangle, like a brick's studs" is a specific detail about the cubes themselves, but they are placed on G7 (Cube).
+
+    *   The answer is a Game or Toy (`A13`).
+    *   The answer involves Cubes (`G7`).
+    *   The specific mention of "brick's studs" in the prompt might be a meta-clue or a way to describe the physical layout, but in the context of a Concept game, the clue is simply "Cube" (G7).
+    *   Wait, the instruction says: `+ G7 x6 [the six cubes arranged in a 2×3 rectangle, like a brick's studs]`. This is a description of *how* the cubes are placed on the board. In Concept, cubes don't have physical arrangements like that; you just place them. However, the user might be implying the *meaning* of the cubes or just describing the visual.
+    *   Actually, looking at the notation: `+ G7 x6` means there are 6 cubes on the "Cube" icon.
+    *   An icon that is a Toy/Game AND involves Cubes.
+    *   Common toys/games with cubes:
+        *   Rubik's Cube.
+        *   Dice (though A13 has a die icon, G7 is a 3D cube).
+        *   LEGO (bricks are cubes/rectangular, though not strictly cubes, they are often associated with building/blocks).
+        *   Minecraft (game involving blocks/cubes).
+        *   Jenga (not really cubes, but blocks).
+
+    *   A13 (Game/Toy) + G7 (Cube).
+    *   If there are 6 cubes on G7, it might mean "many cubes" or "a collection of cubes".
+    *   Rubik's Cube is a very strong candidate for a Toy/Game that is a Cube.
+    *   LEGO is a toy made of blocks/cubes.
+
+    Let's look at the "brick's studs" part again. "the six cubes arranged in a 2×3 rectangle, like a brick's studs". This is highly specific. It describes the *visual appearance* of the cubes on the G7 icon.
+    In Concept, the clue-giver uses the icon's *meaning*. The icon G7 means "Cube".
+    The clue "Toy/Game" + "Cube" + "6 cubes".
+    Is it "Dice"? A13 has a die in the picture.
+    Is it "Rubik's Cube"?
+    Is it "LEGO"?
+
+    Let's try "Rubik's Cube" first, as it's a single iconic toy that is a cube.
+    "Dice" is also a possibility.
+    "LEGO" is a toy involving blocks/cubes.
+
+    Wait, "brick's studs" refers to LEGO. If the clue-giver is describing the cubes as "like a brick's studs", they are likely pointing towards LEGO.
+
+    Let's refine guesses:
+    1. Rubik's Cube
+    2. LEGO
+    3. Dice
+
+    Wait, let's re-read the notation. `+ G7 x6`. It's just saying there are 6 cubes on the Cube icon.
+    If the answer is "Dice", usually there are 6 sides, but the icon for a die is in A13.
+    If the answer is "Rubik's Cube", it is a single cube.
+    If the answer is "LEGO", it is a toy made of blocks.
+
+    Let's consider the number 6. 6 sides on a cube? 6 cubes total?
+    If the answer is "Dice", a single die has 6 sides.
+    If the answer is "LEGO", they are blocks.
+
+    Let's try:
+    1. Rubik's Cube
+    2. LEGO
+    3. Dice
+
+    Actually, "Rubik's Cube" is a very good guess for Toy + Cube.
+
+    Let's look at the "6 cubes" again. Maybe the answer is "Dice"? (A die has 6 sides).
+    Or "Minecraft"? (Blocks/Cubes).
+
+    Let's go with:
+    1. Rubik's Cube
+    2. LEGO
+    3. Dice
