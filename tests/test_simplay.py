@@ -239,7 +239,7 @@ def test_usage_limit_stops_the_run(monkeypatch: pytest.MonkeyPatch, capsys: pyte
 
     from llmemo import UsageLimitReached
 
-    async def refused(_spec: Spec) -> dict[str, Any]:
+    async def refused(_spec: Spec) -> tuple[dict[str, Any], object]:
         raise UsageLimitReached("limit", resets_at=datetime(2026, 11, 23, 4, 0, tzinfo=UTC))
 
     monkeypatch.setattr(simplay, "run_spec", refused)
@@ -368,3 +368,12 @@ def test_in_daemon_thread_passes_errors() -> None:
 
     with pytest.raises(ValueError, match="no"):
         asyncio.run(main())
+
+
+def test_call_summary() -> None:
+    from llmemo import Totals
+
+    replayed = Totals(hits=186, cached_cost_usd=0.4213)
+    assert simplay.call_summary(replayed) == "186 calls (186 cached, 0 recorded), $0.42 API-equivalent"
+    mixed = Totals(hits=10, misses=5, cached_cost_usd=0.1, uncached_cost_usd=0.05)
+    assert simplay.call_summary(mixed).endswith("$0.15 API-equivalent, $0.05 spent now")
