@@ -1,0 +1,7 @@
+{ 
+  "guesses": [
+    "Traffic Light",
+    "Semaphore",
+    "Signal Light"
+  ]
+}

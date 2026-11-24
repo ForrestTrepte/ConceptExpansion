@@ -1,0 +1,7 @@
+{ 
+"guesses": [
+    "Medical Response",
+    "Emergency Response Team",
+    "Emergency Medical Technician"
+  ]
+}

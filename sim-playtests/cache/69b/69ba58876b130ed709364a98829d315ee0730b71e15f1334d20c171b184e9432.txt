@@ -1,0 +1,16 @@
+New prompt.
+
+Step 1, markers placed:
+?g B8
++ F8
+Board now:
+?g B8 | F8
+Guesses: Sound bite, Catchphrase, Idiom
+Clue-giver: No
+
+Step 2, markers placed:
++g E1
+Board now:
+?g B8 | F8, E1
+
+Give up to 3 guesses, best first, or none to pass.

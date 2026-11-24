@@ -1,0 +1,16 @@
+New prompt.
+
+Step 1, markers placed:
+?g A13
++ B11
+Board now:
+?g A13 | B11
+Guesses: Toy airplane, Toy helicopter, Remote controlled plane
+Clue-giver: No
+
+Step 2, markers placed:
+(no new markers)
+Board now:
+?g A13 | B11
+
+Give up to 3 guesses, best first, or none to pass.

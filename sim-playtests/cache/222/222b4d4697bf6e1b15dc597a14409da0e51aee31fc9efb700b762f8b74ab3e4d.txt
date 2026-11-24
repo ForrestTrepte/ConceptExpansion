@@ -1,0 +1,7 @@
+{ 
+"guesses": [
+    "sound wave",
+    "ear movement",
+    "hearing aid"
+  ]
+}

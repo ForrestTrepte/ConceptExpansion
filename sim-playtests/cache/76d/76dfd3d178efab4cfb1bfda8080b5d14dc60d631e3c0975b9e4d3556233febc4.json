@@ -1,0 +1,143 @@
+{
+  "contentSha256": "bc6a3ce5a874061e74446420945afb14c5f834c21fa28e8b1ca3e787c4dc141e",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "4b5daa84bf7faab6f117925ff5de9ff2fdd6395e55661846fcc5b242e99c1765"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "e032e80068fbb2d321bd716a49e346b57c9a38b5964422bac767726cb737baa6"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "openai/gpt-6-luna",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "guesses"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-1"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "f6004e3-dirty",
+    "costUsd": 0.000417195,
+    "latencyMs": 8654,
+    "recordedAt": "2026-11-24T00:06:15.544Z",
+    "recordedBy": "claude",
+    "servedBy": "OpenAI",
+    "servedModel": "openai/gpt-6-luna",
+    "tags": {
+      "run": "calibrate-or-luna"
+    },
+    "usage": {
+      "cacheReadTokens": 4727,
+      "cacheWriteTokens": 269,
+      "inputTokens": 4999,
+      "outputTokens": 672,
+      "reasoningTokens": 647
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"House M.D.\",\"The Man Show\",\"Home Improvement\"]}",
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "data": {
+                "$llmemo.text": "2d267fa664f98194a861f371638c0b81b31f91ab6b503b4f7cdfa1f3b292c740"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_07ba4907d2448f33016b04d4efd01c87d1a0d04e547107246a",
+              "index": 0,
+              "type": "reasoning.encrypted"
+            },
+            {
+              "data": {
+                "$llmemo.text": "e1bb029562ec4df2454ac98e6fefed8bc07be81dceda114c3bb9a95a1889e07b"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_07ba4907d2448f33016b04d4f59db087d1b684750e150d4b9f",
+              "index": 1,
+              "type": "reasoning.encrypted"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "completed"
+      }
+    ],
+    "created": 1795478766,
+    "id": "gen-1795478766-eLnQJB91LMv3iuYRCB5H",
+    "model": "openai/gpt-6-luna",
+    "object": "chat.completion",
+    "provider": "OpenAI",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 672,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 647
+      },
+      "cost": 0.000417195,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000336,
+        "upstream_inference_cost": 0.000417195,
+        "upstream_inference_prompt_cost": 0.000081195
+      },
+      "is_byok": false,
+      "prompt_tokens": 4999,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 269,
+        "cached_tokens": 4727,
+        "video_tokens": 0
+      },
+      "total_tokens": 5671
+    }
+  }
+}

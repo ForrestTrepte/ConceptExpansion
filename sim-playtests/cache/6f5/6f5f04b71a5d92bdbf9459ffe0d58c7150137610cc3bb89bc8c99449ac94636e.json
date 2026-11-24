@@ -1,0 +1,121 @@
+{
+  "contentSha256": "48aa5478e9dc228c245ab164f444c61b71d6f554a0997dc89b74fa1c4ee1965f",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "4b5daa84bf7faab6f117925ff5de9ff2fdd6395e55661846fcc5b242e99c1765"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "4a613f7f8394528f26a8300b278ae22e189e077b1ab57133a145fdc26de7cc2c"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "meta-llama/llama-4-scout",
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "guesses"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-1"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "f6004e3-dirty",
+    "costUsd": 0.0008028,
+    "latencyMs": 733,
+    "recordedAt": "2026-11-23T23:13:22.776Z",
+    "recordedBy": "claude",
+    "servedBy": "DeepInfra",
+    "servedModel": "meta-llama/llama-4-scout",
+    "tags": {
+      "run": "calibrate-or-llama"
+    },
+    "usage": {
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
+      "inputTokens": 5274,
+      "outputTokens": 26,
+      "reasoningTokens": 0
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": {
+            "$llmemo.text": "e988ba2dc4755df612f06df4196fb761a5c0697c459f4d072cf5a31b0b7fcf84"
+          },
+          "reasoning": null,
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "stop"
+      }
+    ],
+    "created": 1795475602,
+    "id": "gen-1795475602-AfXQu0WOQCFoo5YNTLdF",
+    "model": "meta-llama/llama-4-scout",
+    "object": "chat.completion",
+    "provider": "DeepInfra",
+    "service_tier": "priority",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 26,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.0008028,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0000117,
+        "upstream_inference_cost": 0.0008028,
+        "upstream_inference_prompt_cost": 0.0007911
+      },
+      "is_byok": false,
+      "prompt_tokens": 5274,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 5300
+    }
+  }
+}

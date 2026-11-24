@@ -1,0 +1,7 @@
+{
+  "guesses": [
+    "Control Z",
+    "Delete",
+    "Refresh"
+  ]
+}

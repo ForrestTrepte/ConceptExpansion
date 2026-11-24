@@ -1,0 +1,153 @@
+{
+  "contentSha256": "80fb9581f1786fbdbafe667d28b42d651cea4fd45f43312aadeca8fd69ebf09b",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "4b5daa84bf7faab6f117925ff5de9ff2fdd6395e55661846fcc5b242e99c1765"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "3d6522ceb369ae6362e8006ef69415b81afb66d68597ed9fd52d5b45a4d9f8c8"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "openai/gpt-6-luna",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "guesses"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-1"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "f6004e3-dirty",
+    "costUsd": 0.00038582,
+    "latencyMs": 8104,
+    "recordedAt": "2026-11-24T00:07:01.429Z",
+    "recordedBy": "claude",
+    "servedBy": "OpenAI",
+    "servedModel": "openai/gpt-6-luna",
+    "tags": {
+      "run": "calibrate-or-luna"
+    },
+    "usage": {
+      "cacheReadTokens": 4727,
+      "cacheWriteTokens": 186,
+      "inputTokens": 4916,
+      "outputTokens": 630,
+      "reasoningTokens": 604
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"World Trade Center\",\"9/11\",\"United 93\"]}",
+          "reasoning": {
+            "$llmemo.text": "ef60002e127693e35bdfe8d1cdb8bf0e1a72e67e623186896ff2a2e7cfff482b"
+          },
+          "reasoning_details": [
+            {
+              "format": "openai-responses-v1",
+              "index": 0,
+              "summary": {
+                "$llmemo.text": "ef60002e127693e35bdfe8d1cdb8bf0e1a72e67e623186896ff2a2e7cfff482b"
+              },
+              "type": "reasoning.summary"
+            },
+            {
+              "data": {
+                "$llmemo.text": "15ab2a7ea5284614a0a63dd918892fc63e52f6e651c5c67c89f544233967ca59"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_0dde931376120ee7016b04d51e035087d192069996f7a0d17d",
+              "index": 1,
+              "type": "reasoning.encrypted"
+            },
+            {
+              "data": {
+                "$llmemo.text": "747ad4831025198487ecb50d7eebce71a87e1d5a6476a46a6c8e08d096fe289a"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_0dde931376120ee7016b04d5251de087d185d4e813697e563f",
+              "index": 2,
+              "type": "reasoning.encrypted"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "completed"
+      }
+    ],
+    "created": 1795478813,
+    "id": "gen-1795478813-GB3ALNGlQMoxr8LhUJkx",
+    "model": "openai/gpt-6-luna",
+    "object": "chat.completion",
+    "provider": "OpenAI",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 630,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 604
+      },
+      "cost": 0.00038582,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000315,
+        "upstream_inference_cost": 0.00038582,
+        "upstream_inference_prompt_cost": 0.00007082
+      },
+      "is_byok": false,
+      "prompt_tokens": 4916,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 186,
+        "cached_tokens": 4727,
+        "video_tokens": 0
+      },
+      "total_tokens": 5546
+    }
+  }
+}

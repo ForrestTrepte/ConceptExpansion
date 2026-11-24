@@ -1,0 +1,119 @@
+{
+  "contentSha256": "ce44a23a99749b61e9d3b53b8c424ece16d45f38f5c9206bb2d6fb6343dddca7",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "4b5daa84bf7faab6f117925ff5de9ff2fdd6395e55661846fcc5b242e99c1765"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "a7a120a83a7500155bbb19ae63d7a9697414dac196cc6be4ddcf1ab018a11d9b"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "meta-llama/llama-4-scout",
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "guesses"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-1"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "f6004e3-dirty",
+    "costUsd": 0.00075525,
+    "latencyMs": 817,
+    "recordedAt": "2026-11-23T23:08:34.111Z",
+    "recordedBy": "claude",
+    "servedBy": "DeepInfra",
+    "servedModel": "meta-llama/llama-4-scout",
+    "tags": {
+      "run": "calibrate-or-llama"
+    },
+    "usage": {
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
+      "inputTokens": 4987,
+      "outputTokens": 16,
+      "reasoningTokens": 0
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{ \"guesses\": [\"Scale\", \"Music\", \"Measure\"] }",
+          "reasoning": null,
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "stop"
+      }
+    ],
+    "created": 1795475313,
+    "id": "gen-1795475313-st7u85g8nwNT28rn9Lnl",
+    "model": "meta-llama/llama-4-scout",
+    "object": "chat.completion",
+    "provider": "DeepInfra",
+    "service_tier": "priority",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 16,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.00075525,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0000072,
+        "upstream_inference_cost": 0.00075525,
+        "upstream_inference_prompt_cost": 0.00074805
+      },
+      "is_byok": false,
+      "prompt_tokens": 4987,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 5003
+    }
+  }
+}

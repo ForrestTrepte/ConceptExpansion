@@ -1,0 +1,42 @@
+New prompt.
+
+Step 1, markers placed:
+?g B2
++ C9
+!r D12
++ D5
++ D4
+Board now:
+?g B2 | C9
+!r D12 | D5, D4
+Guesses: Death, War, Mortality
+Clue-giver: No
+
+Step 2, markers placed:
+!y B8
++ D12
++ H10
+Board now:
+?g B2 | C9
+!r D12 | D5, D4
+!y B8 | D12, H10
+Guesses: Achilles, Hades, Odysseus
+Clue-giver: Yes: Achilles
+
+Step 3, markers placed:
+(no new markers)
+Board now:
+?g B2 | C9
+!r D12 | D5, D4
+!y B8 | D12, H10
+Guesses: Hector, Patroclus, Ajax
+Clue-giver: No
+
+Step 4, markers placed:
+(no new markers)
+Board now:
+?g B2 | C9
+!r D12 | D5, D4
+!y B8 | D12, H10
+
+Give up to 3 guesses, best first, or none to pass.

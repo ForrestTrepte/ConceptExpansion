@@ -1,0 +1,3 @@
+{ 
+"guesses": ["traffic light", "pedestrian signal", "crosswalk button"] 
+}

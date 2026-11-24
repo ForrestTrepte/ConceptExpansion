@@ -1,0 +1,7 @@
+{ 
+"guesses": [
+    "Vending Machine", 
+    "Icebox", 
+    "Freezer"
+]
+}

@@ -1,0 +1,35 @@
+New prompt.
+
+Step 1, markers placed:
+?g A4
++ Black
++ White
++ E1
+Board now:
+?g A4 | Black, White, E1
+Guesses: bee, butterfly, ant
+Clue-giver: No
+
+Step 2, markers placed:
++g A11
+Board now:
+?g A4 | Black, White, E1, A11
+Guesses: ladybug, firefly, hornet
+Clue-giver: No
+
+Step 3, markers placed:
+!r B11
++ E11
+Board now:
+?g A4 | Black, White, E1, A11
+!r B11 | E11
+Guesses: mosquito, moth, cicada
+Clue-giver: No
+
+Step 4, markers placed:
+(no new markers)
+Board now:
+?g A4 | Black, White, E1, A11
+!r B11 | E11
+
+Give up to 3 guesses, best first, or none to pass.

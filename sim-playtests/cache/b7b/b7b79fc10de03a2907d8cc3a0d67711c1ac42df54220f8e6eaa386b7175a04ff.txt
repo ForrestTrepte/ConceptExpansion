@@ -1,0 +1,41 @@
+New prompt.
+
+Step 1, markers placed:
+?g A6
++ D5
+!r A10
++ D5
+!y F11
++ G2
++ F11
+Board now:
+?g A6 | D5
+!r A10 | D5
+!y F11 | G2, F11
+Guesses: The Passion of Joan of Arc, The Seventh Seal, And Then There Were None
+Clue-giver: No
+
+Step 2, markers placed:
+!b D6
++ B9
+!k A10
++ B7
+Board now:
+?g A6 | D5
+!r A10 | D5
+!y F11 | G2, F11
+!b D6 | B9
+!k A10 | B7
+Guesses: Schindler's List, The Killing Fields, Grave of the Fireflies
+Clue-giver: No
+
+Step 3, markers placed:
+(no new markers)
+Board now:
+?g A6 | D5
+!r A10 | D5
+!y F11 | G2, F11
+!b D6 | B9
+!k A10 | B7
+
+Give up to 3 guesses, best first, or none to pass.

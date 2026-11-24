@@ -1,0 +1,7 @@
+{
+  "guesses": [
+    "Man",
+    "Woman",
+    "Person"
+  ]
+}

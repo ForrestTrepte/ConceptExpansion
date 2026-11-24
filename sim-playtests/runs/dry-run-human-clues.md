@@ -19,16 +19,16 @@ Model games solved, by what the humans did with the same clues.
 | Prompt | Humans | Clue comments | Model solved | Avg steps | Common wrong guesses |
 |---|---|---|---|---|---|
 | Pizza | solved (step 1) |  | 1/1 | 1 |  |
-| Popcorn | failed |  | 1/1 | 3 | Tapas, Dim sum, Sushi, French fries, Pasta |
+| Popcorn | failed |  | 1/1 | 3 | Pizza, Sushi, Dim sum, French fries, Corn chips |
 | Break the ice | solved (step 9) |  | 1/1 | 1 |  |
 
 ## Usage
 
 | Game | Calls | Cost (USD, API-equivalent) | Model time (s) | Input tokens | Cache-read tokens | Output tokens |
 |---|---|---|---|---|---|---|
-| Pizza #1 | 1 | 0.0004 | 3.4 | 2 | 7695 | 201 |
-| Popcorn #1 | 5 | 0.0134 | 15.1 | 10 | 23845 | 1360 |
-| Break the ice #1 | 1 | 0.0004 | 3.7 | 2 | 7695 | 244 |
+| Pizza #1 | 1 | 0.0004 | 3.3 | 2 | 7686 | 205 |
+| Popcorn #1 | 5 | 0.0116 | 17.9 | 10 | 24578 | 1685 |
+| Break the ice #1 | 1 | 0.0007 | 4.2 | 2 | 7686 | 343 |
 
 ## Games
 
@@ -41,7 +41,7 @@ Model games solved, by what the humans did with the same clues.
   + H4
   + F8
   ```
-  Guesses: Pizza, Pie, Cake → Correct
+  Guesses: Pizza, Pie, Bagel → Correct
 
 ### Popcorn (trial 1)
 - Outcome: solved (step 3)
@@ -51,19 +51,19 @@ Model games solved, by what the humans did with the same clues.
   ?g A14
   + F11 x8
   ```
-  Guesses: Tapas, Dim sum, Sushi → No
+  Guesses: Pizza, Sushi, Dim sum → No
 - Step 2:
   ```
   !y Yellow
   + H11
   ```
-  Guesses: French fries, Pasta, Banana → No
+  Guesses: French fries, Corn chips, Spaghetti → No
 - Step 3:
   ```
   !r E3
   + E4
   ```
-  Guesses: Popcorn, Potato chips, Cornflakes → Correct
+  Guesses: Tempura, Popcorn, Egg rolls → Correct
 
 ### Break the ice (trial 1)
 - Outcome: solved (step 1)
@@ -73,4 +73,4 @@ Model games solved, by what the humans did with the same clues.
   ?g B8
   + F8
   ```
-  Guesses: Break the ice, Cut to the chase, Break a leg → Correct
+  Guesses: Cut to the chase, Break the ice, Cutting remark → Correct

@@ -1,0 +1,121 @@
+{
+  "contentSha256": "aaf76ba372662b5484000ae95b8483ec2a65705a4001bad03c0297547d2bd52f",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "4b5daa84bf7faab6f117925ff5de9ff2fdd6395e55661846fcc5b242e99c1765"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "130e94511d4272f0093358e7f4d1f27bfec0e1e20adfda0972b323468042a798"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "mistralai/mistral-small-3.2-24b-instruct",
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "guesses"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-1"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "f6004e3-dirty",
+    "costUsd": 0.00046488,
+    "latencyMs": 6536,
+    "recordedAt": "2026-11-23T23:51:40.262Z",
+    "recordedBy": "claude",
+    "servedBy": "Parasail",
+    "servedModel": "mistralai/mistral-small-3.2-24b-instruct",
+    "tags": {
+      "run": "calibrate-or-mistral"
+    },
+    "usage": {
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
+      "inputTokens": 5052,
+      "outputTokens": 34,
+      "reasoningTokens": 0
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": {
+            "$llmemo.text": "0eafc716813e31e1376d5e139fe27cc100ff46187e89811e91125adc68a53e12"
+          },
+          "reasoning": null,
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "stop"
+      }
+    ],
+    "created": 1795477893,
+    "id": "gen-1795477893-x6SxFoqJ7EFEWEh4su1L",
+    "model": "mistralai/mistral-small-3.2-24b-instruct",
+    "object": "chat.completion",
+    "provider": "Parasail",
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.23.0-f5e491a1",
+    "usage": {
+      "completion_tokens": 34,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.00046488,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0000102,
+        "upstream_inference_cost": 0.00046488,
+        "upstream_inference_prompt_cost": 0.00045468
+      },
+      "is_byok": false,
+      "prompt_tokens": 5052,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 5086
+    }
+  }
+}

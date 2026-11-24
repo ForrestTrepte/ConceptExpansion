@@ -20,7 +20,7 @@
     "guesser_prompt": "guesser",
     "reference": "tables",
     "extra_rounds": 2,
-    "concurrency": 3,
+    "concurrency": 15,
     "spend_limit_usd": 1.0
   },
   "games": [
@@ -47,7 +47,7 @@
           "guesses": [
             "Pizza",
             "Pie",
-            "Cake"
+            "Bagel"
           ],
           "passed": false,
           "verdict": "correct",
@@ -60,14 +60,14 @@
       "error": "",
       "usage": {
         "calls": 1,
-        "cost_usd": 0.000372,
-        "latency_s": 3.4,
+        "cost_usd": 0.000374,
+        "latency_s": 3.3,
         "tokens": {
-          "cacheReadTokens": 7695,
-          "cacheWriteTokens": 974,
+          "cacheReadTokens": 7686,
+          "cacheWriteTokens": 972,
           "inputTokens": 2,
-          "outputTokens": 201,
-          "reasoningTokens": 109
+          "outputTokens": 205,
+          "reasoningTokens": 134
         }
       }
     },
@@ -91,9 +91,9 @@
           "board": "?g A14 | F11, F11, F11, F11, F11, F11, F11, F11",
           "plan": "",
           "guesses": [
-            "Tapas",
-            "Dim sum",
-            "Sushi"
+            "Pizza",
+            "Sushi",
+            "Dim sum"
           ],
           "passed": false,
           "verdict": "no",
@@ -110,8 +110,8 @@
           "plan": "",
           "guesses": [
             "French fries",
-            "Pasta",
-            "Banana"
+            "Corn chips",
+            "Spaghetti"
           ],
           "passed": false,
           "verdict": "no",
@@ -127,9 +127,9 @@
           "board": "?g A14 | F11, F11, F11, F11, F11, F11, F11, F11\n!r E3 | E4\n!y Yellow | H11",
           "plan": "",
           "guesses": [
+            "Tempura",
             "Popcorn",
-            "Potato chips",
-            "Cornflakes"
+            "Egg rolls"
           ],
           "passed": false,
           "verdict": "correct",
@@ -142,14 +142,14 @@
       "error": "",
       "usage": {
         "calls": 5,
-        "cost_usd": 0.01342,
-        "latency_s": 15.1,
+        "cost_usd": 0.011578,
+        "latency_s": 17.9,
         "tokens": {
-          "cacheReadTokens": 23845,
-          "cacheWriteTokens": 5895,
+          "cacheReadTokens": 24578,
+          "cacheWriteTokens": 5156,
           "inputTokens": 10,
-          "outputTokens": 1360,
-          "reasoningTokens": 959
+          "outputTokens": 1685,
+          "reasoningTokens": 1347
         }
       }
     },
@@ -173,9 +173,9 @@
           "board": "?g B8 | F8",
           "plan": "",
           "guesses": [
-            "Break the ice",
             "Cut to the chase",
-            "Break a leg"
+            "Break the ice",
+            "Cutting remark"
           ],
           "passed": false,
           "verdict": "correct",
@@ -188,25 +188,25 @@
       "error": "",
       "usage": {
         "calls": 1,
-        "cost_usd": 0.000392,
-        "latency_s": 3.7,
+        "cost_usd": 0.000676,
+        "latency_s": 4.2,
         "tokens": {
-          "cacheReadTokens": 7695,
-          "cacheWriteTokens": 965,
+          "cacheReadTokens": 7686,
+          "cacheWriteTokens": 967,
           "inputTokens": 2,
-          "outputTokens": 244,
-          "reasoningTokens": 145
+          "outputTokens": 343,
+          "reasoningTokens": 265
         }
       }
     }
   ],
   "entries": [
-    "17c7322d34abf612815166114749a189b5fb7473bbc39c38bee90bdbb41d0636",
-    "330b9ce1dae58040ecae5eaf277c9039b7ad10c585ea88fe480212abf759cc69",
-    "39a036e1ab9644fc1d557a274b81cb8c5083a84b2735aada677564dedb87a1ef",
-    "6fb85c5bf976d514117bfa063d52a99cd00a8c8d510e723371a4b232043bfe29",
-    "b962f477776d109cebd7cfe852b1ab4b1c22a6052d46488a16a984ced7ef5c19",
-    "de6100d29ccfbe73b190d6c6c61c0b8f5e4a7d63ae4ea4023c141317f4c26425",
-    "faacd1e8e8199cadd3e462be299e41f76faa40254526ecd61d169f0b74a40ed0"
+    "0b149fb0a6ae8d600a40dc8dec261bf2e8e076c1dfe539dcdd88aae31bc5533b",
+    "1a6038879782fe4da439b890ed22e50cc73b05008246a45dbeaa205b16fb6de4",
+    "3961dbcdf862366636dddf737180dde8d438dc63a43e6e12ea333c089854a3d7",
+    "43e9129c8c0b5d51c6ad3470b40f244e61a12f447c45f26df10998a1f6fde115",
+    "5ecb067b61a4f04ffe37403eff0ba629a56dcd2c882636ce0dc29bcd6f9bd8ed",
+    "71e3ed1fc5008918aab46ac25a3041bcba4a4c1446c5ad1319f5a9969c78dcb4",
+    "f63e73bf1673222747b78f9340e4d25801105983c9eda4600e0c2b28ae460afb"
   ]
 }

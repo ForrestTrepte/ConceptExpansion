@@ -1,0 +1,153 @@
+{
+  "contentSha256": "b4b0d7c02805559121616e6483668949e19ecd9049ba261b696af487e01f6e63",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "4b5daa84bf7faab6f117925ff5de9ff2fdd6395e55661846fcc5b242e99c1765"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "0059e42d0653142ceac1ac65e5be59f1a30c226d493df0acab03b3e6d267d9d9"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "openai/gpt-6-luna",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "guesses"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-1"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "f6004e3-dirty",
+    "costUsd": 0.000470195,
+    "latencyMs": 9623,
+    "recordedAt": "2026-11-24T00:07:27.518Z",
+    "recordedBy": "claude",
+    "servedBy": "OpenAI",
+    "servedModel": "openai/gpt-6-luna",
+    "tags": {
+      "run": "calibrate-or-luna"
+    },
+    "usage": {
+      "cacheReadTokens": 4727,
+      "cacheWriteTokens": 345,
+      "inputTokens": 5075,
+      "outputTokens": 759,
+      "reasoningTokens": 729
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"A Tale of Two Cities\",\"The Two Towers\",\"A City of Sadness\"]}",
+          "reasoning": {
+            "$llmemo.text": "0c1583682374fa1b36edd13362820d67a4a57b4aafa814c176fe305698dcce7c"
+          },
+          "reasoning_details": [
+            {
+              "format": "openai-responses-v1",
+              "index": 0,
+              "summary": {
+                "$llmemo.text": "0c1583682374fa1b36edd13362820d67a4a57b4aafa814c176fe305698dcce7c"
+              },
+              "type": "reasoning.summary"
+            },
+            {
+              "data": {
+                "$llmemo.text": "1a0f8d76ae1e84c4a91641a28e58e58f04df9a98d3ac813c1035d27bbd4afab3"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_0f119986567d22ef016b04d536fa3087d19be927d38bbccc84",
+              "index": 1,
+              "type": "reasoning.encrypted"
+            },
+            {
+              "data": {
+                "$llmemo.text": "20cf842def068740dc82c6488428e8cd15fd76a4cae69929572a5c40eb472282"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_0f119986567d22ef016b04d53f145087d1aeec6659cdb0726d",
+              "index": 2,
+              "type": "reasoning.encrypted"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "completed"
+      }
+    ],
+    "created": 1795478838,
+    "id": "gen-1795478838-ADHyDjXbq7ob3B7VsWBn",
+    "model": "openai/gpt-6-luna",
+    "object": "chat.completion",
+    "provider": "OpenAI",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 759,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 729
+      },
+      "cost": 0.000470195,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0003795,
+        "upstream_inference_cost": 0.000470195,
+        "upstream_inference_prompt_cost": 0.000090695
+      },
+      "is_byok": false,
+      "prompt_tokens": 5075,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 345,
+        "cached_tokens": 4727,
+        "video_tokens": 0
+      },
+      "total_tokens": 5834
+    }
+  }
+}

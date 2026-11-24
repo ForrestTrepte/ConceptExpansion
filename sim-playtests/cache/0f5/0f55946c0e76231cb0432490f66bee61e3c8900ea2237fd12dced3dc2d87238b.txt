@@ -1,0 +1,49 @@
+New prompt.
+
+Step 1, markers placed:
+?g A3
++ G14
+!r A4
++ H10
++ Grey
+!y D3
+Board now:
+?g A3 | G14
+!r A4 | H10, Grey
+!y D3
+Guesses: Work, Fast, Job
+Clue-giver: No
+
+Step 2, markers placed:
++y A12
++ B3
++r D5
+Board now:
+?g A3 | G14
+!r A4 | H10, Grey, D5
+!y D3 | A12, B3
+Guesses: Construction, Career, Employment
+Clue-giver: No
+
+Step 3, markers placed:
++g C8
++ B9
++ D8
+Board now:
+?g A3 | G14, C8, B9, D8
+!r A4 | H10, Grey, D5
+!y D3 | A12, B3
+Guesses: Business, Office, Job Interview
+Clue-giver: No
+
+Step 4, markers placed:
+!k A14
++ Yellow
++ H9
+Board now:
+?g A3 | G14, C8, B9, D8
+!r A4 | H10, Grey, D5
+!y D3 | A12, B3
+!k A14 | Yellow, H9
+
+Give up to 3 guesses, best first, or none to pass.

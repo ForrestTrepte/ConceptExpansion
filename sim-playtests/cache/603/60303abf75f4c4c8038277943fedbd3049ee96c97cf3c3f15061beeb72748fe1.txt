@@ -1,0 +1,7 @@
+{ 
+  "guesses": [
+    "mouth",
+    "lip",
+    "tongue"
+  ]
+}

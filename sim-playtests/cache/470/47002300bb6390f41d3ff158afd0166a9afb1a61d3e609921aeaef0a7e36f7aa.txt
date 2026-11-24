@@ -1,0 +1,25 @@
+New prompt.
+
+Step 1, markers placed:
+?g B8
+Board now:
+?g B8
+Guesses: Catchphrase, Proverb, Idiom
+Clue-giver: No
+
+Step 2, markers placed:
+!r F11
+Board now:
+?g B8
+!r F11
+Guesses: One-liner, Slogan, Motto
+Clue-giver: No
+
+Step 3, markers placed:
+!b Blue
+Board now:
+?g B8
+!r F11
+!b Blue
+
+Give up to 3 guesses, best first, or none to pass.

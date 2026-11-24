@@ -1,0 +1,123 @@
+{
+  "contentSha256": "dada4de9ab9f3a918a1c9e819961997e03a43bbf0baf3b5f5ad1858d52d3fa67",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "4b5daa84bf7faab6f117925ff5de9ff2fdd6395e55661846fcc5b242e99c1765"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "24be1ac5bee0ef7c443c64138401754d515fe1afc26c3c115a28d92c39581fea"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "deepseek/deepseek-v4-flash",
+        "reasoning": {
+          "enabled": false
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "guesses"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-1"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "f6004e3-dirty",
+    "costUsd": 0.000177441,
+    "latencyMs": 1486,
+    "recordedAt": "2026-11-24T00:12:54.983Z",
+    "recordedBy": "claude",
+    "servedBy": "Venice",
+    "servedModel": "deepseek/deepseek-v4-flash",
+    "tags": {
+      "run": "calibrate-or-deepseek"
+    },
+    "usage": {
+      "cacheReadTokens": 4608,
+      "cacheWriteTokens": 0,
+      "inputTokens": 4917,
+      "outputTokens": 21,
+      "reasoningTokens": 0
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\": [\"Charlie Chaplin\", \"Ronald McDonald\", \"The Joker\"]}",
+          "reasoning": null,
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "stop"
+      }
+    ],
+    "created": 1795479173,
+    "id": "gen-1795479173-Fnp20Klia9kI7qkvFCSi",
+    "model": "deepseek/deepseek-v4-flash",
+    "object": "chat.completion",
+    "provider": "Venice",
+    "service_tier": "priority",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 21,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.000177441,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000005775,
+        "upstream_inference_cost": 0.000177441,
+        "upstream_inference_prompt_cost": 0.000171666
+      },
+      "is_byok": false,
+      "prompt_tokens": 4917,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 4608,
+        "video_tokens": 0
+      },
+      "total_tokens": 4938
+    }
+  }
+}

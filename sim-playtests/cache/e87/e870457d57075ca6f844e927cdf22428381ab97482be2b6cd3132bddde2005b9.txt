@@ -1,0 +1,45 @@
+New prompt.
+
+Step 1, markers placed:
+?g B8
+Board now:
+?g B8
+Guesses: A quote, A word, A saying
+Clue-giver: No
+
+Step 2, markers placed:
+!b E1 [on the rain under the cloud]
+Board now:
+?g B8
+!b E1
+Guesses: A song, A speech, A poem
+Clue-giver: No
+
+Step 3, markers placed:
+!y F7
++ C8
++ H3
+Board now:
+?g B8
+!y F7 | C8, H3
+!b E1
+Guesses: A letter, A newspaper, A written note
+Clue-giver: No
+
+Step 4, markers placed:
+(no new markers)
+Board now:
+?g B8
+!y F7 | C8, H3
+!b E1
+Guesses: A check, A receipt, An invoice
+Clue-giver: No
+
+Step 5, markers placed:
+(no new markers)
+Board now:
+?g B8
+!y F7 | C8, H3
+!b E1
+
+Give up to 3 guesses, best first, or none to pass.

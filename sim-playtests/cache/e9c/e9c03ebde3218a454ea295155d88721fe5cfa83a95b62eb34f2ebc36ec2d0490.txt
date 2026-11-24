@@ -1,0 +1,24 @@
+New prompt.
+
+Step 1, markers placed:
+?g B2
++ C9
+!r D12
++ D5
++ D4
+Board now:
+?g B2 | C9
+!r D12 | D5, D4
+Guesses: Hades, Death from the Underworld, The Grim Reaper
+Clue-giver: No
+
+Step 2, markers placed:
+!y B8
++ D12
++ H10
+Board now:
+?g B2 | C9
+!r D12 | D5, D4
+!y B8 | D12, H10
+
+Give up to 3 guesses, best first, or none to pass.

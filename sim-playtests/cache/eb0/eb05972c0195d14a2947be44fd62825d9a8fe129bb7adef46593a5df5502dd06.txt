@@ -1,0 +1,7 @@
+{
+  "guesses": [
+    "Rock, Paper, Scissors",
+    "Board game",
+    "Toy soldier"
+  ]
+}

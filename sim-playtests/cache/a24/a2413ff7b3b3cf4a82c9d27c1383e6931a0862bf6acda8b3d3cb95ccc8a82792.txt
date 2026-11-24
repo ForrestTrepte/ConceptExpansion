@@ -1,0 +1,8 @@
+     
+  {
+    "guesses": [
+        "cut",
+        "slice",
+        "divide"
+    ]
+   }

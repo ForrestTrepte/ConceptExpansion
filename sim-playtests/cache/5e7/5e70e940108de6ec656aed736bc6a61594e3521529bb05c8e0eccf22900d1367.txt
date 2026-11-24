@@ -1,0 +1,7 @@
+{
+  "guesses": [
+    "Comedy",
+    "Action movie",
+    "Documentary"
+  ]
+}

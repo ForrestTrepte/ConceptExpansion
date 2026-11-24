@@ -1,0 +1,123 @@
+{
+  "contentSha256": "bd4e55a192f2646ea97e8091a6b4ec1a6406a84f8bc2c7ba720107fb91fbf91f",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "4b5daa84bf7faab6f117925ff5de9ff2fdd6395e55661846fcc5b242e99c1765"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "cef4d3769fb19d7d700ef286f6f0000bd1ee4481e2628e56be998a9a11e47487"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "deepseek/deepseek-v4-flash",
+        "reasoning": {
+          "enabled": false
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "guesses"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-1"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "f6004e3-dirty",
+    "costUsd": 0.00035574,
+    "latencyMs": 600,
+    "recordedAt": "2026-11-24T00:10:29.666Z",
+    "recordedBy": "claude",
+    "servedBy": "Parasail",
+    "servedModel": "deepseek/deepseek-v4-flash",
+    "tags": {
+      "run": "calibrate-or-deepseek"
+    },
+    "usage": {
+      "cacheReadTokens": 4608,
+      "cacheWriteTokens": 0,
+      "inputTokens": 4807,
+      "outputTokens": 19,
+      "reasoningTokens": 0
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{ \"guesses\": [\"Blue\", \"Feeling blue\", \"Blue Monday\"] }",
+          "reasoning": null,
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "stop"
+      }
+    ],
+    "created": 1795479029,
+    "id": "gen-1795479029-0452ve52Iqz4Jv0cpkN0",
+    "model": "deepseek/deepseek-v4-flash",
+    "object": "chat.completion",
+    "provider": "Parasail",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 19,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.00035574,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00000532,
+        "upstream_inference_cost": 0.00035574,
+        "upstream_inference_prompt_cost": 0.00035042
+      },
+      "is_byok": false,
+      "prompt_tokens": 4807,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 4608,
+        "video_tokens": 0
+      },
+      "total_tokens": 4826
+    }
+  }
+}

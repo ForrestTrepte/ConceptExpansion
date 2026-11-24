@@ -1,0 +1,52 @@
+New prompt.
+
+Step 1, markers placed:
+?g A14
++ F3
++ F1
+!r A14
++ H9
+Board now:
+?g A14 | F3, F1
+!r A14 | H9
+Guesses: Lemonade, Orange juice, Smoothie
+Clue-giver: No
+
+Step 2, markers placed:
+!y A14
++ E3
++ D14
+!b E1
++ C5
+Board now:
+?g A14 | F3, F1
+!r A14 | H9
+!y A14 | E3, D14
+!b E1 | C5
+Guesses: Tea, Coffee, Hot chocolate
+Clue-giver: No
+
+Step 3, markers placed:
+!k A13
++ H4
++ F3
++ E10
+Board now:
+?g A14 | F3, F1
+!r A14 | H9
+!y A14 | E3, D14
+!b E1 | C5
+!k A13 | H4, F3, E10
+Guesses: Hot water bottle, Thermos, Heating pad
+Clue-giver: No
+
+Step 4, markers placed:
+(no new markers)
+Board now:
+?g A14 | F3, F1
+!r A14 | H9
+!y A14 | E3, D14
+!b E1 | C5
+!k A13 | H4, F3, E10
+
+Give up to 3 guesses, best first, or none to pass.

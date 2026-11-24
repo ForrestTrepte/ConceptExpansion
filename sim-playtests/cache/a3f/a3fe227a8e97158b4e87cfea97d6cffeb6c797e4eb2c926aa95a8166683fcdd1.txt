@@ -1,0 +1,87 @@
+New prompt.
+
+Step 1, markers placed:
+?g B2
++ D2
++ A6
+!r D4
++ Black
+Board now:
+?g B2 | D2, A6
+!r D4 | Black
+Guesses: Batman, Superman, Iron Man
+Clue-giver: No
+
+Step 2, markers placed:
+!y E11
++ E11
+!b C14
++ Clear
+Board now:
+?g B2 | D2, A6
+!r D4 | Black
+!y E11 | E11
+!b C14 | Clear
+Guesses: Wonder Woman, Captain America, Thor
+Clue-giver: No
+
+Step 3, markers placed:
+-b all
+!b B13
++ Black
++ D2
+Board now:
+?g B2 | D2, A6
+!r D4 | Black
+!y E11 | E11
+!b B13 | Black, D2
+Guesses: Black Panther, Black Widow, Nick Fury
+Clue-giver: No
+
+Step 4, markers placed:
+!k A9
++ Red
++ White
++ Blue
++ D9
+Board now:
+?g B2 | D2, A6
+!r D4 | Black
+!y E11 | E11
+!b B13 | Black, D2
+!k A9 | Red, White, Blue, D9
+Guesses: Captain America, Black Panther, Nick Fury
+Clue-giver: No
+
+Step 5, markers placed:
++y F11 x7
+Board now:
+?g B2 | D2, A6
+!r D4 | Black
+!y E11 | E11, F11, F11, F11, F11, F11, F11, F11
+!b B13 | Black, D2
+!k A9 | Red, White, Blue, D9
+Guesses: United States, America, USA
+Clue-giver: No
+
+Step 6, markers placed:
+(no new markers)
+Board now:
+?g B2 | D2, A6
+!r D4 | Black
+!y E11 | E11, F11, F11, F11, F11, F11, F11, F11
+!b B13 | Black, D2
+!k A9 | Red, White, Blue, D9
+Guesses: Black Widow, Black Panther, Nick Fury
+Clue-giver: No
+
+Step 7, markers placed:
+(no new markers)
+Board now:
+?g B2 | D2, A6
+!r D4 | Black
+!y E11 | E11, F11, F11, F11, F11, F11, F11, F11
+!b B13 | Black, D2
+!k A9 | Red, White, Blue, D9
+
+Give up to 3 guesses, best first, or none to pass.

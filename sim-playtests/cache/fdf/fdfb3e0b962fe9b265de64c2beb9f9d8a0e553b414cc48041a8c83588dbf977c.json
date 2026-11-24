@@ -1,0 +1,136 @@
+{
+  "contentSha256": "25d9260f73c4e72055954dcc6b632574ca6d8567757015ef44b91f644c2128ad",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "claude-cli",
+      "effort": "low",
+      "jsonSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "guesses": {
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 3,
+            "type": "array"
+          }
+        },
+        "required": [
+          "guesses"
+        ],
+        "type": "object"
+      },
+      "model": "claude-haiku-5-5",
+      "prompt": {
+        "$llmemo.text": "946c34a1ea6819dc6361d9838376ca17f6e5a9aee940781d6d0ccf312c9244d9"
+      },
+      "system": [
+        {
+          "$llmemo.text": "29d73c99f00758a55ed046d05b0403c1ca98589e4f1e9e1a977874ccbdd10cbc"
+        },
+        {
+          "$llmemo.text": "d2252f0f769f4131bf86b961745fc4f03ad64d43b87c38f0a046e0c94074bf6d"
+        },
+        {
+          "$llmemo.text": "ff8c30cdc3a4c276fdbe1c1b17ba825aa854e03c63ea67ed02a7b17a2bafa4b8"
+        }
+      ]
+    },
+    "variant": "trial-3"
+  },
+  "meta": {
+    "billing": "subscription",
+    "codeVersion": "f6004e3-dirty",
+    "costUsd": 0.0006458400000000001,
+    "latencyMs": 12492,
+    "recordedAt": "2026-11-23T22:50:59.395Z",
+    "recordedBy": "claude",
+    "servedBy": "firstParty",
+    "servedModel": "claude-haiku-5-5",
+    "tags": {
+      "run": "calibrate-baseline"
+    },
+    "toolVersion": "2.1.330 (Claude Code)",
+    "usage": {
+      "cacheReadTokens": 8014,
+      "cacheWriteTokens": 657,
+      "inputTokens": 2,
+      "outputTokens": 333,
+      "reasoningTokens": 253
+    }
+  },
+  "reply": {
+    "api_error_status": null,
+    "is_error": false,
+    "modelUsage": {
+      "claude-haiku-5-5": {
+        "cacheCreationEphemeral1hInputTokens": 657,
+        "cacheCreationEphemeral5mInputTokens": 0,
+        "cacheCreationInputTokens": 657,
+        "cacheReadInputTokens": 8014,
+        "canonicalModel": "claude-haiku-5-5",
+        "contextWindow": 1000000,
+        "costBasis": "list",
+        "costUSD": 0.0006458400000000001,
+        "inputTokens": 1243,
+        "maxOutputTokens": 128000,
+        "outputTokens": 620,
+        "provider": "firstParty",
+        "thinkingTokens": 525,
+        "webSearchRequests": 0
+      }
+    },
+    "num_turns": 2,
+    "permission_denials": [],
+    "result": "{\"guesses\":[\"Navy corpsman\",\"Navy SEAL\",\"Coast Guard\"]}",
+    "stop_reason": "tool_use",
+    "structured_output": {
+      "guesses": [
+        "Navy corpsman",
+        "Navy SEAL",
+        "Coast Guard"
+      ]
+    },
+    "subtype": "success",
+    "terminal_reason": "completed",
+    "type": "result",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 657,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 657,
+      "cache_read_input_tokens": 8014,
+      "fallback_credit": null,
+      "inference_geo": "global",
+      "input_tokens": 2,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 657,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 657,
+          "cache_read_input_tokens": 8014,
+          "input_tokens": 2,
+          "output_tokens": 333,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 333,
+      "output_tokens_details": {
+        "thinking_tokens": 253
+      },
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

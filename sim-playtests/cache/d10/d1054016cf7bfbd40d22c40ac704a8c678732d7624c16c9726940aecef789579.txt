@@ -1,0 +1,53 @@
+New prompt.
+
+Step 1, markers placed:
+?g A6
++ B5
+!r C13
+!y B5
+Board now:
+?g A6 | B5
+!r C13
+!y B5
+Guesses: song, music, sound
+Clue-giver: No
+
+Step 2, markers placed:
+!b C9
++ C2
+!k A9
++ Red
++ White
+Board now:
+?g A6 | B5
+!r C13
+!y B5
+!b C9 | C2
+!k A9 | Red, White
+Guesses: national anthem, anthem, hymn
+Clue-giver: No
+
+Step 3, markers placed:
+-k all
+!k G8
++ G12
++ B4
+Board now:
+?g A6 | B5
+!r C13
+!y B5
+!b C9 | C2
+!k G8 | G12, B4
+Guesses: Star-Spangled Banner, national anthem of the United States, flag
+Clue-giver: No
+
+Step 4, markers placed:
+(no new markers)
+Board now:
+?g A6 | B5
+!r C13
+!y B5
+!b C9 | C2
+!k G8 | G12, B4
+
+Give up to 3 guesses, best first, or none to pass.

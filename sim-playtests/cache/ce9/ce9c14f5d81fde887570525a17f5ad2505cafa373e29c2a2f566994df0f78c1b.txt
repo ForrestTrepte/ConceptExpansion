@@ -1,0 +1,7 @@
+{ 
+"guesses": [
+"Robot",
+"Machine",
+"Electronic Device"
+]
+}

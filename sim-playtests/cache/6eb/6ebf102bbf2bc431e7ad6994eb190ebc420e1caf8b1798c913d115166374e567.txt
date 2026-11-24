@@ -1,0 +1,7 @@
+     {
+      "guesses": [
+        "Time's up",
+        "Time out",
+        "Curfew"
+      ]
+    }

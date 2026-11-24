@@ -1,0 +1,119 @@
+{
+  "contentSha256": "14e85c0d7c1ffaa6ba0f3db4601d695228688e216678fd86750e81db19afc1d3",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "4b5daa84bf7faab6f117925ff5de9ff2fdd6395e55661846fcc5b242e99c1765"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "c659848e8eba0c36c58cdc6c4c6ec9e64b05daa46a21cdfc0ba3d700c40a10ef"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "mistralai/mistral-small-3.2-24b-instruct",
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "guesses"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-1"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "f6004e3-dirty",
+    "costUsd": 0.000393425,
+    "latencyMs": 731,
+    "recordedAt": "2026-11-23T23:33:29.216Z",
+    "recordedBy": "claude",
+    "servedBy": "DeepInfra",
+    "servedModel": "mistralai/mistral-small-3.2-24b-instruct",
+    "tags": {
+      "run": "calibrate-or-mistral"
+    },
+    "usage": {
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
+      "inputTokens": 5187,
+      "outputTokens": 22,
+      "reasoningTokens": 0
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{ \"guesses\": [\"birthday party\", \"birthday cake\", \"birthday card\"] }",
+          "reasoning": null,
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "stop"
+      }
+    ],
+    "created": 1795476808,
+    "id": "gen-1795476808-fae8nJWRbApPPWHDzlfn",
+    "model": "mistralai/mistral-small-3.2-24b-instruct",
+    "object": "chat.completion",
+    "provider": "DeepInfra",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 22,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.000393425,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0000044,
+        "upstream_inference_cost": 0.000393425,
+        "upstream_inference_prompt_cost": 0.000389025
+      },
+      "is_byok": false,
+      "prompt_tokens": 5187,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 5209
+    }
+  }
+}

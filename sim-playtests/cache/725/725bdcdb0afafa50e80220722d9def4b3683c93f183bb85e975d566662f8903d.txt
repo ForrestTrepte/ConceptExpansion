@@ -1,0 +1,55 @@
+New prompt.
+
+Step 1, markers placed:
+?g A14
++ C1
++ H4
+!r G1
++ H4
+!y D14
++ Pink
+Board now:
+?g A14 | C1, H4
+!r G1 | H4
+!y D14 | Pink
+Guesses: baby food, baby drinks, baby milk
+Clue-giver: No
+
+Step 2, markers placed:
++g C6
+!b G3
++ H4
+Board now:
+?g A14 | C1, H4, C6
+!r G1 | H4
+!y D14 | Pink
+!b G3 | H4
+Guesses: baby dessert, baby candy, baby sweets
+Clue-giver: No
+
+Step 3, markers placed:
+!k F5
++ H11
++ H12
+Board now:
+?g A14 | C1, H4, C6
+!r G1 | H4
+!y D14 | Pink
+!b G3 | H4
+!k F5 | H11, H12
+Guesses: baby lollipop, baby popsicle, baby ice pop
+Clue-giver: No
+
+Step 4, markers placed:
+-k all
+!k H7
++ G1
++ A14
+Board now:
+?g A14 | C1, H4, C6
+!r G1 | H4
+!y D14 | Pink
+!b G3 | H4
+!k H7 | G1, A14
+
+Give up to 3 guesses, best first, or none to pass.

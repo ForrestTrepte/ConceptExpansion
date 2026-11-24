@@ -1,0 +1,7 @@
+{ 
+  "guesses": [
+    "Opinion",
+    "Notion",
+    "Thought"
+  ]
+}

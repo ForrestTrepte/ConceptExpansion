@@ -1,0 +1,20 @@
+New prompt.
+
+Step 1, markers placed:
+?g H14
++ C14
++ C11
+Board now:
+?g H14 | C14, C11
+Guesses: Wink, Nod, Blink
+Clue-giver: No
+
+Step 2, markers placed:
+!r A1
++ C7
++ C14
+Board now:
+?g H14 | C14, C11
+!r A1 | C7, C14
+
+Give up to 3 guesses, best first, or none to pass.

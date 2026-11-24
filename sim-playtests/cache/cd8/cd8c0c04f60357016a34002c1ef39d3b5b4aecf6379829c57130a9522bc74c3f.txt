@@ -1,0 +1,7 @@
+        {
+           "guesses": [
+                 "Twister",
+                 "Jenga",
+                 "Pictionary"
+            ]
+          }

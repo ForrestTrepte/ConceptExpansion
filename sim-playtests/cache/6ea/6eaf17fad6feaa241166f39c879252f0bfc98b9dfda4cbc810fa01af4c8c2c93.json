@@ -1,0 +1,134 @@
+{
+  "contentSha256": "2fd42c19737a01aae05c8f70a49f2d71e195f757b4e6d5b1be619161dda54184",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "4b5daa84bf7faab6f117925ff5de9ff2fdd6395e55661846fcc5b242e99c1765"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "8c043cd78e36d6339b3178d29399da1fac8226b2bab229d64ba35d2b86201ab5"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "openai/gpt-6-luna",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "guesses"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-2"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "f6004e3-dirty",
+    "costUsd": 0.00029285,
+    "latencyMs": 6415,
+    "recordedAt": "2026-11-24T00:07:31.081Z",
+    "recordedBy": "claude",
+    "servedBy": "OpenAI",
+    "servedModel": "openai/gpt-6-luna",
+    "tags": {
+      "run": "calibrate-or-luna"
+    },
+    "usage": {
+      "cacheReadTokens": 4805,
+      "cacheWriteTokens": 0,
+      "inputTokens": 4808,
+      "outputTokens": 489,
+      "reasoningTokens": 461
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"Red Skelton\",\"Macaulay Culkin\",\"Justin Bieber\"]}",
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "data": {
+                "$llmemo.text": "c4046d84dd426b574384ad3424cd1eead2cfe090999b2dcdc2acac1f52abfcd2"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_0f595c9c14bb845b016b04d53d4f4887d1b34e385f94dc3baa",
+              "index": 0,
+              "type": "reasoning.encrypted"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "completed"
+      }
+    ],
+    "created": 1795478844,
+    "id": "gen-1795478844-5O1gUJTW8iUqsiYGPorX",
+    "model": "openai/gpt-6-luna",
+    "object": "chat.completion",
+    "provider": "OpenAI",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 489,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 461
+      },
+      "cost": 0.00029285,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0002445,
+        "upstream_inference_cost": 0.00029285,
+        "upstream_inference_prompt_cost": 0.00004835
+      },
+      "is_byok": false,
+      "prompt_tokens": 4808,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 4805,
+        "video_tokens": 0
+      },
+      "total_tokens": 5297
+    }
+  }
+}

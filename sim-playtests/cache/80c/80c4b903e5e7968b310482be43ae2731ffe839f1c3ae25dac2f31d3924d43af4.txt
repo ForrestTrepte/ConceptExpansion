@@ -1,0 +1,23 @@
+New prompt.
+
+Step 1, markers placed:
+?g A12
++ A14
+Board now:
+?g A12 | A14
+Guesses: road trip, car, drive
+Clue-giver: No
+
+Step 2, markers placed:
+(no new markers)
+Board now:
+?g A12 | A14
+Guesses: transportation, vehicle, automobile
+Clue-giver: No
+
+Step 3, markers placed:
+(no new markers)
+Board now:
+?g A12 | A14
+
+Give up to 3 guesses, best first, or none to pass.

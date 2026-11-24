@@ -1,0 +1,64 @@
+New prompt.
+
+Step 1, markers placed:
+?g H14
+Board now:
+?g H14
+Guesses: Verb, Action, Do
+Clue-giver: No
+
+Step 2, markers placed:
+!r A1
++ D8
+Board now:
+?g H14
+!r A1 | D8
+Guesses: Time, Object, Box
+Clue-giver: No
+
+Step 3, markers placed:
++r C13
+Board now:
+?g H14
+!r A1 | D8, C13
+Guesses: Clock, Timer, Watch
+Clue-giver: No
+
+Step 4, markers placed:
+!y E2
++ B14
++ G14
++ C3
+Board now:
+?g H14
+!r A1 | D8, C13
+!y E2 | B14, G14, C3
+Guesses: Night, House, Rotation
+Clue-giver: No
+
+Step 5, markers placed:
++y D4
+Board now:
+?g H14
+!r A1 | D8, C13
+!y E2 | B14, G14, C3, D4
+Guesses: Bedtime, Sleep, Alarm clock
+Clue-giver: Yes: Alarm clock
+
+Step 6, markers placed:
+(no new markers)
+Board now:
+?g H14
+!r A1 | D8, C13
+!y E2 | B14, G14, C3, D4
+Guesses: Alarm clock, Clock radio, Time bomb
+Clue-giver: Yes: Alarm clock
+
+Step 7, markers placed:
+(no new markers)
+Board now:
+?g H14
+!r A1 | D8, C13
+!y E2 | B14, G14, C3, D4
+
+Give up to 3 guesses, best first, or none to pass.

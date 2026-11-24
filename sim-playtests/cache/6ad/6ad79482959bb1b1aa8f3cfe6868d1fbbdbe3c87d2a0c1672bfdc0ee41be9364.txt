@@ -1,0 +1,27 @@
+New prompt.
+
+Step 1, markers placed:
+?g A14
++ F3
++ F1
+!r A14
++ H9
+Board now:
+?g A14 | F3, F1
+!r A14 | H9
+Guesses: chicken, fish, egg
+Clue-giver: No
+
+Step 2, markers placed:
+!y A14
++ E3
++ D14
+!b E1
++ C5
+Board now:
+?g A14 | F3, F1
+!r A14 | H9
+!y A14 | E3, D14
+!b E1 | C5
+
+Give up to 3 guesses, best first, or none to pass.

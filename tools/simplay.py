@@ -31,12 +31,14 @@ import string
 import sys
 import tomllib
 import unicodedata
+import threading
 from collections import Counter
 from collections.abc import Awaitable, Callable, Sequence
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
 from typing import Any, Literal
 
+from llmemo import BackendError, UsageLimitReached
 from notation import Board, NotationError
 from playtest_logs import LogGame, human_guessed
 
@@ -50,6 +52,7 @@ TEXTS = Path(__file__).resolve().parent / "sim_prompts"
 DOCS = ROOT / "docs"
 
 MAX_ATTEMPTS = 3  # tries per call when a reply is invalid
+OPENROUTER_TIMEOUT_S = 60  # whole call, start to finish
 
 Mode = Literal["model-clues", "human-clues"]
 
@@ -498,7 +501,15 @@ async def ask_valid(
     why its last reply was rejected."""
     error = ""
     for attempt in range(MAX_ATTEMPTS):
-        reply = await ask(role, build(error), attempt)
+        try:
+            reply = await ask(role, build(error), attempt)
+        except UsageLimitReached:
+            raise
+        except BackendError as e:
+            # No reply (e.g. a timeout). The cache saves it as an error entry, so a
+            # replay fails the same way and moves on to the same next attempt.
+            game.invalid.append({"role": role, "attempt": str(attempt), "error": f"backend: {e}"})
+            continue
         try:
             return parse(reply)
         except (Invalid, NotationError) as e:
@@ -665,6 +676,36 @@ async def play_human_clues(ask: Ask, spec: Spec, human: LogGame, trial: int) -> 
 # Running a spec -----------------------------------------------------------------------
 
 
+def in_daemon_thread(fn: Callable[[Any], Any], arg: Any) -> asyncio.Future[Any]:
+    """Run a blocking call in its own daemon thread. Unlike asyncio's thread pool, which
+    allows only cpu_count + 4 calls at once and waits for every thread when the run
+    ends, a call abandoned after a timeout doesn't hold up other games or the exit."""
+    loop = asyncio.get_running_loop()
+    future: asyncio.Future[Any] = loop.create_future()
+
+    def settle(value: Any, error: BaseException | None) -> None:
+        if future.done():
+            return
+        if error is not None:
+            future.set_exception(error)
+        else:
+            future.set_result(value)
+
+    def run() -> None:
+        try:
+            value, error = fn(arg), None
+        except BaseException as e:  # handed to the awaiting coroutine
+            value, error = None, e
+        try:
+            loop.call_soon_threadsafe(settle, value, error)
+        except RuntimeError:
+            pass  # the run already ended
+
+    threading.Thread(target=run, daemon=True).start()
+    return future
+
+
+
 def _add_usage(u: dict[str, Any], meta: dict[str, Any]) -> None:
     u["calls"] = u.get("calls", 0) + 1
     if isinstance(meta.get("costUsd"), (int, float)):
@@ -688,6 +729,7 @@ async def run_spec(spec: Spec) -> dict[str, Any]:
     cache = Cache(
         CACHE_DIR,
         mode="replay",  # LLMEMO_MODE=record overrides this for one command
+        failures="replay",  # a call with no reply is saved, so replays repeat it exactly
         spend_limit=spec.spend_limit_usd,
         ledger=Ledger(ROOT / "llm-spend"),
         code_version=git_code_version(ROOT),
@@ -696,7 +738,18 @@ async def run_spec(spec: Spec) -> dict[str, Any]:
         log_calls=True,
     )
     claude = ClaudeCli()
-    openrouter = OpenRouter()
+    openrouter = OpenRouter(timeout_s=OPENROUTER_TIMEOUT_S)
+
+    async def openrouter_call(request: Any) -> Any:
+        """OpenRouter with a hard limit on the whole call. The HTTP timeout only limits
+        each wait for data, and some providers trickle a reply for many minutes. A call
+        over the limit counts as a failed attempt (saved, so replays repeat it); its
+        thread is left to finish in the background."""
+        try:
+            return await asyncio.wait_for(in_daemon_thread(openrouter, request), OPENROUTER_TIMEOUT_S)
+        except TimeoutError:
+            raise BackendError("timeout", f"no reply within {OPENROUTER_TIMEOUT_S} s") from None
+
     sem = asyncio.Semaphore(spec.concurrency)
 
     def asker(usage: dict[str, Any], trial: int) -> Ask:
@@ -704,7 +757,7 @@ async def run_spec(spec: Spec) -> dict[str, Any]:
             # The judge's verdict depends only on the answer and guesses, so it is shared
             # by every trial.
             variant = None if role == "judge" else f"trial-{trial}"
-            backend = openrouter.acall if request.get("backend") == "openrouter" else claude.acall
+            backend = openrouter_call if request.get("backend") == "openrouter" else claude.acall
             result = await cache.acall(
                 request, backend, label=role, variant=variant, attempt=attempt
             )

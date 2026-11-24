@@ -1,0 +1,33 @@
+New prompt.
+
+Step 1, markers placed:
+?g B8
++ F8
+Board now:
+?g B8 | F8
+Guesses: A quote, A broken phrase, A split word
+Clue-giver: No
+
+Step 2, markers placed:
++g E1
+Board now:
+?g B8 | F8, E1
+Guesses: A cold expression, A cold quote, A frozen phrase
+Clue-giver: No
+
+Step 3, markers placed:
+!r E5
++ Clear
+Board now:
+?g B8 | F8, E1
+!r E5 | Clear
+Guesses: A cold stone, a broken expression, A stone-cold truth, A hard truth
+Clue-giver: No
+
+Step 4, markers placed:
++r E1
+Board now:
+?g B8 | F8, E1
+!r E5 | Clear, E1
+
+Give up to 3 guesses, best first, or none to pass.

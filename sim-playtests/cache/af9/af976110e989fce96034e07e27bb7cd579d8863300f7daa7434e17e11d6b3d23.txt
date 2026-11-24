@@ -1,0 +1,7 @@
+{
+  "guesses": [
+    "A single number",
+    "One star",
+    "One moon"
+  ]
+}

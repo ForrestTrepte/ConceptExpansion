@@ -1,0 +1,7 @@
+{
+  "guesses": [
+    "double click",
+    "right click",
+    "undo"
+  ]
+}

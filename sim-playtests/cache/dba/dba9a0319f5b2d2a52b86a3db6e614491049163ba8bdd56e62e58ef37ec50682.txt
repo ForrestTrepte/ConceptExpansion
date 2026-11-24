@@ -1,0 +1,18 @@
+New prompt.
+
+Step 1, markers placed:
+?g B2
++ Red
++ Blue
++ F10
+Board now:
+?g B2 | Red, Blue, F10
+Guesses: Superhero, Character, Fictional
+Clue-giver: No
+
+Step 2, markers placed:
+(no new markers)
+Board now:
+?g B2 | Red, Blue, F10
+
+Give up to 3 guesses, best first, or none to pass.

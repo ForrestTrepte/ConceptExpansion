@@ -1,0 +1,16 @@
+New prompt.
+
+Step 1, markers placed:
+?g B8
+Board now:
+?g B8
+Guesses: Idea, Concept, Thought
+Clue-giver: No
+
+Step 2, markers placed:
+!r F11
+Board now:
+?g B8
+!r F11
+
+Give up to 3 guesses, best first, or none to pass.

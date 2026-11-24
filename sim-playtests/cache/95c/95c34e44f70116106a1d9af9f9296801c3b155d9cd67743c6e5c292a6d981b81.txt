@@ -1,0 +1,18 @@
+New prompt.
+
+Step 1, markers placed:
+?g A4
++ Black
++ White
++ E1
+Board now:
+?g A4 | Black, White, E1
+Guesses: Animal, Bee, Butterfly
+Clue-giver: No
+
+Step 2, markers placed:
++g A11
+Board now:
+?g A4 | Black, White, E1, A11
+
+Give up to 3 guesses, best first, or none to pass.

@@ -189,23 +189,21 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-23 | Specs choose the board reference format: `tables` (default; the docs' tables as they are) or `list` (one line per icon, meanings and picture together, no backgrounds). `play` now uses Opus at high effort with `list`; play logs record the clue-giver's model and effort | Sonnet at medium effort picked codes that didn't match its own plans, likely from reading two icons per table row. A setting keeps recorded runs replaying |
 | 2026-11-23 | Guessers can run on OpenRouter (`backend = "openrouter"` in a spec's `[guesser]`); the judge and clue-giver stay on Claude. First test: five cheap non-Claude models on the 44 human-guessed games (`calibrate-or-*`) | Claude guessers read model clues that people couldn't; other model families may read the icons more like people |
 | 2026-11-23 | Guesser replies have one field, `guesses`; an empty list is a pass (the `pass` field is gone, for every guesser). OpenRouter reasoning models can run with `effort = "none"`. All guesser runs were re-recorded | Gemma got stuck writing blank space between the two fields and ran out of tokens reasoning. No model guesser had ever passed |
+| 2026-11-24 | OpenRouter calls have a hard 60 s limit on the whole call and run in daemon threads; a call with no reply counts as a failed attempt and is saved (`failures="replay"`), so replays repeat it | Some providers trickled replies for 10+ minutes, blocking games and the end of the run |
+| 2026-11-24 | Simulated guessers aren't used to re-rank prompts; human play is the evidence | Neither Haiku nor five OpenRouter models separated the games people solved from those they failed by more than 15 points |
 
 ## Next steps
 
-1. **Simulated playtesting with LLMs: calibrate (phase 2–3).** Findings are in
+1. **Simulated playtesting with LLMs: wrap up.** Findings are in
    [docs/simulated-playtesting.md](docs/simulated-playtesting.md#findings-so-far-2026-11-23).
-   Claude guessers (Haiku) solve most games people failed, on human clues (17 of 18)
-   and on model clues the owner couldn't read (30 of 42), so they can't stand in for
-   people. Now testing non-Claude guessers through OpenRouter (`calibrate-or-*`).
-   **Before anything else: re-record every guesser run.** The guesser reply format
-   changed (no `pass` field), so the recorded runs no longer replay and
-   `run_all.py`'s "simulated runs" step fails until they are re-recorded, when the
-   owner asks: `LLMEMO_MODE=record uv run python tools/simplay.py run <specs>` for the
-   Claude-guesser specs (`dry-run-*`, `calibrate-baseline`, `-1guess`, `-instinct`,
-   `-instinct-1guess`, `-play`) and the five `calibrate-or-*` specs. Then compare the
-   OpenRouter guessers with the humans. The owner keeps playing `simplay.py play`
-   (Opus, high effort, list reference). Edits to the icon or picture docs invalidate
-   cached calls that use them.
+   No model guesser, Claude or not (Haiku and five OpenRouter models), solves the
+   games people solved much more often than the ones they failed (best gap: 15
+   points). So simulated guessers won't re-rank prompts for now. Human play is the
+   evidence: the owner keeps playing `simplay.py play` (Opus, high effort, list
+   reference), and tabletop sessions count most. Open choices for the owner: whether
+   to compare clue-givers (Opus at lower effort, Sonnet at high) once there are about
+   20 games each, and whether to try the simulation again later with more human data
+   (several guessers per prompt). Record only when the owner asks.
 2. **Reassemble cards 1–18 (expected check errors until then).** Rebuild every card
    from the whole pool, using:
    - **Tabletop re-banding:** after the 2026-11-16 playtest, the owner moved Taco,

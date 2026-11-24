@@ -1,0 +1,7 @@
+{
+  "guesses": [
+    "Soldier",
+    "Paramedic",
+    "Sailor"
+  ]
+}

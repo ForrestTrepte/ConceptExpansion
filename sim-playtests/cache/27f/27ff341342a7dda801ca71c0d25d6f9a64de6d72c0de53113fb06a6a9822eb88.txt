@@ -1,0 +1,8 @@
+     
+  {
+    "guesses": [
+        "lemonade",
+        "iced tea",
+        "orange juice"
+    ]
+}

@@ -1,0 +1,29 @@
+New prompt.
+
+Step 1, markers placed:
+?g B6 [pawn on the sculpture in the picture]
++ G10
+Board now:
+?g B6 | G10
+Guesses: Statue, Sculpture, Monument
+Clue-giver: No
+
+Step 2, markers placed:
+!r D11 [pawn on the hand]
++ E3
++ C9 [cube on the light with rays]
+Board now:
+?g B6 | G10
+!r D11 | E3, C9
+Guesses: Dancing, Playing, Painting
+Clue-giver: No
+
+Step 3, markers placed:
+!y D9
++ D9 [cube on the crown]
+Board now:
+?g B6 | G10
+!r D11 | E3, C9
+!y D9 | D9
+
+Give up to 3 guesses, best first, or none to pass.

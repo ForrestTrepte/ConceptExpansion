@@ -1,0 +1,30 @@
+New prompt.
+
+Step 1, markers placed:
+?g A6
++ D5
+!r A10
++ D5
+!y F11
++ G2
++ F11
+Board now:
+?g A6 | D5
+!r A10 | D5
+!y F11 | G2, F11
+Guesses: The Day of the Dead, The Sixth Sense, Death Becomes Her
+Clue-giver: No
+
+Step 2, markers placed:
+!b D6
++ B9
+!k A10
++ B7
+Board now:
+?g A6 | D5
+!r A10 | D5
+!y F11 | G2, F11
+!b D6 | B9
+!k A10 | B7
+
+Give up to 3 guesses, best first, or none to pass.

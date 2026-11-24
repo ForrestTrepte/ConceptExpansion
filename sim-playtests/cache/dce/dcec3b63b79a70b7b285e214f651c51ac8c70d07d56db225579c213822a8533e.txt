@@ -1,0 +1,7 @@
+{ 
+"guesses": [
+  "arm movement",
+  "turtle shell",
+  "slow movement"
+]
+}

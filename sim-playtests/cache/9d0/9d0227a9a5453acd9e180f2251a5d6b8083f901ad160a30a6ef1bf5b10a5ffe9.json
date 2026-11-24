@@ -1,0 +1,134 @@
+{
+  "contentSha256": "4e73a74b3b8d1e334cc4cdcbf7050e7e90da5ee1f8bcb50dbd6f6e09ba7160cf",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "4b5daa84bf7faab6f117925ff5de9ff2fdd6395e55661846fcc5b242e99c1765"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "8c043cd78e36d6339b3178d29399da1fac8226b2bab229d64ba35d2b86201ab5"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "openai/gpt-6-luna",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "guesses"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-1"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "f6004e3-dirty",
+    "costUsd": 0.00023832,
+    "latencyMs": 5072,
+    "recordedAt": "2026-11-24T00:07:29.027Z",
+    "recordedBy": "claude",
+    "servedBy": "OpenAI",
+    "servedModel": "openai/gpt-6-luna",
+    "tags": {
+      "run": "calibrate-or-luna"
+    },
+    "usage": {
+      "cacheReadTokens": 4727,
+      "cacheWriteTokens": 78,
+      "inputTokens": 4808,
+      "outputTokens": 362,
+      "reasoningTokens": 337
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"Bart Simpson\",\"The Young Sheldon\",\"Red Power Ranger\"]}",
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "data": {
+                "$llmemo.text": "7d1c78e5379c52238495790db65ff71b3d04207ce0d7bbc9f050076d3c845a37"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_0dcba05f2ec36c51016b04d53ca3a487d19fe1937b2f99b7f5",
+              "index": 0,
+              "type": "reasoning.encrypted"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "completed"
+      }
+    ],
+    "created": 1795478843,
+    "id": "gen-1795478843-5A9K2Y61MaRcDCSPLZs9",
+    "model": "openai/gpt-6-luna",
+    "object": "chat.completion",
+    "provider": "OpenAI",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 362,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 337
+      },
+      "cost": 0.00023832,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000181,
+        "upstream_inference_cost": 0.00023832,
+        "upstream_inference_prompt_cost": 0.00005732
+      },
+      "is_byok": false,
+      "prompt_tokens": 4808,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 78,
+        "cached_tokens": 4727,
+        "video_tokens": 0
+      },
+      "total_tokens": 5170
+    }
+  }
+}

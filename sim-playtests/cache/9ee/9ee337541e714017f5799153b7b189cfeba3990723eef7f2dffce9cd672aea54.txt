@@ -1,0 +1,7 @@
+        {
+    "guesses": [
+      "scissors",
+      "cutting",
+      "cut"
+    ]
+  }

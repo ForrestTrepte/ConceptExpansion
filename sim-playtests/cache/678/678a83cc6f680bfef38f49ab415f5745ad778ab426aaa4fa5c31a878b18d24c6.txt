@@ -1,0 +1,7 @@
+{ 
+"guesses": [
+    "Social Network",
+    "Community",
+    "Relationship"
+  ]
+}

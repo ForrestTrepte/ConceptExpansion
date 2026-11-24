@@ -1,0 +1,7 @@
+{ 
+"guesses": [
+    "robot",
+    "monster",
+    "Frankenstein"
+]
+}

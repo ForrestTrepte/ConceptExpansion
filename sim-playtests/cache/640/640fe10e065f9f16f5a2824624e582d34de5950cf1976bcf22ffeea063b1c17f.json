@@ -1,0 +1,123 @@
+{
+  "contentSha256": "cd2894bde264fac8b011b5e2edb28623e75ff20598a165beb82823e5e34eb3ef",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "4b5daa84bf7faab6f117925ff5de9ff2fdd6395e55661846fcc5b242e99c1765"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "0b6d9a75d72f6edf304517e4a0b49d29ace69854d7f0794f12b46941eed5dab3"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "deepseek/deepseek-v4-flash",
+        "reasoning": {
+          "enabled": false
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "guesses"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-3"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "f6004e3-dirty",
+    "costUsd": 0.000149036,
+    "latencyMs": 2391,
+    "recordedAt": "2026-11-24T00:11:40.169Z",
+    "recordedBy": "claude",
+    "servedBy": "Wafer",
+    "servedModel": "deepseek/deepseek-v4-flash",
+    "tags": {
+      "run": "calibrate-or-deepseek"
+    },
+    "usage": {
+      "cacheReadTokens": 4864,
+      "cacheWriteTokens": 0,
+      "inputTokens": 5102,
+      "outputTokens": 22,
+      "reasoningTokens": 0
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{ \"guesses\": [\"birthday present\", \"birthday surprise\", \"birthday tradition\"] }",
+          "reasoning": null,
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "stop"
+      }
+    ],
+    "created": 1795479097,
+    "id": "gen-1795479097-oQ45XG939UlAZfnikJW1",
+    "model": "deepseek/deepseek-v4-flash",
+    "object": "chat.completion",
+    "provider": "Wafer",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 22,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.000149036,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00000374,
+        "upstream_inference_cost": 0.000149036,
+        "upstream_inference_prompt_cost": 0.000145296
+      },
+      "is_byok": false,
+      "prompt_tokens": 5102,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 4864,
+        "video_tokens": 0
+      },
+      "total_tokens": 5124
+    }
+  }
+}

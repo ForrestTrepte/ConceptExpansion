@@ -1,0 +1,7 @@
+{ 
+"guesses": [
+  "Bee",
+  "Ladybug",
+  "Butterfly"
+]
+}

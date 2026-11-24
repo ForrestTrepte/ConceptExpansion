@@ -314,3 +314,57 @@ def test_openrouter_reasoning_off() -> None:
     body = simplay.guesser_request(s, [])["body"]
     assert body["reasoning"] == {"enabled": False}
     assert set(body["response_format"]["json_schema"]["schema"]["properties"]) == {"guesses"}
+
+
+def test_backend_error_counts_as_a_failed_attempt() -> None:
+    from llmemo import BackendError
+
+    calls: list[int] = []
+
+    async def flaky(role: str, request: dict[str, Any], attempt: int) -> object:
+        calls.append(attempt)
+        if role == "guesser" and attempt == 0:
+            raise BackendError("timeout", "took over 60 s")
+        return {"clue-giver": first(["?g A14"]), "guesser": guess("Pizza")}[role]
+
+    game = asyncio.run(simplay.play_model_clues(flaky, spec(), "Pizza", 1))
+    assert game.outcome == "solved"
+    assert game.invalid == [{"role": "guesser", "attempt": "0", "error": "backend: timeout: took over 60 s"}]
+
+
+def test_usage_limit_is_not_retried() -> None:
+    from llmemo import UsageLimitReached
+
+    async def limited(role: str, request: dict[str, Any], attempt: int) -> object:
+        raise UsageLimitReached("limit")
+
+    with pytest.raises(UsageLimitReached):
+        asyncio.run(simplay.play_model_clues(limited, spec(), "Pizza", 1))
+
+
+def test_in_daemon_thread() -> None:
+    import time
+
+    async def main() -> tuple[object, bool]:
+        value = await simplay.in_daemon_thread(lambda x: x * 2, 21)
+        try:
+            await asyncio.wait_for(simplay.in_daemon_thread(time.sleep, 5), 0.1)
+            timed_out = False
+        except TimeoutError:
+            timed_out = True
+        return value, timed_out
+
+    start = time.monotonic()
+    assert asyncio.run(main()) == (42, True)
+    assert time.monotonic() - start < 2  # the sleeping thread doesn't hold up the end
+
+
+def test_in_daemon_thread_passes_errors() -> None:
+    def boom(_: object) -> None:
+        raise ValueError("no")
+
+    async def main() -> None:
+        await simplay.in_daemon_thread(boom, None)
+
+    with pytest.raises(ValueError, match="no"):
+        asyncio.run(main())

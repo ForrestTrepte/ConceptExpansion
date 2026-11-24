@@ -1,0 +1,39 @@
+New prompt.
+
+Step 1, markers placed:
+?g B2
++ D2
++ A6
+!r D4
++ Black
+Board now:
+?g B2 | D2, A6
+!r D4 | Black
+Guesses: Superhero, Fictional character, Comic book hero
+Clue-giver: No
+
+Step 2, markers placed:
+!y E11
++ E11
+!b C14
++ Clear
+Board now:
+?g B2 | D2, A6
+!r D4 | Black
+!y E11 | E11
+!b C14 | Clear
+Guesses: Batman, Superhero, Spiderman
+Clue-giver: No
+
+Step 3, markers placed:
+-b all
+!b B13
++ Black
++ D2
+Board now:
+?g B2 | D2, A6
+!r D4 | Black
+!y E11 | E11
+!b B13 | Black, D2
+
+Give up to 3 guesses, best first, or none to pass.

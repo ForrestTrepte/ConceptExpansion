@@ -1,0 +1,7 @@
+{ 
+"guesses": [
+    "Psychological Evaluation",
+    "Mental Assessment",
+    "Personality Test"
+]
+}

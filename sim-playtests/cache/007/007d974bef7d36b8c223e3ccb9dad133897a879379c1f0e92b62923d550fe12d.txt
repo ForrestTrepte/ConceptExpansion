@@ -1,0 +1,7 @@
+{
+  "guesses": [
+    "A joke about a politician",
+    "A joke about a doctor",
+    "A joke about a scientist"
+  ]
+}

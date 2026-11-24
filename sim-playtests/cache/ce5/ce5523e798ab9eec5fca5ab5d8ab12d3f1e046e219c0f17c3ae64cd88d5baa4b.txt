@@ -1,0 +1,7 @@
+{ 
+"guesses": [
+"touch",
+"hand",
+"finger"
+]
+}

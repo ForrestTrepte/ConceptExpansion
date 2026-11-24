@@ -1,0 +1,19 @@
+New prompt.
+
+Step 1, markers placed:
+?g A4
++ C3
++ Brown
++ H10
++ G3
+Board now:
+?g A4 | C3, Brown, H10, G3
+Guesses: brown bear, brown tortoise, brown snail
+Clue-giver: No
+
+Step 2, markers placed:
+(no new markers)
+Board now:
+?g A4 | C3, Brown, H10, G3
+
+Give up to 3 guesses, best first, or none to pass.

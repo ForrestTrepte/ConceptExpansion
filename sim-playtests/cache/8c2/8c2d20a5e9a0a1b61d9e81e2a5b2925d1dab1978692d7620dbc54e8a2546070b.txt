@@ -1,0 +1,7 @@
+{
+  "guesses": [
+    "a cookie",
+    "a pancake",
+    "a burger"
+  ]
+}

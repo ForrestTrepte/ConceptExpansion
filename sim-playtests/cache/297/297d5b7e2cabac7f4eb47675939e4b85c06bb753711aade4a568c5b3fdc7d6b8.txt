@@ -1,0 +1,11 @@
+New prompt.
+
+Step 1, markers placed:
+?g A4
++ Black
++ White
++ E1
+Board now:
+?g A4 | Black, White, E1
+
+Give up to 1 guess, best first, or none to pass.

@@ -1,0 +1,7 @@
+{
+  "guesses": [
+    "Soup",
+    "Ice Cream",
+    "Fruit"
+  ]
+}

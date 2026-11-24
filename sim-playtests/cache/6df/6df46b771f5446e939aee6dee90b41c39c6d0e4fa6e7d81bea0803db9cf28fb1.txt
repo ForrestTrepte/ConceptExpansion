@@ -1,0 +1,36 @@
+New prompt.
+
+Step 1, markers placed:
+?g B8
+Board now:
+?g B8
+Guesses: A word, A quote, Talking
+Clue-giver: No
+
+Step 2, markers placed:
+!b E1 [on the rain under the cloud]
+Board now:
+?g B8
+!b E1
+Guesses: Rainfall, Thunderstorm, A storm is brewing
+Clue-giver: No
+
+Step 3, markers placed:
+!y F7
++ C8
++ H3
+Board now:
+?g B8
+!y F7 | C8, H3
+!b E1
+Guesses: A letter about money, A written check, A bill
+Clue-giver: No
+
+Step 4, markers placed:
+(no new markers)
+Board now:
+?g B8
+!y F7 | C8, H3
+!b E1
+
+Give up to 3 guesses, best first, or none to pass.

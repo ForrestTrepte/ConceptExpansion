@@ -1,0 +1,16 @@
+New prompt.
+
+Step 1, markers placed:
+?g A14
++ C1
++ H4
+!r G1
++ H4
+!y D14
++ Pink
+Board now:
+?g A14 | C1, H4
+!r G1 | H4
+!y D14 | Pink
+
+Give up to 3 guesses, best first, or none to pass.

@@ -1,0 +1,123 @@
+{
+  "contentSha256": "9d4a13fa9f94da35829f12a2229bd7fa7171e71f7f35a3fc93a27a8f12054a46",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "4b5daa84bf7faab6f117925ff5de9ff2fdd6395e55661846fcc5b242e99c1765"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "81ae17ef965f3fe1aa63a3e80b01491541ec60f7776ead85d09e7d853a2672d3"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "deepseek/deepseek-v4-flash",
+        "reasoning": {
+          "enabled": false
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "guesses"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-1"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "f6004e3-dirty",
+    "costUsd": 0.000145672,
+    "latencyMs": 709,
+    "recordedAt": "2026-11-24T00:09:47.006Z",
+    "recordedBy": "claude",
+    "servedBy": "Wafer",
+    "servedModel": "deepseek/deepseek-v4-flash",
+    "tags": {
+      "run": "calibrate-or-deepseek"
+    },
+    "usage": {
+      "cacheReadTokens": 4608,
+      "cacheWriteTokens": 0,
+      "inputTokens": 4889,
+      "outputTokens": 8,
+      "reasoningTokens": 0
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{ \"guesses\": [] }",
+          "reasoning": null,
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "stop"
+      }
+    ],
+    "created": 1795478986,
+    "id": "gen-1795478986-teEuK3M0WF4yNRESTAvT",
+    "model": "deepseek/deepseek-v4-flash",
+    "object": "chat.completion",
+    "provider": "Wafer",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 8,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.000145672,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00000136,
+        "upstream_inference_cost": 0.000145672,
+        "upstream_inference_prompt_cost": 0.000144312
+      },
+      "is_byok": false,
+      "prompt_tokens": 4889,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 4608,
+        "video_tokens": 0
+      },
+      "total_tokens": 4897
+    }
+  }
+}

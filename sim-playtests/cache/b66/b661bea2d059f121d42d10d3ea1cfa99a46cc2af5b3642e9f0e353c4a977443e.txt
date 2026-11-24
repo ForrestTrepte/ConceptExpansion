@@ -1,0 +1,3 @@
+**Considering output guesses**
+
+I need to provide output guesses in JSON format. I'm thinking about describing an action or a button, so it's likely to include verbs related to pressing something. The main concept could be something like "button" or "action", maybe even "press." I have to figure out how to convey that meaning clearly. I'll aim for one to three possible outputs that capture this idea effectively.

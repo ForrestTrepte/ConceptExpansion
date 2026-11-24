@@ -1,0 +1,7 @@
+{
+"guesses": [
+  "Letter",
+  "Newspaper",
+  "Mail"
+]
+}

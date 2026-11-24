@@ -138,6 +138,29 @@ owner's 24 `simplay.py play` games, whose clues came from Sonnet (14) or Opus (1
   clue-givers: it would reward clues only models find clear. Whether non-Claude
   guessers (phase 3) read the icons more like people is the open question.
 
+**Non-Claude guessers (phase 3, 2026-11-24).** All guesser runs were re-recorded after
+the reply format changed (no `pass` field), so the Haiku numbers above shifted by a game
+or two. Five OpenRouter guessers on all 44 human-guessed games (3 trials each). A
+useful guesser solves much more of what people solved than of what they failed:
+
+| Guesser | Humans solved: model solved | Humans failed: model solved | Gap |
+|---|---|---|---|
+| Haiku (`calibrate-baseline` + `-play`) | 61/72 (85%) | 48/60 (80%) | +5 |
+| `openai/gpt-6-luna` | 62/72 (86%) | 45/60 (75%) | +11 |
+| `mistralai/mistral-small-3.2-24b-instruct` | 30/72 (42%) | 16/60 (27%) | +15 |
+| `google/gemma-4-26b-a4b-it` (reasoning off) | 33/72 (46%) | 20/60 (33%) | +13 |
+| `deepseek/deepseek-v4-flash` (reasoning off) | 38/72 (53%) | 29/60 (48%) | +5 |
+| `meta-llama/llama-4-scout` | 12/72 (17%) | 7/60 (12%) | +5 |
+
+- No guesser separates the games people solved from the ones they failed by much.
+  Stronger models solve nearly everything; weaker ones fail nearly everything; the
+  best gap (Mistral Small, +15 points) is small next to that.
+- The human side is also noisy: one guesser per prompt (mostly the owner), so a
+  single game is weak evidence about how hard a prompt is.
+- Conclusion for now: simulated guessers don't predict human difficulty well enough
+  to re-rank prompts. Human play (`simplay.py play`, tabletop sessions) is the
+  evidence to use.
+
 ## Backends
 
 Both are llmemo's built-in backends. Requests need full model IDs (llmemo rejects

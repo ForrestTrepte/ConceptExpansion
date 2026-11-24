@@ -1,0 +1,16 @@
+New prompt.
+
+Step 1, markers placed:
+?g B2
++ D2
++ Green
++ D5
+!r F2
++ D7
+!y A5
+Board now:
+?g B2 | D2, Green, D5
+!r F2 | D7
+!y A5
+
+Give up to 3 guesses, best first, or none to pass.

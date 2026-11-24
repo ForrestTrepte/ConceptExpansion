@@ -1,0 +1,34 @@
+New prompt.
+
+Step 1, markers placed:
+?g F7
++ Yellow
++ C8
+!r A14
++ Brown
+Board now:
+?g F7 | Yellow, C8
+!r A14 | Brown
+Guesses: paper bag, brown paper bag, lunch bag
+Clue-giver: No
+
+Step 2, markers placed:
++g G6
+!y A6
++ C1
++ B9
+Board now:
+?g F7 | Yellow, C8, G6
+!r A14 | Brown
+!y A6 | C1, B9
+Guesses: mona lisa, the simpsons, the yellow kid
+Clue-giver: No
+
+Step 3, markers placed:
+(no new markers)
+Board now:
+?g F7 | Yellow, C8, G6
+!r A14 | Brown
+!y A6 | C1, B9
+
+Give up to 3 guesses, best first, or none to pass.

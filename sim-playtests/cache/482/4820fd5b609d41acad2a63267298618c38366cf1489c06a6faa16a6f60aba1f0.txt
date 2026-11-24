@@ -1,0 +1,48 @@
+New prompt.
+
+Step 1, markers placed:
+?g B8
++ D4
++ C5
+!r F4
++ H12
+!y B12
++ D4
+Board now:
+?g B8 | D4, C5
+!r F4 | H12
+!y B12 | D4
+Guesses: War, Fight, Battle
+Clue-giver: No
+
+Step 2, markers placed:
+!k H13
++ D4
++ E11
+Board now:
+?g B8 | D4, C5
+!r F4 | H12
+!y B12 | D4
+!k H13 | D4, E11
+Guesses: Struggle, Conflict, Suffer
+Clue-giver: No
+
+Step 3, markers placed:
+(no new markers)
+Board now:
+?g B8 | D4, C5
+!r F4 | H12
+!y B12 | D4
+!k H13 | D4, E11
+Guesses: Trouble, Pain, Hardship
+Clue-giver: No
+
+Step 4, markers placed:
+(no new markers)
+Board now:
+?g B8 | D4, C5
+!r F4 | H12
+!y B12 | D4
+!k H13 | D4, E11
+
+Give up to 3 guesses, best first, or none to pass.

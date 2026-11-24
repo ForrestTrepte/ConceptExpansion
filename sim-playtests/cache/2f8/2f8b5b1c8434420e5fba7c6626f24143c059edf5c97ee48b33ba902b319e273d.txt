@@ -1,0 +1,23 @@
+New prompt.
+
+Step 1, markers placed:
+?g A13
++ B11
+Board now:
+?g A13 | B11
+Guesses: toy, game, plaything
+Clue-giver: No
+
+Step 2, markers placed:
+(no new markers)
+Board now:
+?g A13 | B11
+Guesses: aircraft, helicopter, plane
+Clue-giver: No
+
+Step 3, markers placed:
+(no new markers)
+Board now:
+?g A13 | B11
+
+Give up to 3 guesses, best first, or none to pass.

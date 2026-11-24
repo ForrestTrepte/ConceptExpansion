@@ -1,0 +1,7 @@
+{ 
+"guesses": [
+  "tv personality",
+  "entertainer",
+  "host"
+]
+}

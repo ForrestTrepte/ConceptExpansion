@@ -1,0 +1,52 @@
+New prompt.
+
+Step 1, markers placed:
+?g A14
++ F3
++ F1
+!r A14
++ H9
+Board now:
+?g A14 | F3, F1
+!r A14 | H9
+Guesses: Fish, Shark, Whale
+Clue-giver: No
+
+Step 2, markers placed:
+!y A14
++ E3
++ D14
+!b E1
++ C5
+Board now:
+?g A14 | F3, F1
+!r A14 | H9
+!y A14 | E3, D14
+!b E1 | C5
+Guesses: Pizza, Cake, Ice cream
+Clue-giver: No
+
+Step 3, markers placed:
+!k A13
++ H4
++ F3
++ E10
+Board now:
+?g A14 | F3, F1
+!r A14 | H9
+!y A14 | E3, D14
+!b E1 | C5
+!k A13 | H4, F3, E10
+Guesses: Sushi, Dumpling, Ravioli
+Clue-giver: No
+
+Step 4, markers placed:
+(no new markers)
+Board now:
+?g A14 | F3, F1
+!r A14 | H9
+!y A14 | E3, D14
+!b E1 | C5
+!k A13 | H4, F3, E10
+
+Give up to 3 guesses, best first, or none to pass.

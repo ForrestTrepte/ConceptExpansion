@@ -1,0 +1,3 @@
+{  
+  "guesses": ["book", "painting", "map"]  
+}

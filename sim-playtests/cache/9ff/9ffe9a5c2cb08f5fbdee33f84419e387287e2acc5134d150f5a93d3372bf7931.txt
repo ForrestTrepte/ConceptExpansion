@@ -1,0 +1,25 @@
+New prompt.
+
+Step 1, markers placed:
+?g B8
++ F8
+Board now:
+?g B8 | F8
+Guesses: scissors, cutting, cut
+Clue-giver: No
+
+Step 2, markers placed:
++g E1
+Board now:
+?g B8 | F8, E1
+Guesses: rain, cutting in the rain, cutting down the rain
+Clue-giver: No
+
+Step 3, markers placed:
+!r E5
++ Clear
+Board now:
+?g B8 | F8, E1
+!r E5 | Clear
+
+Give up to 3 guesses, best first, or none to pass.

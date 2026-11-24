@@ -11,7 +11,7 @@ Model games solved, by what the humans did with the same clues.
 
 | Games | Humans solved: model solved | Humans failed: model solved | Same outcome |
 |---|---|---|---|
-| All games | 34/42 | 18/18 | 34/60 (57%) |
+| All games | 35/42 | 18/18 | 35/60 (58%) |
 | Without clue comments | 27/30 | 9/9 | 27/39 (69%) |
 
 ## Summary
@@ -19,90 +19,90 @@ Model games solved, by what the humans did with the same clues.
 | Prompt | Humans | Clue comments | Model solved | Avg steps | Common wrong guesses |
 |---|---|---|---|---|---|
 | Pizza | solved (step 1) |  | 3/3 | 1 |  |
-| Umbrella | solved (step 1) |  | 0/3 | – | Cooler, Icebox, Thermos, Freezer, Refrigerator |
+| Umbrella | solved (step 1) |  | 0/3 | – | Thermos, Cooler, Ice pack, Freezer, Icebox |
 | Penguin | solved (step 3) |  | 3/3 | 1 |  |
 | Food truck | solved (step 1) |  | 3/3 | 1 |  |
-| Selfie | failed |  | 3/3 | 2 | Facepalm, Eye candy, Head start, Virtual reality headset, Webcam |
-| Lifeguard | solved (step 4) |  | 3/3 | 1.7 | Navy corpsman, Military medic, Ship's doctor, Navy medic, Coast Guard |
-| Break the ice | solved (step 9) |  | 3/3 | 1.7 | Cut to the chase, Cut the mustard, Cut your losses, Cut and dried, Cold cut |
+| Selfie | failed |  | 3/3 | 2 | Blink, Headshot, Eye contact, Camera, Webcam |
+| Lifeguard | solved (step 4) |  | 3/3 | 1.3 | Navy medic, Ship's doctor, Coast Guard |
+| Break the ice | solved (step 9) |  | 3/3 | 3.3 | Cut to the chase, Sound bite, Catchphrase, Break a leg, Cut your losses |
 | Spider-Man | solved (step 1) |  | 3/3 | 1 |  |
-| Hit the snooze button | solved (step 5) |  | 3/3 | 6.3 | Alarm clock, Snooze button, Wake-up call, Doorbell, Stopwatch |
+| Hit the snooze button | solved (step 5) |  | 3/3 | 6 | Alarm clock, Doorbell, Remote control, Stopwatch, Snooze button |
 | Star Wars | solved (step 1) | yes | 3/3 | 1 |  |
-| Drone | solved |  | 3/3 | 1.7 | Kite, Paper airplane, Frisbee, Toy airplane |
-| Statue of Liberty | failed | yes | 3/3 | 1 |  |
-| Couch potato | solved | yes | 0/3 | – | Human, Person, Sprinter, Mr. Bean, Athlete |
-| Elvis Presley | failed | yes | 3/3 | 1 |  |
-| Popcorn | failed |  | 3/3 | 3 | Sushi, Pizza, French fries, Pasta, Pie |
+| Drone | solved |  | 3/3 | 1.7 | Kite, Frisbee, Toy airplane, Paper airplane |
+| Statue of Liberty | failed | yes | 3/3 | 1.3 | Statue, Venus de Milo, Michelangelo's David |
+| Couch potato | solved | yes | 0/3 | – | Person, Human, Big Brother contestant, Gregory House, Dr. House |
+| Elvis Presley | failed | yes | 3/3 | 1.7 | King David, Prince, Frederick the Great, Cleopatra, Queen Elizabeth |
+| Popcorn | failed |  | 3/3 | 3 | French fries, Pizza, Chicken nuggets, Sushi, Noodles |
 | Snail | failed |  | 3/3 | 1 |  |
-| Lighthouse | solved (step 1) | yes | 1/3 | 1 | Think tank, Lightbulb moment, Idea factory, Brainchild, Brainstorm |
-| Once in a blue moon | solved |  | 3/3 | 3.7 | Catchphrase, One-liner, Motto, Slogan, Mantra |
+| Lighthouse | solved (step 1) | yes | 2/3 | 1 | Think tank, Ivory tower, Idea house, Idea factory, Mind palace |
+| Once in a blue moon | solved |  | 3/3 | 3.7 | Catchphrase, Slogan, Motto, Proverb, One-liner |
 | Lego | solved | yes | 3/3 | 1 |  |
-| Rain check | failed | yes | 3/3 | 4 | Catchphrase, Raining cats and dogs, Slogan, Under the weather, Book |
+| Rain check | failed | yes | 3/3 | 3 | Catchphrase, Slogan, Proverb, Raining cats and dogs, Come rain or shine |
 
 ## Usage
 
 | Game | Calls | Cost (USD, API-equivalent) | Model time (s) | Input tokens | Cache-read tokens | Output tokens |
 |---|---|---|---|---|---|---|
-| Pizza #1 | 1 | 0.0021 | 6.2 | 2 | 0 | 212 |
-| Pizza #2 | 1 | 0.0021 | 6.5 | 2 | 0 | 248 |
-| Pizza #3 | 1 | 0.0022 | 6.5 | 2 | 0 | 245 |
-| Umbrella #1 | 6 | 0.0163 | 25.2 | 12 | 17794 | 1211 |
-| Umbrella #2 | 6 | 0.0167 | 27.4 | 12 | 17794 | 1288 |
-| Umbrella #3 | 6 | 0.0152 | 24.4 | 12 | 25869 | 1226 |
-| Penguin #1 | 1 | 0.0004 | 4.4 | 2 | 8081 | 201 |
-| Penguin #2 | 1 | 0.0005 | 4.1 | 2 | 7757 | 267 |
-| Penguin #3 | 1 | 0.0003 | 4.5 | 2 | 8081 | 225 |
-| Food truck #1 | 1 | 0.0007 | 5.4 | 2 | 7757 | 299 |
-| Food truck #2 | 1 | 0.0006 | 4.6 | 2 | 8067 | 328 |
-| Food truck #3 | 1 | 0.0006 | 4.5 | 2 | 8067 | 309 |
-| Selfie #1 | 1 | 0.0007 | 5.1 | 2 | 7757 | 351 |
-| Selfie #2 | 5 | 0.0113 | 20.9 | 10 | 25109 | 1390 |
-| Selfie #3 | 3 | 0.0060 | 13.3 | 6 | 16592 | 769 |
-| Lifeguard #1 | 1 | 0.0005 | 4.5 | 2 | 7757 | 281 |
-| Lifeguard #2 | 3 | 0.0057 | 13.5 | 6 | 16600 | 978 |
-| Lifeguard #3 | 3 | 0.0061 | 14.6 | 6 | 16600 | 1075 |
-| Break the ice #1 | 5 | 0.0112 | 22.5 | 10 | 24791 | 1565 |
-| Break the ice #2 | 1 | 0.0006 | 3.9 | 2 | 8067 | 288 |
-| Break the ice #3 | 1 | 0.0006 | 3.1 | 2 | 8067 | 302 |
-| Spider-Man #1 | 1 | 0.0006 | 3.9 | 2 | 7757 | 291 |
-| Spider-Man #2 | 1 | 0.0007 | 4.2 | 2 | 7757 | 304 |
-| Spider-Man #3 | 1 | 0.0006 | 3.7 | 2 | 8085 | 276 |
-| Hit the snooze button #1 | 14 | 0.0361 | 54.8 | 28 | 59619 | 3108 |
-| Hit the snooze button #2 | 10 | 0.0258 | 42.7 | 20 | 42886 | 2064 |
-| Hit the snooze button #3 | 14 | 0.0356 | 58.6 | 28 | 59920 | 2918 |
-| Star Wars #1 | 1 | 0.0007 | 4.7 | 2 | 7757 | 337 |
-| Star Wars #2 | 1 | 0.0007 | 5.0 | 2 | 8085 | 379 |
-| Star Wars #3 | 1 | 0.0006 | 4.0 | 2 | 8085 | 248 |
-| Drone #1 | 3 | 0.0057 | 10.1 | 6 | 16274 | 689 |
-| Drone #2 | 1 | 0.0006 | 4.3 | 2 | 8067 | 272 |
-| Drone #3 | 3 | 0.0058 | 11.0 | 6 | 16584 | 737 |
-| Statue of Liberty #1 | 1 | 0.0006 | 4.4 | 2 | 7757 | 329 |
-| Statue of Liberty #2 | 1 | 0.0005 | 4.0 | 2 | 8083 | 229 |
-| Statue of Liberty #3 | 1 | 0.0005 | 4.7 | 2 | 8083 | 286 |
-| Couch potato #1 | 10 | 0.0264 | 44.1 | 20 | 42585 | 2937 |
-| Couch potato #2 | 10 | 0.0262 | 42.2 | 20 | 42905 | 2653 |
-| Couch potato #3 | 10 | 0.0254 | 40.5 | 20 | 42905 | 2435 |
-| Elvis Presley #1 | 1 | 0.0005 | 4.5 | 2 | 7757 | 501 |
-| Elvis Presley #2 | 1 | 0.0005 | 3.7 | 2 | 8084 | 316 |
-| Elvis Presley #3 | 1 | 0.0007 | 3.8 | 2 | 8084 | 409 |
-| Popcorn #1 | 5 | 0.0111 | 19.2 | 10 | 24791 | 1132 |
-| Popcorn #2 | 5 | 0.0114 | 20.3 | 10 | 25125 | 1264 |
-| Popcorn #3 | 5 | 0.0109 | 22.0 | 10 | 25555 | 1305 |
-| Snail #1 | 1 | 0.0005 | 3.5 | 2 | 7757 | 238 |
-| Snail #2 | 1 | 0.0003 | 3.8 | 2 | 8093 | 252 |
-| Snail #3 | 1 | 0.0003 | 4.1 | 2 | 8093 | 256 |
-| Lighthouse #1 | 6 | 0.0155 | 24.2 | 12 | 25551 | 1142 |
-| Lighthouse #2 | 6 | 0.0158 | 24.5 | 12 | 25892 | 1305 |
-| Lighthouse #3 | 1 | 0.0005 | 4.3 | 2 | 8098 | 374 |
-| Once in a blue moon #1 | 5 | 0.0106 | 20.8 | 10 | 24791 | 801 |
-| Once in a blue moon #2 | 7 | 0.0156 | 29.4 | 14 | 33609 | 1511 |
-| Once in a blue moon #3 | 7 | 0.0159 | 28.8 | 14 | 33609 | 1506 |
-| Lego #1 | 1 | 0.0004 | 4.5 | 2 | 7757 | 236 |
-| Lego #2 | 1 | 0.0007 | 4.4 | 2 | 7757 | 335 |
-| Lego #3 | 1 | 0.0003 | 3.3 | 2 | 8115 | 215 |
-| Rain check #1 | 7 | 0.0161 | 22.6 | 14 | 33308 | 1566 |
-| Rain check #2 | 9 | 0.0212 | 32.7 | 18 | 42126 | 2577 |
-| Rain check #3 | 5 | 0.0110 | 18.1 | 10 | 25092 | 1139 |
+| Pizza #1 | 1 | 0.0018 | 17.3 | 2 | 0 | 191 |
+| Pizza #2 | 1 | 0.0003 | 12.7 | 2 | 8068 | 189 |
+| Pizza #3 | 1 | 0.0003 | 12.8 | 2 | 8068 | 235 |
+| Umbrella #1 | 6 | 0.0155 | 86.6 | 12 | 25844 | 1284 |
+| Umbrella #2 | 6 | 0.0152 | 87.4 | 12 | 25844 | 1329 |
+| Umbrella #3 | 6 | 0.0167 | 78.1 | 12 | 17776 | 1252 |
+| Penguin #1 | 1 | 0.0006 | 13.4 | 2 | 8074 | 232 |
+| Penguin #2 | 1 | 0.0007 | 14.6 | 2 | 7748 | 367 |
+| Penguin #3 | 1 | 0.0006 | 14.3 | 2 | 8074 | 239 |
+| Food truck #1 | 1 | 0.0006 | 13.6 | 2 | 7748 | 191 |
+| Food truck #2 | 1 | 0.0003 | 15.4 | 2 | 8060 | 207 |
+| Food truck #3 | 1 | 0.0006 | 13.6 | 2 | 7748 | 180 |
+| Selfie #1 | 1 | 0.0007 | 14.5 | 2 | 7748 | 302 |
+| Selfie #2 | 1 | 0.0007 | 15.3 | 2 | 7748 | 429 |
+| Selfie #3 | 7 | 0.0163 | 100.2 | 14 | 33592 | 1753 |
+| Lifeguard #1 | 3 | 0.0060 | 42.6 | 6 | 16256 | 828 |
+| Lifeguard #2 | 1 | 0.0007 | 15.2 | 2 | 8076 | 353 |
+| Lifeguard #3 | 1 | 0.0008 | 15.3 | 6 | 16811 | 303 |
+| Break the ice #1 | 3 | 0.0059 | 43.7 | 6 | 16256 | 883 |
+| Break the ice #2 | 11 | 0.0276 | 161.2 | 26 | 59377 | 3581 |
+| Break the ice #3 | 3 | 0.0059 | 44.0 | 6 | 16256 | 938 |
+| Spider-Man #1 | 1 | 0.0006 | 14.4 | 2 | 8078 | 301 |
+| Spider-Man #2 | 1 | 0.0006 | 13.0 | 2 | 7748 | 270 |
+| Spider-Man #3 | 1 | 0.0005 | 14.1 | 2 | 8078 | 259 |
+| Hit the snooze button #1 | 11 | 0.0272 | 150.3 | 22 | 50288 | 2366 |
+| Hit the snooze button #2 | 9 | 0.0211 | 123.0 | 18 | 42083 | 1903 |
+| Hit the snooze button #3 | 14 | 0.0370 | 170.2 | 28 | 59859 | 2762 |
+| Star Wars #1 | 1 | 0.0007 | 15.1 | 2 | 8078 | 437 |
+| Star Wars #2 | 1 | 0.0007 | 12.8 | 2 | 7748 | 305 |
+| Star Wars #3 | 1 | 0.0006 | 13.9 | 2 | 8078 | 373 |
+| Drone #1 | 3 | 0.0057 | 43.2 | 6 | 16256 | 676 |
+| Drone #2 | 3 | 0.0053 | 41.2 | 6 | 16568 | 494 |
+| Drone #3 | 1 | 0.0003 | 15.0 | 2 | 8060 | 263 |
+| Statue of Liberty #1 | 3 | 0.0059 | 43.9 | 6 | 16256 | 985 |
+| Statue of Liberty #2 | 1 | 0.0006 | 11.1 | 2 | 8076 | 258 |
+| Statue of Liberty #3 | 1 | 0.0005 | 14.7 | 2 | 8076 | 283 |
+| Couch potato #1 | 10 | 0.0261 | 124.8 | 20 | 42540 | 2516 |
+| Couch potato #2 | 10 | 0.0265 | 127.6 | 20 | 42862 | 2769 |
+| Couch potato #3 | 10 | 0.0263 | 120.1 | 20 | 42862 | 3107 |
+| Elvis Presley #1 | 1 | 0.0008 | 15.5 | 2 | 7748 | 482 |
+| Elvis Presley #2 | 5 | 0.0116 | 75.2 | 10 | 25093 | 1578 |
+| Elvis Presley #3 | 1 | 0.0007 | 15.3 | 2 | 8077 | 405 |
+| Popcorn #1 | 5 | 0.0111 | 72.4 | 10 | 24764 | 1541 |
+| Popcorn #2 | 5 | 0.0113 | 70.4 | 10 | 25100 | 1478 |
+| Popcorn #3 | 5 | 0.0113 | 66.1 | 10 | 25100 | 1371 |
+| Snail #1 | 1 | 0.0004 | 13.5 | 2 | 7748 | 172 |
+| Snail #2 | 1 | 0.0004 | 13.7 | 2 | 7748 | 237 |
+| Snail #3 | 1 | 0.0003 | 13.2 | 2 | 8086 | 210 |
+| Lighthouse #1 | 1 | 0.0006 | 13.3 | 2 | 7748 | 251 |
+| Lighthouse #2 | 1 | 0.0005 | 12.8 | 2 | 7748 | 274 |
+| Lighthouse #3 | 6 | 0.0157 | 86.0 | 16 | 34335 | 1261 |
+| Once in a blue moon #1 | 7 | 0.0165 | 80.2 | 14 | 33272 | 1638 |
+| Once in a blue moon #2 | 5 | 0.0104 | 58.6 | 10 | 25067 | 994 |
+| Once in a blue moon #3 | 7 | 0.0160 | 72.1 | 14 | 33575 | 1517 |
+| Lego #1 | 1 | 0.0004 | 15.2 | 2 | 7748 | 275 |
+| Lego #2 | 1 | 0.0003 | 14.5 | 2 | 8108 | 176 |
+| Lego #3 | 1 | 0.0006 | 13.9 | 2 | 8108 | 293 |
+| Rain check #1 | 7 | 0.0165 | 56.5 | 14 | 33272 | 1785 |
+| Rain check #2 | 3 | 0.0056 | 31.5 | 6 | 16559 | 619 |
+| Rain check #3 | 5 | 0.0110 | 45.1 | 10 | 25067 | 1104 |
 
 ## Games
 
@@ -137,7 +137,7 @@ Model games solved, by what the humans did with the same clues.
   + H4
   + F8
   ```
-  Guesses: Pizza, Orange, Apple pie → Correct
+  Guesses: Pizza, Cake, Pie → Correct
 
 ### Umbrella (trial 1)
 - Outcome: out of rounds
@@ -148,17 +148,17 @@ Model games solved, by what the humans did with the same clues.
   + C4
   + E1
   ```
-  Guesses: Cooler, Refrigerator, Icebox → No
+  Guesses: Freezer, Icebox, Thermos → No
 - Step 2:
   ```
   (no new markers)
   ```
-  Guesses: Thermos, Freezer, Winter coat → No
+  Guesses: Cooler, Cold storage, Snow globe → No
 - Step 3:
   ```
   (no new markers)
   ```
-  Guesses: Ice chest, Cool box, Insulated bag → No
+  Guesses: Igloo, Ice pack, Sleeping bag → No
 
 ### Umbrella (trial 2)
 - Outcome: out of rounds
@@ -169,17 +169,17 @@ Model games solved, by what the humans did with the same clues.
   + C4
   + E1
   ```
-  Guesses: Cooler, Icebox, Igloo → No
+  Guesses: Cooler, Thermos, Ice box → No
 - Step 2:
   ```
   (no new markers)
   ```
-  Guesses: Thermos, Sleeping bag, Ice pack → No
+  Guesses: Refrigerator, Freezer, Parka → No
 - Step 3:
   ```
   (no new markers)
   ```
-  Guesses: Winter coat, Thermal blanket, Freezer → No
+  Guesses: Ice pack, Sleeping bag, Thermal blanket → No
 
 ### Umbrella (trial 3)
 - Outcome: out of rounds
@@ -190,17 +190,17 @@ Model games solved, by what the humans did with the same clues.
   + C4
   + E1
   ```
-  Guesses: Icebox, Cooler, Thermos → No
+  Guesses: Cooler, Icebox, Refrigerator → No
 - Step 2:
   ```
   (no new markers)
   ```
-  Guesses: Igloo, Windbreak, Snow shelter → No
+  Guesses: Ice pack, Thermos, Insulation → No
 - Step 3:
   ```
   (no new markers)
   ```
-  Guesses: Refrigerator, Freezer, Ice pack → No
+  Guesses: Igloo, Snow fort, Freezer bag → No
 
 ### Penguin (trial 1)
 - Outcome: solved (step 1)
@@ -224,7 +224,7 @@ Model games solved, by what the humans did with the same clues.
   + White
   + E1
   ```
-  Guesses: Penguin, Panda, Orca → Correct
+  Guesses: Penguin, Orca, Panda → Correct
 
 ### Penguin (trial 3)
 - Outcome: solved (step 1)
@@ -246,7 +246,7 @@ Model games solved, by what the humans did with the same clues.
   ?g A12
   + A14
   ```
-  Guesses: Food truck, Diner, Restaurant car → Correct
+  Guesses: Food truck, Drive-through, Street food → Correct
 
 ### Food truck (trial 2)
 - Outcome: solved (step 1)
@@ -256,7 +256,7 @@ Model games solved, by what the humans did with the same clues.
   ?g A12
   + A14
   ```
-  Guesses: Food truck, Drive-thru, Dining car → Correct
+  Guesses: Food truck, Road trip, Diner → Correct
 
 ### Food truck (trial 3)
 - Outcome: solved (step 1)
@@ -277,10 +277,10 @@ Model games solved, by what the humans did with the same clues.
   + C14
   + C11
   ```
-  Guesses: Camera, Selfie, Photograph → Correct
+  Guesses: Wink, Nod, Selfie → Correct
 
 ### Selfie (trial 2)
-- Outcome: solved (step 3)
+- Outcome: solved (step 1)
 - Human clues from: playtests/2026-11-16-claude-clues.md, card 1 #5
 - Step 1:
   ```
@@ -288,40 +288,56 @@ Model games solved, by what the humans did with the same clues.
   + C14
   + C11
   ```
-  Guesses: Facepalm, Eye candy, Head start → No
+  Guesses: Selfie, Camera, Blink → Correct
+
+### Selfie (trial 3)
+- Outcome: solved (step 4)
+- Human clues from: playtests/2026-11-16-claude-clues.md, card 1 #5
+- Step 1:
+  ```
+  ?g H14
+  + C14
+  + C11
+  ```
+  Guesses: Blink, Headshot, Eye contact → No
 - Step 2:
   ```
   !r A1
   + C7
   + C14
   ```
-  Guesses: Virtual reality headset, Webcam, Face ID → No
+  Guesses: Camera, Webcam, Face ID → No
 - Step 3:
   ```
   +r D11
   + F11
   ```
-  Guesses: Touch ID, Eye tracker, Selfie → Correct
-
-### Selfie (trial 3)
-- Outcome: solved (step 2)
-- Human clues from: playtests/2026-11-16-claude-clues.md, card 1 #5
-- Step 1:
+  Guesses: Touch ID, Fingerprint scanner, Shutter release → No
+- Step 4:
   ```
-  ?g H14
-  + C14
-  + C11
+  +r E8
   ```
-  Guesses: Wink, Blink, Eye-catching → No
-- Step 2:
-  ```
-  !r A1
-  + C7
-  + C14
-  ```
-  Guesses: Camera, Webcam, Selfie → Correct
+  Guesses: Retina scanner, Eye scanner, Selfie → Correct
 
 ### Lifeguard (trial 1)
+- Outcome: solved (step 2)
+- Human clues from: playtests/2026-11-16-claude-clues.md, card 1 #6
+- Step 1:
+  ```
+  ?g A3
+  + C4
+  + A11
+  + D10
+  ```
+  Guesses: Navy medic, Ship's doctor, Coast Guard → No
+- Step 2:
+  ```
+  !r B13
+  + Red
+  ```
+  Guesses: Lifeguard, Red Cross, Navy nurse → Correct
+
+### Lifeguard (trial 2)
 - Outcome: solved (step 1)
 - Human clues from: playtests/2026-11-16-claude-clues.md, card 1 #6
 - Step 1:
@@ -331,28 +347,10 @@ Model games solved, by what the humans did with the same clues.
   + A11
   + D10
   ```
-  Guesses: Lifeguard, Navy medic, Military doctor → Correct
-
-### Lifeguard (trial 2)
-- Outcome: solved (step 2)
-- Human clues from: playtests/2026-11-16-claude-clues.md, card 1 #6
-- Step 1:
-  ```
-  ?g A3
-  + C4
-  + A11
-  + D10
-  ```
-  Guesses: Navy corpsman, Military medic, Ship's doctor → No
-- Step 2:
-  ```
-  !r B13
-  + Red
-  ```
-  Guesses: Lifeguard, Coast Guard, Rescue swimmer → Correct
+  Guesses: Lifeguard, Coast Guard, Navy Corpsman → Correct
 
 ### Lifeguard (trial 3)
-- Outcome: solved (step 2)
+- Outcome: solved (step 1)
 - Human clues from: playtests/2026-11-16-claude-clues.md, card 1 #6
 - Step 1:
   ```
@@ -361,54 +359,75 @@ Model games solved, by what the humans did with the same clues.
   + A11
   + D10
   ```
-  Guesses: Navy medic, Coast Guard, Naval surgeon → No
-- Step 2:
-  ```
-  !r B13
-  + Red
-  ```
-  Guesses: Lifeguard, Navy SEAL, Ship's doctor → Correct
+  Guesses: Lifeguard, Navy medic, Coast Guard → Correct
 
 ### Break the ice (trial 1)
-- Outcome: solved (step 3)
+- Outcome: solved (step 2)
 - Human clues from: playtests/2026-11-16-claude-clues.md, card 1 #7
 - Step 1:
   ```
   ?g B8
   + F8
   ```
-  Guesses: Cut to the chase, Cut the mustard, Cut your losses → No
+  Guesses: Break a leg, Cut to the chase, Cut your losses → No
 - Step 2:
   ```
   +g E1
   ```
-  Guesses: Cut and dried, Cold cut, Cut it out → No
+  Guesses: Break the ice, Cold feet, Cold shoulder → Correct
+
+### Break the ice (trial 2)
+- Outcome: solved (step 6)
+- Human clues from: playtests/2026-11-16-claude-clues.md, card 1 #7
+- Step 1:
+  ```
+  ?g B8
+  + F8
+  ```
+  Guesses: Sound bite, Catchphrase, Quote → No
+- Step 2:
+  ```
+  +g E1
+  ```
+  Guesses: Cutting remark, Cold call, Cold shoulder → No
 - Step 3:
   ```
   !r E5
   + Clear
   ```
-  Guesses: Break the ice, Cut glass, Crystal clear → Correct
-
-### Break the ice (trial 2)
-- Outcome: solved (step 1)
-- Human clues from: playtests/2026-11-16-claude-clues.md, card 1 #7
-- Step 1:
+  Guesses: Cold hard truth, Stone cold, Clear as crystal → No
+- Step 4:
   ```
-  ?g B8
-  + F8
+  +r E1
   ```
-  Guesses: Break a leg, Cut to the chase, Break the ice → Correct
+  Guesses: Icebreaker, Frosty remark, Rain check → No
+- Step 5:
+  ```
+  !y B1
+  + C1
+  ```
+  Guesses: Straight talk, Cut to the chase, Plain speaking → No
+- Step 6:
+  ```
+  +y B8
+  + G13
+  ```
+  Guesses: Break the ice, Cold open, Figure of speech → Correct
 
 ### Break the ice (trial 3)
-- Outcome: solved (step 1)
+- Outcome: solved (step 2)
 - Human clues from: playtests/2026-11-16-claude-clues.md, card 1 #7
 - Step 1:
   ```
   ?g B8
   + F8
   ```
-  Guesses: Break a leg, Cut to the chase, Break the ice → Correct
+  Guesses: Sound bite, Catchphrase, Idiom → No
+- Step 2:
+  ```
+  +g E1
+  ```
+  Guesses: Break the ice, Rain check, Cold shoulder → Correct
 
 ### Spider-Man (trial 1)
 - Outcome: solved (step 1)
@@ -420,7 +439,7 @@ Model games solved, by what the humans did with the same clues.
   + Blue
   + F10
   ```
-  Guesses: Spider-Man, Superman, Captain America → Correct
+  Guesses: Spider-Man, Superman, Optimus Prime → Correct
 
 ### Spider-Man (trial 2)
 - Outcome: solved (step 1)
@@ -444,27 +463,27 @@ Model games solved, by what the humans did with the same clues.
   + Blue
   + F10
   ```
-  Guesses: Spider-Man, Superman, The Matrix → Correct
+  Guesses: Spider-Man, Superman, Captain America → Correct
 
 ### Hit the snooze button (trial 1)
-- Outcome: solved (step 7)
+- Outcome: solved (step 6)
 - Human clues from: playtests/2026-11-16-claude-clues.md, card 1 #9
 - Step 1:
   ```
   ?g H14
   ```
-  Guesses: Button, Push, Doorbell → No
+  Guesses: Push button, Doorbell, Remote control → No
 - Step 2:
   ```
   !r A1
   + D8
   ```
-  Guesses: Stopwatch, Timer, Time clock → No
+  Guesses: Stopwatch, Egg timer, Alarm clock → Yes: Alarm clock
 - Step 3:
   ```
   +r C13
   ```
-  Guesses: Alarm clock, Alarm, Snooze button → Yes: Alarm clock
+  Guesses: Snooze button, Alarm clock radio, Buzzer → Yes: Snooze button
 - Step 4:
   ```
   !y E2
@@ -472,22 +491,17 @@ Model games solved, by what the humans did with the same clues.
   + G14
   + C3
   ```
-  Guesses: Clock radio, Bedside clock, Wake-up call → No
+  Guesses: Snooze, Sleep timer, Bedside clock → No
 - Step 5:
   ```
   +y D4
   ```
-  Guesses: Sleep timer, Nightlight, Digital clock → No
+  Guesses: Wake-up call, Snooze alarm, Sunrise alarm → No
 - Step 6:
   ```
   (no new markers)
   ```
-  Guesses: Snooze, Alarm, Morning routine → No
-- Step 7:
-  ```
-  (no new markers)
-  ```
-  Guesses: Hit snooze, Set alarm, Turn off the alarm → Correct (judge: Hit snooze)
+  Guesses: Hit the snooze button, Five more minutes, Nap → Correct
 
 ### Hit the snooze button (trial 2)
 - Outcome: solved (step 5)
@@ -496,18 +510,18 @@ Model games solved, by what the humans did with the same clues.
   ```
   ?g H14
   ```
-  Guesses: Push button, Doorbell, Light switch → No
+  Guesses: Doorbell, Elevator, Remote control → No
 - Step 2:
   ```
   !r A1
   + D8
   ```
-  Guesses: Stopwatch, Timer, Alarm clock → Yes: Alarm clock
+  Guesses: Stopwatch, Egg timer, Alarm clock → Yes: Alarm clock
 - Step 3:
   ```
   +r C13
   ```
-  Guesses: Snooze button, Wake-up call, Alarm sound → Yes: Snooze button
+  Guesses: Snooze button, Alarm, Alarm clock → Yes: Snooze button
 - Step 4:
   ```
   !y E2
@@ -515,12 +529,12 @@ Model games solved, by what the humans did with the same clues.
   + G14
   + C3
   ```
-  Guesses: Alarm clock, Snooze button, Wake-up call → Yes: Alarm clock
+  Guesses: Snooze, Nightstand, Sleep → No
 - Step 5:
   ```
   +y D4
   ```
-  Guesses: Snooze alarm, Hit snooze, Repeat alarm → Correct (judge: Hit snooze)
+  Guesses: Hit the snooze button, Wake up, Bedside clock → Correct
 
 ### Hit the snooze button (trial 3)
 - Outcome: solved (step 7)
@@ -529,18 +543,18 @@ Model games solved, by what the humans did with the same clues.
   ```
   ?g H14
   ```
-  Guesses: Button, Remote control, Doorbell → No
+  Guesses: Doorbell, Push button, Remote control → No
 - Step 2:
   ```
   !r A1
   + D8
   ```
-  Guesses: Stopwatch, Timer, Egg timer → No
+  Guesses: Snooze button, Stopwatch, Kitchen timer → Yes: Snooze button
 - Step 3:
   ```
   +r C13
   ```
-  Guesses: Alarm clock, Snooze button, Buzzer → Yes: Alarm clock
+  Guesses: Alarm clock, Alarm, Wake-up call → Yes: Alarm clock
 - Step 4:
   ```
   !y E2
@@ -548,22 +562,22 @@ Model games solved, by what the humans did with the same clues.
   + G14
   + C3
   ```
-  Guesses: Bedside clock, Wake-up call, Sleep timer → No
+  Guesses: Snooze, Sleep cycle, Bedtime → No
 - Step 5:
   ```
   +y D4
   ```
-  Guesses: Clock radio, Alarm, Digital clock → No
+  Guesses: Clock radio, Wake up, Morning alarm → No
 - Step 6:
   ```
   (no new markers)
   ```
-  Guesses: Daily alarm, Rooster, Morning wake-up → No
+  Guesses: Alarm clock radio, Wake-up song, Sunrise → No
 - Step 7:
   ```
   (no new markers)
   ```
-  Guesses: Hit snooze, Snooze button, Turn off the alarm → Correct (judge: Hit snooze)
+  Guesses: Hit snooze, Press snooze, Snooze alarm → Correct (judge: Hit snooze)
 
 ### Star Wars (trial 1)
 - Outcome: solved (step 1)
@@ -573,7 +587,7 @@ Model games solved, by what the humans did with the same clues.
   +g E2 [cube on the stars in the picture]
   + D4
   ```
-  Guesses: Star Wars, Starship, Night sky → Correct
+  Guesses: Star Wars, Space battle, Starship Troopers → Correct
 
 ### Star Wars (trial 2)
 - Outcome: solved (step 1)
@@ -583,7 +597,7 @@ Model games solved, by what the humans did with the same clues.
   +g E2 [cube on the stars in the picture]
   + D4
   ```
-  Guesses: Star Wars, Space Invaders, Starship Troopers → Correct
+  Guesses: Star Wars, Lightsaber, Space battle → Correct
 
 ### Star Wars (trial 3)
 - Outcome: solved (step 1)
@@ -593,7 +607,7 @@ Model games solved, by what the humans did with the same clues.
   +g E2 [cube on the stars in the picture]
   + D4
   ```
-  Guesses: Star Wars, Star Trek, Shooting star → Correct
+  Guesses: Star Wars, Space Invaders, Lightsaber → Correct
 
 ### Drone (trial 1)
 - Outcome: solved (step 2)
@@ -603,24 +617,14 @@ Model games solved, by what the humans did with the same clues.
   ?g A13
   + B11
   ```
-  Guesses: Kite, Paper airplane, Frisbee → No
+  Guesses: Toy airplane, Kite, Frisbee → No
 - Step 2:
   ```
   (no new markers)
   ```
-  Guesses: Drone, Model airplane, Flight simulator → Correct
+  Guesses: Drone, Model rocket, Paper airplane → Correct
 
 ### Drone (trial 2)
-- Outcome: solved (step 1)
-- Human clues from: playtests/2026-11-16-tabletop.md, card 5 #5
-- Step 1:
-  ```
-  ?g A13
-  + B11
-  ```
-  Guesses: Kite, Paper airplane, Drone → Correct
-
-### Drone (trial 3)
 - Outcome: solved (step 2)
 - Human clues from: playtests/2026-11-16-tabletop.md, card 5 #5
 - Step 1:
@@ -628,22 +632,39 @@ Model games solved, by what the humans did with the same clues.
   ?g A13
   + B11
   ```
-  Guesses: Kite, Toy airplane, Paper airplane → No
+  Guesses: Kite, Frisbee, Paper airplane → No
 - Step 2:
   ```
   (no new markers)
   ```
-  Guesses: Drone, Flight simulator, Frisbee → Correct
+  Guesses: Drone, Model airplane, Boomerang → Correct
+
+### Drone (trial 3)
+- Outcome: solved (step 1)
+- Human clues from: playtests/2026-11-16-tabletop.md, card 5 #5
+- Step 1:
+  ```
+  ?g A13
+  + B11
+  ```
+  Guesses: Drone, Kite, Toy airplane → Correct
 
 ### Statue of Liberty (trial 1)
-- Outcome: solved (step 1)
+- Outcome: solved (step 2)
 - Human clues from: playtests/2026-11-16-tabletop.md, card 5 #6
 - Step 1:
   ```
   ?g B6 [pawn on the sculpture in the picture]
   + G10
   ```
-  Guesses: Statue of Liberty, The Thinker, Michelangelo's David → Correct
+  Guesses: Statue, Venus de Milo, Michelangelo's David → No
+- Step 2:
+  ```
+  !r D11 [pawn on the hand]
+  + E3
+  + C9 [cube on the light with rays]
+  ```
+  Guesses: Statue of Liberty, Christ the Redeemer, Hand of God → Correct
 
 ### Statue of Liberty (trial 2)
 - Outcome: solved (step 1)
@@ -653,7 +674,7 @@ Model games solved, by what the humans did with the same clues.
   ?g B6 [pawn on the sculpture in the picture]
   + G10
   ```
-  Guesses: Statue of Liberty, Venus de Milo, Colossus of Rhodes → Correct
+  Guesses: Statue of Liberty, Michelangelo's David, The Thinker → Correct
 
 ### Statue of Liberty (trial 3)
 - Outcome: solved (step 1)
@@ -663,7 +684,7 @@ Model games solved, by what the humans did with the same clues.
   ?g B6 [pawn on the sculpture in the picture]
   + G10
   ```
-  Guesses: Statue of Liberty, David, Venus de Milo → Correct
+  Guesses: Statue of Liberty, The Thinker, Venus de Milo → Correct
 
 ### Couch potato (trial 1)
 - Outcome: out of rounds
@@ -672,29 +693,29 @@ Model games solved, by what the humans did with the same clues.
   ```
   ?g D2 [placed between C2 and D2: a person of either sex]
   ```
-  Guesses: Human, Person, Character → No
+  Guesses: Human, Person, Everyman → No
 - Step 2:
   ```
   !b E8
   + D3
   ```
-  Guesses: Sprinter, Athlete, Usain Bolt → No
+  Guesses: Man, Boy, Racecar driver → No
 - Step 3:
   ```
   +g B14
   + A7
   ```
-  Guesses: Home Improvement, The Fresh Prince of Bel-Air, Full House → No
+  Guesses: Housemate, Big Brother contestant, Reality TV contestant → No
 - Step 4:
   ```
   (no new markers)
   ```
-  Guesses: Mrs. Doubtfire, Mr. Bean, Mister Rogers → No
+  Guesses: The Fast Show, Househusband, Man vs. Wild → No
 - Step 5:
   ```
   (no new markers)
   ```
-  Guesses: The Odd Couple, Felix Unger, Sitcom character → No
+  Guesses: Speed Dater, Reality show host, Flipper → No
 
 ### Couch potato (trial 2)
 - Outcome: out of rounds
@@ -703,29 +724,29 @@ Model games solved, by what the humans did with the same clues.
   ```
   ?g D2 [placed between C2 and D2: a person of either sex]
   ```
-  Guesses: Person, Human, Man → No
+  Guesses: Person, Human, Doctor → No
 - Step 2:
   ```
   !b E8
   + D3
   ```
-  Guesses: Usain Bolt, The Flash, Sprinter → No
+  Guesses: Speed dater, Sprinter, Racer → No
 - Step 3:
   ```
   +g B14
   + A7
   ```
-  Guesses: Home Improvement, Speed Racer, Mr. Bean → No
+  Guesses: Big Brother contestant, Love Island contestant, Reality TV star → No
 - Step 4:
   ```
   (no new markers)
   ```
-  Guesses: Dr. House, Full House, Tim Taylor → No
+  Guesses: Gregory House, Dr. House, Mr. Bean → No
 - Step 5:
   ```
   (no new markers)
   ```
-  Guesses: Jekyll and Hyde, The Odd Couple, Bewitched → No
+  Guesses: Wife Swap, Supernanny, Property Brother → No
 
 ### Couch potato (trial 3)
 - Outcome: out of rounds
@@ -734,29 +755,29 @@ Model games solved, by what the humans did with the same clues.
   ```
   ?g D2 [placed between C2 and D2: a person of either sex]
   ```
-  Guesses: Human, Person, Man → No
+  Guesses: Human being, Person, Teacher → No
 - Step 2:
   ```
   !b E8
   + D3
   ```
-  Guesses: Twin, Athlete, Sprinter → No
+  Guesses: Reverse Flash, The Flash, Usain Bolt → No
 - Step 3:
   ```
   +g B14
   + A7
   ```
-  Guesses: Housemate, Contestant, Big Brother → No
+  Guesses: Dr. House, Gregory House, Mr. Bean → No
 - Step 4:
   ```
   (no new markers)
   ```
-  Guesses: Househusband, Stay-at-home dad, Mr. Bean → No
+  Guesses: Tim Taylor, Chip Gaines, Property Brothers → No
 - Step 5:
   ```
   (no new markers)
   ```
-  Guesses: Mr. Mom, Homer Simpson, Tim Taylor → No
+  Guesses: Doctor Who, Sherlock Holmes, Benjamin Button → No
 
 ### Elvis Presley (trial 1)
 - Outcome: solved (step 1)
@@ -767,10 +788,10 @@ Model games solved, by what the humans did with the same clues.
   + B5
   + D9 [cube on the crown]
   ```
-  Guesses: Elvis Presley, Queen Elizabeth II, Queen → Correct
+  Guesses: Elvis Presley, Freddie Mercury, Queen Elizabeth II → Correct
 
 ### Elvis Presley (trial 2)
-- Outcome: solved (step 1)
+- Outcome: solved (step 3)
 - Human clues from: playtests/2026-11-16-tabletop.md, card 5 #9
 - Step 1:
   ```
@@ -778,7 +799,17 @@ Model games solved, by what the humans did with the same clues.
   + B5
   + D9 [cube on the crown]
   ```
-  Guesses: Elvis Presley, Queen, Freddie Mercury → Correct
+  Guesses: King David, Prince, Frederick the Great → No
+- Step 2:
+  ```
+  (no new markers)
+  ```
+  Guesses: Cleopatra, Queen Elizabeth, Queen → No
+- Step 3:
+  ```
+  (no new markers)
+  ```
+  Guesses: Elvis Presley, Madonna, Freddie Mercury → Correct
 
 ### Elvis Presley (trial 3)
 - Outcome: solved (step 1)
@@ -789,7 +820,7 @@ Model games solved, by what the humans did with the same clues.
   + B5
   + D9 [cube on the crown]
   ```
-  Guesses: Elvis Presley, Queen Elizabeth II, Queen → Correct
+  Guesses: Elvis Presley, The King, Queen Elizabeth → Correct
 
 ### Popcorn (trial 1)
 - Outcome: solved (step 3)
@@ -799,19 +830,19 @@ Model games solved, by what the humans did with the same clues.
   ?g A14
   + F11 x8
   ```
-  Guesses: Tapas, Sushi, Pizza → No
+  Guesses: Pizza, Chicken nuggets, Sushi → No
 - Step 2:
   ```
   !y Yellow
   + H11
   ```
-  Guesses: French fries, Pasta, Chips → No
+  Guesses: French fries, Noodles, Banana → No
 - Step 3:
   ```
   !r E3
   + E4
   ```
-  Guesses: Popcorn, Fried rice, Omelette → Correct
+  Guesses: Popcorn, Cheese puffs, Corn chips → Correct
 
 ### Popcorn (trial 2)
 - Outcome: solved (step 3)
@@ -821,19 +852,19 @@ Model games solved, by what the humans did with the same clues.
   ?g A14
   + F11 x8
   ```
-  Guesses: Pizza, Sushi, Pie → No
+  Guesses: Eight-piece chicken meal, Chicken nuggets, Sushi platter → No
 - Step 2:
   ```
   !y Yellow
   + H11
   ```
-  Guesses: French fries, Banana, Pasta → No
+  Guesses: French fries, Potato chips, Banana → No
 - Step 3:
   ```
   !r E3
   + E4
   ```
-  Guesses: Popcorn, Toast, Roasted marshmallow → Correct
+  Guesses: Popcorn, Cotton candy, Corn on the cob → Correct
 
 ### Popcorn (trial 3)
 - Outcome: solved (step 3)
@@ -843,19 +874,19 @@ Model games solved, by what the humans did with the same clues.
   ?g A14
   + F11 x8
   ```
-  Guesses: Pizza, Sushi, Pie → No
+  Guesses: Pizza, Sushi, Tapas → No
 - Step 2:
   ```
   !y Yellow
   + H11
   ```
-  Guesses: French fries, Banana, Spaghetti → No
+  Guesses: French fries, Spaghetti, Noodles → No
 - Step 3:
   ```
   !r E3
   + E4
   ```
-  Guesses: Popcorn, Potato chips, Noodles → Correct
+  Guesses: Popcorn, Potato chips, Tempura → Correct
 
 ### Snail (trial 1)
 - Outcome: solved (step 1)
@@ -894,51 +925,9 @@ Model games solved, by what the humans did with the same clues.
   + H10
   + G3
   ```
-  Guesses: Snail, Tortoise, Sloth → Correct
+  Guesses: Snail, Tortoise, Turtle → Correct
 
 ### Lighthouse (trial 1)
-- Outcome: out of rounds
-- Human clues from: playtests/2026-11-16-tabletop.md, card 6 #3
-- Step 1:
-  ```
-  !r B9
-  + A8 [on the light bulb in the picture]
-  + B14 [on the house in the picture]
-  ```
-  Guesses: Think tank, Lightbulb moment, Big idea → No
-- Step 2:
-  ```
-  (no new markers)
-  ```
-  Guesses: Idea factory, Brainchild, Eureka moment → No
-- Step 3:
-  ```
-  (no new markers)
-  ```
-  Guesses: Incubator, Brainstorm, Innovation hub → No
-
-### Lighthouse (trial 2)
-- Outcome: out of rounds
-- Human clues from: playtests/2026-11-16-tabletop.md, card 6 #3
-- Step 1:
-  ```
-  !r B9
-  + A8 [on the light bulb in the picture]
-  + B14 [on the house in the picture]
-  ```
-  Guesses: Think tank, Lightbulb moment, Home → No
-- Step 2:
-  ```
-  (no new markers)
-  ```
-  Guesses: Mind palace, Idea factory, Brainstorm → No
-- Step 3:
-  ```
-  (no new markers)
-  ```
-  Guesses: Ivory Tower, Brainchild, Eureka → No
-
-### Lighthouse (trial 3)
 - Outcome: solved (step 1)
 - Human clues from: playtests/2026-11-16-tabletop.md, card 6 #3
 - Step 1:
@@ -947,50 +936,82 @@ Model games solved, by what the humans did with the same clues.
   + A8 [on the light bulb in the picture]
   + B14 [on the house in the picture]
   ```
-  Guesses: Lighthouse, Think tank, Eureka → Correct
+  Guesses: Lighthouse, Light bulb, Eureka → Correct
 
-### Once in a blue moon (trial 1)
-- Outcome: solved (step 3)
-- Human clues from: playtests/2026-11-16-tabletop.md, card 6 #5
+### Lighthouse (trial 2)
+- Outcome: solved (step 1)
+- Human clues from: playtests/2026-11-16-tabletop.md, card 6 #3
 - Step 1:
   ```
-  ?g B8
+  !r B9
+  + A8 [on the light bulb in the picture]
+  + B14 [on the house in the picture]
   ```
-  Guesses: Book, Movie, Television show → No
+  Guesses: Lighthouse, Light bulb moment, Bright idea → Correct
+
+### Lighthouse (trial 3)
+- Outcome: out of rounds
+- Human clues from: playtests/2026-11-16-tabletop.md, card 6 #3
+- Step 1:
+  ```
+  !r B9
+  + A8 [on the light bulb in the picture]
+  + B14 [on the house in the picture]
+  ```
+  Guesses: Think tank, Ivory tower, Idea house → No
 - Step 2:
   ```
-  !r F11
+  (no new markers)
   ```
-  Guesses: Catchphrase, One-liner, Motto → No
+  Guesses: Idea factory, Mind palace, Brain trust → No
 - Step 3:
   ```
-  !b Blue
+  (no new markers)
   ```
-  Guesses: Once in a blue moon, Blue Moon, One in a million → Correct
+  Guesses: Idea incubator, Innovation hub, Research lab → No
 
-### Once in a blue moon (trial 2)
+### Once in a blue moon (trial 1)
 - Outcome: solved (step 4)
 - Human clues from: playtests/2026-11-16-tabletop.md, card 6 #5
 - Step 1:
   ```
   ?g B8
   ```
-  Guesses: Catchphrase, Famous quote, Idiom → No
+  Guesses: Catchphrase, Slogan, Proverb → No
 - Step 2:
   ```
   !r F11
   ```
-  Guesses: One-liner, Slogan, Motto → No
+  Guesses: One-liner, Tagline, Quote → No
 - Step 3:
   ```
   !b Blue
   ```
-  Guesses: Password, Watchword, Mantra → No
+  Guesses: Sound bite, Motto, Tweet → No
 - Step 4:
   ```
   !k E2
   ```
   Guesses: Once in a blue moon, Blue moon, Once upon a time → Correct
+
+### Once in a blue moon (trial 2)
+- Outcome: solved (step 3)
+- Human clues from: playtests/2026-11-16-tabletop.md, card 6 #5
+- Step 1:
+  ```
+  ?g B8
+  ```
+  Guesses: Catchphrase, Proverb, Slogan → No
+- Step 2:
+  ```
+  !r F11
+  ```
+  Guesses: Tagline, Motto, Buzzword → No
+- Step 3:
+  ```
+  !b Blue
+  ```
+  Guesses: Once in a blue moon, Out of the blue, Feeling blue → Correct
 
 ### Once in a blue moon (trial 3)
 - Outcome: solved (step 4)
@@ -1004,12 +1025,12 @@ Model games solved, by what the humans did with the same clues.
   ```
   !r F11
   ```
-  Guesses: One-liner, Motto, Proverb → No
+  Guesses: One-liner, Motto, Famous last words → No
 - Step 3:
   ```
   !b Blue
   ```
-  Guesses: Tagline, Mantra, Catchword → No
+  Guesses: Swear word, Profanity, Curse word → No
 - Step 4:
   ```
   !k E2
@@ -1024,7 +1045,7 @@ Model games solved, by what the humans did with the same clues.
   ?g A13
   + G7 x6 [the six cubes arranged in a 2×3 rectangle, like a brick's studs]
   ```
-  Guesses: LEGO, Building blocks, Rubik's Cube → Correct
+  Guesses: Lego, Rubik's Cube, Dice → Correct
 
 ### Lego (trial 2)
 - Outcome: solved (step 1)
@@ -1034,7 +1055,7 @@ Model games solved, by what the humans did with the same clues.
   ?g A13
   + G7 x6 [the six cubes arranged in a 2×3 rectangle, like a brick's studs]
   ```
-  Guesses: LEGO, Rubik's Cube, Building blocks → Correct
+  Guesses: Lego, Rubik's Cube, Dice → Correct
 
 ### Lego (trial 3)
 - Outcome: solved (step 1)
@@ -1044,7 +1065,7 @@ Model games solved, by what the humans did with the same clues.
   ?g A13
   + G7 x6 [the six cubes arranged in a 2×3 rectangle, like a brick's studs]
   ```
-  Guesses: LEGO, Building blocks, Dice → Correct
+  Guesses: Lego, Rubik's Cube, Building blocks → Correct
 
 ### Rain check (trial 1)
 - Outcome: solved (step 4)
@@ -1053,55 +1074,38 @@ Model games solved, by what the humans did with the same clues.
   ```
   ?g B8
   ```
-  Guesses: Book, Movie, Television show → No
+  Guesses: Catchphrase, Slogan, Proverb → No
 - Step 2:
   ```
   !b E1 [on the rain under the cloud]
   ```
-  Guesses: Raining cats and dogs, Rainy day, Weather forecast → No
+  Guesses: Raining cats and dogs, Come rain or shine, Every cloud has a silver lining → No
 - Step 3:
   ```
   !y F7
   + C8
   + H3
   ```
-  Guesses: Catchphrase, Slogan, Fine print → No
+  Guesses: Money talks, Show me the money, Paper money → No
 - Step 4:
   ```
   (no new markers)
   ```
-  Guesses: Rain check, Money talks, Promissory note → Correct
+  Guesses: Rain check, It's raining money, Money doesn't grow on trees → Correct
 
 ### Rain check (trial 2)
-- Outcome: solved (step 5)
+- Outcome: solved (step 2)
 - Human clues from: playtests/2026-11-16-tabletop.md, card 6 #7
 - Step 1:
   ```
   ?g B8
   ```
-  Guesses: Catchphrase, Famous quote, Idiom → No
+  Guesses: Catchphrase, Proverb, Slogan → No
 - Step 2:
   ```
   !b E1 [on the rain under the cloud]
   ```
-  Guesses: Under the weather, Rain on your parade, Singin' in the Rain → No
-- Step 3:
-  ```
-  !y F7
-  + C8
-  + H3
-  ```
-  Guesses: It's raining money, Money talks, Show me the money → No
-- Step 4:
-  ```
-  (no new markers)
-  ```
-  Guesses: Cold hard cash, Talk is cheap, Put your money where your mouth is → No
-- Step 5:
-  ```
-  (no new markers)
-  ```
-  Guesses: Rain check, Blank check, Bad check → Correct
+  Guesses: Raining cats and dogs, Under the weather, Rain check → Correct
 
 ### Rain check (trial 3)
 - Outcome: solved (step 3)
@@ -1115,11 +1119,11 @@ Model games solved, by what the humans did with the same clues.
   ```
   !b E1 [on the rain under the cloud]
   ```
-  Guesses: Raining cats and dogs, Every cloud has a silver lining, Under the weather → No
+  Guesses: It never rains but it pours, Raining cats and dogs, Right as rain → No
 - Step 3:
   ```
   !y F7
   + C8
   + H3
   ```
-  Guesses: Rain check, Money talks, Paper trail → Correct
+  Guesses: Rain check, Raining money, Cold hard cash → Correct

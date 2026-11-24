@@ -1,0 +1,125 @@
+{
+  "contentSha256": "3149ed57de885094c88d2a2568527c36d15f22f1427db035e9dba3bdcd912f67",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "4b5daa84bf7faab6f117925ff5de9ff2fdd6395e55661846fcc5b242e99c1765"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "739e2770c2dbb8ed4ff7e73a4927474d64996110bcb0f765e7ac5231c17c46ee"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "deepseek/deepseek-v4-flash",
+        "reasoning": {
+          "enabled": false
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "guesses"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-2"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "f6004e3-dirty",
+    "costUsd": 0.00036246,
+    "latencyMs": 1045,
+    "recordedAt": "2026-11-24T00:11:37.783Z",
+    "recordedBy": "claude",
+    "servedBy": "Parasail",
+    "servedModel": "deepseek/deepseek-v4-flash",
+    "tags": {
+      "run": "calibrate-or-deepseek"
+    },
+    "usage": {
+      "cacheReadTokens": 4608,
+      "cacheWriteTokens": 0,
+      "inputTokens": 4847,
+      "outputTokens": 23,
+      "reasoningTokens": 0
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": {
+            "$llmemo.text": "d2f0d68d703fcce1bd9b3ab01cc3e7a498479955fae274e17286d8476132709d"
+          },
+          "reasoning": null,
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "stop"
+      }
+    ],
+    "created": 1795479096,
+    "id": "gen-1795479096-QvTYRlZe1yYTYUxnc2GQ",
+    "model": "deepseek/deepseek-v4-flash",
+    "object": "chat.completion",
+    "provider": "Parasail",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 23,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "cost": 0.00036246,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00000644,
+        "upstream_inference_cost": 0.00036246,
+        "upstream_inference_prompt_cost": 0.00035602
+      },
+      "is_byok": false,
+      "prompt_tokens": 4847,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 4608,
+        "video_tokens": 0
+      },
+      "total_tokens": 4870
+    }
+  }
+}

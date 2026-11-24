@@ -1,0 +1,55 @@
+New prompt.
+
+Step 1, markers placed:
+?g B8
+Board now:
+?g B8
+Guesses: Quote, Phrase, Expression
+Clue-giver: No
+
+Step 2, markers placed:
+!r F11
+Board now:
+?g B8
+!r F11
+Guesses: Idiom, Common phrase, Expression
+Clue-giver: No
+
+Step 3, markers placed:
+!b Blue
+Board now:
+?g B8
+!r F11
+!b Blue
+Guesses: Idiom, Common phrase, Saying
+Clue-giver: No
+
+Step 4, markers placed:
+!k E2
+Board now:
+?g B8
+!r F11
+!b Blue
+!k E2
+Guesses: Idiom, Common phrase, Saying
+Clue-giver: No
+
+Step 5, markers placed:
+(no new markers)
+Board now:
+?g B8
+!r F11
+!b Blue
+!k E2
+Guesses: idiom, common phrase, saying
+Clue-giver: No
+
+Step 6, markers placed:
+(no new markers)
+Board now:
+?g B8
+!r F11
+!b Blue
+!k E2
+
+Give up to 3 guesses, best first, or none to pass.

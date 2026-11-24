@@ -1,0 +1,7 @@
+{
+  "guesses": [
+    "Double click",
+    "Right click",
+    "Back button"
+  ]
+}

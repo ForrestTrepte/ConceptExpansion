@@ -1,0 +1,24 @@
+New prompt.
+
+Step 1, markers placed:
+?g A14
++ H4
++ F8
+Board now:
+?g A14 | H4, F8
+Guesses: Food, Apple, Orange
+Clue-giver: No
+
+Step 2, markers placed:
+(no new markers)
+Board now:
+?g A14 | H4, F8
+Guesses: Banana, Peach, Pass
+Clue-giver: No
+
+Step 3, markers placed:
+(no new markers)
+Board now:
+?g A14 | H4, F8
+
+Give up to 3 guesses, best first, or none to pass.

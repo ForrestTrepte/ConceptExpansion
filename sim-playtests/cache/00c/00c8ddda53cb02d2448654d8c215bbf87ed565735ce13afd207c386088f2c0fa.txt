@@ -1,0 +1,37 @@
+New prompt.
+
+Step 1, markers placed:
+?g A5
++ C1
+!r Green
+!y A14
++ Green
+!b A14
++ D12
+Board now:
+?g A5 | C1
+!r Green
+!y A14 | Green
+!b A14 | D12
+Guesses: Baby food, Infant nutrition, Formula
+Clue-giver: No
+
+Step 2, markers placed:
+(no new markers)
+Board now:
+?g A5 | C1
+!r Green
+!y A14 | Green
+!b A14 | D12
+Guesses: Pediatrician, Baby bottle, Nursery
+Clue-giver: No
+
+Step 3, markers placed:
+(no new markers)
+Board now:
+?g A5 | C1
+!r Green
+!y A14 | Green
+!b A14 | D12
+
+Give up to 3 guesses, best first, or none to pass.

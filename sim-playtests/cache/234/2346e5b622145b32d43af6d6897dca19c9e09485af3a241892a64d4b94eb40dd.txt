@@ -1,0 +1,11 @@
+New prompt.
+
+Step 1, markers placed:
+?g A3
++ C4
++ A11
++ D10
+Board now:
+?g A3 | C4, A11, D10
+
+Give up to 1 guess, best first, or none to pass.

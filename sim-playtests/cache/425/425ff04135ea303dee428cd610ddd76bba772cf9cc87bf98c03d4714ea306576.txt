@@ -1,0 +1,7 @@
+{ 
+"guesses": [
+  "Poem",
+  "Song lyrics",
+  "Idiom"
+]
+}

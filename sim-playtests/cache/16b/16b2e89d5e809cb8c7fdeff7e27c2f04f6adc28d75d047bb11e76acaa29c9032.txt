@@ -1,0 +1,29 @@
+New prompt.
+
+Step 1, markers placed:
+?g A1
++ C9
++ C2
+!r D5
++ E10
+Board now:
+?g A1 | C9, C2
+!r D5 | E10
+Guesses: church, priest, pope
+Clue-giver: No
+
+Step 2, markers placed:
+(no new markers)
+Board now:
+?g A1 | C9, C2
+!r D5 | E10
+Guesses: monastery, nun, altar
+Clue-giver: No
+
+Step 3, markers placed:
+(no new markers)
+Board now:
+?g A1 | C9, C2
+!r D5 | E10
+
+Give up to 3 guesses, best first, or none to pass.

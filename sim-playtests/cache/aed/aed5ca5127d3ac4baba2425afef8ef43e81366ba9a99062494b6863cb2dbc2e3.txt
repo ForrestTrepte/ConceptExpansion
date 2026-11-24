@@ -1,0 +1,26 @@
+New prompt.
+
+Step 1, markers placed:
+?g A13
++ D11
+!r E5
+!y F7
+!b F8
+Board now:
+?g A13 | D11
+!r E5
+!y F7
+!b F8
+Guesses: Toy, Game, Puzzle
+Clue-giver: No
+
+Step 2, markers placed:
++g B3
++ F9
+Board now:
+?g A13 | D11, B3, F9
+!r E5
+!y F7
+!b F8
+
+Give up to 3 guesses, best first, or none to pass.

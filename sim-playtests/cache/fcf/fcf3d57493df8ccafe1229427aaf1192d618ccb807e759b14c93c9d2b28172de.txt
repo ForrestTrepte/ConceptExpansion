@@ -1,0 +1,42 @@
+New prompt.
+
+Step 1, markers placed:
+?g D2 [placed between C2 and D2: a person of either sex]
+Board now:
+?g D2
+Guesses: Person, Human, Man
+Clue-giver: No
+
+Step 2, markers placed:
+!b E8
++ D3
+Board now:
+?g D2
+!b E8 | D3
+Guesses: Speed dating, Opposite-sex twins, Reverse-Flash
+Clue-giver: No
+
+Step 3, markers placed:
++g B14
++ A7
+Board now:
+?g D2 | B14, A7
+!b E8 | D3
+Guesses: The Flash, Dr. House, The Fast and the Furious
+Clue-giver: No
+
+Step 4, markers placed:
+(no new markers)
+Board now:
+?g D2 | B14, A7
+!b E8 | D3
+Guesses: Slow Horses, The Tortoise and the Hare, Home Improvement
+Clue-giver: No
+
+Step 5, markers placed:
+(no new markers)
+Board now:
+?g D2 | B14, A7
+!b E8 | D3
+
+Give up to 3 guesses, best first, or none to pass.

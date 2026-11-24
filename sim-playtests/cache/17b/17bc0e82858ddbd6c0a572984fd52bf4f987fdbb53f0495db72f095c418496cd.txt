@@ -1,0 +1,42 @@
+New prompt.
+
+Step 1, markers placed:
+?g A3
++ C4
++ A11
++ D10
+Board now:
+?g A3 | C4, A11, D10
+Guesses: Doctor, Nurse, Paramedic
+Clue-giver: No
+
+Step 2, markers placed:
+!r B13
++ Red
+Board now:
+?g A3 | C4, A11, D10
+!r B13 | Red
+Guesses: Firefighter, Paramedic, Emergency responder
+Clue-giver: No
+
+Step 3, markers placed:
+!y F1
++ F4
+Board now:
+?g A3 | C4, A11, D10
+!r B13 | Red
+!y F1 | F4
+Guesses: Weather Forecaster, Meteorologist, Storm Chaser
+Clue-giver: No
+
+Step 4, markers placed:
+!b A2
++ F3
++ D5
+Board now:
+?g A3 | C4, A11, D10
+!r B13 | Red
+!y F1 | F4
+!b A2 | F3, D5
+
+Give up to 3 guesses, best first, or none to pass.

@@ -1,0 +1,7 @@
+{ 
+"guesses": [
+    "Rain gauge",
+    "Weather station",
+    "Meteorological tool"
+  ]
+}

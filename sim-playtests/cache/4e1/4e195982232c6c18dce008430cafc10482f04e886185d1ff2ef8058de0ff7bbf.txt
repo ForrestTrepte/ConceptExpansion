@@ -1,0 +1,51 @@
+New prompt.
+
+Step 1, markers placed:
+?g B8
+!r B8
++ D14
+!y B9
++ H10
+Board now:
+?g B8
+!r B8 | D14
+!y B9 | H10
+Guesses: A quote about lips, A saying about a city, A famous speech
+Clue-giver: No
+
+Step 2, markers placed:
++g B1
++ E9
+Board now:
+?g B8 | B1, E9
+!r B8 | D14
+!y B9 | H10
+Guesses: A group of people talking, A political rally, A protest
+Clue-giver: No
+
+Step 3, markers placed:
++y B1
+Board now:
+?g B8 | B1, E9
+!r B8 | D14
+!y B9 | H10, B1
+Guesses: A gossip, a rumor, A secret, A legend
+Clue-giver: No
+
+Step 4, markers placed:
+(no new markers)
+Board now:
+?g B8 | B1, E9
+!r B8 | D14
+!y B9 | H10, B1
+Guesses: A crowd of people talking, A noisy city, A large group of people
+Clue-giver: No
+
+Step 5, markers placed:
+(no new markers)
+Board now:
+?g B8 | B1, E9
+!r B8 | D14
+!y B9 | H10, B1
+
+Give up to 3 guesses, best first, or none to pass.

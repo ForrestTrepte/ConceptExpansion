@@ -1,0 +1,134 @@
+{
+  "contentSha256": "e9029c9c8d56af24e6ad8ec9e1bb84693bfdde1d27c6819a1db482896e247a91",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "4b5daa84bf7faab6f117925ff5de9ff2fdd6395e55661846fcc5b242e99c1765"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "dac9cb6b60c1ec765873610301d24d2ef9c876dde2c3879d7743592cb16622ad"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "openai/gpt-6-luna",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "guesses"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-3"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "f6004e3-dirty",
+    "costUsd": 0.000250445,
+    "latencyMs": 3851,
+    "recordedAt": "2026-11-24T00:05:28.729Z",
+    "recordedBy": "claude",
+    "servedBy": "OpenAI",
+    "servedModel": "openai/gpt-6-luna",
+    "tags": {
+      "run": "calibrate-or-luna"
+    },
+    "usage": {
+      "cacheReadTokens": 4727,
+      "cacheWriteTokens": 163,
+      "inputTokens": 4893,
+      "outputTokens": 365,
+      "reasoningTokens": 338
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"The Fresh Prince of Bel-Air\",\"Big Brother\",\"Home Alone\"]}",
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "data": {
+                "$llmemo.text": "40bf04f616df9d9c7697fe26bb6f55c6342f1de1f9115691d58e73f03462921f"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_0083793afa3b7ae5016b04d4c579ac87d199aa54967bb2b00d",
+              "index": 0,
+              "type": "reasoning.encrypted"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "completed"
+      }
+    ],
+    "created": 1795478724,
+    "id": "gen-1795478724-HFLpqnE1d2JbYLF322qS",
+    "model": "openai/gpt-6-luna",
+    "object": "chat.completion",
+    "provider": "OpenAI",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 365,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 338
+      },
+      "cost": 0.000250445,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0001825,
+        "upstream_inference_cost": 0.000250445,
+        "upstream_inference_prompt_cost": 0.000067945
+      },
+      "is_byok": false,
+      "prompt_tokens": 4893,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 163,
+        "cached_tokens": 4727,
+        "video_tokens": 0
+      },
+      "total_tokens": 5258
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "contentSha256": "8e656d8c66e358020134e18fa5908615d7a90194bcb9b4a482d30817e0668be5",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "4b5daa84bf7faab6f117925ff5de9ff2fdd6395e55661846fcc5b242e99c1765"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "489ea0dad18917ae318c31a83af8568a15d584d017b2cc311b5653265071b91d"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "openai/gpt-6-luna",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "guesses"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-2"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "f6004e3-dirty",
+    "costUsd": 0.000397695,
+    "latencyMs": 7337,
+    "recordedAt": "2026-11-24T00:05:39.064Z",
+    "recordedBy": "claude",
+    "servedBy": "OpenAI",
+    "servedModel": "openai/gpt-6-luna",
+    "tags": {
+      "run": "calibrate-or-luna"
+    },
+    "usage": {
+      "cacheReadTokens": 4727,
+      "cacheWriteTokens": 245,
+      "inputTokens": 4975,
+      "outputTokens": 639,
+      "reasoningTokens": 614
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"Zoom in and out\",\"Toggle\",\"Drag and drop\"]}",
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "data": {
+                "$llmemo.text": "287c996e190deffa904b9c95622849d447dc7b36441115a8514229e820aed1a3"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_0b8dfc9e8de6e346016b04d4cc3e7487d1843a79957d5df43a",
+              "index": 0,
+              "type": "reasoning.encrypted"
+            },
+            {
+              "format": "openai-responses-v1",
+              "index": 1,
+              "summary": {
+                "$llmemo.text": "110293db5b587fe5c1edcec39ef7f1491444a5011322a9f52500c5f812b1cb35"
+              },
+              "type": "reasoning.summary"
+            },
+            {
+              "data": {
+                "$llmemo.text": "ce9210599b2580997bdcf84237559d38d07c926e160efed1c7d6a2503fbd5adb"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_0b8dfc9e8de6e346016b04d4d0cfa087d1abc833840900db6c",
+              "index": 2,
+              "type": "reasoning.encrypted"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "completed"
+      }
+    ],
+    "created": 1795478731,
+    "id": "gen-1795478731-k67ZeMHHgroVT53Dq9JI",
+    "model": "openai/gpt-6-luna",
+    "object": "chat.completion",
+    "provider": "OpenAI",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 639,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 614
+      },
+      "cost": 0.000397695,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0003195,
+        "upstream_inference_cost": 0.000397695,
+        "upstream_inference_prompt_cost": 0.000078195
+      },
+      "is_byok": false,
+      "prompt_tokens": 4975,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 245,
+        "cached_tokens": 4727,
+        "video_tokens": 0
+      },
+      "total_tokens": 5614
+    }
+  }
+}

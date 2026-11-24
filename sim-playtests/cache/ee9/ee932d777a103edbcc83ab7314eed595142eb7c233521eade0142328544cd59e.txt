@@ -1,0 +1,7 @@
+{ 
+"guesses": [
+"Landslide",
+"Rockslide",
+"Mudslide"
+]
+}
