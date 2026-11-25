@@ -27,8 +27,8 @@ COLUMNS: list[tuple[str, float, tuple[str, ...] | None]] = [
     ("Clue-giver", 0.7, None),
     ("Guessers", 0.95, None),
     ("Result", 1.65, ("solved", "gave up", "skipped")),
-    ("Time (min)", 1.1, ("<1", "1–3", "3+")),
-    ("Difficulty", 2.6, ("too easy", "easy", "difficult", "hard", "too hard")),
+    ("Minutes", 1.1, None),
+    ("Difficulty", 2.6, ("too easy", "easy", "medium", "hard", "too hard")),
     ("Interest", 2.0, ("low", "medium", "high", "fantastic")),
     ("Photo", 0.45, ("",)),
 ]

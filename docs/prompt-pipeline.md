@@ -58,14 +58,16 @@ The script's output is evidence, not the final word.
 
 - **27 prompts on 3 cards**, balanced as in
   [prompt-guidelines.md](prompt-guidelines.md#building-cards-from-the-pool).
-- **Only prompts the guessers haven't seen.** The group has seen cards 5 and 6
-  (tabletop 2026-11-16). The owner has seen every prompt on cards 1–18 and every
-  prompt in a `play` game, so the owner can give clues for anything but should only
-  guess prompts they haven't seen. The playtest logs record who saw what.
+- **Only prompts the guessers haven't seen.** A player has seen a prompt if they
+  clued or guessed it in a logged game. So far that's cards 5 and 6 for the group
+  (tabletop 2026-11-16), plus, for Forrest, the text playtests and every `play` game.
+  Merely glancing at a printed card doesn't count. The logs record who played.
 - **About 2/3 best candidates, 1/3 to learn from.** If only top-scoring prompts are
   played, nobody finds out whether the rubric wrongly marks some prompts down. The
-  "learn" third are prompts where the measures disagree or the score is middling.
-  Note which is which when selecting, so the evaluation can compare them.
+  "learn" third are prompts where the measures disagree, the samples disagree, or the
+  score is near a level boundary. No label is needed: the evaluation re-scores the
+  round with the rubric version used for selection (llmemo replays it free), so it
+  can see which prompts were borderline.
 
 ## 3–4. Playtest and log
 
@@ -83,9 +85,22 @@ time, and the group's difficulty and interest ratings. Questions to answer each 
 - Does the predicted band match the group's difficulty rating?
 - Do "fun" measures (routes, picture play, neighbors) match the interest rating?
 
-With a few dozen games per round, the statistics only show direction, not exact
-weights. Drop or rewrite measures that predict nothing, record what changed in
-prompt-guidelines.md, and re-score the pool.
+**How to combine the measures.** The difficulty and quality scores in the rubric are
+weighted sums with hand-set weights. With about 45 played prompts, fitting the weights
+by regression would overfit: an ordinal logistic regression (the levels are ordered)
+needs roughly 10 outcomes per measure, and there are 5 difficulty measures. So, for
+now:
+
+1. Check the hand-set score against the results: rank correlation with the group's
+   difficulty rating, and how well it separates solved from failed or skipped.
+2. Check each measure on its own the same way. Drop or rewrite the ones that predict
+   nothing, and adjust weights only where the data clearly point one way.
+3. Fit the weights (ordinal logistic regression, few predictors, checked by
+   leave-one-out) once there's enough data: after several rounds, or sooner on the
+   IneG/concept dataset, which has thousands of games with base-game difficulty bands.
+   Weights fit on the base game would then be checked on our own playtests.
+
+Record what changed in prompt-guidelines.md, and re-score the pool.
 
 ## Backlog
 

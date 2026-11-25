@@ -98,11 +98,13 @@ def test_ratings_line(tmp_path: Path) -> None:
     text = ENTRY.replace(
         "- Clue-giver: human · Guessed: skipped · Verdict: too hard\n",
         "- Clue-giver: human · Guessed: skipped (no idea how to start) · Verdict: too hard\n"
-        "- Players: clue-giver B; guessers Forrest, C · Time: 1–3 min · Difficulty: too hard"
-        " · Interest: low\n",
+        "- Players: clue-giver B; guessers Forrest, C\n- Time: 3 min\n- Difficulty: too hard (no start)\n"
+        "- Interest: low\n",
     )
     rain = parse_log(write(tmp_path, "2026-01-01-tabletop.md", text.replace("  + F9\n\n", "  + F9\n")))[1]
     assert (rain.clue_giver_name, rain.guessers) == ("B", ("Forrest", "C"))
-    assert (rain.time, rain.difficulty, rain.interest) == ("1–3 min", "too hard", "low")
+    assert (rain.minutes, rain.difficulty, rain.interest) == (3, "too hard", "low")
     with pytest.raises(LogFormatError, match="interest must be one of"):
         parse_log(write(tmp_path, "2026-01-02-tabletop.md", text.replace("Interest: low", "Interest: meh").replace("  + F9\n\n", "  + F9\n")))
+    with pytest.raises(LogFormatError, match="whole minutes"):
+        parse_log(write(tmp_path, "2026-01-03-tabletop.md", text.replace("3 min", "1–3 min").replace("  + F9\n\n", "  + F9\n")))

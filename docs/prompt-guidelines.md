@@ -54,40 +54,94 @@ playtesting shows what works. Back to [README](../README.md).
 
 ## Clueability rubric
 
-**Draft (2026-11-25), waiting for the owner's review. Not yet checked against playtest
-data.** Tests 2–4 above say whether a prompt can be clued at all. This rubric measures
-*how well*, as separate scores that can each be checked against playtest results (see
+**Draft v2 (2026-11-25), waiting for the owner's review. Not yet checked against
+playtest data.** One rubric answers three questions about a prompt: does it qualify,
+how hard is it, and how well does it play. Tests 1 and 5–9 above become yes/no
+*gates*. Tests 2–4 (clueability, a working route, distinctness) are measured by the
+difficulty measures, and a prompt that fails them comes out *too hard*. Each measure
+is scored separately so it can be checked against playtest results (see
 [prompt-pipeline.md](prompt-pipeline.md)). Score each prompt as a typical American
 adult player would experience it, looking at the icon pictures, not as a model that
 knows every icon's label words.
 
+### Difficulty levels
+
+Predictions use the same five levels as the group's difficulty rating, so the two can
+be compared directly:
+
+| Level | Meaning | Card band |
+|---|---|---|
+| **too easy** | One icon gives it away, usually because it's pictured (test 9) | none |
+| **easy** | | Blue |
+| **medium** | | Red |
+| **hard** | | Black |
+| **too hard** | Can't be clued, or not reliably | none |
+
+Band colors are used only for card slots: a prompt rated *medium* goes in a Red
+slot.
+
+### Gates
+
+Yes/no each. Any yes means `rejected`, with the gate as the reason.
+
+| # | Gate | Examples |
+|---|---|---|
+| G1 | **Unfamiliar** (test 1): of 5 typical players, how many would know it instantly once guessed (0–5). Reject below 3; Blue and Red need 4 or more | Rain check 4, Elbow room 3 |
+| G2 | **Pictured on the board** (test 9) | Octopus (drawn in A4), Light bulb (drawn in A8) |
+| G3 | **Likely dated** within 5–10 years (test 5) | memes, single-season hits |
+| G4 | **Not family-friendly** (test 6) | |
+| G5 | **Too long** for the card (test 7) | |
+
+Base-game duplicates (test 8) are checked against the private list, not scored.
+
+### Difficulty measures
+
 | # | Measure | Scale | Anchors from play |
 |---|---|---|---|
-| R1 | **Foothold**: how well the clue-giver can start | 0: no Main Concept fits and no first association comes to mind · 1: a Main Concept fits, but the first markers point to many things · 2: Main Concept plus one strong feature narrows it to a small family · 3: Main Concept plus one or two icons is enough for most people | 0: Déjà vu, Taco (skipped). 1: Snail (animal + slow → turtle). 2: Penguin. 3: Pizza, Food truck |
-| R2 | **Parts**: each word (phrases, titles) or key feature (things) a guesser must reach | For each part: *direct*, *built*, or *far* (see [Difficulty bands](#difficulty-bands)), with the icons. Report the counts and the hardest part | Ice = built (water + cold + cube). Self = far |
-| R3 | **Wording**: how exact the answer has to be | 0: any common name for it counts · 1: a set phrase or title, but every word is direct or built · 2: at least one word no icon reaches (a verb or function word to hunt for) | 1: Once in a blue moon. 2: Rain check ("check"), Hit the snooze button ("hit") |
-| R4 | **Neighbors**: likeliest wrong answers from the obvious clue | Up to 3 neighbors; for each, the icon that separates it, or *none*. Report how many can't be separated | Penguin vs. orca: B11 + E11. Umbrella vs. cooler: rain vs. cold, both in E1 |
-| R5 | **Routes**: distinct clue plans from foothold to answer | List each route (Main Concept, Sub-Concepts, key icons). Routes count as distinct when they rest on a different idea, not different icons for the same idea. Rate each *strong* (every step uses an icon's main meaning or an obvious picture) or *weak* (relies on a secondary label, a pun, or a chain of meanings). Report strong and weak counts | Popcorn: cinema route (strong, unused in play) vs. process route (weak, failed). Couch potato: meaning route (person + opposite of fast + home + TV) |
-| R6 | **Familiarity** | 1–5: share of American adults who would know it instantly once guessed (1: under a quarter, 5: nearly everyone). Note it if a quick check shows the word or phrase is rare in current use | Rain check 4, Elbow room 3 |
-| R7 | **Fun signals** | Yes/no each: *picture play* (an icon's shape or picture used cleverly); *aha neighbor* (a plausible wrong guess that one more clue turns into the answer); *new angle* (the best route sees the thing from an unexpected side) | Volcano (cone); orca → penguin; Couch potato |
-| R8 | **Disqualifiers** | Yes/no each: pictured on the board (test 9), not family-friendly, too long, likely dated within 5–10 years | Octopus, Light bulb |
+| D1 | **Foothold**: how well the clue-giver can start | 0: no Main Concept fits and no first association comes to mind · 1: a Main Concept fits, but the first markers point to many things · 2: Main Concept plus one strong feature narrows it to a small family · 3: Main Concept plus one or two icons is enough for most people | 0: Déjà vu, Taco (skipped). 1: Snail (animal + slow → turtle). 2: Penguin. 3: Pizza, Food truck |
+| D2 | **Parts** along the best route: each word a guesser must say (phrases, titles) or each key feature (things) | Each part is *direct*, *built*, or *far* (see [Difficulty bands](#difficulty-bands)), with its icons. Count built and far parts. A word no icon reaches is far. An idiom clued by its meaning has the meaning as one part | Ice = built (water + cold + cube). "Self" = far. "Check" in Rain check = far |
+| D3 | **Exact wording**: can guessers have the right idea and still say something else? | 0: no; once they have the idea, they say the answer (one common name) · 1: yes: a set phrase or title whose exact words must be found, or a thing with a more common name that comes out first | 0: Umbrella, Penguin. 1: Once in a blue moon ("rarely" isn't enough), Couch potato ("lazy person"), Automobile (they say "car") |
+| D4 | **Neighbors**: the 1–3 likeliest wrong answers from the obvious clue | For each, the icon that separates it, or *none*. Count the ones with none | Penguin vs. orca: B11 + E11. Umbrella vs. cooler: rain vs. cold, both in E1 |
+| D5 | **Strong routes**: distinct clue plans that reach the answer using only main meanings and obvious pictures | Count them. Routes are distinct when they rest on a different idea, not different icons for the same idea. A route that relies on a secondary label, a pun, or a chain of meanings is *weak*; list weak routes but don't count them here | Couch potato: 1 strong (person C2/D2 + opposite E8 of fast D3 + home B14 + TV A7, then the phrase is what people call that); the literal route is weak (no icon for "couch"). Popcorn: cinema route strong (unused in play), process route weak (failed) |
 
-**Predicted band**, from R1–R3 (a first mapping of the band table below; the
-evaluation will test it):
+### Quality measures
 
-- **Blue:** no built or far parts, foothold 2–3, wording 0–1.
-- **Black:** a far part, or two or more built parts, or a built part with wording 1–2.
-- **Red:** everything else that isn't flagged too hard.
-- **Too hard** (don't put on a card without playtesting): foothold 0, or wording 2, or
-  no strong route, or two or more far parts.
+For ranking prompts at the same level.
 
-**Ranking within a band** is still open: the evaluation will show which measures
-predict solved prompts and high interest ratings. To start, prefer more strong
-routes, fun signals, and neighbors that can be separated.
+| # | Measure | Scale | Examples |
+|---|---|---|---|
+| Q1 | **Routes**: all distinct routes, strong and weak | count | Harry Potter: wand, or glasses + lightning scar |
+| Q2 | **Aha neighbor**: a plausible wrong guess that one more clue turns into the answer | yes/no | orca → Penguin, ice cube → Break the ice |
+| Q3 | **Picture play**: an icon's shape or picture used cleverly | yes/no | Volcano (cone), Roller coaster (up-down-wavy) |
+| Q4 | **New angle**: the best route sees the thing from an unexpected side | yes/no | Couch potato (clued as "the opposite of fast") |
+
+### Scores
+
+**Difficulty points** = (3 − foothold) + built parts + 3 × far parts + exact wording +
+neighbors with no separating icon.
+
+| Points | Level |
+|---|---|
+| (one icon gives it away) | too easy |
+| 0–1 | easy |
+| 2–3 | medium |
+| 4–5 | hard |
+| 6 or more, **or** foothold 0, **or** no strong route | too hard |
+
+Examples: Pizza 0 (easy). Penguin 1 (easy). Star Wars 1: foothold 3, both words
+direct, exact wording 1 (easy; it went in one step on a Red slot). Selfie 4: foothold
+2, "self" far (hard). Déjà vu: foothold 0 (too hard; skipped).
+
+**Quality** = min(Q1, 3) + Q2 + Q3 + Q4, from 0 to 6. Within a level, prefer higher
+quality.
+
+These weights are a starting guess, set by hand to reproduce the band table below.
+They will be checked against the playtested prompts and refit when there's enough
+data (see [prompt-pipeline.md](prompt-pipeline.md#5-evaluate-and-revise)).
 
 **Two phases** (see [prompt-pipeline.md](prompt-pipeline.md#1-analyze)): the screen
-scores R1, R3, R6, R8 and counts far parts; the full ranking scores everything for
-the prompts that pass.
+scores the gates, D1, D3, and the number of far parts; the full ranking scores
+everything for the prompts that pass.
 
 ## Difficulty bands
 

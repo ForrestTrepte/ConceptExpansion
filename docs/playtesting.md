@@ -215,10 +215,16 @@ VS Code's Markdown preview.
   steps itself, at each change of group.
 - **Notable guesses:** comma-separated. Mark guesses the clue-giver answered `Yes` to
   with ` (Yes)` right after them.
-- **Players and ratings (tabletop):** the line right after the first line:
-  `- Players: clue-giver B; guessers Forrest, C · Time: 1–3 min · Difficulty: hard · Interest: high`.
-  Time, difficulty, and interest are optional; when given they must be one of the
-  values below.
+- **Players and ratings (tabletop):** lines right after the first line, each optional:
+  ```
+  - Players: clue-giver B; guessers Forrest, C
+  - Time: 3 min
+  - Difficulty: hard (we nearly had it)
+  - Interest: high
+  ```
+  Time is whole minutes. Difficulty and interest must be one of the values under
+  [Tabletop sessions](#tabletop-sessions), optionally followed by a short comment in
+  parentheses. Skipped prompts usually have only the Players line.
 
 ### Tabletop sessions
 
@@ -230,8 +236,8 @@ fill it in. For each prompt, tick:
 - **Result:** solved, gave up, or skipped. Skipping is allowed: the clue-giver may skip
   after about a minute of planning if they can't see how to start, and should say why
   in a few words. A skip is useful data (no foothold), so don't force an attempt.
-- **Time:** under 1 min, 1–3 min, or over 3 min.
-- **Difficulty**, agreed by the group: too easy, easy, difficult, hard, too hard.
+- **Time:** roughly how many minutes it took, rounded to a whole number.
+- **Difficulty**, agreed by the group: too easy, easy, medium, hard, too hard.
 - **Interest**, agreed by the group: low, medium, high, fantastic.
 - **Who** gave the clues and who guessed. Use a first name or an initial (B).
 
@@ -240,9 +246,9 @@ order of moves isn't recorded; the final board is enough. Comments (why it was f
 where people got stuck) go on the back of the sheet.
 
 Afterwards, give the sheet and photos to an AI session, which writes the log entries
-(clues converted to notation, the ratings line, comments). In the log, the ratings
-become `Time: under 1 min | 1–3 min | over 3 min`, `Difficulty: too easy | easy |
-difficult | hard | too hard`, and `Interest: low | medium | high | fantastic`. A skip
+(clues converted to notation, the players and ratings lines, comments). In the log, the ratings
+become `Time: <N> min`, `Difficulty: too easy | easy |
+medium | hard | too hard`, and `Interest: low | medium | high | fantastic`. A skip
 is `Guessed: skipped (<reason>)`; gave up is `Guessed: no`.
 
 **Verdicts:** `keep`, `too easy`, `too hard`, `unclear` (players didn't recognize it),

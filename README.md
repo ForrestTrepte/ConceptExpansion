@@ -195,31 +195,40 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-25 | Prompts are chosen by a loop: score with a clueability rubric (cheap screen, then a fuller ranking), playtest 3 cards (27 prompts) the group hasn't seen with the owner's group, check the rubric against the results, revise. About 1/3 of each round are prompts chosen to learn from. See [docs/prompt-pipeline.md](docs/prompt-pipeline.md) | Simulation doesn't predict people; a rubric's separate measures can be tested against playtests, and the group plays about 27 prompts per two sessions |
 | 2026-11-25 | Tabletop logs record who clued and guessed, plus result, time, difficulty, and interest, from a printed score sheet (`tools/scoresheet.py`) and photos of the final board. Skips are allowed and recorded with a reason | Structured ratings make each round comparable with the rubric; a skip is the clearest sign of no foothold |
 | 2026-11-25 | New candidate generation (LLM brainstorming, open lists) waits in the backlog | About 630 unplayed drafts are enough for many rounds |
+| 2026-11-25 | Difficulty is one five-level scale everywhere: too easy, easy, medium, hard, too hard. Rubric predictions and the group's ratings both use it; easy / medium / hard go in Blue / Red / Black slots. Time is logged in whole minutes | Predictions and ratings compare directly; "medium" is the word players reach for (the owner wrote it while rating), and minutes are more exact than ranges |
 
 ## Next steps
 
-1. **Clueability rubric: owner review.** A draft is in
-   [docs/prompt-guidelines.md](docs/prompt-guidelines.md#clueability-rubric) (measures
-   R1–R8, a predicted band, two phases). The owner reviews it before anything is
+1. **Clueability rubric: owner review.** Draft v2 is in
+   [docs/prompt-guidelines.md](docs/prompt-guidelines.md#clueability-rubric): gates,
+   difficulty measures D1–D5 and a points score on the five rating levels (too easy …
+   too hard), and quality measures Q1–Q4. The owner reviews it before anything is
    scored. The whole loop is in [docs/prompt-pipeline.md](docs/prompt-pipeline.md).
-2. **Check the rubric against the played prompts.** After review: write the analysis
-   script (llmemo, JSON output, screen and rank phases), score the ~45 prompts with
-   human results, and see which measures predict solved / failed / skipped. Only then
-   score the whole pool (screen with a cheaper model first). Record only when the
-   owner asks.
-3. **Select round 1: 3 cards, 27 prompts** the group hasn't seen (they've seen cards
+2. **Owner: data for rubric research.** After the review, the owner builds the
+   base-game prompt list for duplicate checks (in `private/`, see Future tasks) and
+   arranges access to the IneG/concept dataset, to check and fit the rubric on many
+   human games.
+3. **Check the rubric against played prompts.** Write the analysis script (llmemo,
+   JSON output, screen and rank phases), score the ~45 prompts with human results
+   (and IneG games, if available), and see which measures predict solved / failed /
+   skipped and the group's ratings. Only then score the whole pool (screen with a
+   cheaper model first). Record only when the owner asks.
+4. **Select round 1: 3 cards, 27 prompts** the group hasn't seen (they've seen cards
    5–6), about 2/3 best candidates and 1/3 to learn from. This replaces the old plan
    to reassemble cards 1–18: prompts on those cards are candidates like any other,
    and the tabletop re-banding and pictured-elements notes (Taco, Popcorn, Snail,
    Statue of Liberty; "Compounds to re-band" in
    [docs/pictured-elements.md](docs/pictured-elements.md)) feed into the scores. Print
    a score sheet (`tools/scoresheet.py`). Bump `data/VERSION` when the cards change.
-4. **Test print at the new size.** Once the cards are rebalanced, print
+   First, track who has seen what: add `- Players:` lines to the text-playtest logs,
+   have `simplay.py play` write one (guesser Forrest), and add a listing of the
+   prompts each player has clued or guessed, so selection can exclude them.
+5. **Test print at the new size.** Once the cards are rebalanced, print
    `output/cards.pdf` (run `uv run python tools/cards.py pdf`) at 100% scale. The cards are
    now 60.5 × 85.9 mm, which hasn't been printed yet. Cut out a few cards and check
    that they slide into MTG sleeves and the text is easy to read. Adjust the layout in
    `tools/cards.py` if needed.
-5. **Repeat the loop** (score, select 27, playtest, evaluate, revise) toward about 25
+6. **Repeat the loop** (score, select 27, playtest, evaluate, revise) toward about 25
    playtest-tested cards, then 100. After a couple of rounds, publish an alpha on BGG
    for feedback and outside playtesters.
 
