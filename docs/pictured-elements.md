@@ -1,7 +1,8 @@
 # Pictured elements
 
-What is drawn inside each board icon, for checking prompts against guideline test 9
-(**not pictured on the board**, see [prompt-guidelines.md](prompt-guidelines.md)).
+What is drawn inside each board icon, for checking prompts against gate G6
+(**pictured on the board**, see [prompt-guidelines.md](prompt-guidelines.md#gates);
+older notes call it test 9).
 Back to [README](../README.md).
 
 Some groups place a cube right on one detail of an icon's picture. A prompt that is
