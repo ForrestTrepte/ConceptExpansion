@@ -36,6 +36,9 @@ contributor, put it in README.md or a linked doc in `docs/` instead.
 - Record provenance for every prompt. Mark AI-drafted ones as `original`.
 - Prefer drafting original prompts over importing third-party ones. Suggest a
   borrowed prompt only when it is clearly better, and record its source and license.
+- The IneG/concept dataset (base-game rounds in `private/ineg-concept/`) is for rubric
+  calibration only. Follow [docs/prompt-pipeline.md](docs/prompt-pipeline.md#the-inegconcept-dataset),
+  and don't read it while drafting prompts.
 - Do not commit any base-game prompt list. If the user provides one for duplicate
   checks, keep it out of git (gitignored or in the scratchpad).
 

@@ -97,10 +97,80 @@ now:
    nothing, and adjust weights only where the data clearly point one way.
 3. Fit the weights (ordinal logistic regression, few predictors, checked by
    leave-one-out) once there's enough data: after several rounds, or sooner on the
-   IneG/concept dataset, which has thousands of games with base-game difficulty bands.
-   Weights fit on the base game would then be checked on our own playtests.
+   IneG/concept dataset (about 1,100 English rounds, see below). Weights fit on the
+   base game would then be checked on our own playtests.
 
 Record what changed in prompt-guidelines.md, and re-score the pool.
+
+## The IneG/concept dataset
+
+[IneG/concept](https://huggingface.co/datasets/IneG/concept) holds Board Game Arena
+logs of base-game rounds: the target prompt, its card number and difficulty band, each
+step's clues and guesses, and whether it was found. The English file has about 1,100
+rounds (818 after the authors' filtering) from 100 games. The paper,
+[Gevers & Daelemans 2025](https://arxiv.org/abs/2510.13271), is CC BY 4.0; cite it
+when using its findings (for example, humans found about 92% of targets, and rounds
+that needed more clues were found less often).
+
+The dataset is gated. Its license is CC BY-NC 4.0, and the access terms add "research
+and non-commercial use only". Nothing defines "research". We read the two together:
+the dataset is used only to study what makes prompts clueable, and the deck is built
+from what we learn, never from the data. That keeps the deck's provenance clean if
+the owner licenses it commercially later.
+
+**Allowed**
+
+- Download it into `private/ineg-concept/` (gitignored). Note the dataset commit used.
+- Analyze it to check and calibrate the clueability rubric: test which measures
+  predict found / not found, steps, and clue counts, and fit or adjust weights.
+- Commit the rubric and a short summary of the findings in our own words, at the
+  level of measures and weights, with no prompts or per-round results.
+
+**Not allowed**
+
+- Committing the data, or anything per round or per item derived from it (feature
+  tables, rubric scores of IneG items, fitted residuals). Those stay in `private/`.
+- Base-game prompts in any committed file, including as rubric anchors or examples.
+  Use our own prompts for those.
+- Using it as a source of prompts, or for duplicate checks against the base game.
+- Using the data itself to score our prompts: lookups, similarity to IneG items, or
+  any model trained on IneG items. Our prompts are scored only by the rubric.
+- Committed llmemo caches holding IneG calls. Scoring IneG items through llmemo
+  uses its own cache, `private/ineg-concept/cache/`, and labels and variants (which
+  go into the committed `llm-spend/` ledger) never name items. Redacting request
+  texts so entries could go in the public cache was considered and rejected: replies
+  would still describe the items, a hash can be confirmed by hashing a guessed prompt
+  with the public rubric, and numbers-only replies would lose the reasoning.
+
+**Backup.** The IneG cache holds paid calls that can't be recreated for free, so it
+must survive a container rebuild. `private/` is its own git repo (the main repo
+ignores it), pushed to a private GitHub repo owned by the owner:
+
+- Never make that repo public, and don't add collaborators who haven't accepted the
+  IneG terms themselves; sharing it would redistribute the dataset.
+- It holds the dataset files (keeping the pinned version), the IneG cache, and the
+  analysis outputs, plus the base-game prompt list once there is one.
+- After recording, commit and push it along with the main repo's `llm-spend/` commit.
+- After a rebuild, clone it back: `git clone <private repo URL> private`. Replays then
+  work again with no new calls.
+
+**Record each calibration** under "IneG calibrations" below: date, dataset commit,
+what was computed, and what changed in the rubric. That record shows what the
+dataset was and wasn't used for.
+
+**Practical limits**
+
+- Few failures: with about 92% found, there are only about 65 failed English rounds.
+  Steps and clues used are likely better difficulty signals than found / not found.
+- Measures that depend on clue routes need BGA's clue IDs mapped to our grid codes.
+  Measures based only on the prompt itself (kind, word count, parts direct / built /
+  far) don't.
+- These are online games on the base deck's prompts, not tabletop games with our
+  group. Weights fit here must still be checked on our own playtests.
+
+### IneG calibrations
+
+None yet.
 
 ## Backlog
 
@@ -109,9 +179,6 @@ Record what changed in prompt-guidelines.md, and re-score the pool.
   brainstorming command using several models, and the CC BY 4.0
   [Open Party Game Word Lists](https://github.com/ylwl1997/party-game-word-lists).
   See [deep-research-report.md](../deep-research-report.md) for other sources.
-- **The IneG/concept dataset** (Board Game Arena games of base-game prompts) could
-  check the rubric against thousands of human games. It is gated and research-only;
-  the owner will discuss asking its author for permission separately.
 - **Testers outside the group.** After a couple of rounds, an alpha release on BGG to
   ask for feedback and recruit playtesters. A web page where people guess from
   recorded clue sequences could add several guessers per prompt.
