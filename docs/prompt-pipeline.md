@@ -151,8 +151,12 @@ ignores it), pushed to a private GitHub repo owned by the owner:
 - It holds the dataset files (keeping the pinned version), the IneG cache, and the
   analysis outputs, plus the base-game prompt list once there is one.
 - After recording, commit and push it along with the main repo's `llm-spend/` commit.
-- After a rebuild, clone it back: `git clone <private repo URL> private`. Replays then
-  work again with no new calls.
+- The repo is `ForrestTrepte/ConceptExpansion-private`. In a Codespace,
+  `.devcontainer/devcontainer.json` asks for write access to it and clones it into
+  `private/` when the container is created; approve the access when GitHub asks.
+  Elsewhere, or if the clone was skipped, clone it by hand:
+  `git clone https://github.com/ForrestTrepte/ConceptExpansion-private.git private`.
+  Replays then work again with no new calls.
 
 **Record each calibration** under "IneG calibrations" below: date, dataset commit,
 what was computed, and what changed in the rubric. That record shows what the

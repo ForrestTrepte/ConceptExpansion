@@ -5,13 +5,24 @@
     "ghcr.io/devcontainers/features/node:1": {},
     "ghcr.io/anthropics/devcontainer-features/claude-code:1": {}
   },
-  // Install uv and create the project environment in .venv from uv.lock.
-  "postCreateCommand": "pipx install uv && uv sync",
+  // Install uv and create the project environment in .venv from uv.lock. Then clone
+  // the owner's private repo into private/ (gitignored); without access, skip it.
+  "postCreateCommand": "pipx install uv && uv sync && (git clone https://github.com/ForrestTrepte/ConceptExpansion-private.git private || echo 'private/ not cloned (no access)')",
   // The uv cache and the workspace are on different filesystems, so uv can't hardlink.
   "containerEnv": {
     "UV_LINK_MODE": "copy"
   },
   "customizations": {
+    // Codespaces asks the owner to approve access to the private repo for private/.
+    "codespaces": {
+      "repositories": {
+        "ForrestTrepte/ConceptExpansion-private": {
+          "permissions": {
+            "contents": "write"
+          }
+        }
+      }
+    },
     "vscode": {
       "settings": {
         "python.defaultInterpreterPath": "${containerWorkspaceFolder}/.venv/bin/python"
