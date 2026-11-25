@@ -1,0 +1,261 @@
+*   `?g F7`: Main Concept is F7 (Paper / Sheet).
+    *   `+ Yellow`: A cube in group `g` (Main Concept) is on Yellow.
+    *   `+ C8`: A cube in group `g` (Main Concept) is on C8 (Money / Rich / Expensive).
+    *   `!r A14`: Sub-concept (Red group) is A14 (Food / Eating / Edible).
+    *   `+ Brown`: A cube in group `r` (Sub-concept) is on Brown.
+
+    *   Main Concept (the thing): A piece of paper (F7) that is yellow and related to money (C8).
+    *   Sub-concept (a detail/connection): Related to food (A14) and the color brown.
+
+    *   Yellow paper + Money = A banknote/dollar bill? (But banknotes aren't usually "paper" in the way F7 implies, though they are made of paper/cotton).
+    *   Wait, if the main concept is "Paper", and it's "Yellow" and "Money"... maybe a gold leaf? No, that's not paper.
+    *   Maybe a "Menu"? (Menu is paper, often yellowed, related to food).
+    *   Maybe a "Receipt"? (Paper, can be yellow, related to money/food).
+    *   Maybe a "Pizza Box"? (Cardboard/paper, related to food, but not necessarily yellow/money).
+    *   Maybe "Banana"? (Food, yellow, but not paper).
+    *   Let's look at the Sub-concept again: `!r A14` (Food) + `Brown`.
+    *   Could it be a "Menu"?
+    *   Could it be "Bread"? (Yellow/Brown, Food, but not Paper).
+    *   What is "Yellow Paper" + "Money"? A "Check"? A "Coupon"?
+    *   What is "Paper" + "Food" + "Brown"? A "Brown paper bag"? (Wait, the main concept is *Paper*, and a brown paper bag is a thing made of paper).
+    *   If the answer is "Brown paper bag":
+        *   ?g F7 (Paper)
+        *   + Yellow (Wait, bags are brown, not yellow).
+        *   + C8 (Money? Not really).
+    *   Let's re-evaluate `?g F7`. If the answer is "Money", the clue-giver would use A8 (Idea) or B7 (Brand) or something. But they used F7 (Paper). This suggests the answer is something *made of* paper.
+    *   What is "Yellow Paper" + "Money" + "Food" + "Brown"?
+    *   A "Menu"? Menus are paper. They relate to food. They are often found in restaurants (money).
+    *   A "Bill"? (A restaurant bill/check). It is paper. It involves money. It involves food.
+    *   Wait, the "Yellow" cube is on the Main Concept (Paper).
+    *   Is it a "Post-it note"? (Yellow, paper). Doesn't fit food/money well.
+    *   Is it "Money"? No, F7 is paper.
+    *   Is it "Gold"? Not paper.
+    *   What about "Corn"? No.
+    *   Let's look at the colors again. `+ Yellow` is on F7. `+ C8` (Money) is on F7. `!r A14` (Food) has `+ Brown`.
+    *   Could it be "Pancake"? No.
+    *   Could it be "Waffle"? No.
+    *   "Menu"?
+    *   "Receipt"?
+    *   "Menu" seems plausible.
+    *   What about "Toast"? Not paper.
+    *   "Cereal box"? It's paper (cardboard), involves food, comes in colors?
+    *   "Newspaper"?
+    *   "Coupon"?
+    *   "Invoice"?
+    *   Let's rethink `!r A14` + `Brown`. A sub-concept describing a feature. A brown food.
+    *   Maybe "Chocolate"?
+    *   Maybe "Bread"?
+    *   If the answer is "Menu", it's paper. It's related to food. It's related to money (paying). But "Yellow" and "Brown"?
+    *   Wait! "Yellow" + "Money" + "Paper"... A "Check"? (A check is a piece of paper, often used for money).
+    *   What if the answer is "Honey"? Not paper.
+    *   What if the answer is "Butter"? Not paper.
+    *   Let's look at `F7` (Paper) + `Yellow` + `Money` again.
+    *   Maybe "Gold bar"? Not paper.
+    *   Maybe "Banknote"? It is a piece of paper.
+    *   If the answer is "Banknote":
+        *   ?g F7 (Paper) - Yes.
+        *   + Yellow - Some currencies are yellowish? Or maybe they meant gold-colored?
+        *   + C8 (Money) - Yes.
+        *   !r A14 (Food) + Brown? This is the hard part. Is there a banknote related to food or brown?
+        *   In some countries, money is brown?
+    *   Let's try a different angle.
+    *   `?g F7` (Paper) + `Yellow` + `C8` (Money) = "Legal Tender"? "Currency"?
+    *   `!r A14` (Food) + `Brown` = ?
+    *   Could it be "Cookie"? (No, not paper).
+    *   Could it be "Paper bag"? (It is paper. It's related to food. It's usually brown. But the main concept is marked Yellow and Money. A paper bag isn't really money).
+    *   What about "Menu"?
+    *   What about "Pizza box"? (Paper, food, brown, sometimes yellow logo?)
+    *   What about "Wallet"? (Not paper).
+    *   What about "Cash"?
+    *   Let's look at "Yellow" and "Money" and "Paper" again.
+    *   A "Coupon"?
+    *   A "Ticket"?
+    *   A "Menu"?
+    *   Wait... "Yellow" + "Money" + "Food" + "Brown"...
+    *   Is it "Mustard"? No.
+    *   Is it "Bread"?
+    *   Wait, `?g F7` (Paper). If the answer is "Money", they would have used `?g A8` (Idea) or something else. Since they used `F7` (Paper), the answer is almost certainly a physical object made of paper.
+    *   Objects made of paper: Book, Newspaper, Letter, Envelope, Receipt, Menu, Map, Card, Note, Tissue, Bag, Box, Certificate.
+    *   Which of these is "Yellow" and "Money" and "Food/Brown"?
+    *   "Menu" fits Food.
+    *   "Receipt" fits Money.
+    *   "Menu" could be Yellow.
+    *   Wait, "Brown Paper Bag"?
+        *   Main concept: Paper (F7).
+        *   Color: Brown (but the clue says the *Main Concept* is Yellow? No, the clue says `+ Yellow` is a cube on the main concept. So the paper is yellow).
+        *   `!r A14` (Food) + `Brown`.
+    *   What if the answer is "Honey"? No.
+    *   What if the answer is "Banana"? No.
+    *   Let's look at the `C8` (Money) on the `F7` (Paper) again.
+    *   Could it be "Check" (the way you pay)?
+    *   Could it be "Dollar"? (A dollar is money, but they used Paper).
+    *   Could it be "Banknote"?
+    *   Let's try "Menu". It's a common game word.
+    *   Wait, `F7` (Paper) + `Yellow` + `Money`...
+    *   Is it "Gold"? (No, not paper).
+    *   What is a "Yellow" piece of "Paper" that is "Money"?
+    *   A "Coupon"?
+    *   A "Gift card"?
+    *   Let's look at the `!r A14` (Food) + `Brown`.
+    *   Maybe the answer is "Bread"? (But bread isn't paper).
+    *   Wait... "Paper" + "Money" + "Food" + "Brown"...
+    *   "Pizza"? No.
+    *   "Sandwich"? (Sometimes in a paper wrap).
+    *   A "Menu" is my best guess for "Paper + Food".
+    *   A "Receipt" is my best guess for "Paper + Money".
+    *   Wait... "A yellow piece of paper for money used for food"...
+    *   Is it a "Menu"?
+    *   Is it a "Coupon"?
+    *   Is it a "Bill"? (As in a restaurant bill).
+
+    Let's look at the clues one more time.
+    `?g F7` (Paper)
+    `+ Yellow`
+    `+ C8` (Money)
+    `!r A14` (Food)
+    `+ Brown`
+
+    Could it be "Chocolate wrapper"?
+    - Paper? Yes.
+    - Yellow? Often.
+    - Money? Not really.
+    - Food? Yes.
+    - Brown? Yes.
+
+    Could it be "Cereal box"?
+    - Paper? Yes.
+    - Yellow? Often.
+    - Money? Not really.
+    - Food? Yes.
+    - Brown? Sometimes.
+
+    Could it be "A menu"?
+    - Paper? Yes.
+    - Yellow? Maybe.
+    - Money? Yes (related to).
+    - Food? Yes.
+    - Brown? (Not really).
+
+    Could it be "A receipt"?
+    - Paper? Yes.
+    - Yellow? Thermal paper can turn yellow/brown.
+    - Money? Yes.
+    - Food? Yes (if from a restaurant).
+    - Brown? Yes.
+
+    "A receipt" feels like a strong candidate. Thermal receipts often turn yellow or brown over time. They are paper, they represent money, and they are related to food (if you buy food).
+
+    Let's consider "Money" again. If the answer was just "Money", why use F7 (Paper)? To specify paper money.
+    If the answer is "Banknote" or "Dollar bill":
+    - Paper (F7)
+    - Yellow (Some are)
+    - Money (C8)
+    - Food (A14)? No.
+
+    Wait, `!r A14` (Food) + `Brown`.
+    Could the answer be "Bread"? No, F7 is paper.
+    Could it be "Waffle"? No.
+    "Honey"? No.
+
+    Let's try:
+    1. Receipt
+    2. Menu
+    3. Coupon
+
+    Actually, let's look at `F7` + `Yellow` + `Money` again.
+    Is it "Gold"? No.
+    "A check"?
+    "A bill"? (Restaurant bill or a dollar bill).
+
+    Wait! `!r A14` (Food) + `Brown`.
+    Could it be "Coffee"? (No, not paper).
+    "Paper bag"?
+    If the answer is "Paper bag":
+    - ?g F7 (Paper)
+    - + Yellow (Maybe they are yellow?)
+    - + C8 (Money? No.)
+    - !r A14 (Food)
+    - + Brown (Yes)
+
+    What about "Menu"?
+    - ?g F7 (Paper)
+    - + Yellow
+    - + C8 (Money)
+    - !r A14 (Food)
+    - + Brown (Maybe the menu is brown?)
+
+    What about "Banknote"?
+    What if the food is a hint for the *color* of the money?
+    Brown food... chocolate?
+    Yellow food... banana?
+
+    Let's look at the clue `!r A14 + Brown` again. This is a sub-concept. It describes a feature of the answer or a connection.
+    If the answer is "Menu", a feature could be "Food".
+    If the answer is "Receipt", a feature could be "Food" (if it's a food receipt).
+
+    Wait, could it be "A dollar bill"?
+    `?g F7` (Paper)
+    `+ Yellow` (Some people call it "green", but maybe the clue implies the color of certain things?)
+    `+ C8` (Money)
+    `!r A14` (Food)
+    `+ Brown`
+    This doesn't fit.
+
+    Let's try "Menu". It's the most cohesive for Paper + Food + Money.
+
+    Another possibility: "A chocolate bar wrapper"?
+    - Paper (F7)
+    - Yellow (Color)
+    - Money (C8 - you buy it with money?)
+    - Food (A14)
+    - Brown (Color)
+
+    Wait, what if the answer is "A menu"?
+    Let's search for "Yellow paper money food brown".
+    This is tough.
+
+    Let's try "Menu" or "Receipt".
+    Actually, "Receipt" makes a lot of sense for "Paper" + "Money" + "Food" (if from a restaurant) and "Yellow/Brown" (thermal paper aging).
+
+    Wait! "Yellow" + "Money" + "Food" + "Brown"...
+    Is it "Corn"? No.
+    Is it "Honey"? No.
+    Is it "A menu"?
+
+    Let's look at `F7` (Paper) + `Yellow` + `C8` (Money) again.
+    Could it be "A check"?
+    A check is paper, used for money.
+    Does it relate to food/brown? Not really.
+
+    What about "Coupon"?
+    Paper, used for money (savings), food (grocery coupons)?
+
+    Let's try these three:
+    1. Receipt
+    2. Menu
+    3. Coupon
+
+    One more thought: "Brown paper bag".
+    If the main concept is "Paper", and the color is "Brown", why would there be a `+ Yellow` cube on the main concept? The clue says `+ Yellow` and `+ C8` are cubes on `?g F7`. This means the paper is yellow and represents money.
+
+    If the answer is "A receipt":
+    - Paper (F7)
+    - Yellow (it turns yellow)
+    - Money (C8)
+    - Food (A14) - It's a food receipt.
+    - Brown (it turns brown)
+
+    This is a bit specific, but "Receipt" is a good guess.
+
+    Wait, "Menu" is also very strong.
+    "Menu"
+    - Paper (F7)
+    - Yellow (common color)
+    - Money (C8)
+    - Food (A14)
+    - Brown (color of some menus?)
+
+    Let's go with:
+    1. Receipt
+    2. Menu
+    3. Coupon

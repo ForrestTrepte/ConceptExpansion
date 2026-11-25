@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "A broken promise",
+    "A comma",
+    "A broken record"
+  ]
+,
+"pass": false
+}

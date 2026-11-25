@@ -1,0 +1,24 @@
+*   `?g A14`: Main Concept is Food / Eating / Edible.
+    *   `+ H4`: A cube on H4 (Round/Disc) in the `g` group.
+    *   `+ F8`: A cube on F8 (Cut / Break / Separation / Half) in the `g` group.
+
+    *   `A14` (Food) + `H4` (Round) + `F8` (Cut/Half).
+    *   Something edible, round, and cut or halved.
+
+    *   Pizza (round, cut into slices/halves).
+    *   Orange (round, cut into halves/segments).
+    *   Cake (often round, cut).
+    *   Watermelon (usually not round, but can be slices).
+    *   Apple (can be round, cut).
+    *   Cookie (round, sometimes broken/cut).
+    *   Pie (round, cut into slices).
+    *   Lemon/Lime (round, cut).
+
+    *   "Pizza" is a very strong candidate for round and cut.
+    *   "Orange" is a very strong candidate for round and cut.
+    *   "Pie" or "Cake" are good, but pizza is more distinctly "cut" into slices often.
+
+    Let's try:
+    1. Pizza
+    2. Orange
+    3. Pie

@@ -1,0 +1,148 @@
+{
+  "contentSha256": "ac3bded580a51322db089f49f695c6c51c0b19844e71cf25a6b6897d3bb13305",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "90167f6773b23c0d34d7074b521186233b0757584cab853ba7be1b70066d6420"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "71dc5c17df0ddb66a4fba8faff62b6627edc9e9deee6ec1a1c40f2cdf7e82199"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "openai/gpt-6-luna",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "pass": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "guesses",
+                "pass"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-1"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "db82776",
+    "costUsd": 0.00014807,
+    "latencyMs": 4162,
+    "recordedAt": "2026-11-23T22:12:33.614Z",
+    "recordedBy": "claude",
+    "servedBy": "OpenAI",
+    "servedModel": "openai/gpt-6-luna",
+    "tags": {
+      "run": "calibrate-or-luna"
+    },
+    "usage": {
+      "cacheReadTokens": 4727,
+      "cacheWriteTokens": 92,
+      "inputTokens": 4822,
+      "outputTokens": 178,
+      "reasoningTokens": 141
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"It's raining cats and dogs\",\"Every cloud has a silver lining\",\"April showers bring May flowers\"],\"pass\":false}",
+          "reasoning": {
+            "$llmemo.text": "71cdda3d8951e50f9a8103b7de2acc3b70612e2b55a3239d5afb29b25f2a381a"
+          },
+          "reasoning_details": [
+            {
+              "format": "openai-responses-v1",
+              "index": 0,
+              "summary": {
+                "$llmemo.text": "71cdda3d8951e50f9a8103b7de2acc3b70612e2b55a3239d5afb29b25f2a381a"
+              },
+              "type": "reasoning.summary"
+            },
+            {
+              "data": {
+                "$llmemo.text": "013213393a59c10f24b7d6cae16612ba9bd68b4c3b6e873a963e76e30a2858d7"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_04145c10ee94677e016b04ba4f067087d1ad978eed511e994e",
+              "index": 1,
+              "type": "reasoning.encrypted"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "completed"
+      }
+    ],
+    "created": 1795471949,
+    "id": "gen-1795471949-LPofiTIwVcE1BFwVFcyZ",
+    "model": "openai/gpt-6-luna",
+    "object": "chat.completion",
+    "provider": "OpenAI",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 178,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 141
+      },
+      "cost": 0.00014807,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000089,
+        "upstream_inference_cost": 0.00014807,
+        "upstream_inference_prompt_cost": 0.00005907
+      },
+      "is_byok": false,
+      "prompt_tokens": 4822,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 92,
+        "cached_tokens": 4727,
+        "video_tokens": 0
+      },
+      "total_tokens": 5000
+    }
+  }
+}

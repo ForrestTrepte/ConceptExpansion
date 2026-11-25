@@ -1,0 +1,58 @@
+*   `?g A2`: Main concept is A2 (Human / Real / Historical).
+    *   `+ B5`: Related to B5 (Music / Song).
+    *   `+ D9`: Related to D9 (Power / Politics), specifically a "cube on the crown" (D9's icon shows a politician with a crown).
+
+    *   Main Concept: A real/historical person.
+    *   Connection 1: Music/Song.
+    *   Connection 2: Power/Politics/Royalty (specifically a crown).
+
+    *   A historical royal figure associated with music/songs.
+    *   *Elvis Presley* (King of Rock and Roll) - maybe?
+    *   *Freddie Mercury* (Queen) - He wasn't a "historical real person" in the sense of royalty, but the band name is "Queen".
+    *   *A composer/musician who was also a monarch?*
+    *   *King Cole?*
+    *   *Prince?* (The artist) - He is a real person, associated with music, and his name is "Prince" (royalty/crown).
+
+    *   `?g A2` (Human/Real/Historical)
+    *   `+ B5` (Music)
+    *   `+ D9` (Power/Royalty/Crown)
+
+    *Candidate 1: Prince (the musician).*
+    *Candidate 2: Freddie Mercury (associated with "Queen").*
+    *Candidate 3: A specific king (e.g., Elvis - "The King").*
+
+    Let's look at the clues again.
+    `?g A2` is the primary target.
+    `+ B5` is a sub-concept.
+    `+ D9` is a sub-concept.
+
+    If the answer is *Prince*:
+    A2 (Person) - Yes.
+    B5 (Music) - Yes.
+    D9 (Crown/Power) - Yes.
+
+    If the answer is *Freddie Mercury*:
+    A2 (Person) - Yes.
+    B5 (Music) - Yes.
+    D9 (Power/Crown) - Maybe via the band name "Queen", but the cube is on the crown part of the D9 icon.
+
+    If the answer is *Elvis Presley*:
+    A2 (Person) - Yes.
+    B5 (Music) - Yes.
+    D9 (Power/Crown) - Yes (The King).
+
+    *Prince* seems the strongest link to the *iconography* of a crown and music.
+
+    1. Prince
+    2. Elvis Presley
+    3. Freddie Mercury
+
+    Wait, let me check if there are other possibilities.
+    Could it be a song title? `?g A2` says the *answer* is a Human/Real/Historical person. So the answer is the person.
+
+    *Prince* fits very well.
+
+    Let's try:
+    1. Prince
+    2. Elvis Presley
+    3. Freddie Mercury

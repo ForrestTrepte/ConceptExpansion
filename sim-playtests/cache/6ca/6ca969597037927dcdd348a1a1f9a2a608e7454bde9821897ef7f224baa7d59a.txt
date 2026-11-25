@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Dialect",
+    "Accent",
+    "Slang"
+  ]
+,
+  "pass": false
+}

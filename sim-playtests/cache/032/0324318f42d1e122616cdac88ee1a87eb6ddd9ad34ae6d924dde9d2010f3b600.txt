@@ -1,0 +1,48 @@
+*   `?g A6`: Main concept is A6 (Cinema / Movie).
+    *   `+ B5`: (In group g) Related to B5 (Music / Song). So, a movie with music or a musical movie.
+    *   `!r C13`: (Sub-concept red) Related to C13 (Ear / Sound / Hearing).
+    *   `!y B5`: (Sub-concept yellow) Related to B5 (Music / Song).
+
+    *   Main Concept: Cinema/Movie.
+    *   Detail: Musical/Song.
+    *   Sub-concept (Red): Hearing/Sound.
+    *   Sub-concept (Yellow): Musical/Song.
+
+    *   A musical movie?
+    *   A specific musical movie? (*The Sound of Music*, *Singin' in the Rain*, *La La Land*)
+    *   "Sound of Music"? (Matches Music, Movie, and Sound/Hearing)
+    *   "Jaws"? (Music is iconic, but maybe less about "hearing" as a central concept than "The Sound of Music")
+    *   "Star Wars"? (Music is iconic)
+    *   "A Star is Born"?
+    *   "Bohemian Rhapsody"?
+    *   Maybe the answer is "Soundtrack"? (But `?g A6` implies the answer *is* a movie).
+
+    *   `?g A6` (Cinema)
+    *   `+ B5` (Music) -> It's a musical movie.
+    *   `!r C13` (Hearing/Sound) -> "Sound" is a key word?
+    *   `!y B5` (Music) -> Reinforces the musical aspect.
+
+    If the answer is *The Sound of Music*:
+    *   `?g A6` (Movie) - Yes.
+    *   `+ B5` (Music) - Yes.
+    *   `!r C13` (Sound/Hearing) - Yes, "Sound" is in the title.
+    *   `!y B5` (Music) - Yes.
+
+    Other possibilities:
+    *   *Singin' in the Rain*? (Music, but "Sound" isn't in the title)
+    *   *Sound of Music* fits the "Sound/Hearing" marker very well.
+
+    1. The Sound of Music
+    2. Musical
+    3. Soundtrack
+
+    Wait, `?g A6` means the *answer* is a movie.
+    If the answer is "Musical", `?g A6` (Cinema) + `+ B5` (Music) would work, but "Musical" is a genre, not a specific movie (though people call movies musicals).
+    If the answer is "Soundtrack", `?g A6` (Cinema) + `+ B5` (Music) works.
+
+    Let's try *The Sound of Music* first. It's a very common Concept answer.
+
+    Guesses:
+    1. The Sound of Music
+    2. Musical
+    3. Soundtrack

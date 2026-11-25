@@ -1,0 +1,26 @@
+*   `?g A3`: Main Concept is a Work / Occupation (A3).
+    *   `+ C4`: Detail 1: Defense / Protection / Wall (C4).
+    *   `+ A11`: Detail 2: Seacraft / Naval / Swimming (A11).
+    *   `+ D10`: Detail 3: Medical / Medicine / Health (D10).
+
+    *   Main Idea: A job/occupation.
+    *   Context 1: Defense/Protection.
+    *   Context 2: Naval/Sea/Water.
+    *   Context 3: Medical/Health.
+
+    *   Lifeguard (Protect/Sea/Health).
+    *   Navy Medic (Naval/Medical).
+    *   Coast Guard (Protection/Sea).
+    *   Sea Doctor (Sea/Medical).
+    *   Paramedic (Medical/Protection - though less sea-focused unless on a ship).
+    *   Navy Surgeon.
+
+    *   Guess 1: Lifeguard.
+    *   Guess 2: Navy Medic.
+    *   Guess 3: Coast Guard.
+
+    *Self-Correction:* "Lifeguard" fits C4 (protection/defense of people?), A11 (water/swimming), and D10 (medical/health) very well.
+
+    1. Lifeguard
+    2. Navy medic
+    3. Coast Guard

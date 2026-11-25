@@ -4,7 +4,8 @@ from __future__ import annotations
 
 import asyncio
 from collections.abc import Sequence
-from dataclasses import asdict
+from dataclasses import asdict, replace
+from pathlib import Path
 from typing import Any
 
 import pytest
@@ -49,7 +50,7 @@ def nxt(verdict: str, lines: list[str], yes_to: str = "", action: str = "clue") 
 
 
 def guess(*g: str) -> dict[str, Any]:
-    return {"guesses": list(g), "pass": False}
+    return {"guesses": list(g)}
 
 
 def judged(*correct: bool) -> dict[str, Any]:
@@ -145,7 +146,7 @@ def test_skip_and_give_up_and_pass() -> None:
         judge=[judged(False)],
     )
     assert run_full(gave_up).outcome == "gave_up"
-    passed = Script(clue_giver=[first(["?g A14"])], guesser=[{"guesses": [], "pass": True}])
+    passed = Script(clue_giver=[first(["?g A14"])], guesser=[{"guesses": []}])
     assert run_full(passed).outcome == "passed"
 
 
@@ -238,7 +239,7 @@ def test_usage_limit_stops_the_run(monkeypatch: pytest.MonkeyPatch, capsys: pyte
 
     from llmemo import UsageLimitReached
 
-    async def refused(_spec: Spec) -> dict[str, Any]:
+    async def refused(_spec: Spec) -> tuple[dict[str, Any], object]:
         raise UsageLimitReached("limit", resets_at=datetime(2026, 11, 23, 4, 0, tzinfo=UTC))
 
     monkeypatch.setattr(simplay, "run_spec", refused)
@@ -246,3 +247,133 @@ def test_usage_limit_stops_the_run(monkeypatch: pytest.MonkeyPatch, capsys: pyte
     assert simplay.cmd_run(["dry-run-model-clues"]) == 2
     out = capsys.readouterr().out
     assert "usage limit" in out and "2026-11-2" in out
+
+
+def test_agreement_with_humans() -> None:
+    def g(human: str, outcome: str, comments: bool = False) -> dict[str, Any]:
+        return {"human_result": human, "outcome": outcome, "clue_comments": comments}
+
+    games = [g("solved", "solved"), g("failed", "solved"), g("failed", "out_of_rounds", True)]
+    rows = simplay.agreement(games)
+    assert "| All games | 1/1 | 1/2 | 2/3 (67%) |" in rows
+    assert "| Without clue comments | 1/1 | 1/1 | 1/2 (50%) |" in rows
+
+
+def test_one_guess_wording() -> None:
+    req = simplay.guesser_request(spec(max_guesses=1, guesser_prompt="guesser-instinct"), [])
+    assert "Give up to 1 guess, best first" in req["prompt"]
+    assert "say up to 1 guess:" in req["system"][-1]
+    assert req["jsonSchema"]["properties"]["guesses"]["maxItems"] == 1
+
+
+def test_list_reference() -> None:
+    req = simplay.clue_giver_request(spec(reference="list"), "Pizza", [])
+    ref = req["system"][1]
+    assert "A4: Fauna / Animal. Picture: Octopus;" in ref
+    assert "Sky, grass" not in ref  # backgrounds are left out
+    assert "Clear: Transparent / Invisible / Glass." in ref
+    assert len([line for line in ref.splitlines() if ":" in line[:7]]) == 118
+    default = simplay.clue_giver_request(spec(), "Pizza", [])
+    assert "| A4 | Fauna / Animal |" in default["system"][1]  # existing runs unchanged
+
+
+def test_openrouter_guesser_request() -> None:
+    s = replace(spec("human-clues"), guesser=Role("openai/gpt-6-luna", "low", "openrouter", 2000))
+    req = simplay.guesser_request(s, [simplay.Turn(["?g A1"], "?g A1")])
+    assert req["backend"] == "openrouter" and req["endpoint"] == "chat/completions"
+    body = req["body"]
+    assert body["model"] == "openai/gpt-6-luna"
+    assert body["reasoning"] == {"effort": "low"} and body["max_tokens"] == 2000
+    system, user = body["messages"]
+    claude = simplay.guesser_request(spec("human-clues"), [simplay.Turn(["?g A1"], "?g A1")])
+    assert system["content"] == "".join(claude["system"]) and user["content"] == claude["prompt"]
+    schema = body["response_format"]["json_schema"]["schema"]
+    assert "maxItems" not in schema["properties"]["guesses"]
+
+
+def test_structured_reply_from_either_backend() -> None:
+    assert simplay.structured({"structured_output": {"guesses": []}}) == {"guesses": []}
+    fenced = {"choices": [{"message": {"content": '```json\n{"guesses": ["Cat"]}\n```'}}]}
+    assert simplay.structured(fenced) == {"guesses": ["Cat"]}
+    assert simplay.structured({"choices": [{"message": {"content": "Cat!"}}]}) is None
+    assert simplay.structured("nope") is None
+
+
+def test_only_the_guesser_uses_openrouter(tmp_path: Path) -> None:
+    (tmp_path / "x.toml").write_text(
+        'mode = "model-clues"\nprompts = []\nspend_limit_usd = 1.0\n'
+        '[clue_giver]\nmodel = "openai/gpt-6-luna"\nbackend = "openrouter"\n'
+        '[guesser]\nmodel = "openai/gpt-6-luna"\nbackend = "openrouter"\n'
+    )
+    with pytest.raises(ValueError, match="only the guesser"):
+        simplay.load_spec("x", tmp_path)
+
+
+def test_openrouter_reasoning_off() -> None:
+    s = replace(spec("human-clues"), guesser=Role("google/gemma-4-26b-a4b-it", "none", "openrouter"))
+    body = simplay.guesser_request(s, [])["body"]
+    assert body["reasoning"] == {"enabled": False}
+    assert set(body["response_format"]["json_schema"]["schema"]["properties"]) == {"guesses"}
+
+
+def test_backend_error_counts_as_a_failed_attempt() -> None:
+    from llmemo import BackendError
+
+    calls: list[int] = []
+
+    async def flaky(role: str, request: dict[str, Any], attempt: int) -> object:
+        calls.append(attempt)
+        if role == "guesser" and attempt == 0:
+            raise BackendError("timeout", "took over 60 s")
+        return {"clue-giver": first(["?g A14"]), "guesser": guess("Pizza")}[role]
+
+    game = asyncio.run(simplay.play_model_clues(flaky, spec(), "Pizza", 1))
+    assert game.outcome == "solved"
+    assert game.invalid == [{"role": "guesser", "attempt": "0", "error": "backend: timeout: took over 60 s"}]
+
+
+def test_usage_limit_is_not_retried() -> None:
+    from llmemo import UsageLimitReached
+
+    async def limited(role: str, request: dict[str, Any], attempt: int) -> object:
+        raise UsageLimitReached("limit")
+
+    with pytest.raises(UsageLimitReached):
+        asyncio.run(simplay.play_model_clues(limited, spec(), "Pizza", 1))
+
+
+def test_in_daemon_thread() -> None:
+    import time
+
+    async def main() -> tuple[object, bool]:
+        value = await simplay.in_daemon_thread(lambda x: x * 2, 21)
+        try:
+            await asyncio.wait_for(simplay.in_daemon_thread(time.sleep, 5), 0.1)
+            timed_out = False
+        except TimeoutError:
+            timed_out = True
+        return value, timed_out
+
+    start = time.monotonic()
+    assert asyncio.run(main()) == (42, True)
+    assert time.monotonic() - start < 2  # the sleeping thread doesn't hold up the end
+
+
+def test_in_daemon_thread_passes_errors() -> None:
+    def boom(_: object) -> None:
+        raise ValueError("no")
+
+    async def main() -> None:
+        await simplay.in_daemon_thread(boom, None)
+
+    with pytest.raises(ValueError, match="no"):
+        asyncio.run(main())
+
+
+def test_call_summary() -> None:
+    from llmemo import Totals
+
+    replayed = Totals(hits=186, cached_cost_usd=0.4213)
+    assert simplay.call_summary(replayed) == "186 calls (186 cached, 0 recorded), $0.42 API-equivalent"
+    mixed = Totals(hits=10, misses=5, cached_cost_usd=0.1, uncached_cost_usd=0.05)
+    assert simplay.call_summary(mixed).endswith("$0.15 API-equivalent, $0.05 spent now")

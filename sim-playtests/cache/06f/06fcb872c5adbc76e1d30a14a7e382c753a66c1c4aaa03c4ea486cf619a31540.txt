@@ -1,0 +1,9 @@
+New prompt.
+
+Step 1, markers placed:
+?g A14
++ F11 x8
+Board now:
+?g A14 | F11, F11, F11, F11, F11, F11, F11, F11
+
+Give up to 1 guess, best first, or pass.

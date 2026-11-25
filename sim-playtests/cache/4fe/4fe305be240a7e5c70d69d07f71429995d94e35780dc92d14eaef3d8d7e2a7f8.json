@@ -1,0 +1,158 @@
+{
+  "contentSha256": "6d749c2c9c4df46676fcf8cfbebbd54a0aaa28f05a9f1b1fb364fb94960be4eb",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "clue-giver",
+    "request": {
+      "backend": "claude-cli",
+      "effort": "high",
+      "jsonSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "clue",
+              "skip"
+            ],
+            "type": "string"
+          },
+          "confidence": {
+            "maximum": 5,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "lines": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "plan": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "confidence",
+          "action",
+          "plan",
+          "lines"
+        ],
+        "type": "object"
+      },
+      "model": "claude-opus-5-5",
+      "prompt": {
+        "$llmemo.text": "971cd43216b2f76cf1d9852f19b9d8550e64eb09cf642940bcfe25e8963820dc"
+      },
+      "system": [
+        {
+          "$llmemo.text": "29d73c99f00758a55ed046d05b0403c1ca98589e4f1e9e1a977874ccbdd10cbc"
+        },
+        {
+          "$llmemo.text": "f373fc6916e23cbfb200734dc22a2e5e9c5e4036a219150f66eed09550c1df85"
+        },
+        {
+          "$llmemo.text": "2fde04bc2e1af13938737fe97d53aa72e4604167970b9d0beb7f36b50e0a89fd"
+        }
+      ]
+    },
+    "variant": "play"
+  },
+  "meta": {
+    "billing": "subscription",
+    "codeVersion": "402a6eb",
+    "costUsd": 0.0120272,
+    "latencyMs": 6378,
+    "recordedAt": "2026-11-23T21:59:00.044Z",
+    "recordedBy": "developer",
+    "servedBy": "firstParty",
+    "servedModel": "claude-opus-5-5",
+    "tags": {
+      "game": "2026-11-23/Security camera",
+      "run": "play-play"
+    },
+    "toolVersion": "2.1.330 (Claude Code)",
+    "usage": {
+      "cacheReadTokens": 6376,
+      "cacheWriteTokens": 628,
+      "inputTokens": 2,
+      "outputTokens": 286,
+      "reasoningTokens": 92
+    }
+  },
+  "reply": {
+    "api_error_status": null,
+    "is_error": false,
+    "modelUsage": {
+      "claude-opus-5-5": {
+        "cacheCreationEphemeral1hInputTokens": 628,
+        "cacheCreationEphemeral5mInputTokens": 0,
+        "cacheCreationInputTokens": 628,
+        "cacheReadInputTokens": 6376,
+        "canonicalModel": "claude-opus-5-5",
+        "contextWindow": 1000000,
+        "costBasis": "list",
+        "costUSD": 0.0120272,
+        "inputTokens": 2,
+        "maxOutputTokens": 128000,
+        "outputTokens": 286,
+        "provider": "firstParty",
+        "thinkingTokens": 92,
+        "webSearchRequests": 0
+      }
+    },
+    "num_turns": 2,
+    "permission_denials": [],
+    "result": "{\"confidence\":4,\"action\":\"clue\",\"plan\":\"An electronic object that watches (eye), linked to protection. Next I'll add the movie camera (A6) for the camera part, or a building/house to show what it guards.\",\"lines\":[\"?g A1\",\"+ C7\",\"+ C14\",\"!r C4\"]}",
+    "stop_reason": "tool_use",
+    "structured_output": {
+      "action": "clue",
+      "confidence": 4,
+      "lines": [
+        "?g A1",
+        "+ C7",
+        "+ C14",
+        "!r C4"
+      ],
+      "plan": "An electronic object that watches (eye), linked to protection. Next I'll add the movie camera (A6) for the camera part, or a building/house to show what it guards."
+    },
+    "subtype": "success",
+    "terminal_reason": "completed",
+    "type": "result",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 628,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 628,
+      "cache_read_input_tokens": 6376,
+      "fallback_credit": null,
+      "inference_geo": "global",
+      "input_tokens": 2,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 628,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 628,
+          "cache_read_input_tokens": 6376,
+          "input_tokens": 2,
+          "output_tokens": 286,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 286,
+      "output_tokens_details": {
+        "thinking_tokens": 92
+      },
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

@@ -1,0 +1,340 @@
+*   `?g A14`: Main Concept is Food/Eating/Edible.
+    *   `+ F11 x8`: Eight items of "One/Unit/Number" (specifically the number 1, but used here to represent the digit/amount 8).
+    *   `!y Yellow + H11`: A yellow thing that is thin/fine/narrow/short.
+    *   `!r E3 + E4`: Something related to Fire/Burn/Cooking (E3) and Air/Wind/Blowing (E4). This might imply heat/stove/fumes/breathing/or perhaps something related to making it? Or maybe "Fried" (Fire) and "Air" (maybe related to light/airy?). Wait, `!r` is a red sub-concept. `E3` is Fire/Cooking, `E4` is Air.
+    *   `!k White + G10`: A white thing that is big/high.
+
+    *   Main Concept: Food.
+    *   Quantity: 8.
+    *   Physicality: Yellow, thin/narrow.
+    *   Method/Context: Heat/Cooking, maybe involving air/wind? Or maybe the food is "hot and airy"?
+    *   White/Big: This is tricky. White and Big (G10).
+
+    *   Attempt 1: 8 pieces of spaghetti (Already guessed: No).
+    *   Attempt 2: 8 pieces of pasta (Already guessed: No).
+    *   Attempt 3: 8 pieces of noodles (Already guessed: No).
+    *   Attempt 4: 8 yellow noodles (Already guessed: No).
+    *   Attempt 5: 8 pieces of corn (Already guessed: No).
+    *   Attempt 6: 8 yellow french fries (Already guessed: No).
+    *   Attempt 7: 8 pieces of fried chicken (Already guessed: No).
+
+    Let's look at the new clues again.
+    *   `!k White + G10`: White and Big.
+    *   `!r E3 (Fire/Cooking) + E4 (Air/Wind)`:
+    *   `!y Yellow + H11 (Thin)`:
+
+    Could "White + Big" be a cloud? No, it's food.
+    Could it be a large white plate?
+    Could it be a white bowl?
+
+    What food is:
+    - 8 pieces
+    - Yellow
+    - Thin
+    - Cooked with fire/air (maybe fried or baked?)
+    - Part of a big white thing?
+
+    Wait, let's look at `!r E3 + E4` again. E3 is Fire/Cooking. E4 is Air.
+    Maybe it's something that is *blown*? Or something *hot*?
+    What about "Popcorn"? It's white, but usually not yellow and thin.
+    What about "8 pieces of... something"?
+
+    Let's re-examine `!k White + G10`.
+    G10 is Big/High.
+    White and Big.
+    Could it be a "Mountain" of something?
+    A "Big white plate"?
+    A "Big white bowl"?
+
+    What about "8 pieces of yellow corn on the cob"? No, H11 is thin.
+    "8 pieces of yellow lemon slices"? Not usually cooked with fire/air.
+
+    Let's look at `!r E3 (Fire) + E4 (Air)`.
+    Does this imply a specific cooking method?
+    Frying (Fire/Oil) + ...?
+    Wait, `E4` is Air/Wind.
+    What about "8 pieces of yellow... crackers"?
+    What about "8 pieces of yellow... chips"? (Like potato chips).
+    Potato chips are yellow, thin, and fried (Fire). But what is "White + Big"? A bag?
+    A white bag is usually not "Big/High" in a specific way, but a bag of chips is a container.
+
+    Let's look at `!k White + G10` again.
+    Is there a food called "8 [something]s"?
+    "8 pieces of yellow noodles"? (Already guessed).
+
+    Wait, `!r E3 (Fire) + E4 (Air)`.
+    Maybe it's something involving a "Blowtorch"? No.
+    "Steaming"?
+    What about "8 pieces of yellow... something... in a big white bowl"?
+
+    Let's try to think of "8" and "Yellow" and "Thin".
+    - 8 sticks of... something?
+    - 8 strips of... something?
+    - 8 slices of... something?
+
+    "8 pieces of yellow french fries" was "No".
+    "8 pieces of spaghetti" was "No".
+    "8 pieces of corn" was "No".
+
+    What if the "White/Big" thing is a **cloud**?
+    Wait, "Cloud" is E1.
+    What if the "White/Big" thing is a **mountain**?
+    Wait, "Mountain" is not an icon, but "Big/High" is G10.
+    Is there a food called "8 [something]s" that relates to clouds or mountains?
+    "8 pieces of yellow... marshmallow"? (White, but not really yellow/thin).
+
+    Let's re-read `!r E3 + E4`.
+    E3 (Fire/Cooking)
+    E4 (Air/Wind)
+    Maybe it's **"Toasted"**? Or **"Fried"**?
+    Wait, `!k White + G10`.
+    What if the "White/Big" is a **"Table"**? No, that's not a food.
+    What if it's a **"Plate"**?
+    A big white plate.
+    What food is 8 yellow thin things on a big white plate?
+    "8 pieces of yellow... pasta"? (Already guessed).
+
+    Let's look at the "8" again.
+    `F11 x8`.
+    F11 is "One/Unit/Number". The clue-giver used it to mean 8.
+    Wait, if F11 is "1", and they put 8 of them... they are saying "8 ones".
+    So the number is 8.
+
+    Could it be "8 pieces of yellow... lemon"?
+    "8 pieces of yellow... cheese"? (Thin slices of cheese).
+    Cheese is often yellow. Thin slices.
+    Is there a connection between cheese and fire/air?
+    Maybe "Grilled cheese"? (Fire).
+    But what is "White + Big"?
+    A big white cracker?
+    A big white bread?
+
+    Let's try another angle.
+    `!r E3 (Fire) + E4 (Air)`
+    Could this be "smoke"? No.
+    Could it be "smell"? No.
+    What about **"Baking"**? (Heat + Air).
+    What is 8 yellow thin things that are baked?
+    "8 pieces of yellow... biscuits"? "8 pieces of yellow... cookies"?
+    What is "White + Big"?
+    A "Big white bag"? Or "Big white box"?
+
+    Wait! `!k White + G10`.
+    Could it be **"A big white mountain of..."**?
+    "A big white mountain of 8 yellow... something"?
+    "A big white pile of..."?
+
+    What about **"8 pieces of yellow... fries"**?
+    Wait, the guess "8 pieces of French fries" was "No".
+
+    Let's look at the icons again.
+    `!k White + G10` (White, Big/High)
+    `!y Yellow + H11` (Yellow, Thin)
+    `!r E3 + E4` (Fire, Air)
+    `?g A14` (Food)
+    `F11 x8` (8)
+
+    Could it be **"8 pieces of yellow... noodles in a big white bowl"**?
+    Wait, the guess "8 pieces of spaghetti" was "No".
+
+    What about **"8 pieces of yellow... egg"**?
+    "8-minute egg" was "No".
+
+    Wait... `!r E3 (Fire/Cooking) + E4 (Air/Wind)`.
+    What if the clue is **"Fried"**?
+    And `!k White + G10` is **"Cloud"**? No.
+    What if it's **"Popcorn"**?
+    Popcorn is white. It is made with heat (fire). It's "airy".
+    But is it yellow and thin and comes in 8s? Not really.
+
+    Let's try **"8 pieces of yellow... crackers"**.
+    **"8 pieces of yellow... chips"**.
+
+    Wait, look at `!r E3 + E4` again.
+    E3 is Fire/Cooking. E4 is Air.
+    Is there a cooking method called "Air frying"?
+    "8 pieces of yellow... air-fried... something"?
+    "8 pieces of yellow... air-fried... potato chips"?
+
+    What about the "White/Big" part?
+    Maybe it's a **"Large white bag"**?
+    "A large white bag of 8 yellow... chips"?
+
+    Let's think about "8" more carefully.
+    Is it "8-bit"? No, that's not food.
+    Is it "8... something"?
+
+    Let's reconsider the "White/Big" icon.
+    G10 is "Big/High".
+    Is there a food that is "White" and "Big"?
+    A **"Giant white..."**?
+    A **"Large white..."**?
+
+    Let's look at the `!y Yellow + H11` (Thin/Narrow).
+    What is yellow and thin?
+    - Noodles
+    - Fries
+    - Spaghetti
+    - Lemon slices
+    - Cheese slices
+    - Straws? (Not food)
+    - Corn silk?
+    - Pretzels?
+
+    What if the "White/Big" is a **"Plate"**?
+    "8 pieces of yellow... on a big white plate".
+    We tried "8 pieces of spaghetti", "8 pieces of pasta", "8 pieces of corn", "8 pieces of French fries", "8 pieces of fried chicken", "8 pieces of corn".
+
+    What about **"8 pieces of yellow... lemon"**?
+    What about **"8 pieces of yellow... crackers"**?
+    What about **"8 pieces of yellow... chips"**?
+
+    Wait, `!r E3 + E4`.
+    Fire + Air.
+    Could it be **"Smoky"**?
+    **"8 pieces of smoky yellow... something"**?
+
+    Could it be **"8 pieces of yellow... noodles"**? (Already guessed).
+
+    Wait, look at the `!k White + G10` again.
+    G10 is "Big/High".
+    Could it be **"A big white mountain of..."**?
+    There's a dessert called "A mountain of..."?
+    Or "8 yellow... in a big white bowl"?
+
+    Let's look at `!r E3 + E4` again.
+    Fire and Air.
+    What if it's **"Toast"**?
+    "8 pieces of yellow... toast"?
+    Is toast thin? Sometimes.
+    Is it yellow? Can be.
+    Is it cooked with fire and air (toaster)? Yes.
+    Is it on a big white plate? Maybe.
+
+    What about **"8 pieces of yellow... corn"**? (Already guessed).
+
+    Wait, `!r E3 (Fire/Cooking) + E4 (Air/Wind)`.
+    Could it be **"Fried rice"**? No, that's not thin.
+
+    Let's think about the `!y Yellow + H11` (Thin/Narrow) again.
+    **"8 yellow... sticks"**?
+    **"8 yellow... strips"**?
+
+    What about **"8 pieces of yellow... cheese"**?
+    **"8 pieces of yellow... crackers"**?
+
+    Let's look at `!k White + G10` one more time.
+    G10 is "Big/High".
+    Could it be **"A big white... cake"**?
+    Is there a cake with 8 yellow thin things?
+    "8 yellow... candles" on a big white cake?
+    Wait!
+    `?g A14` (Food)
+    `F11 x8` (8)
+    `!y Yellow + H11` (Yellow, thin/narrow) -> Candles are thin/narrow.
+    `!r E3 + E4` (Fire/Cooking + Air) -> Candles have fire (flame) and... air? (needed for flame).
+    `!k White + G10` (White, Big/High) -> A big white cake.
+
+    This fits!
+    - 8 candles (yellow, thin).
+    - On a big white cake (White, Big).
+    - Candles have fire.
+    - It's for a food/celebration (A14).
+
+    Let's double check:
+    `?g A14` - Food (Cake is food).
+    `F11 x8` - 8 (8 candles).
+    `!y Yellow + H11` - Yellow, thin (Candles).
+    `!r E3 + E4` - Fire (Flame), Air (Wind/Oxygen)?
+    `!k White + G10` - White, Big/High (The cake).
+
+    Wait, is "8 candles on a cake" a common phrase or thing? It's a very common scenario.
+    The answer could be "Birthday cake".
+    Or just "A cake with 8 candles".
+    The clue-giver says `?g A14` (Food).
+    So the answer is likely a type of food.
+    "Birthday cake".
+
+    Let's see if "Birthday cake" fits.
+    - Food (Yes)
+    - 8 (Maybe the age?)
+    - Yellow thin things (Candles)
+    - Fire (Candles)
+    - White/Big (The cake)
+
+    Wait, `!r E3 + E4`. E3 is Fire/Cooking. E4 is Air.
+    Fire for the candle. Air for... blowing them out?
+    "Blowing out candles".
+    "Air" (E4) + "Fire" (E3).
+    That's a perfect way to describe blowing out a candle!
+
+    And `!y Yellow + H11` (Thin, Yellow) describes the candles.
+    And `!k White + G10` (White, Big) describes the cake.
+    And `F11 x8` means there are 8 of them.
+
+    So the answer is likely "Birthday cake" or "A cake with candles".
+    Since it's `?g A14` (Food), "Birthday cake" is a strong candidate.
+
+    Let's refine the guesses.
+    1. Birthday cake.
+    2. Cake with candles.
+    3. A cake.
+
+    Wait, could it be "8th birthday"? No, that's not food.
+    The clue `?g A14` is "Food/Eating/Edible".
+    So "Birthday cake" is the best guess.
+
+    Let's think if there are any other possibilities.
+    "8 yellow... noodles"? (No).
+    "8 pieces of... something"?
+    What about "8 yellow... lemon slices"? No.
+
+    "Birthday cake" seems very solid given the "Fire + Air" (Blowing out candles) and "Yellow + Thin" (Candles) and "White + Big" (Cake).
+
+    Wait, `!r E3 + E4`.
+    E3 is Fire/Burn/Cooking.
+    E4 is Air/Wind/Blowing.
+    "Fire + Blowing".
+    That is exactly what you do to a candle.
+
+    `!y Yellow + H11` (Yellow + Thin).
+    Candles are often yellow and thin.
+
+    `!k White + G10` (White + Big/High).
+    A big white cake.
+
+    `F11 x8` (8).
+    8 candles.
+
+    `?g A14` (Food).
+    Cake.
+
+    Everything aligns.
+
+    *Self-Correction:* Is there anything else?
+    What if it's "8 pieces of yellow... corn"? (Already guessed: No).
+    What if it's "8 pieces of yellow... noodles"? (Already guessed: No).
+
+    What about "8 pieces of yellow... cheese"?
+    No "fire/blowing" connection.
+
+    What about "8 pieces of yellow... fried... something"?
+    Doesn't explain the "White/Big" or "8" as well as the candle/cake idea.
+
+    Final check:
+    `?g A14` - Food.
+    `F11 x8` - 8.
+    `!y Yellow + H11` - Yellow, thin.
+    `!r E3 + E4` - Fire, Blowing.
+    `!k White + G10` - White, Big.
+
+    Guesses:
+    1. Birthday cake
+    2. Cake with candles
+    3. A cake with 8 candles
+
+    Actually, the user wants "up to 3 guesses, best first".
+
+    1. Birthday cake
+    2. Cake with candles
+    3

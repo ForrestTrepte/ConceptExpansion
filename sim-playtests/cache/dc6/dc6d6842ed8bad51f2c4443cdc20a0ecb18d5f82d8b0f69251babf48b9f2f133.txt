@@ -1,0 +1,22 @@
+*   `?g A14`: The main concept is A14 (Food / Eating / Edible).
+    *   `+ H4`: A cube on H4 (Round/Disc/Filled circle) in the same group as `?g`. This means the food is round.
+    *   `+ F8`: A cube on F8 (Cut – Break – Separation – Half) in the same group as `?g`. This means the food is often cut or broken.
+
+    *   Main Concept: Food (A14)
+    *   Feature 1: Round (H4)
+    *   Feature 2: Cut/Broken (F8)
+
+    *   Pizza (Round, cut into slices)
+    *   Cake (Round, often cut)
+    *   Cookie (Round, can be broken/cut)
+    *   Orange (Round, peeled/cut)
+    *   Bread (Some types are round, broken/cut)
+    *   Pie (Round, cut)
+
+    *   "Pizza" is a very strong candidate for "Round Food" that is "Cut".
+    *   "Cake" is another strong one.
+    *   "Cookie" is also possible.
+
+    1. Pizza
+    2. Cake
+    3. Cookie

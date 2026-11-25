@@ -1,0 +1,257 @@
+*   Main Concept (`?g H14`): Use – Action / Do – Verb / Button. (It's an action or a verb related to a button or using something).
+    *   Red Sub-Concept (`!r A1 | D8, C13`):
+        *   `A1`: Object / Box.
+        *   `D8`: Time / Duration.
+        *   `C13`: Ear / Sound / Hearing.
+        *   *Synthesis:* An object (box-like?) that involves time and sound.
+    *   Yellow Sub-Concept (`!y E2 | B14, G14, C3, D4`):
+        *   `E2`: Night – Evening / Space / Moon – Star.
+        *   `B14`: House – Dwelling / Room / Domestic.
+        *   `G14`: Turn / Around / Cycle – Repetition.
+        *   `C3`: Slow / Slow motion.
+        *   `D4`: Attack / Conflict – Combat / Weapon.
+        *   *Synthesis:* Related to night, house, cycling/repetition, slow, and conflict/weapon? This is tricky. Let's re-evaluate.
+
+    *   `?g H14`: Action/Verb/Button. (The answer is a verb).
+    *   `!r A1, D8, C13`: An object (A1) that deals with time (D8) and sound (C13).
+    *   `!y E2, B14, G14, C3, D4`:
+        *   `E2` (Night/Space), `B14` (House), `G14` (Cycle/Turn), `C3` (Slow), `D4` (Attack/Conflict).
+        *   Wait, "To strike" or "To chime" or "To sound" were rejected.
+        *   "To wind", "To spin", "To rotate" were rejected.
+        *   "To ring", "To record", "To play" were rejected.
+        *   "Push a button", "Set a timer" were rejected.
+
+    *   `!r A1` (Object), `D8` (Time), `C13` (Sound).
+    *   `!y E2` (Night), `B14` (House), `G14` (Cycle/Turn), `C3` (Slow), `D4` (Attack/Weapon).
+
+    *   Could it be an alarm clock?
+        *   Is "Alarm" a verb? To alarm someone.
+        *   Is "To alarm" the answer?
+        *   `A1` (Object) -> Clock.
+        *   `D8` (Time) -> Set an alarm.
+        *   `C13` (Sound) -> Beeping.
+        *   `E2` (Night) -> Waking up from sleep/night.
+        *   `B14` (House) -> Used in a house.
+        *   `G14` (Turn/Cycle) -> Repeating alarm.
+        *   `C3` (Slow) -> The time/duration? Or the movement of hands?
+        *   `D4` (Attack/Conflict) -> This is the outlier. How does "Attack" fit an alarm clock?
+        *   Wait, `D4` is Attack/Conflict. Is it "To strike"? (Already guessed).
+        *   Is it "To wake"? "To wake up"?
+        *   If it's "To wake up":
+            *   `A1` (Object): Alarm.
+            *   `D8` (Time): When you wake.
+            *   `C13` (Sound): The sound of waking.
+            *   `E2` (Night): End of night.
+            *   `B14` (House): At home.
+            *   `G14` (Cycle): Morning cycle.
+            *   `C3` (Slow): Slow wake up?
+            *   `D4` (Attack): Does an alarm "attack" your sleep?
+
+    *   Let's look at `D4` again: Attack / Conflict / Combat / Weapon.
+    *   Maybe the object is a clock and the verb is related to the bell striking? "To strike" was already guessed.
+    *   What about a bell? "To toll"? "To ring"? (Already guessed).
+    *   What about a timer? "To count down"?
+    *   Wait, `!y D4` (Attack/Conflict) + `!y G14` (Cycle/Turn) + `!y C3` (Slow) + `!y E2` (Night/Space) + `!y B14` (House).
+    *   Could it be "To snooze"?
+        *   `H14` (Action/Button/Verb).
+        *   `A1` (Object): Alarm clock.
+        *   `D8` (Time): Snoozing for a time.
+        *   `C13` (Sound): The alarm sound.
+        *   `E2` (Night): Waking from sleep.
+        *   `B14` (House): In bed/house.
+        *   `G14` (Cycle/Turn): The snooze cycle.
+        *   `C3` (Slow): Moving slowly/delaying.
+        *   `D4` (Attack/Conflict): "Attacking" the alarm? Or "Conflict" with the desire to sleep?
+
+    *   Let's re-examine `D4` (Attack/Conflict). Is there a verb related to an object (A1), time (D8), sound (C13), night (E2), house (B14), turning/cycling (G14), being slow (C3), and attacking (D4)?
+
+    *   What about "To trigger"?
+    *   What about "To alarm"?
+    *   What about "To ring"? (Guessed).
+    *   What about "To chime"? (Guessed).
+    *   What about "To beep"?
+    *   What about "To wake"? (Guessed? No, "To strike", "To chime", "To sound" were the last guesses).
+
+    *   Let's rethink the `!y` group:
+        *   `E2` Night/Space
+        *   `B14` House
+        *   `G14` Cycle/Turn
+        *   `C3` Slow
+        *   `D4` Attack/Conflict
+
+    *   Wait... `D4` (Attack) + `C3` (Slow) + `G14` (Cycle) + `B14` (House/Home) + `E2` (Night/Space).
+    *   Could it be "To snooze"?
+        *   It's a verb (`H14`).
+        *   It's an action done with a button (`H14`).
+        *   It involves an object (`A1` - alarm).
+        *   It involves time (`D8`).
+        *   It involves sound (`C13`).
+        *   It's done at night/early morning (`E2`).
+        *   It's done at home (`B14`).
+        *   It's a repeating/cycling action (`G14`).
+        *   It's slow/delaying (`C3`).
+        *   Does it involve conflict/attack? Maybe the "conflict" is between the person and the alarm?
+
+    *   Let's look for other verbs.
+    *   "To alarm"?
+    *   "To wake up"?
+    *   "To snooze"?
+    *   "To reset"? (Already rejected: "To wind", "To spin", "To rotate" were rejected, "To set a timer" was rejected).
+    *   "To silence"?
+
+    *   Wait, `D4` (Attack/Conflict) and `G14` (Turn/Cycle/Around).
+    *   What about "To strike"? (Guessed).
+    *   What about "To beat"? (Like a heart or a drum?).
+        *   `A1` (Object): Drum?
+        *   `D8` (Time): Rhythm/Time.
+        *   `C13` (Sound): Sound of drum.
+        *   `E2` (Night), `B14` (House), `G14` (Cycle), `C3` (Slow), `D4` (Attack/Weapon).
+        *   A drum is not really a weapon (`D4`).
+
+    *   What about "To watch"? (As in a clock/watch).
+        *   `A1` (Object): Watch.
+        *   `D8` (Time): Tells time.
+        *   `C13` (Sound): Ticking.
+        *   `E2` (Night), `B14` (House), `G14` (Cycle), `C3` (Slow), `D4` (Attack).
+        *   Doesn't fit `D4`.
+
+    *   Let's look at `D4` (Attack/Conflict) again. Could it be "To fight"? No.
+    *   How about "To defend"? No.
+    *   How about "To hit"?
+        *   `H14` (Button/Action).
+        *   `A1` (Object): Alarm/Clock.
+        *   `D8` (Time): Time.
+        *   `C13` (Sound): Sound.
+        *   `D4` (Attack/Hit).
+        *   "To hit the snooze button"? (Too long).
+        *   "To hit"?
+
+    *   Wait, the clues are:
+        *   `?g H14` (Action/Verb/Button)
+        *   `!r A1, D8, C13` (Object, Time, Sound)
+        *   `!y E2, B14, G14, C3, D4` (Night, House, Cycle, Slow, Attack)
+
+    *   Let's re-examine `D4` (Attack/Conflict/Combat/Weapon).
+    *   Is there a weapon that is a "cycle" or "slow" or "night"?
+    *   What about "To guard"? (Defense/Protection is `C4`, but `D4` is Attack).
+
+    *   Wait, is the answer "To snooze"?
+        *   Let's look at `D4` (Attack) once more. In some contexts, an alarm "attacks" your sleep.
+        *   Or maybe the verb is "To alarm"?
+        *   Is there a verb for an object that cycles, is slow, and is an attack?
+
+    *   What about "To wind"? (Guessed).
+    *   What about "To tick"?
+        *   `A1` (Object): Clock.
+        *   `D8` (Time): Time.
+        *   `C13` (Sound): Ticking sound.
+        *   `G14` (Cycle): The movement.
+        *   `C3` (Slow): The tempo.
+        *   But `E2` (Night), `B14` (House), `D4` (Attack)? Doesn't fit.
+
+    *   What about "To alarm"?
+    *   What about "To wake up"?
+    *   What about "To snooze"?
+
+    *   Let's look at `D4` (Attack/Weapon) and `G14` (Turn/Cycle) again.
+    *   Could it be "To shoot"? "To fire"?
+        *   `D4` (Attack).
+        *   `B11` is Aircraft.
+        *   `D7` is Mechanical.
+        *   Wait, `B11` (Aircraft) wasn't used.
+
+    *   Is it "To snooze"? It's such a common verb associated with a button (`H14`), an alarm clock (`A1`), time (`D8`), sound (`C13`), and a cycle (`G14`).
+    *   Let's try to find an alternative for `D4` (Attack).
+    *   Could `D4` be related to "To alarm"? (An alarm "attacks" your peace?).
+    *   Could the answer be "To strike"? (Already guessed).
+    *   What about "To ring"? (Already guessed).
+    *   What about "To toll"?
+    *   What about "To beep"?
+
+    *   Wait! `D4` is "Attack/Conflict/Combat/Weapon".
+    *   `G14` is "Turn/Around/Cycle/Repetition".
+    *   `C3` is "Slow".
+    *   `E2` is "Night/Space".
+    *   `B14` is "House/Home".
+    *   What about "To alarm"? No.
+    *   What about "To snooze"?
+
+    *   Let's think about `D4` (Attack) differently. Is there a verb for a "Slow Attack"?
+    *   Is there a verb related to "Night" and "Attack"?
+    *   "To ambush"? "To raid"?
+
+    *   Let's reconsider the whole thing.
+    *   `?g H14` (Verb/Button)
+    *   `!r A1` (Object/Box), `D8` (Time), `C13` (Sound)
+    *   `!y E2` (Night), `B14` (House), `G14` (Cycle), `C3` (Slow), `D4` (Attack)
+
+    *   Wait! What if the object is a "Bell"? (No, `A1` is Box).
+    *   What if the object is a "Clock"?
+    *   The verb is `H14` (Action/Button).
+    *   How about "To snooze"?
+        *   Button? Yes (Snooze button).
+        *   Object? Yes (Alarm clock).
+        *   Time? Yes.
+        *   Sound? Yes.
+        *   Night? Yes (Morning/Night context).
+        *   House? Yes.
+        *   Cycle? Yes (The snooze cycle).
+        *   Slow? Yes (Delaying).
+        *   Attack? This is still the hard part. Is "Snooze" an attack? Or is the alarm the attack?
+
+    *   Let's try another angle.
+    *   What about "To watch"? No.
+    *   What about "To alarm"? No.
+    *   What about "To wake"? (Already guessed "strike", "chime", "sound").
+    *   How about "To sleep"? No, that's not an action/button.
+
+    *   Let's look at `D4` (Attack) and `C3` (Slow) and `G14` (Cycle) again.
+    *   Could it be "To shoot"? No.
+    *   Could it be "To spin"? (Guessed).
+    *   Could it be "To alarm"?
+
+    *   Wait, `D4` (Attack) and `A1` (Box).
+    *   Is it "To bomb"?
+        *   `A1` (Box/Object): Bomb.
+        *   `D8` (Time): Timer.
+        *   `C13` (Sound): Explosion.
+        *   `E2` (Night): Night?
+        *   `B14` (House): Home?
+        *   `G14` (Cycle): ?
+        *   `C3` (Slow): Slow fuse?
+        *   `D4` (Attack/Weapon).
+        *   `H14` (Verb/Button): To detonate?
+
+    *   What about "To strike"? (Guessed).
+    *   What about "To hit"?
+    *   What about "To snooze"?
+
+    *   Let's try "To snooze" and "To wake up" and "To alarm".
+    *   Wait, "To snooze" seems the strongest for "Button", "Cycle", "Slow", "Alarm Clock", "Time", "Sound", "House", "Night".
+
+    *   Let's check `D4` (Attack) one more time.
+    *   If the answer is "To snooze":
+        *   Does "snooze" have any connection to "Attack/Conflict"?
+        *   Maybe "Snooze" is not the answer.
+        *   What about "To alarm"? No.
+        *   What about "To trigger"? No.
+
+    *   Let's look at the `!y` group again:
+        *   `E2` Night
+        *   `B14` House
+        *   `G14` Cycle/Turn
+        *   `C3` Slow
+        *   `D4` Attack/Conflict
+
+    *   Wait... `D4` (Attack) + `C3` (Slow) + `G14` (Cycle) + `B14` (House) + `E2` (Night).
+    *   Is it "To ambush"? No.
+    *   Is it "To defend"? No.
+    *   Is it "To siege"? No.
+
+    *   Let's look at the `!r` group:
+        *   `A1` Object/Box
+        *   `D8` Time
+        *   `C13` Sound
+
+    *   Wait, "To strike" was guessed and was "No".
+    *   "To chime" was

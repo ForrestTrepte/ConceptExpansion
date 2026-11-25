@@ -1,0 +1,46 @@
+*   `+g E2`: A cube in the Main Concept group (g) is on E2 (Night – Evening / Space / Moon – Star).
+    *   `+ D4`: A cube in the Main Concept group (g) is on D4 (Attack / Conflict – Combat / Weapon).
+    *   Wait, the notation says `+g G14` is "Cube on G14 in group g". The input says `+g E2`. This means the Main Concept *category* is actually unknown (the pawn `?g` hasn't been placed), but there are two cubes in the `g` group on `E2` and `D4`.
+    *   Wait, look at the notation rule: `?g A4` is "Place the Main Concept pawn on A4".
+    *   The prompt says: `+g E2 [cube on the stars in the picture]` and `+ D4`.
+    *   Then it says: `Board now: g (no pawn) | E2, D4`.
+    *   This means the *Main Concept* is defined by these two icons: E2 (Space/Night/Moon/Stars) and D4 (Attack/Conflict/Weapon).
+
+    *   E2: Space, Night, Moon, Stars.
+    *   D4: Attack, Conflict, Combat, Weapon.
+
+    *   Star Wars (Star + War/Conflict).
+    *   A weapon from space? (Laser, etc.)
+    *   War in space? (Star Wars fits perfectly).
+    *   A star-shaped weapon? (Like a shuriken/ninja star, but D4 is "Attack/Conflict/Weapon", and E2 is "Space/Stars").
+    *   Could it be "Night war"? "Moon fight"?
+    *   "Star Wars" is a very strong candidate for a title/brand.
+
+    *   `E2` (Stars/Space) + `D4` (War/Attack).
+    *   Answer: Star Wars.
+
+    *   Star Wars
+    *   Laser
+    *   Space war
+
+    *Self-Correction:* The notation says `+g E2` and `+ D4`. Usually, the first marker is the pawn. If the pawn `?g` isn't placed, the clue-giver is implying the answer *is* the combination of these concepts.
+
+    Let's re-check:
+    E2: Night/Evening/Space/Moon/Star.
+    D4: Attack/Conflict/Combat/Weapon.
+
+    "Star Wars" (Title)
+    "Starship" (Space + Vehicle/Object - but D4 is conflict)
+    "Asteroid" (Space + Rock/Impact - maybe?)
+
+    "Star Wars" seems the most iconic combination of "Star" and "War".
+
+    1. Star Wars
+    2. Space War
+    3. Laser
+
+    Wait, "Star Wars" is a title (B7). Let's stick to the most obvious ones.
+
+    1. Star Wars
+    2. Space battle
+    3. War in space

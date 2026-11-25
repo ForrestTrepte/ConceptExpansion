@@ -1,0 +1,7 @@
+{
+  "guesses": [
+    "type on a keyboard",
+    "use a remote control",
+    "operate a machine"
+  ]
+}

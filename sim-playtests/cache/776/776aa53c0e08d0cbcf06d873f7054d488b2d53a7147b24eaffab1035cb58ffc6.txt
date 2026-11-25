@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "A one-liner",
+    "A single word",
+    "A joke"
+  ]
+,
+"pass": false
+}

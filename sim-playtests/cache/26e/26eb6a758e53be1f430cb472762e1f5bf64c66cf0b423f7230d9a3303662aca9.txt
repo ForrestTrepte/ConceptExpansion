@@ -1,0 +1,3 @@
+{ 
+"guesses": ["weather forecast", "rain", "storm"]
+}

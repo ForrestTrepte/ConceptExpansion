@@ -1,0 +1,25 @@
+New prompt.
+
+Step 1, markers placed:
+?g B8
++ F8
+Board now:
+?g B8 | F8
+Guesses: cutting words, broken promise, crossword
+Clue-giver: No
+
+Step 2, markers placed:
++g E1
+Board now:
+?g B8 | F8, E1
+Guesses: cold cuts, cold shoulder, freeze frame
+Clue-giver: No
+
+Step 3, markers placed:
+!r E5
++ Clear
+Board now:
+?g B8 | F8, E1
+!r E5 | Clear
+
+Give up to 3 guesses, best first, or none to pass.

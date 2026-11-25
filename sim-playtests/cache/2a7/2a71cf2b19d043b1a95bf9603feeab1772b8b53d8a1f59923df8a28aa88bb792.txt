@@ -1,0 +1,21 @@
+*   `?g B2`: Main Concept is a Character / Fictional / Imaginary (B2).
+    *   `+ D2`: Addition to the Main Concept: Masculine / Male (D2).
+    *   `+ A6`: Addition to the Main Concept: Cinema / Movie (A6).
+    *   `!r D4`: Sub-Concept (Red/Related): Attack / Conflict / Combat / Weapon (D4).
+    *   `+ Black`: Addition to the Sub-Concept: Black (Color).
+
+    *   Main Concept: A male fictional character from a movie.
+    *   Related Concept: Attacks, combat, or weapons (associated with "Black").
+
+    *   *Candidate 1:* Darth Vader (Character, Male, Cinema/Movie, Combat/Weapon, Black color).
+    *   *Candidate 2:* Batman (Character, Male, Cinema/Movie, Combat/Weapon, Black color/aesthetic).
+    *   *Candidate 3:* James Bond (Character, Male, Cinema/Movie, Combat/Weapon - though less "Black" specifically).
+    *   *Candidate 4:* Han Solo (Male, Movie, Combat - but not much "Black").
+    *   *Candidate 5:* John Wick (Male, Movie, Combat, Black suit).
+
+    *   Darth Vader fits "Black" and "Combat/Weapon" and "Male Movie Character" perfectly.
+    *   Batman fits "Black" and "Combat" and "Male Movie Character" perfectly.
+
+    1. Darth Vader
+    2. Batman
+    3. James Bond

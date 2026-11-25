@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Cooler",
+    "Refrigerator",
+    "Thermos"
+  ]
+,
+"pass": false
+}

@@ -1,0 +1,49 @@
+New prompt.
+
+Step 1, markers placed:
+?g A14
++ F11 x8
+Board now:
+?g A14 | F11, F11, F11, F11, F11, F11, F11, F11
+Guesses: eight, eightfold, octuple
+Clue-giver: No
+
+Step 2, markers placed:
+!y Yellow
++ H11
+Board now:
+?g A14 | F11, F11, F11, F11, F11, F11, F11, F11
+!y Yellow | H11
+Guesses: eight yellow, yellow eight, eight yellow things
+Clue-giver: No
+
+Step 3, markers placed:
+!r E3
++ E4
+Board now:
+?g A14 | F11, F11, F11, F11, F11, F11, F11, F11
+!r E3 | E4
+!y Yellow | H11
+Guesses: eight winds, eight gusts, eight breezes
+Clue-giver: No
+
+Step 4, markers placed:
+!k White
++ G10
+Board now:
+?g A14 | F11, F11, F11, F11, F11, F11, F11, F11
+!r E3 | E4
+!y Yellow | H11
+!k White | G10
+Guesses: eight white winds, eight white gusts, eight white breezes
+Clue-giver: No
+
+Step 5, markers placed:
+(no new markers)
+Board now:
+?g A14 | F11, F11, F11, F11, F11, F11, F11, F11
+!r E3 | E4
+!y Yellow | H11
+!k White | G10
+
+Give up to 3 guesses, best first, or none to pass.

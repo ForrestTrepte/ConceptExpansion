@@ -1,0 +1,161 @@
+{
+  "contentSha256": "e8b5058944d8aa15397d1eef45c9f6a4809b458767f6184d486630175861936f",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "4b5daa84bf7faab6f117925ff5de9ff2fdd6395e55661846fcc5b242e99c1765"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "040a9be042c0c677f7f85398fc49c8bde2363b6d2624b7a0dba456ab9fac8f73"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "openai/gpt-6-luna",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "guesses"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-3"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "f6004e3-dirty",
+    "costUsd": 0.00049432,
+    "latencyMs": 11789,
+    "recordedAt": "2026-11-24T00:07:14.470Z",
+    "recordedBy": "claude",
+    "servedBy": "OpenAI",
+    "servedModel": "openai/gpt-6-luna",
+    "tags": {
+      "run": "calibrate-or-luna"
+    },
+    "usage": {
+      "cacheReadTokens": 4727,
+      "cacheWriteTokens": 266,
+      "inputTokens": 4996,
+      "outputTokens": 827,
+      "reasoningTokens": 800
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"The Day After\",\"Melancholia\",\"The Death of Stalin\"]}",
+          "reasoning": {
+            "$llmemo.text": "48d256a31f3024ff8d3643fd30284a8cb0fbd55706d2ad7c594b5f793b706196"
+          },
+          "reasoning_details": [
+            {
+              "format": "openai-responses-v1",
+              "index": 0,
+              "summary": {
+                "$llmemo.text": "48d256a31f3024ff8d3643fd30284a8cb0fbd55706d2ad7c594b5f793b706196"
+              },
+              "type": "reasoning.summary"
+            },
+            {
+              "data": {
+                "$llmemo.text": "1ec6fc9d726c1736b35def0918f9746b12cb3152489955b3ade49ff6c7c1db2d"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_006bdd1fcaa0500e016b04d5278cd887d192caf47bbaa7e677",
+              "index": 1,
+              "type": "reasoning.encrypted"
+            },
+            {
+              "format": "openai-responses-v1",
+              "index": 2,
+              "summary": {
+                "$llmemo.text": "4cde37ea64cd9caa1287b13aecfad42ac98f472250d4efc83f2429b566ded17d"
+              },
+              "type": "reasoning.summary"
+            },
+            {
+              "data": {
+                "$llmemo.text": "e596c067ba12686445330ef43d364154a0c6c4e3d11172afd5e8087bb6652159"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_006bdd1fcaa0500e016b04d52e635087d182190c7be854f967",
+              "index": 3,
+              "type": "reasoning.encrypted"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "completed"
+      }
+    ],
+    "created": 1795478822,
+    "id": "gen-1795478822-B7M5kDvPBUnADZOGMMlz",
+    "model": "openai/gpt-6-luna",
+    "object": "chat.completion",
+    "provider": "OpenAI",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 827,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 800
+      },
+      "cost": 0.00049432,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0004135,
+        "upstream_inference_cost": 0.00049432,
+        "upstream_inference_prompt_cost": 0.00008082
+      },
+      "is_byok": false,
+      "prompt_tokens": 4996,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 266,
+        "cached_tokens": 4727,
+        "video_tokens": 0
+      },
+      "total_tokens": 5823
+    }
+  }
+}

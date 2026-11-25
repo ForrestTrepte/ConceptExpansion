@@ -1,0 +1,56 @@
+*   `?g B8`: Main Concept is "Expression – Quote / Talking / Words".
+    *   `!r B8`: Sub-concept (red) is "Expression – Quote / Talking / Words".
+    *   `+ D14`: Red sub-concept has a cube on D14 ("Mouth / Taste").
+    *   `!y B9`: Sub-concept (yellow) is "Building / Monument / City".
+    *   `+ H10`: Yellow sub-concept has a cube on H10 ("Small / Low").
+
+    *   The main thing is about words, talking, or quotes.
+    *   The red details suggest something involving a mouth (speaking).
+    *   The yellow details suggest something related to a city/building that is "small" or "low".
+
+    *   Could it be a famous quote about a city?
+    *   Could it be a proverb or idiom involving a city?
+    *   Could it be a specific phrase?
+    *   Wait, "Small city"? "Low building"?
+    *   Is there a quote/expression involving a mouth and a city?
+    *   "Small talk"? (No, B9 is city).
+    *   "Speak of the devil"? (No).
+    *   "Concrete jungle"? (Not an expression about talking).
+    *   Maybe the "Small/Low" refers to the *word* or the *concept* being small?
+    *   "Little town"?
+    *   Look at `B8` (Expression) + `B9` (City) + `H10` (Small).
+    *   "Small town"? (Is "Small town" an expression/quote? It's a concept/phrase).
+    *   "Talk of the town"?
+        *   `?g B8` (Expression/Talking) - YES.
+        *   `!r B8` + `D14` (Mouth/Talking) - YES.
+        *   `!y B9` (City) - YES.
+        *   `H10` (Small/Low) - Hmm. "Talk of the town"... is "town" small/low? A town is smaller than a city. "Small town" is a phrase. "Talk of the town" fits perfectly with `B8` and `B9`.
+
+    *   Is there another one?
+    *   "City that never sleeps"? (Doesn't fit the mouth/talking well).
+    *   "Speak of the devil"? (No).
+    *   "Word on the street"? (Street is not B9, but B9 is City/Building). "Word on the street" is an expression.
+    *   Wait, `H10` is "Small / Low".
+    *   "Small talk"? (No city).
+    *   "Big city"? (No, it's H10 - small).
+    *   "Talk of the town" fits "Expression/Talking" (`B8`) and "City" (`B9`). The "Small/Low" (`H10`) might be a way to distinguish "Town" from "City" or indicate the scale of the place mentioned in the phrase.
+
+    *   Guess 1: Talk of the town
+    *   Guess 2: Small town
+    *   Guess 3: Word on the street (maybe less likely)
+
+    Let's re-evaluate `H10` (Small/Low) with `B9` (City/Building).
+    If the answer is "Talk of the town":
+    `?g B8` = Expression.
+    `!r B8 + D14` = Talking/Mouth.
+    `!y B9 + H10` = Small place/Town.
+    This looks very strong.
+
+    Another possibility: "Quiet town"? (Doesn't fit B8).
+    "Small talk"? (Doesn't fit B9).
+
+    "Talk of the town" is a very common phrase.
+
+    1. Talk of the town
+    2. Small town
+    3. Word on the street

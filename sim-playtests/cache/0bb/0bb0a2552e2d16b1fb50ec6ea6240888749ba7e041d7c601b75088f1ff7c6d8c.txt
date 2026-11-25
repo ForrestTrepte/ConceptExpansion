@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Broken record",
+    "Abbreviation",
+    "Broken English"
+  ]
+,
+  "pass": false
+}

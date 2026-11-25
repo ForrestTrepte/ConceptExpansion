@@ -1,0 +1,38 @@
+New prompt.
+
+Step 1, markers placed:
+?g B7
++ F10
++ C7
+!r B8
++ F10
++ A7
+Board now:
+?g B7 | F10, C7
+!r B8 | F10, A7
+Guesses: Black Mirror, Silicon Valley, The Net
+Clue-giver: No
+
+Step 2, markers placed:
+!y G2
++ G1
++ H14
+!b B10
++ B8
+Board now:
+?g B7 | F10, C7
+!r B8 | F10, A7
+!y G2 | G1, H14
+!b B10 | B8
+Guesses: The Matrix, Hello World, Ctrl Alt Delete
+Clue-giver: No
+
+Step 3, markers placed:
+(no new markers)
+Board now:
+?g B7 | F10, C7
+!r B8 | F10, A7
+!y G2 | G1, H14
+!b B10 | B8
+
+Give up to 3 guesses, best first, or pass.

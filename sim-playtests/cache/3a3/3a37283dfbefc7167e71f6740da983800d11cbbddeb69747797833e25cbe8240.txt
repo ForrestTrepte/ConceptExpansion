@@ -1,0 +1,50 @@
+*   `?g A12`: The main concept is "Ground transportation / Road" (e.g., car, motorcycle, bicycle, train, bus).
+    *   `+ A14`: A detail is "Food / Eating / Edible".
+
+    *   "Ground transportation" + "Food"
+    *   Possibilities:
+        *   A food truck.
+        *   A drive-thru (restaurant).
+        *   A snack sold in a car/bus (not really a concept, more of a thing).
+        *   Something related to eating while driving?
+        *   A "food delivery" vehicle (maybe?).
+        *   A "hamburger" (no, that's just food).
+        *   "Drive-thru" is a strong candidate.
+
+    *   Guess 1: Food truck
+    *   Guess 2: Drive-thru
+    *   Guess 3: Delivery truck
+
+    *   *Food truck*: It's a vehicle (A12) used for food (A14).
+    *   *Drive-thru*: It's a service associated with road (A12) and food (A14).
+    *   *Delivery truck*: It's a vehicle (A12) for food (A14)? A bit broad.
+
+    Let's try:
+    1. Food truck
+    2. Drive-thru
+    3. Delivery vehicle
+
+    Wait, looking at the icons again.
+    A12: Ground transportation / Road.
+    A14: Food / Eating / Edible.
+
+    What about "Picnic"? No, that's not A12.
+    What about "Drive-in"? (Like a drive-in movie theater, but that's A6/A7).
+    "Drive-thru" feels very strong.
+    "Food truck" feels very strong.
+
+    Let's refine.
+    1. Food truck
+    2. Drive-thru
+    3. Pizza delivery
+
+    Actually, "Food truck" is a very direct combination of the two icons.
+
+    Let's check "Fast food". A14 is food. Is A12 "fast"? No, A12 is the vehicle/road.
+    "Car wash"? No.
+    "Gas station"? A12 is road/transport, but A14 is food.
+
+    I'll go with:
+    1. Food truck
+    2. Drive-thru
+    3. Delivery truck

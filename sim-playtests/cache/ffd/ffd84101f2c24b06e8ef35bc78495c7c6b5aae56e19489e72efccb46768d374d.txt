@@ -1,0 +1,413 @@
+*   `?g H14`: Main Concept is "Use - Action / Do - Verb / Button".
+    *   `+ C14`: Cube on "Eye / Sight".
+    *   `+ C11`: Cube on "Head / Face / Neck".
+    *   *Interpretation*: An action involving eyes and the face/head. (Initial guesses: Look, Blink, Wink).
+
+    *   `!r A1`: Red Sub-Concept is "Object / Box".
+    *   `+ C7`: Cube on "Electronic / Computing".
+    *   `+ C14`: Cube on "Eye / Sight".
+    *   *Interpretation*: An object/box that is electronic and involves sight. (Initial guesses: Scan, Photograph, Record - all rejected).
+
+    *   `+r D11`: Cube in the same group (red) on "Arm / Hand / Finger".
+    *   `+ F11`: Cube in the same group (red) on "One / Unit / Number".
+    *   *Wait*, let's re-examine the notation.
+    *   `!r A1` (Red Sub-Concept on A1)
+    *   `+ C7` (Cube on C7, same group as A1: Red)
+    *   `+ C14` (Cube on C14, same group as A1: Red)
+    *   `+r D11` (Wait, the rule says `+r` is a cube in the red group, but the notation says `+r D11`. Let's look at the rules: `+ B11` is a cube on B11 in the same group as the previous line. The line before was `!r A1`. So `+r D11` means a cube on D11 in the red group. But the notation provided says `+r D11`. Let me check the prompt's notation again.)
+    *   *Actually*, the prompt says:
+        `!r A1`
+        `+ C7`
+        `+ C14`
+        `+r D11`
+        `+ F11`
+    *   `+r D11` is likely a cube on D11 in the red group.
+    *   `+ F11` is a cube on F11 in the red group.
+
+    *Let's re-evaluate the Red Group (Sub-concept 1):*
+    *   `!r A1` (Object/Box)
+    *   `+ C7` (Electronic/Computing)
+    *   `+ C14` (Eye/Sight)
+    *   `+ D11` (Arm/Hand/Finger)
+    *   `+ F11` (One/Unit/Number)
+
+    *   The *action* (Main Concept) is a verb related to Eyes/Face/Head (C14, C11) and H14 (Action/Button/Use).
+    *   The *object* (Sub-Concept Red) is a Box/Object (A1) that is Electronic (C7), involves Sight (C14), Hands (D11), and is a single unit (F11).
+
+    *Wait, let's look at the action again:*
+    *   The action is `H14` (Use/Action/Button) + `C14` (Eye) + `C11` (Head).
+    *   The object is `A1` (Box) + `C7` (Electronic) + `C14` (Eye) + `D11` (Hand) + `F11` (One).
+
+    *Synthesis:*
+    - An action involving eyes/sight/head.
+    - An object that is an electronic box/device, involves eyes (camera?), involves hands, and is "one".
+
+    *Common electronic devices involving eyes/cameras and hands/buttons:*
+    - Camera (Action: Take a photo? But "Photograph" was rejected).
+    - Smartphone?
+    - Computer?
+    - Television? (No, it's a "Box" + "Electronic" + "Eye").
+    - Digital Camera? (Already rejected "Photograph").
+    - Smartphone (Action: Text? Call? Scroll?).
+
+    *Let's look at the "Action" (H14 + Eye + Head) again.*
+    - H14: Use/Action/Button.
+    - C14: Eye.
+    - C11: Head.
+    - Could the action be "Watch"? "See"? "Look"? (Rejected).
+    - What about "Identify"? "Recognize"? (Face ID?)
+    - "Face Recognition"? (H14: Action, C14: Eye, C11: Head).
+    - Wait, the action is the *concept*.
+    - If the action is "to watch" or "to see", maybe "Observe"?
+    - Or is the action a specific thing you *do* with the object?
+    - "Press a button" (H14) on a "Digital camera/smartphone" (Red object).
+
+    *Wait, let's look at the Red markers again:*
+    - Object (A1)
+    - Electronic (C7)
+    - Sight (C14) - maybe a camera or screen?
+    - Hand (D11) - something you hold?
+    - One (F11) - single item?
+
+    *What is the action (H14 + C14 + C11)?*
+    - H14: Action/Button/Do.
+    - C14: Eye.
+    - C11: Head.
+    - Is the action "Watch"? "See"? "Identify"? "Recognize"? "Detect"?
+    - "Recognize"?
+    - "Eye contact"? (No, H14 is an action).
+
+    *Let's re-examine the "Object":*
+    - Electronic box (A1, C7).
+    - Eye/Sight (C14).
+    - Hand (D11).
+    - One (F11).
+    - A Camera? A Phone? A Tablet? A Monitor? A Webcam?
+
+    *What action do you do with a Webcam?*
+    - "Video Call"? "Zoom"? "Watch"?
+    - What about "Facial recognition"? (The action of scanning a face).
+
+    *Let's try "Watch" / "See" derivatives:*
+    - "View"?
+    - "Observe"?
+    - "Stare"?
+    - "Gaze"?
+
+    *Wait, look at the action markers again: H14 (Action/Button) + C14 (Eye) + C11 (Head).*
+    - Could it be "Eye contact"? No, H14 is a verb/action.
+    - "Recognize"?
+    - "Identify"?
+    - "Detect"?
+
+    *Looking at the Red group again:*
+    - A1 (Object/Box/Cardboard box - though here it probably means "Object/Container")
+    - C7 (Electronic)
+    - C14 (Eye/Sight)
+    - D11 (Arm/Hand/Finger)
+    - F11 (One/Unit)
+    - *Maybe the object is a "Computer Mouse"?* (Electronic, Hand, One, but not Eye).
+    - *Maybe the object is a "Phone"?*
+    - *Maybe the object is a "Remote Control"?* (Electronic, Hand, One, but Eye/Sight?)
+
+    *Let's rethink the Action (H14, C14, C11):*
+    - H14 (Action/Button)
+    - C14 (Eye)
+    - C11 (Head)
+    - Action related to eyes and head.
+    - "Blink" (Rejected).
+    - "Wink" (Rejected).
+    - "Look" (Rejected).
+    - "See"?
+    - "Watch"?
+    - "Stare"?
+    - "Recognize"?
+    - "Identify"?
+    - "Observe"?
+    - "Spy"?
+    - "Peek"?
+
+    *Let's try "Watch":*
+    - If the action is "Watch", the object (Red) is an electronic box with eyes and hands... "Television"? (C7 Electronic, B9/A1 Building/Box - A1 is Object/Box, C14 Eye/Sight, D11 Hand/Finger, F11 One).
+    - Is the action "Television"? No, H14 is a verb.
+    - "Watch" (Action) + "Television" (Electronic Box).
+    - "Watch" (Action) + "Monitor"?
+    - "Watch" (Action) + "Video"?
+
+    *Wait, "Scan" and "Photograph" were rejected.*
+    - "Record" was also rejected.
+    - Maybe the action is "Watch"?
+    - Let's look at the Red group again. If the object is "Television", "Computer", "Phone", "Camera"...
+    - "Identify"?
+    - "Recognize"?
+
+    *Wait! "Face ID" or "Facial recognition".*
+    - H14 (Action)
+    - C11 (Head)
+    - C14 (Eye)
+    - Action: "Recognize"?
+    - Object: "Smartphone" (A1 Object, C7 Electronic, C14 Eye, D11 Hand, F11 One).
+
+    *Let's look at H14 again (Action/Button/Use).*
+    - Could it be "Press"?
+    - "Press a button"?
+    - "Select"?
+    - "Click"?
+    - "Tap"?
+    - If the action is "Tap" (H14, C14, C11... no, that doesn't fit Eye).
+
+    *Is the action "See"?*
+    - If the action is "See", and the object is an electronic box... "Television"?
+    - Let's try "Watch".
+    - Let's try "Observe".
+
+    *Wait, let's look at the Red Group again.*
+    - A1: Object/Box
+    - C7: Electronic
+    - C14: Eye/Sight
+    - D11: Hand/Finger
+    - F11: One/Unit
+    - *Could the object be a "Webcam"?*
+    - *Could the object be a "Computer"?*
+    - *Could the object be "A Smartphone"?*
+
+    *What if the action is "to view"?*
+    - Or "to see"?
+    - Or "to watch"?
+
+    *Let's look at the "Action" one more time:*
+    - H14 (Action)
+    - C14 (Eye)
+    - C11 (Head)
+    - Could it be "Eyeball"? No.
+    - "Stare"?
+    - "Gaze"?
+    - "Look" (Rejected).
+    - "Observe"?
+
+    *Let's try a different angle for the Red Group.*
+    - A1 (Box/Object) + C7 (Electronic) + C14 (Eye/Sight) + D11 (Hand) + F11 (One).
+    - A "Mobile phone"?
+    - A "Laptop"?
+    - A "Monitor"?
+    - A "Digital camera"? (Rejected "Photograph").
+    - A "Smartphone"?
+
+    *If the object is a Smartphone, what is the action?*
+    - "Call"?
+    - "Text"?
+    - "Scroll"?
+    - "Type"?
+    - "Swipe"?
+    - "Tap"?
+    - "Click"?
+    - "Watch"?
+
+    *Let's look at the action (H14, C14, C11) again.*
+    - H14 (Action/Button)
+    - C14 (Eye)
+    - C11 (Head)
+    - Maybe "Recognition"? (Not an action/verb).
+    - Maybe "Identify"?
+    - Maybe "Recognize"?
+    - Maybe "Detect"?
+
+    *Let's think about the "One/Unit" (F11) and "Hand" (D11).*
+    - Is it "A click"? (No, H14 is a verb).
+    - "Click"?
+    - "Tap"?
+    - "Select"?
+
+    *Wait, "H14: Action/Button/Use".*
+    - "Eye/Sight" (C14).
+    - "Head/Face" (C11).
+    - Could it be "Eye-contact"? No.
+    - Could it be "Vision"? No.
+    - "Observe"?
+    - "Watch"?
+    - "See"?
+
+    *Let's try: "Watch", "Observe", "View".*
+
+    *Wait, "Electronic" (C7) + "Eye" (C14) + "Hand" (D11) + "One" (F11).*
+    - "A mouse"? (No, no eye).
+    - "A computer"?
+    - "A smartphone"?
+    - "A remote"?
+    - "A camera"?
+    - "A webcam"?
+
+    *What action involves eyes, head, and a button?*
+    - "Pressing a button" to "See"?
+    - "Seeing"?
+    - "Watching"?
+
+    *Wait! "H14: Action/Button/Use".*
+    - "C14: Eye/Sight".
+    - "C11: Head/Face".
+    - Is the action "To see"?
+    - Is the object a "TV" or "Monitor"?
+    - "Television" is an object (A1), electronic (C7), involves sight (C14), you use your hands (D11) to change it, and it's one (F11).
+    - Action: "Watch" (H14/C14/C11).
+
+    *Let's try "Watch".*
+    *Another possibility:*
+    - Object: "Computer".
+    - Action: "Browse"? "Search"?
+
+    *Another:*
+    - Action: "Recognize".
+    - Object: "Face recognition" (doesn't fit the red group well).
+
+    *Let's look at "H14: Action/Button/Use" again.*
+    - Could the action be "Click"?
+    - "Click" (H14) + "Eye/Sight" (C14) + "Head" (C11)? No.
+    - "Tap"?
+    - "Scroll"?
+
+    *Let's try "Watch".* (Wait, "Watch" is a verb, and it involves sight (C14) and potentially head/neck (C11) as you look).
+    *If the answer is "Watch":*
+    - Action: Watch (H14).
+    - Red object: Television (A1, C7, C14, D11, F11).
+    - "Television" fits: Object (A1), Electronic (C7), Sight (C14), Hand/Finger (D11), One (F11).
+
+    *Wait, "Scan, Photograph, Record" were rejected.* These are actions.
+    *The first guesses "Look, Blink, Wink" were also actions.*
+    *So the answer is likely an action.*
+
+    *If the answer is "Watch":*
+    *Let's try "Watch", "Observe", "View".*
+
+    *Actually, let's consider "See".*
+    *Or "Browse".*
+
+    *Wait, "H14: Use - Action / Do - Verb / Button".*
+    *Could the action be "Watch"?*
+    *If the action is "Watch", it uses the eyes (C14) and the head (C11) and is a verb (H14).*
+    *The object (Red) is an Electronic (C7) Box (A1) with Sight (C14), Hand (D11), and One (F11).*
+    *A "Television" or "Monitor" or "Smartphone".*
+
+    *Wait, "Scan" (Rejected). "Photograph" (Rejected). "Record" (Rejected).*
+    *Maybe "Watch"?*
+    *Maybe "View"?*
+    *Maybe "See"?*
+
+    *Wait! "H14 + C14 + C11" = "Watch".*
+    *Is it "Watch"?*
+    *Wait, "Watch" is also a noun (an object). But the clue says H14 is "Action/Do/Verb".*
+
+    *Let's try "Watch".*
+
+    *Another thought:*
+    - "Action: Press".
+    - "Object: Button".
+    - But the red group is a box/electronic/eye/hand/one.
+    - A "Remote Control"?
+    - A "Mouse"?
+    - A "Computer"?
+
+    *Let's try "Watch", "View", "See".*
+
+    *Wait, what if the action is "Look at" (no, "Look" was rejected).*
+    *What about "Observe"?*
+    *What about "Identify"?*
+    *What about "Recognize"?*
+
+    *Let's look at the red group again:*
+    - A1 (Object)
+    - C7 (Electronic)
+    - C14 (Eye)
+    - D11 (Hand/Finger)
+    - F11 (One)
+    - *Could it be a "Smartphone"?*
+    - *Action:* "Watch"? "Call"? "Text"?
+
+    *Wait, "C14: Eye/Sight" and "C11: Head/Face".*
+    *What if the action is "To see"?*
+    *No, let's try "Watch".*
+
+    *Let me think of more actions.*
+    - "Stare"?
+    - "Gaze"?
+    - "Observe"?
+    - "View"?
+    - "Monitor"? (To monitor something).
+
+    *Let's try: Watch, View, Observe.*
+
+    *(Self-Correction):* "Record" was rejected. "Scan" was rejected. "Photograph" was rejected.
+    These are all related to capturing images.
+    The action (H14, C14, C11) is about using the eyes/head.
+    The object (A1, C7, C14, D11, F11) is an electronic device with sight/eye.
+
+    *Is the answer "Watch"?*
+    *Or "See"?*
+    *Or "Observe"?*
+    *Or "Monitor"?*
+
+    *Wait, "Monitor" (the verb) is a perfect fit for: H14 (Action) + C14 (Sight) + C11 (Head/Face) and "Monitor" (the noun) is an electronic box (A1, C7).*
+    *But the answer is a single thing. If the answer is "Monitor" (the noun), the H14 would be weird.*
+    *If the answer is "Monitor" (the verb), the red group (A1, C7, C14, D11, F11) would be the object you monitor (the electronic box).*
+
+    *Let's try "Watch" or "View".*
+
+    *Wait, another possibility: "Recognize".* (Already considered).
+    *Another: "Identify".* (Already considered).
+
+    *Let's try: Watch, View, Observe.*
+
+    *Wait, H14 (Button) + C14 (Eye) + C11 (Face) could be "Face recognition".*
+    *But "Face Recognition" is a concept, not a single word/action. And the red group "A1 (Object) + C7 (Electronic) + C14 (Eye) + D11 (Hand) + F11 (One)" could be "A smartphone".*
+
+    *Let's try "Watch".*
+
+    *Actually, let's look at the Red markers again: A1 (Object/Box), C7 (Electronic), C14 (Eye), D11 (Hand), F11 (One).*
+    *A "Camera" is an object (A1), electronic (C7), has a lens/eye (C14), you hold it (D11), and it's one (F11).*
+    *The action is (H14, C14, C11).*
+    *What action do you do with a camera?*
+    - "Photograph" (Rejected).
+    - "Record" (Rejected).
+    - "Scan" (Rejected).
+    - "Watch"?
+    - "See"?
+    - "Capture"?
+    - "Snap"?
+
+    *Wait, "Snap" (as in "Snap a photo").*
+    *No, let's try "Watch".*
+
+    *Let's think... "H14 (Action) + C14 (Eye) + C11 (Head/Face)".*
+    *Could it be "Eye contact"?* (No, H14 is verb/action).
+    *Could it be "To watch"?*
+    *Could it be "To see"?*
+
+    *Wait! "H14: Action/Button".*
+    *Maybe the answer is "Click"?*
+    *If the answer is "Click", then the red group would be "Mouse" (Electronic, Hand, One, but no Eye).*
+    *If the answer is "Tap", then the red group would be "Smartphone" (Electronic, Hand, One, but Eye? Maybe the screen?).*
+
+    *Let's try "Watch" and "View".*
+
+    *Wait, "Observe" is also a good candidate.*
+
+    *One more look at "H14 (Action/Button) + C14 (Eye) + C11 (Head)".*
+    *What about "Focus"? (To focus a lens).*
+    *H14 (Action/Button) - You focus a camera.*
+    *C14 (Eye) - Focus relates to eyes.*
+    *C11 (Head) - Focus relates to the head/eyes.*
+    *And the object (Red) is a Camera (A1, C7, C14, D11, F11).*
+
+    *Let's try "Focus".*
+
+    *Let's try: Watch, Focus, View.*
+
+    *(Wait, "Focus" is a very good guess).*
+
+    *Let's check "Focus" again:*
+    - H14 (Action/Button/Do/Verb) - To focus.
+    - C14 (Eye/Sight) - Vision/Focus.
+    - C11 (Head/Face) - Sense/Eye.
+    - Red: A1 (Object), C7 (Electronic), C14 (Eye/Sight), D11 (Hand), F11 (One).
+    - A "Camera" or "Lens" or "Computer" or "Smartphone".
+
+    *Let's try "Watch", "View", "Focus".*

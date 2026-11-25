@@ -1,0 +1,385 @@
+*   `?g B10` (Main Concept: Celebration/Anniversary/Holiday)
+    *   `+ A10` (Date/Event/Day)
+    *   `+ C1` (Baby/Child/Young/New)
+    *   `!r A8` (Red Sub-concept: Idea/Intelligence/Concept)
+    *   `+ H13` (Right/End/After/Future)
+    *   `+ B8` (Expression/Quote/Talking/Words)
+    *   *Result of Step 1:* The clue-giver confirmed "Birthday" is on the right track.
+    *   *Current interpretation:* An event (B10/A10) for a young person/new person (C1) related to an idea (A8), a future/end (H13), and words (B8).
+
+    *   `!y H14` (Yellow Sub-concept: Use/Action/Verb/Button)
+    *   `+ H13` (Right/End/After/Future)
+    *   `+ B8` (Expression/Quote/Talking/Words)
+    *   `+ G14` (Turn/Around/Cycle/Repetition)
+    *   *Result of Step 2:* "Anniversary", "Graduation", "Wedding" were "No".
+    *   *Interpretation:* This yellow sub-concept seems to be an action involving a cycle (G14), an end/future (H13), and words (B8). This likely points towards a specific ritual or a specific type of celebration.
+
+    *   `!b D8` (Blue Sub-concept: Time/Duration)
+    *   `+ G14` (Turn/Around/Cycle/Repetition)
+    *   `+ F11` (One/Unit/Number)
+    *   `+ C1` (Baby/Child/Young/New)
+    *   *Interpretation:* This blue sub-concept is about "Time/Duration" and specifically mentions a single unit (F11) and a cycle (G14) involving a young/new person (C1).
+
+    *   `?g B10 (Celebration/Anniversary/Holiday)`
+    *   `+ A10 (Date/Event/Day)`
+    *   `+ C1 (Baby/Child/Young/New)`
+    *   `!r A8 (Idea/Intelligence/Concept)`
+    *   `+ H13 (Right/End/After/Future)`
+    *   `+ B8 (Expression/Quote/Talking/Words)`
+    *   `!y H14 (Use/Action/Verb)`
+    *   `+ H13 (Right/End/After/Future)`
+    *   `+ B8 (Expression/Quote/Talking/Words)`
+    *   `+ G14 (Turn/Around/Cycle/Repetition)`
+    *   `!b D8 (Time/Duration)`
+    *   `+ G14 (Turn/Around/Cycle/Repetition)`
+    *   `+ F11 (One/Unit/Number)`
+    *   `+ C1 (Baby/Child/Young/New)`
+
+    *   The target is a celebration (B10) of a day/event (A10) involving a new/young person (C1).
+    *   "Birthday" was a "Yes" (meaning it's related to birthdays or is a specific kind of birthday).
+    *   Wait, the user said "Yes: Birthday". In Concept, "Yes: <guess>" means the guess is on the right track. It doesn't necessarily mean it's the answer.
+    *   Let's look at the other markers.
+    *   `!r A8 (Idea) + H13 (Future/End) + B8 (Words)`: A thought or concept about words/future/end.
+    *   `!y H14 (Action) + H13 (Future/End) + B8 (Words) + G14 (Cycle)`: An action of cycling words or future words.
+    *   `!b D8 (Time) + G14 (Cycle) + F11 (One) + C1 (New/Young)`: A cycle of time, one unit, a new/young person.
+
+    *   Wait, let's re-examine the `!r` and `!y` groups.
+    *   `!r` (Red) is Sub-concept: Idea (A8).
+    *   `!y` (Yellow) is Sub-concept: Action/Verb (H14).
+    *   `!b` (Blue) is Sub-concept: Time (D8).
+
+    *   Red (Idea): A8 (Idea), H13 (End/Future), B8 (Words/Expression).
+    *   Yellow (Action): H14 (Action), H13 (End/Future), B8 (Words/Expression), G14 (Cycle/Repetition).
+    *   Blue (Time): D8 (Time), G14 (Cycle), F11 (One), C1 (Young/New).
+
+    *   Is the answer **"First Birthday"**?
+        *   `?g B10` (Celebration)
+        *   `+ A10` (Day)
+        *   `+ C1` (Baby/Young)
+        *   `!b D8` (Time) + `F11` (One) = One year/time?
+        *   `!y H14` (Action) + `G14` (Cycle/Turn/Repetition)?
+        *   `!r A8` (Idea) + `H13` (Future/End) + `B8` (Words)? This is the tricky part.
+
+    *   Let's think about "Birthday" (the "on the right track" clue).
+    *   Maybe the answer is **"Anniversary"**? (Wait, the clue-giver said No to Anniversary).
+    *   Maybe the answer is **"Baby Shower"**?
+        *   Celebration (B10).
+        *   Young/New (C1).
+        *   Action/Verb (H14)?
+        *   Is "Baby Shower" a "Birthday" related concept?
+    *   What about **"Christening"** or **"Baptism"**?
+        *   Celebration (B10).
+        *   Young/New (C1).
+        *   Words/Expression (B8)? (Blessing/Prayer).
+        *   One/Unit (F11)?
+        *   Cycle/Repetition (G14)? (A ritual).
+
+    *   Let's look at the `!r` and `!y` groups again. They might be components of a phrase.
+    *   `!r` (Red): Idea (A8), Future (H13), Words (B8).
+    *   `!y` (Yellow): Action (H14), Future (H13), Words (B8), Cycle (G14).
+    *   `!b` (Blue): Time (D8), Cycle (G14), One (F11), Young (C1).
+
+    *   If the "Yes: Birthday" means it's related to a birthday...
+    *   Could it be **"Happy Birthday"**?
+        *   `?g B10` (Celebration).
+        *   `!r A8` (Idea) + `B8` (Words) = The concept of the words?
+        *   `!y H14` (Action) + `B8` (Words) = Singing (Action + Words)?
+        *   `!b D8` (Time) + `G14` (Cycle) + `F11` (One) + `C1` (Young)? "One year"?
+        *   `G14` is a cycle/repetition. "Happy Birthday" is a song (repetition/cycle).
+
+    *   Let's try to find a better fit.
+    *   `!r`: Idea (A8) + Future/End (H13) + Words (B8).
+    *   `!y`: Action (H14) + Future/End (H13) + Words (B8) + Cycle (G14).
+    *   `!b`: Time (D8) + Cycle (G14) + One (F11) + Young (C1).
+
+    *   Wait, look at the "Red" group again. `!r A8 + H13 + B8`.
+    *   Could it be **"New Year"**? No, that was the first guess and it wasn't confirmed.
+    *   Wait, the clue-giver said "Yes: Birthday" to the first set of guesses (New Year, Birthday, New Year's Eve). This means "Birthday" is a good guess.
+
+    *   Let's look at the phrase/words idea.
+    *   `!y`: Action (H14) + Words (B8) + Cycle (G14).
+    *   A song or a phrase that is repeated.
+    *   "Happy Birthday"?
+    *   "One year old"?
+
+    *   Let's look at `!b` again: `D8 (Time), G14 (Cycle), F11 (One), C1 (Young)`.
+    *   One year/One cycle of time for a young person.
+    *   "First Birthday" fits the "One" and "Young" and "Celebration" and "Birthday" (on track).
+
+    *   Let's check `!r` and `!y` for "First Birthday".
+    *   `!y` (Action/Verb): `H14 (Action), H13 (End/Future), B8 (Words), G14 (Cycle)`.
+    *   Maybe the action is "to celebrate" or "to sing"?
+    *   `!r` (Idea): `A8 (Idea), H13 (End/Future), B8 (Words)`.
+    *   Is it **"Birthday Song"**?
+        *   `?g B10` (Celebration/Event).
+        *   `!r` (Idea/Words/Future?)
+        *   `!y` (Action/Words/Cycle): Singing words in a cycle/repetition.
+        *   `!b` (Time/Cycle/One/Young): A cycle of time (birthday) for a young person.
+
+    *   Wait, "Birthday" was "on the right track". "Anniversary" was "No".
+    *   If the answer is "Birthday Song":
+        *   `?g B10` (Celebration/Event) - Yes.
+        *   `!y H14 (Action) + B8 (Words) + G14 (Cycle)` - Yes (Singing words/repetitive).
+        *   `!b D8 (Time) + G14 (Cycle) + F11 (One) + C1 (Young)` - A song for one year/young/cycle of time?
+
+    *   Let's think about other options.
+    *   **"New Year's Eve"** was "No".
+    *   **"Birthday"** was "Yes".
+    *   **"Anniversary"**, **"Graduation"**, **"Wedding"** were "No".
+    *   **"Baby Shower"**?
+    *   **"First Birthday"**?
+    *   **"Birthday Card"**? (Words/B8, Writing/A5, but A5 isn't used).
+    *   **"Happy Birthday"** (the song)?
+
+    *   Look at `!r` again: `A8 (Idea/Concept), H13 (End/Future/Right), B8 (Words/Expression)`.
+    *   Maybe the red sub-concept is **"Birthday"** itself?
+    *   If `!r` is "Birthday":
+        *   `A8 (Idea/Concept) + B8 (Words/Name) + H13 (Future/End/After)`.
+        *   The concept of a name/day that comes after a year.
+    *   If `!y` is **"Singing"** (Action/Verb/Words/Cycle):
+        *   `H14 (Action) + B8 (Words) + G14 (Cycle)`.
+    *   If `!b` is **"One year old"** (Time/One/Cycle/Young):
+        *   `D8 (Time) + F11 (One) + G14 (Cycle) + C1 (Young)`.
+
+    *   Let's try to combine: A song (`!y`) for a first birthday (`!b`)?
+    *   Or is it just **"First Birthday"**?
+
+    *   Let's re-evaluate `!r` (Idea, Future, Words).
+    *   `!y` (Action, Future, Words, Cycle).
+    *   `!b` (Time, Cycle, One, Young).
+
+    *   Wait! `H13` is "Right / End / After / Future".
+    *   `G14` is "Turn / Around / Cycle / Repetition".
+    *   Could `!r` be **"Future"**? No.
+    *   Could `!y` be **"Repeat"**?
+    *   Could `!b` be **"Annual"**?
+
+    *   Let's look at the words/expression `B8`.
+    *   What if the answer is **"Age"**? No, `?g B10` is a celebration.
+    *   What if it's **"Countdown"**? (Not a celebration).
+
+    *   Let's look at the "Yes: Birthday" again. It means the answer is related to a Birthday.
+    *   Could it be **"Birthday Cake"**?
+        *   `!b` (Time/Cycle/One/Young) - No.
+        *   `!y` (Action/Words/Cycle) - No.
+    *   Could it be **"Birthday Party"**?
+        *   `!y` (Action/Words/Cycle) - Maybe (Celebrating/Singing).
+        *   `!b` (Time/One/Young) - Maybe.
+    *   Could it be **"Age"**? No.
+
+    *   Let's reconsider **"First Birthday"**.
+    *   It's a celebration (B10).
+    *   It's for a young person (C1).
+    *   It's a single unit of time (D8, F11).
+    *   It's a cycle (G14).
+    *   It involves words/expression (B8).
+    *   It's an action (H14) like singing?
+
+    *   What else? **"Baby"**? (Too simple, not a celebration).
+    *   **"Newborn"**?
+    *   **"Milestone"**?
+
+    *   Let's look at the "Red" group again. `A8 (Idea), H13 (End/Future), B8 (Words)`.
+    *   "After" + "Words" + "Idea".
+    *   `!y` (Yellow): "Action" + "After" + "Words" + "Cycle".
+    *   `!b` (Blue): "Time" + "Cycle" + "One" + "Young".
+
+    *   Is it **"Birthday"**? The clue-giver said "Yes: Birthday" to the first guess. This usually means "Birthday" is *not* the answer, but it is on the right track.
+    *   If "Birthday" is on the right track, but isn't the answer, and "Anniversary" was "No"...
+    *   What about **"Birthday Song"**?
+    *   What about **"First Birthday"**?
+    *   What about **"Birthday Girl/Boy"**?
+
+    *   Let's look at `!r` and `!y` again.
+    *   `!r`: Idea + Future + Words.
+    *   `!y`: Action + Future + Words + Cycle.
+    *   `!b`: Time + Cycle + One + Young.
+
+    *   Wait, `H13` is "Right/End/After/Future".
+    *   `G14` is "Turn/Around/Cycle/Repetition".
+    *   `F11` is "One".
+    *   `C1` is "Young".
+    *   `D8` is "Time".
+    *   This heavily implies "One Year" or "First".
+
+    *   The `!r` and `!y` groups focus on `B8` (Words/Expression) and `H13` (Future/End/After).
+    *   Could the answer be **"Birthday Greeting"**?
+    *   Could it be **"Happy Birthday"**? (The song/phrase).
+    *   If the answer is **"Happy Birthday"**:
+        *   `?g B10` (Celebration/Event).
+        *   `!r` (Idea/Future/Words): The concept of the words spoken (or the future/after the person is born).
+        *   `!y` (Action/Future/Words/Cycle): The action of singing the words in a cycle.
+        *   `!b` (Time/Cycle/One/Young): A single cycle of time for a young person.
+
+    *   Let's try another angle.
+    *   `!y` (Action) + `B8` (Words) + `G14` (Cycle/Repeat).
+    *   `!b` (Time/Cycle/One/Young).
+    *   `!r` (Idea/Future/Words).
+
+    *   What about **"First Birthday"**?
+    *   It's a celebration.
+    *   It's the one-year cycle.
+    *   It's for a young person.
+    *   It's related to "Birthday".
+
+    *   Another possibility: **"Birth"**? No, B10 is a celebration.
+    *   **"Newborn"**?
+    *   **"Baby's First Birthday"**? (A bit long).
+
+    *   Wait, look at `!r` again. `A8 (Idea) + H13 (End/After/Future) + B8 (Words/Expression)`.
+    *   Could it be **"Name"**? (No, B10 is celebration).
+    *   What if the answer is **"Age"**? (No).
+    *   What if the answer is **"Years"**? (No).
+
+    *   Let's try to think of what "Action + Words + Cycle" and "Time + Cycle + One + Young" could mean.
+    *   "One year" + "Singing" + "Birthday".
+    *   The most likely candidates are **"First Birthday"** or **"Birthday Song"**.
+
+    *   Let's look at `!r` (Idea, Future, Words) again.
+    *   If the answer is "Birthday Song", the words are the "idea" and they are sung (action) in a cycle (repetition).
+
+    *   Wait, let's look at `H13` (End/After) and `G14` (Cycle/Turn/Around).
+    *   `G14` is "Turn/Around/Cycle/Repetition".
+    *   `H13` is "Right/End/After/Future".
+    *   "After one cycle/turn of the year".
+    *   "One year old".
+    *   "First Birthday".
+
+    *   Let's refine the guesses:
+    1.  First Birthday
+    2.  Birthday Song
+    3.  Baby Shower (though it's a bit of a stretch)
+
+    *   Actually, let's look at the `!y` group again. `H14 (Action/Verb) + H13 (Future/End/After) + B8 (Words) + G14 (Cycle/Turn)`.
+    *   Could it be **"Anniversary"**? (No, clue-giver said no).
+    *   Could it be **"Birthday"**? (Already said "Yes: Birthday", meaning it's on the right track).
+
+    *   If "Birthday" is on the track, and the question is a celebration/event (B10) for a young person (C1) involving one unit of time (F11) and a cycle (G14)...
+    *   It's almost certainly **"First Birthday"**.
+
+    *   Let's re-check `!r` (Idea, Future, Words).
+    *   Maybe "Birthday" is the "Idea" (A8) and the "Words" (B8) and it happens "After/Future" (H13) a year?
+
+    *   Let's try one more: **"Age"**? No.
+    *   **"Years old"**? No.
+    *   **"One year old"**?
+
+    *   Let's look at `!b` again. `D8 (Time), G14 (Cycle/Turn), F11 (One), C1 (Young)`.
+    *   This is so strongly "One Year/First Year".
+
+    *   Let's look at `!y` again. `H14 (Action), H13 (End/After), B8 (Words), G14 (Cycle/Turn)`.
+    *   This is "Turning/Cycling words/actions/events after/at the end".
+
+    *   Final Guessing strategy:
+    *   "First Birthday" is the strongest.
+    *   "Birthday Song" is second.
+    *   "One Year Old" is third.
+
+    *   Wait, "Anniversary" was "No". "Wedding" was "No". "Graduation" was "No".
+    *   "Birthday" was "Yes".
+    *   If the answer was "Birthday", the clue-giver would have said "Correct".
+    *   Since they said "Yes: Birthday", it means the answer is *related* to a birthday.
+
+    *   What about **"Birthday Cake"**? (Doesn't fit the "Time/Cycle/One/Words" stuff).
+    *   What about **"Birthday Card"**? (Doesn't fit).
+    *   What about **"First Birthday"**? (Fits "One/Cycle/Young/Time" perfectly).
+
+    *   Let's re-verify `!r` (Idea, Future, Words).
+    *   If it's "First Birthday", maybe `!r` is "the concept of being one year older"?
+
+    *   One more thought: **"Birthday Party"**?
+    *   `!y` (Action/Verb, Words, Cycle) - A party is an action, involves words/singing, and is a cycle (annual).
+    *   `!b` (Time/Cycle/One/Young) - A celebration of one year for a young person.
+    *   But "First Birthday" fits the `F11` (One) and `C1` (Young) better.
+
+    *   Let's go with:
+    1. First Birthday
+    2. Birthday Song
+    3. Birthday Party
+
+    *   Wait, I just noticed `!r` has `H13` (Future/End/After).
+    *   `!y` also has `H13` (Future/End/After).
+    *   Could the answer be **"Birthday"**? No, the clue-giver said "Yes: Birthday" to the first round, implying "Birthday" is a guess that is on the track, but not the answer.
+
+    *   Let's look at `!b` again: `D8 (Time), G14 (Cycle), F11 (One), C1 (Young)`.
+    *   If the answer is **"First Birthday"**, then:
+        *   `?g B10` = Celebration
+        *   `+ A10` = Day
+        *   `+ C1` = Young
+        *   `!r A8` = Concept/Idea
+        *   `!y H14` = Action (Celebrating?)
+        *   `!b D8` = Time (One year)
+
+    *   Actually, "First Birthday" is a very strong candidate.
+
+    *   *Self-Correction:* Let me look at `!r` again. `A8 (Idea), H13 (End/After), B8 (Words)`.
+    *   If the answer is "First Birthday", what are "Words" and "Idea" and "After"?
+    *   Could it be **"Happy Birthday"**? (The phrase itself).
+    *   `!r`: The words (B8)/idea (A8) that you say after (H13) someone is born?
+    *   `!y`: The action (H14) of saying/singing (B8) the words (B8) in a cycle (G14) after (H13) a year?
+    *   `!b`: The time (D8) of a single cycle (G14) of one (F11) year for a young (C1) person?
+
+    *   This fits "Happy Birthday" extremely well.
+
+    *   Let's try:
+    1. First Birthday
+    2. Happy Birthday
+    3. Birthday Song
+
+    *   Wait, the user's Step 1 was:
+    *   `?g B10` (Celebration)
+    *   `+ A10` (Day)
+    *   `+ C1` (Young)
+    *   `!r A8` (Idea)
+    *   `+ H13` (After/End)
+    *   `+ B8` (Words)
+    *   Guesses: New Year, Birthday, New Year's Eve.
+    *   Clue-giver: "Yes: Birthday".
+
+    *   This means the target is related to a Birthday.
+    *   If the target was "Happy Birthday", "Birthday" is indeed on the right track.
+
+    *   Let's look at Step 3 again.
+    *   `!b D8` (Time)
+    *   `+ G14` (Cycle)
+    *   `+ F11` (One)
+    *   `+ C1` (Young)
+    *   This strongly suggests "One year".
+
+    *   "First Birthday" vs "Happy Birthday".
+    *   "First Birthday" is a specific event.
+    *   "Happy Birthday" is a song/phrase.
+
+    *   If the answer is "First Birthday":
+    *   `!y` (Action/Words/Cycle) -> Celebrating?
+    *   `!r` (Idea/Words/After) -> The concept/words of the birthday?
+
+    *   Let's try "First Birthday" as the primary guess.
+
+    *   *Double Check:*
+    *   `!r A8 (Idea) + H13 (After/End) + B8 (Words)`
+    *   `!y H14 (Action) + H13 (After/End) + B8 (Words) + G14 (Cycle)`
+    *   `!b D8 (Time) + G14 (Cycle) + F11 (One) + C1 (Young)`
+
+    *   Wait, look at `H13` (End/After/Future) and `G14` (Cycle/Turn/Around) and `F11` (One) and `D8` (Time).
+    *   "One cycle of time" (one year).
+    *   "Action of words in a cycle" (singing/saying).
+    *   "Concept of words after a year".
+    *   "Celebration of a day for a young person".
+
+    *   This is almost certainly **"First Birthday"** or **"Happy Birthday"**.
+
+    *   Let's try:
+    1. First Birthday
+    2. Happy Birthday
+    3. Birthday Song
+
+    *   Actually, "Happy Birthday" (the song/phrase) makes sense of the "Words/Expression/Action/Cycle" parts a lot better.
+
+    *   Let's look at the words/expression (B8) and action (H14). Singing (action) words (B8) in a cycle (G14).
+    *   And the "Time/One/Cycle/Young" (D8, F11, G14, C1) part refers to the "First" in "First Birthday".
+
+    *   I'll go with:
+    1. First Birthday
+    2. Happy Birthday
+    3. Birthday Song

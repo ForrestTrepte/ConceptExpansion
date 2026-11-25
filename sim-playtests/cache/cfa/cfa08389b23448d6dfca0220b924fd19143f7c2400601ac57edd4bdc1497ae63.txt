@@ -1,0 +1,30 @@
+New prompt.
+
+Step 1, markers placed:
+?g F4
++ E5
++ H9
++ E10
+!r E2
++ Black
+Board now:
+?g F4 | E5, H9, E10
+!r E2 | Black
+Guesses: volcano, mountain, crater
+Clue-giver: No
+
+Step 2, markers placed:
+(no new markers)
+Board now:
+?g F4 | E5, H9, E10
+!r E2 | Black
+Guesses: volcano, hole, tunnel
+Clue-giver: No
+
+Step 3, markers placed:
+(no new markers)
+Board now:
+?g F4 | E5, H9, E10
+!r E2 | Black
+
+Give up to 3 guesses, best first, or none to pass.

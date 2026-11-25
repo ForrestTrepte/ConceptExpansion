@@ -1,0 +1,27 @@
+New prompt.
+
+Step 1, markers placed:
+?g B8
+Board now:
+?g B8
+Guesses: Quotation, Saying, Phrase
+Clue-giver: No
+
+Step 2, markers placed:
+!b E1 [on the rain under the cloud]
+Board now:
+?g B8
+!b E1
+Guesses: Cold saying, Weather phrase, Ice
+Clue-giver: No
+
+Step 3, markers placed:
+!y F7
++ C8
++ H3
+Board now:
+?g B8
+!y F7 | C8, H3
+!b E1
+
+Give up to 3 guesses, best first, or none to pass.

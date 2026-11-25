@@ -1,0 +1,3 @@
+**Inferring slow brown animals**
+
+I need to infer an animal description: slow, brown, and possibly associated with plants. “Slow x2” suggests something very slow. I’m considering sloths and tortoises, as they fit the description. The emphasis on “below” makes me think of ground-dwelling creatures, like a brown bear or maybe even a snail, which is low to the ground and associated with plants. So, my top guesses are tortoise, sloth, and snail. I’ll format the answer in JSON.

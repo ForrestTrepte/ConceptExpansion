@@ -1,0 +1,34 @@
+*   `?g A4`: Main concept is Fauna/Animal (A4).
+    *   `+ White`: There is a White cube on the main concept (White color swatch). This usually means color or a specific detail. In this context, "White" describes the animal.
+    *   `+ E1`: There is a cube on E1 (Cold / Snow / Rain / Cloud). This describes a characteristic of the animal (lives in cold/snow/clouds or is related to cold).
+    *   `+ G10`: There is a cube on G10 (Big / High). This describes a characteristic of the animal (large or tall/high).
+
+    *   Main Concept: Animal.
+    *   Attribute 1: White.
+    *   Attribute 2: Cold/Snow/Ice/Winter.
+    *   Attribute 3: Large/Big.
+
+    *   Polar Bear (Large, White, Cold).
+    *   Arctic Fox (White, Cold, but maybe not "Big" in the sense of G10, though G10 is "Big/High").
+    *   Whale (White/Blue? Not really white, but large and in cold water - though E1 is snow/rain/cloud/cold).
+    *   Walrus (Large, lives in cold, but not typically white).
+    *   Snow Leopard (Large, lives in cold, but usually spotted, though could be a specific type?).
+    *   Narwhal?
+    *   Yeti (Mythical, but G10 is Big/High).
+
+    *   Polar Bear is the strongest candidate. It's a large animal, white, and associated with the cold/snow.
+
+    *   Guess 1: Polar bear
+    *   Guess 2: Arctic fox
+    *   Guess 3: Snowy owl (maybe too small?) or White whale? Let's stick to the most likely.
+
+    *   Refined Guesses:
+        1. Polar bear
+        2. Arctic fox
+        3. Snowy owl (or perhaps a Whale/Narwhal if E1 is interpreted as water-cold, but E1 is specifically snow/rain/cloud/cold).
+
+    *Wait*, let's re-check G10. G10 is "Big/High". Polar Bear fits "Big".
+
+    1. Polar bear
+    2. Arctic fox
+    3. Snowy owl

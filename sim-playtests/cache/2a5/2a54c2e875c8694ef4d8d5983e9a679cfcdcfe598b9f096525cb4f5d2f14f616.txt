@@ -1,0 +1,329 @@
+*   `?g B8`: Main Concept is an Expression, Quote, or Words (B8).
+    *   `!b E1`: A blue sub-concept related to Cold/Snow/Rain/Cloud (E1).
+    *   `!y F7, C8, H3`: A yellow sub-concept related to Paper/Letter (F7), Money/Rich/Expensive (C8), and Wavy/Ripple/Hair (H3).
+
+    *   The answer is an expression/quote/words (B8).
+    *   It involves rain (E1).
+    *   It involves paper (F7) and money (C8) and wavy/hair/ripples (H3).
+
+    *   "Saving for a rainy day":
+        *   `?g B8` (Expression) - Yes.
+        *   `!b E1` (Rain) - Yes.
+        *   `!y F7` (Paper/Letter) - Doesn't fit well.
+        *   `!y C8` (Money) - Yes.
+        *   `!y H3` (Wavy) - Doesn't fit.
+        *   *The clue-giver said "No" to "Saving for a rainy day" in Step 3.*
+
+    *   "Rain check":
+        *   `?g B8` (Expression) - Yes.
+        *   `!b E1` (Rain) - Yes.
+        *   `!y F7` (Paper/Letter/Sheet) - A "check" is paper.
+        *   `!y C8` (Money) - A check is money.
+        *   `!y H3` (Wavy) - Not obviously.
+
+    *   Let's re-examine the markers.
+        `?g B8` (Expression/Quote/Words)
+        `!b E1` (Rain/Snow/Cloud)
+        `!y F7` (Paper/Sheet)
+        `!y C8` (Money/Rich)
+        `!y H3` (Wavy/Ripple)
+
+    *   Maybe the "wavy" (H3) refers to the way water or air moves, or maybe the *form* of the words? Or maybe a "wave"?
+    *   Wait, look at F7 (Paper/Sheet).
+    *   What expression has Rain (E1), Paper (F7), Money (C8)?
+    *   "Rain check"? (A check is paper and money).
+    *   Does "Rain check" involve waves (H3)? Not really.
+
+    *   Let's look at H3 again: Wavy/Ripple/Hair.
+    *   Could it be "Liquid assets"? (No, "No" was given).
+    *   "Pouring money down the drain"? (No, "No" was given).
+    *   "Cloud Nine"? (No, E1 is rain/snow, not just clouds).
+
+    *   Let's think about "Rain" + "Money" + "Paper".
+    *   "Money raining from the sky"? (That's not really an idiom/expression in the standard sense like "Rain check").
+    *   "Paper trail"? (No rain).
+    *   "Making it rain"? (Money, rain... paper? Banknotes are paper).
+    *   "Breaking the bank"? (No rain).
+
+    *   Look at H3 (Wavy/Ripple/Hair) again.
+    *   What if the H3 is for "Wave"?
+    *   "A wave of..."
+    *   "Making waves"?
+    *   "Water under the bridge"? (Wavy/Liquid/Water/Bridge? No bridge).
+
+    *   Let's rethink the clues:
+        `?g B8` (Expression)
+        `!b E1` (Rain/Snow/Cold/Cloud)
+        `!y F7` (Paper/Letter/Sheet)
+        `!y C8` (Money)
+        `!y H3` (Wavy/Ripple)
+
+    *   Could the answer be "A check in the mail"? (No rain).
+    *   "Rain check"?
+        *   Rain (E1) - Yes.
+        *   Check (F7/C8/H3?)
+        *   Is a "check" wavy? No.
+
+    *   Wait, look at F7 (Paper/Sheet) and C8 (Money) and H3 (Wavy/Ripple).
+    *   What if H3 refers to a "Wave"?
+    *   "Money" + "Paper" + "Wave"?
+    *   "Rolling in it"? "Rolling" is not there.
+
+    *   Let's look at the `!y` group again: F7 (Paper), C8 (Money), H3 (Wavy/Ripple).
+    *   Could it be "A paper trail"? No.
+    *   Could it be "Making a killing"? No.
+    *   "Weather the storm"?
+        *   E1 (Rain/Storm) - Yes.
+        *   B8 (Expression) - Yes.
+        *   F7, C8, H3? Doesn't fit.
+
+    *   What about "Cold hard cash"?
+        *   E1 (Cold) - Yes.
+        *   C8 (Money) - Yes.
+        *   F7 (Paper)? Banknotes are paper.
+        *   H3 (Wavy/Ripple/Hair)? No.
+
+    *   What about "A windfall"?
+        *   Wind (E4, but clue was E1) - No.
+
+    *   Let's reconsider `H3` (Wavy/Ripple/Hair).
+    *   What if H3 is "Rain"? (No, E1 is rain).
+    *   What if H3 is "Wave"?
+    *   "A wave of..."
+    *   Could the answer be "A rainy day"? (No, "No" was given to "Saving for a rainy day").
+
+    *   Wait! Let's look at the yellow sub-concepts again:
+        `F7` (Paper/Sheet/Letter)
+        `C8` (Money/Rich)
+        `H3` (Wavy/Ripple/Hair)
+
+    *   Is there an expression about a "Check"?
+        "Rain check".
+        Is a check (F7) related to money (C8)? Yes.
+        Is "Rain" (E1) the other part? Yes.
+        How does "H3" (Wavy) fit "Rain check"?
+        Maybe the clue-giver is using H3 to indicate the "Wave" in a "Check"? No, that's weak.
+        Wait, "Ripple" (H3)?
+        "Ripple effect"?
+
+    *   Let's look at the combination: Rain (E1), Paper (F7), Money (C8), Wavy (H3).
+        "A rainy check"? No.
+        "Rain check" is the most likely idiom if the F7/C8/H3 part is a way to describe a "check" or "banknote".
+        Wait... is a "Banknote" wavy? Not really.
+        Is a "Wave" a "Check"? No.
+
+    *   Let's look at `H3` again. `Wavy/Ripple/Hair`.
+    *   Could it be "Clouds"? No, E1 is the cloud.
+    *   Could it be "Water"?
+    *   "Making waves"?
+    *   "A wave of..."
+    *   "A wave of... money?"
+    *   What about "Rainy"? (E1).
+
+    *   Wait! `F7` (Paper/Sheet), `C8` (Money), `H3` (Wavy/Ripple/Hair).
+    *   Could it be "A check"?
+    *   What if the expression is "Rain check"?
+    *   Let's check the clue-giver's logic.
+    *   If the answer is "Rain check":
+        *   `?g B8` (Expression/Phrase) - Correct.
+        *   `!b E1` (Rain) - Correct.
+        *   `!y F7` (Paper) - A check is a piece of paper.
+        *   `!y C8` (Money) - A check is money.
+        *   `!y H3` (Wavy/Ripple) - This is the hard one. Does "check" have a connection to "wavy"?
+        *   Maybe the "wave" in "wave of laughter/heat/etc"? No.
+        *   Wait, "ripple" (H3)... a "check" is a "wave" in some context? No.
+
+    *   Is there another expression?
+        "Liquidating assets"? (No, "Liquid assets" was rejected).
+        "A paper trail"? (No).
+
+    *   Let's think about "H3" (Wavy) and "C8" (Money) and "F7" (Paper).
+    *   "Money" + "Wave"?
+    *   "A wave of..."
+    *   What if H3 is "Hair"?
+    *   "Hair" + "Money" + "Rain"? No.
+
+    *   Let's try searching for expressions with "Rain" and "Money".
+        "Rainy day" (Rejected).
+        "Rain check".
+        "Making it rain".
+        "Money raining down".
+
+    *   Let's look at the markers one more time.
+        `!b E1` (Rain/Snow/Cold/Cloud)
+        `!y F7` (Paper/Sheet)
+        `!y C8` (Money)
+        `!y H3` (Wavy/Ripple)
+
+    *   Is there a "Paper/Sheet" that is "Wavy"?
+        A "wave"?
+        "A wave" is a type of "Sheet/Paper"? No.
+
+    *   Wait! "A check"?
+        A "check" is a "piece of paper" (F7) and "money" (C8).
+        What if "H3" is not "wavy" but "Ripple"?
+        Is "Rain check" a "ripple"? No.
+
+    *   What about "Cold hard cash"? (No, rejected).
+
+    *   Let's think about the expression "A rainy day".
+        If "Saving for a rainy day" was rejected, maybe it's just "A rainy day"?
+        But what about the F7, C8, H3?
+
+    *   Let's look at "H3" (Wavy/Ripple) again.
+        "Ripple" ... "Water" ... "Rain" (E1).
+        "Money" (C8) ... "Paper" (F7).
+        "Water" + "Money" + "Paper"?
+        "A banknote"?
+        Is there an expression "Rainy banknote"? No.
+
+    *   Wait! "A check" (F7, C8).
+    *   "Rain" (E1).
+    *   "Rain check".
+    *   Why H3 (Wavy/Ripple)?
+    *   Is a "check" a "ripple"?
+    *   Wait, "Check" as in a "Pattern"?
+    *   A "checkered" pattern is not "wavy".
+
+    *   Let's rethink.
+        `?g B8` (Expression)
+        `!b E1` (Rain/Cold/Cloud)
+        `!y F7` (Paper)
+        `!y C8` (Money)
+        `!y H3` (Wavy/Ripple/Hair)
+
+    *   "A wave of...?"
+    *   "A wave of rain"?
+    *   "A wave of... money"?
+    *   What if the answer is "Money rain"? No.
+
+    *   Wait, `H3` is "Wavy/Ripple/Hair".
+    *   Is there an expression about "Hair" and "Rain"?
+    *   "Hair" (H3) + "Rain" (E1) + "Money" (C8)? No.
+
+    *   Let's try to find the connection between "Wavy/Ripple" and "Money/Paper/Rain".
+    *   "A wave of...?"
+    *   "A sheet of...?" (F7)
+    *   "A sheet of paper" (F7).
+    *   "A sheet of rain"?
+    *   "A wave"?
+
+    *   Could it be "A rain check"?
+    *   Let's look at the board again.
+    *   Maybe the H3 (Wavy) is for "Money"? Like "waves of wealth"? No.
+    *   What if H3 is "Ripple"? "The ripple effect"?
+    *   Does "Rain check" have a ripple effect?
+
+    *   Wait! "Money" + "Paper" + "Wavy" + "Rain".
+    *   Is there an expression "Paper rain"? (No).
+    *   "Rain" + "Check" (F7, C8).
+    *   If "Rain check" is the answer, I have to explain H3.
+    *   Is there a "wavy" thing in a "check"?
+    *   A "wavy line" is a "signature"?
+    *   A signature on a check?
+
+    *   Let's look for other expressions.
+    *   "Rolling in it"? (No, not "Rolling").
+    *   "Making it rain"?
+    *   "Liquidated"? (No, "Liquid assets" was rejected).
+
+    *   What about "A windfall"? (E1 is rain/snow/cold, not wind).
+    *   What about "A downpour"? (No).
+
+    *   Let's try: "Rain check". It's a very common expression/idiom (B8) that fits the "Rain" (E1) and "Money/Paper" (F7, C8) parts. The "Wavy" (H3) might be a slightly confusing way to clue the "signature" or a "wave" of a check, or perhaps I'm missing a connection.
+
+    *   One more check: Could "H3" (Wavy) be "Sea"? (No, that's A11).
+    *   Could "H3" be "Water" (F3)? (No, the clue is H3).
+    *   What if H3 is "Curl"?
+    *   "A cloud"? (E1 has clouds).
+
+    *   Let's try "Rain check" and "Making it rain".
+
+    *   Wait, one more idea: "A rainy day" was rejected, but "Money" (C8) and "Paper" (F7) and "Rain" (E1).
+    *   What if it's "A banknote"? No, that's not an expression.
+
+    *   What about "A paper trail"? No.
+
+    *   Let's look at the `!y` group again. F7 (Paper), C8 (Money), H3 (Wavy).
+    *   Could it be "A check"?
+    *   "Rain" (E1) + "Check" (F7/C8).
+    *   It's the strongest lead.
+
+    *   Wait! "A wavy line" is a "wave".
+    *   "A wave of...?"
+    *   Could it be "A wave of paper"? No.
+
+    *   Let's try "Rain check" as the primary guess.
+
+    *   Is there any other expression?
+    *   "Cold, hard cash"? (E1, C8).
+    *   Does "Cold, hard cash" use F7 (Paper)? Banknotes are paper.
+    *   Does it use H3 (Wavy)? No.
+
+    *   "Rain check":
+        - B8 (Expression) - Yes.
+        - E1 (Rain) - Yes.
+        - F7 (Paper) - A check is paper.
+        - C8 (Money) - A check is money.
+        - H3 (Wavy/Ripple) - ?
+
+    *   Wait, let's look at the H3 icon again. It's "Wavy/Ripple/Hair".
+    *   Could it be "A signature"? (No, that's not a common expression).
+    *   Could it be "A wave"?
+    *   "A wave of..."
+    *   "A wave of... rain"?
+
+    *   Wait! "A check" can also mean "to verify".
+    *   "Rain" (E1) + "Check" (F7, C8).
+    *   "Rain check" (the idiom).
+
+    *   Another possibility: "Money" (C8), "Paper" (F7), "Wavy/Ripple" (H3), "Rain" (E1).
+    *   "A wave of...?"
+    *   "A wave of... money?"
+    *   Is there a "wave" in the ocean? (A11).
+
+    *   Let's try "Rain check" and see if there's anything else.
+    *   "A rainy day" (rejected).
+    *   "Making it rain".
+
+    *   Let's think about "H3" (Wavy/Ripple/Hair) again.
+    *   Could it be "Clouds"? (E1).
+    *   "A cloud of..."
+    *   "A cloud of... paper"? No.
+
+    *   What if the expression is "A rainy day"? (But the person said No to "Saving for a rainy day").
+    *   Wait, "Saving for a rainy day" is a specific idiom.
+    *   Maybe the answer is just "A rainy day"? (But B8 is an expression, and the clues are too complex).
+
+    *   Let's try "Rain check".
+
+    *   What if the answer is "A bank"? (B9, not B8).
+
+    *   One more look at H3: Wavy/Ripple/Hair.
+    *   Could "H3" refer to "Liquid"? (No, that's F3).
+    *   Could "H3" refer to "Money"?
+    *   Wait, "Rolling" (not there).
+
+    *   What about "A banknote"?
+    *   "A banknote" (C8, F7).
+    *   Is there a "Rain" and "Wavy" connection to a banknote?
+    *   Maybe the "waves" are on the paper? (Security features on a banknote are wavy lines).
+    *   But "Banknote" isn't an expression (B8).
+
+    *   Let's stick with "Rain check".
+
+    *   Wait, "A wave of... money"?
+    *   "A wave of... rain"?
+    *   "Rain" + "Check".
+    *   Let's think about the H3 (Wavy) one more time.
+    *   A "check" (F7, C8) can also be "to check" (as in verify).
+    *   No, B8 is an expression.
+
+    *   Is there an idiom "A wave of..."?
+    *   "A wave of...?"
+    *   "A sheet of..."?
+    *   "A sheet of... paper"? (F7).
+    *   "A sheet of... rain"? (E1).
+    *   Is "A sheet of rain" an idiom? Not really.
+
+    *   "Rain check" is the best bet.

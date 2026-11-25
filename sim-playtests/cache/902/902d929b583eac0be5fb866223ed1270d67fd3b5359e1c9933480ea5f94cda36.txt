@@ -1,0 +1,7 @@
+{ 
+"guesses": [
+    "monster",
+    "undead",
+    "creature"
+]
+}

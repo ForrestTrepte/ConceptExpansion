@@ -1,0 +1,297 @@
+*   `?g A8`: Main Concept is "Idea / Intelligence / Concept".
+    *   `+ G11`: (Sub-concept in green group `g` - part of the main concept's description) "Big / High / Long".
+    *   `!r D11`: Red Sub-concept (relation/feature) is "Arm / Hand / Finger".
+    *   `+ G12`: (Sub-concept in red group `r`) "High / Climb / Above".
+    *   `!y B14`: Yellow Sub-concept (relation/feature) is "House – Dwelling / Room / Domestic".
+
+    *   `?g A8 (Idea/Intelligence)` + `G11 (Big/Long/High)`: A big idea? A long-lasting concept? An intelligence?
+    *   `!r D11 (Arm/Hand/Finger)` + `G12 (High/Above)`: Something involving a hand/arm being high up? High-five? A hand reaching up?
+    *   `!y B14 (House/Dwelling)`: Relating the concept to a house?
+
+    *   *Idea + Hand High + House?*
+    *   Wait, let's look at the grouping again.
+    *   `?g A8` (Idea) is the main thing.
+    *   `G11` (Long/Big) is a detail of the Idea.
+    *   `!r D11` (Arm/Hand) + `G12` (High) is a related concept.
+    *   `!y B14` (House/Dwelling) is another related concept.
+
+    *   *Re-evaluating "Hand High" + "House":*
+        *   "High five"? (Hand high). Doesn't fit "House".
+        *   "Home run"? (Baseball, involves a hit, maybe a hand? No).
+        *   "Think outside the box"? (Idea, but B14 is House/Dwelling).
+        *   "A hand in the cookie jar"? No.
+        *   "Raise the roof"?
+            *   `?g A8` (Idea/Concept) - "Raise the roof" is an idiom/expression.
+            *   `G11` (Long/Big/High) - "Raise"/High.
+            *   `!r D11` (Hand) + `G12` (High) - Reaching/Raising something?
+            *   `!y B14` (House/Dwelling) - "Roof" is part of a house.
+
+    *   *Let's look at "Raise the roof" more closely:*
+        *   Concept: An idiom/expression (A8).
+        *   `G11` (Big/Long/High) could represent "High" or "Big".
+        *   `!r D11` (Hand) + `G12` (High) - This is a bit weak for "Raise".
+        *   `!y B14` (House) - This fits "Roof".
+
+    *   *Another possibility: "High Five"?*
+        *   `?g A8` - No, high five isn't an idea/concept.
+    *   *Another possibility: "Handshake"?*
+        *   No.
+
+    *   *Let's re-read the markers:*
+        `?g A8` (Idea)
+        `+ G11` (Big/Long/High)
+        `!r D11` (Arm/Hand)
+        `+ G12` (High/Above)
+        `!y B14` (House)
+
+    *   Maybe the "Idea" is a "Dream"? (Idea/Intelligence/Concept).
+        *   "Dream house"?
+        *   `?g A8` (Idea/Concept/Dream)
+        *   `!y B14` (House)
+        *   `!r D11` (Hand) + `G12` (High)? No.
+
+    *   What about "Home run"?
+        *   `!y B14` (Home/House)
+        *   `?g A8` (Idea/Concept? No)
+
+    *   What about "A helping hand"?
+        *   `!r D11` (Hand)
+        *   `?g A8` (Concept)
+        *   `!y B14` (Home/House? No)
+
+    *   Let's look at `D11` (Hand) + `G12` (High) again.
+        *   "High five"?
+        *   "Hand in the air"?
+        *   "Wave"?
+
+    *   Wait, `?g A8` is "Idea / Intelligence / Concept".
+    *   `G11` is "Big / High / Long".
+    *   `D11` is "Arm / Hand / Finger".
+    *   `G12` is "High / Climb / Above".
+    *   `B14` is "House / Dwelling".
+
+    *   Is it "A bright idea"? (Idea/Intelligence).
+        *   `G11` (Big/High)? No.
+    *   Is it "Brainstorm"?
+        *   `?g A8` (Idea)
+        *   `D11/G12` (Hand/High... No)
+
+    *   Let's try looking at the connections differently.
+    *   Red sub-concept: Hand (D11) + High (G12).
+    *   Yellow sub-concept: House (B14).
+    *   Main: Concept (A8) + Big/High (G11).
+
+    *   Could it be "High society"? (No, B14 is house).
+    *   Could it be "Reach for the stars"?
+        *   `?g A8` (Concept/Idea)
+        *   `D11` (Hand) + `G12` (High) - Reaching high.
+        *   `B14` (House)? No.
+
+    *   Let's try "Handicap"? No.
+    *   "High-rise"?
+        *   `G12` (High)
+        *   `B14` (Building/House)
+        *   `?g A8` (Concept?) No.
+
+    *   Wait! `D11` is Hand. `G12` is High. `B14` is House. `A8` is Idea.
+    *   Is it "Home work"? (No).
+    *   Is it "A big hand"? (As in applause).
+        *   `?g A8` (Concept/Idea? No).
+        *   `G11` (Big).
+        *   `D11` (Hand).
+        *   `B14` (House)? No.
+
+    *   Let's look at the icons again.
+    *   `A8` = Idea/Concept.
+    *   `G11` = Big/High/Long.
+    *   `D11` = Arm/Hand/Finger.
+    *   `G12` = High/Climb/Above.
+    *   `B14` = House/Dwelling/Room.
+
+    *   Maybe `B14` isn't "House" but part of a phrase?
+    *   "In the palm of your hand"?
+        *   `D11` (Hand).
+        *   `B14` (Wait, B14 is House, not Palm).
+
+    *   What if `A8` (Concept) is a "Theory"?
+    *   What if the answer is "A big hand"? (Wait, I already checked that).
+
+    *   Let's look at `G11` (Big/High/Long) and `G12` (High/Climb/Above).
+    *   Maybe the "Idea" is "Ambition"?
+    *   Maybe the "Idea" is "Success"?
+
+    *   Let's look at `B14` again. "House, Dwelling, Room, Domestic".
+    *   Could it be "Handyman"?
+        *   `D11` (Hand).
+        *   `B14` (Home/Domestic).
+        *   `?g A8` (Concept? No).
+
+    *   Let's re-examine `D11` + `G12` + `B14`.
+    *   Hand + High + House.
+    *   "Reach for the stars"? (No B14).
+    *   "Highness"?
+    *   "Hand over"?
+
+    *   Wait... `A8` is Idea/Concept. `G11` is Big/Long.
+    *   Could it be "Long-term"? No.
+    *   Could it be "Big picture"?
+        *   `?g A8` (Concept/Idea).
+        *   `G11` (Big).
+        *   `D11` (Hand)? No.
+
+    *   Let's try: "Think big"?
+        *   `A8` (Idea).
+        *   `G11` (Big).
+        *   `B14`? No.
+
+    *   "Mastermind"?
+        *   `A8` (Intelligence).
+        *   `D11` (Hand/Arm... No).
+
+    *   What if `D11` (Hand) + `G12` (High) + `B14` (House) means something else?
+    *   Is there a "Hand" in a "House" that is "High"?
+    *   A clock? (Hand, High/Above, inside a house?)
+        *   `D11` (Hand).
+        *   `B14` (Inside house).
+        *   `G12` (High/Above? No).
+        *   `A8` (Concept? No).
+
+    *   Is it "High Five"?
+        *   `D11` (Hand).
+        *   `G12` (High).
+        *   `A8` (Concept/Expression/Quote/Talking/Words - A8 is actually Idea/Intelligence, but B8 is Expression).
+        *   `B14`... Still no.
+
+    *   Wait, `A8` is "Idea / Intelligence / Concept".
+    *   `B8` is "Expression / Quote / Talking / Words".
+    *   The user used `A8`.
+
+    *   Let's try "Brainchild"?
+        *   `A8` (Idea/Intelligence).
+        *   `B14` (House/Dwelling? No).
+
+    *   Let's look at `G12` (High/Climb/Above) and `D11` (Hand).
+    *   "Climbing"?
+    *   "Hand over"?
+    *   "High-handed"?
+        *   `D11` (Hand).
+        *   `G12` (High).
+        *   `A8` (Concept/Idea).
+        *   `B14` (House? No).
+
+    *   Let's reconsider `B14`. "House, Dwelling, Room, Domestic".
+    *   What if the answer is "A plan"? (Concept/A8).
+    *   "A big plan"? (G11).
+    *   "Hand in hand"?
+
+    *   Wait! "The upper hand"?
+        *   `A8` (Idea/Concept/State).
+        *   `G11` (Big/Long).
+        *   `D11` (Hand).
+        *   `G12` (High/Above).
+        *   `B14` (House/Dwelling... No).
+
+    *   Let's re-examine `B14`. It is "House, Dwelling, Room, Domestic".
+    *   Is it "Handmade"?
+        *   `D11` (Hand).
+        *   `B14` (Domestic/House).
+        *   `A8` (Concept/Idea? No).
+
+    *   How about "Housewarming"? (No).
+    *   "Handyman"? (No).
+    *   "Highbrow"?
+        *   `G12` (High).
+        *   `A8` (Intelligence).
+        *   `D11` (Head? No, D11 is Hand).
+
+    *   Let's rethink `D11` (Hand) + `G12` (High) + `B14` (House) + `A8` (Concept).
+    *   "A lofty idea"?
+        *   `A8` (Idea).
+        *   `G12` (High/Lofty).
+        *   `G11` (Big).
+        *   `D11` (Hand)? No.
+
+    *   Is it "Skyline"? (No).
+    *   "Handmade"? (No).
+    *   "Handout"? (No).
+
+    *   Let's try "Hand-eye coordination"? (No).
+
+    *   Wait, look at `D11` + `G12` again. "Arm/Hand" + "High/Above".
+    *   "Wave"?
+    *   "High five"?
+    *   "Reach"?
+
+    *   What if the "Concept" is "Architecture"? (A8 is idea/concept).
+        *   `B14` (House).
+        *   `G12` (High/Climb).
+        *   `D11` (Hand/Arm... building?).
+
+    *   "Home run" (Already tried).
+    *   "Homegrown"?
+    *   "Homebody"?
+
+    *   Let's try to find an idiom with "Hand" and "House".
+    *   "Give someone a hand"?
+    *   "Hand in glove"?
+
+    *   Let's look at the `G` shapes.
+    *   `G11`: Big / High / Long.
+    *   `G12`: High / Climb / Above.
+    *   If the concept is `A8` (Idea) and it is `G11` (Big/Long), maybe it's "Big Idea"?
+    *   But then what is `!r D11 + G12` (Hand + High) and `!y B14` (House)?
+
+    *   Could the answer be "A high-rise building"?
+        *   `G12` (High).
+        *   `B14` (House/Dwelling/Building).
+        *   `A8` (Concept/Idea? No).
+
+    *   What if `A8` is "Brain"? (Intelligence).
+    *   "Brainchild"?
+    *   "Brain trust"?
+
+    *   Wait, `D11` is "Arm/Hand/Finger". `G12` is "High/Climb/Above".
+    *   "Hand over"?
+    *   "High-five"?
+
+    *   Let's look at `B14` (House/Room) + `D11` (Hand) + `G12` (High).
+    *   "Hands in the air"?
+    *   "Raising the roof"? (I mentioned this before).
+        *   `A8` (Concept/Idea - "Raise the roof" is an expression).
+        *   `G11` (Big/Long/High - "Raise").
+        *   `D11` (Hand - to raise something).
+        *   `G12` (High/Above - "Raise").
+        *   `B14` (House/Dwelling - "Roof").
+
+    *   This seems like a strong candidate. Let's check others.
+    *   "Hand in the cookie jar"? (No).
+    *   "Make yourself at home"?
+        *   `B14` (Home).
+        *   `D11` (Hand - "Make"? No).
+
+    *   "House arrest"? (No).
+
+    *   Let's look at `A8` + `G11` + `D11` + `G12` + `B14` again.
+    *   Maybe it's "A large household"?
+    *   Maybe it's "High-end"?
+
+    *   Let's try to think about `A8` (Concept/Intelligence) + `D11` (Hand).
+    *   "Handicap"? (No).
+    *   "Manual labor"? (No).
+    *   "Mastermind"? (No).
+
+    *   Let's try "High-five" as a guess? No, B14 is too specific.
+    *   "Raise the roof"?
+
+    *   Wait! `D11` is Hand/Arm/Finger. `G12` is High/Above.
+    *   Could it be "Overarm"? (No).
+    *   "Hand over"?
+
+    *   Is it "A big hand"? (Applause).
+        *   `A8` (Concept - "A big hand" is a phrase).
+        *   `G11` (Big).
+        *   `D11` (Hand).
+        *   `B14`... still doesn't fit.
+
+    *   What about "Handwriting"?
+        *   `D11

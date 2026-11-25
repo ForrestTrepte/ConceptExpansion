@@ -1,0 +1,269 @@
+*   `?g A3`: Main Concept is Work / Occupation.
+    *   `+ G14`: Detail: Turn / Around / Cycle / Repetition.
+    *   `!r A4`: Sub-concept (Red): Fauna / Animal.
+    *   `+ H10`: Detail: Small / Low.
+    *   `+ Grey`: Detail: Color Grey.
+    *   `+r D5`: Sub-concept (Red added): Death / Bad / Illness. (Wait, the prompt says `+r D5`. Looking at notation, `+` is a cube. So a Red cube on D5).
+    *   `!y D3`: Sub-concept (Yellow): Fast / Race.
+    *   `+y A12`: Detail: Ground transportation / Road.
+    *   `+ B3`: Detail: Hobby / Sport.
+
+    *   Main Concept: Work/Occupation.
+    *   Sub-concept 1 (Red): Small, Grey Animal + Death/Bad/Illness.
+    *   Sub-concept 2 (Yellow): Fast, Road, Sport.
+    *   Additional Main Detail: Repetition/Cycle.
+
+    *   *Occupation + Repetition/Cycle:* This might refer to the nature of the job (shift work?) or a specific activity.
+    *   *Small, Grey Animal + Death/Illness:* A mouse? A rat? A mole?
+    *   *Fast, Road, Sport:* Racing? Driving?
+    *   *Occupation involving a small grey animal and racing/driving?*
+
+    *   *Wait, let's re-evaluate "Small, Grey Animal + Death/Bad/Illness":*
+        *   Mouse/Rat + Death?
+        *   Plague?
+        *   A lab technician? (Working with small grey animals/mice in labs, involves death/illness).
+        *   A veterinarian? (Maybe, but "Death/Bad" is more specific).
+    *   *Let's look at "Fast, Road, Sport" + "Occupation":*
+        *   Race car driver? (Fast, road, sport, occupation).
+        *   Does a race car driver involve a small grey animal or death? Not directly in the clues.
+
+    *   *Let's look at the "Red" group again:*
+        `!r A4` (Animal)
+        `+ H10` (Small)
+        `+ Grey` (Color)
+        `+r D5` (Death/Bad/Illness)
+        *Is the occupation related to a small grey animal that represents death?*
+        A ratcatcher? (Occupation, deals with rats - small, grey, animals, often associated with disease/bad).
+        Does a ratcatcher involve "Fast, Road, Sport"? Probably not.
+
+    *   *Let's look at the "Yellow" group again:*
+        `!y D3` (Fast/Race)
+        `+y A12` (Road/Ground Transport)
+        `+ B3` (Hobby/Sport)
+        *This is strongly pointing towards Racing (Car racing, etc).*
+
+    *   *Is there an occupation that combines Racing and a Small Grey Animal/Death?*
+        Wait, maybe the "Small Grey Animal" isn't the animal itself, but a detail.
+        What about "Greyhound"?
+        Greyhound:
+        - Animal (A4)
+        - Small/Low? (H10) - A bit of a stretch, they are medium.
+        - Grey (Color)
+        - Fast (D3)
+        - Race (D3)
+        - Sport (B3)
+        - Ground transportation? No, that's A12 (Road).
+        - "Occupation"? Greyhound racing isn't an occupation, but a *Greyhound racer* (the dog) or a *jockey* (wait, the user guessed Jockey and it was No).
+
+    *   *Let's rethink "Small, Grey Animal + Death":*
+        A rat? A mouse?
+        What about a *Mouse* in a computer? (Occupation: Programmer?).
+        "Fast, Road, Sport" doesn't fit.
+
+    *   *Let's look at the "Repetition/Cycle" (`+ G14` on `A3`):*
+        An occupation with a cycle.
+
+    *   *Let's reconsider the "Rat" idea:*
+        Rat race?
+        "Rat Race" is a common phrase/idiom.
+        - Occupation/Work (`A3`)? Yes, the "rat race" is about work.
+        - Animal (`A4`) + Small (`H10`) + Grey + Death/Bad (`D5`) = Rat.
+        - Fast (`D3`) + Road/Ground (`A12`) + Sport (`B3`) + Repetition (`G14`) = Race.
+        *Does "Race" fit the Yellow markers?*
+        Yellow: Fast (D3), Road (A12), Sport (B3).
+        "Race" is the concept.
+
+    *   *Wait, let's check the "Rat Race" connection:*
+        - Concept: Work (A3).
+        - Red clues: Rat (Animal, Small, Grey, Bad/Death).
+        - Yellow clues: Race (Fast, Road/Transport, Sport, Repetition).
+        - "Rat Race" is a common phrase.
+
+    *   *Let's check the markers one more time:*
+        `?g A3` (Work/Occupation)
+        `+ G14` (Cycle/Repetition) -> This is on A3. So "Work that is a cycle/repetition".
+        `!r A4` (Animal) + `H10` (Small) + `Grey` + `D5` (Bad/Death) -> Rat.
+        `!y D3` (Fast/Race) + `A12` (Road) + `B3` (Sport) -> Race.
+
+    *   *Is "Rat Race" an occupation?*
+        The clue `?g A3` (Work/Occupation) is a bit tricky for "Rat Race". "Rat Race" is a phrase *about* work. But in Concept, the `?g` icon indicates the *category* of the answer. If the answer is a phrase, the `?g` usually points to the main idea. If the answer is "Rat Race", the main idea is "Work/Life" or "A way of life".
+
+    *   *Is there another option?*
+        What about "Mouse"? No.
+        What about "Hamster wheel"?
+        - Work (A3) (metaphorical).
+        - Animal (A4) + Small (H10) + ... (Hamsters are usually brown/orange, not grey, though some are).
+        - Race/Fast/Sport? Not really.
+
+    *   *Let's look at "Rat Race" again.*
+        `A3` (Work)
+        `G14` (Repetition/Cycle) - Fits "Rat Race" (the endless cycle).
+        `Red`: Rat (Animal, Small, Grey, Bad).
+        `Yellow`: Race (Fast, Road, Sport).
+        This fits very well.
+
+    *   *Wait, let me double-check "Small/Low" (H10) for a rat.*
+        A rat is small. H10 is Small/Low.
+    *   *Check "Road/Ground transportation" (A12) for "Race".*
+        A race often involves roads or tracks.
+
+    *   *Could it be "Formula 1"?*
+        No, doesn't fit the rat/grey/animal part.
+
+    *   *Could it be "Rat" (the animal)?*
+        No, `?g A3` is Work.
+
+    *   *Could it be "Mouse Trap"?*
+        No, `?g A3` is Work.
+
+    *   *Let's think about "Rat Race" again.*
+        If the answer is "Rat Race":
+        `?g A3` (Work)
+        `+ G14` (Cycle)
+        `!r A4` (Animal) + `H10` (Small) + `Grey` + `D5` (Bad) -> Rat
+        `!y D3` (Fast) + `A12` (Road) + `B3` (Sport) -> Race
+
+    *   *Let's consider "Professional Driver"?* No.
+    *   *Let's consider "Racing" (the sport)?* No, doesn't fit the Rat.
+
+    *   *One more thought: "Grayhound Racing"?*
+        - Work (`A3`)? No, that's a sport/hobby.
+        - `!r` (Greyhound) - Animal, Small, Grey... (A bit of a stretch).
+        - `!y` (Racing) - Fast, Road, Sport.
+        - But "Greyhound Racing" isn't an occupation.
+
+    *   *Is "Rat Race" a strong candidate?*
+        Yes, because the markers are split perfectly between the two words of the phrase.
+        Word 1 (Red): Rat.
+        Word 2 (Yellow): Race.
+        Category (Green): Work/Occupation (as the context of the phrase).
+        Cycle (Green): Repetition (as in the endless cycle of the rat race).
+
+    *   *Let's try to think of anything else.*
+        What if the animal is a "Mole"?
+        - Occupation: Spy? (Mole).
+        - Small, Grey, Animal.
+        - Fast, Road, Sport? No.
+
+        What if the animal is a "Pig"? (Piggy bank? No).
+
+        What if the occupation is "Driver"?
+        - Fast, Road, Sport.
+        - Small grey animal? No.
+
+        What if the occupation is "Ratcatcher"? (Already considered).
+        - Small, grey, animal.
+        - Fast, road, sport? No.
+
+    *   *Wait, let's look at "Race" (Yellow) again.*
+        `D3` (Fast/Race)
+        `A12` (Road)
+        `B3` (Sport)
+        This is almost certainly "Racing".
+
+    *   *And "Rat" (Red):*
+        `A4` (Animal)
+        `H10` (Small)
+        `Grey`
+        `D5` (Bad/Death)
+        This is almost certainly "Rat".
+
+    *   *Combining "Rat" and "Race" for an "Occupation/Work" context:*
+        "Rat Race".
+
+    *   *Let's verify "Rat Race" against the markers again:*
+        - `?g A3` (Work) + `G14` (Cycle): The concept of the "rat race" is the repetitive cycle of work/life.
+        - `!r` (Rat): Animal, Small, Grey, Bad/Death.
+        - `!y` (Race): Fast, Road, Sport.
+
+    *   *One slight concern:* Is "Rat Race" an occupation? The `?g` is the *main concept*. In Concept, if the answer is "Rat Race", you'd likely use `?g A8` (Idea/Concept) or `?g B8` (Expression), but `A3` (Work) is a very close way to describe the *subject* of the phrase. It's a bit of a "category" hint.
+
+    *   *Let's check if there's an occupation called "Racehorse Trainer"?*
+        - Animal (Horse is not small/grey).
+        - Fast, Road, Sport (Yes).
+        - Work (Yes).
+        - Doesn't fit.
+
+    *   *Let's check "Rat" as an occupation?* No.
+    *   *Let's check "Race" as an occupation?* No.
+
+    *   *Conclusion:* "Rat Race" is the most logical fit for all the disparate markers.
+
+    *   *Wait! Let's look at the first step again.*
+        User guessed: "Cyclist, Jockey, Dog racer".
+        The clue-giver said: "No".
+        "Dog racer" is very close to "Greyhound racing". Since "No" was given, "Rat race" is a very strong pivot.
+
+    *   *Another possibility:* "Mouse" + "Race"? (Not a common phrase).
+    *   *Another possibility:* "Rabbit" + "Race"? (Fast, but not small/grey/bad).
+
+    *   *Let's look at "Small/Low" (H10) + "Grey" + "Animal" (A4) + "Bad/Death" (D5) one more time.*
+        Could it be a "Mouse"? (Small, grey, animal).
+        Could it be a "Rat"? (Small, grey, animal, bad/death).
+        "Rat Race" fits the "Work/Cycle" theme perfectly.
+
+    *   *Is there any other "Race"?*
+        "Human Race"? (Work/Cycle? No).
+        "Drag Race"? (Small grey animal? No).
+
+    *   *Final check:*
+        - `?g A3` (Work)
+        - `+ G14` (Cycle)
+        - `!r A4` (Animal) + `H10` (Small) + `Grey` + `D5` (Bad) = Rat
+        - `!y D3` (Fast) + `A12` (Road) + `B3` (Sport) = Race
+        Answer: Rat Race.
+
+    *   *Self-Correction:* Is "Rat Race" an occupation? `A3` is Work/Occupation. The phrase refers to a way of working. It's a common way to clue phrases in Concept.
+
+    *   Wait, could it be "Carpentry"? No.
+    *   "Taxi driver"? No.
+    *   "Rat catcher"? (If the "Race" part is "Road/Fast/Sport"... no).
+
+    Let's go with "Rat race".
+
+    Wait, one more look.
+    `!r A4 (Animal) + H10 (Small) + Grey + D5 (Death/Bad)`
+    `!y D3 (Fast/Race) + A12 (Road) + B3 (Sport)`
+    If the answer was "Greyhound Racing":
+    - `!r` would be Greyhound (Animal, Small/Low (?), Grey). But `D5` (Death/Bad) doesn't fit a Greyhound unless it's a very dark clue.
+    - `!y` would be Racing (Fast, Road, Sport).
+    - `?g A3` (Work)? No.
+
+    If the answer is "Rat Race":
+    - `!r` is Rat (Animal, Small, Grey, Bad).
+    - `!y` is Race (Fast, Road, Sport).
+    - `?g A3` (Work) + `G14` (Cycle).
+    Everything fits.
+
+    *One more possibility:* "Hamster wheel"?
+    - Animal (Hamster).
+    - Small (Yes).
+    - Grey (Maybe).
+    - Fast (Yes).
+    - Work/Cycle (Yes).
+    - But "Hamster" doesn't fit "Bad/Death" (`D5`) or "Road/Sport" (`A12`, `B3`).
+
+    "Rat Race" it is.
+
+    Wait, I should offer 3 guesses.
+    1. Rat race
+    2. (If I want to be safe) Mouse race? (No, that's silly).
+    3. (If I want to explore the "Animal + Race" angle) Greyhound racing? (The user already guessed "Dog racer" and was told "No").
+
+    Let's stick to the strongest one.
+
+    *Wait, let me check if `A12` (Road) and `B3` (Sport) and `D3` (Fast) could mean "Motor Racing"?*
+    Yes.
+    Could `!r` (Small, Grey, Animal, Bad/Death) be a "Rat"?
+    Is there a "Rat Motor Racing"? No.
+    Is there a "Rat Race" in motorsports? No, just the idiom.
+
+    Let's look at the `?g A3` (Work) and `+ G14` (Cycle) again.
+    This really points to the *meaning* of the idiom "Rat Race".
+
+    Final thought:
+    `?g A3` (Work)
+    `+ G14` (Cycle)
+    `!r A4` (Animal) + `H10` (Small) + `Grey` + `D5` (Bad) = Rat
+    `!y D3` (Fast) + `A12` (Road) + `B3` (Sport) = Race
+    Answer: Rat race.

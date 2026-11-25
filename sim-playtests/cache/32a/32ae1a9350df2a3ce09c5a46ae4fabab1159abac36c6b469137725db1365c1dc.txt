@@ -1,0 +1,71 @@
+*   Goal: Guess the secret word/phrase.
+    *   Current Clues:
+        *   `?g B8`: Main Concept is "Expression – Quote / Talking / Words" (B8).
+        *   `+ F8`: A sub-concept or detail related to "Cut – Break / Separation / Half" (F8).
+        *   `+g E1`: A sub-concept or detail related to "Cold / Snow – Rain / Cloud" (E1).
+
+    *   `?g B8`: The target is an expression, a quote, a piece of talking, or words.
+    *   `+ F8`: "Cut", "Break", "Separation", "Half".
+    *   `+g E1`: "Cold", "Snow", "Rain", "Cloud".
+
+    *   *Context 1: Words/Expressions (B8) + Cut/Break (F8) + Cold/Rain/Snow (E1)*
+    *   Could it be "Cold shoulder"?
+        *   "Cold" is E1.
+        *   "Shoulder" is part of the body (C12). Wait, is there a connection to B8 (Words)? "Giving someone the cold shoulder" is an expression.
+        *   But how does F8 (Break/Cut) fit? "Breaking" the silence? "Cutting" someone off?
+    *   Could it be "Broken heart"? (No, B8 is words).
+    *   Could it be "Ice cold"? (No, B8 is words).
+    *   Could it be "A cold snap"? (No, B8 is words).
+    *   Could it be related to "Snow" and "Breaking"? "Breaking the ice"?
+        *   "Breaking the ice" is a common idiom/expression (B8).
+        *   "Breaking" fits F8 (Break).
+        *   "Ice" fits E1 (Cold/Snow/Rain).
+        *   Let's check the connections:
+            *   B8 (Expression/Words) -> "Breaking the ice" is a phrase/idiom.
+            *   F8 (Break) -> "Breaking".
+            *   E1 (Cold/Snow) -> "Ice".
+
+    *   "Breaking the ice"
+    *   "Icebreaker"
+    *   "Cold truth"
+
+    *   "Breaking the ice" seems very strong.
+
+    1. Breaking the ice
+    2. Icebreaker
+    3. Cold shoulder (just in case, though F8 is weak there).
+
+    Wait, let's re-examine `+ F8`. F8 is "Cut – Break / Separation / Half".
+    If the answer is "Breaking the ice":
+    - B8 (Expression) is the category.
+    - F8 (Break) is the action.
+    - E1 (Cold/Ice) is the object.
+
+    This fits perfectly.
+
+    *Self-Correction/Alternative:*
+    Could it be "Rain check"?
+    - B8 (Expression).
+    - E1 (Rain).
+    - F8 (Cut/Break)? Not really.
+
+    Could it be "Snowed under"?
+    - B8 (Expression).
+    - E1 (Snow).
+    - F8 (Break/Cut)? No.
+
+    "Breaking the ice" is the most logical fit for B8 + F8 + E1.
+
+    *Wait, what about "Cold comfort"?*
+    - B8 (Expression).
+    - E1 (Cold).
+    - F8 (Break)? No.
+
+    *What about "Break the ice"?* Yes.
+
+    Let's provide the guesses.
+
+    Guesses:
+    1. Breaking the ice
+    2. Icebreaker
+    3. Cold shoulder

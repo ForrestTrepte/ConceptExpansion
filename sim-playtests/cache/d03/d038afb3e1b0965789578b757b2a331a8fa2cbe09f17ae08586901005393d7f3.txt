@@ -1,0 +1,24 @@
+*   `?g A14`: Main concept is `A14` (Food / Eating / Edible).
+    *   `+ H4`: A cube on `H4` (Round).
+    *   `+ F8`: A cube on `F8` (Cut – Break / Separation / Half).
+
+    *   Main concept: Food.
+    *   Characteristics: Round, and Cut/Broken/Halved.
+
+    *   Pizza (Round, often cut into slices).
+    *   Orange (Round, often cut in half).
+    *   Apple (Roundish, often cut).
+    *   Cake (Can be round, often cut).
+    *   Cookie (Round, often broken/cut).
+    *   Donut (Round, though usually a hole/ring, but often considered round).
+    *   Pie (Round, cut into slices).
+    *   Watermelon (Roundish, cut).
+    *   Lemon/Lime (Round, cut).
+
+    *   Guess 1: Pizza (Very common "round and cut" food).
+    *   Guess 2: Orange (Very common "round and cut" food).
+    *   Guess 3: Cake (Common "round and cut" food).
+
+    *   Pizza
+    *   Orange
+    *   Cake

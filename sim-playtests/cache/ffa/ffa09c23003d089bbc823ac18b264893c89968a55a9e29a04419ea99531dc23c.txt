@@ -1,0 +1,25 @@
+New prompt.
+
+Step 1, markers placed:
+?g A4
++ C3 x2
++ Brown
+!r B4
++ H12
+Board now:
+?g A4 | C3, C3, Brown
+!r B4 | H12
+Guesses: slug, snail, caterpillar
+Clue-giver: No
+
+Step 2, markers placed:
++r D11
+!y E8
++ C11
++ H12
+Board now:
+?g A4 | C3, C3, Brown
+!r B4 | H12, D11
+!y E8 | C11, H12
+
+Give up to 3 guesses, best first, or none to pass.

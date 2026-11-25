@@ -1,0 +1,7 @@
+{ 
+  "guesses": [
+    "hand tracking",
+    "gesture recognition",
+    "motion sensing"
+  ]
+}

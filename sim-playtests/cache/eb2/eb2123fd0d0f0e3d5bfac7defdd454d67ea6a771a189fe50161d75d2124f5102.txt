@@ -1,0 +1,278 @@
+*   `?g A5`: Main Concept is A5 (Literature / Writing / Book).
+    *   `+ C1`: Sub-concept (Red) is C1 (Baby / Child / Young / New). (Wait, `+ C1` follows `?g A5`, which means the red group has a cube on C1. No, the notation says `+ C1` means a cube on C1 in the *same group as the line before*. The line before is `?g A5`. So, a green cube on A5 is the main concept. Then `!r Green` starts a red group. Then `!y A14` starts a yellow group. Then `+ Green` means a green cube on A14 in the yellow group. Then `!b A14` starts a blue group. Then `+ D12` means a blue cube on D12 in the blue group.
+
+    Wait, let me re-read the notation carefully.
+    `?g A5`: Main Concept (green) on A5 (Literature/Writing/Book).
+    `+ C1`: Cube on C1 (Baby/Child/Young/New) in the main concept (green) group.
+    `!r Green`: Red Sub-concept pawn on Green (the color).
+    `!y A14`: Yellow Sub-concept pawn on A14 (Food/Eating/Edible).
+    `+ Green`: Green cube on A14 in the yellow group.
+    `!b A14`: Blue Sub-concept pawn on A14 (Food/Eating/Edible).
+    `+ D12`: Blue cube on D12 (Leg/Foot/Leg) in the blue group.
+
+    Wait, let's re-parse:
+    `?g A5`: Main Concept is Book/Writing.
+    `+ C1`: Green cube on C1 (Child/Young/New) [Main Concept group].
+    `!r Green`: Red sub-concept pawn is on Green [Color].
+    `!y A14`: Yellow sub-concept pawn is on A14 (Food).
+    `+ Green`: Yellow cube on A14 (Food) [Yellow group]. (Wait, the notation says `+ Green`. The rule says `+ Color` means a cube on that color. So `+ Green` means a Green cube on the Green swatch? No, `+ G14` means a cube on G14 in group g. `+ Green` means a cube on Green in the group of the previous line. The line before was `!y A14`. So it's a yellow cube on the Green swatch? Or a Green cube in the Yellow group?
+    Rule: "`+ Color` ... a color is part of a clue only when a cube is on a color swatch."
+    Rule: "`+ [Icon Code]` ... Cube on [Icon Code] in the same group as the line before".
+    Rule: "`+ [Color]` ... Cube on [Color] in the same group as the line before".
+
+    Let's re-re-parse:
+    1. `?g A5`: Green pawn on A5 (Book/Writing).
+    2. `+ C1`: Green cube on C1 (Child/Young/New).
+    3. `!r Green`: Red pawn on Green color swatch.
+    4. `!y A14`: Yellow pawn on A14 (Food).
+    5. `+ Green`: Yellow cube on Green color swatch.
+    6. `!b A14`: Blue pawn on A14 (Food).
+    7. `+ D12`: Blue cube on D12 (Leg/Foot).
+
+    Wait, "A color is part of a clue only when a cube is on a color swatch."
+    The line `!r Green` places a *pawn* on the Green swatch. The notation rule says "the red, yellow, blue, and black `!` pawns... describe related ideas".
+    The notation `+ Green` (following `!y A14`) means a yellow cube is placed on the Green swatch.
+    So:
+    - Main concept (Green): A5 (Book/Writing), C1 (Child/New).
+    - Red group: Red swatch. (The pawn is on the swatch itself? Usually pawns are on icons, but the instruction says `!r Green` [place the red sub-concept pawn on Green]).
+    - Yellow group: A14 (Food), Green swatch.
+    - Blue group: A14 (Food), D12 (Leg/Foot).
+
+    Wait, the `!r Green` line is strange. If the pawn is on the color swatch, the color is being used to describe the red group.
+    Let's rethink the markers.
+    - Main concept (Green): Writing/Book + Child/New.
+    - Red group: Green (color).
+    - Yellow group: Food + Green (color).
+    - Blue group: Food + Leg/Foot.
+
+    Let's combine them:
+    - Main Concept: A book/writing that is new/young.
+    - Sub-concept (Red): Something green.
+    - Sub-concept (Yellow): Food that is green.
+    - Sub-concept (Blue): Food that is a leg.
+
+    Wait, "A color is part of a clue only when a cube is on a color swatch."
+    If `!r Green` is the line, it's a pawn on the Green swatch. This is unusual. Usually you put a cube on a color. If the pawn is on the color, the color *is* the sub-concept.
+    If `!y A14` then `+ Green`, it's a yellow cube on the green swatch.
+    So we have:
+    - Book (A5)
+    - Young/New (C1)
+    - Green (Red group)
+    - Food (A14)
+    - Green (Yellow group)
+    - Food (A14)
+    - Leg (D12)
+
+    Wait, "Food" is in two different groups (Yellow and Blue).
+    Yellow group: A14 (Food) and Green swatch.
+    Blue group: A14 (Food) and D12 (Leg).
+
+    Let's re-examine "Food" (A14). In the Blue group, it's Food + Leg.
+    In the Yellow group, it's Food + Green.
+    In the Main Concept (Green), it's Book + New.
+
+    This is confusing. Let's look for common foods that are related to books or are "new" or "legs" or "green".
+    Wait! A "Green Book"? (A travel guide).
+    Is a Green Book a food? No.
+    Is there a food called a "Green Book"? No.
+    What about "Green Pea"? (A pea is a food, it's green, it's a seed/new). But a pea isn't a book.
+    Wait, "Green Bean"? (Food, green, legume/leg).
+    "Green Bean" -> Food (A14), Green (Color), Leg (D12).
+    Is a Green Bean a book? No.
+
+    Let's re-read: `?g A5` (Book/Writing).
+    Could it be "Children's Book"? (C1 = Child).
+    What kind of book? A "Green Book"?
+    What about "A dictionary"? "A coloring book"?
+    Wait, "A coloring book"!
+    - Book (A5)
+    - Color (Green)
+    - ...? No.
+
+    Let's try again.
+    - Book/Writing (A5)
+    - Child/New (C1)
+    - Food (A14)
+    - Leg/Foot (D12)
+    - Green (Color)
+
+    What food is a leg? A chicken leg? A lamb chop?
+    What book is about food? A cookbook!
+    Is a cookbook "new"? Not necessarily.
+    Is there a "Green Cookbook"?
+    Is "Chicken leg" a book? No.
+
+    Wait, let's look at A14 (Food) again. One of the items is "chicken drumstick". A drumstick is a leg.
+    So: Food + Leg = Drumstick / Chicken leg.
+    If the answer is "Chicken leg", how does A5 (Book) and C1 (Child) fit? It doesn't.
+
+    Let's look at the main concept again: `?g A5` (Book/Writing) and `+ C1` (Child/Young/New).
+    Maybe the answer is a *type* of book.
+    A "New" book? A "Children's" book?
+    What about a "Comic book"? (A6 is Cinema/Movie, but A5 is Literature/Writing).
+    Wait, `A5` is Literature/Writing/Book.
+    What about "Storybook"?
+    Is there a food called "Storybook"? No.
+
+    Let's look at the subgroups again.
+    Yellow group: A14 (Food) + Green. (Green food).
+    Blue group: A14 (Food) + D12 (Leg). (Food that is a leg).
+    Red group: Green.
+
+    Is the answer "Green Bean"?
+    - Green (Color)
+    - Bean (Leg/Foot - D12 is Leg, but maybe the clue-giver thinks of "Legume"?)
+    But what about A5 (Book) and C1 (Child)?
+
+    Wait! "Green" + "Leg" (D12) + "Food" (A14) = Green Bean? (Bean/Legume).
+    How does "Book" (A5) and "Child" (C1) fit "Green Bean"? It doesn't.
+
+    Let's look at A5 and C1 again.
+    A5: Writing/Book.
+    C1: Child/Young/New.
+    Could it be "Baby book"? (A book for babies).
+    Is "Baby book" food? No.
+    Wait, is "Baby corn" a food? Yes.
+    Is "Baby corn" green? Yes.
+    Is "Baby corn" a book? No.
+
+    Wait! "Green" + "Leg" (D12) + "Food" (A14) + "Child/Young" (C1).
+    "Baby" (C1) + "Green" (Color) + "Legume/Leg" (D12) + "Food" (A14).
+    Baby... Green... Leg... Food...
+    "Green Pea"? No.
+    "Green Bean"? (Bean is a legume, which relates to D12? A bit of a stretch).
+
+    Let's look at the "Book" (A5) again.
+    Could the answer be "A cookbook"?
+    A cookbook (A5) is a book about food (A14).
+    Is a cookbook "New"? No.
+    Is a cookbook "Green"? Some are.
+    Is a cookbook "Leg"? No.
+
+    Wait, let's look at A5 (Literature/Writing/Book) again.
+    What if A5 isn't "Book" but something else? No, A5 is specifically Literature/Writing/Book.
+    What about C1? C1 is Baby/Child/Young/New.
+    What if the answer is "Poetry"? No.
+    What about "A nursery rhyme"?
+    - Book (A5)
+    - Child (C1)
+    - ...?
+
+    Let's look at the markers one more time.
+    ?g A5 (Book)
+    + C1 (Child)
+    !r Green (Color)
+    !y A14 (Food) + Green (Color)
+    !b A14 (Food) + D12 (Leg)
+
+    Is there a food called a "Child" something? "Baby carrot"?
+    Is "Baby carrot" a book? No.
+    Is "Baby carrot" green? Often.
+    Is "Baby carrot" a leg? No.
+
+    Let's re-examine D12 (Leg/Foot).
+    What if the answer is "A cookbook"? (No, we already tried that).
+    What about "A menu"?
+    - Writing (A5)
+    - Food (A14)
+    - ...?
+
+    Let's look at A14 again. It's Food.
+    If the answer is a food, then `?g A5` (Book) must be a metaphor or a specific type of food.
+    Wait, is there a food called a "Storybook"? No.
+
+    Let's look at the markers differently.
+    Maybe `?g A5` isn't the main concept?
+    `?g A5`
+    `+ C1`
+    The `?g` is the Main Concept pawn. So the main concept is a Book/Writing that is Child/Young.
+    "A Children's Book".
+    Now, why "Green" and "Food" and "Leg"?
+    Wait! "Green" + "Food" + "Leg".
+    Is there a food called a "Green..." something?
+    "Green bean"?
+    "Green pea"?
+    "Green apple"?
+    "Green salad"?
+
+    Wait, "Green" + "Leg" (D12). What else could D12 mean? Leg, Foot, Ankle.
+    What if it's "Legume"? (A category of food).
+    "Green" + "Legume" (D12) + "Food" (A14).
+    "Green Bean" or "Green Pea".
+    But we still have the `?g A5` (Book) and `C1` (Child) problem.
+
+    Let's re-read the icons.
+    A5: Literature/Writing/Book.
+    C1: Baby/Child/Young/New.
+    A14: Food/Eating/Edible.
+    D12: Leg/Foot.
+
+    Is there a book called "Green Leg"? No.
+    Is there a book called "Baby Food"?
+    A "Baby Food" book?
+    A "Baby Food" (A14) is something a "Baby" (C1) eats.
+    Is "Baby Food" a book? No.
+
+    Let me search for "Green" "Book" "Food" "Leg".
+    Could it be "A recipe book"?
+    A recipe book (A5) is about food (A14).
+    Is "Recipe" a "Leg"? No.
+
+    Wait! What if `A5` is not the main concept?
+    The prompt says:
+    `?g A5`
+    `+ C1`
+    `!r Green`
+    `!y A14`
+    `+ Green`
+    `!b A14`
+    `+ D12`
+    This means the main concept *is* A5 (Book).
+    Wait, let me re-read.
+    `?g A5` = Green pawn on A5.
+    `+ C1` = Green cube on C1.
+    This means the main concept is a Book (A5) that is Child/Young (C1).
+    A "Children's Book".
+    Now, the sub-concepts:
+    Red: Green.
+    Yellow: Food (A14) + Green.
+    Blue: Food (A14) + Leg (D12).
+
+    Is there a children's book about green food?
+    "The Very Hungry Caterpillar"?
+    - Caterpillar: An insect/animal (A4).
+    - Green (Color).
+    - Food (A14).
+    - ...?
+    Is "Caterpillar" a book? It's the title of a book.
+    Does a caterpillar have legs? Yes, many.
+    Is it "New"? (C1 - it's a larva/young).
+    Is it "Green"? Yes.
+    Wait, "The Very Hungry Caterpillar" is a book (A5), it's about a young thing (C1), it's green (Color), and it's about food (A14).
+    And caterpillars have legs (D12).
+    This is a very strong candidate.
+
+    Let's check the clues again:
+    - `?g A5` (Book/Writing): The Very Hungry Caterpillar is a famous book.
+    - `+ C1` (Child/Young): A caterpillar is a "young" insect.
+    - `!r Green`: The caterpillar is green.
+    - `!y A14` (Food) + `+ Green`: It eats food, and it is green.
+    - `!b A14` (Food) + `+ D12` (Leg): It's an animal (but A4 is not used) that eats food and has many legs.
+
+    Wait, let's look at the markers again.
+    Is there another possibility?
+    What about "Green Bean"? (No book connection).
+    What about "A cookbook"? (No child/leg connection).
+
+    Let's re-evaluate `A5` (Book) and `C1` (Child/Young).
+    Is there a book called "Green Leg"? No.
+    Is there a book called "Baby Food"? (We tried that).
+
+    Let's think about `A14` (Food) + `D12` (Leg).
+    A "Chicken leg"?
+    A "Drumstick"?
+    A "Lamb chop"?
+    Is there a book called "The Chicken Leg"? No.
+
+    Wait, let's look at `A5` (Book) again.
+    What about a "

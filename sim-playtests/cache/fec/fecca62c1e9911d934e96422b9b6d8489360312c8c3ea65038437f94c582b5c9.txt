@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Every cloud has a silver lining",
+    "Cloud nine",
+    "Rain check"
+  ]
+,
+  "pass": false
+}

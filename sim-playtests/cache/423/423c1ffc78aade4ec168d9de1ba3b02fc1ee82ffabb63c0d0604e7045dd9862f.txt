@@ -1,0 +1,181 @@
+*   `?g B8`: Main Concept is "Expression – Quote / Talking / Words". (Something said, a phrase, a quote, a speech, a line, etc.)
+    *   `+ D4`: (Sub-concept part of B8 group) "Attack / Conflict – Combat / Weapon". (Aggressive, violent, fighting words).
+    *   `+ C5`: (Sub-concept part of B8 group) "Life / Heart / Love". (Wait, B8 is the main concept. The `+` markers belong to the group of the previous line. Since the previous line is `?g B8`, the cubes are in the green group `g`. So, the Main Concept (B8) has attributes: D4 [Conflict/Weapon] and C5 [Life/Love].)
+    *   *Wait, let's re-read the notation rules carefully.*
+        *   `?g B8` -> Main Concept pawn on B8.
+        *   `+ D4` -> Cube on D4 in group `g`.
+        *   `+ C5` -> Cube on C5 in group `g`.
+        *   `!r F4` -> Red Sub-Concept pawn on F4.
+        *   `+ H12` -> Cube on H12 in group `r`.
+        *   `!y B12` -> Yellow Sub-Concept pawn on B12.
+        *   `+ D4` -> Cube on D4 in group `y`.
+
+    *   **Main Concept (`g` - green):**
+        *   B8: Expression/Quote/Words/Talking.
+        *   D4: Attack/Conflict/Weapon.
+        *   C5: Life/Heart/Love.
+        *   *Interpretation of `g`:* A word or phrase involving conflict/fighting/weapons and also life/heart/love.
+
+    *   **Sub-Concept 1 (`r` - red):**
+        *   F4: Earth/Ground.
+        *   H12: Low/Descend/Below.
+        *   *Interpretation of `r`:* Something related to the ground or being low/down.
+
+    *   **Sub-Concept 2 (`y` - yellow):**
+        *   B12: Tool/Construction.
+        *   D4: Attack/Conflict/Weapon.
+        *   *Interpretation of `y`:* A tool or weapon.
+
+    *   Main Concept: A phrase or expression (`B8`) involving conflict (`D4`) and heart/life (`C5`).
+    *   Sub-Concept 1: Something to do with the ground (`F4`) and being low/down (`H12`).
+    *   Sub-Concept 2: A tool or weapon (`B12` + `D4`).
+
+    *   *Possibility 1:* "To die for"? (No, doesn't fit ground/tool/weapon well).
+    *   *Possibility 2:* "A bitter pill to swallow"? (No).
+    *   *Possibility 3:* "Under the knife"? (Surgery/tool/weapon, but conflict/love/life?).
+    *   *Possibility 4:* "A shot in the dark"? (No).
+    *   *Possibility 5:* "Break someone's heart"? (Heart/Love + Break/Attack).
+    *   *Possibility 6:* "Love is a battlefield"? (Love + Battlefield/Conflict). Let's check the sub-concepts.
+        *   Main Concept: "Love is a battlefield" is a phrase (`B8`). It involves Love (`C5`) and Conflict/Battle (`D4`).
+        *   Sub-Concept 1: Ground/Earth/Low. "Battlefield" is on the ground.
+        *   Sub-Concept 2: Tool/Weapon. Warfare uses weapons.
+    *   *Possibility 7:* "Lay down your arms"? (Arms as weapons/tools, laying down = low/ground).
+        *   Main Concept: Phrase/Expression.
+        *   Sub-Concept 1: Ground/Low (Laying down).
+        *   Sub-Concept 2: Tool/Weapon (Arms).
+        *   Wait, does it fit the "Heart/Life/Love" (`C5`) marker? Not really.
+    *   *Possibility 8:* "Sword of Damocles"? (Weapon, but?)
+    *   *Possibility 9:* "Heart on your sleeve"? (No conflict).
+    *   *Possibility 10:* "To hit below the belt"?
+        *   Main Concept: Expression/Phrase (`B8`).
+        *   Attributes of Main Concept: Conflict/Attack (`D4`), Life/Body part (`C5` - Wait, C5 is Heart/Life, but the mannequin parts C11-D12 are more specific. However, "Heart" is C5. "Below the belt" implies the body).
+        *   Sub-Concept 1 (Red): Ground/Low (`F4` Earth + `H12` Low). "Below" is low.
+        *   Sub-Concept 2 (Yellow): Tool/Weapon (`B12` + `D4`). A belt isn't a weapon, but "hitting" is an attack.
+    *   *Possibility 11:* "The heart of the matter"? (No conflict).
+    *   *Possibility 12:* "War of words"?
+        *   Main Concept: Expression/Phrase (`B8`).
+        *   Attributes: Conflict (`D4`).
+        *   Doesn't really fit the Heart (`C5`) or Tool/Weapon (`B12`) or Ground/Low (`F4/H12`) clues well.
+
+    *   *Let's look closer at "Love is a battlefield".*
+        *   `?g B8`: Expression.
+        *   `+ D4`: Conflict.
+        *   `+ C5`: Love.
+        *   `!r F4`: Earth.
+        *   `+ H12`: Low. (Field? On the ground?)
+        *   `!y B12`: Tool/Construction.
+        *   `+ D4`: Weapon. (Battlefield implies weapons).
+
+    *   *Let's look closer at "To hit below the belt".*
+        *   `?g B8`: Expression.
+        *   `+ D4`: Conflict/Attack.
+        *   `+ C5`: Life/Body/Heart.
+        *   `!r F4`: Earth (Maybe? Not really).
+        *   `+ H12`: Low.
+        *   `!y B12`: Tool.
+        *   `+ D4`: Weapon.
+
+    *   *Let's look at "A blow to the heart".* (No, doesn't fit ground/tool).
+
+    *   *What about "A knife in the back"?*
+        *   Main Concept: Expression/Phrase (`B8`).
+        *   `+ D4`: Attack/Conflict.
+        *   `+ C5`: Life/Heart (Betrayal hits the heart).
+        *   `!r F4/H12`: Ground/Low? (The back is... no).
+        *   `!y B12/D4`: Tool/Weapon. (Knife).
+
+    *   *What about "To bury the hatchet"?*
+        *   Main Concept: Expression/Phrase (`B8`).
+        *   `+ D4`: Conflict (The hatchet is a weapon/conflict symbol).
+        *   `+ C5`: Life/Heart (Bringing peace/love?).
+        *   `!r F4`: Earth/Ground.
+        *   `+ H12`: Low/Descend (Burying is putting something low/in the ground).
+        *   `!y B12`: Tool/Weapon (Hatchet is a tool/weapon).
+        *   `+ D4`: Conflict/Weapon.
+
+    *   *Let's evaluate "Bury the hatchet" against the clues:*
+        *   `?g B8` (Expression): Yes.
+        *   `+ D4` (Conflict/Weapon): Yes (hatchet/conflict).
+        *   `+ C5` (Life/Heart/Love): Yes (peace/making up).
+        *   `!r F4` (Earth/Ground): Yes.
+        *   `+ H12` (Low/Descend): Yes (burying).
+        *   `!y B12` (Tool/Construction): Yes (hatchet is a tool).
+        *   `+ D4` (Attack/Conflict): Yes (hatchet is a weapon).
+
+    *   *Another option: "Love is a battlefield".*
+        *   `?g B8`: Yes.
+        *   `+ D4`: Yes.
+        *   `+ C5`: Yes.
+        *   `!r F4`: Yes (Field).
+        *   `+ H12`: Maybe not "Low"?
+        *   `!y B12`: Maybe not "Tool"?
+
+    *   *Another option: "A chip on one's shoulder".*
+        *   `?g B8`: Yes.
+        *   `+ D4`: Conflict/Attitude.
+        *   `+ C5`: No.
+        *   `!r F4`: No.
+
+    *   *What about "To die for"?* No.
+
+    *   *Let's look at "Bury the hatchet" again.*
+        *   `?g B8`: Phrase.
+        *   `+ D4`: Weapon/Conflict.
+        *   `+ C5`: Heart/Love (making peace).
+        *   `!r F4`: Earth.
+        *   `+ H12`: Low (Bury).
+        *   `!y B12`: Tool.
+        *   `+ D4`: Weapon/Conflict.
+
+    This fits almost perfectly.
+
+    1. Bury the hatchet
+    2. Love is a battlefield
+    3. Hit below the belt
+
+    Wait, "Hit below the belt":
+    `?g B8`: Phrase.
+    `+ D4`: Conflict.
+    `+ C5`: Body/Heart/Life.
+    `!r F4`: Ground? No.
+    `+ H12`: Low.
+    `!y B12`: Tool.
+    `+ D4`: Weapon.
+    (Doesn't fit F4 as well as "Bury the hatchet").
+
+    "Bury the hatchet" is much stronger on the `!r F4 + H12` (Earth + Low/Down) clues.
+
+    Let's re-check the Main Concept attributes:
+    `?g B8` + `D4` + `C5`
+    If the phrase is "Bury the hatchet":
+    - Is it an expression/quote/word? Yes.
+    - Does it involve Conflict/Attack/Weapon? Yes.
+    - Does it involve Life/Heart/Love? (Making peace is a positive/heart thing).
+
+    If the phrase is "Love is a battlefield":
+    - Expression? Yes.
+    - Conflict? Yes.
+    - Heart/Love? Yes.
+    - Earth? Yes (Field).
+    - Low/Down? (Not necessarily).
+    - Tool? (Not really).
+
+    "Bury the hatchet" fits the Tool/Weapon (`B12/D4`) and Earth/Low (`F4/H12`) much better.
+
+    Wait, let me check "Bury the hatchet" one more time.
+    Hatchet:
+    - Is it a tool (`B12`)? Yes.
+    - Is it a weapon (`D4`)? Yes.
+    Bury:
+    - Is it related to Earth (`F4`)? Yes.
+    - Is it Low/Down (`H12`)? Yes.
+
+    The Main Concept (B8) is the phrase. The attributes of the phrase are Conflict/Weapon and Heart/Love. "Bury the hatchet" means ending a conflict (Conflict/Weapon) to bring peace (Heart/Love).
+
+    One more look: Could it be "A heavy heart"? No. "Broken heart"? No.
+
+    "Bury the hatchet" seems the most robust.
+
+    1. Bury the hatchet
+    2. Love is a battlefield
+    3. Hit below the belt

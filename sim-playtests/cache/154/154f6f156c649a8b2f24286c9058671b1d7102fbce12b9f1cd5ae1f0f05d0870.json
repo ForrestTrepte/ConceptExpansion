@@ -1,0 +1,134 @@
+{
+  "contentSha256": "44fb05d590ad42d11851f332860bbf3dd6bc4367e084a81bdf51cf5b183b362d",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "4b5daa84bf7faab6f117925ff5de9ff2fdd6395e55661846fcc5b242e99c1765"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "894e19f53b50b9c80f7e2035252c0d7e21f632296f33bf59fc3b406c897c7574"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "openai/gpt-6-luna",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "guesses"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-3"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "f6004e3-dirty",
+    "costUsd": 0.000219945,
+    "latencyMs": 5459,
+    "recordedAt": "2026-11-24T00:06:50.157Z",
+    "recordedBy": "claude",
+    "servedBy": "OpenAI",
+    "servedModel": "openai/gpt-6-luna",
+    "tags": {
+      "run": "calibrate-or-luna"
+    },
+    "usage": {
+      "cacheReadTokens": 4727,
+      "cacheWriteTokens": 187,
+      "inputTokens": 4917,
+      "outputTokens": 298,
+      "reasoningTokens": 274
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"Crater\",\"Meteorite\",\"The Earth's core\"]}",
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "data": {
+                "$llmemo.text": "395b6abd1c28777acf643dcfe675f275644d462fd6e8323f1d6e7e38a410743e"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_0218872263d50d4d016b04d5155fb087d19d70f8d96b975bc7",
+              "index": 0,
+              "type": "reasoning.encrypted"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "completed"
+      }
+    ],
+    "created": 1795478804,
+    "id": "gen-1795478804-37f2KswFY3hxT4zAoFip",
+    "model": "openai/gpt-6-luna",
+    "object": "chat.completion",
+    "provider": "OpenAI",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 298,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 274
+      },
+      "cost": 0.000219945,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000149,
+        "upstream_inference_cost": 0.000219945,
+        "upstream_inference_prompt_cost": 0.000070945
+      },
+      "is_byok": false,
+      "prompt_tokens": 4917,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 187,
+        "cached_tokens": 4727,
+        "video_tokens": 0
+      },
+      "total_tokens": 5215
+    }
+  }
+}

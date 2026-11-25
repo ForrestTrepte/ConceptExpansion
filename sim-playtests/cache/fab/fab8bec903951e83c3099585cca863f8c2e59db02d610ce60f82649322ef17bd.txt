@@ -1,0 +1,7 @@
+{
+  "guesses": [
+    "Weather",
+    "Shear",
+    "Cold"
+  ]
+}

@@ -1,0 +1,554 @@
+*   `?g B8`: Main Concept is an "Expression - Quote / Talking / Words".
+    *   `+ D4`: Related to "Attack / Conflict / Weapon" (in group `?g`).
+    *   `+ C5`: Related to "Life / Heart / Love" (in group `?g`).
+    *   `!r F4`: Sub-concept (red) related to "Earth / Ground / Soil".
+        *   `+ H12`: Related to "Low / Descend / Below" (in group `!r`).
+    *   `!y B12`: Sub-concept (yellow) related to "Tool / Construction".
+        *   `+ D4`: Related to "Attack / Conflict / Weapon" (in group `!y`).
+    *   `!k H13`: Sub-concept (black) related to "Right / End / After / Future".
+        *   `+ D4`: Related to "Attack / Conflict / Weapon" (in group `!k`).
+        *   `+ E11`: Related to "Zero / None / Absence" (in group `!k`).
+
+    *   `?g B8 (Expression/Words)` + `D4 (Attack/Conflict)` + `C5 (Love/Heart)`:
+        *   "Words of war"? "Fighting words"? "Love is a battlefield"? (Already guessed and failed).
+    *   `!r F4 (Earth)` + `H12 (Low)`:
+        *   "Ground"? "Underground"? "Low ground"?
+    *   `!y B12 (Tool)` + `D4 (Attack/Conflict)`:
+        *   "Weapon tool"? "Sword"? "Gun"?
+    *   `!k H13 (End/After/Future)` + `D4 (Attack/Conflict)` + `E11 (Zero/None)`:
+        *   "End of war"? "Aftermath"? "No more fighting"?
+
+    *   The first set of guesses (A low blow, Love is a battlefield, Heart attack) were rejected.
+    *   Let's re-evaluate:
+        *   Main Concept: Expression/Quote/Words.
+        *   Group `?g` (Words): Conflict/Attack, Life/Heart.
+        *   Group `!r` (Earth/Ground): Low/Below.
+        *   Group `!y` (Tool): Attack/Conflict.
+        *   Group `!k` (End/Future/After): Attack/Conflict, Zero/None.
+
+    *   Maybe the "Words" part is an idiom.
+    *   "Low blow" was rejected.
+    *   "Under the weather"? (No).
+    *   "Ground rules"?
+        *   `B8` (Expression/Words)
+        *   `F4` (Earth/Ground)
+        *   `H12` (Low/Below/Bottom?) - "Ground" is the base.
+        *   `B12` (Tool) - Not really a tool.
+        *   `H13` (End/After) + `D4` (Attack) + `E11` (Zero) - This doesn't fit "Ground rules" well.
+
+    *   Wait, let's look at the `!k` group again.
+        *   `H13` (End/After/Future)
+        *   `D4` (Attack/Conflict/Weapon)
+        *   `E11` (Zero/None)
+        *   Maybe "End of the line"? "Final straw"? "Last word"?
+
+    *   "Last word":
+        *   `B8` (Words) - Yes.
+        *   `D4` (Attack/Conflict) - "Having the last word" (winning an argument/conflict).
+        *   `C5` (Life/Heart) - "Heart of the matter"? No.
+        *   `F4` (Earth) + `H12` (Low/Below) - "Ground"? No.
+
+    *   Let's look at `!r` again: `F4` (Earth) + `H12` (Low). "Low ground"? "Underground"? "Bottom"?
+    *   `!y` (Tool) + `D4` (Conflict). A tool for conflict. A sword? A hammer?
+    *   `!k` (End/After) + `D4` (Conflict) + `E11` (Zero).
+
+    *   Could the answer be "The last word"?
+        *   `B8` (Words)
+        *   `D4` (Conflict) - Winning a fight/argument.
+        *   `C5` (Heart) - ?
+    *   Could it be "War cry"?
+        *   `B8` (Words)
+        *   `D4` (Conflict)
+        *   `C5` (Life/Heart) - Heart/Passion?
+        *   `F4` (Earth) + `H12` (Low) - ?
+        *   `B12` (Tool) + `D4` (Conflict) - ?
+
+    *   Wait! Let's look at the expression: **"A shot in the dark"**? No.
+    *   **"The final straw"**?
+        *   `B8` (Expression)
+        *   `D4` (Conflict/Attack) - "Straw" can be a bit of a stretch.
+        *   `C5` (Life/Heart) - ?
+        *   `F4` (Earth) + `H12` (Low) - ?
+        *   `B12` (Tool) - ?
+        *   `H13` (End) + `E11` (Zero) - "The final..."
+
+    *   Let's look at the combination of `!r` (Earth/Low) and `!y` (Tool/Attack).
+        *   `F4` (Earth) + `H12` (Low) = Ground/Bottom.
+        *   `B12` (Tool) + `D4` (Conflict) = Weapon.
+        *   `H13` (End) + `D4` (Conflict) + `E11` (Zero) = ?
+
+    *   What about **"Ground zero"**?
+        *   `B8` (Expression) - It's a phrase.
+        *   `F4` (Earth) + `H12` (Low) = Ground.
+        *   `E11` (Zero) = Zero.
+        *   `D4` (Attack/Conflict) = Explosion/War context.
+        *   `C5` (Life/Heart) = ?
+        *   `B12` (Tool) + `D4` (Conflict) = ?
+        *   This is a strong candidate for the components, but `B8` (Words) and `B12` (Tool) are still tricky.
+
+    *   Let's try **"Bottom line"**?
+        *   `B8` (Words/Expression) - Yes.
+        *   `F4` (Earth) + `H12` (Low/Bottom) - Yes.
+        *   `B12` (Tool) + `D4` (Conflict) - Is a line a tool? No.
+        *   `H13` (End) + `E11` (Zero) - ?
+
+    *   Let's try **"Dead end"**?
+        *   `B8` (Expression)
+        *   `D5` (Death/Bad) - Wait, there's no `D5`. There is `D4` (Attack) and `C5` (Life/Heart).
+        *   `H13` (End) - Yes.
+        *   `E11` (Zero) - ?
+
+    *   Let's rethink:
+        `?g B8` (Words)
+        `+ D4` (Conflict)
+        `+ C5` (Life/Heart)
+        `!r F4` (Earth) + `H12` (Low)
+        `!y B12` (Tool) + `D4` (Conflict)
+        `!k H13` (End) + `D4` (Conflict) + `E11` (Zero)
+
+    *   What is a word/expression involving "Low", "Earth", "Tool", "Conflict", "End", and "Zero"?
+    *   **"Warfare"**? No.
+    *   **"Peace treaty"**?
+        *   `B8` (Words)
+        *   `D4` (Conflict) + `E11` (Zero/None) = End of conflict.
+        *   `H13` (End) = End.
+        *   `C5` (Heart/Life) = ?
+        *   `F4` (Earth) + `H12` (Low) = ?
+
+    *   What about **"Holy war"**?
+        *   `C9` (Religion) is not here.
+
+    *   What about **"A bitter end"**?
+        *   `H13` (End)
+        *   `D6` (Sad) is not here.
+
+    *   Look at `!y B12 (Tool) + D4 (Conflict)`. A tool used for attack/conflict. A hammer? A sword? A gun?
+    *   Look at `!k H13 (End/After) + D4 (Conflict) + E11 (Zero/None)`.
+    *   Maybe the answer is **"War zone"**?
+        *   `B8` (Expression) - Yes.
+        *   `D4` (Conflict) - Yes.
+        *   `F4` (Earth) - Yes.
+        *   `H13` (End/Future/After) - No.
+
+    *   Let's look at the words again.
+        `?g B8` (Expression)
+        `+ D4` (Conflict)
+        `+ C5` (Heart/Life)
+        `!r F4` (Earth/Soil) + `H12` (Low/Down)
+        `!y B12` (Tool) + `D4` (Conflict)
+        `!k H13` (End/After) + `D4` (Conflict) + `E11` (Zero/None)
+
+    *   Is it **"The last resort"**?
+        *   `H13` (End)
+        *   `B12` (Tool/Construction - a resort is a place, but maybe "resort" as in "last resort")
+        *   `B8` (Expression)
+        *   `E11` (Zero/None) - "No other option"?
+        *   This is reaching.
+
+    *   How about **"Fighting chance"**?
+        *   `D4` (Conflict)
+        *   `C5` (Life)
+        *   `B8` (Expression)
+
+    *   How about **"Hard truth"**?
+        *   `E5` (Stone) is not here.
+
+    *   Let's try to find a phrase that fits `F4 (Earth) + H12 (Low)` (Ground/Floor/Base) and `B12 (Tool) + D4 (Conflict)` (Sword/Weapon/Hammer/Gun) and `H13 (End) + E11 (Zero)`.
+
+    *   **"Ground war"**?
+        *   `F4` (Earth)
+        *   `D4` (Conflict)
+        *   `B8` (Expression)
+        *   `C5` (Life) - "War is life and death"?
+        *   `B12` (Tool) - ?
+        *   `H13` (End) - ?
+
+    *   Wait! **"Bottom line"**?
+        *   `F4` (Earth) + `H12` (Low) = Bottom.
+        *   `B8` (Expression) = Line (or expression).
+        *   `B12` (Tool) + `D4` (Conflict) - ?
+        *   `E11` (Zero) - ?
+
+    *   Could it be **"Downfall"**?
+        *   `H12` (Low/Down)
+        *   `D4` (Conflict/Attack)
+        *   `H13` (End)
+        *   `B8` (Words) - ?
+
+    *   Let's look at the phrase **"Total war"**?
+        *   `E11` (Zero/None) -> "Total" is a stretch, but maybe "Total" means 100%? No, `E11` is zero.
+        *   `D4` (Conflict)
+        *   `B8` (Words)
+        *   `C5` (Life) - ?
+
+    *   What about **"Dead on arrival"**?
+        *   `D5` (Death) is not here.
+
+    *   What about **"Cold war"**?
+        *   `E1` (Cold) is not here.
+
+    *   Let's re-examine `!y B12 (Tool) + D4 (Conflict)`. A tool for conflict. A hammer? A gun? A sword?
+    *   And `!k H13 (End) + D4 (Conflict) + E11 (Zero)`.
+    *   The end of conflict, zero conflict.
+    *   **"Truce"**?
+        *   `B8` (Expression/Words) - An agreement.
+        *   `D4` (Conflict) - End of conflict.
+        *   `E11` (Zero) - Zero conflict.
+        *   `H13` (End) - The end of fighting.
+        *   `C5` (Life/Heart) - Peace/Life?
+        *   `F4` (Earth) + `H12` (Low) - ?
+        *   `B12` (Tool) - ?
+
+    *   What if the answer is **"An ultimatum"**?
+        *   `B8` (Words)
+        *   `D4` (Conflict/Attack)
+        *   `H13` (End/Future)
+        *   `E11` (Zero/None) - "Final/Last"?
+
+    *   Wait, `!y B12 (Tool) + D4 (Conflict)`. A tool for conflict. A **"Hammer"**?
+    *   **"A hammer blow"**?
+        *   `B12` (Tool) + `D4` (Conflict/Attack) = Hammer/Strike.
+        *   `B8` (Words/Expression) = A phrase.
+        *   `F4` (Earth) + `H12` (Low) = ?
+        *   `H13` (End) + `E11` (Zero) = ?
+
+    *   Let's try **"The bottom line"** again.
+        *   `F4` (Earth) + `H12` (Low) = Bottom.
+        *   `B8` (Words) = Line.
+        *   `B12` (Tool) + `D4` (Conflict) = ?
+        *   `H13` (End) + `E11` (Zero) = ?
+
+    *   What about **"Nuclear war"**?
+        *   `D4` (Conflict/Weapon)
+        *   `E11` (Zero/None) - ?
+        *   `D9` (Power/Politics) - ?
+
+    *   Let's look at the `!k` group one more time: `H13 (End) + D4 (Conflict) + E11 (Zero)`.
+        "End of war"? "Zero combat"? "No more fighting"?
+        Could the answer be **"Peace"**?
+        `B8` (Expression)
+        `C5` (Life/Heart)
+        `E11` (Zero)
+        `D4` (Conflict/Attack) - The *absence* of it.
+        `H13` (End)
+        But the clue-giver used `!r` and `!y` as well.
+
+    *   Let's check **"War cry"** again.
+        `B8` (Words)
+        `D4` (Conflict/Attack)
+        `C5` (Life/Heart)
+        `F4` (Earth) + `H12` (Low) = ?
+        `B12` (Tool) + `D4` (Conflict) = ?
+
+    *   What about **"Shotgun wedding"**? No.
+
+    *   Wait, **"A blunt instrument"**?
+        *   `B12` (Tool)
+        *   `D4` (Attack/Conflict)
+        *   `B8` (Words/Expression) - It's a phrase.
+        *   `F4` (Earth/Low) - ?
+        *   `H13` (End/After) - ?
+
+    *   How about **"A law"**? No.
+
+    *   Let's look at the `!r` (Earth/Low) and `!y` (Tool/Conflict) and `!k` (End/Zero) combination.
+        Maybe the word is **"Groundwork"**?
+        *   `B8` (Words/Expression)
+        *   `F4` (Earth) + `H12` (Low) = Ground.
+        *   `B12` (Tool) - The groundwork is a foundation/tool.
+        *   `H13` (End) + `E11` (Zero) - ?
+
+    *   Let's look at **"War of attrition"**?
+        *   `B8` (Expression)
+        *   `D4` (Conflict)
+        *   `E11` (Zero/None) - Attrition is the wearing down to nothing.
+        *   `H13` (End) - ?
+        *   `F4` (Earth) + `H12` (Low) - ?
+
+    *   What about **"The final blow"**?
+        *   `H13` (End)
+        *   `D4` (Attack/Conflict)
+        *   `B12` (Tool/Construction - a blow is an action/tool)
+        *   `B8` (Words/Expression)
+        *   `E11` (Zero/None) - ?
+
+    *   Let's think about the `!y` group: `B12 (Tool) + D4 (Conflict/Attack)`.
+        Maybe it's a **"Sword"**?
+        If the answer is **"Double-edged sword"**?
+        *   `B8` (Expression) - Yes.
+        *   `D4` (Conflict/Attack) - Yes.
+        *   `B12` (Tool) - Yes.
+        *   `F8` (Cut/Separation) is not here, but `F4` (Earth) is.
+        *   `H13` (End/After) - ?
+        *   `E11` (Zero) - ?
+        *   `C5` (Life/Heart) - ?
+
+    *   Wait, `!k` is `H13 (End) + D4 (Conflict) + E11 (Zero)`.
+        Maybe the answer is **"The last stand"**?
+        *   `H13` (End)
+        *   `D4` (Conflict)
+        *   `B8` (Expression)
+        *   `F4` (Earth) - A stand on the ground.
+        *   `H12` (Low/Bottom) - ?
+        *   `B12` (Tool) - ?
+
+    *   Let's try **"Bottom line"** again.
+        `B8` (Expression)
+        `F4` (Earth/Ground) + `H12` (Low) = Bottom.
+        `B12` (Tool) + `D4` (Conflict) = ?
+        `H13` (End/After) + `E11` (Zero) = ?
+
+    *   Wait! **"Zero hour"**?
+        *   `E11` (Zero)
+        *   `D8` (Time/Duration) - Not here.
+        *   `H13` (End/After/Future)
+        *   `D4` (Conflict/Attack)
+
+    *   Let's look at the `!r` (Earth/Low) and `!y` (Tool/Conflict) again.
+        Could it be **"A landmine"**?
+        *   `F4` (Earth)
+        *   `D4` (Conflict/Attack)
+        *   `B12` (Tool/Construction/Device)
+        *   `B8` (Expression) - "A landmine" can be a metaphor/expression.
+        *   `E11` (Zero/None) - ?
+        *   `H13` (End/After) - ?
+
+    *   What about **"A blunt instrument"**?
+    *   What about **"War zone"**?
+    *   What about **"Peace treaty"**?
+
+    *   Let's look at `?g B8 (Expression/Words) + D4 (Conflict) + C5 (Life/Heart)`.
+        Maybe **"A cry of war"**? **"Battle cry"**?
+        *   `B8` (Words/Expression)
+        *   `D4` (Conflict)
+        *   `C5` (Life/Heart)
+        *   `F4` (Earth) + `H12` (Low) - ?
+        *   `B12` (Tool) + `D4` (Conflict) - ?
+        *   `H13` (End) + `E11` (Zero) - ?
+
+    *   Wait... **"The last word"**?
+        *   `B8` (Words)
+        *   `H13` (End)
+        *   `D4` (Conflict/Attack)
+        *   `E11` (Zero/None) - ?
+
+    *   Let's look at the `!y` (Tool/Conflict) and `!k` (End/Zero/Conflict) one more time.
+        Could it be **"A ceasefire"**?
+        *   `B8` (Words/Expression)
+        *   `D4` (Conflict)
+        *   `E11` (Zero/None) - Zero conflict.
+        *   `H13` (End) - End of conflict.
+        *   `C5` (Life/Heart) - ?
+        *   `F4` (Earth) + `H12` (Low) - ?
+
+    *   Another attempt: **"A strike"**?
+        *   `B12` (Tool) + `D4` (Attack) = Strike.
+        *   `D4` (Conflict)
+        *   `B8` (Words/Expression)
+        *   `H13` (End/After) - A strike is a sudden event.
+        *   `F4` (Earth/Low) - ?
+
+    *   Let's try a different angle.
+        `?g` (Words)
+        `!r` (Earth/Low) -> Ground/Under
+        `!y` (Tool/Conflict) -> Weapon/Sword/Gun
+        `!k` (End/Zero/Conflict) -> Aftermath/End/No more war
+
+        What about **"Underground war"**?
+        **"Warfare"**?
+        **"Land war"**?
+
+    *   What about **"The death blow"**?
+        *   `D5` (Death) is not here. `D4` (Conflict) and `C5` (Life/Heart) are.
+        *   `H13` (End)
+        *   `B12` (Tool) + `D4` (Attack) = Blow.
+        *   `B8` (Expression)
+        *   `E11` (Zero) - ?
+
+    *   Wait, **"Ground zero"**?
+        *   `F4` (Earth) + `H12` (Low) = Ground.
+        *   `E11` (Zero) = Zero.
+        *   `D4` (Conflict/Attack) = (Explosion context).
+        *   `B8` (Words/Expression) = (It's a phrase).
+        *   `B12` (Tool) + `D4` (Conflict) - ? (Maybe a tool of war?)
+        *   `H13` (End/After) - (The aftermath of an explosion).
+        *   `C5` (Life/Heart) - (The "heart" of the blast?)
+
+    *   Let's look at `!y B12 (Tool) + D4 (Conflict)`. A tool used for attack. A gun?
+    *   If the answer is **"Gunshot"**?
+        *   `B12` (Tool) + `D4` (Conflict)
+        *   `B8` (Words) - No.
+        *   `C5` (Life) - ?
+
+    *   What about **"A final warning"**?
+        *   `H13` (End)
+        *   `E11` (Zero) - "Final/Last"?
+        *   `B8` (Words)
+        *   `D4` (Conflict)
+
+    *   Let's look at `!r F4 (Earth) + H12 (Low/Below)`.
+        "Below the ground"? "Underground"?
+    *   `!y B12 (Tool) + D4 (Conflict/Attack)`.
+        "A weapon"?
+    *   `!k H13 (End) + D4 (Conflict) + E11 (Zero)`.
+        "End of fighting/No more war"?
+
+    *   Is it **"A bomb"**?
+        *   `B12` (Tool) + `D4` (Attack/Conflict)
+        *   `F4` (Earth) - (Explosion in the ground?)
+        *   `B8` (Words/Expression) - (To "drop a bomb" is an expression).
+        *   `H13` (End) + `E11` (Zero) - ?
+
+    *   How about **"A battlefield"**? (Already guessed).
+
+    *   How about **"A weapon"**?
+        *   `B12` (Tool) + `D4` (Conflict)
+        *   `B8` (Words/Expression) - "A weapon of words"?
+        *   `C5` (Life/Heart) - ?
+
+    *   What about **"The last straw"**?
+        *   `H13` (End)
+        *   `E11` (Zero) - "Last"?
+        *   `B8` (Words/Expression)
+        *   `F4` (Earth/Soil/Plants) - Straw.
+        *   `B12` (Tool) - ?
+
+    *   Let's try to be more specific with the `!r` and `!y` and `!k`.
+        `!r` Earth + Low = Ground/Floor/Bottom/Base.
+        `!y` Tool + Conflict = Weapon/Sword/Gun/Hammer.
+        `!k` End + Conflict + Zero = End of war/No more war.
+
+        **"Ground war"**?
+        **"Landmine"**?
+        **"Trench warfare"**?
+        *   `F4` (Earth) - Trench.
+        *   `D4` (Conflict) - Warfare.
+        *   `B8` (Words/Expression) - Yes.
+        *   `C5` (Life/Heart) - ?
+        *   `B12` (Tool) - ?
+        *   `H13` (End/After) - ?
+        *   `E11` (Zero) - ?
+
+    *   Wait! **"A dead end"**? (Already considered).
+    *   What about **"A deadbolt"**? No.
+    *   What about **"The end of the world"**?
+        *   `H13` (End)
+        *   `A9` (World) - Not here.
+        *   `B8` (Expression)
+        *   `D4` (Conflict/Attack)
+        *   `C5` (Life/Heart)
+        *   `F4` (Earth)
+        *   `H12` (Low) - ?
+
+    *   Let's try **"Ground zero"** as a guess. It fits many of the clues.
+    *   Let's try **"The last word"** as a guess.
+    *   Let's try **"A war cry"** as a guess.
+
+    *   Wait, looking at `!y B12 (Tool) + D4 (Conflict)`.
+        Could it be **"A sword"**?
+        And `!r F4 (Earth) + H12 (Low)`.
+        And `!k H13 (End) + D4 (Conflict) + E11 (Zero)`.
+        What about **"A broken sword"**? No.
+
+    *   Wait! **"A falling star"**?
+        *   `H12` (Low/Down)
+        *   `H5` (Star) - Not here.
+        *   `F4` (Earth) - ?
+        *   `B8` (Words/Expression)
+
+    *   Let's try a different way.
+        `B8` (Words)
+        `D4` (Attack)
+        `C5` (Life)
+        `F4` (Earth)
+        `H12` (Low)
+        `B12` (Tool)
+        `H13` (End)
+        `E11` (Zero)
+
+        Is it **"A blunt force trauma"**?
+        *   `B12` (Tool/Construction) + `D4` (Attack/Conflict) = Blunt force.
+        *   `B8` (Expression)
+        *   `C5` (Life/Heart) - (Trauma affects life/heart).
+        *   `H13` (End) + `E11` (Zero) - (Can be fatal/end).
+        *   `F4` (Earth) + `H12` (Low) - ?
+
+    *   What about **"A stone cold killer"**? (No stone/cold).
+
+    *   Let's think about **"The end of the line"**?
+        *   `H13` (End)
+        *   `B8` (Words/Expression)
+        *   `B12` (Tool/Construction - a line?)
+        *   `E11` (Zero/None) - ?
+        *   `F4` (Earth) + `H12` (Low) - ?
+
+    *   Let's look at the `!k` group again. `H13` (End/After), `D4` (Conflict), `E11` (Zero/None).
+        The phrase **"No more war"**?
+        The phrase **"Peace treaty"**?
+        The phrase **"Ceasefire"**?
+
+    *   What about **"A bombshell"**?
+        *   `B8` (Expression) - Yes.
+        *   `D4` (Conflict/Attack) - Yes.
+        *   `B12` (Tool) + `D4` (Conflict) - A bomb is a tool of attack.
+        *   `F4` (Earth) + `H12` (Low) - (An explosion on the ground).
+        *   `H13` (End) + `E11` (Zero) - (The aftermath/end of something).
+        *   `C5` (Life/Heart) - (The "heart" of the news/matter).
+
+    *   Wait, **"A bombshell"** is a very good candidate for "Expression/Words".
+    *   Let's try:
+        1. Ground zero
+        2. A bombshell
+        3. The last word
+
+    *   Wait, let's look at `!y B12 (Tool) + D4 (Conflict)`.
+        A tool for conflict... a **"Hammer"**?
+        A **"Sword"**?
+        A **"Gun"**?
+        An **"Arrow"**?
+        A **"Shield"**? (C4 is Shield, but it's not used here).
+
+    *   What about **"A war cry"**?
+        `B8` (Words)
+        `D4` (Conflict)
+        `C5` (Life/Heart)
+        `F4` (Earth) + `H12` (Low) - ?
+        `B12` (Tool) + `D4` (Conflict) - ?
+        `H13` (End/After) + `E11` (Zero) - ?
+
+    *   Let's try **"A blunt instrument"**?
+    *   Let's try **"The final blow"**?
+        *   `H13` (End)
+        *   `B12` (Tool) + `D4` (Conflict) = Blow.
+        *   `E11` (Zero) - ?
+        *   `B8` (Words)
+        *   `C5` (Life) - ?
+
+    *   Wait, **"A strike"**? (Strike/Attack/Conflict).
+    *   **"A strike zone"**?
+        *   `D4` (Conflict)
+        *   `B8` (Words/Expression)
+        *   `F4` (Earth)
+        *   `E11` (Zero) - ?
+
+    *   Let's look at the `!k` group again. `H13 (End) + D4 (Conflict) + E11 (Zero)`.
+        **"End of the world"**? (No).
+        **"The end of days"**? (No).
+        **"Zero hour"**? (No).
+
+    *   What about **"A dead end"**? (Already thought about it).
+
+    *   Let's reconsider **"Ground zero"**.
+        `F4` (Earth) + `H12` (Low/Below) = Ground.
+        `E11` (Zero) = Zero.
+        `D4` (Conflict) = (Associated with the concept).
+        `B8` (Words/Expression) = (It is a phrase).
+        `B12` (Tool) + `D4` (Conflict) = (Maybe referring to the weapon/bomb?)
+        `H13` (End/After) = (The aftermath).
+        `C5` (Life/Heart) = (The center/heart of the blast).
+
+    *   Let's try **"A war cry"**.
+    *   Let's try **"The last word"**.
+    *   Let's try **"Ground zero"**.
+
+    *   One more look: `!

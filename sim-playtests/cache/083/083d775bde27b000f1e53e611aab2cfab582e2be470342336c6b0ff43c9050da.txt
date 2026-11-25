@@ -1,0 +1,23 @@
+New prompt.
+
+Step 1, markers placed:
+?g A4
++ White
++ E1
++ G10
+Board now:
+?g A4 | White, E1, G10
+Guesses: Snowflake, Weather, Winter
+Clue-giver: No
+
+Step 2, markers placed:
+!r A13
+!y A9
++ G12
++ E1
+Board now:
+?g A4 | White, E1, G10
+!r A13
+!y A9 | G12, E1
+
+Give up to 3 guesses, best first, or none to pass.

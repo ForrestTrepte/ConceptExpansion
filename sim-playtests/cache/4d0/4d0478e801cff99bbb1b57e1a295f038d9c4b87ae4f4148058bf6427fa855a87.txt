@@ -1,0 +1,47 @@
+The answer is: Lollipop
+
+The game so far:
+
+Step 1, markers placed:
+?g A14
++ C1
++ H4
+!r G1
++ H4
+!y D14
++ Pink
+Your private plan: Main: food, candy for children, round on a stick. Then sub: round + stick (line) + sweet.
+Board now:
+?g A14 | C1, H4
+!r G1 | H4
+!y D14 | Pink
+Guesses: straw, nipple
+Clue-giver: No
+
+Step 2, markers placed:
++g C6
+!b G3
++ H4
+Your private plan: Add spiral swirl and happy to steer toward candy/lollipop.
+Board now:
+?g A14 | C1, H4, C6
+!r G1 | H4
+!y D14 | Pink
+!b G3 | H4
+Guesses: noodles, spaghetti, licorice
+Clue-giver: Yes: licorice
+
+Step 3, markers placed:
+!k F5
++ H11
++ H12
+Your private plan: Licorice is candy-adjacent. Add a stick part (wood, thin) to point to a candy on a stick.
+Board now:
+?g A14 | C1, H4, C6
+!r G1 | H4
+!y D14 | Pink
+!b G3 | H4
+!k F5 | H11, H12
+Guesses: roots
+
+The judge found none of the last guesses correct. Answer Yes or No to them, then add markers or give up. The guesser has 7 turns left.

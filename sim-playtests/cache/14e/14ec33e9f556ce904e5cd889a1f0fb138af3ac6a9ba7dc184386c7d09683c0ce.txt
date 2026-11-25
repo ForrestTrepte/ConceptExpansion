@@ -1,0 +1,339 @@
+*   `?g H14`: Main Concept is "Use – Action / Do – Verb / Button". It's an action or something involving a button/usage.
+    *   `+ C14`: Detail about the main concept: Eye / Sight.
+    *   `+ C11`: Detail about the main concept: Head / Face / Neck.
+
+    *So far: An action involving eyes/sight/head/face/neck (like looking, seeing, blinking, etc.).*
+    *Guesses: Look, Blink, Wink. Answer: No.*
+
+    *   `!r A1`: Sub-concept (red group) is "Object / Box".
+    *   `+ C7`: Detail about the object: Electronic / Computing.
+    *   `+ C14`: Detail about the object: Eye / Sight.
+    *   `+ D11`: Detail about the object: Arm / Hand / Finger. (Wait, the notation says `+r D11` in Step 3, but Step 2 ended with `!r A1 | C7, C14`. Step 3 says `+r D11`, which means adding a cube to the existing red group. Let's re-read the notation rule).
+    *   *Correction on notation:* `+ D11` adds a cube to the group defined by the previous `!r`. Step 3 says `+r D11`, implying a cube in the red group.
+
+    *Re-evaluating Step 2/3 markers:*
+    *   `?g H14` (Action/Verb/Button)
+        *   `+ C14` (Eye)
+        *   `+ C11` (Head)
+    *   `!r A1` (Object/Box)
+        *   `+ C7` (Electronic/Computing)
+        *   `+ C14` (Eye)
+    *   `+ D11` (Arm/Hand/Finger)
+    *   `+ F11` (One/Unit/Number)
+
+    *Let's re-verify Step 3 notation:*
+    Step 3:
+    `+r D11` -> Add a cube to the red group at D11 (Arm/Hand/Finger).
+    `+ F11` -> Add a cube to the red group at F11 (One/Unit/Number).
+
+    *Step 2 Summary:*
+    Action (H14) related to Eyes (C14) and Head (C11).
+    Object (A1) that is Electronic (C7), involves Eyes (C14), and Hands (D11).
+
+    *Step 3 Summary (adding to the red group):*
+    The Object (A1) is also related to Hands (D11) and the number One (F11).
+
+    *Wait, let's check the `+ F11` in Step 3.*
+    Step 3:
+    `+r D11`
+    `+ F11`
+    If `+ F11` doesn't have a group letter, it belongs to the previous group (`!r`).
+
+    *Let's synthesize:*
+    Main Concept: An action/verb (H14).
+    Target action: involves the eyes/face (C14, C11). (Not look, blink, or wink).
+    Related Object: A box/object (A1) that is electronic (C7), involves eyes/sight (C14), hands (D11), and the number one (F11)? Or maybe the number one refers to "one button" or "one click"?
+
+    *Wait, what electronic object involves eyes, hands, and is a "box"?*
+    - Camera? (Step 2 guesses: Photograph, Record - both were "No").
+    - Computer/Mouse/Monitor?
+    - Smartphone/Phone?
+    - Television?
+    - Video game console?
+
+    *Let's look at the action again:*
+    Action (H14) + Eye (C14) + Head (C11).
+    An action performed with eyes/head.
+    Maybe "Watch"? (But step 2 was "Scan", "Photograph", "Record" -> No).
+    Maybe "See"?
+    Maybe "Identify"?
+    Maybe "Capture"? (Step 2 "Photograph" was No).
+
+    *Let's re-examine the Object:*
+    Object (A1) + Electronic (C7) + Eye (C14) + Hand/Finger (D11) + One (F11).
+    A device (A1) that is electronic (C7), uses eyes (C14) (like a camera lens or screen), is operated by hands (D11), and maybe has "one" something?
+    - One button?
+    - One click?
+    - One lens?
+
+    *What action (H14) uses the eyes (C14) and is related to an electronic box (A1) that has hands/fingers (D11) and "one" (F11)?*
+
+    Could the action be "Click"? (H14 is button/action).
+    Could the action be "Zoom"?
+    Could the action be "Focus"?
+    Could the action be "Capture"? (No, "Photograph" was No).
+
+    What if the action is "Capture" or "Record"? No, those were No.
+    What about "Snapshot"?
+    What about "Capture" (like in a game)?
+
+    Let's think about the "One" (F11) and "Finger" (D11) and "Electronic" (C7).
+    A "Click"?
+    A "Tap"?
+    A "Press"?
+    A "Touch"?
+
+    If the action is "Tap" or "Click" or "Press":
+    Does "Tap" or "Click" involve eyes (C14)? Not really, but you use your eyes to look at the screen.
+    Does it involve head (C11)? You look with your head.
+
+    Wait, let's look at the object again: A1 (Box/Object), C7 (Electronic), C14 (Eye), D11 (Finger/Hand), F11 (One).
+    Maybe the object is a "Remote control"? (It's a box/object, electronic, you use fingers, maybe one button?)
+    Does "Remote control" relate to an action involving eyes? You use it while watching something?
+
+    What about a "Computer Mouse"?
+    What about a "Touchscreen"?
+
+    Let's reconsider the Action (H14):
+    H14 is "Use, Action, Do, Button".
+    It's a verb.
+    `+ C14` (Eye)
+    `+ C11` (Head)
+    Action related to eye/head.
+    - Watch?
+    - Observe?
+    - See?
+    - Glance?
+    - Stare?
+    - Gaze?
+    - Recognize?
+
+    Wait, the "One" (F11) is very specific.
+    Maybe "One click"? "One tap"? "One touch"?
+    "Single click"?
+    "Double click"? (No, it's F11, not F11 x2).
+
+    Is the action "Click"?
+    If the action is "Click", the object could be a "Mouse".
+    Is a mouse an "A1 Object/Box"? It's an object.
+    Is it electronic (C7)? Yes.
+    Does it involve eyes (C14)? You use your eyes to guide it.
+    Does it involve hands/fingers (D11)? Yes.
+    Is it "one" (F11)? One click?
+
+    What about "Point"?
+    What about "Select"?
+
+    Let's look at the "One" (F11) again.
+    Maybe it's "Single" or "One".
+    "One-eye"? (Monocular?)
+    "One-shot"?
+
+    Let's rethink the "Action" (H14) + "Eye" (C14) + "Head" (C11).
+    Action + Eye + Head.
+    How about "Watch"?
+    "Watch" is an action.
+    Is there an electronic object (A1, C7) related to "Watch"?
+    - A TV?
+    - A Clock/Watch? (Wait, a watch is an object. Is it electronic? A digital watch is).
+    - Does a watch involve eyes (C14)? Yes, to read it.
+    - Does it involve hands (D11)? A watch has "hands" (the clock hands).
+    - Does it involve "one" (F11)? "One" hour? "One" hand? No, that's a stretch.
+
+    Wait! "Watch" (the verb) and "Watch" (the object).
+    The clue-giver uses `?g H14` (Action) for the verb "Watch".
+    The clues for the verb "Watch":
+    - Eye (C14)
+    - Head (C11)
+    The clues for the object "Watch":
+    - Object (A1)
+    - Electronic (C7)
+    - Eye (C14)
+    - Hand/Finger (D11) (Clock hands!)
+    - One (F11) (?? maybe "one" time?)
+
+    Actually, let's look at "Hand/Finger" (D11) again. In Concept, "Hand" often refers to the physical hand, but "Clock hands" is a very common way to use the "Hand" icon.
+    If the object is a "Watch" (the timepiece):
+    - A1: Object
+    - C7: Electronic (Digital watch)
+    - C14: Eye (to see it)
+    - D11: Hand (Clock hands)
+    - F11: One (??)
+
+    Let's try another angle.
+    Action: "Focus"?
+    Action: "Capture"? (Already guessed "Photograph" and "Record" which are No).
+    Action: "Scan"? (Guessed No).
+
+    What about "Zoom"?
+    Action: Zoom.
+    Object: Camera lens?
+
+    Wait, the "One" (F11) might mean "Single".
+    "Single eye"? "One eye"? "Cyclops"? No.
+
+    Let's look at the object again.
+    A1 (Object/Box)
+    C7 (Electronic)
+    C14 (Eye)
+    D11 (Hand/Finger)
+    F11 (One)
+
+    Could the object be a "Camera"?
+    - Electronic? Yes.
+    - Eye? Yes (Lens).
+    - Hand/Finger? Yes (Shutter button).
+    - One? One lens? One button?
+    But "Photograph" and "Record" were No.
+
+    Could the action be "Click"?
+    Could the action be "Tap"?
+    Could the action be "Press"?
+
+    What if the object is a "Computer"?
+    Action: "Type"?
+    "Type" (H14 - Action/Button).
+    - Eye (C14)? You look at the screen.
+    - Head (C11)?
+    - Object (A1)? Computer.
+    - Electronic (C7)? Yes.
+    - Finger (D11)? Yes.
+    - One (F11)? One key?
+
+    Wait, "Look", "Blink", "Wink" were the first guesses.
+    "Scan", "Photograph", "Record" were the second.
+
+    What if the action is "See"? Or "Watch"?
+    Or "Observe"?
+
+    Let's look at the action `H14` again. "Use / Action / Do / Button".
+    It's an action.
+    `+ C14` (Eye)
+    `+ C11` (Head)
+
+    Maybe the action is "Identify"?
+    Maybe "Recognize"?
+
+    Let's look at the object again.
+    "Electronic" + "Eye" + "Hand" + "One".
+    What about a "Smartphone"?
+    What about a "Mouse"?
+
+    Let's think about the "One" (F11) more.
+    In Concept, "One" can also mean "Single".
+    "Single" + "Eye"? "Monocle"?
+    Is "Monocle" an action? No.
+
+    Wait! "Eye" + "Hand" + "Electronic".
+    "Eye" (C14) + "Hand" (D11) = "Eye" + "Clock hand"?
+    "Eye" (C14) + "Hand" (D11) = "Eye" + "Hand" (the body part)?
+
+    What if the answer is "Click"?
+    - Action: Click (H14)
+    - Related to Eye (C14) (you click what you see)
+    - Object: Mouse (A1)
+    - Electronic (C7)
+    - Hand/Finger (D11)
+    - One (F11) (Single click?)
+
+    Let's try "Click", "Tap", "Press".
+    Wait, "Tap" is a good one.
+    "Click" is also good.
+
+    Is there any other action?
+    "Watch"? (If "Watch" is the answer, it could be the verb or the noun).
+    If "Watch" is the verb:
+    - H14 (Action)
+    - C14 (Eye)
+    - C11 (Head)
+    If "Watch" is the noun:
+    - A1 (Object)
+    - C7 (Electronic)
+    - C14 (Eye)
+    - D11 (Hand - clock hand)
+    - F11 (One - ?? maybe "one" time?)
+
+    Actually, let's check "Watch" again.
+    Does a "Watch" (noun) have an "Eye"? Not really, unless it's a "Watch eye"? No.
+    Does a "Watch" have a "Head"? No.
+
+    Wait, "Digital camera" or "Webcam"?
+    - Action: "Webcam"? No.
+    - Action: "Record"? (No).
+    - Action: "Capture"? (No).
+    - Action: "Video"? (Maybe).
+    - Action: "Stream"?
+
+    Let's look at "Button" (H14).
+    Is the answer a "Button"?
+    If the answer is "Button":
+    - Action: To button?
+    - Object: A button.
+    - Electronic: A button on a device.
+    - Eye: ?
+    - Hand/Finger: Yes.
+    - One: ?
+
+    What about "Switch"?
+    - Action: Switch (H14).
+    - Object: Switch (A1).
+    - Electronic (C7).
+    - Hand/Finger (D11).
+    - One: ?
+
+    Wait, "One" (F11) and "Eye" (C14).
+    "One eye"?
+    "Single eye"?
+    "Eye" (C14) + "One" (F11) = "Eye" + "1" = "I" (the letter)? No.
+
+    Let's try "Click", "Tap", "Press".
+    Another possibility: "Control".
+    - Action: Control (H14).
+    - Object: Controller (A1).
+    - Electronic (C7).
+    - Hand/Finger (D11).
+    - Eye (C14)? (You use your eyes to play).
+    - One (F11)? (One controller?)
+
+    Let's think about "Electronic" (C7) + "Eye" (C14) + "Finger" (D11).
+    A "Touchscreen"?
+    An "App"?
+
+    What about the action "View"?
+    Action: View (H14).
+    - Eye (C14).
+    - Head (C11).
+    Object: Monitor/Screen?
+    - A1 (Object).
+    - C7 (Electronic).
+    - C14 (Eye/Sight).
+    - D11 (Hand/Finger)? No.
+
+    Let's look at the "One" (F11) again.
+    "One" + "Eye" (C14) + "Hand" (D11) + "Electronic" (C7).
+    Could it be "iPhone"?
+    - "i" is "one"?
+    - "Phone" is "Electronic"?
+    - "Eye" (Face ID)?
+    - "Hand" (Touch)?
+    - Action? "Call"? "Text"?
+
+    Wait, "Action" (H14) + "Eye" (C14).
+    "Blink" was "No".
+    "Look" was "No".
+    "Wink" was "No".
+    "Scan" was "No".
+    "Photograph" was "No".
+    "Record" was "No".
+
+    What about "Watch"?
+    If "Watch" is the answer:
+    - Action: Watch (H14)
+    - Eye: C14
+    - Head: C11
+    - Object: Watch (A1)
+    - Electronic: C7
+    - Hand: D11 (Clock hand)
+    - One: F11? (Maybe "One" refers to a single watch or "one" time?)
+
+    Wait, "Eye" (C14) + "Hand" (D11) + "Electronic" (C7) +

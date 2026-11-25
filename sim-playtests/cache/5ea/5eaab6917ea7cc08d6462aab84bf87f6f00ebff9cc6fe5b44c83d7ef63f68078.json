@@ -1,0 +1,134 @@
+{
+  "contentSha256": "0dc78814c4595fe83ed2357ea521e182089b467e3801a42840e6bbf0afb6bce5",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "4b5daa84bf7faab6f117925ff5de9ff2fdd6395e55661846fcc5b242e99c1765"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "9acbe8e4d1f33474cf4c3b2c94e797f624ed1ade7fe19f63a0032881fcc10a3c"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "openai/gpt-6-luna",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "guesses"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-2"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "f6004e3-dirty",
+    "costUsd": 0.000157695,
+    "latencyMs": 2761,
+    "recordedAt": "2026-11-24T00:05:50.769Z",
+    "recordedBy": "claude",
+    "servedBy": "OpenAI",
+    "servedModel": "openai/gpt-6-luna",
+    "tags": {
+      "run": "calibrate-or-luna"
+    },
+    "usage": {
+      "cacheReadTokens": 4727,
+      "cacheWriteTokens": 117,
+      "inputTokens": 4847,
+      "outputTokens": 191,
+      "reasoningTokens": 167
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"Dream house\",\"Think tank\",\"House of Commons\"]}",
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "data": {
+                "$llmemo.text": "d275ebc8d2ac38876f23f16514f9754cdc025bb59161060c5749aee1dbeb0199"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_00e9db191abdcce9016b04d4dcd22887d1a15df2fe3b1e5a3c",
+              "index": 0,
+              "type": "reasoning.encrypted"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "completed"
+      }
+    ],
+    "created": 1795478748,
+    "id": "gen-1795478748-H78JJxNe5ygq6jodLHk4",
+    "model": "openai/gpt-6-luna",
+    "object": "chat.completion",
+    "provider": "OpenAI",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 191,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 167
+      },
+      "cost": 0.000157695,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0000955,
+        "upstream_inference_cost": 0.000157695,
+        "upstream_inference_prompt_cost": 0.000062195
+      },
+      "is_byok": false,
+      "prompt_tokens": 4847,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 117,
+        "cached_tokens": 4727,
+        "video_tokens": 0
+      },
+      "total_tokens": 5038
+    }
+  }
+}

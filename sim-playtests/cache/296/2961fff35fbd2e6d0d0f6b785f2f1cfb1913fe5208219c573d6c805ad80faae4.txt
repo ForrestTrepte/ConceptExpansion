@@ -1,0 +1,7 @@
+{ 
+"guesses": [
+    "attack",
+    "conflict",
+    "violence"
+]
+}

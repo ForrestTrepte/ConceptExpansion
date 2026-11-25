@@ -1,0 +1,139 @@
+{
+  "contentSha256": "343b22405250e6a59081f79fb550a0c0e008117d9610352233c612477cca264c",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "90167f6773b23c0d34d7074b521186233b0757584cab853ba7be1b70066d6420"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "0db33017f4c2c36f8b1f7b7121279130b5505bb5430fac71ea77ce7192306be1"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "google/gemma-4-26b-a4b-it",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "pass": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "guesses",
+                "pass"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-1"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "db82776-dirty",
+    "costUsd": 0.00043168,
+    "latencyMs": 2984,
+    "recordedAt": "2026-11-23T22:22:33.588Z",
+    "recordedBy": "claude",
+    "servedBy": "Parasail",
+    "servedModel": "google/gemma-4-26b-a4b-it",
+    "tags": {
+      "run": "calibrate-or-gemma"
+    },
+    "usage": {
+      "cacheReadTokens": 4736,
+      "cacheWriteTokens": 0,
+      "inputTokens": 4992,
+      "outputTokens": 404,
+      "reasoningTokens": 380
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\": [\"Statue of Liberty\", \"Mural\", \"Monument\"], \"pass\": false}",
+          "reasoning": {
+            "$llmemo.text": "2177848862a7405f116b70fc2d63cdeff93f1ac16c1f11fda67b3a4d8ab749cc"
+          },
+          "reasoning_details": [
+            {
+              "format": "unknown",
+              "index": 0,
+              "text": {
+                "$llmemo.text": "2177848862a7405f116b70fc2d63cdeff93f1ac16c1f11fda67b3a4d8ab749cc"
+              },
+              "type": "reasoning.text"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "stop"
+      }
+    ],
+    "created": 1795472550,
+    "id": "gen-1795472550-D8v4WyszsRR6pt5GSP5X",
+    "model": "google/gemma-4-26b-a4b-it",
+    "object": "chat.completion",
+    "provider": "Parasail",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 404,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 380
+      },
+      "cost": 0.00043168,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0001616,
+        "upstream_inference_cost": 0.00043168,
+        "upstream_inference_prompt_cost": 0.00027008
+      },
+      "is_byok": false,
+      "prompt_tokens": 4992,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 4736,
+        "video_tokens": 0
+      },
+      "total_tokens": 5396
+    }
+  }
+}

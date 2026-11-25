@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "To hunt",
+    "To stalk",
+    "To howl"
+  ]
+,
+"pass": false
+}

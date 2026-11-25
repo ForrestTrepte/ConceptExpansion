@@ -1,0 +1,170 @@
+
+*   `?g A6`: Main Concept is Cinema / Movie.
+    *   `+ D5`: (Adding detail to Cinema/Movie) Death / Bad / Illness.
+    *   `!r A10`: Red Sub-concept is Date / Event / Day.
+    *   `+ D5`: (Adding detail to Date/Event/Day) Death / Bad / Illness.
+    *   `!y F11`: Yellow Sub-concept is One / Unit / Number.
+    *   `+ G2`: (Adding detail to One/Unit/Number) Cross / Crossing / Addition.
+    *   `+ F11`: (Adding detail to One/Unit/Number) One / Unit / Number.
+
+    *   Main Concept: Movie.
+    *   Attribute of Movie: Death / Bad / Illness.
+    *   Sub-concept 1 (Red): Date/Event related to Death.
+    *   Sub-concept 2 (Yellow): Related to the number "one" or a single event/crossing.
+
+    *   *Idea 1:* A movie about a single death or a specific date involving death.
+    *   *Idea 2:* "One" + "Death" + "Movie".
+    *   *Idea 3:* Maybe "One" refers to a specific title?
+    *   *Idea 4:* "A10 + D5" (Date + Death). "F11 + G2 + F11" (One + Cross + One? Or just emphasized One/Addition/Single).
+    *   *Idea 5:* *Seven*? (No, that's 7). *One*?
+    *   *Idea 6:* *Scream*? *Halloween*? (Dates/Events/Movies).
+    *   *Idea 7:* Maybe the number 1 is important. *One Flew Over the Cuckoo's Nest*? (Medical/Death).
+    *   *Idea 8:* *Final Destination*? (Death + Event/Date).
+    *   *Idea 9:* *Day of the Dead*? (Date/Event + Death + Movie).
+    *   *Idea 10:* *Friday the 13th*? (Date/Event + Death + Movie). "F11" (one) "G2" (plus/cross) "F11" (one) -> 1 + 1? Or just 13?
+    *   Wait, looking at `!y F11 + G2 + F11`. `F11` is 1. `G2` is Cross/Plus/Addition. `F11` is 1. So 1 + 1? Or is it 11?
+    *   If `F11` is "1", then `F11 + G2 + F11` could be `1 + 1 = 2` or `11`.
+    *   Let's re-read `!y F11 + G2 + F11`. It's Yellow Sub-concept: One, Plus, One.
+    *   Maybe the answer is *The Ring*? (No).
+    *   What about *Scream*?
+    *   Let's look at `!r A10 + D5`. Red sub-concept: Date/Event + Death.
+    *   *Friday the 13th* fits "Date + Death + Movie".
+    *   *Halloween* fits "Date + Death + Movie".
+    *   Wait, `!y F11 + G2 + F11`... if F11 is 1, G2 is plus, F11 is 1... 1 + 1 = 2?
+    *   Is there a movie called *One*? Or *Two*?
+    *   What if it's *Seven*? No.
+    *   What if it's *13*? (Not a famous movie title on its own, usually *Friday the 13th*).
+    *   Let's re-examine `!y F11 + G2 + F11`.
+        *   F11: One.
+        *   G2: Plus.
+        *   F11: One.
+        *   1 + 1 = 2.
+    *   Or maybe `F11` + `F11` makes `11`. `G2` is a cross/plus.
+    *   Wait, `A10 + D5` = Date of Death.
+    *   `F11 + G2 + F11` = 1 + 1 or 11.
+    *   Could the answer be *Friday the 13th*? Does the "11 + 1" relate to 13? Not really.
+    *   Could it be *The Day of the Dead*?
+    *   Could it be *A Nightmare on Elm Street*? (No).
+    *   What about a movie about a specific date?
+    *   What about *One Flew Over the Cuckoo's Nest*?
+    *   Let's look at the yellow group again: `!y F11`, `+ G2`, `+ F11`.
+    *   One. Addition/Cross. One.
+    *   Maybe the answer is *Scream*? No.
+    *   What movie has "One" and "Death" and "Date"?
+    *   *Final Destination*?
+    *   What if `F11 + G2 + F11` means "11"? (One, One).
+    *   Is there a movie called *11*? Or *11:11*?
+    *   Is there a movie called *One*?
+    *   Let's try *Friday the 13th* as a strong candidate for "Date + Death + Movie".
+    *   Let's try *The Day of the Dead*.
+    *   Wait, `!y F11 + G2 + F11` could be "One" + "plus" + "one" = "Two".
+    *   Movie + Death + Date + Two.
+    *   *Seven*? (7).
+    *   *The Conjuring*? (No).
+    *   What about *The 13th Warrior*? (No).
+    *   Let's think about the icon `G2`. It's "Cross / Crossing / Addition".
+    *   Maybe the yellow clue is about a "Cross"?
+    *   `!y F11 + G2 + F11` -> One + Cross + One.
+    *   Is there a movie called *The Cross*?
+    *   Is there a movie called *One*?
+    *   Let's reconsider `!y F11 + G2 + F11`.
+    *   If I have "1" "Cross" "1", could it be "11"?
+    *   Is there a movie called *11*? No.
+    *   What about *Friday the 13th*? `A10` (Date) `D5` (Death). That matches perfectly.
+    *   How does `F11 + G2 + F11` (1 + Cross + 1) fit *Friday the 13th*?
+    *   13... 1 and 3? No.
+    *   Wait, 1 and 1 is 11.
+    *   Is there a movie called *11:11*?
+    *   What if the answer is *The Shining*? (No).
+    *   What about *Seven*? (No).
+    *   What about *Scream*?
+    *   Wait! "Date of death" + "Movie" + "1+1".
+    *   Maybe *Day of the Dead*?
+    *   Let's try *Friday the 13th*.
+    *   Another thought: `!y F11 + G2 + F11` -> One, Plus, One. Could it be "One plus one is two"? *Two*?
+    *   What movie is about "Date of Death" and "Two"?
+    *   Wait, `F11` is "One/Unit/Number".
+    *   Could it be *The Exorcist*? (No).
+    *   Could it be *Halloween*?
+    *   Let's try *Friday the 13th* and *The Day of the Dead*.
+    *   Wait, "One" + "Cross" + "One"... could it be "One" and "One" are the digits of the number? 11?
+    *   Is there a movie called *11*? Or *11:11*?
+    *   Or maybe the date is 11?
+    *   *Friday the 13th*... the date is 13.
+    *   Wait! `F11` (1) `G2` (plus) `F11` (1). 1+1=2.
+    *   Could the answer be *Two*? No, it's a movie.
+    *   *The Two*? No.
+    *   What movie is "Death", "Date", "One", "Plus", "One"?
+    *   Is it *Seven*? (No, that's 7).
+    *   Wait, `F11 + G2 + F11` ... could it be "1" and "1" (11)?
+    *   What about *Friday the 13th*? If the date was 11? No, it's 13.
+    *   Let's rethink `G2`. Cross/Addition.
+    *   Maybe the answer is *The Cross*? No.
+    *   Let's try *Friday the 13th* as my best guess because of "Date" and "Death" and "Movie".
+    *   Actually, *Halloween* is also a good guess.
+    *   Is there a movie about "1+1"?
+    *   What about *The Ring*? (No).
+    *   Let's try: 1. *Friday the 13th*, 2. *The Day of the Dead*, 3. *Halloween*.
+
+    *Self-Correction:* Let's look at `!y F11 + G2 + F11` again.
+    `F11` is 1.
+    `G2` is addition.
+    `F11` is 1.
+    Total is 2.
+    "Movie" + "Death" + "Date" + "2".
+    *Friday the 13th*... does "2" fit? No.
+    Wait! *Friday the 13th Part 2*? No, usually you guess the main title.
+    What about *The Conjuring 2*? No.
+    Wait, what if `F11 + G2 + F11` means "1" and "1" = 11?
+    Is there a movie called *11*?
+    What about *The 11th Hour*?
+    What about *11:14*? (It's a movie!).
+    *11:14* is a movie.
+    It involves "Date/Time" (A10) and "Death/Bad" (D5).
+    And the number is 11 (F11 and F11).
+    And `G2` is a cross/plus (the colon? or just a separator?).
+    This feels like a strong possibility.
+
+    Let's try another:
+    *One* (F11) *Flewed Over the Cuckoo's Nest*? (No).
+    *The Sixth Sense*? (Death, but not really a date/number 2).
+
+    Wait, `!y F11 + G2 + F11`.
+    If `G2` is "Cross/Addition", and `F11` is "1".
+    Maybe it's "1" "Cross" "1"?
+    *The Cross and the Switchblade*? (No).
+
+    Let's go with *Friday the 13th*, *11:14*, and *Halloween*.
+    Actually, *Friday the 13th* is more common.
+    Let's think. `A10` (Date) `D5` (Death) `A6` (Movie).
+    `F11` (1) `G2` (plus) `F11` (1).
+    Maybe the number is 2?
+    Is there a movie called *Two*? No.
+    What about *Seven*? (No).
+    Wait, *Scream*? No.
+
+    Let's look at `G2` again. "Cross / Crossing / Addition".
+    A "Cross" is a symbol.
+    "1" "Cross" "1".
+    Could it be *The Exorcist*? (No).
+
+    Let's try:
+    1. *Friday the 13th*
+    2. *11:14*
+    3. *Halloween*
+
+    Wait, one more look. `!y F11 + G2 + F11`.
+    If `F11` is a "unit/number" and `G2` is "addition".
+    1 + 1 = 2.
+    Is there a movie called *Two*?
+    Wait, *The Shining* (no), *The Ring* (no).
+    What about *Seven*?
+    *Seven* is a movie (A6).
+    It involves death (D5).
+    Is it a date (A10)? Not really.
+    Wait, `F11 + G2 + F11`.
+    If `G2` is the "plus" sign.
+    Maybe it's a movie about "1 + 1"?
+    No.
+
+    Let's try *Friday the 13th*. It fits the "Date + Death + Movie" theme best.

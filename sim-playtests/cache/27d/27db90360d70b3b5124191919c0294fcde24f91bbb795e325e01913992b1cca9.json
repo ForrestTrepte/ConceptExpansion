@@ -1,0 +1,139 @@
+{
+  "contentSha256": "49a233059f11897921cbf6c6d8bb20c2a05eae4169fc67fac3bc813785366116",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 1,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "90167f6773b23c0d34d7074b521186233b0757584cab853ba7be1b70066d6420"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "e6e8c1f1bf0af27022e3e22fed99a006058a47b6bc091e2149a85be1d9d60c78"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "google/gemma-4-26b-a4b-it",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "pass": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "guesses",
+                "pass"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-1"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "db82776-dirty",
+    "costUsd": 0.000985748,
+    "latencyMs": 13097,
+    "recordedAt": "2026-11-23T22:36:50.113Z",
+    "recordedBy": "claude",
+    "servedBy": "Makora",
+    "servedModel": "google/gemma-4-26b-a4b-it",
+    "tags": {
+      "run": "calibrate-or-gemma"
+    },
+    "usage": {
+      "cacheReadTokens": 4992,
+      "cacheWriteTokens": 0,
+      "inputTokens": 5026,
+      "outputTokens": 2636,
+      "reasoningTokens": 2598
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\": [\"The Very Hungry Caterpillar\", \"Green Eggs and Ham\", \"A caterpillars autobiography (joke) / something about a caterpillar\"], \"pass\": false}",
+          "reasoning": {
+            "$llmemo.text": "ac36c4c03f16faedf3cf5b79b2e7ced8ad3c6a7459de36c70833e92ffde7ba92"
+          },
+          "reasoning_details": [
+            {
+              "format": "unknown",
+              "index": 0,
+              "text": {
+                "$llmemo.text": "ac36c4c03f16faedf3cf5b79b2e7ced8ad3c6a7459de36c70833e92ffde7ba92"
+              },
+              "type": "reasoning.text"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "stop"
+      }
+    ],
+    "created": 1795473397,
+    "id": "gen-1795473397-v6aO8jQQj81qXfLObVR8",
+    "model": "google/gemma-4-26b-a4b-it",
+    "object": "chat.completion",
+    "provider": "Makora",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 2636,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 2598
+      },
+      "cost": 0.000985748,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00073808,
+        "upstream_inference_cost": 0.000985748,
+        "upstream_inference_prompt_cost": 0.000247668
+      },
+      "is_byok": false,
+      "prompt_tokens": 5026,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 4992,
+        "video_tokens": 0
+      },
+      "total_tokens": 7662
+    }
+  }
+}

@@ -1,0 +1,26 @@
+New prompt.
+
+Step 1, markers placed:
+?g A3
++ G14
+!r A4
++ H10
++ Grey
+!y D3
+Board now:
+?g A3 | G14
+!r A4 | H10, Grey
+!y D3
+Guesses: Animal trainer, Zookeeper, Circus performer
+Clue-giver: No
+
+Step 2, markers placed:
++y A12
++ B3
++r D5
+Board now:
+?g A3 | G14
+!r A4 | H10, Grey, D5
+!y D3 | A12, B3
+
+Give up to 3 guesses, best first, or pass.

@@ -1,0 +1,138 @@
+{
+  "contentSha256": "6b7e6da44dce84c996a8bfc6bed3296f64b0a69bfde4607b72a0012d6cc5b1cc",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "90167f6773b23c0d34d7074b521186233b0757584cab853ba7be1b70066d6420"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "e6e8c1f1bf0af27022e3e22fed99a006058a47b6bc091e2149a85be1d9d60c78"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "openai/gpt-6-luna",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "pass": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "guesses",
+                "pass"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-1"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "db82776",
+    "costUsd": 0.000174445,
+    "latencyMs": 3265,
+    "recordedAt": "2026-11-23T22:13:41.566Z",
+    "recordedBy": "claude",
+    "servedBy": "OpenAI",
+    "servedModel": "openai/gpt-6-luna",
+    "tags": {
+      "run": "calibrate-or-luna"
+    },
+    "usage": {
+      "cacheReadTokens": 4727,
+      "cacheWriteTokens": 87,
+      "inputTokens": 4817,
+      "outputTokens": 232,
+      "reasoningTokens": 199
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"Green Eggs and Ham\",\"The Very Hungry Caterpillar\",\"A children's book\"],\"pass\":false}",
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "data": {
+                "$llmemo.text": "9ed2c97b6f4e61abf94745a7ac38ee5e0b12b82e324c55ed21c634170c3ca4a4"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_030f55d08df52a33016b04ba931c8087d1b3820695ebf94394",
+              "index": 0,
+              "type": "reasoning.encrypted"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "completed"
+      }
+    ],
+    "created": 1795472018,
+    "id": "gen-1795472018-QrQa3alhfAkobEOI30jW",
+    "model": "openai/gpt-6-luna",
+    "object": "chat.completion",
+    "provider": "OpenAI",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 232,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 199
+      },
+      "cost": 0.000174445,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000116,
+        "upstream_inference_cost": 0.000174445,
+        "upstream_inference_prompt_cost": 0.000058445
+      },
+      "is_byok": false,
+      "prompt_tokens": 4817,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 87,
+        "cached_tokens": 4727,
+        "video_tokens": 0
+      },
+      "total_tokens": 5049
+    }
+  }
+}

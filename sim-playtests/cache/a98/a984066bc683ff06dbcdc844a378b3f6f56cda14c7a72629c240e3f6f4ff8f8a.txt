@@ -1,0 +1,3 @@
+**Considering output schema guesses**
+
+I need to think about the output schema for guesses, particularly relating to strings, booleans, and the actions involved. It seems like I need to focus on verbs or actions, like pressing a button. Maybe I could conceptualize it as pressing a red button or something broad like that. I'll aim for up to three possible guesses related to markers indicating an action, such as “push the button” or “press the button.”

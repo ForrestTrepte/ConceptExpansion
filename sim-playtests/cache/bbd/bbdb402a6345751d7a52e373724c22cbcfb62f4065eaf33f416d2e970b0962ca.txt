@@ -1,0 +1,259 @@
+*   `?g B8`: Main Concept is B8 (Expression – Quote / Talking / Words). This means the answer is likely a quote, a saying, a speech, or a specific word/phrase.
+    *   `!r B8`: Sub-Concept (Red group) is B8 (Expression – Quote / Talking / Words).
+    *   `+ D14`: Red group has a cube on D14 (Mouth / Taste). This links the expression/words to a mouth.
+    *   `!y B9`: Sub-Concept (Yellow group) is B9 (Building / Monument / City).
+    *   `+ H10`: Yellow group has a cube on H10 (Small / Low). This links the building/city to being small or low.
+
+    *   The main concept is an expression, quote, or phrase.
+    *   It involves a "mouth" (D14).
+    *   It involves a "building/city" (B9) that is "small/low" (H10).
+
+    *   *Possibility 1:* A saying about mouths and small cities? (Unlikely).
+    *   *Possibility 2:* A specific famous quote.
+    *   *Possibility 3:* "Small talk"?
+        *   "Small" = H10.
+        *   "Talk" = B8.
+        *   Does "Small talk" involve a mouth (D14)? Yes, talking happens with the mouth.
+        *   Does "Small talk" involve a building/city (B9)? Not directly. Wait, let me re-examine the Yellow group.
+    *   *Re-examining Yellow Group:* `!y B9` + `H10`.
+        *   `B9` = Building / Monument / City.
+        *   `H10` = Small / Low.
+        *   Is there a phrase like "Small city" or "Little building"?
+        *   Is there a phrase involving a mouth and a building?
+    *   *Wait*, let's look at the groups again.
+        *   Red: B8 (Words) + D14 (Mouth). This is "speaking" or "talking".
+        *   Yellow: B9 (City/Building) + H10 (Small). This is "small town" or "small city".
+    *   *Could it be "Small talk"?*
+        *   If the answer is "Small talk":
+            *   `?g B8` (Words) - Yes.
+            *   `!r B8` + `D14` (Talking with mouth) - Yes.
+            *   `!y B9` + `H10` (Small building/city) - Wait, "Small" is H10. Does B9 mean "Talk"? No, B9 is Building/City.
+    *   *Let's rethink the Yellow clue:* `!y B9` + `H10`.
+        *   Maybe the answer is a "Small town"?
+            *   `?g B8` (Expression/Words) -> Is "Small town" an expression? Not really, unless it's used in a specific phrase.
+            *   Red group: `B8` (Words) + `D14` (Mouth).
+    *   *Let's try combining them:*
+        *   "Small talk" -> Small (H10), Talk (B8). Where does B9 fit?
+        *   Is there a phrase "Small town..."?
+        *   Is there a phrase about a "Mouth" and a "Building"?
+    *   *Let's look at B9 again:* Building / Monument / City.
+    *   *Let's look at H10 again:* Small / Low.
+    *   *Let's look at B8:* Expression / Quote / Talking / Words.
+    *   *Let's look at D14:* Mouth / Taste.
+
+    *   *Idea:* "Lip service"?
+        *   Lip (Mouth - D14)
+        *   Service (??)
+        *   `?g B8` (Expression) - Yes.
+    *   *Idea:* "Word of mouth"?
+        *   Word (B8) - Yes.
+        *   Mouth (D14) - Yes.
+        *   Where does "Small building/city" (B9 + H10) fit?
+
+    *   *Wait!* Is the answer "Small talk" and I'm misinterpreting the Yellow group?
+        `!y B9` (Building/City) + `H10` (Small).
+        Is there a way "Small talk" relates to "Building/City"? No.
+
+    *   *Let's try another angle:*
+        Yellow: B9 (City) + H10 (Small) = "Small town".
+        Red: B8 (Words) + D14 (Mouth) = "Speaking".
+        Is there a phrase "Small town talk"? Or "Small talk"?
+        If the answer is "Small talk":
+        `?g B8` (Words)
+        `!r B8` + `D14` (Talking/Mouth)
+        `!y H10` (Small) ... but the clue says `!y B9` + `H10`. The B9 is essential.
+
+    *   *Is the answer "Empire State Building"?* (No, ?g is B8).
+    *   *Is the answer a quote about a city?*
+    *   *Could B9 be "Town"?* Yes.
+    *   *Could the answer be "Small town gossip"?*
+        *   Small (H10)
+        *   Town (B9)
+        *   Gossip (B8 + D14 - Words from mouth)
+        *   `?g B8` (Expression/Words) - Gossip is a type of talk.
+
+    *   *Let's try "Small talk" again.* Could B9 (Building/City) and H10 (Small) be used for "Small"? In Concept, you often use icons for components of words. "Small" is H10. Why use B9 (City)? Maybe to specify "Small town"?
+
+    *   *Alternative:* "Big Apple"? (No, ?g is B8).
+    *   *Alternative:* "City of words"? No.
+    *   *Alternative:* "Talk of the town"?
+        *   Talk (B8)
+        *   Town (B9)
+        *   Mouth (D14) - People talk with their mouths.
+        *   Small/Low (H10) - Wait, "Talk of the town" isn't necessarily small.
+        *   But if the clue is `!y B9` + `H10`, it's specifically a *small* town.
+        *   "Talk of the small town"? No.
+
+    *   *Wait, look at the Red group again:* `!r B8` + `D14`.
+        B8 is "Expression/Quote/Talking".
+        D14 is "Mouth".
+        This is very strongly "Talking".
+    *   *Look at the Yellow group again:* `!y B9` + `H10`.
+        B9 is "Building/City".
+        H10 is "Small".
+        This is "Small town".
+
+    *   "Small town talk"?
+    *   "Talk of the town"? (Maybe H10 is "Low" as in "low profile" or "not big"?)
+    *   "Small talk"? (If B9 is used to represent "town" or "community"?)
+
+    Let's search for phrases involving "Mouth", "Talk", and "Town".
+    "Talk of the town" is the most common idiom.
+    Does "Talk of the town" fit the clues?
+    `?g B8` (Expression/Talk) - Yes.
+    `!r B8` + `D14` (Talk + Mouth) - Yes.
+    `!y B9` + `H10` (Town + Small/Low) - "Town" is B9. Why "Small"? Maybe the guesser is supposed to think of a "Small town" and then "Talk of the town"? This is a bit of a stretch.
+
+    Wait, let's look at `H10` again. `H10` is "Small / Low".
+    "Talk of the town". If the town is "low" or "small"? No.
+    What about "Small talk"?
+    If the phrase is "Small talk":
+    `?g B8` (Talk)
+    `!r B8` + `D14` (Talk + Mouth)
+    `!y H10` (Small)
+    Why the `B9` (City/Building)? Maybe to indicate "Town" in "Small town"? But the phrase is "Small talk".
+
+    Let's try "Small town gossip".
+    `?g B8` (Expression/Gossip)
+    `!r B8` + `D14` (Talking/Mouth)
+    `!y B9` + `H10` (Small town)
+    This fits all markers perfectly.
+
+    Another possibility: "Word of mouth".
+    `?g B8` (Word)
+    `!r B8` + `D14` (Word + Mouth)
+    `!y B9` + `H10` (Small town/Small building) -> Doesn't fit.
+
+    Another possibility: "Lip service".
+    `?g B8` (Expression)
+    `!r D14` (Lip/Mouth)
+    `!y B9` + `H10` -> Doesn't fit.
+
+    Let's re-evaluate `!y B9` + `H10`.
+    `B9`: Building / Monument / City.
+    `H10`: Small / Low.
+    Maybe it's not "Small town". Maybe it's "Small building"? "Small house"?
+    If the phrase is "Talk of the town", and the "Town" part is B9, and the clue-giver added H10 (Small) by mistake or to mean something else? No, usually clues are precise.
+
+    What if the answer is "Small talk"?
+    If the answer is "Small talk":
+    `?g B8` (Talk)
+    `!r B8` (Talk) + `D14` (Mouth)
+    `!y H10` (Small)
+    The `B9` is still the problem.
+
+    Wait! Is there a phrase "Small city"? No.
+    "Little town"?
+    "Talk of the town".
+    Could B9 be "Town" and H10 be "Small"?
+    "Small town talk"?
+
+    Let's try:
+    1. Small talk
+    2. Talk of the town
+    3. Small town gossip
+
+    Wait, "Small talk" is a very common phrase. Let's look at the clues one more time.
+    `?g B8` (Talking)
+    `!r B8` (Talking) + `D14` (Mouth)
+    `!y B9` (City) + `H10` (Small)
+
+    If the answer is "Small talk":
+    Talk (B8)
+    Mouth (D14)
+    Small (H10)
+    Where does B9 (City) come in? In some versions of Concept, people use B9 to represent "Town". If the phrase is "Small talk", they might be thinking "Small (H10) Town (B9) Talk (B8)".
+
+    Let's think about "Small town". Is "Small town" an expression (B8)? No.
+    Is "Talk of the town" (B8) + Town (B9)? Yes. But why H10 (Small)?
+
+    Let's consider "Small talk" as the most likely.
+
+    *Self-Correction:* Is there any other idiom?
+    "A big mouth"?
+    `?g B8` (Expression)
+    `!r B8` + `D14` (Mouth)
+    `!y B9` + `H10` (Small/Low/City) -> No.
+
+    "Speak of the devil"?
+    `?g B8` (Expression)
+    `!r B8` + `D14` (Speak/Mouth)
+    `!y B9` + `H10` -> No.
+
+    "Small talk" seems the strongest, assuming B9 + H10 = "Small town" and the clue-giver is using "Small town talk" to get to "Small talk". Or maybe the answer is "Small town"? No, `?g B8` means it's a phrase/expression.
+
+    Wait, what if the answer is "Small town"?
+    `?g B8` - No, a town isn't an expression.
+
+    What if the answer is "Little talk"? No.
+    What if the answer is "Village gossip"?
+    `?g B8` (Gossip)
+    `!r B8` + `D14` (Talking/Mouth)
+    `!y B9` + `H10` (Small City/Town)
+    This is a very strong candidate.
+
+    Let's try:
+    1. Small talk
+    2. Talk of the town
+    3. Small town gossip
+
+    Actually, looking at the red group: `!r B8` + `D14`. This specifically links "Expression" to "Mouth". This is almost certainly "Talking" or "Speech".
+    Yellow: `!y B9` + `H10`. This is "Small town".
+
+    "Small town talk" / "Small town gossip".
+
+    Let's try "Small talk" first, as it's a very common idiom.
+
+    One more look: `?g B8` (Expression/Quote/Talking).
+    If the answer is "Small talk":
+    `?g B8` (Talk)
+    `!r B8` (Talk) + `D14` (Mouth)
+    `!y H10` (Small)
+    The `B9` is still bothering me. If the clue-giver wanted to say "Small", they could have just used `H10`. By adding `B9`, they are adding the concept of a "City" or "Town".
+
+    So: "Small" + "Town" + "Talk".
+    "Small town talk" or "Talk of the town" (though "of the town" isn't "small").
+
+    Is there a phrase "Small town..."?
+    "Small town girl"? (No, B8).
+    "Small town boy"? (No, B8).
+
+    Wait, "Small talk". Could "Small" be represented by "Small town"? Yes.
+    Let's look at the board again.
+    `?g B8` (The thing is an expression/talk)
+    `!r B8` + `D14` (Talking with mouth)
+    `!y B9` + `H10` (Small town)
+
+    This points very heavily to "Small town gossip" or "Small talk".
+
+    Let's refine the guesses:
+    1. Small talk
+    2. Talk of the town
+    3. Small town gossip
+
+    Wait, "Small talk" is actually just "Small" + "Talk".
+    "Talk of the town" is "Talk" + "Town".
+    If the clue is "Small" + "Town" + "Talk", it's likely "Small talk" or "Talk of the town" or "Small town gossip".
+
+    Let's try "Small talk" as the primary guess.
+
+    *Another thought:* "Word of mouth"?
+    "Word" (B8)
+    "Mouth" (D14)
+    "Small" (H10) + "Town" (B9) = "Small town"?
+    "Word of mouth in a small town"? A bit complex.
+
+    Let's go with "Small talk".
+
+    *Wait!* Let me look at the grid codes again.
+    B8: Expression / Quote / Talking / Words.
+    B9: Building / Monument / City.
+    D14: Mouth / Taste.
+    H10: Small / Low.
+
+    Is there an idiom "Small town..."?
+    Maybe "Small town" is the answer? No, `?g B8`.
+
+    Let's try "Small talk" as #1.
+    "Talk of the town" as #2.
+    "Small town gossip" as #3.

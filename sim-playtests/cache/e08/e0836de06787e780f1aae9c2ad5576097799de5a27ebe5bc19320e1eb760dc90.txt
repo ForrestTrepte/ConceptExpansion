@@ -1,0 +1,453 @@
+*   Main Concept (`?g H14`): Action/Do/Button (H14). This suggests the answer is a verb or a process.
+    *   Details for Main Concept (`+ C14`, `+ C11`): Eye/Sight (C14) and Head/Face/Neck (C11).
+    *   Sub-Concept (Red `!r A1`): Object/Box (A1).
+    *   Details for Red Sub-Concept (`+ C7`, `+ C14`, `+ D11`, `+ F11`):
+        *   C7: Electronic/Computing.
+        *   C14: Eye/Sight.
+        *   D11: Arm/Hand/Finger.
+        *   F11: One/Unit/Number.
+
+    *   *Main Concept:* An action/verb related to seeing/eyes/face.
+    *   *Sub-Concept:* A device/object that is electronic, relates to sight, involves a hand/finger, and is a single unit.
+
+    *   Look, Wink, Blink (Failed)
+    *   Scan, Focus, Capture (Failed)
+
+    *   Electronic (C7)
+    *   Eye/Sight (C14)
+    *   Hand/Finger (D11)
+    *   One/Unit (F11)
+    *   Object/Box (A1)
+    *   Action (H14)
+
+    *   A camera? (Wait, "Capture" and "Scan" were rejected, but a camera is an object. A "Camera" is an object, but the main concept is an action `H14`. "Capture" was rejected, so it might be the *name* of the device or a different action).
+    *   Wait, `H14` is "Use - Action - Do - Button".
+    *   The device is electronic, has a lens (eye/sight), is operated by a finger (button/trigger/touch).
+    *   Could it be "Photography"? (No, "Capture" was rejected).
+    *   Could it be "Click"? (H14 is action/button).
+    *   Could it be "Take a photo"? (Too many words?)
+    *   Wait, the sub-concept is an *object* (A1). The object is electronic (C7), relates to sight (C14), is operated by hand (D11).
+    *   Is the answer "Camera"? "Photograph"? "Smartphone"?
+    *   Wait, "Scan", "Focus", "Capture" were rejected.
+    *   Let's look at the `!r` group again. A1 (Object) + C7 (Electronic) + C14 (Sight/Eye) + D11 (Hand) + F11 (One).
+    *   Maybe the answer is a specific *part* of a camera or a specific *action*?
+    *   Could it be "Shutter"? (Action/Button H14).
+    *   Could it be "Digital Camera"?
+    *   Could it be "Selfie"? (Action/Do).
+    *   Could it be "Video"?
+    *   Let's re-evaluate the clues.
+        *   `?g H14` (Action/Button) + `C14` (Eye) + `C11` (Face).
+        *   Maybe the action is "Watching"? "Viewing"?
+        *   Maybe the action is "To see"?
+        *   Wait, "Wink" and "Blink" were rejected.
+        *   Maybe it's "Photo"? (No, that's a noun, H14 is a verb).
+        *   What about "Record"? (Action/H14, Electronic/C7, Eye/C14, Hand/D11).
+        *   What about "Click"? (Hand/Finger/D11, Button/H14).
+        *   "Snap"?
+        *   "Watch"?
+
+    *   Let's look at the Red group again: A1 (Object) + C7 (Electronic) + C14 (Sight) + D11 (Hand) + F11 (One).
+    *   A single electronic object for sight handled by a hand.
+    *   A "Smartphone"? A "Tablet"? A "Television"?
+    *   If the answer is "Smartphone", the action `H14` would be "Call" or "Text" or "Swipe".
+    *   Wait, `H14` is "Use - Action - Do - Button".
+    *   What about "Type"?
+    *   Wait, `C14` (Eye/Sight) and `C11` (Face/Head) are part of the *Main Concept*.
+    *   Maybe the answer is "A Smartphone"? No, the main concept is an action.
+    *   Maybe the answer is "Video call"?
+    *   Maybe the answer is "FaceTime"? (Face C11, Eye C14, Electronic C7, Hand D11, Action H14).
+    *   Maybe the answer is "To Selfie"? (No).
+    *   Maybe the answer is "Video"?
+
+    *   Let's try to think of an action related to eyes/face and an electronic object.
+    *   How about "Zoom"? (H14: Action, C14: Eye/Sight, C7: Electronic, D11: Hand/Finger/Button).
+    *   Wait, "Zoom" is a common verb/action.
+    *   How about "Touch"? (H14: Action, D11: Hand/Finger).
+    *   How about "Selfie"?
+    *   How about "Watch"?
+    *   How about "Click"?
+
+    *   Let's reconsider the electronic object. A single (F11) electronic (C7) eye (C14) object (A1) used by hand (D11).
+    *   It's likely a "Camera" or "Phone".
+    *   If the object is a "Camera", the action `H14` (Action/Button) might be "Photograph" or "Take a picture".
+    *   But "Capture" was rejected.
+    *   What about "Click"?
+    *   What about "Snap"?
+    *   What about "Zoom"?
+    *   What about "Shutter"? (Usually a noun, but can be an action).
+    *   What about "Record"?
+
+    *   Wait, let's look at the icons for `C11` and `C14` again.
+    *   `C11` is Head/Face/Neck. `C14` is Eye/Sight.
+    *   Maybe the action is "To watch"?
+    *   What if the answer is "Selfie"?
+    *   What if the answer is "Video call"? (A single action).
+    *   What if the answer is "Face recognition"? (Action/Do).
+    *   Wait, the main concept is `H14` (Action/Button).
+    *   Could it be "Eye contact"? (No, that's a noun).
+    *   Could it be "Eyeing"? (No).
+
+    *   Let's look at the red group again:
+        A1 (Object)
+        C7 (Electronic)
+        C14 (Sight/Eye)
+        D11 (Hand/Finger)
+        F11 (One)
+
+    *   Is it "Camera"? (A1, C7, C14, D11).
+    *   If it is "Camera", why were "Scan, Focus, Capture" rejected?
+    *   Maybe the answer is "Photograph"? (As a verb).
+    *   Maybe it's "To Take a Photo"?
+    *   What about "Photography"? (No, H14 is an action/button).
+    *   What about "Snapshot"?
+    *   What about "Picture"? (No, H14).
+
+    *   What about "Smartwatch"? (Electronic, Hand/Wrist, Action/Button).
+    *   Wait, the main concept `H14` (Action) + `C14` (Eye) + `C11` (Face).
+    *   If the answer is "Smartphone", the action might be "Call".
+    *   If the answer is "Webcam"? (Electronic, Eye, Face).
+    *   If the answer is "To video chat"?
+
+    *   Let's try "Zoom" or "Video call" or "Smartphone".
+    *   Actually, let's look at "Look, Wink, Blink" (rejected).
+    *   "Scan, Focus, Capture" (rejected).
+    *   These are all things a camera *does*.
+    *   So the answer isn't the *action* of the camera, but perhaps the *object* or a different action?
+    *   But the main concept is `H14` (Action/Button/Use).
+    *   Wait, if the main concept is the action, and the sub-concept is the object...
+    *   Maybe the answer is "To use a camera"? No.
+    *   Could it be "To scroll"? (Action/Button, Hand/Finger, Electronic). But `C14` and `C11`?
+    *   Could it be "To swipe"?
+    *   Could it be "To tap"?
+    *   What about "Selfie"? (Action/Do).
+
+    *   Let's look at the combination:
+        Action (H14) related to Eye (C14) and Face (C11).
+        Object (A1) is Electronic (C7), Sight (C14), Hand (D11).
+
+    *   What about "Face ID"? (It's an action/process, uses face/eye, uses electronic device, uses a button/action).
+    *   What about "To recognize a face"?
+    *   What about "Video"?
+    *   What about "Instagram"? (No, that's a brand).
+
+    *   Let's think about "Eye" and "Face" and "Electronic" and "Action".
+    *   "To watch a video"?
+    *   "To look at a screen"?
+    *   "To look at a phone"?
+    *   "Video call"?
+
+    *   Wait! "Watch" is a verb (Action H14).
+    *   "Watch" (H14) + "Eye" (C14) + "Face" (C11).
+    *   Object: "Watch" (A1 - Object, C7 - Electronic, D11 - Hand/Arm, but F11 - One? And C14 - Sight?).
+    *   Wait, a "Smartwatch"? (Electronic, Hand, Action/Button). But `C14` (Eye/Sight) doesn't fit a watch well.
+
+    *   Let's look at `C14` (Eye) and `C11` (Face) again.
+    *   Maybe the action is "To see"?
+    *   What if the answer is "Television"? (An object, but the main concept is H14).
+    *   What if the answer is "To watch TV"?
+    *   Wait, "Watch" (the verb) and "Watch" (the object).
+    *   If the answer is "Watch":
+        `?g H14` (Action/Do - "to watch")
+        `+ C14` (Eye/Sight)
+        `+ C11` (Face)
+        `!r A1` (Object - a watch)
+        `+ C7` (Electronic - smartwatch)
+        `+ D11` (Hand - worn on hand/wrist)
+    *   This is a clever Concept play. "Watch" (the verb) and "Watch" (the object).
+    *   Does "Watch" fit `C14` (Eye) and `C11` (Face)? You use your eyes to watch.
+    *   Does "Watch" (the object) fit `C7` (Electronic), `C14` (Eye)? A smartwatch? Or does the "Eye" icon mean it's something you watch?
+    *   Actually, if the answer is "Watch", the clue-giver might be using the icon meanings to point to the different meanings of the word.
+    *   Verb: `H14` (Action) + `C14` (Eye) + `C11` (Face) = To watch.
+    *   Noun: `A1` (Object) + `C7` (Electronic) + `D11` (Hand) + `F11` (One) = A watch (specifically a smartwatch).
+    *   Wait, `C14` (Eye) is also in the red group (the object). Does a watch have an eye? No. But a "watch" (the verb) involves the eye.
+    *   Wait, the red group is for the *object*. Does an electronic object (A1, C7) for the hand (D11) have an eye (C14)? A smartwatch has a screen you look at.
+    *   This is a strong possibility.
+
+    *   Let's try "Watch".
+
+    *   One more look: "Scan, Focus, Capture" were rejected. "Look, Wink, Blink" were rejected.
+    *   "Watch" is a very good candidate for a word with multiple meanings.
+
+    *   Wait, could it be "Camera"? (No, "Capture" was rejected).
+    *   Could it be "Photo"? (No, H14).
+    *   What about "Video"?
+
+    *   Let's try "Watch".
+
+    *   Wait, `F11` is "One/Unit/Number".
+    *   `D11` is "Arm/Hand/Finger".
+    *   `C14` is "Eye/Sight".
+    *   `C7` is "Electronic/Computing".
+    *   `A1` is "Object/Box".
+    *   A single electronic object for the hand/arm that involves sight/eye?
+    *   A "Smartwatch"?
+    *   If the answer is "Watch", the clues work:
+        Verb: Action (H14), Eye (C14), Face (C11).
+        Noun: Object (A1), Electronic (C7), Hand (D11).
+    *   Let's try "Watch".
+
+    *   Another possibility: "Smartphone".
+        Verb: Action (H14), Eye (C14), Face (C11) -> "To use/look at a phone"? (A bit weak).
+        Noun: Object (A1), Electronic (C7), Hand (D11).
+
+    *   What about "Selfie"?
+        Action (H14), Eye (C14), Face (C11).
+        Object (A1), Electronic (C7), Hand (D11).
+        (But "Selfie" is a noun, usually).
+
+    *   Let's look at the "No" to "Look, Wink, Blink". If the answer is "Watch", "Look" is very close. Why would the clue-giver say "No" to "Look"?
+    *   In Concept, if a guess is "on the right track", the giver says "Yes: <guess>".
+    *   If the answer is "Watch", "Look" is a synonym. In Concept, if you are *very* close, the giver usually says "Yes: <guess>".
+    *   If the giver said "No" to "Look", "Watch" might be wrong, or "Look" isn't a "Yes" because it's not the word. But usually, "Look" would be "Yes" if the answer is "Watch".
+
+    *   Let's rethink.
+    *   If "Look" is "No", then it's not "Watch" or "Observe" or "See".
+    *   What about "Photography"? (No, H14).
+    *   What about "Camera"? (A1, C7, C14, D11).
+    *   If "Camera" is the answer, why were "Scan, Focus, Capture" rejected?
+    *   "Capture" is a very common synonym for what a camera does.
+    *   Maybe the answer is "Photography"? (No, H14).
+    *   Maybe the answer is "A Photo"? (No, H14).
+    *   What about "A Picture"? (No, H14).
+    *   Wait, `H14` is "Use - Action - Do - Button".
+    *   Is the answer "To take a picture"? (No, too long).
+    *   What about "Photograph"? (Verb).
+
+    *   Let's look at the red group again.
+    *   A1 (Object), C7 (Electronic), C14 (Sight/Eye), D11 (Hand/Finger), F11 (One).
+    *   A single electronic eye-object used by the hand.
+    *   "Camera" is the most obvious.
+    *   If "Camera" is the answer, why "No" to "Capture"?
+    *   Maybe the answer is "Smartphone"?
+    *   Maybe the answer is "Digital camera"?
+    *   Maybe the answer is "Phone"?
+    *   Maybe the answer is "Video"?
+    *   Maybe the answer is "Recording"? (No, H14).
+    *   Maybe the answer is "Record"? (Verb).
+
+    *   Let's try "Camera" again. If "Capture" is a "No", maybe the answer is the name of the object itself.
+    *   But the main concept is `H14` (Action).
+    *   Wait, `H14` can be a "Button".
+    *   Is the answer "Shutter"? (It's a button, it's an action, it's an object).
+    *   `H14` (Button), `C14` (Eye/Sight), `C11` (Face/Head).
+    *   `A1` (Object), `C7` (Electronic), `C14` (Eye/Sight), `D11` (Hand/Finger).
+    *   "Shutter" (the button on a camera).
+    *   Is "Shutter" an action? You "shutter" a window, but it's not a common verb for a person.
+
+    *   What about "Snap"? (To snap a photo).
+    *   "Snap" (H14: Action, C14: Eye/Sight, C11: Face).
+    *   "Snap" (A1: Object/A snap? No).
+
+    *   What about "Click"? (H14: Action/Button, D11: Hand/Finger).
+    *   "Click" (C14: Eye/Sight? No).
+
+    *   Let's try "Video".
+    *   `H14` (Action), `C14` (Eye), `C11` (Face).
+    *   `A1` (Object), `C7` (Electronic), `C14` (Eye), `D11` (Hand).
+    *   A "Video" isn't really an object (A1).
+
+    *   What about "Screen"? (No, H14).
+    *   What about "Monitor"? (H14: Action/Do, A1: Object, C7: Electronic).
+
+    *   Let's try "Photography"? (No, H14).
+
+    *   Let's think about the electronic object (A1, C7, C14, D11) again.
+    *   A camera.
+    *   A smartphone.
+    *   A computer.
+    *   A tablet.
+    *   A television.
+    *   A webcam.
+    *   A magnifying glass? (Not electronic).
+    *   A microscope? (Not usually electronic/handheld).
+    *   A telescope? (Not electronic/handheld).
+
+    *   If the answer is "Webcam":
+        Verb: `H14` (Action/Do), `C14` (Eye), `C11` (Face). (To webcam/video chat).
+        Noun: `A1` (Object), `C7` (Electronic), `C14` (Eye), `D11` (Hand/Finger - maybe you move it?).
+
+    *   What about "Smartphone"?
+        Verb: `H14` (Action/Do), `C14` (Eye), `C11` (Face). (To use it/look at it).
+        Noun: `A1` (Object), `C7` (Electronic), `D11` (Hand).
+
+    *   Let's try: "Camera", "Smartphone", "Photo".
+    *   Wait, I'll try "Camera" first. But "Capture" was "No". This is bothering me.
+    *   If "Capture" is "No", the answer is likely not a verb describing the camera's function.
+    *   What if the answer is "Selfie"?
+    *   What if the answer is "Portrait"? (No, H14).
+
+    *   Wait! `H14` (Action/Button) + `C11` (Face) + `C14` (Eye).
+    *   `A1` (Object) + `C7` (Electronic) + `C14` (Eye) + `D11` (Hand).
+    *   Could the answer be "Face Recognition"? (No, that's two words).
+    *   Could the answer be "Instagram"? (No).
+
+    *   Wait, "Zoom" (the verb/action).
+    *   "Zoom" (H14 - Action, C14 - Eye, C11 - Face).
+    *   "Zoom" (A1 - Object, C7 - Electronic, C14 - Eye, D11 - Hand).
+    *   A "Zoom" (the software/meeting)? It's an electronic object (A1, C7) that you use with a camera/eye (C14, C11).
+    *   "Zoom" is an action (H14) and a noun (A1).
+    *   Let's try "Zoom".
+
+    *   Actually, let's try "Camera" and "Phone" and "Zoom".
+    *   Wait, I'll go with: "Camera", "Smartphone", "Zoom".
+    *   Actually, looking at the "No" for "Scan, Focus, Capture"...
+    *   If the answer was "Camera", "Focus" and "Capture" would almost certainly be "Yes".
+    *   If the answer was "Smartphone", "Scan" or "Capture" might be "No".
+    *   Wait, let's try "Video Call". (No, H14 is an action).
+
+    *   What about "Webcam"?
+    *   What about "Monitor"?
+    *   What about "Television"?
+
+    *   Let's try a different path.
+    *   `H14` (Action) + `C14` (Eye) + `C11` (Face).
+    *   `A1` (Object) + `C7` (Electronic) + `C14` (Eye) + `D11` (Hand).
+    *   Could it be "Eye contact"? No.
+    *   Could it be "Vision"? No.
+    *   Could it be "Observation"? No.
+
+    *   What if the answer is "Smartphone"?
+    *   "Capture" (No), "Focus" (No), "Scan" (No).
+    *   These are things you *can* do with a smartphone, but maybe they aren't the *answer*.
+
+    *   Let's try "Camera" one more time. A "Digital Camera"?
+    *   Wait, what about "Phone"?
+    *   Let's try: "Camera", "Phone", "Smartphone".
+
+    *   Actually, I'll try:
+    *   1. Camera
+    *   2. Smartphone
+    *   3. Video
+
+    *   Wait, I'll try "Photo". (Even though H14 is an action).
+    *   Actually, "Snap" is a better guess for an action.
+    *   "Click".
+    *   Let's try "Camera", "Smartphone", "Click". (Wait, "Click" was already rejected by "Scan, Focus, Capture"?). No, they were.
+
+    *   Let's try "Photography" even though it's a noun.
+    *   Let's try "Selfie".
+    *   Let's try "Video".
+
+    *   Wait! "Eye" + "Face" + "Action" + "Electronic" + "Hand".
+    *   "To look at a screen"?
+    *   "To use a phone"?
+    *   "To watch"? (But "Look" was "No").
+
+    *   Is it "Webcam"?
+    *   Let's try:
+    *   1. Camera
+    *   2. Smartphone
+    *   3. Webcam
+
+    *   (Self-correction: If "Capture" was "No", "Camera" is likely wrong. Let's try to think of what else it could be.)
+    *   What if the answer is "Tablet"? (A1, C7, C14, D11).
+    *   What if the answer is "Laptop"?
+    *   What if the answer is "Computer"?
+
+    *   Wait, "Watch" (the verb) and "Watch" (the object).
+    *   If the answer is "Watch", "Look" should have been "Yes".
+    *   Unless... the clue-giver is being very strict? No, in Concept, "Look" would be "Yes" for "Watch".
+
+    *   Let's try "Selfie". (It's an action/do and an object/thing).
+    *   1. Selfie
+    *   2. Photo
+    *   3. Picture
+
+    *   Wait, what about "Video call"?
+    *   Let's try "Video call", "Webcam", "Smartphone".
+
+    *   Wait, I have a new idea.
+    *   `H14` (Action/Button)
+    *   `C11` (Face)
+    *   `C14` (Eye)
+    *   `A1` (Object)
+    *   `C7` (Electronic)
+    *   `D11` (Hand)
+    *   `F11` (One)
+    *   What if the answer is "Face ID"? (It's a single thing).
+    *   What if it's "Touch ID"?
+    *   What if it's "Fingerprint"? (No, `C14` Eye/Sight).
+
+    *   Let's try "Camera" again, maybe "Focus" and "Capture" were "No" because the answer is "Photograph"?
+    *   No, that's too similar.
+
+    *   Let's try "Phone", "Smartphone", "Camera".
+
+    *   Actually, let's try "Selfie". It's a very common "thing" that fits "Face/Eye/Action/Electronic/Hand".
+
+    *   Final attempt at strategy: The clues are a bit repetitive (`C14` is in both). This usually means the answer is a single concept where the two groups describe different aspects (the verb and the noun) or it's a single word that is both.
+    *   "Camera" is a noun. "Capture" is a verb.
+    *   "Photo" is a noun. "Photograph" is a verb.
+    *   "Selfie" is a noun. "To selfie" is a verb.
+
+    *   Let's try:
+    *   1. Camera
+    *   2. Selfie
+    *   3. Smartphone
+
+    *   Wait, "Capture" was "No". "Capture" is what a camera does.
+    *   What if the answer is "Video"?
+    *   Let's try "Camera", "Selfie", "Video".
+
+    *   Actually, let's try "Photo".
+
+    *   (One more thought: `H14` is "Use/Action/Do/Button". `C14` is "Eye". `C11` is "Face". `A1` is "Object". `C7` is "Electronic". `D11` is "Hand". `F11` is "One". Could it be "A Smartphone"? No, that's an object. Could it be "To use a smartphone"? No. Could it be "To scroll"? No. Could it be "To tap"? No. Could it be "To call"?)
+
+    *   Wait, "Call" (the verb) and "Call" (the noun/object - a phone call).
+    *   `H14` (Action/Do) + `C11/C14` (Face/Eye - maybe for a video call?).
+    *   `A1` (Object) + `C7` (Electronic) + `D11` (Hand).
+    *   This is tough.
+
+    *   Let's go with:
+    *   1. Camera
+    *   2. Selfie
+    *   3. Smartphone
+
+    *   Wait, I'll change my first guess. If "Capture" and "Focus" were "No", the answer is likely not "Camera".
+    *   What about "Mobile phone"?
+    *   What about "Webcam"?
+
+    *   Let's try:
+    *   1. Selfie
+    *   2. Video
+    *   3. Smartphone
+
+    *   Actually, let's try:
+    *   1. Smartphone
+    *   2. Camera
+    *   3. Selfie
+
+    *   (Wait, one last thought: `H14` is also "Button". Is the answer "Button"? No, that's too simple).
+
+    *   Let's try "Camera" one more time. Maybe "Focus" and "Capture" were "No" because they are *sub-actions* and the answer is the *object*? But the main concept is an action. This is the contradiction.
+
+    *   If the main concept is an action, and "Capture" is "No", then the answer is a *different* action.
+    *   "To take a photo" -> "To snap"?
+    *   "To use a phone" -> "To call"?
+    *   "To watch" -> "To view"?
+    *   "To use a computer" -> "To type"?
+
+    *   Let's try "Selfie".
+
+    *   Actually, let's look at "Scan, Focus, Capture" again. If the answer is "Camera", the giver would have said "Yes: Focus" or "Yes: Capture". Since they said "No", "Camera" is likely not the answer.
+
+    *   What if the answer is "Digital Camera"? No.
+    *   What if the answer is "Smartphone"?
+    *   What if the answer is "Television"?
+    *   What if the answer is "YouTube"?
+    *   What if the answer is "Video"?
+
+    *   Let's try:
+    *   1. Selfie
+    *   2. Video
+    *   3. Smartphone
+
+    *   (Self-correction: Let's look at `H14` (Action/Button) + `C14` (Eye) + `C11` (Face) again. Maybe the action is "To blink"? (No, "Blink" was "No"). "To wink"? (No, "Wink" was "No"). "To look"? (No, "Look" was "No").
+
+    *   What else do you do with your eyes and face? "To smile"?
+    *   `H14` (Action) + `C14` (Eye) + `C11` (Face) = "Smile"?
+    *   `A1` (Object) + `C7` (Electronic) + `C14` (Eye) + `D11` (Hand) = "Smile"? No.
+
+    *   Wait! "Smile" (the action) and "Smile" (the emoji/icon)? No.
+
+    *   Let's try: "Smartphone", "Selfie", "Video".

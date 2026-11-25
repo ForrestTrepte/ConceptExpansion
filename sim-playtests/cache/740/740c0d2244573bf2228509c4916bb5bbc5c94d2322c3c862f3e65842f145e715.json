@@ -1,0 +1,138 @@
+{
+  "contentSha256": "5324d894c13729d37dc2d6cc3f33f07e336fda1c739f8ba2cbb9f1f6ee7ed43f",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "90167f6773b23c0d34d7074b521186233b0757584cab853ba7be1b70066d6420"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "43923ad1c5050fe4f5fdc987ff1b34bb26392db9f8bc76f89f4740537de040cc"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "openai/gpt-6-luna",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "pass": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "guesses",
+                "pass"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-1"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "db82776",
+    "costUsd": 0.000324945,
+    "latencyMs": 5632,
+    "recordedAt": "2026-11-23T22:11:42.435Z",
+    "recordedBy": "claude",
+    "servedBy": "OpenAI",
+    "servedModel": "openai/gpt-6-luna",
+    "tags": {
+      "run": "calibrate-or-luna"
+    },
+    "usage": {
+      "cacheReadTokens": 4727,
+      "cacheWriteTokens": 163,
+      "inputTokens": 4893,
+      "outputTokens": 514,
+      "reasoningTokens": 484
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"Wife Swap\",\"Trading Spouses\",\"The Odd Couple\"],\"pass\":false}",
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "data": {
+                "$llmemo.text": "768663bfde4311380b7ef1d535bc948b1d1a3c50d56e0c456f09e325c717e37f"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_02b4bf007dad254e016b04ba198ca487d1b970c1d16105779d",
+              "index": 0,
+              "type": "reasoning.encrypted"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "completed"
+      }
+    ],
+    "created": 1795471896,
+    "id": "gen-1795471896-jXMFnrZMiuyJEofGp7fq",
+    "model": "openai/gpt-6-luna",
+    "object": "chat.completion",
+    "provider": "OpenAI",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 514,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 484
+      },
+      "cost": 0.000324945,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000257,
+        "upstream_inference_cost": 0.000324945,
+        "upstream_inference_prompt_cost": 0.000067945
+      },
+      "is_byok": false,
+      "prompt_tokens": 4893,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 163,
+        "cached_tokens": 4727,
+        "video_tokens": 0
+      },
+      "total_tokens": 5407
+    }
+  }
+}

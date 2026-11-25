@@ -1,0 +1,7 @@
+{
+  "guesses": [
+    "crosswalk",
+    "intersection",
+    "junction"
+  ]
+}

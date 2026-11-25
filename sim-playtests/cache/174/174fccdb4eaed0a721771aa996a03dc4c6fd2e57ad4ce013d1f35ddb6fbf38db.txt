@@ -1,0 +1,50 @@
+*   `?g B9`: Main Concept is a Building/Monument/City.
+    *   `+ D10`: (Cube in group g) - Related to Medical/Medicine/Health.
+    *   `!r D10`: Red Sub-Concept (related idea/part/feature) is Medical/Medicine/Health.
+    *   `+ B14`: (Cube in group r) - Related to House/Dwelling/Room.
+    *   `!y A3`: Yellow Sub-Concept (related idea/part/feature) is Work/Occupation.
+    *   `+ D10`: (Cube in group y) - Related to Medical/Medicine/Health.
+
+    *   Main Concept: A Building/Monument/City.
+    *   Constraint 1 (Group g): It's related to Medical/Medicine/Health.
+    *   Constraint 2 (Group r): It's related to House/Dwelling/Room AND Medical/Medicine/Health.
+    *   Constraint 3 (Group y): It's related to Work/Occupation AND Medical/Medicine/Health.
+
+    *   A medical building (Hospital).
+    *   A medical room (Clinic, Operating Room).
+    *   A medical occupation (Doctor, Nurse) - but the main concept is a building.
+    *   Maybe "Hospital"?
+    *   Maybe "Clinic"?
+    *   Maybe "Pharmacy"? (Is a pharmacy a building? Yes, often).
+    *   Maybe "Nursing home"?
+    *   Maybe "Medical center"?
+
+    *   `?g B9` (Building) + `+ D10` (Medical) -> Hospital.
+    *   `!r D10` (Medical) + `+ B14` (House/Room) -> Hospital room or Medical clinic/residence?
+    *   `!y A3` (Occupation) + `+ D10` (Medical) -> Doctor's office or Hospital?
+
+    Let's check if "Hospital" fits all groups.
+    *   Main Concept (Building): Hospital is a building.
+    *   Group g (Medical): Hospital is medical.
+    *   Group r (Medical + House/Room): A hospital room or a place people live/stay (medical care).
+    *   Group y (Occupation + Medical): Medical profession.
+
+    Alternative: "Clinic".
+    Alternative: "Doctor's office".
+    Alternative: "Nursing home".
+
+    Let's look at the counts/details.
+    The cubes are:
+    - g: D10 (Medical)
+    - r: D10 (Medical), B14 (House/Room)
+    - y: A3 (Occupation), D10 (Medical)
+
+    This strongly suggests the subject is a place (B9) associated with medicine (D10), a room/dwelling (B14), and a job (A3).
+
+    "Hospital" seems the strongest.
+    "Clinic" is a possibility.
+    "Doctor's office" is a possibility.
+
+    1. Hospital
+    2. Clinic
+    3. Doctor's office

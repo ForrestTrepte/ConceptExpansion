@@ -35,10 +35,14 @@ other directly. The rules and notation are those in [playtesting.md](playtesting
 - **Guesser:** gets only the board reference and the clues so far. llmemo runs each
   `claude -p` call in an empty temporary folder with no tools, so it can't read answers.
   It gives 1–3 guesses per turn, or passes.
-- **Both roles get the same board reference:** the icon tables from
-  [board-icons.md](board-icons.md) and the picture tables from
-  [pictured-elements.md](pictured-elements.md), cut out by heading so the docs' intros
-  and worklists (which name prompts) are never sent. The rules summary and role
+- **Both roles get the same board reference,** in one of two formats set by the
+  spec's `reference`. `tables` (the default, used by every run before 2026-11-23) sends
+  the icon tables from [board-icons.md](board-icons.md) and the picture tables from
+  [pictured-elements.md](pictured-elements.md) as they are, cut out by heading so the
+  docs' intros and worklists (which name prompts) are never sent. `list`
+  (`tools/board.py`) sends one line per icon with its meanings and picture together,
+  without backgrounds: `A4: Fauna / Animal. Picture: Octopus; …`. The docs stay in
+  their two-icons-per-row layout for people; only the text sent to models differs. The rules summary and role
   instructions are in `tools/sim_prompts/`.
 - **The script** validates every placement code and allows nothing but notation, so
   no label words or hints leak. Lines are checked against the board (`tools/notation.py`),
@@ -95,6 +99,68 @@ Levers against the known bias (Claude guesses more easily than people):
 
 Pick the configuration whose results best match the humans. Record it here.
 
+### Findings so far (2026-11-23)
+
+`human-clues` runs on the 20 human-guessed games with clues, Haiku at low effort, 3
+trials each (`sim-playtests/runs/calibrate-*.md`, $2.06 in all). "Humans failed: model
+solved" should be low; it wasn't for any setting.
+
+| Run | Humans solved: model solved | Humans failed: model solved | Same outcome |
+|---|---|---|---|
+| `calibrate-baseline` (3 guesses) | 34/42 | 17/18 | 58% |
+| `calibrate-1guess` | 33/42 | 15/18 | 60% |
+| `calibrate-instinct` (first-instinct wording) | 34/42 | 18/18 | 57% |
+| `calibrate-instinct-1guess` | 33/42 | 17/18 | 57% |
+
+- Prompt-side levers on Haiku don't close the gap. The model solves almost every human
+  failure (Statue of Liberty, Elvis Presley, Snail, Popcorn, Rain check) in 1–3 steps.
+- It fails some human successes: Umbrella (reads E1 as cold, not rain), Couch potato,
+  and Lighthouse. The last two rely on where markers sat on the board.
+- Written clue comments ("[cube on the crown]") hint far more strongly than a cube on a
+  picture did for people. Reports also show agreement without those games.
+- The human side is thin: one two-player session plus one text session, one game per
+  prompt. More human games would make every comparison more trustworthy.
+
+**Model clues, human guesser (`calibrate-play`, $0.50).** The same guesser on the
+owner's 24 `simplay.py play` games, whose clues came from Sonnet (14) or Opus (10):
+
+| Clues from | Humans solved: model solved | Humans failed: model solved |
+|---|---|---|
+| Sonnet | 21/21 | 12/21 |
+| Opus | 6/9 | 18/21 |
+| All | 27/30 | 30/42 |
+
+- Haiku decodes model-written clues that the owner couldn't, usually at step 1:
+  Rat race (the owner passed after 10 steps), Writer's block, Sloth, Rock paper
+  scissors, Soup, Friday the 13th. Models seem to share a way of reading the icons
+  that people don't.
+- So a Claude guesser can't stand in for people, either to rate prompts or to judge
+  clue-givers: it would reward clues only models find clear. Whether non-Claude
+  guessers (phase 3) read the icons more like people is the open question.
+
+**Non-Claude guessers (phase 3, 2026-11-24).** All guesser runs were re-recorded after
+the reply format changed (no `pass` field), so the Haiku numbers above shifted by a game
+or two. Five OpenRouter guessers on all 44 human-guessed games (3 trials each). A
+useful guesser solves much more of what people solved than of what they failed:
+
+| Guesser | Humans solved: model solved | Humans failed: model solved | Gap |
+|---|---|---|---|
+| Haiku (`calibrate-baseline` + `-play`) | 61/72 (85%) | 48/60 (80%) | +5 |
+| `openai/gpt-6-luna` | 62/72 (86%) | 45/60 (75%) | +11 |
+| `mistralai/mistral-small-3.2-24b-instruct` | 30/72 (42%) | 16/60 (27%) | +15 |
+| `google/gemma-4-26b-a4b-it` (reasoning off) | 33/72 (46%) | 20/60 (33%) | +13 |
+| `deepseek/deepseek-v4-flash` (reasoning off) | 38/72 (53%) | 29/60 (48%) | +5 |
+| `meta-llama/llama-4-scout` | 12/72 (17%) | 7/60 (12%) | +5 |
+
+- No guesser separates the games people solved from the ones they failed by much.
+  Stronger models solve nearly everything; weaker ones fail nearly everything; the
+  best gap (Mistral Small, +15 points) is small next to that.
+- The human side is also noisy: one guesser per prompt (mostly the owner), so a
+  single game is weak evidence about how hard a prompt is.
+- Conclusion for now: simulated guessers don't predict human difficulty well enough
+  to re-rank prompts. Human play (`simplay.py play`, tabletop sessions) is the
+  evidence to use.
+
 ## Backends
 
 Both are llmemo's built-in backends. Requests need full model IDs (llmemo rejects
@@ -114,11 +180,19 @@ aliases such as `sonnet`).
     costs the CLI an extra turn. A game of about 12 calls may take a few minutes, so run
     games in parallel with `Cache.acall`, and compare plain-text replies if that's too
     slow.
-- **Later, if needed: OpenRouter** (llmemo's `OpenRouter`), for non-Claude guessers and
-  more volume. Add it only if Claude-only calibration still shows too much bias. The key
-  is in `OPENROUTER_API_KEY`, a Codespaces secret. The smoke test uses
-  `openai/gpt-6-luna`, which is cheap and supports structured output
-  (`response_format` with a JSON schema).
+- **OpenRouter for non-Claude guessers** (llmemo's `OpenRouter`), added 2026-11-23
+  after Claude guessers proved too easy. A spec's `[guesser]` sets
+  `backend = "openrouter"` with an OpenRouter model ID; `effort` becomes OpenRouter's
+  reasoning effort (`"none"` turns reasoning off), and `max_tokens` caps the reply.
+  The first attempt showed why both matter: at "low" effort, gemma often reasoned
+  until it hit `max_tokens`, and with a two-field reply (`guesses`, `pass`) it often
+  got stuck writing blank space after the guesses. Guesser replies now have only
+  `guesses`; an empty list is a pass. No model guesser had ever passed.
+  The request carries the same system text and prompt as a Claude guesser, with a
+  JSON-schema `response_format`. The judge and clue-giver stay on Claude. Calls spend
+  the owner's OpenRouter credit; the key is in `OPENROUTER_API_KEY`, a Codespaces
+  secret. The `calibrate-or-*` specs try five cheap models from different families
+  (OpenAI, Google, Meta, Mistral, DeepSeek) on the 44 human-guessed games.
 
 ## Storing results
 

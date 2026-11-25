@@ -1,0 +1,8 @@
+{
+  "guesses": [
+    "Star Wars",
+    "Space war",
+    "Battle in space"
+  ]
+  , "pass": false
+}

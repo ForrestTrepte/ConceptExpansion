@@ -1,0 +1,143 @@
+{
+  "contentSha256": "823361e2c48134af8cdc501f49574d1e0b2266eb1b1775349ce3c02ed91e1af3",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "4b5daa84bf7faab6f117925ff5de9ff2fdd6395e55661846fcc5b242e99c1765"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "5b74ad9847f439ac5816df7ec33412baad5644880b5d1730c0abc98fe2993334"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "openai/gpt-6-luna",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "guesses"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-3"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "f6004e3-dirty",
+    "costUsd": 0.00042782,
+    "latencyMs": 6038,
+    "recordedAt": "2026-11-24T00:07:29.785Z",
+    "recordedBy": "claude",
+    "servedBy": "OpenAI",
+    "servedModel": "openai/gpt-6-luna",
+    "tags": {
+      "run": "calibrate-or-luna"
+    },
+    "usage": {
+      "cacheReadTokens": 4727,
+      "cacheWriteTokens": 346,
+      "inputTokens": 5076,
+      "outputTokens": 674,
+      "reasoningTokens": 648
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"United 93\",\"World Trade Center\",\"September 11\"]}",
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "data": {
+                "$llmemo.text": "04841006ed320ec1da4a9dffed593bd168902fc01fe9a226f49a6ddb220b6a6f"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_0175a9f44ec36673016b04d53c46e887d191de7329c9c26862",
+              "index": 0,
+              "type": "reasoning.encrypted"
+            },
+            {
+              "data": {
+                "$llmemo.text": "78a8f3259985d6970c1e3b5eb444e84f2a308af704c2d85f29ea4660a70c21c8"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_0175a9f44ec36673016b04d54057e887d1801d4e0ef280b1ce",
+              "index": 1,
+              "type": "reasoning.encrypted"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "completed"
+      }
+    ],
+    "created": 1795478843,
+    "id": "gen-1795478843-9VQGqhoSYMhxmh6RaXkc",
+    "model": "openai/gpt-6-luna",
+    "object": "chat.completion",
+    "provider": "OpenAI",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 674,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 648
+      },
+      "cost": 0.00042782,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000337,
+        "upstream_inference_cost": 0.00042782,
+        "upstream_inference_prompt_cost": 0.00009082
+      },
+      "is_byok": false,
+      "prompt_tokens": 5076,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 346,
+        "cached_tokens": 4727,
+        "video_tokens": 0
+      },
+      "total_tokens": 5750
+    }
+  }
+}

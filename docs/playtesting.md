@@ -4,9 +4,11 @@ How to playtest prompts in a chat conversation (for example, a person with Claud
 without the physical board. Back to [README](../README.md).
 
 Tabletop playtests with printed cards are the strongest evidence. Log them in
-`playtests/YYYY-MM-DD-tabletop.md` in the same per-prompt format as below. Also record
-the number of players, which prompts were skipped, and any house rules. Three or more
-players (two or more guessers) is typical and gets stuck less often than two.
+`playtests/YYYY-MM-DD-tabletop.md` in the same per-prompt format as below, with the
+ratings described under [Tabletop sessions](#tabletop-sessions). Also record any house
+rules. Three or more players (two or more guessers) is typical and gets stuck less
+often than two. How tabletop rounds fit into choosing prompts is in
+[prompt-pipeline.md](prompt-pipeline.md).
 
 There are two text-playtest modes, each run in a fresh conversation:
 
@@ -15,6 +17,25 @@ There are two text-playtest modes, each run in a fresh conversation:
 - **The human gives clues, Claude guesses.** A useful second check, but weaker
   evidence: Claude drafted the prompts and thinks in similar patterns, so it may find
   them easier than people do.
+
+## Playing against the clue-giver model
+
+To guess against a model clue-giver in the terminal, with no chat session:
+
+```
+LLMEMO_MODE=record uv run python tools/simplay.py play play
+```
+
+Each game uses a random unassigned draft prompt that isn't in any log, the judge
+decides correct guesses, and the finished game is added to today's `claude-clues` log
+as a `### Pool:` entry with real pauses. Keep `output/illustrated/play/current.md` open
+in the Markdown preview to see the board with pictures. The spec
+`sim-playtests/specs/play.toml` sets the model and the spend limit (calls are live).
+Each game's cache entries carry a `game` tag (`<date>/<prompt>`), which the log entry
+also lists. Games logged before the tag existed (2026-11-23) can be found by the
+answer in their requests ("The answer is: …", "Answer: …").
+Don't read `data/prompts.csv` or the logs between games, since they contain the
+answers to come.
 
 ## Setup
 
@@ -174,10 +195,12 @@ To read the logs with icon pictures instead of codes, run
 `uv run python tools/illustrate_logs.py` and open `output/illustrated/playtests/` in
 VS Code's Markdown preview.
 
-- **Heading:** `### Card N, #K: Prompt`, with the prompt as it was played. Other `###`
-  headings (such as `### Card 5 observations`) are fine, but not ones starting
-  `### Card` that look like a broken entry.
+- **Heading:** `### Card N, #K: Prompt`, with the prompt as it was played, or
+  `### Pool: Prompt` for an unassigned prompt. Other `###` headings (such as
+  `### Card 5 observations`) are fine, but not ones starting `### Card` or `### Pool`
+  that look like a broken entry.
 - **First line:** `- Clue-giver: <Claude|human> · Guessed: <result> · Verdict: <verdict>`.
+  The clue-giver may name a model in parentheses: `Claude (claude-sonnet-5-5)`.
   The result is `yes`, `no`, `skipped`, or `not played`, optionally followed by a note
   in parentheses, such as `yes (step 4)` or `no (passed after step 2)`. The verdict can
   be left out for `not played`.
@@ -192,6 +215,41 @@ VS Code's Markdown preview.
   steps itself, at each change of group.
 - **Notable guesses:** comma-separated. Mark guesses the clue-giver answered `Yes` to
   with ` (Yes)` right after them.
+- **Players and ratings (tabletop):** lines right after the first line, each optional:
+  ```
+  - Players: clue-giver B; guessers Forrest, C
+  - Time: 3 min
+  - Difficulty: hard (we nearly had it)
+  - Interest: high
+  ```
+  Time is whole minutes. Difficulty and interest must be one of the values under
+  [Tabletop sessions](#tabletop-sessions), optionally followed by a short comment in
+  parentheses. Skipped prompts usually have only the Players line.
+
+### Tabletop sessions
+
+Before a round, print a score sheet for its cards:
+`uv run python tools/scoresheet.py 19-21` writes `output/scoresheet-19-21.pdf`. It
+lists prompts by card and number only (never the text), so anyone at the table can
+fill it in. For each prompt, tick:
+
+- **Result:** solved, gave up, or skipped. Skipping is allowed: the clue-giver may skip
+  after about a minute of planning if they can't see how to start, and should say why
+  in a few words. A skip is useful data (no foothold), so don't force an attempt.
+- **Time:** roughly how many minutes it took, rounded to a whole number.
+- **Difficulty**, agreed by the group: too easy, easy, medium, hard, too hard.
+- **Interest**, agreed by the group: low, medium, high, fantastic.
+- **Who** gave the clues and who guessed. Use a first name or an initial (B).
+
+Photograph the final board of each played prompt with its card number visible. The
+order of moves isn't recorded; the final board is enough. Comments (why it was fun,
+where people got stuck) go on the back of the sheet.
+
+Afterwards, give the sheet and photos to an AI session, which writes the log entries
+(clues converted to notation, the players and ratings lines, comments). In the log, the ratings
+become `Time: <N> min`, `Difficulty: too easy | easy |
+medium | hard | too hard`, and `Interest: low | medium | high | fantastic`. A skip
+is `Guessed: skipped (<reason>)`; gave up is `Guessed: no`.
 
 **Verdicts:** `keep`, `too easy`, `too hard`, `unclear` (players didn't recognize it),
 `reword`.

@@ -1,0 +1,139 @@
+{
+  "contentSha256": "5b33f4cd3ec8fdc48b9f4fc5734318d31f880b0dd09cb63e63ccf021b6c33136",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "90167f6773b23c0d34d7074b521186233b0757584cab853ba7be1b70066d6420"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "f854e334796ed3b8e575cedcc6989fa7da5c41056b4b726c70ec3fc394bad042"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "google/gemma-4-26b-a4b-it",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "pass": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "guesses",
+                "pass"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-1"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "db82776-dirty",
+    "costUsd": 0.000960303,
+    "latencyMs": 8387,
+    "recordedAt": "2026-11-23T22:29:46.941Z",
+    "recordedBy": "claude",
+    "servedBy": "PrimeIntellect",
+    "servedModel": "google/gemma-4-26b-a4b-it",
+    "tags": {
+      "run": "calibrate-or-gemma"
+    },
+    "usage": {
+      "cacheReadTokens": 4,
+      "cacheWriteTokens": 0,
+      "inputTokens": 5084,
+      "outputTokens": 1317,
+      "reasoningTokens": 1133
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\": [\"Frankenstein's Monster\", \"Frankenstein\", \"The Hulk\"], \"pass\": false}",
+          "reasoning": {
+            "$llmemo.text": "dadd65273b54672d1db76f67402a76c3ae1ba00abf7b7f53b48ebc93e39a01ce"
+          },
+          "reasoning_details": [
+            {
+              "format": "unknown",
+              "index": 0,
+              "text": {
+                "$llmemo.text": "dadd65273b54672d1db76f67402a76c3ae1ba00abf7b7f53b48ebc93e39a01ce"
+              },
+              "type": "reasoning.text"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "stop"
+      }
+    ],
+    "created": 1795472978,
+    "id": "gen-1795472978-BWvtBY0tfz8DMAj714o7",
+    "model": "google/gemma-4-26b-a4b-it",
+    "object": "chat.completion",
+    "provider": "PrimeIntellect",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1317,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 1133
+      },
+      "cost": 0.000960303,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000462267,
+        "upstream_inference_cost": 0.000960303,
+        "upstream_inference_prompt_cost": 0.000498036
+      },
+      "is_byok": false,
+      "prompt_tokens": 5084,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 4,
+        "video_tokens": 0
+      },
+      "total_tokens": 6401
+    }
+  }
+}

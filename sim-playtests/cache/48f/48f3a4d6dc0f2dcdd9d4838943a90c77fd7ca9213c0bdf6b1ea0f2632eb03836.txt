@@ -1,0 +1,32 @@
+New prompt.
+
+Step 1, markers placed:
+?g A8
++ G11
+!r D11
++ G12
+!y B14
+Board now:
+?g A8 | G11
+!r D11 | G12
+!y B14
+Guesses: Raise the roof, Upper hand, Home improvement
+Clue-giver: No
+
+Step 2, markers placed:
++g E2
+Board now:
+?g A8 | G11, E2
+!r D11 | G12
+!y B14
+Guesses: Dream house, Shoot for the moon, Reach for the stars
+Clue-giver: No
+
+Step 3, markers placed:
+(no new markers)
+Board now:
+?g A8 | G11, E2
+!r D11 | G12
+!y B14
+
+Give up to 3 guesses, best first, or pass.

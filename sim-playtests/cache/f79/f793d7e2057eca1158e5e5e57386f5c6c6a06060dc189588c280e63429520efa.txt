@@ -1,0 +1,113 @@
+New prompt.
+
+Step 1, markers placed:
+?g A3
++ G14
+!r A4
++ H10
++ Grey
+!y D3
+Board now:
+?g A3 | G14
+!r A4 | H10, Grey
+!y D3
+Guesses: Race car driver, Athlete, Athlete in a race
+Clue-giver: No
+
+Step 2, markers placed:
++y A12
++ B3
++r D5
+Board now:
+?g A3 | G14
+!r A4 | H10, Grey, D5
+!y D3 | A12, B3
+Guesses: Horse racing jockey, Greyhound racer, Dog racer
+Clue-giver: No
+
+Step 3, markers placed:
++g C8
++ B9
++ D8
+Board now:
+?g A3 | G14, C8, B9, D8
+!r A4 | H10, Grey, D5
+!y D3 | A12, B3
+Guesses: Taxi driver, Bus driver, Delivery driver
+Clue-giver: No
+
+Step 4, markers placed:
+!k A14
++ Yellow
++ H9
+Board now:
+?g A3 | G14, C8, B9, D8
+!r A4 | H10, Grey, D5
+!y D3 | A12, B3
+!k A14 | Yellow, H9
+Guesses: Street food vendor, Food truck driver, Hot dog vendor
+Clue-giver: No
+
+Step 5, markers placed:
++k G5
++g D6
+Board now:
+?g A3 | G14, C8, B9, D8, D6
+!r A4 | H10, Grey, D5
+!y D3 | A12, B3
+!k A14 | Yellow, H9, G5
+Guesses: Ambulance driver, Funeral director, Hearse driver
+Clue-giver: No
+
+Step 6, markers placed:
+-k all
++r C10
++ F10
+Board now:
+?g A3 | G14, C8, B9, D8, D6
+!r A4 | H10, Grey, D5, C10, F10
+!y D3 | A12, B3
+Guesses: Scientist, Laboratory technician, Professor
+Clue-giver: No
+
+Step 7, markers placed:
+-g all
+?g B8
++ A3
++ G14
++ D6
+Board now:
+?g B8 | A3, G14, D6
+!r A4 | H10, Grey, D5, C10, F10
+!y D3 | A12, B3
+Guesses: A saying about work, A joke about a job, A phrase about working hard
+Clue-giver: No
+
+Step 8, markers placed:
++g C8
++ B9
++r H11
+Board now:
+?g B8 | A3, G14, D6, C8, B9
+!r A4 | H10, Grey, D5, C10, F10, H11
+!y D3 | A12, B3
+Guesses: Work like a dog, Money doesn't grow on trees, Busy as a bee
+Clue-giver: No
+
+Step 9, markers placed:
+(no new markers)
+Board now:
+?g B8 | A3, G14, D6, C8, B9
+!r A4 | H10, Grey, D5, C10, F10, H11
+!y D3 | A12, B3
+Guesses: Work your fingers to the bone, Money is the root of all evil, In the bag
+Clue-giver: No
+
+Step 10, markers placed:
+(no new markers)
+Board now:
+?g B8 | A3, G14, D6, C8, B9
+!r A4 | H10, Grey, D5, C10, F10, H11
+!y D3 | A12, B3
+
+Give up to 3 guesses, best first, or none to pass.

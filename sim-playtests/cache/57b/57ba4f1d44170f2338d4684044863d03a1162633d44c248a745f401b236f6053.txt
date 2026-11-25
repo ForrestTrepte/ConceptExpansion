@@ -1,0 +1,218 @@
+*   `?g B10` (Celebration/Anniversary/Holiday)
+    *   `+ A10` (Date/Event/Day)
+    *   `+ C1` (Baby/Child/Young/New)
+    *   *Context:* A celebration or holiday that is a date/event and involves something "new" or "young."
+
+    *   `!r A8` (Idea/Intelligence/Concept)
+    *   `+ H13` (Right/End/After/Future)
+    *   `+ B8` (Expression/Quote/Talking/Words)
+    *   *Context:* A concept related to future words or expressions.
+
+    *   `Yes: Birthday` (The answer is a type of birthday or something very related to a birthday).
+
+    *   `!y H14` (Use/Action/Do/Verb/Button)
+    *   `+ H13` (Right/End/After/Future)
+    *   `+ B8` (Expression/Quote/Talking/Words)
+    *   `+ G14` (Turn/Around/Cycle/Repetition)
+    *   *Context:* An action/verb that is future-oriented, involves words/speech, and is repetitive/cyclical.
+    *   *Rejected:* Anniversary, Graduation, Wedding.
+
+    *   `!b D8` (Time/Duration)
+    *   `+ G14` (Turn/Around/Cycle/Repetition)
+    *   `+ F11` (One/Unit/Number)
+    *   `+ C1` (Baby/Child/Young/New)
+    *   *Context:* Something related to time, cycles, the number one, and being new/young.
+
+    *   Main Concept: A celebration/event (`B10`) that is a date (`A10`) and is "new" (`C1`).
+    *   Sub-Concept Red: A concept (`A8`) about future (`H13`) words (`B8`).
+    *   Sub-Concept Yellow: An action (`H14`) that is future (`H13`), involves words (`B8`), and repeats (`G14`).
+    *   Sub-Concept Blue: Time (`D8`) that cycles (`G14`), is "one" (`F11`), and is new/young (`C1`).
+
+    *Wait, let's look at the feedback again.*
+    *   Step 1 answer was `Yes: Birthday`. This means the answer is a *specific type* of birthday or something like it.
+    *   Step 2 (Action: Repeat, Words, Future) - *No* to Anniversary, Graduation, Wedding.
+    *   Step 3 (Time: Cycle, One, New) - This looks like it's describing the *nature* of the event.
+
+    *   "Birthday" was the "on the right track" guess.
+    *   The event is a celebration (`B10`) on a specific date (`A10`) that is "new" (`C1`).
+    *   The concept involves future words (`A8` + `H13` + `B8`). Maybe "Happy Birthday"? Or a "Wish"?
+    *   Step 2 Yellow clues: An action (`H14`) involving future words/expressions (`B8`, `H13`) that repeat (`G14`).
+    *   Step 3 Blue clues: A time (`D8`) that is a cycle (`G14`), the number one (`F11`), and new/young (`C1`).
+
+    *Let's re-evaluate:*
+    - `B10 + A10 + C1`: A celebration/holiday that is a date and is "new".
+    - `A8 + H13 + B8`: A concept involving future speech/words.
+    - `H14 + H13 + B8 + G14`: A repeated action involving future words.
+    - `D8 + G14 + F11 + C1`: A cycle of time involving the number one and "new/young".
+
+    *Could it be "New Year's Day"?*
+    - Step 1: New Year? Clue-giver said "Yes: Birthday". If the answer was "New Year's Day", "Birthday" would be a "Yes" on the right track (both are celebrations of a specific date/age).
+    - Step 2: An action involving words and repetition? "Saying Happy New Year"?
+    - Step 3: Time, cycle, number one, new? "First day of the year"?
+
+    *Wait, look at the "Birthday" feedback again.*
+    If the answer is "New Year's Day":
+    - `B10` (Celebration) + `A10` (Date) + `C1` (New) = New Year's Day.
+    - `A8` (Concept) + `H13` (Future) + `B8` (Words) = A wish for the future?
+    - `H14` (Action) + `H13` (Future) + `B8` (Words) + `G14` (Repeat) = Making a resolution? Or saying "Happy New Year"?
+    - `D8` (Time) + `G14` (Cycle) + `F11` (One) + `C1` (New) = January 1st?
+
+    *Let's try another angle. What else is a "Birthday" but more specific?*
+    - "First Birthday"?
+    - "Name Day"?
+    - "Anniversary" (already rejected).
+
+    *Let's look at the Blue clue again:*
+    - `D8` (Time) + `G14` (Cycle) + `F11` (One) + `C1` (New).
+    - "One year old"? "First birthday"?
+
+    *Wait, look at the Red clue again:*
+    - `A8` (Concept/Idea) + `H13` (Future/End) + `B8` (Words/Speech).
+    - This sounds like "New Year's Resolution" or "Greeting".
+
+    *Let's look at the Yellow clue again:*
+    - `H14` (Action/Verb) + `H13` (Future) + `B8` (Words/Speech) + `G14` (Repeat/Cycle).
+    - "Making a resolution"? "Saying Happy New Year"?
+
+    *If the answer is "New Year's Eve" or "New Year's Day":*
+    Step 1: `?g B10` (Celebration) + `A10` (Date) + `C1` (New).
+    If the answer was "New Year's Day", the guess "New Year" would be "Yes" and "Birthday" would be "Yes: [on the right track]" because they are both annual celebrations.
+
+    *Is it "First Birthday"?*
+    Step 3: `D8` (Time) + `G14` (Cycle) + `F11` (One) + `C1` (New).
+    This perfectly describes "First" (`F11`) "Birthday" (which is "New" `C1` and a "Cycle" `G14` of time).
+
+    *Let's check Step 2 for "First Birthday":*
+    `H14` (Action) + `H13` (Future) + `B8` (Words) + `G14` (Repeat).
+    Is there an action related to a first birthday? "Making a wish"? (But "wish" isn't really a repeated cycle).
+
+    *What about "New Year's Resolution"?*
+    - Celebration? Not really a celebration, more an idea.
+    - `B10` is Celebration. "New Year's Day" is a celebration.
+    - `A10` is Date.
+    - `C1` is New.
+
+    *Let's look at Step 2's rejection:*
+    `Anniversary, Graduation, Wedding` were all "No". These are all celebrations of milestones.
+
+    *Let's rethink the Blue clue:*
+    `D8` (Time), `G14` (Cycle/Turn), `F11` (One), `C1` (New).
+    "One year"? "First year"?
+
+    *Wait! What about "New Year's Eve"?*
+    - Step 1: `B10` (Celebration), `A10` (Date), `C1` (New).
+    - Red: `A8` (Concept), `H13` (Future/End), `B8` (Words). (End of the year, words like "Happy New Year").
+    - Yellow: `H14` (Action), `H13` (Future/End), `B8` (Words), `G14` (Cycle/Turn). (Ending the year, repeating the cycle, saying the words).
+    - Blue: `D8` (Time), `G14` (Cycle), `F11` (One), `C1` (New). (The turning of the year, the transition to one/new).
+
+    Actually, "New Year's Eve" was in the first set of guesses. The clue-giver said "Yes: Birthday" to the first set (New Year, Birthday, New Year's Eve). This implies the answer is *not* "New Year's Eve" or "New Year", but something like them (a celebration of a specific date/newness), and "Birthday" was the closest.
+
+    *If "Birthday" was the closest to "New Year's Eve" and "New Year"...*
+    What is the commonality?
+    - They are all annual celebrations.
+    - They are all based on a person's (or the world's) "age" or "newness".
+
+    *Let's look at the clues again.*
+    - `?g B10 + A10 + C1`: Celebration, Date, New.
+    - `!r A8 + H13 + B8`: Concept, Future, Words.
+    - `!y H14 + H13 + B8 + G14`: Action, Future, Words, Repeat.
+    - `!b D8 + G14 + F11 + C1`: Time, Cycle, One, New.
+
+    Wait, "One" (`F11`) and "New" (`C1`) and "Cycle" (`G14`) and "Time" (`D8`)...
+    "First Birthday"?
+    "New Year"? (But "New Year" was in Step 1).
+
+    Let's try "New Year's Day". (Wait, "New Year" was in step 1, so "New Year's Day" is likely too close).
+
+    What about "First Anniversary"? (No, Anniversary was rejected).
+
+    Let's look at Step 2: `H14` (Action), `H13` (Future), `B8` (Words), `G14` (Repeat).
+    "Making a wish"? (But "wish" isn't a cycle).
+    "Saying Happy Birthday"?
+
+    Let's look at the Red clue again: `A8` (Concept) + `H13` (Future) + `B8` (Words).
+    Could the answer be a phrase?
+    "Happy Birthday"?
+    - `B10` (Celebration) - Yes.
+    - `A10` (Date) - Yes.
+    - `C1` (New/Young) - A bit of a stretch, but babies have birthdays.
+    - `A8` (Concept) + `H13` (Future) + `B8` (Words) - "Happy Birthday" is a phrase (words) spoken to someone's future?
+    - `H14` (Action) + `H13` (Future) + `B8` (Words) + `G14` (Repeat) - Saying "Happy Birthday" (action/words) is a repeated thing (cycle).
+    - `D8` (Time) + `G14` (Cycle) + `F11` (One) + `C1` (New) - Every "one" (year) it "cycles" and it's "new"?
+
+    This is getting complicated. Let's simplify.
+    Step 1: The answer is related to "Birthday".
+    Step 2: It's an action, future-oriented, words, repetitive.
+    Step 3: It's time, cyclical, "one", "new".
+
+    "Turning one"? "First birthday"?
+
+    Let's look at the clues for "First Birthday" one more time.
+    - `?g B10` (Celebration) + `A10` (Date) + `C1` (New/Baby) = First Birthday.
+    - `!r A8` (Concept) + `H13` (Future) + `B8` (Words) = A concept of words for the future?
+    - `!y H14` (Action) + `H13` (Future) + `B8` (Words) + `G14` (Repeat) = ?
+    - `!b D8` (Time) + `G14` (Cycle) + `F11` (One) + `C1` (New) = A time that is a cycle of one year and new.
+
+    Wait, "New Year's Eve" was a guess in Step 1. The clue giver said "Yes: Birthday".
+    This means the answer is *not* "New Year's Eve", but "Birthday" is the right direction.
+    If the answer were "New Year's Day", "New Year's Eve" would likely have been a "Yes" or "No".
+    If "Birthday" is the closest, maybe it's about *age*?
+
+    What about "Anniversary"? (Already rejected).
+    What about "New Year's Day"? (Already guessed "New Year").
+
+    Let's look at the Blue clue again: `D8` (Time) + `G14` (Cycle) + `F11` (One) + `C1` (New).
+    This is very specific: Time, Cycle, One, New.
+    "One year old"?
+    "First birthday"?
+    "First anniversary"? (No).
+
+    Could the answer be "January 1st"?
+    - `B10` (Celebration) - Yes.
+    - `A10` (Date) - Yes.
+    - `C1` (New) - Yes.
+    - `A8` (Concept) + `H13` (Future) + `B8` (Words) - "Happy New Year"?
+    - `H14` (Action) + `H13` (Future) + `B8` (Words) + `G14` (Repeat) - Saying "Happy New Year"?
+    - `D8` (Time) + `G14` (Cycle) + `F11` (One) + `C1` (New) - The first day of the new cycle.
+
+    Let's try "First Birthday" and "One year old".
+    Actually, look at Step 1 again.
+    Guess 1: New Year
+    Guess 2: Birthday
+    Guess 3: New Year's Eve
+    Clue-giver: Yes: Birthday
+
+    If the answer was "New Year's Day", then "New Year" would be "Yes" and "Birthday" would be "Yes: [on the right track]".
+    But if the answer was "Birthday", "Birthday" would be "Correct".
+    Since it was "Yes: Birthday", the answer is *not* Birthday, but is *similar* to it.
+
+    What is similar to a Birthday?
+    - Anniversary (Rejected)
+    - Name Day
+    - Christening / Baptism
+    - First Birthday
+
+    Let's look at "First Birthday" again.
+    Step 3: `D8` (Time) + `G14` (Cycle) + `F11` (One) + `C1` (New) = First Birthday?
+    Step 2: `H14` (Action) + `H13` (Future) + `B8` (Words) + `G14` (Repeat).
+    Is there a repeated action with words at a first birthday? Maybe "Happy Birthday"?
+
+    Wait, what about "New Year's Resolution"?
+    - It's an idea/concept (`A8`).
+    - It's about the future (`H13`).
+    - It involves words/statements (`B8`).
+    - It's an action (`H14`).
+    - It's a cycle (`G14`) because people do it every year.
+    - It's "one" (`F11`) because it's the start of the year? (A bit weak).
+    - It's "new" (`C1`).
+    - BUT... the main concept is `B10` (Celebration/Holiday). A resolution is not a celebration.
+
+    Let's look at "New Year's Eve" again.
+    If the answer is "New Year's Eve", why would the clue-giver say "Yes: Birthday" to the first set?
+    Because both are celebrations of a specific date.
+
+    Wait, "New Year's Day" was not guessed. "New Year" was.
+    "New Year's Eve" was.
+    What about "New Year"? (Already guessed).
+
+    Let'

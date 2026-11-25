@@ -1,0 +1,117 @@
+
+*   `?g B2` (Main Concept: Character/Fictional/Imaginary)
+    *   `+ C9` (Detail: Religion/Myth/Spirituality)
+    *   `!r D12` (Sub-concept Red: Leg/Foot)
+    *   `+ D5` (Detail: Death/Bad/Illness)
+    *   `+ D4` (Detail: Attack/Conflict/Combat/Weapon)
+    *   *Initial Guesses*: Achilles, Hades, Anubis.
+    *   *Clue-giver response*: **Yes: Achilles**. (This means the answer is a character from myth/fiction related to Achilles, or Achilles himself, but the clue "Yes: Achilles" usually implies the answer is *related* to Achilles or the *category* Achilles belongs to, or Achilles is close. Wait, the rule says "Yes: <one of the guesses> (that guess is on the right track)". Since Achilles was a guess, it means the answer is either Achilles or something very close to it in that mythic/heroic category).
+
+    *   `!y B8` (Sub-concept Yellow: Expression/Quote/Talking/Words)
+    *   `+ D12` (Detail: Leg/Foot)
+    *   `+ H10` (Detail: Small/Low)
+
+    *   The concept is a mythical character (`?g B2` + `C9`).
+    *   Related to Achilles (`Yes: Achilles`).
+    *   Has a connection to a leg/foot (`!r D12`, `+ D12`).
+    *   Relates to death/combat (`D5`, `D4`).
+    *   Now, there's a connection to words/quotes (`!y B8`) and specifically a small leg/foot (`H10` + `D12`).
+
+    *   Achilles's famous weakness is his heel.
+    *   The phrase "Achilles' heel" is a common idiom (Expression/Quote/Words `B8`).
+    *   The "heel" is part of the foot (`D12`).
+    *   The "heel" is a specific, small part of the foot (`H10`).
+
+    *   Is the answer "Achilles' heel"?
+        *   `?g B2` (Character/Fictional): An idiom based on a character.
+        *   `+ C9` (Myth): Yes.
+        *   `!r D12` (Leg/Foot): Yes.
+        *   `+ D5` (Death): The heel is his weakness leading to death.
+        *   `+ D4` (Combat): Related to his combat.
+        *   `!y B8` (Expression/Quote): It's an idiom.
+        *   `+ D12` (Leg/Foot): Yes.
+        *   `+ H10` (Small/Low): The heel is a small part of the foot.
+
+    1. Achilles' heel
+    2. Heel
+    3. Achilles (Wait, the guesser already said Achilles and the clue-giver said "Yes: Achilles", implying it's not Achilles itself but something on the right track. Usually, if the answer were Achilles, the clue-giver would say "Correct").
+
+    Wait, "Achilles" was "on the right track".
+    "Achilles' heel" is a phrase (Expression/Words `B8`).
+    The markers `!y B8` + `D12` (Foot) + `H10` (Small) strongly point to "Achilles' heel".
+
+    *   Guess 1: Achilles' heel
+    *   Guess 2: Heel
+    *   Guess 3: Achilles (though already guessed, it's worth considering if the answer is just a slight variation, but "Achilles' heel" is a much stronger fit for the new markers).
+
+    Actually, let's look at the markers again.
+    `!y B8` (Expression/Quote/Talking/Words)
+    `+ D12` (Leg/Foot)
+    `+ H10` (Small/Low)
+    This is a perfect description of the idiom "Achilles' heel".
+
+    1. Achilles' heel
+    2. Achilles' heel (maybe "Weakness"?)
+    3. Heel
+
+    Let's try:
+    1. Achilles' heel
+    2. Achilles' heel (Wait, can't repeat).
+    Let's try:
+    1. Achilles' heel
+    2. Heel
+    3. Weakness
+
+    Actually, "Achilles' heel" is a very common idiom.
+
+    *   `?g B2` (Character)
+    *   `+ C9` (Myth)
+    *   `!r D12` (Leg/Foot)
+    *   `+ D5` (Death)
+    *   `+ D4` (Combat)
+    *   `!y B8` (Expression/Words)
+    *   `+ D12` (Leg/Foot)
+    *   `+ H10` (Small/Low)
+
+    The markers represent:
+    Main concept: Character/Myth (Achilles)
+    Sub-concept 1 (Red): Leg/Foot + Death + Combat
+    Sub-concept 2 (Yellow): Words/Expression + Leg/Foot + Small
+
+    "Achilles' heel" fits every single marker.
+
+    1. Achilles' heel
+    2. Achilles
+    3. Heel
+
+    Wait, the clue-giver said "Yes: Achilles" to the first set. If the answer were "Achilles", the response would be "Correct". Therefore, the answer must be something *related* to Achilles. "Achilles' heel" is the most logical step.
+
+    Let's refine the guesses.
+    - Achilles' heel
+    - Heel
+    - Weakness
+
+    (Note: "Achilles' heel" is a single concept in this game).
+
+    One more check: `B8` is "Expression – Quote / Talking / Words". "Achilles' heel" is an expression. `D12` is "Leg / Foot". `H10` is "Small / Low".
+
+    The most direct answer is "Achilles' heel".
+
+    1. Achilles' heel
+    2. Heel
+    3. Vulnerability (maybe too broad) -> Let's go with "Achilles' weakness". No, "Achilles' heel" is the idiom.
+
+    Let's try:
+    1. Achilles' heel
+    2. Heel
+    3. Weakness
+
+    Actually, usually, players just guess the most obvious one.
+
+    Wait, the clue-giver responded "Yes: Achilles". This confirms the subject is Achilles.
+    The new markers add `B8` (Expression) + `D12` (Foot) + `H10` (Small).
+    This points directly to "Achilles' heel".
+
+    *Self-correction*: Is "Achilles' heel" a character? The `?g B2` says Character/Fictional/Imaginary. An idiom *is* an expression, but the *subject* of the idiom is a character. This is a common way to clue idioms in Concept.
+
+    Let's provide the guesses.

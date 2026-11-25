@@ -1,0 +1,38 @@
+New prompt.
+
+Step 1, markers placed:
+?g B8
++ D4
++ C5
+!r F4
++ H12
+!y B12
++ D4
+Board now:
+?g B8 | D4, C5
+!r F4 | H12
+!y B12 | D4
+Guesses: All's fair in love and war, Love is a battlefield, Love hurts
+Clue-giver: No
+
+Step 2, markers placed:
+!k H13
++ D4
++ E11
+Board now:
+?g B8 | D4, C5
+!r F4 | H12
+!y B12 | D4
+!k H13 | D4, E11
+Guesses: The pen is mightier than the sword, Words can hurt, War of words
+Clue-giver: No
+
+Step 3, markers placed:
+(no new markers)
+Board now:
+?g B8 | D4, C5
+!r F4 | H12
+!y B12 | D4
+!k H13 | D4, E11
+
+Give up to 3 guesses, best first, or pass.

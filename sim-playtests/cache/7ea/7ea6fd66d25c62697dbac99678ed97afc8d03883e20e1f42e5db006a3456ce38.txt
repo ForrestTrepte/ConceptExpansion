@@ -1,0 +1,87 @@
+New prompt.
+
+Step 1, markers placed:
+?g B2
++ D2
++ A6
+!r D4
++ Black
+Board now:
+?g B2 | D2, A6
+!r D4 | Black
+Guesses: Superhero, Fictional Character, Comic Book Character
+Clue-giver: No
+
+Step 2, markers placed:
+!y E11
++ E11
+!b C14
++ Clear
+Board now:
+?g B2 | D2, A6
+!r D4 | Black
+!y E11 | E11
+!b C14 | Clear
+Guesses: Batman, Spider-Man, The Joker
+Clue-giver: No
+
+Step 3, markers placed:
+-b all
+!b B13
++ Black
++ D2
+Board now:
+?g B2 | D2, A6
+!r D4 | Black
+!y E11 | E11
+!b B13 | Black, D2
+Guesses: The Joker, Batman, Spiderman
+Clue-giver: No
+
+Step 4, markers placed:
+!k A9
++ Red
++ White
++ Blue
++ D9
+Board now:
+?g B2 | D2, A6
+!r D4 | Black
+!y E11 | E11
+!b B13 | Black, D2
+!k A9 | Red, White, Blue, D9
+Guesses: American Flag, National Symbol, USA President
+Clue-giver: No
+
+Step 5, markers placed:
++y F11 x7
+Board now:
+?g B2 | D2, A6
+!r D4 | Black
+!y E11 | E11, F11, F11, F11, F11, F11, F11, F11
+!b B13 | Black, D2
+!k A9 | Red, White, Blue, D9
+Guesses: Flag, United States, USA
+Clue-giver: No
+
+Step 6, markers placed:
+(no new markers)
+Board now:
+?g B2 | D2, A6
+!r D4 | Black
+!y E11 | E11, F11, F11, F11, F11, F11, F11, F11
+!b B13 | Black, D2
+!k A9 | Red, White, Blue, D9
+Guesses: American Flag, USA, United States
+Clue-giver: No
+
+Step 7, markers placed:
+(no new markers)
+Board now:
+?g B2 | D2, A6
+!r D4 | Black
+!y E11 | E11, F11, F11, F11, F11, F11, F11, F11
+!b B13 | Black, D2
+!k A9 | Red, White, Blue, D9
+
+Give up to 3 guesses, best first, or none to pass.

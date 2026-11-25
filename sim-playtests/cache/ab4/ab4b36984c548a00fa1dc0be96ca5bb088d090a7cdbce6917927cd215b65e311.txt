@@ -1,0 +1,248 @@
+*   `?g A6`: Main Concept is A6 (Cinema / Movie).
+    *   `+ D5`: A cube on D5 (Death / Bad / Illness) in the same group (g).
+        *   *Meaning so far:* A movie that is about death/bad/illness.
+    *   `!r A10`: Red Sub-Concept pawn on A10 (Date / Event / Day).
+    *   `+ D5`: A cube on D5 in the red group.
+        *   *Meaning so far:* A movie related to an event/date involving death.
+    *   `!y F11`: Yellow Sub-Concept pawn on F11 (One / Unit / Number).
+    *   `+ G2`: Cube on G2 (Cross / Crossing / Addition) in the yellow group.
+    *   `+ F11`: Cube on F11 in the yellow group.
+        *   *Meaning so far:* A movie related to a date/event involving death, and it has something to do with the number "1" or "one" (F11) and addition/crossing (G2).
+
+    *   *Category:* Movie.
+    *   *Theme:* Death, bad, illness.
+    *   *Event/Date:* A specific day or event.
+    *   *Number/Math:* The number "1" (F11) and potentially "plus" or "crossing" (G2).
+
+    *   *Idea 1: A movie about a specific date involving death.*
+        *   "Seven" (the movie)? It's about 7 deadly sins. Is 7 represented? No, F11 is 1.
+        *   "One"?
+        *   "The Day of the Dead"?
+        *   "The Seventh Seal"?
+        *   "A Star is Born"? No.
+    *   *Idea 2: Look at the numbers more closely.*
+        *   `!y F11` (1)
+        *   `+ G2` (Plus/Cross)
+        *   `+ F11` (1)
+        *   Could it be "1+1"? No.
+        *   Could it be "One" something?
+        *   "The One"?
+    *   *Idea 3: Re-evaluating the cues.*
+        *   `?g A6` (Movie) + `D5` (Death/Bad) = A horror movie or a tragedy.
+        *   `!r A10` (Date/Event) + `D5` (Death) = A day of death?
+        *   `!y F11` (One) + `G2` (Plus/Cross) + `F11` (One) = 1+1? Or maybe just "One"?
+    *   *Wait, let's look at the red group again:* `!r A10` + `D5`. A specific date/event that is bad/death.
+    *   *Looking at the yellow group:* `!y F11` (One) + `G2` (Plus) + `F11` (One). This looks like math: $1+1=2$? Or just "One"?
+    *   *Wait!* Is the answer "Titanic"? (Event, death, movie). But where is the math?
+    *   *Is it "The 40-Year-Old Virgin"?* No.
+    *   *Is it "12 Angry Men"?* No.
+    *   *What about "One"?*
+    *   *What about a specific movie title?*
+    *   *Let's look at the "1 + 1" thing again.* $1+1=2$. Is there a movie called "Two"? Or "2"?
+    *   *What about "The Exorcist"?* No.
+    *   *Let's look at the "Date" + "Death" part again.*
+        *   "Friday the 13th"?
+        *   `A10` (Date) + `D5` (Bad/Death) = Friday the 13th.
+        *   Let's check the numbers. `F11` is 1. `G2` is a cross. `F11` is 1. 13?
+        *   Wait, `F11` is "One". `G2` is "Cross/Addition/Plus".
+        *   If the answer is "Friday the 13th":
+            *   `?g A6` (Movie) - Correct.
+            *   `+ D5` (Bad/Death) - Fits the horror theme.
+            *   `!r A10` (Date) - Fits "Friday the 13th".
+            *   `+ D5` (Bad/Death) - Red group connection.
+            *   `!y F11` (One) - Part of "13".
+            *   `+ G2` (Cross/Addition/Plus) - ???
+            *   `+ F11` (One) - Part of "13".
+        *   Wait, `F11` is 1. `G2` is a cross/plus. `F11` is 1. $1+1$? No.
+        *   What if the yellow clue is "1" and "3"? But there is no 3.
+        *   Let's look at `G2` again. "Cross/Addition/Crossing".
+        *   Could the answer be "The Conjuring"? No.
+        *   Could it be "Saw"? (Death, bad, movie).
+
+    *   *Let's reconsider the yellow group:*
+        `!y F11` (One)
+        `+ G2` (Cross/Addition/Crossing)
+        `+ F11` (One)
+        Maybe "One" + "Plus" + "One"? $1+1=2$.
+        "The Two"?
+        Wait... "1+1=2".
+        Is there a movie about a date?
+        "April Fools' Day"? No.
+
+    *   *Wait!* Look at the `!y F11` + `G2` + `F11` again.
+        F11 is 1.
+        G2 is Cross.
+        F11 is 1.
+        Is it "One" "Cross" "One"? No.
+        Is it "1" "plus" "1"?
+        Could it be "The Shining"? No.
+
+    *   *Let's look at the Red group again:*
+        `!r A10` (Date)
+        `+ D5` (Death)
+        This is a very strong link to "Friday the 13th" (a date associated with death/bad luck).
+        If the answer is "Friday the 13th":
+        How does `!y F11` (One), `+ G2` (Cross/Addition), `+ F11` (One) fit?
+        Maybe the person is spelling "13"? $1 \dots 3$? No.
+        Maybe the yellow group is "1" and "3"? But there is no 3.
+        What if `G2` is used to indicate the number 3? (A cross? No).
+        Wait, `G2` is "Cross/Crossing/Addition".
+        If you have 1 and 1 and add them, you get 2.
+        If you have 1 and 3?
+        What if the yellow group is "1" and "3"?
+        Wait, `F11` is 1. `G2` is cross. `F11` is 1.
+        What if it's "One" + "Three"? No.
+
+    *   *Let's look at the icons again.*
+        `A10` is Date.
+        `D5` is Death/Bad.
+        `A6` is Movie.
+        `F11` is One.
+        `G2` is Cross/Plus.
+        `F11` is One.
+
+    *   *Is the answer "Seven"?* (A movie, 7 is a number, but it's not 1+1).
+    *   *Is the answer "13"?*
+        If the answer is "13" (as in the movie/concept):
+        `?g A6` (Movie)
+        `+ D5` (Bad/Death)
+        `!r A10` (Date) + `D5` (Bad/Death) -> Friday the 13th.
+        `!y F11` (1)
+        `+ G2` (??)
+        `+ F11` (1)
+        Wait, if you put 1 and 1 together with a cross... no.
+        What if `G2` is "Addition" and the answer is $1+3=4$? No.
+
+    *   *Let's try another angle.*
+        What if the answer is "The Ring"? (Movie, scary/bad/death, circular/ring is G4, but we have G2).
+        What if the answer is "A Nightmare on Elm Street"?
+        What if the answer is "Halloween"? (Date, scary, movie).
+        `A10` (Date) + `D5` (Bad) + `A6` (Movie).
+        How does "Halloween" fit the yellow group `F11` (1), `G2` (Cross), `F11` (1)? It doesn't.
+
+    *   *Wait!* `F11` is 1. `G2` is Cross. `F11` is 1.
+        Could it be "101"? (One, zero, one). But we have 1, Cross, 1.
+        What if `G2` is "0"? No, `E11` is 0.
+        What if `G2` is "plus" and it's $1 + 1 = 2$?
+        Is there a movie called "2"? Or "Two"?
+        Or is it "One plus one"?
+
+    *   *Let's look at the Red group again.* `A10` (Date) + `D5` (Death).
+        Is it "The Day of the Dead"?
+        Is it "Friday the 13th"?
+
+    *   *Let's look at the Yellow group again.* `F11` (1), `G2` (Cross/Addition), `F11` (1).
+        Wait, `G2` is a "Cross".
+        In some contexts, a cross means "plus".
+        $1 + 1 = 2$.
+        Is there a movie "2"? "28 Days Later"?
+        "28 Days Later":
+        `?g A6` (Movie) - Yes.
+        `+ D5` (Death/Bad) - Yes.
+        `!r A10` (Date) - Yes (28 Days).
+        `+ D5` (Death) - Yes.
+        `!y F11` (1)? No.
+        `!y F11` (1) and `F11` (1) and `G2` (Plus/Cross)...
+        Could it be "1+1=2"? Or "2"?
+        "28 Days Later" has "28" (Number) and "Days" (Time/Date).
+        But the yellow clue is specifically $1 + 1$.
+
+    *   *Think about the number 13 again.*
+        How do you get 13 from 1, 1, and a cross?
+        You can't.
+        Wait, `G2` is "Cross / Crossing / Addition".
+        What if the answer is "The 13th Warrior"? No.
+
+    *   *What if the answer is "One"?*
+        `?g A6` (Movie)
+        `+ D5` (Bad)
+        `!r A10` (Date) + `D5` (Death)
+        `!y F11` (One)
+        This doesn't quite fit.
+
+    *   *Let's try "Friday the 13th" as the primary guess.* It's a very strong match for Movie + Date + Death/Bad. The yellow clue is the only mystery.
+        Let's re-examine the yellow clue: `F11` (1), `G2` (Plus/Cross), `F11` (1).
+        Is there any way `1 + 1` or `1 [cross] 1` relates to 13?
+        Maybe the "cross" is the "X" in "1X"? No.
+        Maybe the "cross" is used to represent the number 3? (A Roman numeral III is three lines, a cross is two). No.
+        What if the answer is "Seven"? (The movie).
+        `?g A6` (Movie)
+        `+ D5` (Death/Bad)
+        `!r A10` (Date/Event)
+        `+ D5` (Death)
+        `!y F11` (1)? No.
+
+    *   *Let's look at the whole board again.*
+        `?g A6` (Movie)
+        `+ D5` (Death/Bad)
+        `!r A10` (Date)
+        `+ D5` (Death)
+        `!y F11` (1)
+        `+ G2` (Plus)
+        `+ F11` (1)
+
+        Wait! What if the answer is "101 Dalmatians"? (No, that's not death/bad).
+        What if the answer is "The 400 Blows"? No.
+
+        Wait... `1 + 1`... `1` and `1`...
+        What if the answer is "One"?
+        Is there a movie called "One" that is about death?
+        "One" is not a very common title for a horror movie.
+
+    *   *Let's re-examine `G2`.* "Cross / Crossing / Addition".
+        Could it be "The Cross"? No.
+        Could it be "Crucifixion"? (Death, religion).
+
+        Let's look at the red group again. `A10` (Date/Event).
+        `A10` is "Date/Event/Day".
+        Is there a movie called "The Day"?
+        "The Day of the Dead"? (A10, D5, A6).
+        If the answer is "The Day of the Dead":
+        How does the yellow clue fit? `F11` (1), `G2` (Plus), `F11` (1).
+
+        Wait! I just thought of something.
+        `F11` (1)
+        `G2` (Cross)
+        `F11` (1)
+        Is it "1" and "1"? Like "11"?
+        If the answer is "11"? Or "Eleven"?
+        Is there a movie called "11"?
+        "11/22/63"? (Date).
+
+        Wait, "11" ... "11th Hour"?
+        "The 11th Hour" is a common phrase for a time/date.
+        Is there a movie "The 11th Hour"? Yes.
+        Is it about death/bad? Often.
+        Does `F11` (1) + `G2` (Cross/Addition) + `F11` (1) mean 11?
+        If you "add" or "cross" them, do you get 11?
+        If you place two 1s side by side?
+        In Concept, you can't really place them "side by side" in a way that means "11" unless the player intends it.
+        But `F11` is the icon for "One".
+        If you have two `F11` cubes, it's "two ones".
+        If the answer is "11", you might use two `F11` cubes.
+        What would the `G2` (Cross/Addition) do?
+        Maybe it's not "addition", maybe it's "joining"? "Crossing" the two ones?
+
+    *   *Wait, let's look at another possibility.*
+        `?g A6` (Movie)
+        `+ D5` (Death)
+        `!r A10` (Date)
+        `+ D5` (Death)
+        `!y F11` (1)
+        `+ G2` (Cross)
+        `+ F11` (1)
+        
+        Could the answer be "Friday the 13th" and the yellow clue is just a very strange way to say 13?
+        (1 and 3?) But there is no 3.
+        Wait... $1+1 = 2$.
+        Is there a movie called "2"?
+        "28 Days Later"?
+        "28 Days Later" (Movie, Death, Date/Days).
+        Does "2" fit the yellow clue?
+        `!y F11` (1) + `G2` (Plus) + `F11` (1) = 2.
+        This is a very plausible way to clue the number 2.
+        And "28 Days Later" fits the rest perfectly.
+
+    *   *Let's check "28 Days Later" again.*
+        - Movie (`A6`)
+        

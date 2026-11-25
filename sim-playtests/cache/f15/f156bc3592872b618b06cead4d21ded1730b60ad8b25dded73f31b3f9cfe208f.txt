@@ -1,0 +1,31 @@
+*   `?g A4`: Main Concept is Fauna/Animal (A4).
+    *   `+ White`: Color/Attribute is White.
+    *   `+ E1`: Attribute is Cold/Snow/Rain/Cloud (E1).
+    *   `+ G10`: Attribute is Big/High (G10).
+
+    *   Animal (A4)
+    *   White (White)
+    *   Cold/Snow/Winter/Arctic (E1)
+    *   Big/Large (G10)
+
+    *   Polar Bear (White, Cold, Big, Animal)
+    *   Arctic Fox (White, Cold, Small? - wait, G10 is Big, so maybe not fox)
+    *   Walrus (White? Cold, Big, Animal)
+    *   Whale (White/Blue? Cold, Big, Animal)
+    *   Snow Leopard (White, Cold, Big? maybe)
+
+    *   Polar Bear (Fits all: Animal, White, Cold, Big)
+    *   Arctic Fox (Maybe too small for G10)
+    *   Snow Leopard (White/Grey? Cold, Big)
+
+    *   Guess 1: Polar Bear
+    *   Guess 2: Arctic Fox
+    *   Guess 3: Walrus
+
+    *Wait, let's check G10 again. G10 is "Big/High". A Polar Bear is definitely big.*
+
+    *Check E1: Cold/Snow. Very strong connection to Arctic animals.*
+
+    1. Polar bear
+    2. Arctic fox
+    3. Walrus

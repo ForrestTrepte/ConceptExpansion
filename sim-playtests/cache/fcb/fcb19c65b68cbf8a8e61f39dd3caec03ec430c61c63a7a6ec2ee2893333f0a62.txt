@@ -1,0 +1,8 @@
+{
+  "guesses": [
+    "Toy airplane",
+    "Drone",
+    "Kite"
+  ]
+,"pass": false
+}

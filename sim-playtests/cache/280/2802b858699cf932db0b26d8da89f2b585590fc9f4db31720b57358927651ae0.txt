@@ -1,0 +1,7 @@
+{  
+    "guesses": [
+        "Star",
+        "Astronomy",
+        "Galaxy"
+    ]
+}

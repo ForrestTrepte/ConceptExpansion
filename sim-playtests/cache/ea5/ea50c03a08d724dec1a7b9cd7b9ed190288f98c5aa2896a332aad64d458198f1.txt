@@ -1,0 +1,171 @@
+*   `?g A14`: Main Concept is A14 (Food / Eating / Edible).
+    *   `+ F3`: Cube on F3 (Water / Liquid / Aquatic) in the `g` group.
+    *   `+ F1`: Cube on F1 (Hot / Day – Light / Sun) in the `g` group.
+    *   `!r A14`: Sub-Concept (red) is A14 (Food / Eating / Edible).
+    *   `+ H9`: Cube on H9 (Hollow / Hole / Pierced) in the `r` group.
+
+    *   Main Concept (g): Food, liquid, hot.
+    *   Sub-concept (r): Food, hollow/hole/pierced.
+
+    *   Food + Liquid + Hot (g) + Food + Hollow (r).
+    *   Maybe a liquid food? Soup?
+    *   Soup is a liquid and hot. Is it hollow? Not really.
+    *   Maybe something eaten with a hole? Donut? Donut isn't really liquid/hot (though jelly donuts are hot sometimes, but mostly it's a solid).
+    *   Wait, "Hollow/Hole/Pierced" (H9).
+    *   Could it be a bagel? (Solid).
+    *   Could it be something containing a liquid?
+    *   How about "Soup"? Is it hollow? No.
+    *   What about an egg? An egg is food. Not really liquid/hot as a definition, though the contents are.
+    *   What about a taco? No.
+    *   Let's look at H9 again: "Hollow / Hole / Pierced".
+    *   Let's look at F3/F1: Hot liquid.
+    *   Maybe coffee? Coffee is a hot liquid. Is it hollow? A cup is hollow, but the clue is on the *food* (A14).
+    *   Is there a food that is liquid and has a hole?
+    *   Wait, "A14" is the concept.
+    *   Could it be a "Dumpling"? "Noodle"?
+    *   Think about "Hot liquid" + "Hole".
+    *   What if the "Hole" refers to the shape of the food?
+    *   Donut (not liquid).
+    *   Bagel (not liquid).
+    *   What about "Spaghetti" or "Pasta"? Some pasta shapes are hollow (Macaroni, Penne).
+    *   Penne or Macaroni is a food (A14). It can be served in a hot liquid (F3, F1). It is hollow (H9).
+
+    *   Soup (fits hot/liquid, but not hollow).
+    *   Macaroni (fits food, hollow, and often in hot liquid).
+    *   Penne (fits food, hollow, and often in hot liquid).
+    *   Donut (fits food and hollow, but not usually a liquid).
+
+    Let's re-examine the markers:
+    `?g A14` (Food)
+    `+ F3` (Liquid)
+    `+ F1` (Hot)
+    `!r A14` (Food)
+    `+ H9` (Hollow)
+
+    If the answer is "Soup", H9 (Hollow) might be the bowl? No, the markers are on the concept/sub-concept. If the sub-concept is "Food", then "Hollow" describes the food.
+    If the answer is "Macaroni", it's a food, it's hollow, and it's often in a hot liquid.
+
+    Let's consider other "Hot Liquid" foods.
+    Tea? (Liquid, hot, but not "food" usually, though it can be).
+    Coffee?
+    Soup?
+
+    Wait, could it be "Ramen"? Ramen is food, it's a hot liquid (the broth), and the noodles can be... no, noodles aren't hollow.
+    Wait, "Macaroni" or "Penne" are definitely hollow.
+
+    Is there anything else?
+    What about "A donut"? Not liquid.
+    What about "An egg"? Not hollow (unless broken).
+
+    Let's try "Soup" first as it's a very common "Hot Liquid Food". But the "Hollow" is a strong clue.
+    Maybe "Pasta"?
+    Maybe "Macaroni"?
+
+    Let's look at the markers again.
+    `?g A14` (Main Concept: Food)
+    `+ F3` (Liquid)
+    `+ F1` (Hot)
+    `!r A14` (Sub-concept: Food)
+    `+ H9` (Hollow)
+
+    Is there a food that *is* a liquid and *is* hollow? That's a contradiction.
+    Wait, the `!r` group is a *sub-concept*. The sub-concept is "Food" and it is "Hollow".
+    The main concept is "Food" and it is "Liquid" and "Hot".
+
+    If the food is "Soup", the sub-concept "Hollow" doesn't fit the soup itself.
+    If the food is "Macaroni", the main concept "Liquid" describes the dish (macaroni soup/broth) and the sub-concept "Hollow" describes the macaroni.
+
+    Wait, "Pasta" or "Macaroni" seems most likely.
+
+    Another thought: "Coffee"? No, not really "food".
+    "Hot chocolate"? Not hollow.
+
+    What about "Spaghetti"? Not hollow.
+
+    Let's try:
+    1. Macaroni
+    2. Soup
+    3. Pasta
+
+    Wait, could it be "Cereal"? No.
+
+    Let's think about "Hollow" + "Liquid" + "Hot".
+    What about "A donut"? No, liquid.
+    What about "Water"? Not food.
+
+    What if the answer is "A dumpling"? No.
+
+    Could the answer be "A doughnut"? (No, not liquid).
+    Could the answer be "A bagel"? (No, not liquid).
+
+    Could the answer be "Soup"? Maybe the "Hollow" refers to the bowl? But the marker is on "Food". Usually, the markers describe the *answer*.
+
+    If the answer is "Soup", and the clue-giver put a marker on Food + Hollow, they might be thinking of the bowl. But that's a bit meta.
+
+    Let's look at H9 again: "Hollow / Hole / Pierced".
+    If the food *is* a liquid and it is *hot*, and it is *hollow*...
+    Maybe "A donut" isn't it.
+    "Macaroni" is the best fit for "Hollow Food".
+
+    Let's try:
+    1. Macaroni
+    2. Soup
+    3. Pasta
+
+    Actually, "Soup" is often just a liquid. "Macaroni" is a specific food.
+    "Penne" is also good.
+
+    Wait! "Hot liquid" + "Hollow"... "A donut" is not liquid.
+    What about "A cocoa"? No.
+
+    Let's try:
+    1. Macaroni
+    2. Soup
+    3. Pasta
+
+    Wait, I'll try "Soup" as one because it's the most common "Hot liquid food".
+    "Macaroni" because of the "Hollow" part.
+    "Donut" just in case they mean "Hollow" and "Hot/Liquid" (like a jelly donut?) - no, that's weak.
+
+    Wait, "Pasta" covers a lot.
+
+    Let's consider "Noodle".
+
+    Let's try:
+    1. Macaroni
+    2. Soup
+    3. Pasta
+
+    One more idea: "A dumpling"? No. "A taco"? No.
+    "An egg"? No.
+
+    Wait, what if the "Liquid" and "Hot" is the *main concept* and the "Hollow" is a *sub-concept*?
+    Main: Hot Liquid Food.
+    Sub: Hollow Food.
+    Answer: Macaroni? (It's a food, often in hot liquid, and is hollow).
+    Answer: Soup? (It's a food, it's a hot liquid, but is it hollow? No.)
+
+    Let's go with Macaroni, Soup, Pasta.
+
+    Actually, looking at the `!r` group:
+    `!r A14` (Food)
+    `+ H9` (Hollow)
+    This means "A food that is hollow".
+    `?g A14` (Food)
+    `+ F3` (Liquid)
+    `+ F1` (Hot)
+    This means "A food that is a hot liquid".
+
+    If the answer is a single thing, it must satisfy both? Or is it a dish?
+    If the answer is "Macaroni soup", it's a food that is a hot liquid and the food part (macaroni) is hollow.
+    "Macaroni" or "Pasta" are safer.
+
+    Let's try:
+    1. Macaroni
+    2. Soup
+    3. Pasta
+
+    Wait, could it be "Donut"? (If you consider it a hot liquid? No).
+    Could it be "Tea"? (Not a food).
+
+    Let's stick to Macaroni.

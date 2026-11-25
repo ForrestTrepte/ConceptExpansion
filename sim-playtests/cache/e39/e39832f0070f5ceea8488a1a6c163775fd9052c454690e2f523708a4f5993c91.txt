@@ -1,0 +1,10 @@
+{
+  "guesses": [
+    "Breaking news",
+    "Split hairs",
+    "Broken record"
+  ]
+,
+"pass"
+: false
+}

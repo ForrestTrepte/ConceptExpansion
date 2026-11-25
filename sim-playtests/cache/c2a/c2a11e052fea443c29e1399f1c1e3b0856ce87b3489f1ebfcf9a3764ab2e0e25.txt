@@ -1,0 +1,13 @@
+New prompt.
+
+Step 1, markers placed:
+?g A4
++ C3 x2
++ Brown
+!r B4
++ H12
+Board now:
+?g A4 | C3, C3, Brown
+!r B4 | H12
+
+Give up to 3 guesses, best first, or pass.

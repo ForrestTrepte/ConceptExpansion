@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Blackbeard",
+    "Nick Fury",
+    "The Terminator"
+  ]
+,
+"pass": false
+}

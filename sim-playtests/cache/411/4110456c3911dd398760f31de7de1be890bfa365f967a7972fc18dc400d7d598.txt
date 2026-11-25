@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Achilles' heel",
+    "Heel",
+    "Weakness"
+  ]
+,
+"pass": false
+}

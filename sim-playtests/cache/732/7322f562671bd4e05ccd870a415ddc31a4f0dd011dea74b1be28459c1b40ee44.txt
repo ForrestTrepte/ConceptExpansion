@@ -1,0 +1,92 @@
+*   `!r B9`: Red sub-concept marker on B9 (Building/Monument/City).
+    *   `+ A8`: Red sub-concept cube on A8 (Idea/Intelligence/Concept/Light bulb).
+    *   `+ B14`: Red sub-concept cube on B14 (House/Dwelling/Room/Domestic).
+
+    *   The red marker (`!r`) is on B9 (Building).
+    *   The additional red cubes (`+`) are on A8 (Idea/Concept) and B14 (House).
+    *   Since all these markers are in the red group (`!r`), they are part of a single sub-concept description.
+    *   Description: A building (B9) related to an idea (A8) and a house (B14).
+
+    *   Building + Idea + House.
+    *   A building that is an idea or related to a home/domestic concept.
+    *   Wait, looking at the notation: `!r` is the red sub-concept pawn. The `+` markers are cubes in the same group.
+    *   So, the clue is: [Sub-concept: Building, Idea, House].
+
+    *   Think of buildings that represent ideas or are "idea houses".
+    *   Maybe "White House"? (Building + Politics/Power? No, B9 is building. A8 is Idea. B14 is House).
+    *   Could it be a "Brainstorming" room? No, that's an activity.
+    *   "Home" as an idea?
+    *   "Idea" + "Building" + "Home".
+    *   Maybe "Think Tank"? (A "tank" is a building? No. But "Think" is an idea (A8). "Tank" is not a building (B9).
+    *   Maybe "Pentagon"? (No).
+    *   Wait, B9 (Building) + A8 (Idea) + B14 (House).
+    *   Is it a "Mansion"? (Just a house).
+    *   Is it a "Library"? (Building, knowledge/ideas). But B14 is house/dwelling.
+    *   Is it a "Smart Home"? (A8: Idea/Intelligence + B14: House). Is a Smart Home a building (B9)? Yes.
+    *   "Headquarters"? (B9: Building, A8: Idea/Intelligence, B14: No, not really home).
+    *   "Thought" + "House"? "House of Wisdom"?
+    *   "University"? (A8: Intelligence, B9: Building, but not B14).
+    *   "Dream house"? (A8: Idea/Dream + B14: House). Is a dream house a building? Yes.
+
+    1.  Smart home (Idea + House/Dwelling)
+    2.  Dream house (Idea/Concept + House)
+    3.  Think tank (Idea + Building?) - A bit of a stretch for B14.
+
+    Let's look at the markers again.
+    `!r B9` (Building)
+    `+ A8` (Idea/Intelligence)
+    `+ B14` (House/Home)
+
+    A building that is a house and is an idea.
+    "Dream house" fits "Idea" (A8) and "House" (B14). Is a dream house a building? Usually.
+    "Smart home" fits "Intelligence" (A8) and "House" (B14). Is a smart home a building? Yes.
+
+    Let's try "Smart home" or "Dream house".
+
+    Wait, let's look at B9 again. B9 is "Building / Monument / City".
+    If the answer was "Smart Home", the main concept `?g` would likely be something like "Object" or "Concept". The `!r` sub-concept describing its features would be "House" and "Electronic".
+    If the answer is "Dream House", `?g` would be "Object" or "Concept", and `!r` would be "House" and "Idea/Dream".
+
+    Another possibility: "White House"? (Building + Politics/Power). A8 is Idea, not Politics.
+
+    What about "Home" (concept)?
+    What about "Headquarters"?
+
+    Let's try "Smart home".
+
+    Wait, could it be "Brain"? No, B9 is building.
+    Could it be "Memory Palace"? (A8 Idea/Memory + B9 Building + B14 House/Dwelling). That's a strong candidate. A "Memory Palace" is a mnemonic device (Idea) that is a mental building (Building) acting as a house (Dwelling).
+
+    Let's check the clues:
+    B9: Building
+    A8: Idea
+    B14: House/Dwelling
+
+    "Memory Palace"
+    - Idea/Intelligence (A8) - Yes.
+    - Building (B9) - Yes.
+    - House/Dwelling (B14) - Yes.
+
+    "Smart home"
+    - Intelligence (A8) - Yes.
+    - Building (B9) - Yes.
+    - House (B14) - Yes.
+
+    "Dream house"
+    - Idea (A8) - Yes.
+    - Building (B9) - Yes.
+    - House (B14) - Yes.
+
+    I'll go with "Smart home", "Dream house", and "Memory Palace".
+
+    Wait, looking at A8: "Idea / Intelligence / Concept".
+    B9: "Building / Monument / City".
+    B14: "House – Dwelling / Room / Domestic".
+
+    Another one: "Think tank"? Not really a house.
+    "Pentagon"? Not an idea.
+
+    Let's try:
+    1. Smart home
+    2. Dream house
+    3. Memory Palace

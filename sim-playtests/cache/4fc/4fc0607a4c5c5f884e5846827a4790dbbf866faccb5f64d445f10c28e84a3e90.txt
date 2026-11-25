@@ -1,0 +1,52 @@
+*   `?g D8`: Main Concept is Time / Duration.
+    *   `+ A12`: Detail: Ground transportation / Road.
+    *   `+ B1`: Detail: Human / Society / Group.
+    *   `!r D3`: Sub-concept (red): Fast / Race.
+        *   `+ A12`: Detail for the fast thing: Ground transportation / Road.
+    *   `!y D8`: Sub-concept (yellow): Time / Duration.
+
+    *   Main concept: Time/Duration.
+    *   Related to: Roads, Humans/Society, Fast/Racing, and Time.
+
+    *   A race? (D3, D8, A12)
+    *   Traffic jam? (A12, D8, B1)
+    *   A commute? (A12, D8, B1)
+    *   Speed limit? (A12, D8, B1)
+    *   A marathon? (D3, A12, B1)
+    *   Formula 1? (D3, A12, B1)
+    *   Grand Prix? (D3, A12, B1)
+    *   Pit stop? (D3, A12, D8)
+    *   Racing season? (D3, D8, A12)
+
+    *   `?g D8` (Time)
+    *   `+ A12` (Road)
+    *   `+ B1` (Group/Society)
+    *   `!r D3` (Fast/Race)
+    *   `+ A12` (Road)
+    *   `!y D8` (Time)
+
+    The combination of "Time" + "Road" + "People" + "Fast" suggests a racing event or something related to the duration of travel on a road.
+
+    *Guess 1:* Racing (specifically road racing like F1 or NASCAR, but "Race" is a good general guess).
+    *Guess 2:* Traffic (Time + Road + People).
+    *Guess 3:* Commute (Time + Road + People).
+
+    Let's refine. The "Fast/Race" sub-concept is quite specific.
+
+    *Guess 1:* Race
+    *Guess 2:* Traffic jam
+    *Guess 3:* Formula 1
+
+    Wait, `?g D8` (Time) is the *main concept*.
+    If the answer is "Race", "Time" would be a component or aspect.
+    If the answer is "Traffic Jam", "Time" is an aspect.
+    If the answer is "Commute", "Time" is an aspect.
+
+    Maybe "Time limit"? No, A12/B1/D3.
+    Maybe "Tour de France"? (B1/A12/D3/D8).
+    Maybe "Speed limit"? (A12/D8/D3).
+
+    Let's go with:
+    1. Race
+    2. Traffic jam
+    3. Commute

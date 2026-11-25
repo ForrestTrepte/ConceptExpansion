@@ -1,0 +1,138 @@
+{
+  "contentSha256": "81686458301b5b40beea876d9a147bb0b3c9475a1a2bcaf25a2c543b7635a9e0",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "90167f6773b23c0d34d7074b521186233b0757584cab853ba7be1b70066d6420"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "d7a45661b3bac63333b65dd03d8aacfa815983b0486e53f4906a69d845e7f1e3"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "openai/gpt-6-luna",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "pass": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "guesses",
+                "pass"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-2"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "db82776",
+    "costUsd": 0.00012976,
+    "latencyMs": 3076,
+    "recordedAt": "2026-11-23T22:14:24.541Z",
+    "recordedBy": "claude",
+    "servedBy": "OpenAI",
+    "servedModel": "openai/gpt-6-luna",
+    "tags": {
+      "run": "calibrate-or-luna"
+    },
+    "usage": {
+      "cacheReadTokens": 4796,
+      "cacheWriteTokens": 0,
+      "inputTokens": 4799,
+      "outputTokens": 163,
+      "reasoningTokens": 136
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"Batman\",\"Darth Vader\",\"Black Panther\"],\"pass\":false}",
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "data": {
+                "$llmemo.text": "20bb350bb15b7ef9733862b7bf6e7f4efead68ffef7de8a39df1d824b638dad5"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_0cc2fe5514c913fd016b04babe128487d184f5dc4cd612c36a",
+              "index": 0,
+              "type": "reasoning.encrypted"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "completed"
+      }
+    ],
+    "created": 1795472061,
+    "id": "gen-1795472061-SeZR0CmZI6DO8qtYNQoK",
+    "model": "openai/gpt-6-luna",
+    "object": "chat.completion",
+    "provider": "OpenAI",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 163,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 136
+      },
+      "cost": 0.00012976,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0000815,
+        "upstream_inference_cost": 0.00012976,
+        "upstream_inference_prompt_cost": 0.00004826
+      },
+      "is_byok": false,
+      "prompt_tokens": 4799,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 4796,
+        "video_tokens": 0
+      },
+      "total_tokens": 4962
+    }
+  }
+}

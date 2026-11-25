@@ -1,0 +1,165 @@
+{
+  "contentSha256": "76a709f6b62711b34162bb0c009717e726cc1701db988d961964d04784719ad9",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "clue-giver",
+    "request": {
+      "backend": "claude-cli",
+      "effort": "high",
+      "jsonSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "clue",
+              "give_up"
+            ],
+            "type": "string"
+          },
+          "lines": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "plan": {
+            "type": "string"
+          },
+          "verdict": {
+            "enum": [
+              "yes",
+              "no"
+            ],
+            "type": "string"
+          },
+          "yes_to": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "verdict",
+          "yes_to",
+          "action",
+          "plan",
+          "lines"
+        ],
+        "type": "object"
+      },
+      "model": "claude-opus-5-5",
+      "prompt": {
+        "$llmemo.text": "79bc428ce7b51ffb015c19ba010b8993ac3dd4fbb369c4d64c249e732fc99638"
+      },
+      "system": [
+        {
+          "$llmemo.text": "29d73c99f00758a55ed046d05b0403c1ca98589e4f1e9e1a977874ccbdd10cbc"
+        },
+        {
+          "$llmemo.text": "f373fc6916e23cbfb200734dc22a2e5e9c5e4036a219150f66eed09550c1df85"
+        },
+        {
+          "$llmemo.text": "2fde04bc2e1af13938737fe97d53aa72e4604167970b9d0beb7f36b50e0a89fd"
+        }
+      ]
+    },
+    "variant": "play"
+  },
+  "meta": {
+    "billing": "subscription",
+    "codeVersion": "9348bfa-dirty",
+    "costUsd": 0.015330799999999999,
+    "latencyMs": 6971,
+    "recordedAt": "2026-11-23T21:13:34.682Z",
+    "recordedBy": "developer",
+    "servedBy": "firstParty",
+    "servedModel": "claude-opus-5-5",
+    "tags": {
+      "game": "2026-11-23/Sloth",
+      "run": "play-play"
+    },
+    "toolVersion": "2.1.330 (Claude Code)",
+    "usage": {
+      "cacheReadTokens": 6394,
+      "cacheWriteTokens": 788,
+      "inputTokens": 2,
+      "outputTokens": 387,
+      "reasoningTokens": 178
+    }
+  },
+  "reply": {
+    "api_error_status": null,
+    "is_error": false,
+    "modelUsage": {
+      "claude-opus-5-5": {
+        "cacheCreationEphemeral1hInputTokens": 788,
+        "cacheCreationEphemeral5mInputTokens": 0,
+        "cacheCreationInputTokens": 788,
+        "cacheReadInputTokens": 6394,
+        "canonicalModel": "claude-opus-5-5",
+        "contextWindow": 1000000,
+        "costBasis": "list",
+        "costUSD": 0.015330799999999999,
+        "inputTokens": 2,
+        "maxOutputTokens": 128000,
+        "outputTokens": 387,
+        "provider": "firstParty",
+        "thinkingTokens": 178,
+        "webSearchRequests": 0
+      }
+    },
+    "num_turns": 2,
+    "permission_denials": [],
+    "result": "{\"verdict\":\"no\",\"yes_to\":\"\",\"action\":\"clue\",\"plan\":\"Show the hanging from tree branches by its arms, upside down. If they guess koala/monkey, say Yes and stress slowness more.\",\"lines\":[\"+r D11\",\"!y E8\",\"+ C11\",\"+ H12\"]}",
+    "stop_reason": "tool_use",
+    "structured_output": {
+      "action": "clue",
+      "lines": [
+        "+r D11",
+        "!y E8",
+        "+ C11",
+        "+ H12"
+      ],
+      "plan": "Show the hanging from tree branches by its arms, upside down. If they guess koala/monkey, say Yes and stress slowness more.",
+      "verdict": "no",
+      "yes_to": ""
+    },
+    "subtype": "success",
+    "terminal_reason": "completed",
+    "type": "result",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 788,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 788,
+      "cache_read_input_tokens": 6394,
+      "fallback_credit": null,
+      "inference_geo": "global",
+      "input_tokens": 2,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 788,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 788,
+          "cache_read_input_tokens": 6394,
+          "input_tokens": 2,
+          "output_tokens": 387,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 387,
+      "output_tokens_details": {
+        "thinking_tokens": 178
+      },
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

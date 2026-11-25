@@ -1,0 +1,14 @@
+New prompt.
+
+Step 1, markers placed:
+?g B7
++ F10
++ C7
+!r B8
++ F10
++ A7
+Board now:
+?g B7 | F10, C7
+!r B8 | F10, A7
+
+Give up to 3 guesses, best first, or pass.

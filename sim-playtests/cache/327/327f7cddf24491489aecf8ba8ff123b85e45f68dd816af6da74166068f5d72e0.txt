@@ -1,0 +1,91 @@
+*   Main Concept (green `?` pawn): `D2` (Masculine / Male).
+    *   Wait, the prompt says: `?g D2 [placed between C2 and D2: a person of either sex]`.
+    *   Let's re-read the board reference for `D2`.
+    *   `D2` is "Masculine / Male".
+    *   `C2` is "Feminine / Female".
+    *   If the clue-giver meant "a person of either sex", they would likely use `B1` (Human / Society / Group) or maybe `A2` (Human / Real / Historical).
+    *   However, the marker is specifically on `D2`.
+    *   Wait, the prompt text says: `?g D2 [placed between C2 and D2: a person of either sex]`. This might be a slight error in the user's description of the icon, as `D2` is clearly "Male". Or, they are suggesting the *location* or *intent* is something else.
+    *   Looking at the Board Reference:
+        *   `B1` = Human / Society / Group
+        *   `A2` = Human / Real / Historical
+        *   `D2` = Masculine / Male
+    *   If the clue is *just* `?g D2`, the main concept is a Male.
+
+    *   The clue is extremely minimal: `?g D2` (Main concept is a male).
+    *   This could be *anyone* or *anything* masculine.
+    *   Common early guesses for a "male" concept:
+        1.  Man
+        2.  Boy
+        3.  King / Prince / Father (Specific types of males)
+    *   However, in Concept, if the clue is just "Male", the answer is likely a specific well-known male person, or a word like "Man".
+
+    *   Wait, let me re-read the prompt: `?g D2 [placed between C2 and D2: a person of either sex]`.
+    *   If the marker is actually intended to represent a person (human) but they placed it on D2... no, that's not how the game works. The clue-giver uses icons to convey meaning.
+    *   If the pawn is on `D2`, the guesser must assume the category is "Male".
+    *   What is a very common "Male" answer?
+        *   Man
+        *   Boy
+        *   Father
+        *   Brother
+        *   King
+        *   Prince
+        *   God (though that's more B1/C9)
+        *   Hero
+    *   Since it's the *first* marker, it's just a very broad category.
+
+    *   Actually, look at the prompt again: `?g D2 [placed between C2 and D2: a person of either sex]`. This bracketed text is the *user's* explanation of what the clue *means*.
+    *   But the rule says: "The clue-giver doesn't say which meaning they intend, so the guesser has to work it out from the other markers." And "The clue-giver... gives no other hints".
+    *   In a real game, I wouldn't see the bracketed text. I would only see `?g D2`.
+    *   If I only see `?g D2`, I think "The main concept is a Male."
+    *   Wait, the user's bracketed text might be a hint to *me* (the AI) about the intended meaning, or it might be a description of the physical location on a board (though the board is a grid, not a continuous plane).
+    *   "placed between C2 and D2" doesn't make sense on a grid. A1, B1, C1...
+    *   Let's assume the clue is simply `?g D2`.
+
+    *   Common answers for `?g D2`:
+        1.  Man
+        2.  Boy
+        3.  King
+
+    *   Actually, if the intention is "a person of either sex" (as per the bracketed text), the icon should have been `B1` or `A2`. If the user *placed* it on `D2` but *meant* "Human", that's a bad clue. But if I am to follow the instruction "You are the guesser", I must interpret the markers provided.
+    *   Markers provided: `?g D2`.
+    *   Interpretation: The answer is a Male.
+
+    *   Let's try:
+        1. Man
+        2. Boy
+        3. Father
+
+    *   Wait, let me look at the board again. Is there a code that means "Human"?
+        *   `A2` (Human / Real / Historical)
+        *   `B1` (Human / Society / Group)
+    *   `D2` is just "Male".
+
+    *   Let's provide guesses.
+
+    *   1. Man
+    *   2. Boy
+    *   3. Male
+
+    *   Maybe the user is implying the *answer* is a male person.
+
+    *   Let's check if `D2` could mean something else. No.
+    *   What if the answer is "Human"? (But the clue says Male).
+    *   What if the answer is "Man"?
+
+    *   Let's go with:
+    *   Man
+    *   Boy
+    *   Father
+
+    *   *Self-Correction*: The bracketed text `[placed between C2 and D2: a person of either sex]` is very confusing. In the board provided:
+        C2: Female
+        D2: Male
+        There is nothing "between" them in a grid sense (C2 to D2 is just one step).
+        If the user meant the concept is "Human", they should have used a different icon.
+        However, as a player, if I see `?g D2`, I guess "Man".
+
+    *   Let's try:
+        1. Man
+        2. Boy
+        3. Father

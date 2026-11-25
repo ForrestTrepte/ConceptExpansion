@@ -1,0 +1,31 @@
+*   `?g A12`: Main concept is A12 (Ground transportation / Road / Vehicle).
+    *   `+ A14`: Adding a detail of A14 (Food / Eating / Edible).
+
+    *   The answer is a type of ground transportation (car, bike, train, truck, etc.) that is also food-related.
+    *   Wait, `+ A14` means it's related to food/eating.
+    *   Could it be a "Food Truck"?
+    *   Could it be a "Carrot" (car-rot)? (No, A12 is transportation, not "car").
+    *   Could it be "Drive-thru"? (A12 is ground transportation, A14 is eating).
+    *   What about "Burger Van"?
+    *   What about "Pizza delivery bike/car"?
+    *   What about "Ice cream truck"?
+
+    *   `?g A12`: It's a ground vehicle.
+    *   `+ A14`: It involves food.
+    *   Most likely: "Food truck" or "Ice cream truck".
+
+    *   Guess 1: Food truck
+    *   Guess 2: Ice cream truck
+    *   Guess 3: Pizza delivery car
+
+    Wait, "Food truck" is a very common phrase. "Ice cream truck" is also common.
+
+    Let's look at the icons again.
+    A12: Ground transportation.
+    A14: Food / Eating / Edible.
+
+    Could it be "Carrot"? (A12: Car, A14: Rot? No, that's too much of a linguistic stretch for Concept).
+    Could it be "Hot dog"? (No, A12 is ground transportation).
+    Could it be "Drive-thru"? (A12: Road/Car, A14: Food).
+
+    Let's try "Food truck".

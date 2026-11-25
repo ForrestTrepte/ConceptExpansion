@@ -1,0 +1,159 @@
+{
+  "contentSha256": "a715fc8c5e68705d9e8d2dd3643be2281471c9f9d04780950f7bcda31d33d6b4",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "clue-giver",
+    "request": {
+      "backend": "claude-cli",
+      "effort": "high",
+      "jsonSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "clue",
+              "skip"
+            ],
+            "type": "string"
+          },
+          "confidence": {
+            "maximum": 5,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "lines": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "plan": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "confidence",
+          "action",
+          "plan",
+          "lines"
+        ],
+        "type": "object"
+      },
+      "model": "claude-opus-5-5",
+      "prompt": {
+        "$llmemo.text": "abed3eb57b952ee16bb5e14fa7c1825cb3327cb3e4fcb274144b8bec6d1b5062"
+      },
+      "system": [
+        {
+          "$llmemo.text": "29d73c99f00758a55ed046d05b0403c1ca98589e4f1e9e1a977874ccbdd10cbc"
+        },
+        {
+          "$llmemo.text": "f373fc6916e23cbfb200734dc22a2e5e9c5e4036a219150f66eed09550c1df85"
+        },
+        {
+          "$llmemo.text": "2fde04bc2e1af13938737fe97d53aa72e4604167970b9d0beb7f36b50e0a89fd"
+        }
+      ]
+    },
+    "variant": "play"
+  },
+  "meta": {
+    "billing": "subscription",
+    "codeVersion": "9348bfa-dirty",
+    "costUsd": 0.013407200000000001,
+    "latencyMs": 12800,
+    "recordedAt": "2026-11-23T21:17:38.980Z",
+    "recordedBy": "developer",
+    "servedBy": "firstParty",
+    "servedModel": "claude-opus-5-5",
+    "tags": {
+      "game": "2026-11-23/Talk of the town",
+      "run": "play-play"
+    },
+    "toolVersion": "2.1.330 (Claude Code)",
+    "usage": {
+      "cacheReadTokens": 6376,
+      "cacheWriteTokens": 628,
+      "inputTokens": 2,
+      "outputTokens": 355,
+      "reasoningTokens": 139
+    }
+  },
+  "reply": {
+    "api_error_status": null,
+    "is_error": false,
+    "modelUsage": {
+      "claude-opus-5-5": {
+        "cacheCreationEphemeral1hInputTokens": 628,
+        "cacheCreationEphemeral5mInputTokens": 0,
+        "cacheCreationInputTokens": 628,
+        "cacheReadInputTokens": 6376,
+        "canonicalModel": "claude-opus-5-5",
+        "contextWindow": 1000000,
+        "costBasis": "list",
+        "costUSD": 0.013407200000000001,
+        "inputTokens": 2,
+        "maxOutputTokens": 128000,
+        "outputTokens": 355,
+        "provider": "firstParty",
+        "thinkingTokens": 139,
+        "webSearchRequests": 0
+      }
+    },
+    "num_turns": 2,
+    "permission_denials": [],
+    "result": "{\"confidence\":3,\"action\":\"clue\",\"plan\":\"Main concept is an expression. Clue the word \\\"talk\\\" with the speech bubble and mouth, and \\\"town\\\" with buildings marked small. Next I can add the group-of-people icon to suggest everyone gossiping.\",\"lines\":[\"?g B8\",\"!r B8\",\"+ D14\",\"!y B9\",\"+ H10\"]}",
+    "stop_reason": "tool_use",
+    "structured_output": {
+      "action": "clue",
+      "confidence": 3,
+      "lines": [
+        "?g B8",
+        "!r B8",
+        "+ D14",
+        "!y B9",
+        "+ H10"
+      ],
+      "plan": "Main concept is an expression. Clue the word \"talk\" with the speech bubble and mouth, and \"town\" with buildings marked small. Next I can add the group-of-people icon to suggest everyone gossiping."
+    },
+    "subtype": "success",
+    "terminal_reason": "completed",
+    "type": "result",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 628,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 628,
+      "cache_read_input_tokens": 6376,
+      "fallback_credit": null,
+      "inference_geo": "global",
+      "input_tokens": 2,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 628,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 628,
+          "cache_read_input_tokens": 6376,
+          "input_tokens": 2,
+          "output_tokens": 355,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 355,
+      "output_tokens_details": {
+        "thinking_tokens": 139
+      },
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

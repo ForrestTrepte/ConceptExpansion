@@ -1,0 +1,3 @@
+{ 
+"guesses": ["Microchip", "Circuit", "Computer"] 
+}

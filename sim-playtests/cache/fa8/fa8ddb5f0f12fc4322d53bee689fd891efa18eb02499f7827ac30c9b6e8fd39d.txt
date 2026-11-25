@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Press",
+    "Push",
+    "Click"
+  ]
+,
+  "pass": false
+}

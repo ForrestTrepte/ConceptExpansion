@@ -1,0 +1,22 @@
+# Interactive games (`simplay.py play play`): you guess, the model gives clues. Prompts
+# are picked at random from unassigned drafts, so the list is empty. Humans can call
+# out several guesses at once.
+#
+# 2026-11-23: Opus at high effort with the one-line-per-icon reference, after Sonnet at
+# medium effort with the table reference gave muddled clues (see that day's log). If
+# Opus does well, try Opus at lower effort and Sonnet at high effort.
+mode = "model-clues"
+prompts = []
+max_rounds = 10
+max_guesses = 5
+reference = "list"
+spend_limit_usd = 3.0
+
+[clue_giver]
+model = "claude-opus-5-5"
+effort = "high"
+
+[guesser]
+# Not used by play (you are the guesser), but a model-clues spec needs one.
+model = "claude-haiku-5-5"
+effort = "low"

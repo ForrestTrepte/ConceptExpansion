@@ -1,0 +1,82 @@
+*   Current Markers:
+        *   `?g B8`: Main Concept is an Expression, Quote, or Talking/Words.
+        *   `+ F8`: (Related to B8) Cut, Break, or Separation.
+        *   `+g E1`: Main Concept is also related to Cold, Snow, Rain, or Cloud.
+
+    *   `?g B8` (Expression/Words) + `F8` (Cut/Break) + `E1` (Cold/Snow/Cloud)
+
+    *   *Attempt 1 (Focus on B8 + F8):*
+        *   Broken record (Rejected)
+        *   Cutting words (Too literal?)
+        *   Short shrift (Maybe?)
+        *   Cut to the chase (Doesn't fit E1)
+        *   Broken promise (Doesn't fit E1)
+
+    *   *Attempt 2 (Focus on B8 + E1):*
+        *   Cold words (Doesn't really exist as a common phrase)
+        *   Snowed under (Doesn't fit B8/F8)
+        *   Brain freeze (Doesn't fit B8/F8)
+
+    *   *Attempt 3 (Combining all three: Expression + Break + Cold):*
+        *   "Cold shoulder" (Expression: Yes; Break/Separation: Yes; Cold: Yes)
+        *   Wait, "Cold shoulder" is an expression of dismissal/separation.
+        *   Let's check the icons:
+            *   B8: Expression/Talking
+            *   F8: Cut/Break/Separation
+            *   E1: Cold
+
+    *   *Wait, let's re-evaluate "Cold shoulder".*
+        *   Is it an expression? Yes.
+        *   Is it "cold"? Yes (E1).
+        *   Is it "separation/cut"? A "shoulder" is a body part, but the *concept* of a cold shoulder is a social separation/dismissal. However, "shoulder" isn't in the clues.
+        *   Wait, the `F8` (Cut/Break/Separation) could be the "separation" aspect of giving someone the cold shoulder.
+
+    *   *Another option:*
+        *   "Broken ice" -> "Breaking the ice".
+        *   B8 (Expression/Words) + F8 (Break) + E1 (Cold/Ice/Water/Snow).
+        *   "Breaking the ice" (to start talking).
+
+    *   *Compare "Cold shoulder" vs "Breaking the ice":*
+        *   "Cold shoulder": B8 (Expression), E1 (Cold), F8 (Separation).
+        *   "Breaking the ice": B8 (Expression/Words/Talking), F8 (Break), E1 (Cold/Ice/Snow).
+
+    *   "Breaking the ice" fits the "Break" (F8) and "Cold" (E1) very well.
+    *   "Cold shoulder" fits "Cold" (E1) and "Separation" (F8) well.
+
+    *   Let's look at the previous guesses: "Broken record", "Abbreviation", "Broken English".
+    *   The user rejected these. All were "Broken [something]".
+    *   If the answer was "Breaking the ice", the guess "Broken record" is quite close in structure (Broken [Noun]).
+
+    *   Let's try "Breaking the ice".
+    *   Let's try "Cold shoulder".
+    *   Let's try "Icebreaker". (B8, F8, E1).
+
+    *   *Self-Correction:*
+        `?g B8` means the *Main Concept* is an expression/quote/words.
+        `+ F8` is a sub-concept (related to the expression) meaning Cut/Break/Separation.
+        `+g E1` is a sub-concept (related to the expression) meaning Cold/Snow/Rain.
+
+    *   If the answer is "Breaking the ice":
+        *   Main Concept: B8 (Expression) - Yes.
+        *   Sub-concept 1: F8 (Break) - Yes.
+        *   Sub-concept 2: E1 (Cold) - Yes.
+
+    *   If the answer is "Cold shoulder":
+        *   Main Concept: B8 (Expression) - Yes.
+        *   Sub-concept 1: F8 (Separation) - Yes.
+        *   Sub-concept 2: E1 (Cold) - Yes.
+
+    *   "Breaking the ice" feels like a stronger fit for "Break" (F8).
+
+    *   1. Breaking the ice
+    *   2. Cold shoulder
+    *   3. Icebreaker (or maybe "Snowed under"? No, that doesn't fit B8).
+
+    *   Let's check "Icebreaker":
+        *   Is it an expression? It's a noun/thing, but often used in the context of conversation.
+        *   Wait, the clue `?g B8` specifically points to the answer being an *expression* or *words*. "Breaking the ice" is a phrase. "Cold shoulder" is a phrase.
+
+    *   Final decision for guesses:
+        1. Breaking the ice
+        2. Cold shoulder
+        3. Icebreaker

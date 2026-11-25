@@ -1,0 +1,100 @@
+*   `?g B2`: The Main Concept (green `?` pawn) is on B2 (Character / Fictional / Imaginary).
+    *   `+ Red`: Red cube on B2.
+    *   `+ Blue`: Blue cube on B2.
+    *   `+ F10`: Cube on F10 (Grid - Wire - Network) in the same group as the previous line (which was Blue, but it's likely a new group or continuing a group). Wait, the notation says:
+        *   `?g B2` (Main concept: Fictional Character)
+        *   `+ Red` (Red cube on B2)
+        *   `+ Blue` (Blue cube on B2)
+        *   `+ F10` (Cube on F10)
+
+    Let's re-examine the notation rules:
+    *   `?g B2` -> Main concept is a Fictional Character.
+    *   `+ Red` -> Cube on B2 (color Red).
+    *   `+ Blue` -> Cube on B2 (color Blue).
+    *   `+ F10` -> Cube on F10 (Grid/Network).
+
+    Wait, looking at the `+` rule: `+ B11` means "Cube on B11, in the same group as the line before".
+    `+ Red` means a Red cube on B2.
+    `+ Blue` means a Blue cube on B2.
+    `+ F10` means a cube on F10. Since there's no color specified for `+ F10`, it belongs to the group of the previous line. The previous line is `+ Blue`. So it's a Blue cube on F10.
+
+    *Summary of markers:*
+    *   Main Concept: Fictional Character (B2).
+    *   Details on B2: Red, Blue.
+    *   Details on F10 (Grid/Network/Wire): Blue.
+
+    *   Fictional character.
+    *   Associated with Red and Blue.
+    *   Associated with a Grid or Network (F10).
+
+    *Hypothesis 1:* Spider-Man? (Red/Blue, but does he fit "Grid/Network"? Not really).
+    *Hypothesis 2:* Superman? (Blue/Red, but Grid?).
+    *Hypothesis 3:* A character from a game or computer/network related? (F10 is Grid/Network/Computing-adjacent/Wire).
+    *Hypothesis 4:* Something like "Tron"? (Grid/Network, Blue/Red/Neon colors).
+    *Hypothesis 5:* A character associated with a spider web (Grid/Network)? Spider-Man has Red/Blue and a web (Grid).
+    *Hypothesis 6:* A computer character? (Grid/Network).
+    *Hypothesis 7:* A character like "The Matrix" (though not really a single character)?
+    *Hypothesis 8:* A character from "The Grid" or similar?
+    *Hypothesis 9:* A specific superhero with a "web" or "network" theme.
+
+    Let's look at F10 again: "Grid – Wire – Network".
+    A "Web" (as in spider web) is a grid/network.
+    Spider-Man is a Fictional Character (B2).
+    Spider-Man wears Red and Blue.
+    Spider-Man uses webs (F10).
+
+    Let's try Spider-Man.
+
+    *Alternative:* A character related to computers/networks?
+    Maybe a character from a specific game?
+
+    *Check:* Could it be a "Spider"? (A4 is Fauna, but B2 is Character).
+    *Check:* Could it be "Internet"? (Not a character).
+
+    *Refined Guessing Strategy:*
+    1. Spider-Man (Matches Red/Blue/Character/Web-Grid).
+    2. Tron (Matches Grid/Network/Blue/Red colors).
+    3. A generic character from a computer/digital world? Or maybe something like "Cyberpunk" character?
+
+    Let's go with Spider-Man first.
+
+    Wait, looking at the notation again:
+    `?g B2` (Fictional Character)
+    `+ Red` (Red cube on B2)
+    `+ Blue` (Blue cube on B2)
+    `+ F10` (Cube on F10 - Grid/Network)
+
+    Is it possible the "Grid" refers to the "Web"?
+    A web is a network of lines/grid.
+
+    Let's try:
+    1. Spider-Man
+    2. Tron
+    3. Superman (less likely for grid)
+
+    Actually, could it be a "Web Browser"? (Not a character).
+
+    Let's try Spider-Man.
+
+    Another thought: "Spider-Man" is very strong for Red/Blue + Character + Web (Grid).
+
+    Wait, what if "Grid" refers to something else?
+    Electronic/Computing is C7. F10 is "Grid – Wire – Network".
+    Spider-Man's web is often described as a grid/network.
+
+    Let's try:
+    1. Spider-Man
+    2. Tron
+    3. Batman (has a grid-like pattern in some versions? No.)
+
+    What about "The Grid" from Tron? (It's a place, but maybe the character is "Tron"?)
+
+    Let's try Spider-Man, Tron, and maybe Superman.
+
+    Actually, let's consider if there's a character named "Grid"? No.
+    Is there a character from "The Matrix"? Neo? (Doesn't match Red/Blue as well as Spidey).
+
+    Let's stick to:
+    1. Spider-Man
+    2. Tron
+    3. Superman

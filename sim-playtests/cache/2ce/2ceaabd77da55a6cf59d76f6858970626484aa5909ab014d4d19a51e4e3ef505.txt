@@ -1,0 +1,35 @@
+New prompt.
+
+Step 1, markers placed:
+?g B8
+Board now:
+?g B8
+Guesses: Quotation, Saying, Phrase
+Clue-giver: No
+
+Step 2, markers placed:
+!r F11
+Board now:
+?g B8
+!r F11
+Guesses: One-liner, Number one, First words
+Clue-giver: No
+
+Step 3, markers placed:
+!b Blue
+Board now:
+?g B8
+!r F11
+!b Blue
+Guesses: Blue, Feeling blue, Blue Monday
+Clue-giver: No
+
+Step 4, markers placed:
+!k E2
+Board now:
+?g B8
+!r F11
+!b Blue
+!k E2
+
+Give up to 3 guesses, best first, or none to pass.

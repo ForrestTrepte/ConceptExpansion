@@ -1,0 +1,82 @@
+*   `?g B8`: Main Concept is B8 (Expression – Quote / Talking / Words).
+    *   `!r F11`: Red Sub-Concept (detail/feature/connection) is F11 (One / Unit / Number).
+
+    *   The answer is a concept related to "Words", "Talking", "Quotes", or "Expressions" (B8).
+    *   It is associated with "One" or "A single unit" (F11).
+    *   The guesser's previous guesses (Quote, Proverb, Idiom) were "No".
+
+    *   `B8` (Words/Expression) + `F11` (One) = ?
+    *   One word?
+    *   A single word?
+    *   A slogan? (Usually many words, but can be one)
+    *   A catchphrase? (Usually a phrase)
+    *   A syllable? (A unit of sound/speech)
+    *   A single syllable?
+    *   A monologue?
+    *   A word of wisdom? (Clue-giver said "No" to proverb/idiom, but maybe a specific one?)
+    *   A name? (B7 is Name, but B8 is Words/Expressions)
+    *   A single letter? (A unit, but B8 is words/talking)
+    *   One-liner? (A joke/expression that is one line)
+    *   A single word?
+
+    *   `?g B8` (Expression/Words/Talking)
+    *   `!r F11` (One)
+    *   Previous failed guesses: Quote, Proverb, Idiom.
+    *   Possible direction: Something composed of just one unit of speech.
+
+    *   Idea 1: "A single word" or "One word".
+    *   Idea 2: "A one-liner".
+    *   Idea 3: "A syllable".
+
+    Let's try "One-liner" or "A single word".
+
+    Wait, maybe it's "A single syllable"?
+    Maybe it's "One word"?
+
+    Let's refine:
+    `?g B8` (Expression/Words/Talking)
+    `!r F11` (One)
+
+    If "Quote" is No, and "Proverb" is No, and "Idiom" is No... it's not a sequence of words or a complex expression. It's simpler.
+
+    Maybe "A single word"?
+    Maybe "A slogan"? (Usually many words)
+    Maybe "A catchphrase"? (Usually many words)
+
+    What if the answer is "A word"?
+
+    Let's look at the red marker `!r`. It's a detail/feature.
+    One word.
+    One syllable.
+    One sentence? (Usually multiple words, but is a unit).
+
+    Let's try:
+    1. One word
+    2. A one-liner
+    3. A syllable
+
+    Actually, "A single word" is very likely.
+
+    Let's think about `B8` again. "Expression - Quote / Talking / Words".
+    `F11` "One / Unit / Number".
+
+    "A single word" is a strong candidate.
+    "A syllable" is also possible.
+    "A sentence" (but that's not "one" usually).
+
+    Could it be "A name"? No, that's `B7`.
+    Could it be "A speech"?
+
+    Let's go with "A single word".
+
+    Wait, `B8` is "Expression - Quote / Talking / Words".
+    If the answer is "A word", then `?g B8` fits. And `!r F11` means "One".
+    "One word".
+
+    Another possibility: "A syllable".
+    Another possibility: "A joke"? (No, B8 is the concept).
+
+    Let's try:
+    1. A single word
+    2. A syllable
+    3. A one-liner

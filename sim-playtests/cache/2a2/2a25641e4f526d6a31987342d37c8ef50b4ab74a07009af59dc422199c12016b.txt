@@ -1,0 +1,26 @@
+New prompt.
+
+Step 1, markers placed:
+?g A2
++ D2
++ A7
++ C1
+!r B13
++ Red
+Board now:
+?g A2 | D2, A7, C1
+!r B13 | Red
+Guesses: Superman, Clark Kent, Spider-Man
+Clue-giver: No
+
+Step 2, markers placed:
++g C5
+!y B14
++ B14 x2
++ B1
+Board now:
+?g A2 | D2, A7, C1, C5
+!r B13 | Red
+!y B14 | B14, B14, B1
+
+Give up to 3 guesses, best first, or none to pass.

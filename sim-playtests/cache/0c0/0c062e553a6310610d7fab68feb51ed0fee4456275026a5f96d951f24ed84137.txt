@@ -1,0 +1,27 @@
+New prompt.
+
+Step 1, markers placed:
+?g A5
++ C1
+!r Green
+!y A14
++ Green
+!b A14
++ D12
+Board now:
+?g A5 | C1
+!r Green
+!y A14 | Green
+!b A14 | D12
+Guesses: salad, vegetable, spinach
+Clue-giver: No
+
+Step 2, markers placed:
+(no new markers)
+Board now:
+?g A5 | C1
+!r Green
+!y A14 | Green
+!b A14 | D12
+
+Give up to 3 guesses, best first, or none to pass.

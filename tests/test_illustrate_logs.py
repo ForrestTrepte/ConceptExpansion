@@ -2,7 +2,8 @@
 
 from __future__ import annotations
 
-from illustrate_logs import Html, icon_meanings, illustrate, marker_svgs
+from board import icon_meanings
+from illustrate_logs import Html, illustrate, marker_svgs
 
 H = Html("icons", "markers")
 

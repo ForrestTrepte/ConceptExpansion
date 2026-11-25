@@ -1,0 +1,24 @@
+New prompt.
+
+Step 1, markers placed:
+?g D8
++ A12
++ B1
+!r D3
++ A12
+!y D8
+Board now:
+?g D8 | A12, B1
+!r D3 | A12
+!y D8
+Guesses: A race, A car race, A marathon
+Clue-giver: No
+
+Step 2, markers placed:
+(no new markers)
+Board now:
+?g D8 | A12, B1
+!r D3 | A12
+!y D8
+
+Give up to 3 guesses, best first, or none to pass.

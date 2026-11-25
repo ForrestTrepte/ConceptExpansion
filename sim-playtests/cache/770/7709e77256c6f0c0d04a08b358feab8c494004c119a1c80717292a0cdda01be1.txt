@@ -1,0 +1,17 @@
+New prompt.
+
+Step 1, markers placed:
+?g A1
++ C4
++ E1
+Board now:
+?g A1 | C4, E1
+Guesses: Box, Safe, Ice box
+Clue-giver: No
+
+Step 2, markers placed:
+(no new markers)
+Board now:
+?g A1 | C4, E1
+
+Give up to 3 guesses, best first, or none to pass.

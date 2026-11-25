@@ -1,0 +1,148 @@
+{
+  "contentSha256": "15bf8319c41a653e18a41a914898c26391bdfb43d140115576e1fbb37d3e7d0a",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "90167f6773b23c0d34d7074b521186233b0757584cab853ba7be1b70066d6420"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "0bb96b67ac9bcc69e62cb7bc404c6d3e98987b2ad511c97da04b188052198a37"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "openai/gpt-6-luna",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "pass": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "guesses",
+                "pass"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-3"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "db82776",
+    "costUsd": 0.00010318,
+    "latencyMs": 2860,
+    "recordedAt": "2026-11-23T22:10:45.058Z",
+    "recordedBy": "claude",
+    "servedBy": "OpenAI",
+    "servedModel": "openai/gpt-6-luna",
+    "tags": {
+      "run": "calibrate-or-luna"
+    },
+    "usage": {
+      "cacheReadTokens": 4788,
+      "cacheWriteTokens": 0,
+      "inputTokens": 4791,
+      "outputTokens": 110,
+      "reasoningTokens": 79
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"Lifeguard\",\"Navy medic\",\"Coast Guard\"],\"pass\":false}",
+          "reasoning": {
+            "$llmemo.text": "676d3c4031cbe39388141768d323737e6cf294dbc8333098c3057ea95e0aa613"
+          },
+          "reasoning_details": [
+            {
+              "format": "openai-responses-v1",
+              "index": 0,
+              "summary": {
+                "$llmemo.text": "676d3c4031cbe39388141768d323737e6cf294dbc8333098c3057ea95e0aa613"
+              },
+              "type": "reasoning.summary"
+            },
+            {
+              "data": {
+                "$llmemo.text": "8023ce9d13b81db65ba3726621e3d51816decf731042e6aa751123df37f477fe"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_011a47992a805f14016b04b9e3024c87d1b49aecbd79ede2b7",
+              "index": 1,
+              "type": "reasoning.encrypted"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "completed"
+      }
+    ],
+    "created": 1795471842,
+    "id": "gen-1795471842-uLb5wbv86hRMYFHaixT0",
+    "model": "openai/gpt-6-luna",
+    "object": "chat.completion",
+    "provider": "OpenAI",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 110,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 79
+      },
+      "cost": 0.00010318,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000055,
+        "upstream_inference_cost": 0.00010318,
+        "upstream_inference_prompt_cost": 0.00004818
+      },
+      "is_byok": false,
+      "prompt_tokens": 4791,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 4788,
+        "video_tokens": 0
+      },
+      "total_tokens": 4901
+    }
+  }
+}

@@ -1,0 +1,25 @@
+# Phase 3: a non-Claude guesser (mistralai/mistral-small-3.2-24b-instruct, through OpenRouter) on the 44
+# human-guessed games of calibrate-baseline and calibrate-play. Everything else matches
+# those runs (guesser prompt, table reference, 3 trials), so only the model differs.
+# The judge stays on Claude. OpenRouter calls spend the owner's OpenRouter credit.
+mode = "human-clues"
+prompts = [
+    "Pizza", "Umbrella", "Penguin", "Food truck", "Selfie", "Lifeguard", "Break the ice",
+    "Spider-Man", "Hit the snooze button", "Star Wars", "Drone", "Statue of Liberty",
+    "Couch potato", "Elvis Presley", "Popcorn", "Snail", "Lighthouse",
+    "Once in a blue moon", "Lego", "Rain check", "New Year's resolution", "Frankenstein",
+    "Elbow room", "Achilles' heel", "Hospital", "Cave", "Rock paper scissors",
+    "Lollipop", "Hashtag", "Bury the hatchet", "Green Eggs and Ham", "Rush hour",
+    "Friday the 13th", "Soup", "Writer's block", "Golden ticket", "James Bond",
+    "The Sound of Music", "Sloth", "Polar bear", "Talk of the town", "Mister Rogers",
+    "Pandora's box", "Rat race",
+]
+trials = 3
+max_guesses = 3
+extra_rounds = 2
+concurrency = 15
+spend_limit_usd = 4.0
+
+[guesser]
+model = "mistralai/mistral-small-3.2-24b-instruct"
+backend = "openrouter"

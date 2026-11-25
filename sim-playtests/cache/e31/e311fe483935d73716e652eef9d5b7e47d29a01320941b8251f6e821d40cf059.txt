@@ -1,0 +1,17 @@
+New prompt.
+
+Step 1, markers placed:
+!r B9
++ A8 [on the light bulb in the picture]
++ B14 [on the house in the picture]
+Board now:
+!r B9 | A8, B14
+Guesses: City, Urbanization, Metropolis
+Clue-giver: No
+
+Step 2, markers placed:
+(no new markers)
+Board now:
+!r B9 | A8, B14
+
+Give up to 3 guesses, best first, or none to pass.

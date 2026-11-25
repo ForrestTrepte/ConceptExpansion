@@ -1,0 +1,165 @@
+{
+  "contentSha256": "1c4f912f72dedb30b6926357b47cd0ecc955befd463137c1d52699ebfb44eb78",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "clue-giver",
+    "request": {
+      "backend": "claude-cli",
+      "effort": "high",
+      "jsonSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "clue",
+              "give_up"
+            ],
+            "type": "string"
+          },
+          "lines": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "plan": {
+            "type": "string"
+          },
+          "verdict": {
+            "enum": [
+              "yes",
+              "no"
+            ],
+            "type": "string"
+          },
+          "yes_to": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "verdict",
+          "yes_to",
+          "action",
+          "plan",
+          "lines"
+        ],
+        "type": "object"
+      },
+      "model": "claude-opus-5-5",
+      "prompt": {
+        "$llmemo.text": "c0f87efb12d812961292ccda74772c57bbc716db5776e350b7caa206d16e8b47"
+      },
+      "system": [
+        {
+          "$llmemo.text": "29d73c99f00758a55ed046d05b0403c1ca98589e4f1e9e1a977874ccbdd10cbc"
+        },
+        {
+          "$llmemo.text": "f373fc6916e23cbfb200734dc22a2e5e9c5e4036a219150f66eed09550c1df85"
+        },
+        {
+          "$llmemo.text": "2fde04bc2e1af13938737fe97d53aa72e4604167970b9d0beb7f36b50e0a89fd"
+        }
+      ]
+    },
+    "variant": "play"
+  },
+  "meta": {
+    "billing": "subscription",
+    "codeVersion": "9348bfa",
+    "costUsd": 0.066108,
+    "latencyMs": 6870,
+    "recordedAt": "2026-11-23T17:56:16.415Z",
+    "recordedBy": "developer",
+    "servedBy": "firstParty",
+    "servedModel": "claude-opus-5-5",
+    "tags": {
+      "game": "2026-11-23/Writer's block",
+      "run": "play-play"
+    },
+    "toolVersion": "2.1.330 (Claude Code)",
+    "usage": {
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 7180,
+      "inputTokens": 2,
+      "outputTokens": 433,
+      "reasoningTokens": 204
+    }
+  },
+  "reply": {
+    "api_error_status": null,
+    "is_error": false,
+    "modelUsage": {
+      "claude-opus-5-5": {
+        "cacheCreationEphemeral1hInputTokens": 7180,
+        "cacheCreationEphemeral5mInputTokens": 0,
+        "cacheCreationInputTokens": 7180,
+        "cacheReadInputTokens": 0,
+        "canonicalModel": "claude-opus-5-5",
+        "contextWindow": 1000000,
+        "costBasis": "list",
+        "costUSD": 0.066108,
+        "inputTokens": 2,
+        "maxOutputTokens": 128000,
+        "outputTokens": 433,
+        "provider": "firstParty",
+        "thinkingTokens": 204,
+        "webSearchRequests": 0
+      }
+    },
+    "num_turns": 2,
+    "permission_denials": [],
+    "result": "{\"verdict\":\"no\",\"yes_to\":\"\",\"action\":\"clue\",\"plan\":\"The wall marker pulled them toward \\\"defender\\\", so I'm swapping it for the toy-block icon so the cube reads as \\\"block\\\". I'm also adding blank paper to the main concept for the stuck writer.\",\"lines\":[\"- C4\",\"+y A13\",\"+g F7\",\"+ D6\"]}",
+    "stop_reason": "tool_use",
+    "structured_output": {
+      "action": "clue",
+      "lines": [
+        "- C4",
+        "+y A13",
+        "+g F7",
+        "+ D6"
+      ],
+      "plan": "The wall marker pulled them toward \"defender\", so I'm swapping it for the toy-block icon so the cube reads as \"block\". I'm also adding blank paper to the main concept for the stuck writer.",
+      "verdict": "no",
+      "yes_to": ""
+    },
+    "subtype": "success",
+    "terminal_reason": "completed",
+    "type": "result",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7180,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 7180,
+      "cache_read_input_tokens": 0,
+      "fallback_credit": null,
+      "inference_geo": "global",
+      "input_tokens": 2,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 7180,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 7180,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 433,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 433,
+      "output_tokens_details": {
+        "thinking_tokens": 204
+      },
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

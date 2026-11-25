@@ -1,0 +1,87 @@
+*   Clue-giver has placed: `?g H14`
+    *   `?g` means the Main Concept (the thing itself).
+    *   `H14` is the icon for "Use – Action / Do – Verb / Button".
+    *   The Main Concept is a "Verb" or "Action" or "Use/Do".
+
+    *   H14 (Use/Action/Verb/Button) is very broad. It basically says "The answer is a verb/action."
+    *   Since it's the *only* marker, the user might be starting a clue or testing the system.
+    *   Without more markers, it's almost impossible to narrow down a specific verb.
+
+    *   The user is just starting a game or providing a very sparse clue.
+    *   I need to provide up to 3 guesses.
+    *   Since "Verb" is the category, I can't really guess a specific verb yet, but I can try to guess what they might be thinking of if they are being extremely minimalist. Or, I can treat this as a meta-clue.
+    *   Wait, if the clue is *only* `?g H14`, the answer is a Verb.
+    *   Is there a verb that is commonly played in Concept? Or is the clue-giver implying the answer is "to do something"?
+    *   Actually, if the clue-giver is playing by the rules, they haven't given enough information to distinguish between "run", "eat", "jump", etc.
+    *   However, as a guesser, I should try to guess common actions or simply ask for more info? No, the instructions say: "Give the guesses only, with no explanations."
+
+    *   Could it be "Action"? (The category)
+    *   Could it be "Do"?
+    *   Could it be "Button"?
+    *   Wait, if the answer is a common phrase like "To be or not to be"? No.
+    *   Let's look at the board again. H14 means "Use - Action - Do - Verb - Button".
+    *   Maybe the answer is "Button"? (A noun, but H14 includes it).
+    *   Maybe the answer is "Action"?
+    *   Maybe the answer is "A verb"?
+    *   Let's try to guess things that are often associated with the concept of "action" or "doing".
+    *   Actually, usually, when a clue-giver only puts the category, they are waiting for the guesser to realize it's the category, OR it's a very simple word.
+    *   Let's try:
+        1. Action
+        2. Verb
+        3. Do
+
+    *Wait*, I'll try common verbs or something that might be the answer. But I don't even have a clue about *which* action.
+    If I guess "Action", and it's "Run", the clue-giver will say "No".
+    If I guess "Jump", and it's "Run", the clue-giver will say "No".
+
+    Actually, I'll try a few common verbs or things related to the icons.
+    1. Play (associated with B3/H14)
+    2. Use
+    3. Do
+
+    Actually, I'll just provide guesses that are high-level.
+    If a clue is just `?g H14`, the answer is a Verb.
+    Let's guess:
+    1. Action
+    2. Verb
+    3. Do
+
+    *Self-correction:* If the clue-giver is playing a real game, they wouldn't just put one marker and expect me to guess a specific word. They would add more. But I must act as the guesser.
+
+    Let's try to guess a very basic action.
+    1. Run
+    2. Eat
+    3. Jump
+
+    Or maybe the answer is a word from the icon itself.
+    1. Action
+    2. Verb
+    3. Button
+
+    Let's go with:
+    1. Action
+    2. Verb
+    3. Do
+
+    (Note: In a real game, a single marker `?g H14` is essentially "The answer is a verb". Without more, any guess is a shot in the dark.)
+
+    Let's try one more angle. Is "H14" itself the answer? No, that's a code.
+    Could the answer be "The Button"?
+    I'll stick to the most logical guesses for such a sparse clue.
+
+    1. Action
+    2. Verb
+    3. Do
+
+    Wait, let's try to be slightly more "guess-like".
+    1. Play
+    2. Run
+    3. Do
+
+    Actually, let's look at the instructions: "The clue-giver knows a secret answer... They clue it only by placing markers... the guesser says guesses out loud."
+
+    If the clue-giver only puts "Verb", I'll guess "Action".
+
+    1. Action
+    2. Verb
+    3. Do

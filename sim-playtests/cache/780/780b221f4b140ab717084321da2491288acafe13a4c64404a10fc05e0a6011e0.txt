@@ -1,0 +1,28 @@
+New prompt.
+
+Step 1, markers placed:
+?g A14
++ F11 x8
+Board now:
+?g A14 | F11, F11, F11, F11, F11, F11, F11, F11
+Guesses: A meal for one, Eight-course meal, A feast
+Clue-giver: No
+
+Step 2, markers placed:
+!y Yellow
++ H11
+Board now:
+?g A14 | F11, F11, F11, F11, F11, F11, F11, F11
+!y Yellow | H11
+Guesses: French fries, Spaghetti, Banana
+Clue-giver: No
+
+Step 3, markers placed:
+!r E3
++ E4
+Board now:
+?g A14 | F11, F11, F11, F11, F11, F11, F11, F11
+!r E3 | E4
+!y Yellow | H11
+
+Give up to 3 guesses, best first, or pass.

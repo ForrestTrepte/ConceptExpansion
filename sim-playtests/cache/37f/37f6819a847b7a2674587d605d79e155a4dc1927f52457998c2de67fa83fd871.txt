@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Frankenstein's Monster",
+    "Green Goblin",
+    "The Hulk"
+  ]
+,
+  "pass": false
+}

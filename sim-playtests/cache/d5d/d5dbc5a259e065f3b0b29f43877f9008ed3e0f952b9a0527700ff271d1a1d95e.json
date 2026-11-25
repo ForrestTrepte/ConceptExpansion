@@ -1,0 +1,148 @@
+{
+  "contentSha256": "0663a46ee82659c3100fa4f48f6bc1458f2feecc13f0f7ffc4f714812ddb2795",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "90167f6773b23c0d34d7074b521186233b0757584cab853ba7be1b70066d6420"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "805860873175ce7d7a7e00a17fbcc44aacf1284b81ca30b040e2a13de9f1fac4"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "openai/gpt-6-luna",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "pass": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "guesses",
+                "pass"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-1"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "db82776",
+    "costUsd": 0.000108195,
+    "latencyMs": 2709,
+    "recordedAt": "2026-11-23T22:10:54.248Z",
+    "recordedBy": "claude",
+    "servedBy": "OpenAI",
+    "servedModel": "openai/gpt-6-luna",
+    "tags": {
+      "run": "calibrate-or-luna"
+    },
+    "usage": {
+      "cacheReadTokens": 4727,
+      "cacheWriteTokens": 57,
+      "inputTokens": 4787,
+      "outputTokens": 107,
+      "reasoningTokens": 80
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"Spider-Man\",\"Superman\",\"A superhero\"],\"pass\":false}",
+          "reasoning": {
+            "$llmemo.text": "b59afccd707e69fbfb35bcc5b4461158770e860430401ee90ebe2a63d8d0ffb2"
+          },
+          "reasoning_details": [
+            {
+              "format": "openai-responses-v1",
+              "index": 0,
+              "summary": {
+                "$llmemo.text": "b59afccd707e69fbfb35bcc5b4461158770e860430401ee90ebe2a63d8d0ffb2"
+              },
+              "type": "reasoning.summary"
+            },
+            {
+              "data": {
+                "$llmemo.text": "d97d08873d9aa02709625c3bc49cba24ecc34d218d8565e6eb6fe9f4f9e31630"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_089ed3349ed84680016b04b9ec38c887d1980e948555948efa",
+              "index": 1,
+              "type": "reasoning.encrypted"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "completed"
+      }
+    ],
+    "created": 1795471851,
+    "id": "gen-1795471851-CotwjoZLA4p7lMvuJn2f",
+    "model": "openai/gpt-6-luna",
+    "object": "chat.completion",
+    "provider": "OpenAI",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 107,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 80
+      },
+      "cost": 0.000108195,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0000535,
+        "upstream_inference_cost": 0.000108195,
+        "upstream_inference_prompt_cost": 0.000054695
+      },
+      "is_byok": false,
+      "prompt_tokens": 4787,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 57,
+        "cached_tokens": 4727,
+        "video_tokens": 0
+      },
+      "total_tokens": 4894
+    }
+  }
+}

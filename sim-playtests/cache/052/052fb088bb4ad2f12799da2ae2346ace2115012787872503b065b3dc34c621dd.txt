@@ -1,0 +1,96 @@
+*   `?g B9`: Main Concept is B9 (Building / Monument / City).
+    *   `+ D10`: Detail/Feature (linked to `?g`) is D10 (Medical / Medicine / Health).
+    *   `!r D10`: Sub-concept (Red/Related) is D10 (Medical / Medicine / Health).
+    *   `+ B14`: Detail/Feature (linked to `!r`) is B14 (House – Dwelling / Room / Domestic).
+    *   `!y A3`: Sub-concept (Yellow/Related) is A3 (Work / Occupation).
+    *   `+ D10`: Detail/Feature (linked to `!y`) is D10 (Medical / Medicine / Health).
+
+    *   `?g` (Main Concept): B9 (Building / City) + D10 (Medical/Health).
+        *   *Conclusion:* The answer is a medical building or a health-related building. (e.g., Hospital, Clinic, Pharmacy, etc.)
+    *   `!r` (Red/Related): D10 (Medical/Health) + B14 (House/Home).
+        *   *Conclusion:* A place related to medical/health and domestic/home. Perhaps a nursing home, a doctor's house, or maybe it's a place where people stay/live for health reasons (Sanatorium/Nursing Home). Or, perhaps, "Home" is a setting/detail.
+    *   `!y` (Yellow/Related): A3 (Occupation) + D10 (Medical/Health).
+        *   *Conclusion:* A medical profession or a profession involving health. (e.g., Doctor, Nurse, Surgeon).
+
+    *   The answer is a building (`B9`) related to health (`D10`).
+    *   The red clue suggests a connection to "Home" (`B14`) and "Medical" (`D10`).
+    *   The yellow clue suggests a connection to "Work/Occupation" (`A3`) and "Medical" (`D10`).
+
+    *Possibility 1: Hospital.*
+    *   B9 (Building): Yes.
+    *   D10 (Medical): Yes.
+    *   A3/D10 (Medical Occupation): Doctors work there.
+    *   B14/D10 (Medical Home): A hospital is a place where people stay (home-like/domestic)? Or maybe "Nursing home"?
+
+    *Possibility 2: Clinic.*
+    *   Similar to Hospital.
+
+    *Possibility 3: Nursing Home / Care Home.*
+    *   B9 (Building): Yes.
+    *   D10 (Medical): Yes.
+    *   B14 (Home/Domestic): Yes, it's a "Home".
+    *   A3/D10 (Medical Job): Nurses/Caregivers work there.
+
+    *Possibility 4: Pharmacy / Drugstore.*
+    *   B9 (Building): Yes.
+    *   D10 (Medical): Yes.
+    *   A3/D10 (Medical Job): Pharmacist.
+    *   B14 (Domestic): Medicines are in the home?
+
+    *Refining "Hospital" vs "Nursing Home":*
+    The red clue `!r D10 + B14` (Medical + Home/House) strongly points toward a "Nursing home" or "Care home" or perhaps "Hospital" (where people live temporarily). "Nursing Home" fits "Medical" + "Home" very well.
+
+    *Let's check "Clinic":*
+    A clinic is a building (B9) for medical (D10) work (A3). Does it have a "Home" (B14) aspect? Less so than a nursing home.
+
+    *Let's check "Ambulance":*
+    No, B9 is a Building/City.
+
+    *Let's check "Doctor's office":*
+    B9 (Building) + D10 (Medical) + A3 (Work) + B14 (Home/Office/Domestic). This is a strong contender.
+
+    *Let's check "Pharmacy":*
+    B9 (Building) + D10 (Medical) + A3 (Work) + B14 (Domestic? Not really).
+
+    *Top guesses:*
+    1. Hospital (Most common medical building).
+    2. Nursing home (Strong link to "Home" + "Medical").
+    3. Clinic (Medical work building).
+
+    Wait, let's re-evaluate the yellow clue: `!y A3 + D10` (Work + Medical). This is just a description of a person/job (Doctor/Nurse).
+    Red clue: `!r D10 + B14` (Medical + Home).
+    Main: `?g B9 + D10` (Building + Medical).
+
+    A Hospital is a Building + Medical.
+    A Nursing Home is a Building + Medical + Home.
+    A Doctor's Office is a Building + Medical + Work.
+
+    Let's try:
+    1. Hospital
+    2. Nursing home
+    3. Clinic
+
+    (Self-correction: "Hospital" is the most obvious "Medical Building". "Nursing home" is a very specific type of building that incorporates "Home" (B14). The presence of B14 in the red clue is the key differentiator.)
+
+    *Wait, look at the yellow clue again:* `!y A3 + D10`. This means the yellow clue is a "Work" that is "Medical". A doctor or nurse.
+    The red clue `!r D10 + B14` is "Medical" + "Home".
+
+    Is the answer "Nurse"? No, `?g B9` (Building/City).
+    Is the answer "Hospital"?
+    Is the answer "Nursing home"?
+
+    Let's look at the markers again.
+    `?g B9` (Building) `+ D10` (Medical) -> A medical building.
+    `!r D10` (Medical) `+ B14` (Home/Domestic) -> Something about a medical home.
+    `!y A3` (Work/Occupation) `+ D10` (Medical) -> Something about a medical worker.
+
+    "Nursing home" seems like a very strong candidate due to the "Home" and "Medical" combo.
+    "Hospital" is also possible.
+    "Clinic" is possible.
+    "Doctor's office" is possible.
+
+    Let's go with the most likely.
+
+    1. Hospital
+    2. Nursing home
+    3. Clinic

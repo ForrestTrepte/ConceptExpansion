@@ -1,0 +1,71 @@
+New prompt.
+
+Step 1, markers placed:
+?g A3
++ G14
+!r A4
++ H10
++ Grey
+!y D3
+Board now:
+?g A3 | G14
+!r A4 | H10, Grey
+!y D3
+Guesses: job, speed, race
+Clue-giver: No
+
+Step 2, markers placed:
++y A12
++ B3
++r D5
+Board now:
+?g A3 | G14
+!r A4 | H10, Grey, D5
+!y D3 | A12, B3
+Guesses: car, fast, road
+Clue-giver: No
+
+Step 3, markers placed:
++g C8
++ B9
++ D8
+Board now:
+?g A3 | G14, C8, B9, D8
+!r A4 | H10, Grey, D5
+!y D3 | A12, B3
+Guesses: traffic, velocity, speed limit
+Clue-giver: No
+
+Step 4, markers placed:
+!k A14
++ Yellow
++ H9
+Board now:
+?g A3 | G14, C8, B9, D8
+!r A4 | H10, Grey, D5
+!y D3 | A12, B3
+!k A14 | Yellow, H9
+Guesses: race track, speed bump, traffic light
+Clue-giver: No
+
+Step 5, markers placed:
++k G5
++g D6
+Board now:
+?g A3 | G14, C8, B9, D8, D6
+!r A4 | H10, Grey, D5
+!y D3 | A12, B3
+!k A14 | Yellow, H9, G5
+Guesses: traffic light, speed bump, race track
+Clue-giver: No
+
+Step 6, markers placed:
+-k all
++r C10
++ F10
+Board now:
+?g A3 | G14, C8, B9, D8, D6
+!r A4 | H10, Grey, D5, C10, F10
+!y D3 | A12, B3
+
+Give up to 3 guesses, best first, or none to pass.

@@ -1,0 +1,129 @@
+*   `?g D8`: Main Concept is Time / Duration.
+    *   `+ A12`: (Sub-concept group g/Main) + Ground transportation / Road.
+    *   `+ B1`: (Sub-concept group g/Main) + Human / Society / Group.
+    *   `!r D3`: Red sub-concept is Fast / Race.
+    *   `+ A12`: (Sub-concept group r) + Ground transportation / Road.
+    *   `!y D8`: Yellow sub-concept is Time / Duration.
+
+    *   Main Concept (g): Time / Duration, Road, Society/Human.
+    *   Sub-concept (r): Fast / Race, Road.
+    *   Sub-concept (y): Time / Duration.
+
+    *   *Theme:* Speed, driving, traffic, racing, or a specific time-related event involving vehicles and people.
+
+    *   *Candidate 1: Traffic jam.* (Time, Road, Human/Society, but usually slow, not fast).
+    *   *Candidate 2: Race car driving / Grand Prix / Formula 1.* (Time/Duration, Road/Transportation, Fast, Humans).
+    *   *Candidate 3: Rush hour.* (Time, Road, Human/Society, Fast/intense movement, though cars are slow, the concept of 'rush' is high energy).
+    *   *Candidate 4: Road trip.* (Time, Road, Human, but usually a leisure activity).
+    *   *Candidate 5: Speed limit.* (Time/Duration, Road, Rules/Society).
+    *   *Candidate 6: Drag racing.* (Time/Duration, Road, Fast).
+
+    *   `?g D8` (Time) + `+ A12` (Road) + `+ B1` (Human/Society) implies a social aspect of time and travel.
+    *   `!r D3` (Fast) + `+ A12` (Road) strongly points toward racing or high speed on a road.
+    *   `!y D8` (Time) as a sub-concept suggests time is a key component or the focus of the event/term.
+
+    Let's look at "Rush hour" vs "Race".
+    "Rush hour" is a specific time (D8) related to roads (A12) and people (B1). However, the red clue is "Fast" (D3). Is rush hour "fast"? Not really.
+    Is "Race" (D3) + "Road" (A12) + "Time" (D8) + "Human/Society" (B1) a better fit?
+    Maybe "Grand Prix"? "Formula 1"?
+    Wait, `!r D3` is "Fast/Race". The marker is on "Fast/Race".
+    `+ A12` (Road) is in the same group as `!r D3`. So: "A fast road thing".
+    `!y D8` (Time) as a sub-concept.
+
+    What about "Traffic"? (Slow, not fast).
+    What about "A race"?
+    What about "Speeding"?
+
+    Let's refine:
+    Main (g): Time, Road, People.
+    Red (r): Fast, Road.
+    Yellow (y): Time.
+
+    Could it be "The Fast and the Furious"? (No, that's a title, maybe).
+    Could it be "Pit stop"? (Time, Road/Car, Fast).
+    Could it be "Time trial"? (Time, Fast).
+    Could it be "Drag race"?
+
+    Let's look at the combination of "Time" + "Road" + "People" + "Fast".
+    "Rush hour" is usually the answer when people/society/road/time are combined, but the "Fast" marker is confusing unless it refers to the "Rush". But `D3` is specifically "Fast/Race".
+    "Racing" fits "Fast", "Road", "Time" (lap times), and "People" (drivers/spectators).
+
+    Let's try:
+    1. Racing
+    2. Rush hour (just in case 'fast' implies the 'rush')
+    3. Speeding
+
+    Actually, "Formula 1" or "Grand Prix" is very specific.
+    "Road trip"? No, "Fast".
+    "Traffic jam"? No, "Fast".
+
+    Wait, `?g D8` is "Time/Duration". So the answer is a "Time/Duration".
+    "A duration" of time.
+    "Rush hour" is a duration of time.
+    "A race" is a duration of time (the length of the race).
+    "Speeding" is an action.
+
+    Let's look at the icons again.
+    `?g D8` (Time)
+    `+ A12` (Road)
+    `+ B1` (Human/Society)
+    `!r D3` (Fast)
+    `+ A12` (Road)
+    `!y D8` (Time)
+
+    "Rush hour" is a time (D8) involving roads (A12) and people/society (B1). But the "Fast" (D3) is the weird part. However, "Rush" implies speed/intensity.
+    "A race" is a time (the duration) involving roads (A12) and people (B1) and it is fast (D3).
+
+    Let's try "Race".
+
+    Wait, could it be "Traffic"? No, "Fast".
+    "Pit stop"? A pit stop is a time-based event in a race.
+
+    Let's try:
+    1. Racing
+    2. Rush hour
+    3. A race
+
+    Wait, "Racing" is an activity. "A race" is an event.
+    If the answer is "Racing":
+    Main concept: Time (the duration of the race).
+    Red concept: Fast + Road (the nature of racing).
+    Yellow concept: Time (the duration).
+
+    If the answer is "Rush hour":
+    Main concept: Time.
+    Red concept: Fast + Road (this doesn't fit well, rush hour is slow).
+
+    What about "A fast car"? No, `?g` is Time.
+    What about "A lap"? (Time, Fast, Road).
+
+    Let's go with:
+    1. Racing
+    2. Rush hour
+    3. Speed limit (Time/duration/speed/road/society) - maybe not.
+
+    Actually, looking at `!r D3` (Fast) and `+ A12` (Road), and `?g D8` (Time)...
+    Could it be "The 24 Hours of Le Mans"? (Time, Fast, Road, People).
+    "Race" seems the strongest.
+
+    Guesses:
+    1. Racing
+    2. Rush hour
+    3. A race
+
+    (Self-correction: If `?g` is `D8` (Time), the answer is likely a noun describing a period of time or a time-related concept).
+
+    "Racing" (an activity/concept).
+    "Rush hour" (a period of time).
+    "A race" (an event).
+
+    Let's look at `!r D3 + A12`. A fast road thing.
+    Let's look at `?g D8 + A12 + B1`. A time/period involving roads and society.
+    "Rush hour" is the most common "period of time" (D8) involving "roads" (A12) and "society/people" (B1). The "Fast" (D3) is the only outlier. But perhaps the clue-giver thinks "Rush" = "Fast".
+
+    Let's try "Racing" first. Or "A race".
+
+    Let's try:
+    1. Racing
+    2. A race
+    3. Rush hour

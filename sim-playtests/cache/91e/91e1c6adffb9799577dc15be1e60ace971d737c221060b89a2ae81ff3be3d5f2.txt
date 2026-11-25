@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Elvis Presley",
+    "Freddie Mercury",
+    "Mozart"
+  ]
+,
+"pass": false
+}

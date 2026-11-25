@@ -1,0 +1,13 @@
+New prompt.
+
+Step 1, markers placed:
+?g F7
++ Yellow
++ C8
+!r A14
++ Brown
+Board now:
+?g F7 | Yellow, C8
+!r A14 | Brown
+
+Give up to 3 guesses, best first, or none to pass.

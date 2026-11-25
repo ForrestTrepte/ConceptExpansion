@@ -1,0 +1,54 @@
+*   `?g A4`: Main Concept is Fauna / Animal (A4).
+    *   `+ C3 x2`: Two cubes on C3 (Slow).
+    *   `+ Brown`: Cube on Brown (Color).
+    *   `!r B4`: Sub-concept (red) is Flora / Plant / Nature (B4).
+    *   `+ H12`: Cube on H12 (Low / Descend / Below).
+
+    *   Main Concept: Animal.
+    *   Attributes of the animal:
+        *   Slow (x2).
+        *   Brown (Color).
+    *   Relationship to the animal (Red sub-concept):
+        *   Plant/Nature (B4).
+        *   Low/Below (H12).
+
+    *   Slow, Brown, Animal.
+    *   Related to Plants/Nature and "Low/Below".
+    *   Possible animals:
+        *   Snail (Slow, Brown, lives on plants/ground/low).
+        *   Sloth (Slow, but usually brown/grey, lives in trees/plants).
+        *   Turtle/Tortoise (Slow, can be brown, lives low/on ground/plants).
+        *   Bear (Slow-ish, brown, lives in nature, but maybe not "low" specifically).
+        *   Slug (Slow, brown, low, nature/plants).
+
+    *   Snail fits "Slow" (C3 x2), "Brown", "Animal", "Nature" (B4), and "Low" (H12).
+    *   Sloth fits "Slow", "Brown", "Nature", but is "Low" less certain?
+    *   Tortoise fits "Slow", "Nature", "Low" (on ground).
+
+    *   Guess 1: Snail
+    *   Guess 2: Sloth
+    *   Guess 3: Tortoise
+
+    Wait, let's re-evaluate "H12" (Low/Descend/Below). If the animal is *in* or *near* the ground (low) or lives in the dirt/under plants.
+
+    *   Snail: Very slow, often brown, low to the ground, associated with plants/nature.
+    *   Sloth: Slow, brown, associated with trees/nature.
+    *   Slug: Slow, brown, low.
+
+    Let's go with Snail, Sloth, Tortoise.
+
+    *Self-correction:* The marker `+ H12` is in the red group (`!r`). This means "Low/Below" is a sub-concept/related idea to the animal.
+
+    If it's a snail, "Low" relates to where it is.
+    If it's a sloth, "Low" doesn't quite fit unless it's descending? Or maybe it's "Below" the trees?
+
+    Actually, "Slow" is C3.
+    "Brown" is a color.
+    "Plant" is B4.
+    "Low" is H12.
+
+    Snail is the strongest candidate.
+
+    *   Snail
+    *   Sloth
+    *   Tortoise

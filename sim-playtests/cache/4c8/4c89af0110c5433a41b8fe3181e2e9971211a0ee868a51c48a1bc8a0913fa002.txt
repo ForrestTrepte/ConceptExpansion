@@ -1,0 +1,3 @@
+{ 
+"guesses": ["Movie Theater", "Cinema Snack", "Concession Stand"] 
+}

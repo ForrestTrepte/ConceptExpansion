@@ -1,0 +1,45 @@
+New prompt.
+
+Step 1, markers placed:
+?g A8
++ E11
+!r A5
++ A3
+!y G7
++ C4
+Board now:
+?g A8 | E11
+!r A5 | A3
+!y G7 | C4
+Guesses: Zero, Nothing, Null
+Clue-giver: No
+
+Step 2, markers placed:
+-y C4
++ A13
++g F7
++ D6
+Board now:
+?g A8 | E11, F7, D6
+!r A5 | A3
+!y G7 | A13
+Guesses: Game, Play, Fun
+Clue-giver: No
+
+Step 3, markers placed:
+(no new markers)
+Board now:
+?g A8 | E11, F7, D6
+!r A5 | A3
+!y G7 | A13
+Guesses: Board game, Card game, Puzzle
+Clue-giver: No
+
+Step 4, markers placed:
+(no new markers)
+Board now:
+?g A8 | E11, F7, D6
+!r A5 | A3
+!y G7 | A13
+
+Give up to 3 guesses, best first, or none to pass.

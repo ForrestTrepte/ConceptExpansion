@@ -1,0 +1,33 @@
+*   `?g B6`: Main Concept (green `?` pawn) is on B6 (Art / Sculpture – Painting / Drawing – Cartoon).
+    *   `+ G10`: A cube is on G10 (Big / High) in the same group (group `g`).
+    *   Interpretation: The answer is a piece of art/sculpture/painting/drawing that is big or high.
+
+    *   B6: Art, Sculpture, Painting, Drawing, Cartoon.
+    *   G10: Big, High.
+
+    *   A large statue/sculpture (e.g., Statue of Liberty).
+    *   A tall painting/mural.
+    *   A skyscraper (though B6 is more about the art itself).
+    *   A giant cartoon character.
+    *   "The Great Wall" (though not purely art, it's a monument).
+
+    *   *Statue of Liberty* (very famous large sculpture/monument).
+    *   *Mural* (a large painting).
+    *   *Monolith* (big stone sculpture).
+    *   *Giant* (character).
+
+    Let's look at the icon B6 again: "Art / Sculpture – Painting / Drawing – Cartoon".
+    The icon picture shows: Statue (Venus de Milo), paint palette, paintbrush, pencil.
+    The `+ G10` cube suggests "Big" or "High".
+
+    Guesses:
+    1. Statue of Liberty
+    2. Mural
+    3. Monument
+
+    Wait, the instructions say "Give up to 3 guesses, best first".
+
+    Let's try:
+    1. Statue of Liberty
+    2. Mural
+    3. Giant statue

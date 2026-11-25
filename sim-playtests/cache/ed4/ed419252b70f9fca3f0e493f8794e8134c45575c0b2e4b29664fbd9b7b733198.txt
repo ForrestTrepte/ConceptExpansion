@@ -1,0 +1,22 @@
+*   `?g A4`: The main concept is A4 (Fauna / Animal).
+    *   `+ Black`: The animal is black.
+    *   `+ White`: The animal is white.
+    *   `+ E1`: The animal is associated with Cold / Snow / Rain / Cloud.
+
+    *   Main Concept: Animal.
+    *   Colors: Black and White.
+    *   Environment/Context: Cold/Snow.
+
+    *   Polar Bear (but they aren't black/white, they are white).
+    *   Penguin (Black and White, often associated with cold/snow/Antarctica).
+    *   Panda (Black and White, though not specifically "cold/snow" in the same way penguins are, but they live in mountainous/cool regions).
+    *   Orca (Black and White, live in cold waters).
+    *   Zebra (Black and White, but usually associated with Africa/savanna, not cold).
+
+    *   Penguin (strongest link to black/white + cold/snow).
+    *   Panda (strong black/white link).
+    *   Orca (strong black/white + aquatic/cold link).
+
+    *   Penguin
+    *   Panda
+    *   Orca

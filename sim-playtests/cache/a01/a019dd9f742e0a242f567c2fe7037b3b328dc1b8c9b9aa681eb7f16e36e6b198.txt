@@ -1,0 +1,7 @@
+{ 
+  "guesses": [
+    "eight apples",
+    "eight eggs",
+    "eight pancakes"
+  ]
+}

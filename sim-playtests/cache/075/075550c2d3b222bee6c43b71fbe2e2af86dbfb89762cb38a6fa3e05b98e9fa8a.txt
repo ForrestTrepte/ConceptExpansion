@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Scientist",
+    "Exterminator",
+    "Researcher"
+  ]
+,
+"pass": false
+}

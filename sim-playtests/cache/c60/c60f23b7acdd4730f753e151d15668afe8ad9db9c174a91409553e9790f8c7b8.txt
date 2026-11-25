@@ -1,0 +1,37 @@
+*   `?g A12`: The main concept is A12 (Ground transportation / Road).
+    *   `+ A14`: An additional detail is A14 (Food / Eating / Edible).
+
+    *   The answer is something related to ground transportation/roads AND food/eating.
+
+    *   A food truck? (Ground transportation + Food).
+    *   A drive-thru? (Road/transportation context + Food).
+    *   A picnic? (Eating, but maybe not specifically ground transport).
+    *   A snack for a road trip?
+    *   A restaurant on a road?
+    *   A vending machine (on a bus/train)?
+    *   A car wash? (No).
+    *   A snack bar?
+
+    *   *Food truck* is a very strong candidate because it literally is a vehicle (A12) used for food (A14).
+    *   *Drive-thru* is another strong candidate because it's a road-based service for food.
+    *   *Picnic* is less likely to be described as "A12" first.
+    *   *Road trip snack* is a bit abstract.
+
+    *   1. Food truck
+    *   2. Drive-thru
+    *   3. Road trip snack
+
+    *Self-Correction/Refinement:*
+    `?g A12` means the *thing* is ground transportation.
+    `+ A14` means it's related to food.
+    A "Food truck" fits perfectly. A "Drive-thru" is a place/feature of a restaurant, but the concept itself isn't ground transportation (it's a lane).
+    Let's try "Food truck".
+
+    What else?
+    Maybe a "Fast food restaurant"? (Not ground transportation).
+    Maybe "Street food"? (Street is part of A12 context).
+
+    Let's go with:
+    1. Food truck
+    2. Drive-thru
+    3. Street food

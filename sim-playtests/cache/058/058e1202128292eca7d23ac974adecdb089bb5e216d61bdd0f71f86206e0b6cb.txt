@@ -1,0 +1,376 @@
+*   Clue-giver's markers:
+        *   `!r B9`: Red Sub-Concept pawn on B9 (Building / Monument / City).
+        *   `+ A8`: Red cube on A8 (Idea / Intelligence / Concept) - specifically on the light bulb.
+        *   `+ B14`: Red cube on B14 (House / Dwelling / Room / Domestic).
+    *   The red group (`!r`) links these three concepts: Building + Idea + House.
+    *   The red group tells us these things are *related* or *part of* the answer.
+
+    *   Step 1 Guesses: "Think tank" (Idea/Building), "Dream house" (House/Building), "Blueprint" (Idea/Building).
+    *   Step 1 Answer: "No".
+    *   Step 2 Guesses: "Headquarters" (Building), "Brain trust" (Idea), "Mind palace" (Idea).
+    *   Step 2 Answer: "No".
+
+    *   `B9` (Building)
+    *   `A8` (Idea)
+    *   `B14` (House)
+
+    The red group links "Building", "Idea", and "House".
+    "Think tank" was rejected (it's an organization/group of people).
+    "Headquarters" was rejected (it's a location).
+    "Mind palace" was rejected.
+
+    Wait, let's look closer at the combinations:
+    - Building + Idea + House.
+    - Maybe it's a specific *type* of building?
+    - Or a place where ideas are "housed"?
+
+    Could it be:
+    - **Library**? (Building for books/ideas? Not quite a house/dwelling).
+    - **School**? (No).
+    - **Museum**? (No).
+    - **Brain**? (Wait, B9 is building, A8 is idea, B14 is house/dwelling).
+    - **Idea box**? (No).
+    - **House of ideas**? (Too literal).
+    - **Intellectual property**? (No).
+    - **School of thought**? (No).
+    - **Knowledge**? (No).
+
+    Let's rethink the "House" (`B14`) part. `B14` is "House – Dwelling / Room / Domestic".
+    The concept is a building (`B9`) that is a house (`B14`) for an idea (`A8`).
+
+    What about **Knowledge base**? No.
+    What about **Mind**? No.
+    What about **Brain**? (Wait, `B14` is house... a "house for ideas" = a brain? But it's a building `B9`).
+
+    Could it be **Idea factory**? (Wait, B9 is building, B14 is house... factory isn't a house).
+    Could it be **Thinking cap**? (No, not a building).
+
+    Wait, let's look at "Brain" again. Is there a building called a "Brain"? No.
+    What is a building for ideas?
+    - **Research center**?
+    - **University**?
+    - **Laboratory**? (A lab is a building, it's for science/ideas... but is it a "house"?)
+    - **Academy**?
+
+    Let's look at the "House" icon again. It's a house with a roof, chimney, etc.
+    Is there a phrase like "**House of Wisdom**"?
+    Is it a **Lightbulb**? No, that's the idea.
+
+    Let's try to find a connection between Building, Idea, and House.
+    Maybe it's a specific object?
+    **Idea** (A8) + **House** (B14) + **Building** (B9).
+
+    Is it **Brainstorm**? (No, B9/B14 are physical).
+    Is it **Memory**? (No).
+    Is it **Imagination**? (No).
+
+    Wait... **Idea** + **Home**?
+    **Home of...**?
+    **Home of ideas**?
+    **House of cards**? (No).
+    **House of Representatives**? (No).
+
+    Let's look at the "House" icon meanings: "House – Dwelling / Room / Domestic".
+    Could it be a **Lighthouse**? (A building, but for light/guidance, not really ideas).
+    **Warehouse**? (A building, for goods... "Idea warehouse"?)
+
+    What about **Academy**?
+    What about **Library**?
+
+    Let's look at the clues again.
+    !r B9 (Building)
+    + A8 (Idea)
+    + B14 (House)
+
+    Is it **Mind**? (The brain is the 'house' of ideas). But the user used `B9` (Building) and `B14` (House). The answer must be a building.
+    Wait, `B14` is "House/Dwelling/Room".
+    Is the answer **School**?
+    Is it **University**?
+    Is it **Studio**?
+    Is it **Office**?
+
+    How about **Think tank**? (User already guessed it, it was "No").
+    **Brain trust**? (User already guessed it, it was "No").
+
+    Maybe the answer is **Knowledge**? No, that's not a building.
+    What about **Library**?
+    What about **Museum**?
+    What about **Laboratory**?
+
+    Wait! **Thought**... **House of thought**?
+    **Idea** + **House**...
+    **Home of...**?
+    **House of...**?
+
+    Could it be **Mind palace**? (User guessed, No).
+    Could it be **Brain**? (Not a building).
+
+    Let's reconsider the `A8` (Idea/Intelligence). The user put the cube *on the lightbulb*.
+    `B14` is the house.
+    `B9` is the building.
+
+    Is it a **Lightbulb**? No.
+    Is it **Inspiration**? No.
+
+    Think about common phrases:
+    **Idea** + **House**?
+    **Idea** + **Home**?
+    **House** + **Idea**?
+
+    **Idea Box**?
+    **Idea Bank**? (A bank is a building B9, but is it a house B14?)
+    **Idea Factory**?
+
+    Wait, what if it's **Knowledge**? No.
+    What about **Philosophy**? No.
+
+    Let's look at `B14` again. "House – Dwelling / Room / Domestic".
+    What about **Headquarters**? (User guessed, No).
+    What about **Brainstorm**? (No).
+
+    Is it **Thinking**? No.
+    Is it **Wisdom**? No.
+
+    Is it a **Library**? (It's a building, it holds "ideas" in books... but is it a "house"?)
+    Actually, a library is often called a "home for books".
+    What about **Bookstore**? No.
+
+    Let's look at the icon `A8` again. "Idea / Intelligence / Concept".
+    `B9` Building.
+    `B14` House.
+
+    Could the answer be **Brain**?
+    Wait, in Concept, sometimes people use "Building" and "House" to describe the structure of an organ or something metaphorical. But usually, it's more direct.
+    However, "Think tank" was No.
+
+    How about **Academy**?
+    How about **University**?
+
+    Let's try a different angle.
+    `B9` Building.
+    `A8` Idea.
+    `B14` House.
+    Is it **Idea**? No.
+    Is it **Home**? No.
+
+    Could it be **Knowledge**?
+    What is a "House of Ideas"?
+    Maybe **School**?
+    Maybe **College**?
+
+    Let's look at `B14` (House) and `A8` (Idea).
+    **Home of...**
+    **House of...**
+    **Idea home**?
+
+    Could it be **Imagination**? (No).
+    Could it be **Dream**? (No).
+
+    Wait! **Brain**... **Brain** is the "house of ideas" in a way. But the clue says Building.
+    Is there a building called a **Brain**? No.
+    Is there a building called an **Idea**? No.
+
+    What about **Laboratory**?
+    What about **Research Institute**?
+
+    Let's think of the `B14` icon's "House" meaning.
+    Is it a **Mansion**?
+    Is it a **Castle**?
+    Is it a **Palace**?
+    **Mind Palace** was guessed.
+
+    What about **Brain trust**? (Guessed).
+    What about **Think tank**? (Guessed).
+
+    Is it a **Lightbulb**? No.
+    Is it **Intelligence Agency**?
+    Is it a **Spy Agency**?
+    Is it **CIA**? (No, it's a general game).
+
+    Let's look at the red group. `!r B9` (Building) + `A8` (Idea) + `B14` (House).
+    A Building that is a House for Ideas.
+    **Library**?
+    **University**?
+    **School**?
+    **Academy**?
+    **Museum**?
+    **Laboratory**?
+    **Archive**?
+    **Athenaeum**?
+
+    Wait, what about **Home of...**?
+    **Home of Fame**? No.
+    **House of Cards**? No.
+
+    Is it **Logic**? No.
+    Is it **Philosophy**? No.
+
+    Let's think about the word **"Brain"** again.
+    Could the answer be **Brain**?
+    Is a brain a building? No.
+    Is it a house? A "house of ideas"?
+    If the person thinks a brain is a "building" of cells/structure... maybe.
+    But the user already guessed "Think tank" and "Brain trust" (both relate to brain/ideas).
+
+    What if the answer is **Intelligence**? No.
+    What if it's **Memory**? No.
+
+    Let's look at the `B14` icon: House/Dwelling/Room.
+    `A8` icon: Idea/Intelligence.
+    `B9` icon: Building.
+
+    Could it be **University**?
+    Could it be **College**?
+    Could it be **School**?
+    Could it be **Classroom**?
+
+    Wait, "Think tank" is an organization.
+    "Headquarters" is a place.
+    "Brain trust" is a group.
+    "Mind palace" is a mental construct.
+
+    What's left?
+    A physical building that is a house for ideas.
+    A **Library**?
+    A **Laboratory**?
+    A **School**?
+    A **Museum**?
+
+    Actually, what about **"The Brain"**? (No).
+    What about **"School of thought"**? (No).
+
+    Wait, what about **"Idea"**?
+    **Idea House**? No.
+    **House of Ideas**? (Marvel comics?) No.
+
+    Let's try: **Library**, **School**, **Laboratory**.
+    Or maybe **Academy**?
+
+    Let's think about the connection between `B14` (House) and `A8` (Idea).
+    **Idea home**? No.
+    **Brain**?
+    Wait, `B9` Building + `A8` Idea + `B14` House.
+    Could it be **Knowledge**? No.
+
+    What if the answer is **Thinker**? No.
+    What if the answer is **Scholar**? No.
+
+    Let's look at the "Lightbulb" detail.
+    The user specifically mentioned: `+ A8 [on the light bulb in the picture]`.
+    This emphasizes "Idea".
+    `+ B14 [on the house in the picture]`.
+    This emphasizes "House".
+    `!r B9` (Building).
+
+    Is it a **Light House**?
+    `B9` (Building) + `A8` (Light bulb/Idea) + ... is a lighthouse a house? It's a tower. It's a building.
+    But is it for ideas? No, it's for light.
+    Unless the "Lightbulb" is used as a pun for "Light".
+    A **Lighthouse**!
+    Let's check:
+    Building: Yes.
+    Idea (Lightbulb): Yes (Pun for light).
+    House: It's a structure where someone lives/dwells? It's a "house" of light? A bit of a stretch.
+
+    But wait, if it's a **Lighthouse**:
+    Building (B9) - Yes.
+    Light (A8 - lightbulb) - Yes.
+    House (B14) - Maybe (some lighthouses are houses).
+
+    Actually, let's look at the icon for `A8`. It's a head with a lightbulb.
+    If the clue-giver meant "Light", they would probably use `F1` (Sun/Light) or `E1/F1` icons.
+    But they used `A8` which is "Idea/Intelligence" and specifically pointed to the *lightbulb*.
+    This strongly suggests "Idea" or "Light" (as a pun).
+
+    What else?
+    **Idea** + **House**...
+    **Brain**...
+    **Mind**...
+
+    Is there anything else?
+    **Home of...**
+    **House of...**
+
+    Let's look at `A8` again. "Idea / Intelligence".
+    What if the answer is **Intelligence**? No.
+    What if it's **Smart**? No.
+
+    Wait, what about **"Brainstorm"**? (Guessed).
+    What about **"Knowledge"**? (No).
+
+    Let's try a different path.
+    **Building** + **Idea** + **House**.
+    Is it **University**?
+    Is it **Library**?
+    Is it **School**?
+    Is it **College**?
+    Is it **Academy**?
+
+    Let's look at `B14` (House) and `A8` (Idea) again.
+    Could it be **Dream**? (No).
+    Could it be **Imagination**? (No).
+
+    Wait! **"Idea"** + **"House"**...
+    Is it **"Idea factory"**? (No).
+    Is it **"Brain factory"**? (No).
+
+    What about **"House of Wisdom"**?
+    What about **"House of cards"**?
+    What about **"House of Representatives"**?
+
+    What if the answer is **"Knowledge"**? No.
+    What about **"Library"**?
+    A library is a building where ideas are stored.
+    Is it a "house"? Not really.
+
+    Let's try thinking about the word **"Home"**.
+    **Home of...**
+    **Home of ideas**?
+
+    Wait! **"Think tank"** was No.
+    **"Headquarters"** was No.
+    **"Brain trust"** was No.
+    **"Mind palace"** was No.
+
+    What if the answer is **"Brain"**?
+    If the person thinks the brain is a "building" or a "house" for ideas.
+    But "Think tank" and "Brain trust" are very close to "Brain". If those are No, "Brain" is likely No.
+
+    How about **"School"**?
+    A school is a building (`B9`) for ideas (`A8`)? It's not really a house (`B14`).
+
+    What about **"Laboratory"**?
+    A laboratory is a building (`B9`) for ideas (`A8`).
+
+    What about **"Museum"**?
+    A museum is a building (`B9`) for... ideas? No, for objects.
+
+    Wait! **"Office"**?
+    **"Studio"**?
+
+    Let's look at the icon `A8` again. The lightbulb is *inside* the head.
+    Maybe the answer is **"Mind"**?
+    But `B9` (Building) and `B14` (House) suggest something physical.
+
+    Is it a **"Library"**?
+    Let's try: **Library**, **School**, **University**.
+
+    Wait! What about **"Thinker"**? No.
+    **"Idea"**? No.
+
+    Let's rethink the "House" + "Idea".
+    **"House of cards"**?
+    **"House of...?"**
+    **"Idea house"**?
+
+    Could it be **"Knowledge"**?
+    Could it be **"Memory"**?
+
+    Wait, I have a better idea.
+    **"House"** + **"Idea"** + **"Building"**.
+    Is it **"Academy"**?
+    Is it **"University"**?
+    Is it **"Library"**?
+    Is it **"School"**?
+
+    Wait, what about **"Logic

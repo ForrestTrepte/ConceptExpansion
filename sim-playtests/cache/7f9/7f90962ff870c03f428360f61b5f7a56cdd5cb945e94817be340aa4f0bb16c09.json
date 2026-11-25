@@ -1,0 +1,148 @@
+{
+  "contentSha256": "b5542d6e6ba9183ddf93481eaf5f5c8ee9c060f2626ad8d296ec7415a60a8a1f",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "90167f6773b23c0d34d7074b521186233b0757584cab853ba7be1b70066d6420"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "8714f4c08a85aa229014d3794f82104a174d5385af4bd8ac4214746454e8c99a"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "openai/gpt-6-luna",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "pass": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "guesses",
+                "pass"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-3"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "db82776",
+    "costUsd": 0.000227195,
+    "latencyMs": 5149,
+    "recordedAt": "2026-11-23T22:10:48.212Z",
+    "recordedBy": "claude",
+    "servedBy": "OpenAI",
+    "servedModel": "openai/gpt-6-luna",
+    "tags": {
+      "run": "calibrate-or-luna"
+    },
+    "usage": {
+      "cacheReadTokens": 4727,
+      "cacheWriteTokens": 177,
+      "inputTokens": 4907,
+      "outputTokens": 315,
+      "reasoningTokens": 286
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"Eyeglasses\",\"Google Glass\",\"Virtual reality headset\"],\"pass\":false}",
+          "reasoning": {
+            "$llmemo.text": "4f9fb9def0d772739d25c7310f13142e6bb5f21c9b332def0193084df07cf6d5"
+          },
+          "reasoning_details": [
+            {
+              "format": "openai-responses-v1",
+              "index": 0,
+              "summary": {
+                "$llmemo.text": "4f9fb9def0d772739d25c7310f13142e6bb5f21c9b332def0193084df07cf6d5"
+              },
+              "type": "reasoning.summary"
+            },
+            {
+              "data": {
+                "$llmemo.text": "4f671778f516b01fb0fb72ee06455be8c54142114236a15fa93de6f8ea0a4d54"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_0f7ac9df7ac3c756016b04b9e39c7c87d1b161150fa719f320",
+              "index": 1,
+              "type": "reasoning.encrypted"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "completed"
+      }
+    ],
+    "created": 1795471843,
+    "id": "gen-1795471843-b4zrr0UL96LzP01rhLon",
+    "model": "openai/gpt-6-luna",
+    "object": "chat.completion",
+    "provider": "OpenAI",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 315,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 286
+      },
+      "cost": 0.000227195,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0001575,
+        "upstream_inference_cost": 0.000227195,
+        "upstream_inference_prompt_cost": 0.000069695
+      },
+      "is_byok": false,
+      "prompt_tokens": 4907,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 177,
+        "cached_tokens": 4727,
+        "video_tokens": 0
+      },
+      "total_tokens": 5222
+    }
+  }
+}

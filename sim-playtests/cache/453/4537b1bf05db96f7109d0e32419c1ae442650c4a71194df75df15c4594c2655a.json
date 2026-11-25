@@ -1,0 +1,159 @@
+{
+  "contentSha256": "78923dd56d9bd462966c0aa2caca1edd407dce724dac2e373dac5e73b877a0d8",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "clue-giver",
+    "request": {
+      "backend": "claude-cli",
+      "effort": "high",
+      "jsonSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "clue",
+              "skip"
+            ],
+            "type": "string"
+          },
+          "confidence": {
+            "maximum": 5,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "lines": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "plan": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "confidence",
+          "action",
+          "plan",
+          "lines"
+        ],
+        "type": "object"
+      },
+      "model": "claude-opus-5-5",
+      "prompt": {
+        "$llmemo.text": "d28e136dc08f59bf5ed614a9dcb36755361c43ebc7cedd671973da485e63d306"
+      },
+      "system": [
+        {
+          "$llmemo.text": "29d73c99f00758a55ed046d05b0403c1ca98589e4f1e9e1a977874ccbdd10cbc"
+        },
+        {
+          "$llmemo.text": "f373fc6916e23cbfb200734dc22a2e5e9c5e4036a219150f66eed09550c1df85"
+        },
+        {
+          "$llmemo.text": "2fde04bc2e1af13938737fe97d53aa72e4604167970b9d0beb7f36b50e0a89fd"
+        }
+      ]
+    },
+    "variant": "play"
+  },
+  "meta": {
+    "billing": "subscription",
+    "codeVersion": "402a6eb",
+    "costUsd": 0.0134792,
+    "latencyMs": 8364,
+    "recordedAt": "2026-11-23T22:00:28.483Z",
+    "recordedBy": "developer",
+    "servedBy": "firstParty",
+    "servedModel": "claude-opus-5-5",
+    "tags": {
+      "game": "2026-11-23/Bend over backwards",
+      "run": "play-play"
+    },
+    "toolVersion": "2.1.330 (Claude Code)",
+    "usage": {
+      "cacheReadTokens": 6376,
+      "cacheWriteTokens": 632,
+      "inputTokens": 2,
+      "outputTokens": 357,
+      "reasoningTokens": 157
+    }
+  },
+  "reply": {
+    "api_error_status": null,
+    "is_error": false,
+    "modelUsage": {
+      "claude-opus-5-5": {
+        "cacheCreationEphemeral1hInputTokens": 632,
+        "cacheCreationEphemeral5mInputTokens": 0,
+        "cacheCreationInputTokens": 632,
+        "cacheReadInputTokens": 6376,
+        "canonicalModel": "claude-opus-5-5",
+        "contextWindow": 1000000,
+        "costBasis": "list",
+        "costUSD": 0.0134792,
+        "inputTokens": 2,
+        "maxOutputTokens": 128000,
+        "outputTokens": 357,
+        "provider": "firstParty",
+        "thinkingTokens": 157,
+        "webSearchRequests": 0
+      }
+    },
+    "num_turns": 2,
+    "permission_denials": [],
+    "result": "{\"confidence\":3,\"action\":\"clue\",\"plan\":\"Main concept is an expression. Clue it literally: a body arching, then reversed/backwards. If they get \\\"bend\\\" or \\\"backwards\\\", add G12 for \\\"over\\\".\",\"lines\":[\"?g B8\",\"!r C12\",\"+ H1\",\"!y E8\",\"+ G13\"]}",
+    "stop_reason": "tool_use",
+    "structured_output": {
+      "action": "clue",
+      "confidence": 3,
+      "lines": [
+        "?g B8",
+        "!r C12",
+        "+ H1",
+        "!y E8",
+        "+ G13"
+      ],
+      "plan": "Main concept is an expression. Clue it literally: a body arching, then reversed/backwards. If they get \"bend\" or \"backwards\", add G12 for \"over\"."
+    },
+    "subtype": "success",
+    "terminal_reason": "completed",
+    "type": "result",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 632,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 632,
+      "cache_read_input_tokens": 6376,
+      "fallback_credit": null,
+      "inference_geo": "global",
+      "input_tokens": 2,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 632,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 632,
+          "cache_read_input_tokens": 6376,
+          "input_tokens": 2,
+          "output_tokens": 357,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 357,
+      "output_tokens_details": {
+        "thinking_tokens": 157
+      },
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

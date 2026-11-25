@@ -1,0 +1,7 @@
+        {
+         "guesses": [
+         "Time",
+         "Time period",
+         "Time zone"
+        ]
+       }

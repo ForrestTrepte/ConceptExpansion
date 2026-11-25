@@ -1,0 +1,144 @@
+{
+  "contentSha256": "25a292fa476569642eb6ee18c2acf8047c9f8c04d2f338e74a3e69cec422deac",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "4b5daa84bf7faab6f117925ff5de9ff2fdd6395e55661846fcc5b242e99c1765"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "e34c4c919363d42e4ec500f1ccd72a952303ccdf348febd47f86d82c77b6953c"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "openai/gpt-6-luna",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "guesses"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-3"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "f6004e3-dirty",
+    "costUsd": 0.00009299,
+    "latencyMs": 2373,
+    "recordedAt": "2026-11-24T00:05:02.513Z",
+    "recordedBy": "claude",
+    "servedBy": "OpenAI",
+    "servedModel": "openai/gpt-6-luna",
+    "tags": {
+      "run": "calibrate-or-luna"
+    },
+    "usage": {
+      "cacheReadTokens": 4769,
+      "cacheWriteTokens": 0,
+      "inputTokens": 4772,
+      "outputTokens": 90,
+      "reasoningTokens": 70
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"Button\",\"Action\",\"Verb\"]}",
+          "reasoning": {
+            "$llmemo.text": "b661bea2d059f121d42d10d3ea1cfa99a46cc2af5b3642e9f0e353c4a977443e"
+          },
+          "reasoning_details": [
+            {
+              "format": "openai-responses-v1",
+              "index": 0,
+              "summary": {
+                "$llmemo.text": "b661bea2d059f121d42d10d3ea1cfa99a46cc2af5b3642e9f0e353c4a977443e"
+              },
+              "type": "reasoning.summary"
+            },
+            {
+              "data": {
+                "$llmemo.text": "de39b9322b57a5504cf92dc1b4eeb734ea58735724072c2b200833f57ccfeb2c"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_0829c550530cef7d016b04d4acdba887d19f2de7ab4290085c",
+              "index": 1,
+              "type": "reasoning.encrypted"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "completed"
+      }
+    ],
+    "created": 1795478700,
+    "id": "gen-1795478700-2RcvbeR8OE0Yeadr2xuw",
+    "model": "openai/gpt-6-luna",
+    "object": "chat.completion",
+    "provider": "OpenAI",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 90,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 70
+      },
+      "cost": 0.00009299,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000045,
+        "upstream_inference_cost": 0.00009299,
+        "upstream_inference_prompt_cost": 0.00004799
+      },
+      "is_byok": false,
+      "prompt_tokens": 4772,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 4769,
+        "video_tokens": 0
+      },
+      "total_tokens": 4862
+    }
+  }
+}

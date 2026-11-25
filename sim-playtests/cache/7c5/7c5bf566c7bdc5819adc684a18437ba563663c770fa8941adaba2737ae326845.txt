@@ -1,0 +1,7 @@
+{
+  "guesses": [
+    "Hospital",
+    "Clinic",
+    "Doctor's office"
+  ]
+}

@@ -1,0 +1,23 @@
+New prompt.
+
+Step 1, markers placed:
+?g A13
++ G7 x6 [the six cubes arranged in a 2×3 rectangle, like a brick's studs]
+Board now:
+?g A13 | G7, G7, G7, G7, G7, G7
+Guesses: die (dice), Rubik's cube, brick wall
+Clue-giver: No
+
+Step 2, markers placed:
+(no new markers)
+Board now:
+?g A13 | G7, G7, G7, G7, G7, G7
+Guesses: building blocks, mosaic, pixels
+Clue-giver: No
+
+Step 3, markers placed:
+(no new markers)
+Board now:
+?g A13 | G7, G7, G7, G7, G7, G7
+
+Give up to 3 guesses, best first, or none to pass.

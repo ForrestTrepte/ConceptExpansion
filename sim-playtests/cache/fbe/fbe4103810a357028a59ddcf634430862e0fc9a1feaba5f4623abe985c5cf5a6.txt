@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "To tick",
+    "To chime",
+    "To ring"
+  ]
+,
+  "pass": false
+}

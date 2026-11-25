@@ -1,0 +1,64 @@
+New prompt.
+
+Step 1, markers placed:
+?g H14
+Board now:
+?g H14
+Guesses: Verb, Action, Doing something
+Clue-giver: No
+
+Step 2, markers placed:
+!r A1
++ D8
+Board now:
+?g H14
+!r A1 | D8
+Guesses: Box, Package, Container
+Clue-giver: No
+
+Step 3, markers placed:
++r C13
+Board now:
+?g H14
+!r A1 | D8, C13
+Guesses: Alarm, Bell, Timer
+Clue-giver: No
+
+Step 4, markers placed:
+!y E2
++ B14
++ G14
++ C3
+Board now:
+?g H14
+!r A1 | D8, C13
+!y E2 | B14, G14, C3
+Guesses: Sleeping, Dreaming, Nightmare
+Clue-giver: No
+
+Step 5, markers placed:
++y D4
+Board now:
+?g H14
+!r A1 | D8, C13
+!y E2 | B14, G14, C3, D4
+Guesses: Unboxing, Opening a box, Breaking into a house
+Clue-giver: No
+
+Step 6, markers placed:
+(no new markers)
+Board now:
+?g H14
+!r A1 | D8, C13
+!y E2 | B14, G14, C3, D4
+Guesses: Breaking a window, Alarm goes off, Exploding
+Clue-giver: No
+
+Step 7, markers placed:
+(no new markers)
+Board now:
+?g H14
+!r A1 | D8, C13
+!y E2 | B14, G14, C3, D4
+
+Give up to 3 guesses, best first, or none to pass.

@@ -1,0 +1,24 @@
+*   `?g A4`: Main Concept is A4 (Fauna / Animal).
+    *   `+ C3`: (Sub-concept) C3 is Slow / Slow motion. (So, the animal is slow).
+    *   `+ Brown`: (Sub-concept) Color is Brown.
+    *   `+ H10`: (Sub-concept) H10 is Small / Low. (So, the animal is small).
+    *   `+ G3`: (Sub-concept) G3 is Spiral / Drunkenness / Coil. (So, it has a spiral or is coiled).
+
+    *   Animal + Slow + Brown + Small + Spiral/Coiled.
+
+    *   Snail (Slow, small, often brown, has a spiral shell).
+    *   Sloth (Slow, but usually not "spiral/coiled" in a defining way, though not small in the same way as a snail).
+    *   Turtle (Slow, but the "spiral" usually implies a snail).
+    *   Hedgehog (Not really spiral).
+
+    *   Snail.
+
+    *   Snail.
+    *   Turtle.
+    *   Sloth.
+
+    *   A snail is a slow, small, brown animal with a spiral shell. This fits perfectly.
+
+    1. Snail
+    2. Turtle
+    3. Sloth

@@ -1,0 +1,45 @@
+New prompt.
+
+Step 1, markers placed:
+?g H14
++ C14
++ C11
+Board now:
+?g H14 | C14, C11
+Guesses: wink, blink, glance
+Clue-giver: No
+
+Step 2, markers placed:
+!r A1
++ C7
++ C14
+Board now:
+?g H14 | C14, C11
+!r A1 | C7, C14
+Guesses: click a mouse, turn on a computer, press a button
+Clue-giver: No
+
+Step 3, markers placed:
++r D11
++ F11
+Board now:
+?g H14 | C14, C11
+!r A1 | C7, C14, D11, F11
+Guesses: type on a keyboard, use a remote control, operate a machine
+Clue-giver: No
+
+Step 4, markers placed:
++r E8
+Board now:
+?g H14 | C14, C11
+!r A1 | C7, C14, D11, F11, E8
+Guesses: switch off, toggle a switch, disconnect
+Clue-giver: No
+
+Step 5, markers placed:
+(no new markers)
+Board now:
+?g H14 | C14, C11
+!r A1 | C7, C14, D11, F11, E8
+
+Give up to 3 guesses, best first, or none to pass.

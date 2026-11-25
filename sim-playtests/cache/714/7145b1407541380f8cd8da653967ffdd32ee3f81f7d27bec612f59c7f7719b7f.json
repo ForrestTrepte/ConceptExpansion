@@ -1,0 +1,161 @@
+{
+  "contentSha256": "89536ec08b828afd1c646d62f03d538a7847a53fea531d64db1b7de3c468e71f",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "4b5daa84bf7faab6f117925ff5de9ff2fdd6395e55661846fcc5b242e99c1765"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "fd52ed9ed444bf9c224479a9d24e491d46f0663bc28c6d4166bffc99ab51bf03"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "openai/gpt-6-luna",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "guesses"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-2"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "f6004e3-dirty",
+    "costUsd": 0.000418195,
+    "latencyMs": 7985,
+    "recordedAt": "2026-11-24T00:07:19.058Z",
+    "recordedBy": "claude",
+    "servedBy": "OpenAI",
+    "servedModel": "openai/gpt-6-luna",
+    "tags": {
+      "run": "calibrate-or-luna"
+    },
+    "usage": {
+      "cacheReadTokens": 4727,
+      "cacheWriteTokens": 333,
+      "inputTokens": 5063,
+      "outputTokens": 658,
+      "reasoningTokens": 633
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"The X Factor\",\"Crossword\",\"A Christmas Carol\"]}",
+          "reasoning": {
+            "$llmemo.text": "c89ec4e2fae9a6dd7316d5a96124c735ec7bb404dc4e5b6b51b1f4f0271085db"
+          },
+          "reasoning_details": [
+            {
+              "format": "openai-responses-v1",
+              "index": 0,
+              "summary": {
+                "$llmemo.text": "c89ec4e2fae9a6dd7316d5a96124c735ec7bb404dc4e5b6b51b1f4f0271085db"
+              },
+              "type": "reasoning.summary"
+            },
+            {
+              "data": {
+                "$llmemo.text": "d76eb0970f0c219227813d6b6c3c1caca45925274d7f7462e021da32201c1792"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_05fcff97af47c4e2016b04d52fa25c87d180f9dbe7f58914b4",
+              "index": 1,
+              "type": "reasoning.encrypted"
+            },
+            {
+              "format": "openai-responses-v1",
+              "index": 2,
+              "summary": {
+                "$llmemo.text": "f09c67681a07dc0b20ed496582237e3d9b7792929eb7066561ac6274d5e98b11"
+              },
+              "type": "reasoning.summary"
+            },
+            {
+              "data": {
+                "$llmemo.text": "807938eaac5f64c12cfa1582ef9e18d7456f7e152f6731f491fa3ff941bfbe64"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_05fcff97af47c4e2016b04d5354cb887d1950640d97fd34688",
+              "index": 3,
+              "type": "reasoning.encrypted"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "completed"
+      }
+    ],
+    "created": 1795478831,
+    "id": "gen-1795478831-rOoyOveIXKWMCEj5LmpX",
+    "model": "openai/gpt-6-luna",
+    "object": "chat.completion",
+    "provider": "OpenAI",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 658,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 633
+      },
+      "cost": 0.000418195,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.000329,
+        "upstream_inference_cost": 0.000418195,
+        "upstream_inference_prompt_cost": 0.000089195
+      },
+      "is_byok": false,
+      "prompt_tokens": 5063,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 333,
+        "cached_tokens": 4727,
+        "video_tokens": 0
+      },
+      "total_tokens": 5721
+    }
+  }
+}

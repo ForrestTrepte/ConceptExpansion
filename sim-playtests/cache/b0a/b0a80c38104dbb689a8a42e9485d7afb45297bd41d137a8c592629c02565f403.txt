@@ -1,0 +1,7 @@
+{ 
+"guesses": [
+    "Graphic Design",
+    "Art",
+    "Painter"
+  ]
+}

@@ -1,0 +1,251 @@
+
+*   `?g H14`: Main Concept is "Use - Action / Do - Verb / Button". (H14 is a finger pressing a red button).
+    *   `!r A1`: Sub-concept (Red) is "Object / Box".
+    *   `+ D8`: Red sub-concept also includes "Time / Duration".
+    *   `+r C13`: Red sub-concept also includes "Ear / Sound / Hearing".
+
+    *   `?g H14`: Something you do (an action/button/verb).
+    *   `!r A1, D8, C13`: This action is related to:
+        *   An object/box (`A1`).
+        *   Time/duration (`D8`).
+        *   Sound/hearing (`C13`).
+
+    *   Action (H14) + Object (A1) + Time (D8) + Sound (C13).
+    *   Wait, `A1` is "Object / Box".
+    *   `D8` is "Time / Duration".
+    *   `C13` is "Ear / Sound / Hearing".
+
+    Let's re-evaluate:
+    The `!r` group contains `A1`, `D8`, and `C13`.
+    So, the answer is an action/verb/button (H14) that involves:
+    - A box/object (A1)
+    - Time (D8)
+    - Sound/hearing (C13)
+
+    Maybe a "Record" button?
+    - `H14`: Action/Button.
+    - `A1`: Could refer to a cassette tape or a radio box?
+    - `D8`: Recording takes time.
+    - `C13`: Sound.
+
+    Maybe "Play"?
+    - Guesses "Rewind, Fast forward, Pause" were all "No". "Play" is a very common button.
+
+    Maybe "Listen"? No, H14 is "Use/Action/Button".
+
+    Maybe "Volume"? No, that's a noun, though it could be "Turn up the volume". But H14 is "Action/Button".
+
+    Let's look at `A1` again. "Object / Box".
+    Maybe a "Radio"? "Listen to the radio"? But "Radio" is a noun, and H14 is "Action/Button".
+    Maybe "Turn on"?
+    "Turn on the radio"?
+    "Turn on" (H14) + Radio (A1/C13).
+
+    What about "Tape"? No, H14 is an action.
+
+    Let's reconsider `A1` (Object/Box).
+    Could it be "Volume" button?
+    Could it be "Mute"?
+    - Action: Mute (H14).
+    - Object/Box: ?
+    - Time: ?
+    - Sound: Yes.
+
+    Wait, `A1` is "Object/Box".
+    `D8` is "Time/Duration".
+    `C13` is "Ear/Sound/Hearing".
+
+    Is there a button on a box that involves time and sound?
+    "Record"?
+    - Action: Record (H14).
+    - Object: A recorder/box (A1).
+    - Time: Recording takes time (D8).
+    - Sound: Recording sound (C13).
+
+    "Play"? Already rejected.
+    "Stop"?
+    - Action: Stop (H14).
+    - Object: A player (A1).
+    - Time: Stops time/duration (D8).
+    - Sound: Stops sound (C13).
+
+    Let's try "Record".
+    Another possibility: "Timer"? No, H14 is an action.
+    "Alarm"?
+    - Action: Set an alarm (H14).
+    - Object: Clock/Box (A1).
+    - Time: Alarm is time-based (D8).
+    - Sound: Alarm makes sound (C13).
+
+    Wait, the prompt says `?g H14` (Action/Button).
+    Is "Alarm" an action? "Set an alarm" is an action. "Alarm" itself is usually a noun.
+    Is "Record" an action? Yes.
+    Is "Listen" an action? Yes.
+
+    Let's look at `A1` again. It's a "Cardboard box; question mark".
+    If the answer is "Record", how does `A1` fit? A cassette tape box? A recording device?
+
+    What about "Clock"? No, H14 is an action.
+    What about "Watch"? "Watch" is an action.
+    - H14: Watch.
+    - A1: ?
+    - D8: Time.
+    - C13: ? (No).
+
+    What about "Radio"? "Turn on the radio"?
+    "Turn on" (H14).
+    - A1: Radio (Object).
+    - D8: ?
+    - C13: Sound.
+
+    Let's think about the `!r` group again: `A1` (Box/Object), `D8` (Time), `C13` (Sound).
+    Maybe "Record"?
+    Wait, "Record" is often associated with a "tape" or "disc".
+    Is there a button called "Record"? Yes.
+    Does it involve a box? A music box?
+    Does it involve time? Yes.
+    Does it involve sound? Yes.
+
+    What about "Set an alarm"?
+    "Alarm" as a button?
+    "Snooze"?
+    - Action: Snooze (H14).
+    - Object: Clock/Box (A1).
+    - Time: Snooze is time-related (D8).
+    - Sound: Alarm sound (C13).
+
+    "Snooze" is a very strong candidate for an "Action/Button" that relates to time and sound and a device (object).
+
+    Let's try:
+    1. Record
+    2. Snooze
+    3. Alarm (even though it's often a noun, in a game it might be used)
+
+    Wait, let's re-examine `A1` (Object/Box).
+    Could the answer be "Radio"? H14 is "Action/Verb/Button".
+    Could it be "Broadcast"?
+    Could it be "Tune in"?
+    "Tune" (H14).
+    - A1: Radio (Object).
+    - D8: ?
+    - C13: Sound.
+
+    Let's look at `D8` (Time/Duration) more closely.
+    If the action is "Snooze", that fits perfectly.
+    Action: Snooze.
+    Object: Alarm clock (A1).
+    Time: Snooze relates to time/duration (D8).
+    Sound: Alarm sound (C13).
+
+    Wait, is an alarm clock an "A1" (Box/Object)? Yes, it's a small box.
+
+    Let's check "Record" again.
+    Action: Record.
+    Object: Recorder (A1).
+    Time: Duration (D8).
+    Sound: Sound (C13).
+
+    "Record" feels slightly more professional for these clues.
+    However, "Snooze" or "Alarm" fits the "Time" clue very specifically.
+
+    Let's look at `A1` again. "Object / Box".
+    If the answer is "Record", maybe `A1` is just a general object?
+
+    Wait, `A1` is "Object / Box".
+    `D8` is "Time / Duration".
+    `C13` is "Ear / Sound / Hearing".
+    `H14` is "Use / Action / Button".
+
+    Maybe "Timer"? (Action: Set timer).
+    Maybe "Stopwatch"? (Action: Use stopwatch).
+
+    How about "Radio"? (If the action is "to radio" or "turn on radio").
+    "Listen"? (Action).
+    - A1: Radio (Object).
+    - D8: Duration of listening.
+    - C13: Hearing.
+    But the clue-giver used `H14` which is "Action / Do / Verb / Button".
+    "Listen" is a verb.
+
+    Wait, `!r A1, D8, C13` are *Sub-concepts*. They describe *related ideas*.
+    So the answer (H14: Action/Button) is related to an Object/Box, Time, and Sound.
+
+    "Record"
+    "Snooze"
+    "Play" (already guessed "No")
+    "Pause" (already guessed "No")
+    "Rewind" (already guessed "No")
+    "Fast forward" (already guessed "No")
+
+    What's left?
+    "Stop"?
+    "Mute"?
+    "Volume"? (Not an action).
+    "Record" seems very likely.
+
+    Another thought: "Alarm"? "Set alarm"?
+    "Snooze" is a button.
+
+    Let's think about `A1` (Object/Box) + `D8` (Time) + `C13` (Sound).
+    What if the object is a "Clock"? (Not a box, but can be).
+    What if the answer is "Alarm"? (As in the sound itself, or the action of an alarm).
+    But the main concept is `H14` (Action/Button).
+    So "Snooze" (Action/Button).
+    "Snooze" relates to:
+    - A clock/box (A1).
+    - Time (D8).
+    - A sound (C13).
+
+    Let's try "Record".
+    "Record" relates to:
+    - A recorder/box (A1).
+    - Time (D8).
+    - Sound (C13).
+
+    Let's try "Alarm". (Even if it's a noun, it's often used as "the alarm went off").
+    But "Snooze" or "Record" are better verbs.
+
+    Wait! `A1` is "Object / Box". `D8` is "Time". `C13` is "Sound".
+    "Record" is the most logical.
+
+    Wait, let's look at the clue `!r A1`. It's a red sub-concept.
+    The clues are:
+    - `?g H14` (Action/Button)
+    - `!r A1` (Object/Box)
+    - `!r D8` (Time)
+    - `!r C13` (Sound)
+
+    "Record" (verb)
+    - Related to a box/object (recorder).
+    - Related to time.
+    - Related to sound.
+
+    "Snooze" (verb/button)
+    - Related to a clock/box.
+    - Related to time.
+    - Related to sound.
+
+    "Mute" (verb/button)
+    - Related to sound.
+    - Related to time? Not really.
+
+    "Stop" (verb/button)
+    - Related to time (stops duration).
+    - Related to sound (stops sound).
+    - Related to an object?
+
+    "Record" or "Snooze" are my best bets.
+
+    Let's try "Record", "Snooze", "Stop".
+    Actually, let's look at "Radio" again. If the answer is "Radio" (though it's a noun, people sometimes use H14 to mean "to radio"). But H14 is "Action/Do/Verb/Button".
+    "Record" is a very common button.
+
+    One more: "Timer". (Not a button, but "Set timer" is).
+    "Alarm".
+
+    Let's go with "Record", "Snooze", "Alarm". (Wait, "Alarm" is often a noun, but "Set alarm" is the action).
+
+    Actually, let's look at `A1` again. "Object / Box".
+    What if it's "Music box"? No, that's a noun.
+
+    Wait, "Record" (the verb) is very strong.

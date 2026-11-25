@@ -1,0 +1,477 @@
+*   `?g H14`: The Main Concept is an "Action/Verb/Do/Use/Button" (H14).
+    *   `!r A1`: A sub-concept is an "Object/Box" (A1).
+    *   `!r D8`: A sub-concept is "Time/Duration" (D8) (related to the Object/Box).
+    *   `!r C13`: A sub-concept is "Ear/Sound/Hearing" (C13) (related to the Object/Box).
+    *   `!y E2`: A sub-concept is "Night/Evening/Space/Moon/Star" (E2).
+    *   `!y B14`: A sub-concept is "House/Dwelling/Room/Domestic" (B14).
+    *   `!y G14`: A sub-concept is "Turn/Around/Cycle/Repetition" (G14).
+    *   `!y C3`: A sub-concept is "Slow/Slow motion" (C3).
+
+    *   Main Concept: An action (H14).
+    *   Group Red (related to the Action):
+        *   Object (A1): A Box? A case? A container?
+        *   Time (D8): Duration, timing, or a specific time.
+        *   Sound (C13): Hearing, ringing, or a signal.
+    *   Group Yellow (related to the Action or the Object):
+        *   Night/Space (E2): Nighttime, stars, space.
+        *   House/Room (B14): Domestic, inside a room.
+        *   Turn/Cycle (G14): Rotating, turning, cycling.
+        *   Slow (C3): Slow motion, slow pace.
+
+    *   `?g H14` (Action)
+    *   `!r A1` (Object/Box), `D8` (Time), `C13` (Sound/Hearing)
+    *   `!y E2` (Night/Space), `B14` (House/Room), `G14` (Turn/Cycle), `C3` (Slow)
+
+    *Wait, let's look at the clues again.*
+    The action (H14) is:
+    - Related to a box/object (A1)
+    - Related to time (D8)
+    - Related to sound (C13)
+    - Related to night/space (E2)
+    - Related to a house (B14)
+    - Related to turning/cycles (G14)
+    - Related to being slow (C3)
+
+    *Hypothesis 1: An alarm clock?*
+    - Action: To wake up? To ring? (C13 sound).
+    - Object: A clock (is it a box A1?).
+    - Time: D8 (obviously).
+    - Space/Night: E2 (it's used at night/morning/darkness).
+    - House: B14 (domestic).
+    - Turn: G14 (winding it? turning?).
+    - Slow: C3 (winding it slowly?).
+    - Wait, the action is H14 (Do/Action). "To ring"? "To wake"?
+    - "To ring" was already guessed and got "No".
+
+    *Hypothesis 2: A lullaby?*
+    - Action: To sing?
+    - Sound: C13.
+    - Night/Space: E2.
+    - Slow: C3.
+    - But A1 (Box) and D8 (Time) and G14 (Turn)? Not much.
+
+    *Hypothesis 3: A music box?*
+    - Action: To play? (Already guessed "To play" - result was No).
+    - Object: A box (A1).
+    - Sound: C13.
+    - Night/Space/Home: B14, E2.
+    - Turn/Cycle: G14 (turning the key).
+    - Slow: C3 (the music is slow).
+    - Time: D8 (plays for a duration).
+    - *Wait, the guess "To play" was "No" in Step 3.*
+
+    *Hypothesis 4: A Moon?*
+    - No, the main concept is H14 (Action).
+
+    *Hypothesis 5: A planet/rotation?*
+    - Action: To rotate? (G14).
+    - Space: E2.
+    - Time: D8.
+    - Slow: C3.
+    - But A1 (Box) and B14 (House) and C13 (Sound)?
+
+    *Hypothesis 6: A clock winding?*
+    - "To wind"?
+    - Box (A1) - the clock case.
+    - Time (D8).
+    - Sound (C13) - ticking.
+    - Night (E2) - sleeping.
+    - House (B14) - domestic.
+    - Turn/Cycle (G14) - winding.
+    - Slow (C3) - slow movement.
+
+    *Hypothesis 7: A sleeping bag?*
+    - No, H14 is an action.
+
+    *Hypothesis 8: To dream?*
+    - Action (H14).
+    - Night (E2).
+    - Slow (C3)?
+    - Box (A1)? No.
+
+    *Hypothesis 9: To orbit?*
+    - Action (H14).
+    - Space (E2).
+    - Turn/Cycle (G14).
+    - Time (D8).
+    - Slow (C3).
+    - Box (A1)? No.
+
+    *Hypothesis 10: A pendulum/Clockwork?*
+    - "To tick"?
+    - Action: H14.
+    - Sound: C13.
+    - Time: D8.
+    - Turn/Cycle: G14.
+    - Slow: C3.
+    - Box: A1 (the clock case).
+    - Night/Home: E2/B14.
+
+    *Let's re-examine the clues.*
+    Red: A1 (Object/Box), D8 (Time), C13 (Sound/Hearing).
+    Yellow: E2 (Night/Space), B14 (House), G14 (Turn/Cycle), C3 (Slow).
+
+    If the action is "To wind":
+    - Red: A box (the clock), a duration (how long it lasts), a sound (ticking).
+    - Yellow: Night (time to wind?), House (domestic), Turn (winding), Slow (the movement).
+
+    If the action is "To sleep":
+    - Red: No clear A1/D8/C13 connection.
+
+    If the action is "To orbit" (E2/G14/D8/C3):
+    - Red: A1/C13? No.
+
+    If the action is "To spin/rotate":
+    - Red: A1 (a box?), C13 (sound of spinning?), D8 (time).
+    - Yellow: E2 (space), G14 (turn), C3 (slowly).
+
+    What about "A music box" but as an action? "To wind a music box"?
+    Wait, the main concept is H14 (Action/Verb/Use/Button).
+    The answer might be a single word like "Spin", "Rotate", "Wind", "Tick", "Ring" (already guessed), "Play" (already guessed).
+
+    Let's look at "To spin".
+    A1 (Box/Object)? No.
+
+    Let's look at "To wind" (as in a clock or a key).
+    A1 (Object/Box/Case).
+    D8 (Time/Duration).
+    C13 (Sound/Hearing).
+    E2 (Night/Space - maybe not).
+    B14 (House - clock).
+    G14 (Turn/Cycle - winding/turning).
+    C3 (Slow - winding is slow).
+
+    What about "To spin" a planet?
+    E2 (Space), G14 (Turn), D8 (Time), C3 (Slow).
+    A1 (Box)? No.
+
+    Wait, let's look at the Red markers again.
+    !r A1 (Object), D8 (Time), C13 (Sound).
+    Could the object (A1) be a *radio*? Or a *watch*?
+    If the action is "To listen":
+    - Sound: C13.
+    - Object: A1 (Radio/Box).
+    - Time: D8 (duration of listening).
+    - Night: E2 (listening to music at night).
+    - House: B14 (domestic).
+    - Turn/Cycle: G14?
+    - Slow: C3?
+
+    What about "A rotating star/galaxy"?
+    E2 (Space/Star), G14 (Turn), D8 (Time), C3 (Slow), A1 (Box/Object? No).
+
+    Let's look at the Yellow markers again.
+    E2 (Night/Space), B14 (House/Room), G14 (Turn/Cycle), C3 (Slow).
+    What action involves turning, is slow, happens in a house/night, and is related to sound and time and a box?
+
+    "To wind" a watch/clock.
+    A1 (the watch case/box), D8 (time), C13 (the ticking), B14 (house), G14 (winding/turning), C3 (slow movement). E2 (Night/Space/Moon) - clocks/watches are often associated with the moon (moon phase watches) or simply the passage of time/night.
+
+    Is there another action?
+    "To spin"?
+    "To rotate"?
+    "To cycle"?
+
+    What about "To lull"? (Lullaby)
+    C13 (Sound), C3 (Slow), E2 (Night), B14 (House), G14 (Cycle/Repeat)?
+    A1 (Box)? No.
+
+    What about "To orbit"?
+    E2 (Space), G14 (Turn/Cycle), D8 (Time), C3 (Slow).
+    A1 (Box)? No.
+
+    What about "To spin a record"?
+    A1 (Box/Player), C13 (Sound), D8 (Time), G14 (Turn), C3 (Slow), B14 (House), E2 (Night).
+    Is a record player a box (A1)? Yes.
+    Is it an action (H14)? "To spin" or "To play"?
+    "To play" was already guessed. "To spin"?
+
+    What about "To rotate/turn" a key?
+    A1 (Box/Lock), G14 (Turn), C3 (Slow), B14 (House), D8 (Time), C13 (Sound of clicking).
+    What about E2 (Night/Space)? A key/lock in the night?
+
+    Let's rethink the "A1" (Object/Box) and "C13" (Sound).
+    Maybe the answer is "To spin" or "To rotate" or "To turn".
+    Wait, "To ring" was No. "To play" was No.
+    What about "To tick"?
+    A1 (Box/Clock), D8 (Time), C13 (Sound), G14 (Turn/Cycle - gears), C3 (Slow), B14 (House), E2 (Night/Stars - the passage of time).
+
+    What about "To wind"?
+    A1 (Box/Clock/Watch), D8 (Time), C13 (Sound), G14 (Turn), C3 (Slow), B14 (House/Domestic), E2 (Night/Moon - moon phases/winding).
+
+    Let's try:
+    1. To wind
+    2. To spin
+    3. To rotate
+
+    Wait, maybe the object (A1) is a "music box" and the action is "To wind" it? Or "To turn" the key?
+    Or maybe the action is "To spin" a top? (No, B14/E2/D8 don't fit).
+
+    Let's look at "To rotate" a planet.
+    Action: H14.
+    Space: E2.
+    Turn: G14.
+    Time: D8.
+    Slow: C3.
+    Sound: C13? No.
+    Box: A1? No.
+
+    Could the answer be "To revolve"?
+    Could the answer be "To move"?
+
+    Let's look at "To spin" again.
+    If the answer is "To spin" (H14).
+    Red: A1 (Box/Record player?), D8 (Time/Duration), C13 (Sound).
+    Yellow: E2 (Space/Night?), B14 (House), G14 (Turn/Cycle), C3 (Slow).
+
+    What if the answer is "A star"? No, it's an action (H14).
+    What if the answer is "To orbit"?
+
+    Let's look at the "Box" (A1) and "Sound" (C13) again.
+    A radio? "To tune"? "To listen"? "To broadcast"?
+    A clock? "To tick"? "To wind"? "To set"?
+    "To set" was not guessed.
+    "To set (an alarm/a clock)"
+    Action: H14.
+    Object: A1 (Clock/Box).
+    Time: D8 (Time/Duration).
+    Sound: C13 (Alarm/Sound).
+    Night: E2 (Night/Alarm/Darkness).
+    House: B14 (Domestic).
+    Turn: G14 (Turning the dial/knob).
+    Slow: C3 (Slowly turning).
+
+    This seems very strong.
+
+    Let's check "To wind":
+    - H14 (Action)
+    - A1 (Clock/Box)
+    - D8 (Time)
+    - C13 (Sound/Ticking)
+    - E2 (Night/Moon)
+    - B14 (House)
+    - G14 (Turn)
+    - C3 (Slowly)
+
+    Let's check "To tick":
+    - H14 (Action)
+    - A1 (Clock/Box)
+    - D8 (Time)
+    - C13 (Sound)
+    - G14 (Cycle)
+    - C3 (Slowly)
+    - B14 (House)
+    - E2 (Night/Moon - time passing)
+
+    Let's check "To spin":
+    - H14 (Action)
+    - A1 (Record player/Box)
+    - C13 (Sound)
+    - D8 (Time)
+    - G14 (Turn)
+    - C3 (Slowly)
+    - B14 (House)
+    - E2 (Night/Stars/Space - spinning things in space?)
+
+    "To wind" or "To tick" or "To set" or "To turn".
+
+    Wait, "To spin" (H14) + "Space" (E2) + "Turn" (G14) + "Slow" (C3) + "Time" (D8).
+    Is it "To rotate" (like a planet)?
+    But how does "A1 (Object/Box)" and "C13 (Sound)" fit "To rotate"?
+    Maybe it's not "To rotate" but "A spinning top"? No, H14 is action.
+    Maybe "To spin" a record/CD?
+    A1 (the disc/player?), C13 (sound), D8 (time), G14 (turn), C3 (slow), B14 (house), E2 (space/stars - music? no).
+
+    Let's rethink "A1 (Object/Box)" + "C13 (Sound)".
+    Could it be "To watch"? "To observe"?
+    "To watch a movie"? (A6).
+    "To listen to the radio"?
+    "To listen" (H14).
+    - C13 (Sound).
+    - A1 (Radio/Box).
+    - D8 (Time/Duration).
+    - E2 (Night/Space/Moon/Star - maybe listening to the radio at night/stars?).
+    - B14 (House).
+    - G14 (Turn/Cycle - tuning the dial?).
+    - C3 (Slow/Slowly?).
+
+    Actually, look at "G14" (Turn/Around/Cycle/Repetition).
+    What if it's "To rotate" or "To spin"?
+    Or "To cycle"?
+
+    Wait, "A1" is "Object/Box".
+    "C13" is "Ear/Sound/Hearing".
+    "D8" is "Time".
+    "E2" is "Night/Space/Moon/Star".
+    "B14" is "House/Room/Domestic".
+    "G14" is "Turn/Around/Cycle/Repetition".
+    "C3" is "Slow".
+
+    Is it "To spin" (as in a planet)?
+    If the answer is "To spin":
+    - H14: Yes.
+    - E2 (Space), G14 (Turn), D8 (Time), C3 (Slow): Yes.
+    - A1 (Box), C13 (Sound), B14 (House): No.
+
+    Is it "To wind" (a clock)?
+    - H14: Yes.
+    - A1 (Box/Clock), D8 (Time), C13 (Sound), G14 (Turn), C3 (Slow), B14 (House): Yes.
+    - E2 (Night/Space/Moon): Yes (clocks/moon/night).
+
+    Is it "To orbit"? (Already checked, A1/C13 don't fit).
+
+    What if the answer is "A pendulum"? (H14 action is "To swing"? "To tick"?)
+    If the action is "To swing":
+    - A1 (Box/Pendulum in a clock case).
+    - C13 (Sound).
+    - G14 (Cycle/Turn/Repeat).
+    - C3 (Slow).
+    - D8 (Time).
+    - B14 (House).
+    - E2 (Night/Space - a pendulum is like a cosmic movement?).
+
+    Let's try "To wind" or "To tick" or "To rotate".
+    "To rotate" is very close to "To turn" (G14).
+
+    Let's look at the "A1" (Object/Box) again. It's the *first* sub-concept.
+    It might be the thing being acted upon.
+    Action (H14) + Object (A1) + Sound (C13) + Time (D8).
+    "To wind" a clock/watch.
+    "To set" an alarm.
+    "To tick" (but tick isn't really an action you "do" to an object in the same way).
+
+    What about "To play a record"? (Already guessed "To play").
+    What about "To wind a music box"?
+    Action: "To wind".
+    Object: "Music Box" (A1, C13, B14).
+    Time: "D8".
+    Turn: "G14".
+    Slow: "C3".
+    Night/Space: "E2" (Music box/night/stars?).
+
+    Let's try "To wind".
+
+    Another possibility: "To orbit" (a planet).
+    But A1 (Box) and C13 (Sound) are very specific.
+    A1 = Box, C13 = Sound.
+    Maybe the answer is "To spin" and the object is a "Record" (though a record isn't a box).
+    Wait, a "Jukebox"?
+    Action: "To play" (already guessed).
+    Object: "Jukebox" (A1, B14, C13, D8).
+    "To play" was "No".
+
+    What about "To spin" a disk?
+    "To rotate"?
+
+    Let's look at "To wind" again.
+    Is "To wind" a common action? Yes.
+    "To wind" (a clock).
+    A1 (the clock/box), C13 (sound/ticking), D8 (time), G14 (turn/cycle), C3 (slow/winding), B14 (house/domestic), E2 (night/moon).
+
+    Wait, "E2" (Space/Moon/Star/Night).
+    "G14" (Turn/Cycle).
+    "C3" (Slow).
+    "D8" (Time).
+    "A1" (Box).
+    "C13" (Sound).
+    "B14" (House).
+
+    "To orbit" fits E2, G14, C3, D8.
+    "To wind" fits A1, C13, D8, G14, C3, B14, E2.
+
+    Let's consider "To revolve" (around an axis).
+    Or "To rotate".
+
+    What if the answer is "To spin" a top? No.
+
+    Let's look at "To cycle"? (G14).
+    "To spin"?
+
+    Wait! "To spin" (H14) a "Globe" (A9)? No.
+    "To spin" a "Top" (A13)? No.
+
+    Let's try "To wind" or "To rotate".
+    If the answer is "To wind":
+    1. To wind
+    2. To rotate
+    3. To spin
+
+    Wait, "To spin" (H14) + "E2" (Space) + "G14" (Turn) + "C3" (Slow) + "D8" (Time) + "A1/C13/B14" (?).
+    Maybe the "A1" (Box) is a "Radio" and the action is "To tune"?
+    "To tune":
+    - H14 (Action).
+    - A1 (Radio/Box).
+    - C13 (Sound).
+    - G14 (Turn/Cycle/Tuning).
+    - D8 (Time/Duration).
+    - B14 (House).
+    - E2 (Night/Space - tuning into signals from space?).
+    - C3 (Slowly?).
+
+    "To wind" seems better. Let's try that.
+    Actually, "To wind" was not guessed. "To ring" and "To play" were.
+
+    One more thought: "A music box". But the main concept is H14 (Action).
+    What is the action of a music box? "To play" (No). "To wind" (Maybe).
+
+    Let's try:
+    1. To wind
+    2. To spin
+    3. To rotate
+
+    Wait, could it be "To spin" a record? (A1 - Box/Record player, C13 - Sound, D8 - Time, G14 - Turn, C3 - Slow, B14 - House, E2 - Night/Stars/Space?).
+    "To spin" or "To rotate".
+
+    Let's think about "E2" (Space/Moon/Star) and "G14" (Turn/Cycle) and "D8" (Time).
+    That's very much "To orbit" or "To revolve".
+    But how to explain "A1" (Box) and "C13" (Sound)?
+    A "Satellite"? (A1/B11?). No, H14 is action.
+    The action of a satellite is "To orbit".
+    Does a satellite have a "Box" (A1) and "Sound" (C13)?
+    Maybe the "Box" is the satellite itself (it's boxy) and "Sound" is the radio signal (C13)?
+    And "Time" (D8) is the orbital period?
+    And "Slow" (C3) is the orbit?
+    And "House" (B14) is... no.
+
+    Let's go back to "To wind".
+    If "To wind" is the answer:
+    - A1: Box (Clock/Watch case)
+    - D8: Time
+    - C13: Sound (Ticking)
+    - E2: Night/Moon (Moon phase/Night-time)
+    - B14: House (Domestic)
+    - G14: Turn (Winding/Turning)
+    - C3: Slow (Slow movement/winding)
+
+    This fits everything.
+
+    What about "To rotate"?
+    If "To rotate" is the answer:
+    - E2: Space
+    - G14: Turn
+    - D8: Time
+    - C3: Slow
+    - A1: Box (of a machine?)
+    - C13: Sound (of a machine?)
+    - B14: House (of a machine?)
+
+    "To wind" is a better fit for "Box" and "Sound" and "House".
+
+    Let's try:
+    1. To wind
+    2. To rotate
+    3. To spin
+
+    Wait, "To spin" is a good guess too.
+
+    One more: "To tick".
+    - H14 (Action).
+    - A1 (Clock/Box).
+    - D8 (Time).
+    - C13 (Sound).
+    - G14 (Cycle).
+    - C3 (Slow).
+    - B14 (House).
+    - E2 (Night/Moon/Stars - time passing).
+
+    Let's try "To wind", "To spin", "To rotate".

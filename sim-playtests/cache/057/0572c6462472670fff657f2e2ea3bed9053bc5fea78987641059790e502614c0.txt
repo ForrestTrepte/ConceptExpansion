@@ -1,0 +1,43 @@
+New prompt.
+
+Step 1, markers placed:
+?g A4
++ Black
++ White
++ E1
+Board now:
+?g A4 | Black, White, E1
+Guesses: Animal, Bee, Butterfly
+Clue-giver: No
+
+Step 2, markers placed:
++g A11
+Board now:
+?g A4 | Black, White, E1, A11
+Guesses: Ladybug, Insect, Ladybird
+Clue-giver: No
+
+Step 3, markers placed:
+!r B11
++ E11
+Board now:
+?g A4 | Black, White, E1, A11
+!r B11 | E11
+Guesses: Insect, Bee, Ladybug
+Clue-giver: No
+
+Step 4, markers placed:
+(no new markers)
+Board now:
+?g A4 | Black, White, E1, A11
+!r B11 | E11
+Guesses: Ladybug, Bee, Butterfly
+Clue-giver: No
+
+Step 5, markers placed:
+(no new markers)
+Board now:
+?g A4 | Black, White, E1, A11
+!r B11 | E11
+
+Give up to 3 guesses, best first, or none to pass.

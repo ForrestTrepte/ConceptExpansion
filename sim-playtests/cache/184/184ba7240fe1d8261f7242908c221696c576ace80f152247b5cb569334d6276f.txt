@@ -1,0 +1,10 @@
+{
+  "guesses": [
+    "Prince",
+    "Elvis Presley",
+    "Queen (the band)"
+  ]
+,
+"pass"
+:  false
+}

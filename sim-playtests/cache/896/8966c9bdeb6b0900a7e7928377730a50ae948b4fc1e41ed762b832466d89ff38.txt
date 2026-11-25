@@ -1,0 +1,7 @@
+{
+  "guesses": [
+    "an apple",
+    "a fruit",
+    "a donut"
+  ]
+}

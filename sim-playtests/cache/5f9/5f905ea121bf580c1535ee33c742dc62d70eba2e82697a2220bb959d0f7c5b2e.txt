@@ -1,0 +1,31 @@
+The answer is: New Year's resolution
+
+The game so far:
+
+Step 1, markers placed:
+?g B10
++ A10
++ C1
+!r A8
++ H13
++ B8
+Your private plan: Clue the holiday (New Year) first, then the idea of a promise/new/start; later add resolution as a decision/idea.
+Board now:
+?g B10 | A10, C1
+!r A8 | H13, B8
+Guesses: birthday
+Clue-giver: Yes: birthday
+
+Step 2, markers placed:
+!y H14
++ H13
++ B8
++ G14
+Your private plan: Keep the holiday/new idea, add a sub-concept for a promise to do something in the future (a New Year's resolution).
+Board now:
+?g B10 | A10, C1
+!r A8 | H13, B8
+!y H14 | H13, B8, G14
+Guesses: name day
+
+The judge found none of the last guesses correct. Answer Yes or No to them, then add markers or give up. The guesser has 8 turns left.

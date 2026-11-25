@@ -1,0 +1,229 @@
+*   `?g D8`: Main concept is "Time / Duration" (D8).
+    *   `+ A12`: Related to "Ground transportation / Road" (A12) - (in group g).
+    *   `+ B1`: Related to "Human / Society / Group" (B1) - (in group g).
+    *   `!r D3`: Red sub-concept (related/feature) is "Fast / Race" (D3).
+    *   `+ A12`: Related to "Ground transportation / Road" (A12) - (in group r).
+    *   `!y D8`: Yellow sub-concept (related/feature) is "Time / Duration" (D8).
+
+    *   Main Concept: Time/Duration.
+    *   Details: Ground transport, Human/Society, Fast/Race, Ground transport.
+    *   Yellow sub-concept: Time/Duration.
+
+    *   "Pit stop" (No)
+    *   "Lap" (No)
+    *   "Race" (No)
+
+    *   The concept is a duration (Time/Duration).
+    *   It involves Ground transport (A12) and is Fast (D3).
+    *   It involves Humans/Society (B1).
+    *   Wait, look at the yellow sub-concept: `!y D8`. The sub-concept is also "Time / Duration". This might be highlighting the *nature* of the duration.
+    *   Maybe it's a specific length of time?
+    *   A race/fast ground transport event involving people.
+    *   A "Second"? (Time).
+    *   A "Minute"?
+    *   A "Century"?
+    *   What about a "Tour"? (Time, travel/transport, humans).
+    *   "Marathon"? (A duration, fast/race, humans/society, involves ground/road).
+    *   "Speed limit"? (Time, road, humans).
+    *   "Traffic jam"? (Time, road, humans).
+    *   "Grand Prix"? (Race, road, humans).
+    *   "Interval"?
+    *   "Moment"?
+    *   "Era"?
+    *   "Trip"?
+    *   "Journey"?
+    *   "Commute"? (Time, road, humans, fast/race? maybe not).
+    *   "Sprint"? (Fast, time, humans, road/track).
+    *   "Schedule"? (Time, humans/society).
+
+    *   Main Concept: Time (D8).
+    *   Sub-Concept Red: Fast/Race (D3) + Road (A12).
+    *   Sub-Concept Yellow: Time (D8).
+    *   Group g (Main): Road (A12) + Society (B1).
+
+    *   A "Sprint" (Race, Fast, Road/Track, Human).
+    *   A "Marathon" (Duration, Road, Fast/Race, Human).
+    *   A "Race" (Already guessed).
+    *   "Fast" (Already guessed "Race" and "Lap").
+    *   "Time limit"?
+    *   "Countdown"? (Time, Race/Fast).
+    *   "Record"? (Time, Race, Human).
+    *   "Speed"?
+    *   "Acceleration"?
+
+    Let's think about the clues again.
+    `?g D8` -> A duration.
+    `+ A12, + B1` (g) -> Relates to roads and people.
+    `!r D3, + A12` (r) -> A fast race on the road.
+    `!y D8` (y) -> This is a duration.
+
+    Is the answer "A second"? "A minute"?
+    "A minute" of speed? No.
+    "A lap"? (Already guessed).
+    "A mile"? (Distance, not time).
+    "A kilometer"?
+    "A marathon"?
+
+    What if the answer is "A Year"? "A Decade"?
+    Wait, "Road" + "People" + "Fast/Race" + "Time".
+    How about "Speeding ticket"? (Time, Road, People/Law).
+    How about "Traffic"? (Road, People, Time).
+
+    Let's try "Marathon".
+    Let's try "Sprint".
+    Let's try "Tour".
+
+    Wait, `!y D8` (Yellow sub-concept is Time). If the main concept is Time and a sub-concept is Time, it's emphasizing a specific *measure* of time or the concept of time itself.
+
+    "A Moment"?
+    "A Second"?
+    "A Millennium"?
+
+    Let's look at the red markers again: `!r D3 (Fast/Race) + A12 (Road)`.
+    This is a specific type of thing: A fast race on a road.
+    And the main concept is a duration of time.
+    "The duration of a race"?
+    "A lap"? (Already guessed).
+
+    What is a fast road race that is a duration of time?
+    "A Sprint"?
+    "A Marathon"?
+    "A Tour de France"? (Too specific?)
+    "A Grand Prix"?
+
+    Wait, could it be "Speed"? (Time/Duration isn't really speed, but speed relates to time/distance).
+    What about "The time of day"?
+    "A stoplight"?
+
+    Let's consider "A minute" or "A second".
+    Could the answer be "An hour"?
+    "A lifetime"?
+
+    Let's rethink: `?g D8` (A duration) + `A12, B1` (Road, Society) + `D3, A12` (Fast Race, Road).
+    "A race"? (Guessed).
+    "A marathon"?
+    "A sprint"?
+    "A rally"?
+    "A relay"?
+
+    What about "A speed limit"?
+    What about "Fast forward"? (No).
+
+    Let's try:
+    1. Marathon
+    2. Sprint
+    3. Rally
+
+    Wait, let's look at `B1` (Society/Human/Group).
+    Maybe "Commute"? (No).
+    "Traffic jam"? (No).
+
+    What about "A record"? (A time record).
+    If you set a record in a race.
+
+    Let's try "Marathon". It's a duration, it's on a road/ground, it's a race/fast, it involves people.
+
+    Actually, "A second" or "A minute" might be too abstract.
+    "A lap" was "No".
+
+    Could it be "A speed limit"?
+    What about "A detour"?
+    What about "A pit stop"? (Guessed: No).
+
+    Let's look at the Red sub-concept again: `!r D3 (Fast) + A12 (Road)`. This describes the thing.
+    A fast thing on a road.
+    And the Main concept is a duration.
+    A "fast road duration"?
+    "A split second"? (A very short time).
+
+    "A split second" fits:
+    - A duration (D8)
+    - Fast (D3)
+    - Related to a road/speed? (Not really).
+
+    What about "A detour"? No.
+    "A traffic jam"? No.
+
+    Let's look at `A12` (Road) and `B1` (Society).
+    "A journey"?
+    "A commute"?
+    "A road trip"? (Duration, Road, People).
+
+    "Road trip" is a good candidate.
+    "A journey".
+
+    Is "A race" a duration? Not really, a race is an event. A "Lap" is a distance/time.
+
+    Wait! `?g D8` (Duration) + `!r D3 (Fast) + A12 (Road)`.
+    Is it "A mile"? (No, distance).
+    Is it "A second"?
+
+    Let's try "Marathon", "Sprint", "Road trip".
+
+    One more thought: "A countdown"?
+    "A stopwatch"?
+
+    Wait, `B1` is Human/Society/Group.
+    `A12` is Road.
+    `D3` is Fast/Race.
+    `D8` is Time.
+    Maybe "A commute"?
+    Maybe "A traffic jam"?
+
+    What about "A speed limit"?
+
+    Let's try:
+    1. Marathon
+    2. Sprint
+    3. Road trip
+
+    Actually, "Marathon" is a very common Concept answer.
+    If "Race" was "No", then "Marathon" might be too close, but "Race" is a type of event, "Marathon" is a specific type of race.
+
+    Let's reconsider `!y D8`. The yellow group is also Time.
+    The clue-giver is saying:
+    The thing is a Time.
+    It's related to: Road, Society.
+    It's related to: Fast/Race, Road.
+    It's related to: Time.
+
+    "A second"?
+    "A minute"?
+    "A moment"?
+
+    Could the answer be "A stopwatch"? (It measures time, involves racing/fast, is a tool). But it's not a duration.
+
+    Wait, "A lap" was "No".
+    "A race" was "No".
+    "A pit stop" was "No".
+
+    What about "A speed limit"?
+    "A speed limit" is a rule (Society/B1), involves roads (A12), and is related to time (D8) and fast (D3).
+
+    Let's try "Marathon". Or "A sprint". Or "A commute".
+
+    Let's think about "Time" + "Road" + "Fast" + "People".
+    "A traffic jam"? No.
+    "A driving lesson"? No.
+    "A car ride"? No.
+    "A trip"?
+
+    What about "A second"?
+    "A split second"?
+
+    "A marathon" is a good guess.
+    "A sprint" is a good guess.
+    "A road trip" is a good guess.
+
+    Let's try to be more precise.
+    "A race" (No)
+    "A lap" (No)
+    "A pit stop" (No)
+
+    Maybe it's "A speed"?
+    "A speed record"?
+
+    Let's try:
+    1. Marathon
+    2. Sprint
+    3. Road trip

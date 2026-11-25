@@ -1,0 +1,136 @@
+{
+  "contentSha256": "0ee8f4c098f5e1b23d8033f2baa2c7057ceaaf335ec9662af668cf5e8daa0b28",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "claude-cli",
+      "effort": "low",
+      "jsonSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "guesses": {
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 3,
+            "type": "array"
+          }
+        },
+        "required": [
+          "guesses"
+        ],
+        "type": "object"
+      },
+      "model": "claude-haiku-5-5",
+      "prompt": {
+        "$llmemo.text": "b22c1e9b67276a91b5e4781a6fee00e02fa32a51ca0fa589ff9527c6b3d4a171"
+      },
+      "system": [
+        {
+          "$llmemo.text": "29d73c99f00758a55ed046d05b0403c1ca98589e4f1e9e1a977874ccbdd10cbc"
+        },
+        {
+          "$llmemo.text": "d2252f0f769f4131bf86b961745fc4f03ad64d43b87c38f0a046e0c94074bf6d"
+        },
+        {
+          "$llmemo.text": "ff8c30cdc3a4c276fdbe1c1b17ba825aa854e03c63ea67ed02a7b17a2bafa4b8"
+        }
+      ]
+    },
+    "variant": "trial-2"
+  },
+  "meta": {
+    "billing": "subscription",
+    "codeVersion": "f6004e3-dirty",
+    "costUsd": 0.0014268199999999999,
+    "latencyMs": 18922,
+    "recordedAt": "2026-11-23T23:04:01.442Z",
+    "recordedBy": "claude",
+    "servedBy": "firstParty",
+    "servedModel": "claude-haiku-5-5",
+    "tags": {
+      "run": "calibrate-play"
+    },
+    "toolVersion": "2.1.330 (Claude Code)",
+    "usage": {
+      "cacheReadTokens": 15372,
+      "cacheWriteTokens": 2287,
+      "inputTokens": 4,
+      "outputTokens": 1055,
+      "reasoningTokens": 905
+    }
+  },
+  "reply": {
+    "api_error_status": null,
+    "is_error": false,
+    "modelUsage": {
+      "claude-haiku-5-5": {
+        "cacheCreationEphemeral1hInputTokens": 2287,
+        "cacheCreationEphemeral5mInputTokens": 0,
+        "cacheCreationInputTokens": 2287,
+        "cacheReadInputTokens": 15372,
+        "canonicalModel": "claude-haiku-5-5",
+        "contextWindow": 1000000,
+        "costBasis": "list",
+        "costUSD": 0.0014268199999999999,
+        "inputTokens": 1392,
+        "maxOutputTokens": 128000,
+        "outputTokens": 1353,
+        "provider": "firstParty",
+        "thinkingTokens": 1186,
+        "webSearchRequests": 0
+      }
+    },
+    "num_turns": 3,
+    "permission_denials": [],
+    "result": "{\"guesses\":[\"Death Becomes Her\",\"Dead Poets Society\",\"Friday the 13th\"]}",
+    "stop_reason": "tool_use",
+    "structured_output": {
+      "guesses": [
+        "Death Becomes Her",
+        "Dead Poets Society",
+        "Friday the 13th"
+      ]
+    },
+    "subtype": "success",
+    "terminal_reason": "completed",
+    "type": "result",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 2287,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 2287,
+      "cache_read_input_tokens": 15372,
+      "fallback_credit": null,
+      "inference_geo": "global",
+      "input_tokens": 4,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 1157,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 1157,
+          "cache_read_input_tokens": 7686,
+          "input_tokens": 2,
+          "output_tokens": 529,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 1055,
+      "output_tokens_details": {
+        "thinking_tokens": 905
+      },
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

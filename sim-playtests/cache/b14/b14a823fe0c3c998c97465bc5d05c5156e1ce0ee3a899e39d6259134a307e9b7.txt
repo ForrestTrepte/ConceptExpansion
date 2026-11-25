@@ -1,0 +1,7 @@
+        {
+         "guesses": [
+         "penguin",
+         "polar bear",
+         "snowy owl"
+        ]
+       }

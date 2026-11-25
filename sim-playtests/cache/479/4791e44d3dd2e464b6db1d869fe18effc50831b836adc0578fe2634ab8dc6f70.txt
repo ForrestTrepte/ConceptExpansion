@@ -1,0 +1,199 @@
+*   `?g B7`: The main concept is a Title, Brand, or Name.
+    *   `+ F10` (in group `g`): Detail: Network, Grid, or Wire.
+    *   `+ C7` (in group `g`): Detail: Electronic or Computing.
+    *   `!r B8`: Related idea (sub-concept group red): Expression, Quote, or Talking.
+    *   `+ F10` (in group `r`): Detail: Network/Grid/Wire.
+    *   `+ A7` (in group `r`): Detail: Television/Program/Show.
+
+    *   Main Concept (Group g): A Title, Brand, or Name.
+    *   Attributes of the Main Concept:
+        *   Electronic/Computing.
+        *   Network/Grid.
+    *   Related Idea (Group r):
+        *   Relates to: Talking/Expression/Quote.
+        *   Relates to: Network/Grid.
+        *   Relates to: Television/Show.
+
+    *   Main Concept: A specific brand or title.
+    *   Characteristics: Electronic, computing, grid/network.
+    *   Related aspects: TV show, talking/expression, network.
+
+    *   Possibility 1: *The Internet*? (Doesn't fit B7 "Title/Brand" as well as a specific named thing).
+    *   Possibility 2: *Facebook*? (A brand/name. Electronic. Network. But is it a TV show/expression? Not really).
+    *   Possibility 3: *Twitter*? (A brand/name. Electronic. Network/Grid. "Twittering" = talking/expression. It's not a TV show primarily, though it relates to news/media).
+    *   Possibility 4: *CNN*? (Brand/Name. TV show/News. Network. But is it electronic/computing/talking? Not quite the central theme).
+    *   Possibility 5: *Silicon Valley*? (TV Show/Title. Technology/Electronic. "Network" or "Grid" might fit. "Talking" doesn't quite fit).
+    *   Possibility 6: *The Matrix*? (Title. Computing/Electronic. "Grid"/Network. It's a movie, not a TV show per se, but it's a Title. "Talking/Expression"?)
+    *   Possibility 7: *LinkedIn*? (Brand/Name. Electronic/Computing. Network. "Talking/Expression"?)
+    *   Possibility 8: *Social Media*? (Not a title/brand).
+    *   Possibility 9: *Google*? (Brand. Electronic. Network/Grid/Search. Not a TV show).
+    *   Possibility 10: *TikTok*? (Brand/Name. Electronic. Computing. Network. TV-like/Social media. "Talking/Expression" - people record themselves talking/expressing).
+
+    Let's look closer at `!r B8 | F10 | A7`.
+    Red sub-concept is a *related idea*:
+    - A Title/Brand/Name (B7) that is electronic/computing/network (C7, F10).
+    - Related to: Talking/Words (B8), Network/Grid (F10), and Television/Show (A7).
+
+    Wait, is the "TV Show" a related idea or a characteristic of the main concept?
+    The notation `!r B8 + F10 + A7` means the *related idea* is a "Talking/Words" thing that is a "Network/Grid" thing and a "TV Show/Program" thing.
+
+    Let's re-evaluate:
+    Main Concept: A Brand/Name/Title. (Is electronic/computing/network).
+    Related Idea: Something that is a Talking/Words thing, a Network/Grid thing, and a TV Show/Program.
+
+    What is a "Talking/Words" + "Network/Grid" + "TV Show"?
+    - A News Network (like CNN)?
+    - A specific show about talking/communication on a network?
+
+    Could the main concept be *YouTube*? (Brand. Electronic. Network. Related to TV/Shows/Talking?)
+    Could the main concept be *Netflix*? (Brand. Electronic. Network. Related to TV/Shows?)
+
+    Wait, look at `!r B8 + F10 + A7`.
+    B8 (Talking/Words) + F10 (Network/Grid) + A7 (TV Show).
+    A News Network (CNN/BBC)?
+    If the related idea is a "News Network":
+    - It is a "Talking" thing (B8).
+    - It is a "Network" (F10).
+    - It is a "TV Program/Show" (A7).
+
+    If the related idea is "News Network", what is the Main Concept (B7 - Title/Brand)?
+    Maybe *CNN*? *BBC*? *Fox News*?
+
+    Let's try another angle.
+    Main Concept: A Brand/Title (B7) that is Electronic (C7) and a Network (F10).
+    Related Idea: A TV Show/Program (A7) involving Talking (B8) and a Network (F10).
+
+    Could it be *Twitter*? (Brand, Electronic, Network. Related: A "Tweet" is a word/expression, and it's like a "show" or "broadcast"? No.)
+
+    Could it be *The Internet*? (Not a brand).
+
+    Let's think about `F10` (Grid/Network) being in both.
+    Maybe the answer is *Facebook*?
+    Maybe *Instagram*?
+
+    What about *The Facebook* (TV show)? No.
+    What about *Silicon Valley*? (Title. Electronic. Related to networking/talking?)
+
+    Let's look at `B8` (Words/Talking) + `F10` (Network) + `A7` (TV).
+    Is it "The News"?
+    Is it "Social Media"?
+
+    Wait, if the Main Concept is `B7` (Title/Brand), and is `Electronic/Computing` and `Network`.
+    And the related idea is `Talking/Words` + `Network` + `TV Show`.
+
+    How about *YouTube*?
+    It's a Brand (B7).
+    It's Electronic (C7) and a Network (F10).
+    Related: A TV Show (A7) where people Talk (B8) on a Network (F10)?
+
+    Or... *Wikipedia*? (No).
+    *Amazon*? (No).
+
+    Let's try a different approach for the related idea:
+    `!r B8 + F10 + A7`:
+    - A show/program (A7)
+    - about a network (F10)
+    - of words/talking (B8)
+
+    *The News*?
+    *CNN*? (It's a name/brand, it's electronic/network).
+    Is "CNN" a "Talking/Words" thing? Yes. Is it a "Network" thing? Yes. Is it a "TV Show" thing? Yes.
+
+    Let's try:
+    1. CNN
+    2. YouTube
+    3. Facebook
+
+    Actually, `B8` could be "Expression/Quote/Talking".
+    `F10` is "Grid/Network/Wire".
+    `A7` is "TV/Program/Show".
+
+    Could it be *The News*?
+    Or a specific news program?
+    Is the main concept a Brand/Title?
+    If the main concept is *CNN*:
+    ?g B7 (Brand)
+    + C7 (Electronic)
+    + F10 (Network)
+    !r B8 (Talking)
+    + F10 (Network/Grid - maybe the word "Network" is the key?)
+    + A7 (TV Show)
+
+    That fits perfectly.
+
+    Another possibility: *The Internet*. But `B7` is Title/Brand/Name. The internet isn't a brand.
+    *Google*?
+    *Facebook*?
+
+    What if the answer is *Twitter*?
+    It's a brand (B7).
+    It's electronic (C7) and a network (F10).
+    Related: "A tweet" (B8 - word/talking) is a "Network" (F10) thing and maybe related to "TV/Show" (A7)? Not strong.
+
+    Let's consider *The Matrix*.
+    Brand/Title (B7).
+    Electronic (C7).
+    Network/Grid (F10).
+    Related: Talking (B8)? Not really.
+
+    What about *Social Media*? Not a brand.
+
+    Let's try *CNN*. It's a very strong candidate for a "Network" that is "Electronic" and is "TV/Talking".
+
+    Wait, `F10` (Grid/Network) is in both.
+    The clue giver used `F10` twice.
+    Once for the Main Concept (Electronic/Computing/Network) and once for the Sub-Concept (Network/Grid/Wire).
+    This suggests "Network" is a central part of the answer.
+
+    Main concept: A Name/Brand (B7) that is a Computer/Electronic (C7) Network (F10).
+    Related idea: A TV show (A7) or program that is about Talking (B8) and is a Network (F10).
+
+    If the answer is *LinkedIn*? No.
+    If the answer is *Facebook*?
+    If the answer is *Twitter*?
+
+    Let's try *Twitter*.
+    It's a name. It's electronic/computing. It's a network.
+    Related: "Tweets" are words/talking. Is it a TV show? No.
+
+    Wait! `A7` is "Television/Program/Show".
+    What if the answer is a specific TV show?
+    *The Wire*? (Title. Electronic? No.)
+    *Silicon Valley*?
+    *Black Mirror*? (Title. Electronic/Computing/Network? Yes. Related: A show (A7) about technology/networks (F10) and talking/words (B8)? Maybe.)
+
+    Let's try *CNN* first. It feels like the most direct interpretation of "Electronic/Computing Network" + "Talking/Words Network/TV Show".
+
+    Wait, "Computing/Electronic" (C7) + "Network/Grid" (F10) = The Internet/Web.
+    Is there a brand/title that is the Internet?
+    Maybe *Google*?
+    Maybe *Facebook*?
+
+    Let's look at `B8` again. "Expression - Quote / Talking / Words".
+    `A7` "Television / Program / Show".
+    `F10` "Grid / Network / Wire".
+
+    How about *The Internet*? (But B7 is a Brand/Name).
+    How about *Wikipedia*?
+
+    Let's try *CNN*.
+
+    Actually, another one: *Twitter*.
+    Wait, `A7` is "Television/Program/Show".
+    Is there a show called *The Network*?
+
+    Let's try *Facebook*. Or *Twitter*.
+    Or *YouTube*.
+
+    Let's try *CNN*.
+
+    Actually, let's look at `C7` (Electronic/Computing) and `F10` (Network) for the main concept.
+    The answer is a Name/Title/Brand.
+    Maybe the answer is *Facebook*.
+
+    What if the answer is *The News*? No, B7.
+
+    Let's try:
+    1. CNN
+    2. Twitter
+    3. Facebook

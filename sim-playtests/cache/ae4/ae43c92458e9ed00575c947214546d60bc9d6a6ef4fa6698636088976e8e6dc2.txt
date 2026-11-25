@@ -1,0 +1,601 @@
+*   `?g B7`: Main concept is a Title/Brand/Name.
+    *   Sub-concepts for `?g B7`:
+        *   `F10` (Grid/Network/Wire)
+        *   `C7` (Electronic/Computing)
+    *   `!r B8`: Related idea: Expression/Quote/Talking/Words.
+        *   `F10` (Grid/Network/Wire)
+        *   `A7` (Television/Program/Show)
+    *   `!y G2`: Related idea: Cross/Crossing/Addition.
+        *   `G1` (Line/Straight/Diagonal)
+        *   `H14` (Action/Do/Button/Use)
+    *   `!b B10`: Related idea: Celebration/Anniversary/Holiday.
+        *   `B8` (Expression/Quote/Talking/Words)
+
+    *   **Main Concept (B7 - Brand/Name):** It's a brand or a title.
+        *   Characteristics: Computing/Electronic (C7), Network/Grid (F10).
+    *   **Red Group (B8 - Talking/Words/Expression):**
+        *   Connected to: Television/Show (A7), Network/Grid (F10).
+        *   *Interpretation:* A brand related to shows/TV that uses/is part of a network and involves speaking or words.
+    *   **Yellow Group (G2 - Cross/Addition):**
+        *   Connected to: Straight Line (G1), Action/Button (H14).
+        *   *Interpretation:* This is tricky. "Cross" could mean "plus", "intersection", or "the shape of a cross". "Button" suggests interaction.
+    *   **Blue Group (B10 - Celebration/Holiday):**
+        *   Connected to: Words/Talking (B8).
+        *   *Interpretation:* A celebration or holiday that involves words/talking? Or perhaps a brand that is associated with an event/holiday/celebration?
+
+    *   Guesses so far (Incorrect): CNN, Twitter, Facebook, Disney+, Netflix, Amazon, Amazon Prime, Apple.
+    *   What's left?
+    *   The clue-giver is emphasizing "Title/Brand" (B7) and "Television/Show" (A7) and "Talking/Words" (B8).
+    *   It involves "Electronic/Computing" (C7) and "Grid/Network" (F10).
+    *   The Red group is "Words/Talking" + "TV Show" + "Network".
+    *   The Yellow group is "Cross" + "Straight line" + "Button".
+    *   The Blue group is "Holiday/Celebration" + "Talking/Words".
+
+    *Wait, let's look at the Yellow group again.*
+    `!y G2` (Cross) + `G1` (Straight) + `H14` (Button/Action).
+    Could it be "X"? (The new Twitter). But Twitter was guessed and rejected.
+    Could it be "Plus" (Disney+)? Guessed and rejected.
+    Could it be "TikTok"? (Uses a "button" or "action", involves "words/talking" in music, brand).
+    Could it be "YouTube"? (TV/Show, electronic, network).
+
+    *Let's re-examine the Red group:* `B8` (Words) + `F10` (Network) + `A7` (TV Show).
+    *Let's re-examine the Blue group:* `B10` (Celebration/Holiday) + `B8` (Words/Talking).
+    Maybe the "Celebration" is "New Year's Eve"? "Christmas"?
+    Maybe the brand is related to "celebration"?
+    "Hallmark"? (Brand, words/cards/messages, celebratory?). Hallmark isn't a TV show/network though.
+
+    *Let's look at the Yellow group again:* `G2` (Cross), `G1` (Straight line), `H14` (Button/Action).
+    A cross can be a shape. A "plus" sign.
+    What about a brand name that is a "Cross" or "Plus"?
+    "Nintendo"? (Contains "plus" in some contexts? No).
+    "Spotify"? (No).
+
+    *Wait! Let's look at the B10 (Celebration) + B8 (Words) again.*
+    Is the answer "Happy Birthday"? (Phrase).
+    Is it "Congratulations"? (Phrase).
+    But the main concept is `B7` (Brand/Name).
+
+    *Let's rethink the B8 (Words/Expression) + A7 (TV Show) + F10 (Network) combo.*
+    It's a brand/name for a show or a network.
+    Could it be "HBO"? "BBC"? "NBC"?
+    Could it be "TED"? (TED Talks - B8/Talking, A7/Show, C7/Electronic).
+    But what about the Yellow group (`G2` Cross, `G1` Straight, `H14` Button)?
+    And the Blue group (`B10` Holiday, `B8` Words)?
+
+    *Wait... "B10 + B8".*
+    "New Year"? (No, that's a phrase, and the main concept is B7).
+    What is a brand associated with a holiday?
+    "Coca-Cola"? (No, already rejected "Apple/Amazon" type big ones).
+    "McDonald's"? (No).
+
+    *Let's reconsider the "Cross" (G2).*
+    Is it "Red Cross"? (Brand/Name, G2 Cross, but doesn't fit the TV/Network/Electronic/Words stuff well).
+
+    *Let's reconsider the whole board:*
+    ?g B7 (Brand/Name) + F10 (Grid/Network) + C7 (Computing/Electronic)
+    !r B8 (Words/Talk) + F10 (Grid/Network) + A7 (TV Show)
+    !y G2 (Cross) + G1 (Straight Line) + H14 (Button/Action)
+    !b B10 (Celebration/Holiday) + B8 (Words/Talk)
+
+    *Wait, is it "TED"?*
+    TED (Brand/Name).
+    TED Talks (Talking/Words).
+    TED is on a network/computing.
+    What about "Cross"? "Straight line"? "Button"?
+    Maybe "TED" is a stretch.
+
+    *Let's try another angle.*
+    Is the brand "TikTok"?
+    - Brand (B7)
+    - Electronic (C7) / Network (F10)
+    - Words (B8 - singing/talking) / TV (A7 - video show)
+    - Cross/Straight/Button (Yellow)? Does TikTok have a cross? Not really.
+
+    *Let's look at the "Cross" again.*
+    Could it be "Instagram"? "Snapchat"?
+    What about "X" (Twitter's new name)? It was rejected.
+
+    *Could the answer be "BBC"?*
+    - Brand/Name (B7)
+    - Network (F10)
+    - Electronic (C7)
+    - TV Show (A7)
+    - "Words" (B8)? (The BBC is a broadcaster/news/words).
+    - "Cross" (G2)? No.
+
+    *Wait! Look at the Yellow group again.*
+    `G2` (Cross) + `G1` (Straight) + `H14` (Button).
+    A "plus" sign is a cross.
+    `G2` is a cross. `G1` is a line. `H14` is a button.
+    Is it "Disney+"? (Guessed and rejected).
+    Is it "Apple TV+"? (Apple rejected).
+    Is it "Paramount+"?
+    Is it "Discovery+"?
+    Is it "HBO Max"? (Max is a brand).
+
+    *Let's look at the Blue group:* `B10` (Holiday/Celebration) + `B8` (Words/Talking).
+    "Merry Christmas"? "Happy New Year"?
+    What if the brand is "Spotify"? (Rejected Apple/Amazon type).
+    What if the brand is "Netflix"? (Rejected).
+
+    *Let's look at the Red group:* `B8` (Words/Talking) + `F10` (Network/Grid) + `A7` (TV Show).
+    Could it be "Podcast"? (Not a brand/title per se, though "Podcast" is a thing).
+    What about "Audible"?
+
+    *Wait, let's look at the "Cross" (G2) once more.*
+    What if the "Cross" refers to a "Star"? (G2 is Cross, but H5 is Star).
+    What if "G2" is "Addition/Plus"?
+    What if the brand is "Google"? (Electronic/Computing/Network).
+    - "Google" (B7)
+    - "YouTube" (A7 - TV/Show)? (It's part of Google).
+    - "Google" (G2 - cross/addition? No).
+
+    *Wait... "B10" (Celebration) + "B8" (Words/Talking).*
+    "Birthday"? "Anniversary"?
+    "Celebration"?
+    Is there a brand called "Celebration"? No.
+
+    *What about the "Cross" and "Straight line" and "Button"?*
+    Could it be a "remote control"? (No, B7 is Brand/Name).
+
+    *Let's try looking at the icons again.*
+    `B7` (Brand)
+    `F10` (Grid/Network)
+    `C7` (Electronic/Computing)
+    `B8` (Words/Talking/Expression)
+    `A7` (TV Show)
+    `G2` (Cross/Plus/Addition)
+    `G1` (Straight line)
+    `H14` (Button/Action)
+    `B10` (Celebration/Holiday)
+
+    *Wait! "B10" (Holiday/Celebration) + "B8" (Words/Talk).*
+    "New Year's Eve"? "New Year"?
+    Is there a brand related to "New Year"? "New Year's Eve"?
+    Is the answer "New Year"? (No, B7 is Brand).
+
+    *Let's try "TikTok" again.*
+    Is there a "Cross" in TikTok? No.
+    What about "Twitch"? (Brand, Electronic, Network, TV-like, Words/Talk).
+    Does Twitch have a "Cross"? No.
+
+    *What about "Spotify"?*
+    - Brand (B7)
+    - Electronic (C7)
+    - Network (F10)
+    - Words (B8) - lyrics/songs.
+    - Cross (G2) - ?
+
+    *Let's think about "G2" (Cross/Plus) + "H14" (Button).*
+    "Plus button"? "Add button"?
+    "Add"? "Plus"?
+    Is the brand "Nintendo"? (Has a "plus" button).
+    "Nintendo Switch"?
+    - Brand (B7)
+    - Electronic (C7) / Network (F10)?
+    - TV (A7)? (Plays video).
+    - Words (B8)? (Talking/Sounds).
+    - Cross (G2)? (The "+" button).
+    - Celebration (B10)? (No).
+
+    *Let's look at "G2" (Cross) again.*
+    Maybe "G2" means "X"? (The letter X).
+    Is the answer "X"?
+    - Brand (B7)
+    - Electronic/Computing (C7) / Network (F10)
+    - Words (B8) / TV (A7) - X is a platform for content.
+    - G2 (Cross/X-shape) / G1 (Line) / H14 (Button/Action).
+    - B10 (Celebration/Holiday) + B8 (Words/Talk).
+    Wait, how does "X" connect to "Celebration/Holiday"?
+    Maybe not.
+
+    *Wait, I just had a thought.*
+    "B10" (Celebration/Holiday) + "B8" (Words/Talk/Expression).
+    "Happy Birthday"?
+    "Congratulations"?
+    Wait, "B8" is "Expression/Quote/Talking/Words".
+    "B10" is "Celebration/Anniversary/Holiday".
+    What if the brand is "Hallmark"?
+    Hallmark makes greeting cards (Words/B8) for holidays (B10).
+    Is Hallmark a "TV Show" (A7)? No.
+    Is it a "Network/Grid" (F10)? No.
+
+    *Let's go back to the Television/Show/Network stuff.*
+    A7 (TV Show), F10 (Network/Grid), C7 (Electronic/Computing), B8 (Talking/Words).
+    This sounds like a streaming service or a broadcaster.
+    "Hulu"? "HBO"? "BBC"? "CNN"? (Already guessed).
+    "Disney+" (Already guessed).
+    "Netflix" (Already guessed).
+    "Amazon Prime" (Already guessed).
+    "YouTube"?
+    - Brand (B7)
+    - Electronic (C7) / Network (F10)
+    - TV Show (A7)
+    - Words (B8) - (comments/talking).
+    - Cross (G2) / Straight (G1) / Button (H14)?
+    Does YouTube have a "Cross" or "Plus" or "Add" button? Yes, the "Add/Create" button (a plus sign).
+    Does YouTube have "Celebration/Holiday" (B10)?
+    Wait, "B10" is "Celebration".
+    "B8" is "Words/Talking".
+    Could "B10 + B8" be "YouTube" because of... "YouTube Shorts" or "Celebrate" or something? No.
+
+    *Wait! Let's look at the Yellow group one more time.*
+    `G2` (Cross/Plus) + `G1` (Straight/Line) + `H14` (Button/Action).
+    A "Plus" sign made of "Straight lines" that is a "Button".
+    This is almost certainly the "Add/Create" (+) button.
+    Which brand/app is known for a "+" button?
+    - Instagram (Add post)
+    - WhatsApp (Add contact/status)
+    - YouTube (Create/Add)
+    - TikTok (Add/Plus)
+    - Facebook (Already guessed)
+    - Twitter/X (Already guessed)
+
+    *Now let's look at the Blue group again:* `B10` (Celebration/Holiday) + `B8` (Words/Talking).
+    Is there a brand that is a "Celebration"?
+    "Party"? "Celebration"?
+    "TikTok" (is a brand, and people use it for "celebration/dance/party"? No, that's a stretch).
+
+    *Wait! "B8" (Words) + "B10" (Holiday).*
+    "New Year's Eve"? "Christmas"?
+    What about "Spotify"? (Not really).
+
+    *What about "Google"?*
+    `G2` (Cross/Plus) + `G1` (Straight) + `H14` (Button).
+    Google "Search"? "Google+" (The old social network)?
+    "Google+" (G2 is a Plus sign).
+    - Brand (B7)
+    - Electronic (C7) / Network (F10)
+    - Words (B8) / TV (A7)? (Not really).
+    - Celebration (B10)? (No).
+
+    *Let's think about the Blue group again:* `B10` (Holiday/Celebration) + `B8` (Words/Talk).
+    "Happy" + "Talk"? "Happy" + "Birthday"?
+    "Happy Birthday" (Phrase). But the main concept is B7 (Brand/Name).
+
+    *Wait, I have another idea.*
+    "B10" (Holiday) + "B8" (Words).
+    "Holiday" + "Greeting"?
+    "Greeting Card"?
+    "Hallmark"? (No, doesn't fit the rest).
+
+    *Let's look at the whole thing again.*
+    Brand/Name (B7)
+    - Electronic (C7)
+    - Network/Grid (F10)
+    - Words/Talking (B8)
+    - TV Show (A7)
+    - Cross/Plus (G2)
+    - Straight line (G1)
+    - Button (H14)
+    - Celebration/Holiday (B10)
+
+    Wait... "B10" (Holiday/Celebration) and "B8" (Words/Talk).
+    "Celebration" and "Words".
+    "Party"? "Festival"?
+    Is there a brand called "Festival"? No.
+    Is there a brand called "Party"? No.
+
+    *What about "Instagram"?*
+    - Brand (B7)
+    - Electronic (C7) / Network (F10)
+    - Words (B8) - (captions/talking).
+    - TV/Show (A7) - (Stories/Reels are like shows).
+    - Cross/Plus (G2) - (the "Add" button).
+    - Celebration (B10)? (People post celebrations on Instagram).
+
+    *Wait! "B8" is "Expression/Quote/Talking/Words".*
+    "B10" is "Celebration/Anniversary/Holiday".
+    "B10 + B8"...
+    What about "Birthday"? "Birthday card"?
+    "Anniversary"?
+    "Greeting"?
+
+    *Let's rethink the "A7" (TV/Show) + "B8" (Words/Talk) + "F10" (Network) combo.*
+    This really sounds like a platform for shows/videos.
+    "Twitch" (Already considered).
+    "YouTube"?
+    "TikTok"?
+    "Hulu"?
+    "Roku"? (It's a device, but also a brand).
+    "Vimeo"?
+
+    *What about "TikTok"?*
+    - Brand (B7)
+    - Electronic (C7) / Network (F10)
+    - TV/Show (A7) / Words (B8) - (videos/music/talking).
+    - Cross/Plus (G2) / Straight (G1) / Button (H14) - (the "+" button to create).
+    - Celebration (B10)? (Maybe the "trending" or "celebratory" nature of clips?)
+
+    *Wait, what about "Spotify"?*
+    - Brand (B7)
+    - Electronic (C7) / Network (F10)
+    - Words (B8) - (Lyrics).
+    - "Cross/Plus/Button" - (The "Add to playlist" button is a plus sign).
+    - "Celebration" (B10) - (Music is for celebrations?).
+
+    *Let's try a different direction. Is the "Brand/Name" (B7) "TikTok"?*
+    What about "Snapchat"? (Has a "plus" button for adding friends? No).
+
+    *Let's look at the "B10" (Holiday) + "B8" (Words) again.*
+    "Christmas"? "Easter"?
+    Could the brand be "Disney"? (Already guessed Disney+).
+    "Disney" has "celebrations", "shows", "words/stories".
+
+    *Wait! "G2" (Cross) + "G1" (Straight) + "H14" (Button/Action).*
+    Is it "Xbox"?
+    - Brand (B7)
+    - Electronic (C7) / Network (F10)
+    - TV/Show (A7) - (Plays media).
+    - Words (B8) - (Communication/Chat).
+    - Cross (G2) - (The "X" in Xbox is a cross/X shape).
+    - Button (H14) - (The controller buttons).
+    - Celebration (B10)? (Gaming is a form of celebration/leisure?).
+    This is possible.
+
+    *Let's try another one.*
+    "PlayStation"?
+    "Nintendo"?
+
+    *Wait, let's look at the "B10" (Celebration) + "B8" (Words) again.*
+    Could the answer be "Happy Birthday"? (It's a phrase, but B7 says Brand/Name).
+    Could the answer be "YouTube"?
+    What is the "Yellow" (G2/G1/H14) in YouTube? The "Create" button is a "+".
+    What is the "Blue" (B10/B8) in YouTube?
+    Is there a "celebration" aspect?
+
+    *Hold on!*
+    "B10" (Celebration/Holiday) + "B8" (Words/Talk).
+    "Happy" + "New Year"?
+    "Happy" + "Birthday"?
+    "New Year"?
+    Is "New Year" a brand? No.
+
+    *Let's look at the "Red" group again:* `B8` (Words/Talk) + `F10` (Network/Grid) + `A7` (TV Show).
+    This is the core. A brand/name that is a network of shows/talk.
+    "BBC"? "NBC"? "CNN"? (Already guessed).
+    "HBO"?
+    "TED"?
+    "TED" is a brand/name.
+    "TED" talks (B8 - words/talking).
+    "TED" is on a network (F10).
+    "TED" has shows/presentations (A7).
+    "TED" is electronic (C7).
+    "TED" (G2 - Cross? No).
+
+    *Wait, I've got it!*
+    What about "TikTok"?
+    The "Plus" (+) button is very prominent.
+    What about "Instagram"?
+    What about "Spotify"?
+
+    *Let's search for "Brand + Cross + Button".*
+    Is it "Discord"?
+    - Brand (B7)
+    - Electronic (C7) / Network (F10)
+    - Words (B8) - (Chatting).
+    - TV/Show (A7) - (Streaming/Watching together).
+    - Cross (G2) - (The Discord logo is a stylized controller/shape, not really a cross).
+
+    *Let's look at the "B10" (Celebration) + "B8" (Words) again.*
+    "Party" + "Talk"?
+    "Greeting" + "Card"?
+    What if the answer is "Hallmark"?
+    "Hallmark" (B7).
+    "Words" (B8).
+    "Celebration/Holiday" (B10).
+    "TV Show" (A7) - (Hallmark Channel).
+    "Network/Grid" (F10) - (It's a cable network).
+    "Electronic/Computing" (C7) - (It's a digital/cable thing).
+    "Cross/Plus/Button" (G2/G1/H14)?
+    Does Hallmark have a "plus" or "cross" or "button"? Not really.
+
+    *Wait, I've thought of another one:* "Twitch".
+    "Twitch" (B7).
+    "Network/Grid" (F10) + "Electronic" (C7).
+    "Words/Talk" (B8) + "TV/Show" (A7).
+    "Celebration/Holiday" (B10)? (Twitch has "Twitch Plays Pokémon" or large-scale events/celebrations).
+    "Cross/Plus/Button" (G2/G1/H14)?
+    Wait, does Twitch have a "Plus" button? Not really.
+
+    *Let's look at the "G2" (Cross/Plus) + "H14" (Button/Action) again.*
+    "Add" button.
+    "Plus" button.
+    "Follow" button?
+    "Subscribe" button?
+
+    *What about "YouTube"?*
+    "Subscribe" button?
+    "Like" button?
+    "Plus" button to create.
+
+    *Let's try "TikTok" again.*
+    The "Plus" button is the central icon to create a video.
+    Is there a "Celebration" (B10) + "Words" (B8) connection?
+    "TikTok" ... "Talk"? (No).
+
+    *Let's try a completely different path.*
+    "B10" (Holiday) + "B8" (Words).
+    "Christmas" + "Card"?
+    "Birthday" + "Card"?
+    Is "Card" a brand/title?
+    "Greeting Card"? (No).
+
+    *Wait! "B10" (Holiday) + "B8" (Words).*
+    "New Year's Eve"?
+    "New Year's"?
+    "New Year" (B7 - is it a Brand?). No.
+
+    *Let's try "TikTok" or "Instagram" or "Spotify" or "YouTube".*
+    Wait, I'll look at the "Red" group one more time.
+    `B8` (Words/Talking) + `F10` (Network/Grid) + `A7` (TV Show).
+    `B7` (Brand) + `F10` (Grid) + `C7` (Electronic).
+    This is a Brand/Title of an Electronic/Network that is a TV Show/Talk.
+    "Podcast" is not a brand.
+    "Spotify" (B8 is words/lyrics, A7 is show/music, F10 is network, C7 is electronic).
+    "TikTok" (B8 is words/music/talking, A7 is show/video, F10 is network, C7 is electronic).
+    "YouTube" (B8 is words/comments, A7 is show/video, F10 is network, C7 is electronic).
+
+    *What is the "G2" (Cross) and "B10" (Celebration)?*
+    "Cross" + "Celebration".
+    "X-mas"? (Christmas).
+    "X" is a Cross (G2).
+    "X" is a brand (B7 - the new Twitter).
+    "X" is electronic/network (C7/F10).
+    "X" is words/talk (B8 - many people use it for talk/shows).
+    "X" is a "Cross" (G2).
+    "X" is "Celebration/Holiday" (B10)?
+    Wait, "X-mas" is a celebration/holiday!
+    And "X" is the brand name.
+    The clue-giver said "No" to "Twitter" and "Facebook".
+    But "X" is the new name. The user might not have guessed "X" yet.
+    However, "Twitter" was already guessed. If the answer is "X", the clue-giver should have said "Yes: Twitter" if they were using the old name, or just "No".
+    But "X" is a very strong possibility for "Cross" (G2) + "Holiday/Celebration" (X-mas).
+
+    *Wait, let's check "X-mas" connection:*
+    G2 (Cross) = X.
+    B10 (Holiday) + B8 (Words/Talk) = "X-mas" (Words/Talk/Expression of the holiday).
+    Is "X" the answer?
+    If the answer is "X", then "Twitter" (the old name) would be "No" or "Yes".
+    The user guessed "Twitter" and the answer was "No".
+    This suggests the answer is *not* Twitter/X.
+
+    *Let's rethink.*
+    "B10" (Holiday) + "B8" (Words).
+    "Happy" (B8/B10) + "New Year" (B10)?
+    "Happy" + "Birthday"?
+    Wait, "B10" is "Celebration/Anniversary".
+    "B8" is "Expression/Quote/Talking/Words".
+    Is the answer "Congratulations"? (Not a brand).
+
+    *Let's look at "G2" (Cross) + "G1" (Straight) + "H14" (Button) again.*
+    "Plus" (G2) + "Button" (H14).
+    "Plus button".
+    "Disney+" (Guessed and rejected).
+    "Apple TV+" (Apple rejected).
+    "Paramount+"
+    "HBO Max" (Max? Max is a brand).
+    "Max" (B7).
+    "Max" (B8/B10 - "Maximum"? No).
+
+    *Wait! "G2" (Cross) + "G1" (Straight) + "H14" (Button).*
+    Is it "Add"?
+    Is it "Plus"?
+    Is it "Spotify"? (The "plus" sign to add to playlist).
+    Is it "TikTok"?
+    Let's try "TikTok" and "Instagram" and "YouTube".
+
+    *One more thought.*
+    "B10" (Holiday) + "B8" (Words/Talk).
+    "Holiday" + "Greeting".
+    "Hallmark"?
+    "Hallmark" (B7).
+    "Hallmark Channel" (A7).
+    "Hallmark" (B8/B10 - Cards/Words/Holidays).
+    "Hallmark" (F10/C7 - Network/Electronic).
+    "Hallmark" (G2/G1/H14)?
+    Does Hallmark have a "Cross" or "Plus" button?
+    Wait, "Hallmark" ... "Cross" ... No.
+
+    *What about "Netflix"?* (Already guessed).
+    *What about "Amazon Prime"?* (Already guessed).
+
+    *Let's look at the "B10" (Celebration) + "B8" (Words) again.*
+    "Birthday"?
+    "Anniversary"?
+    "Festival"?
+    "Carnival"? (A brand?)
+    "Carnival Cruise Line"?
+    - Brand (B7)
+    - Celebration (B10)
+    - Words (B8 - ?)
+    - TV/Show (A7 - ?)
+    - Electronic (C7) - (No).
+
+    *Let's try "YouTube" again.*
+    What if the "Cross" (G2) is the "Play" button? (No, that's a triangle).
+    What if the "Cross" (G2) is the "Subscribe" button?
+    What if the "Cross" (G2) is "Add to"?
+
+    *Let's look at the "Red" group again:* `B8` (Words) + `F10` (Network) + `A7` (TV Show).
+    A brand/title that is a "Talk/Words" "Network" "TV Show".
+    "TED"?
+    "TED" (B7).
+    "TED" (A7 - Show, B8 - Talk, F10 - Network, C7 - Electronic).
+    "TED" (G2 - Cross/Plus? No).
+
+    *Wait, I just thought of something!*
+    "B10" (Celebration/Holiday) + "B8" (Words/Talking).
+    "Merry" + "Christmas"?
+    "Happy" + "New Year"?
+    Is the answer "Spotify"? (No).
+    Is the answer "TikTok"?
+    Is the answer "Instagram"?
+
+    *Let's look at "G2" (Cross) + "G1" (Straight) + "H14" (Button/Action) again.*
+    "Plus" + "Button".
+    "Add" + "Button".
+    "Follow" + "Button".
+    "Subscribe" + "Button".
+    "Like" + "Button".
+
+    *Could the answer be "Instagram"?*
+    - Brand (B7)
+    - Electronic (C7) / Network (F10)
+    - Words (B8) / TV (A7) (Stories/Reels).
+    - Cross/Plus/Button (G2/G1/H14) (The "+" button to add a post).
+    - Celebration (B10)? (People celebrate on it).
+
+    *Wait, I have a better one.*
+    "B10" (Holiday) + "B8" (Words/Talking).
+    Is it "Google"?
+    "Google" (B7).
+    "Google" (C7/F10).
+    "Google" (B8 - "Google it" / Words).
+    "Google" (G2/G1/H14)? (No).
+
+    *What about "YouTube"?*
+    "YouTube" (B7).
+    "YouTube" (C7/F10).
+    "YouTube" (A7 - TV/Show, B8 - Words/Talking).
+    "YouTube" (G2/G1/H14 - The "+" button for "Create").
+    "YouTube" (B10 - Celebration/Holiday)?
+    (People use YouTube for celebrations/holiday content?)
+
+    *Let's try "TikTok" as the top guess.*
+    It's a brand (B7), electronic (C7), network (F10), shows/videos (A7), words/music (B8), and has a very famous "+" button (G2/G1/H14).
+    And maybe the B10/B8 (Celebration/Words) refers to the "trends" or "challenges" which are often celebrations/festivals?
+
+    *Actually, let's look at "B10" (Celebration) and "B8" (Words) one more time.*
+    "B10" is "Anniversary".
+    "B8" is "Expression/Quote".
+    Is it "Birthday"?
+    Is there a brand called "Birthday"? No.
+
+    *Wait!* "B10" (Celebration/Holiday) + "B8" (Words/Talk).
+    "Party" + "Words"?
+    "Party" + "Talk"?
+    "Party" + "Chat"?
+    Is the answer "Discord"?
+    - Brand (B7)
+    - Electronic (C7) / Network (F10)
+    - Words/Talking (B8)
+    - TV/Show (A7) - (Watching/Streaming).
+    - Celebration (B10) - (Parties/Hangouts).
+    - Cross/Plus/Button (G2/G1/H14)? (No).
+
+    *Let's try "TikTok", "Instagram", "YouTube".*
+
+    *Wait, one more:* "Spotify".
+    "Spotify" (B7).
+    "Electronic/Network" (C7/F10).
+    "Music/Words" (B8).
+    "Celebration" (B10)? (Music is for celebrations).
+    "Plus" (G2) / "Button" (H14)? (The "Add to playlist" button).
+
+    *Let's try the "G2 (Cross) + G1 (Straight) + H14 (Button)" as "Plus button" and focus on the "B10 (Celebration) + B8 (Words)" part.*
+    Is there a brand called "Plus"? No.
+    Is there a brand called "Add"? No.
+    Is there a brand called "Celebrate"? No.
+
+    *Let's try "TikTok" and "YouTube" and "Instagram".*

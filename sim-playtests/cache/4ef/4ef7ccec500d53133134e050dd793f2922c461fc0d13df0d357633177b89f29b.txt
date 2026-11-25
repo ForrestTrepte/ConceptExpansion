@@ -1,0 +1,31 @@
+The answer is: Rock paper scissors
+
+The game so far:
+
+Step 1, markers placed:
+?g A13
++ D11
+!r E5
+!y F7
+!b F8
+Your private plan: Main: game played with hands. Subs: rock (stone), paper, scissors (cut).
+Board now:
+?g A13 | D11
+!r E5
+!y F7
+!b F8
+Guesses: paper cut, wishbone
+Clue-giver: Yes: paper cut
+
+Step 2, markers placed:
++g B3
++ F9
+Your private plan: Paper cut is on track (paper, cut). Add sport/game hint and a multi-part hint so they find three words: rock paper scissors.
+Board now:
+?g A13 | D11, B3, F9
+!r E5
+!y F7
+!b F8
+Guesses: scrapbooking
+
+The judge found none of the last guesses correct. Answer Yes or No to them, then add markers or give up. The guesser has 8 turns left.

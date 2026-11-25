@@ -1,0 +1,26 @@
+New prompt.
+
+Step 1, markers placed:
+?g B10
++ A10
++ C1
+!r A8
++ H13
++ B8
+Board now:
+?g B10 | A10, C1
+!r A8 | H13, B8
+Guesses: Birthday, New Year, Christmas
+Clue-giver: Yes: Birthday
+
+Step 2, markers placed:
+!y H14
++ H13
++ B8
++ G14
+Board now:
+?g B10 | A10, C1
+!r A8 | H13, B8
+!y H14 | H13, B8, G14
+
+Give up to 3 guesses, best first, or none to pass.

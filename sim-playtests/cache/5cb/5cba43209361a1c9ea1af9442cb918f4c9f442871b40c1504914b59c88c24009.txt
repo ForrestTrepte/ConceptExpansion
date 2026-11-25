@@ -1,0 +1,23 @@
+New prompt.
+
+Step 1, markers placed:
+?g A13
++ B11
+Board now:
+?g A13 | B11
+Guesses: Kite
+Clue-giver: No
+
+Step 2, markers placed:
+(no new markers)
+Board now:
+?g A13 | B11
+Guesses: Paper airplane
+Clue-giver: No
+
+Step 3, markers placed:
+(no new markers)
+Board now:
+?g A13 | B11
+
+Give up to 1 guess, best first, or none to pass.

@@ -1,0 +1,3 @@
+**Figuring out art categories**
+
+I’m trying to identify what type of art we’re discussing—maybe it’s B6 for art like sculpture, painting, or cartoons, and G10 might indicate something big or high. For a specific sculpture, perhaps I’ll use the Venus de Milo as an example. I need to consider various possibilities for a big statue and think of at least three options. I’ll also need to create a JSON schema for this output.

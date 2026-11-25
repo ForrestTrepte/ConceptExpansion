@@ -1,0 +1,20 @@
+# Phase 2: the baseline's guesser (Haiku, low effort, table reference) on the owner's
+# 24 `simplay.py play` games from 2026-11-23 (14 with Sonnet clues, 10 with Opus), whose
+# clues came from a model and were guessed by a person with real pauses.
+mode = "human-clues"
+prompts = [
+    "New Year's resolution", "Frankenstein", "Elbow room", "Achilles' heel", "Hospital",
+    "Cave", "Rock paper scissors", "Lollipop", "Hashtag", "Bury the hatchet",
+    "Green Eggs and Ham", "Rush hour", "Friday the 13th", "Soup",
+    "Writer's block", "Golden ticket", "James Bond", "The Sound of Music", "Sloth",
+    "Polar bear", "Talk of the town", "Mister Rogers", "Pandora's box", "Rat race",
+]
+trials = 3
+max_guesses = 3
+extra_rounds = 2
+concurrency = 15
+spend_limit_usd = 3.0
+
+[guesser]
+model = "claude-haiku-5-5"
+effort = "low"

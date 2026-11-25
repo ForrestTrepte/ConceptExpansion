@@ -1,0 +1,7 @@
+{ 
+"guesses": [
+    "Attack",
+    "Assault",
+    "Ambush"
+]
+}

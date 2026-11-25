@@ -1,0 +1,272 @@
+*   `?g B2` (Main Concept: Character / Fictional / Imaginary)
+    *   `+ D2` (Male)
+    *   `+ A6` (Cinema / Movie)
+    *   `!r D4` (Attack / Conflict / Weapon)
+    *   `+ Black` (Color: Black)
+    *   *Initial Guesses:* Batman, Darth Vader, Black Panther (All rejected: "No")
+
+    *   `!y E11` (Yellow Sub-concept: Zero / None / Absence)
+    *   `+ E11` (Meaning: Zero/None)
+    *   `!b C14` (Blue Sub-concept: Eye / Sight)
+    *   `+ Clear` (Color: Transparent / Invisible / Glass)
+
+    *   `B2`: Fictional character.
+    *   `D2`: Male.
+    *   `A6`: From a movie.
+    *   `D4` (Black): Associated with conflict/weapon/attack/combat and the color black.
+    *   `E11` (Yellow): Associated with "zero", "none", or "absence".
+    *   `C14` (Blue/Clear): Associated with "eye" and "transparent/invisible/glass".
+
+    *   Fictional male movie character.
+    *   Associated with Black and Combat/Weapon/Attack.
+    *   Has "Zero" or "None" or "Absence" associated (Yellow group).
+    *   Has an "Eye" that is "Clear/Invisible/Transparent" (Blue group).
+
+    *   *Idea 1: "Invisible" / "Eye"*
+        *   Character with an invisible eye? Or a character who is invisible?
+        *   Wait, `C14` is Eye. `Clear` is transparent/invisible.
+        *   Maybe a character with a glass eye? Or an eye that sees through things?
+    *   *Idea 2: "Zero/None"*
+        *   "Zero" could mean the number 0.
+        *   Could it be "Agent 007" (James Bond)?
+            *   James Bond is a character (B2).
+            *   He is male (D2).
+            *   Movies (A6).
+            *   Conflict/Combat (D4).
+            *   Black (Color)? He wears black/tuxedos?
+            *   E11 (Zero): "007" has zeros.
+            *   C14 (Eye) + Clear? Not sure how "Eye" + "Clear" fits Bond.
+    *   *Idea 3: "Zero" + "Eye"*
+        *   Is there a character named "Zero"?
+        *   Is there a character related to "Eye" and "Zero"?
+    *   *Idea 4: Character with a "Black" element and "None/Zero" and "Transparent Eye"*
+        *   Let's re-examine `C14` + `Clear`. `C14` is "Eye". `Clear` is "Transparent/Invisible/Glass".
+        *   A character with a glass eye?
+        *   A character who sees nothing?
+        *   Wait, "Eye" + "Clear" ... "Eye of the storm"? No, that's not a character.
+        *   "Invisible man"? He's a character. Male. Movie. But `D4` (Black/Combat) doesn't fit well unless he's a villain.
+    *   *Idea 5: Star Wars?*
+        *   Darth Vader was rejected.
+        *   Luke Skywalker?
+        *   What about a character from a movie who is black/combat related and has a "zero" or "none" connection?
+    *   *Idea 6: "Zero" and "Eye"*
+        *   "Eye" + "Clear" (Glass).
+        *   Could it be a character with a "Cyclops" eye? (X-Men).
+            *   Cyclops: Male (D2).
+            *   Movies (A6).
+            *   Combat (D4).
+            *   Color Black? (His visor/suit?).
+            *   "Zero"? (His power? No).
+            *   "Eye" (C14) + "Clear" (Transparent/Invisible)? His visor is transparent?
+    *   *Idea 7: "Zero" and "Black"*
+        *   "Black Hole"? Not a character.
+    *   *Idea 8: Re-evaluating `E11` (Zero/None/Absence) and `C14` (Eye) + Clear (Transparent/Glass)*
+        *   Character with a glass eye?
+        *   Character with no eyes? (The character "Zero" from a movie?)
+        *   "Zero" is a name.
+        *   Is there a character related to "Zero" and "Black" and "Eye"?
+    *   *Idea 9: "Eye" and "Zero"*
+        *   "Eye of Sauron"?
+            *   Sauron: Character (B2).
+            *   Male (D2)? Often depicted as such.
+            *   Movie (A6).
+            *   Combat/Conflict (D4).
+            *   Black (Color)? Yes, dark.
+            *   Yellow (E11): "Zero/None/Absence"? Not really.
+            *   Blue (C14) + Clear: "Eye" + "Transparent/Invisible/Glass". The Eye is often described as a burning eye, but maybe...
+    *   *Idea 10: "Zero" connection*
+        *   "Sub-Zero" from Mortal Kombat?
+            *   Sub-Zero: Character (B2).
+            *   Male (D2).
+            *   Movie (A6) - there's a movie.
+            *   Combat (D4).
+            *   Black (Color) - His outfit?
+            *   E11 (Yellow): "Zero"? His name is "Sub-Zero".
+            *   C14 (Blue): "Eye" + "Clear" (Transparent/Invisible/Glass). He uses ice (Clear/Transparent). Maybe his eyes are icy? Or his "Zero" is cold?
+            *   Wait, E11 is "Zero/None/Absence". "Sub-Zero" has "Zero" in the name.
+            *   Let's check "Sub-Zero" again.
+            *   `!r D4` + `Black`: Sub-Zero is a fighter (D4), but is he black? Not really.
+    *   *Idea 11: Let's look at "Eye" + "Clear" again.*
+        *   `C14` is Eye. `Clear` is Glass/Transparent/Invisible.
+        *   "Glass Eye"?
+        *   "Invisible Eye"?
+        *   "Dead eye"?
+        *   "Eye of the..."
+    *   *Idea 12: "Black" + "Combat" + "Zero" + "Eye"*
+        *   Is it "Black Widow"?
+            *   Female (C2) - but the clue says D2 (Male).
+        *   "James Bond" (007)?
+            *   `E11` (Zero) fits.
+            *   `D4` (Combat) fits.
+            *   `A6` (Movie) fits.
+            *   `D2` (Male) fits.
+            *   `C14` (Eye) + `Clear` (Glass)? Bond... "Eye"? No.
+    *   *Idea 13: "Eye" + "Clear" (Glass)*
+        *   "Glass Eye".
+        *   "Cyborg"?
+        *   "Terminator"?
+            *   Male (D2).
+            *   Movie (A6).
+            *   Combat (D4).
+            *   Black (Color) - the machine?
+            *   `C14` (Eye) + `Clear` (Glass/Transparent): The red eye of the Terminator? But `Clear` is transparent, not Red.
+            *   `E11` (Zero)?
+
+    *   `!y E11` (Yellow: Zero/None/Absence)
+    *   `!b C14` (Blue: Eye/Sight) + `Clear` (Transparent/Glass)
+    *   Wait... `C14` (Eye) + `Clear` (Transparent/Glass).
+    *   Could it be "Cyclops" (Marvel)?
+        *   Eye (C14).
+        *   Transparent (Clear) - His visor.
+        *   Zero (E11) - ?
+    *   What about "Invisible Man"? (Already thought of).
+    *   What about "Mr. Nobody"? (E11 - None/Zero).
+    *   What about "Zero" from *The Nightmare Before Christmas*? (He's a ghost dog, not a male human, but still a character).
+    *   Wait! `E11` is Yellow. `C14` is Blue.
+    *   Could it be **"Eye of the Storm"**? No, that's not a character.
+    *   Let's look at the "Black" again. `!r D4` + `Black`.
+    *   "Black" + "Zero" (E11) + "Eye" (C14).
+    *   "Black" + "None" (E11) + "Eye" (C14).
+    *   Is there a character with a "Black Eye"?
+        *   "Black Eye" is a thing, but is it a character?
+    *   How about **"Nick Fury"**?
+        *   Male (D2).
+        *   Movie (A6).
+        *   Combat (D4).
+        *   Black (Color)? He's a Black man.
+        *   `C14` (Eye) + `Clear` (Glass)? He has a glass eye!
+        *   `E11` (Yellow: Zero/None/Absence)? This is the hard part. Does he have "Zero" eyes? He has one eye. "Absence" of an eye?
+    *   Let's look at `E11` again. "Zero / None / Absence".
+    *   If the character has "One eye" (the absence of the other), then `E11` (Absence) and `C14` (Eye) + `Clear` (Glass) works perfectly for Nick Fury.
+    *   And `D4` + `Black` works for his identity/combat/skin color.
+
+    *   `?g B2` (Character)
+    *   `+ D2` (Male)
+    *   `+ A6` (Movie)
+    *   `!r D4` (Combat/Weapon) + `Black` (Black)
+    *   `!y E11` (Absence/None)
+    *   `!b C14` (Eye) + `Clear` (Glass)
+
+    *   "Absence of an eye" -> One eye.
+    *   "Glass eye" -> `C14` + `Clear`.
+    *   "Black" -> Nick Fury is a Black character (and a combat veteran/agent).
+    *   "Movie" -> Marvel movies.
+
+    *Let's try to find other candidates.*
+    *   "Odin"? (One eye, but not primarily "Black" or "Zero").
+    *   "Mad-Eye Moody"? (One eye, but "Black"?)
+    *   "Nick Fury" seems like the strongest link for "Black", "Movie", "Male", "Combat", "Eye", "Glass", and "Absence".
+
+    *Another possibility:*
+    *   "Zero" in the name? "Sub-Zero" (already considered).
+    *   "Black" + "Zero" ... "Black Zero"? No.
+
+    *Let's look at the `E11` (Yellow) again.*
+    *   Yellow is "Zero / None / Absence".
+    *   Blue is "Eye / Sight".
+    *   `Clear` is "Transparent / Invisible / Glass".
+    *   If `E11` means "None" (of an eye), and `C14` means "Eye", and `Clear` means "Glass"...
+    *   Nick Fury has a glass eye because he lacks the other one.
+
+    *Wait, could it be "One-Eyed Willy" (Pirates of the Caribbean)?*
+    *   He's a character.
+    *   He's male.
+    *   Movie.
+    *   Combat/Pirate.
+    *   Black? (Maybe his pirate/treasure theme).
+    *   One eye? (E11 Absence, C14 Eye, Clear Glass).
+    *   But Nick Fury is more "Black" (the color/identity).
+
+    *What about "The Eye" (movie)? No.*
+    *   "Black Widow" (No, female).
+    *   "Black Panther" (Already guessed, "No").
+    *   "Batman" (Already guessed, "No").
+
+    *Let's try Nick Fury.*
+
+    1. Nick Fury
+    2. Cyclops (though the "Zero" is a stretch, maybe "absence" of powers or something? No, he has powers).
+    3. One-Eyed Willy?
+
+    Wait, what if `E11` (Yellow) isn't "Absence of an eye" but "Zero"?
+    Is there a character called "Zero" who is Black and in a movie?
+    Is there a character called "Black Zero"? No.
+
+    Let's reconsider `E11` (Zero) and `C14` (Eye) + `Clear` (Glass).
+    "Eye" + "Glass" + "Zero".
+    "Zero" could be "0".
+    "Eye" could be "I".
+    "0-I"? No.
+
+    Wait! `E11` (Zero) + `C14` (Eye) = "Zero Eye"? No.
+    "Eye" + "Clear" = "Clear Eye"?
+    What if the character is **"Cyclops"**?
+    He has a "One" (F11) eye? No, `E11` is Zero.
+
+    Let's go back to **Nick Fury**.
+    - `D2` Male: Yes.
+    - `A6` Movie: Yes.
+    - `D4` + `Black`: Yes (Combat agent, Black).
+    - `E11` Absence: Yes (Absence of one eye).
+    - `C14` + `Clear`: Yes (Glass eye).
+
+    This fits very well.
+
+    *Alternative:* **"Hawkeye"**?
+    - `C14` (Eye) - Yes.
+    - `D4` (Weapon/Combat) - Yes.
+    - `E11` (Zero/None)? No.
+
+    *Alternative:* **"James Bond"**?
+    - `E11` (007) - Yes.
+    - `D4` (Combat) - Yes.
+    - `C14` (Eye)? No.
+
+    *Alternative:* **"A character from "Zero Dark Thirty"?**
+    - No, that's a movie title.
+
+    *Alternative:* **"Black Widow"** (but she's female).
+
+    *Wait, look at the colors again.*
+    `!r D4` + `Black` (Red group: Combat/Weapon + Black color).
+    `!y E11` (Yellow group: Zero/None/Absence).
+    `!b C14` + `Clear` (Blue group: Eye + Glass/Transparent).
+
+    Could it be **"Mr. Nobody"**? (E11). Not really a combat/black/eye character.
+
+    Let's think about the "Eye" and "Zero" connection.
+    "Zero" (0) and "Eye" (I).
+    "0" and "I"... "01"?
+    "Agent 007" is a bit of a reach for "Eye".
+
+    What about **"Sauron"**?
+    - Character: Yes.
+    - Male: Yes.
+    - Movie: Yes.
+    - Combat/Conflict: Yes.
+    - Black: Yes.
+    - Eye: Yes.
+    - Glass/Transparent: The eye is often depicted as being in a void or looking through something?
+    - Zero: ??
+
+    Let's go with Nick Fury. It's the most cohesive.
+
+    *Wait, another thought:* **"One-eyed" something?**
+    "One" is `F11`. `E11` is "Zero".
+    If the clue is "Zero", it's "None".
+    "None" eye? "No" eye?
+    That brings us back to a one-eyed character.
+
+    Let's try:
+    1. Nick Fury
+    2. Cyclops
+    3. One-Eyed Willy (or maybe just "A character with a glass eye") - no, that's not a name.
+
+    Actually, let's try **"Nick Fury"** first.
+
+    Wait, what about **"The Terminator"**?
+    - `C14` (Eye) + `Clear` (Transparent)? No, his eye is red.
+    - `E11` (Zero)? No.
+
+    What about **"Jar Jar Binks"**? No.
+    **"Darth Maul"**? (Already did Vader, but

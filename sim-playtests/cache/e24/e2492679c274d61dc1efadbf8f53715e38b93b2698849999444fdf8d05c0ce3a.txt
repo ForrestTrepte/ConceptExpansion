@@ -1,0 +1,7 @@
+{ 
+  "guesses": [
+    "common phrase",
+    "expression",
+    "idiom"
+  ]
+}

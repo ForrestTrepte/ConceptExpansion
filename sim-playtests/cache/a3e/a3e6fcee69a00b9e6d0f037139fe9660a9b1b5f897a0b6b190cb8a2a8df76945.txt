@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "New Year",
+    "Birthday",
+    "New Year's Eve"
+  ]
+,
+  "pass": false
+}

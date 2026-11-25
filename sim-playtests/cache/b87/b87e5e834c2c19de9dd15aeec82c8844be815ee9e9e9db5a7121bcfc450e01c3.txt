@@ -1,0 +1,28 @@
+*   `?g A13`: Main Concept is A13 (Game / Toy).
+    *   `+ G7 x6`: Six cubes on G7 (Cube). The description "arranged in a 2x3 rectangle, like a brick's studs" is a very specific visual clue for the shape of the *cubes* themselves, but the icon G7 is "Cube". However, the text says "the six cubes arranged in a 2x3 rectangle, like a brick's studs". This implies the *cubes* are being used to describe the object, or rather, the arrangement of cubes on the icon represents something.
+    *   Wait, looking at the notation: `+ G7 x6` means six cubes are on G7. G7 is "Cube".
+    *   The clue `+ G7 x6` combined with the visual description "arranged in a 2x3 rectangle, like a brick's studs" strongly suggests **LEGO**.
+    *   Let's verify:
+        *   A13: Game / Toy (LEGO is a toy).
+        *   G7: Cube (LEGO bricks are often associated with blocks/cubes).
+        *   The "studs" hint is the clincher.
+
+    *   LEGO
+    *   Building blocks
+    *   Rubik's Cube (but A13 is Toy, and the studs hint is specific to bricks)
+
+    *   Guess 1: LEGO
+    *   Guess 2: Building blocks
+    *   Guess 3: Rubik's Cube
+
+    The prompt asks for up to 3 guesses, best first.
+
+    *   LEGO (Highly likely given the "studs" description).
+    *   Building blocks.
+    *   Blocks.
+
+    Let's refine.
+
+    1. LEGO
+    2. Building blocks
+    3. Blocks

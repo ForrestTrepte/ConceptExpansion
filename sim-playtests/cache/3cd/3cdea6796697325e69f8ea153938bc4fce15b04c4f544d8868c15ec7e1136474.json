@@ -1,0 +1,141 @@
+{
+  "contentSha256": "6797f1fefe8564ba5a5ca72b88437b7fb21bad75f93332dcde598df640e6f82b",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 1,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "90167f6773b23c0d34d7074b521186233b0757584cab853ba7be1b70066d6420"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "f246d6c032597b9b669544f73c667b9ab73ead8d9fe521621ccfb96dbe11d6c0"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "google/gemma-4-26b-a4b-it",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "pass": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "guesses",
+                "pass"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-1"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "db82776-dirty",
+    "costUsd": 0.00198154,
+    "latencyMs": 24841,
+    "recordedAt": "2026-11-23T22:40:59.241Z",
+    "recordedBy": "claude",
+    "servedBy": "SiliconFlow",
+    "servedModel": "google/gemma-4-26b-a4b-it",
+    "tags": {
+      "run": "calibrate-or-gemma"
+    },
+    "usage": {
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
+      "inputTokens": 5011,
+      "outputTokens": 3200,
+      "reasoningTokens": 972
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "length",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": {
+            "$llmemo.text": "c832493c3887d0db15dfb19bae90a8b254fcc3eba8135347a925d662ba835bac"
+          },
+          "reasoning": {
+            "$llmemo.text": "95b5120efb5df37ecacd3c5658f821a04738abcac2768fdaa16780453b945d9d"
+          },
+          "reasoning_details": [
+            {
+              "format": "unknown",
+              "index": 0,
+              "text": {
+                "$llmemo.text": "95b5120efb5df37ecacd3c5658f821a04738abcac2768fdaa16780453b945d9d"
+              },
+              "type": "reasoning.text"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "length"
+      }
+    ],
+    "created": 1795473634,
+    "id": "gen-1795473634-YVFhL1IhqBFtrRr4hJ9u",
+    "model": "google/gemma-4-26b-a4b-it",
+    "object": "chat.completion",
+    "provider": "SiliconFlow",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 3200,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 972
+      },
+      "cost": 0.00198154,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.00128,
+        "upstream_inference_cost": 0.00198154,
+        "upstream_inference_prompt_cost": 0.00070154
+      },
+      "is_byok": false,
+      "prompt_tokens": 5011,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "total_tokens": 8211
+    }
+  }
+}

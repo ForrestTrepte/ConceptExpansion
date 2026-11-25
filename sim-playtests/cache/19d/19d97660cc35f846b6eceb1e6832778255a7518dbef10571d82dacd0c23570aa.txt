@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Hospital",
+    "Nursing home",
+    "Clinic"
+  ]
+,
+  "pass": false
+}

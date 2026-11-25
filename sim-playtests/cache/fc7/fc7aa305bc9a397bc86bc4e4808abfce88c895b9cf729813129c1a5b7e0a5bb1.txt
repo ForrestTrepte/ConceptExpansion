@@ -1,0 +1,41 @@
+*   `?g A13`: Main Concept is A13 (Game / Toy).
+    *   `+ B11`: A cube in the green group (detail) on B11 (Aircraft / Aerial / Flying).
+
+    *   The answer is a Game or Toy.
+    *   It is related to Aircraft, Aerial, or Flying.
+
+    *   Toy airplane?
+    *   Paper airplane?
+    *   Helicopter toy?
+    *   Drone? (Technically a gadget, but can be a toy)
+    *   Flight simulator? (A game)
+    *   Airplanes in a board game?
+
+    *   "Toy airplane" (very direct)
+    *   "Paper airplane" (iconic toy/game)
+    *   "Flight simulator" (the "Game" aspect)
+
+    Let's look for something that fits "Game / Toy" + "Flying".
+    "Toy airplane" is the most literal.
+    "Paper airplane" is a common item.
+    "Flying game" is too vague.
+
+    Wait, `?g A13` is "Game / Toy".
+    `+ B11` is "Aircraft / Aerial / Flying".
+
+    Possible answers:
+    1. Toy airplane
+    2. Paper airplane
+    3. Drone
+
+    Let's try "Toy airplane", "Paper airplane", "Flight simulator".
+
+    Wait, I should check if there are other meanings for B11.
+    B11: Aircraft / Aerial / Flying.
+
+    Could it be "Airplane"? No, the main concept is Game/Toy.
+
+    Let's go with:
+    1. Toy airplane
+    2. Paper airplane
+    3. Flight simulator

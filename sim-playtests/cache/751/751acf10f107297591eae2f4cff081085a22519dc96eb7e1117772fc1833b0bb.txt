@@ -1,0 +1,7 @@
+{ 
+"guesses": [
+    "Thor",
+    "The Fantastic Four",
+    "The X-Men"
+  ]
+}

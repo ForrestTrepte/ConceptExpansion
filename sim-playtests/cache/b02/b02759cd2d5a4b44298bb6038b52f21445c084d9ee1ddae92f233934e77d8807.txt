@@ -1,0 +1,55 @@
+*   `?g A6`: Main Concept (Green `?` pawn) is on A6.
+        *   A6 = Cinema / Movie.
+    *   `+ B5`: Cube in the same group (`g`) on B5.
+        *   B5 = Music / Song.
+    *   `!r C13`: Red Sub-Concept (`!` pawn) is on C13.
+        *   C13 = Ear / Sound / Hearing.
+    *   `!y B5`: Yellow Sub-Concept (`!` pawn) is on B5.
+        *   B5 = Music / Song.
+
+    *   The subject is a Movie/Cinema (`?g A6`).
+    *   The movie is related to Music (`+ B5`, `!y B5`).
+    *   The movie is related to Sound/Hearing (`!r C13`).
+
+    *   *Singin' in the Rain* (Movie about dance/singing/sound).
+    *   *Sound of Music* (Movie about music).
+    *   *Bohemian Rhapsody* (Movie about a song/music).
+    *   *A Star is Born* (Movie about music).
+    *   *Coco* (Movie about music).
+    *   *Fantasia* (Movie about music).
+    *   *Baby Driver* (Movie about music).
+    *   *Elvis* (Movie about music).
+    *   *Purple Rain* (Movie about music).
+    *   *Whiplash* (Movie about music).
+
+    *   "Sound of Music" is a very strong candidate given "Music" (B5) and "Sound" (C13).
+    *   "Singin' in the Rain" is also a strong candidate.
+    *   "Bohemian Rhapsody" or "Elvis" are possibilities.
+
+    Let's look at the icon placement again.
+    `?g A6` (Movie)
+    `+ B5` (Music) -> The movie *is* about music.
+    `!r C13` (Sound) -> Something about sound/hearing.
+    `!y B5` (Music) -> This is a bit redundant with the `+ B5` if it's in the same group, but they are separate colors (red and yellow). This might imply two different aspects of music or two different songs/musical elements.
+
+    *The Sound of Music*
+    - Movie? Yes.
+    - Music? Yes.
+    - Sound? Yes (The word "Sound" is in the title).
+
+    Let's try "The Sound of Music".
+
+    *Alternative: Singin' in the Rain*
+    - Movie? Yes.
+    - Music? Yes.
+    - Sound? Not explicitly in title, but the experience is audio-visual.
+
+    *Alternative: Baby Driver*
+    - Movie? Yes.
+    - Music? Yes.
+
+    "The Sound of Music" seems the most direct interpretation of "Movie" + "Music" + "Sound".
+
+    1. The Sound of Music
+    2. Singin' in the Rain
+    3. Bohemian Rhapsody

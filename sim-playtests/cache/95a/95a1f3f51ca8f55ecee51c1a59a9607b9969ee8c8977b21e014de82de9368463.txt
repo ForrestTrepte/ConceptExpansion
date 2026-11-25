@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Gossip",
+    "Rumor",
+    "A legend"
+  ]
+,
+  "pass": false
+}

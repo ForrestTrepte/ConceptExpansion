@@ -1,0 +1,20 @@
+New prompt.
+
+Step 1, markers placed:
+?g A3
++ C4
++ A11
++ D10
+Board now:
+?g A3 | C4, A11, D10
+Guesses: Coast Guard
+Clue-giver: No
+
+Step 2, markers placed:
+!r B13
++ Red
+Board now:
+?g A3 | C4, A11, D10
+!r B13 | Red
+
+Give up to 1 guess, best first, or pass.

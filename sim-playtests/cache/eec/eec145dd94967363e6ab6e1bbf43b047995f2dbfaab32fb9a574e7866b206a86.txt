@@ -1,0 +1,33 @@
+New prompt.
+
+Step 1, markers placed:
+?g D8
++ A12
++ B1
+!r D3
++ A12
+!y D8
+Board now:
+?g D8 | A12, B1
+!r D3 | A12
+!y D8
+Guesses: Pit stop, Lap, Race
+Clue-giver: No
+
+Step 2, markers placed:
+(no new markers)
+Board now:
+?g D8 | A12, B1
+!r D3 | A12
+!y D8
+Guesses: Marathon, Sprint, Road trip
+Clue-giver: No
+
+Step 3, markers placed:
+(no new markers)
+Board now:
+?g D8 | A12, B1
+!r D3 | A12
+!y D8
+
+Give up to 3 guesses, best first, or pass.

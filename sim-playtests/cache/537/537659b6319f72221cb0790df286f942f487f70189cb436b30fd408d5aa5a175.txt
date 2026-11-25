@@ -1,0 +1,17 @@
+The answer is: Soup
+
+The game so far:
+
+Step 1, markers placed:
+?g A14
++ F3
++ F1
+!r A14
++ H9
+Your private plan: Food, liquid, hot; then maybe bowl/spoon (hollow).
+Board now:
+?g A14 | F3, F1
+!r A14 | H9
+Guesses: coffee, hot chocolat
+
+The judge found none of the last guesses correct. Answer Yes or No to them, then add markers or give up. The guesser has 9 turns left.

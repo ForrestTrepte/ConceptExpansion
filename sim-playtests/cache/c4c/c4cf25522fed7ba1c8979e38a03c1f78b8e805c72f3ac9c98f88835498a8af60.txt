@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Scan",
+    "Focus",
+    "Capture"
+  ]
+,
+  "pass": false
+}

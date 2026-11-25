@@ -1,0 +1,158 @@
+{
+  "contentSha256": "777c6794486b4bd059a3bccf971b1a3cf2b8addea25f24b946f52b118e0e1375",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "clue-giver",
+    "request": {
+      "backend": "claude-cli",
+      "effort": "high",
+      "jsonSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "clue",
+              "skip"
+            ],
+            "type": "string"
+          },
+          "confidence": {
+            "maximum": 5,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "lines": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "plan": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "confidence",
+          "action",
+          "plan",
+          "lines"
+        ],
+        "type": "object"
+      },
+      "model": "claude-opus-5-5",
+      "prompt": {
+        "$llmemo.text": "f656a301794214daf481ab92409fd9f4afd625b2e1b307a5cd8d76997588e2d1"
+      },
+      "system": [
+        {
+          "$llmemo.text": "29d73c99f00758a55ed046d05b0403c1ca98589e4f1e9e1a977874ccbdd10cbc"
+        },
+        {
+          "$llmemo.text": "f373fc6916e23cbfb200734dc22a2e5e9c5e4036a219150f66eed09550c1df85"
+        },
+        {
+          "$llmemo.text": "2fde04bc2e1af13938737fe97d53aa72e4604167970b9d0beb7f36b50e0a89fd"
+        }
+      ]
+    },
+    "variant": "play"
+  },
+  "meta": {
+    "billing": "subscription",
+    "codeVersion": "9348bfa-dirty",
+    "costUsd": 0.0120272,
+    "latencyMs": 5279,
+    "recordedAt": "2026-11-23T21:15:40.871Z",
+    "recordedBy": "developer",
+    "servedBy": "firstParty",
+    "servedModel": "claude-opus-5-5",
+    "tags": {
+      "game": "2026-11-23/Polar bear",
+      "run": "play-play"
+    },
+    "toolVersion": "2.1.330 (Claude Code)",
+    "usage": {
+      "cacheReadTokens": 6376,
+      "cacheWriteTokens": 628,
+      "inputTokens": 2,
+      "outputTokens": 286,
+      "reasoningTokens": 87
+    }
+  },
+  "reply": {
+    "api_error_status": null,
+    "is_error": false,
+    "modelUsage": {
+      "claude-opus-5-5": {
+        "cacheCreationEphemeral1hInputTokens": 628,
+        "cacheCreationEphemeral5mInputTokens": 0,
+        "cacheCreationInputTokens": 628,
+        "cacheReadInputTokens": 6376,
+        "canonicalModel": "claude-opus-5-5",
+        "contextWindow": 1000000,
+        "costBasis": "list",
+        "costUSD": 0.0120272,
+        "inputTokens": 2,
+        "maxOutputTokens": 128000,
+        "outputTokens": 286,
+        "provider": "firstParty",
+        "thinkingTokens": 87,
+        "webSearchRequests": 0
+      }
+    },
+    "num_turns": 2,
+    "permission_denials": [],
+    "result": "{\"confidence\":4,\"action\":\"clue\",\"plan\":\"Start with a big white animal from the cold. If they guess seal or penguin, add the teddy bear (A13) to point to bear, or the globe and up arrow for the North Pole.\",\"lines\":[\"?g A4\",\"+ White\",\"+ E1\",\"+ G10\"]}",
+    "stop_reason": "tool_use",
+    "structured_output": {
+      "action": "clue",
+      "confidence": 4,
+      "lines": [
+        "?g A4",
+        "+ White",
+        "+ E1",
+        "+ G10"
+      ],
+      "plan": "Start with a big white animal from the cold. If they guess seal or penguin, add the teddy bear (A13) to point to bear, or the globe and up arrow for the North Pole."
+    },
+    "subtype": "success",
+    "terminal_reason": "completed",
+    "type": "result",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 628,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 628,
+      "cache_read_input_tokens": 6376,
+      "fallback_credit": null,
+      "inference_geo": "global",
+      "input_tokens": 2,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 628,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 628,
+          "cache_read_input_tokens": 6376,
+          "input_tokens": 2,
+          "output_tokens": 286,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 286,
+      "output_tokens_details": {
+        "thinking_tokens": 87
+      },
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

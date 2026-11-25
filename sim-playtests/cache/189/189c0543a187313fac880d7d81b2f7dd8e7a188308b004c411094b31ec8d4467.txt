@@ -1,0 +1,55 @@
+New prompt.
+
+Step 1, markers placed:
+?g B8
+Board now:
+?g B8
+Guesses: quote, phrase, saying
+Clue-giver: No
+
+Step 2, markers placed:
+!r F11
+Board now:
+?g B8
+!r F11
+Guesses: one, a single, the number one
+Clue-giver: No
+
+Step 3, markers placed:
+!b Blue
+Board now:
+?g B8
+!r F11
+!b Blue
+Guesses: one blue, blue one, single blue
+Clue-giver: No
+
+Step 4, markers placed:
+!k E2
+Board now:
+?g B8
+!r F11
+!b Blue
+!k E2
+Guesses: one blue night, blue night, night
+Clue-giver: No
+
+Step 5, markers placed:
+(no new markers)
+Board now:
+?g B8
+!r F11
+!b Blue
+!k E2
+Guesses: blue moon, one moon, night moon
+Clue-giver: No
+
+Step 6, markers placed:
+(no new markers)
+Board now:
+?g B8
+!r F11
+!b Blue
+!k E2
+
+Give up to 3 guesses, best first, or none to pass.

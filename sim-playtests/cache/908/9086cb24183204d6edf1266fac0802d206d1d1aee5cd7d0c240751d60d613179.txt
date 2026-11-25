@@ -1,0 +1,179 @@
+*   `?g B7` (Main Concept: Title / Brand / Name)
+        *   `+ F10` (Grid / Network / Mesh)
+        *   `+ C7` (Electronic / Computing)
+    *   `!r B8` (Sub-concept red: Expression / Quote / Talking / Words)
+        *   `+ F10` (Grid / Network / Mesh)
+        *   `+ A7` (Television / Program / Show)
+    *   `!y G2` (Sub-concept yellow: Cross / Crossing / Addition)
+        *   `+ G1` (Line - Straight / Diagonal)
+        *   `+ H14` (Use / Action / Do / Button)
+    *   `!b B10` (Sub-concept blue: Celebration / Anniversary / Holiday)
+        *   `+ B8` (Expression / Quote / Talking / Words)
+
+    *   `?g B7` (Title/Brand) + `F10` (Grid/Network) + `C7` (Computing).
+    *   `!r B8` (Words/Quotes) + `F10` (Grid/Network) + `A7` (TV/Program).
+    *   `!y G2` (Cross/Addition) + `G1` (Line) + `H14` (Action/Button).
+    *   `!b B10` (Celebration) + `B8` (Words/Quotes).
+
+    *   *Initial thoughts:* Something related to a TV brand, a network, or a title involving "cross", "add", or "words".
+    *   *Wait, look at the "Yellow" group:* `G2` (Cross), `G1` (Straight line), `H14` (Button/Action). This looks like a symbol or a specific way of writing/interfacing.
+    *   *Look at the "Blue" group:* `B10` (Celebration/Holiday) + `B8` (Words/Quotes). A celebration involving words? Or maybe a brand associated with celebrations?
+    *   *Look at the "Red" group:* `B8` (Words/Quotes) + `F10` (Grid/Network) + `A7` (TV/Show). Words on a TV network grid?
+    *   *Re-evaluating `!y G2`:* "Cross" + "Line" + "Button". This could describe a symbol.
+    *   *Re-evaluating `?g B7` (Brand/Title):* Could it be a brand name that is also a symbol or relates to a grid/network?
+    *   *Thinking about "Words" + "Grid" + "TV" + "Computing" + "Brand/Title":*
+        *   Maybe *Crossword*? (Cross + Grid). But the Main Concept is B7 (Title/Brand).
+        *   Maybe a specific TV show?
+        *   Maybe *Scrabble*? (Words, but not quite TV/Computing focus).
+        *   What about *Wordle*?
+            *   `?g B7` (Title/Brand): Wordle is a title/name.
+            *   `+ F10` (Grid): It's a 5x6 grid.
+            *   `+ C7` (Computing): It's a digital game.
+            *   `!r B8` (Words) + `F10` (Grid) + `A7` (TV/Program): This is a bit of a stretch for "TV", unless it's something that went viral like a TV phenomenon.
+            *   `!y G2` (Cross) + `G1` (Line) + `H14` (Button): Not sure how this fits Wordle.
+            *   `!b B10` (Celebration) + `B8` (Words): Not sure.
+
+    *   *Let's try another angle: "Cross" (G2) + "Line" (G1) + "Button" (H14).*
+        *   Could it be a logo?
+        *   Could it be *YouTube*? (No, doesn't fit the clues well).
+        *   Could it be *TikTok*? (No).
+        *   What about *Netflix*? (Already guessed).
+        *   What about *Crossword puzzle*?
+            *   `?g B7` (Title/Brand/Name): Not really a brand.
+            *   `+ F10` (Grid).
+            *   `+ C7` (Computing): Digital crosswords.
+            *   `!r B8` (Words) + `F10` (Grid) + `A7` (TV): Maybe crossword puzzles on TV?
+            *   `!y G2` (Cross) + `G1` (Line) + `H14` (Button/Action): A cross made of lines?
+            *   `!b B10` (Celebration) + `B8` (Words): ???
+
+    *   *Let's look at the "Blue" group again:* `B10` (Celebration/Holiday) + `B8` (Words/Quotes).
+        *   *Happy Birthday*?
+        *   *New Year's Eve*?
+        *   *Christmas*?
+        *   Wait, `!b B10` is the group. The group color (Blue) is just to keep markers together. The markers are `B10` and `B8`.
+        *   So a celebration (`B10`) involving words/quotes (`B8`).
+        *   "Happy Birthday"? "Merry Christmas"?
+        *   Let's see if "Happy Birthday" fits the rest.
+        *   `?g B7` (Title/Brand/Name): "Happy Birthday" is a phrase/title.
+        *   `+ F10` (Grid) + `C7` (Computing): Not really.
+
+    *   *Let's look at the Red group again:* `B8` (Words) + `F10` (Grid) + `A7` (TV/Show).
+        *   Could it be *Jeopardy!*?
+            *   `?g B7` (Title): Yes.
+            *   `+ F10` (Grid): The game board is a grid.
+            *   `+ C7` (Computing): It's a game show (computer/electronic nature?).
+            *   `!r B8` (Words) + `F10` (Grid) + `A7` (TV): Yes, the show involves words on a grid on TV.
+            *   `!y G2` (Cross) + `G1` (Line) + `H14` (Action/Button): This is the tricky part. The buzzer? (Button). A cross? (Maybe the shape of the buzzer or the sound?).
+            *   `!b B10` (Celebration) + `B8` (Words): This doesn't fit *Jeopardy!* well.
+
+    *   *Wait! Let's look at the Yellow group again:* `G2` (Cross), `G1` (Line), `H14` (Button/Action).
+        *   A "Cross" made of "Lines" that you "Press/Action".
+        *   Could it be a **plus sign**? Or a specific icon?
+        *   What about **Twitter**? (Already guessed).
+        *   What about **Facebook**? (Already guessed).
+        *   What about **WhatsApp**?
+        *   What about **Instagram**?
+
+    *   *Let's look at the whole picture again:*
+        *   `?g B7`: Brand/Title
+        *   `F10` (Grid) + `C7` (Computing)
+        *   `B8` (Words) + `F10` (Grid) + `A7` (TV/Show)
+        *   `G2` (Cross) + `G1` (Line) + `H14` (Button)
+        *   `B10` (Celebration) + `B8` (Words)
+
+    *   Could the answer be **"New Year's Eve"**? (Celebration). No, B7 is Brand/Title.
+    *   Could the answer be **"The crossword"**? No.
+    *   What about **"Candy Crush"**?
+        *   `?g B7` (Title): Yes.
+        *   `F10` (Grid): Yes, it's a grid of candy.
+        *   `C7` (Computing): Yes, it's a mobile game.
+        *   `B8` (Words) + `F10` (Grid) + `A7` (TV/Show): This doesn't fit.
+        *   `G2` (Cross) + `G1` (Line) + `H14` (Action): "Crush" - crossing/breaking?
+        *   `B10` (Celebration) + `B8` (Words): ???
+
+    *   *Let's rethink the "Blue" group:* `B10` (Celebration/Holiday) + `B8` (Words/Quotes).
+        *   Maybe **"Happy New Year"**?
+        *   Maybe **"Season's Greetings"**?
+        *   Maybe **"Merry Christmas"**?
+        *   Wait, `?g B7` (Title/Brand) + `F10` (Grid) + `C7` (Computing).
+        *   Is there a brand called "Happy..." something?
+
+    *   *Let's reconsider the "Red" group:* `B8` (Words) + `F10` (Grid) + `A7` (TV/Show).
+        *   Could it be **"Wheel of Fortune"**?
+        *   Could it be **"Scrabble"**?
+
+    *   *Let's look at the Yellow group again:* `G2` (Cross) + `G1` (Line) + `H14` (Button).
+        *   Is there a brand with a cross logo?
+        *   **Red Cross**?
+        *   **Microsoft**? (Four squares/grid, but not a cross).
+        *   **Nintendo**?
+        *   **PlayStation**?
+            *   `?g B7` (Title/Brand): Yes.
+            *   `F10` (Grid) + `C7` (Computing): Yes.
+            *   `B8` (Words) + `F10` (Grid) + `A7` (TV/Show): The "PlayStation" brand/controller? Not really.
+            *   `G2` (Cross) + `G1` (Line) + `H14` (Button): The symbols on the controller (Triangle, Circle, X, Square). "X" is a cross made of lines, and you press the button.
+            *   `B10` (Celebration) + `B8` (Words): ???
+
+    *   *Let's look at the "Blue" group one more time:* `B10` (Celebration) + `B8` (Words).
+        *   Wait, could the answer be **"Happy Birthday"**?
+        *   `?g B7` (Title): Yes.
+        *   `B10` (Celebration) + `B8` (Words): Yes.
+        *   What about the other groups?
+        *   `F10` (Grid) + `C7` (Computing): No.
+        *   `B8` (Words) + `F10` (Grid) + `A7` (TV): No.
+        *   `G2` (Cross) + `G1` (Line) + `H14` (Button): No.
+
+    *   *Let's look at the Red group again:* `B8` (Words) + `F10` (Grid) + `A7` (TV).
+        *   What if it's **"Wordle"**?
+        *   `?g B7` (Title): Yes.
+        *   `F10` (Grid) + `C7` (Computing): Yes.
+        *   `B8` (Words) + `F10` (Grid) + `A7` (TV): People talk about it on TV? It's a "show" in a way? A bit weak.
+        *   `G2` (Cross) + `G1` (Line) + `H14` (Button): This is the main problem.
+
+    *   *Wait!* `G2` is "Cross", `G1` is "Line", `H14` is "Button".
+        *   Could this be a **"Plus"** button on an app?
+        *   Could the answer be **"WhatsApp"**?
+        *   `?g B7` (Brand): Yes.
+        *   `F10` (Grid) + `C7` (Computing): Yes.
+        *   `B8` (Words) + `F10` (Grid) + `A7` (TV/Show): Messaging/Talking on a digital network?
+        *   `G2` (Cross) + `G1` (Line) + `H14` (Button): The "New Chat" button is often a `+` sign.
+        *   `B10` (Celebration) + `B8` (Words): ???
+
+    *   *Let's look at the Blue group again:* `B10` (Celebration) + `B8` (Words).
+        *   Is there a brand name that means "Celebrate"?
+        *   Wait, what about **"Emoji"**?
+        *   `?g B7` (Title/Name): Yes.
+        *   `F10` (Grid) + `C7` (Computing): They are on a digital grid.
+        *   `B8` (Words) + `F10` (Grid) + `A7` (TV/Show): They replace words/talk.
+        *   `G2` (Cross) + `G1` (Line) + `H14` (Button): No.
+        *   `B10` (Celebration) + `B8` (Words): Emojis used for celebrations and words.
+
+    *   *Rethink:* `?g B7` (Title/Brand), `F10` (Grid), `C7` (Computing), `B8` (Words), `A7` (TV), `G2` (Cross), `G1` (Line), `H14` (Button), `B10` (Celebration).
+        *   Could it be **"Bingo"**?
+        *   `?g B7` (Name/Title): Yes.
+        *   `F10` (Grid): Yes, bingo cards are grids.
+        *   `C7` (Computing): Digital bingo.
+        *   `B8` (Words) + `F10` (Grid) + `A7` (TV): Bingo calls on TV/shows.
+        *   `G2` (Cross) + `G1` (Line) + `H14` (Button): Marking the grid with a cross (X) using a marker/button.
+        *   `B10` (Celebration) + `B8` (Words): Bingo is a celebration/game involving calling words.
+
+    *   *Let's test "Bingo" against all clues:*
+        *   `?g B7` (Title/Name): Yes.
+        *   `F10` (Grid) + `C7` (Computing): Yes.
+        *   `B8` (Words) + `F10` (Grid) + `A7` (TV/Show): Yes, "Bingo" is called out (words), uses a grid, and is a common game show theme.
+        *   `G2` (Cross) + `G1` (Line) + `H14` (Button/Action): To play, you mark the grid with a cross (X) or a circle.
+        *   `B10` (Celebration) + `B8` (Words): It's a game played at celebrations/parties, and involves words being shouted.
+
+    *   *Wait, another possibility:* **"Tetris"**?
+        *   `?g B7` (Title): Yes.
+        *   `F10` (Grid) + `C7` (Computing): Yes.
+        *   `B8` (Words) + `F10` (Grid) + `A7` (TV): Not really.
+        *   `G2` (Cross) + `G1` (Line) + `H14` (Button): The blocks are made of lines, and you use buttons.
+        *   `B10` (Celebration) + `B8` (Words): No.
+
+    *   *Wait!* What about **"Scrabble"**?
+        *   `?g B7` (Title): Yes.
+        *   `F10` (Grid) + `C7` (Computing): Yes.
+        *   `B8` (Words) + `F10` (Grid) + `A7` (TV): A word game on a grid, often on TV.
+        *   `G2` (Cross) + `G1` (Line) + `H14` (Button): No.
+        *   `B10`

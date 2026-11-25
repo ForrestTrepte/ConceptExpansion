@@ -1,0 +1,46 @@
+New prompt.
+
+Step 1, markers placed:
+?g H14
+Board now:
+?g H14
+Guesses: Action, Verb, Do
+Clue-giver: No
+
+Step 2, markers placed:
+!r A1
++ D8
+Board now:
+?g H14
+!r A1 | D8
+Guesses: Press a button, Set a timer, Push a button
+Clue-giver: No
+
+Step 3, markers placed:
++r C13
+Board now:
+?g H14
+!r A1 | D8, C13
+Guesses: To ring, To record, To play
+Clue-giver: No
+
+Step 4, markers placed:
+!y E2
++ B14
++ G14
++ C3
+Board now:
+?g H14
+!r A1 | D8, C13
+!y E2 | B14, G14, C3
+Guesses: To wind, To spin, To rotate
+Clue-giver: No
+
+Step 5, markers placed:
++y D4
+Board now:
+?g H14
+!r A1 | D8, C13
+!y E2 | B14, G14, C3, D4
+
+Give up to 3 guesses, best first, or pass.

@@ -1,0 +1,153 @@
+{
+  "contentSha256": "481e9e93572e22479e1bf963ba4d6a5e286df071eb049c2c91d5f261e15fb81d",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "4b5daa84bf7faab6f117925ff5de9ff2fdd6395e55661846fcc5b242e99c1765"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "7448eaf6248ae30ecd7583e3a0deaf39f36b70704b427fe2589251d4a7780ff3"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "openai/gpt-6-luna",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "guesses"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-1"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "f6004e3-dirty",
+    "costUsd": 0.00040982,
+    "latencyMs": 7134,
+    "recordedAt": "2026-11-24T00:07:14.128Z",
+    "recordedBy": "claude",
+    "servedBy": "OpenAI",
+    "servedModel": "openai/gpt-6-luna",
+    "tags": {
+      "run": "calibrate-or-luna"
+    },
+    "usage": {
+      "cacheReadTokens": 4727,
+      "cacheWriteTokens": 318,
+      "inputTokens": 5048,
+      "outputTokens": 645,
+      "reasoningTokens": 622
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"Saturday Night Live\",\"YouTube\",\"Netflix\"]}",
+          "reasoning": {
+            "$llmemo.text": "9231a9343d4d1fc24845cb75393e1ed5a202d81a56afcd3bd17037b81dda67f8"
+          },
+          "reasoning_details": [
+            {
+              "format": "openai-responses-v1",
+              "index": 0,
+              "summary": {
+                "$llmemo.text": "9231a9343d4d1fc24845cb75393e1ed5a202d81a56afcd3bd17037b81dda67f8"
+              },
+              "type": "reasoning.summary"
+            },
+            {
+              "data": {
+                "$llmemo.text": "76f44fa470354c5111329e3e33371b5266aa83da96ef4ed56ca8bfd5ec5d6b9c"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_0c34f9ca7e8692a6016b04d52b83c887d18ab86427b75a7e8e",
+              "index": 1,
+              "type": "reasoning.encrypted"
+            },
+            {
+              "data": {
+                "$llmemo.text": "424891aec072b288439ab88f512ecca28312fd461b2192fa9f5c4cf3be589729"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_0c34f9ca7e8692a6016b04d531c20c87d1ace7c8c2e421e4b2",
+              "index": 2,
+              "type": "reasoning.encrypted"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "completed"
+      }
+    ],
+    "created": 1795478827,
+    "id": "gen-1795478827-lzvqJh4LrTgc1OaLD11F",
+    "model": "openai/gpt-6-luna",
+    "object": "chat.completion",
+    "provider": "OpenAI",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 645,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 622
+      },
+      "cost": 0.00040982,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0003225,
+        "upstream_inference_cost": 0.00040982,
+        "upstream_inference_prompt_cost": 0.00008732
+      },
+      "is_byok": false,
+      "prompt_tokens": 5048,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 318,
+        "cached_tokens": 4727,
+        "video_tokens": 0
+      },
+      "total_tokens": 5693
+    }
+  }
+}

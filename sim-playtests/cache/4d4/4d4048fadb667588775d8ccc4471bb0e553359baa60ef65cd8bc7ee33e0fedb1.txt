@@ -1,0 +1,17 @@
+*   `?g A13`: Main Concept (group g) is A13 (Game / Toy).
+    *   `+ B11`: Sub-Concept (group g) is B11 (Aircraft / Aerial / Flying).
+
+    *   A13: Game/Toy (Teddy bear, die, cards, army man).
+    *   B11: Aircraft/Aerial/Flying (Airplane, helicopter).
+
+    *   Model airplane?
+    *   Drone?
+    *   Flying toy?
+    *   Paper airplane?
+    *   Helicopter toy?
+
+    *   "Toy airplane" or "Model airplane" or "Drone" or "Paper airplane".
+
+    *   "Model airplane"
+    *   "Drone"
+    *   "Paper airplane"

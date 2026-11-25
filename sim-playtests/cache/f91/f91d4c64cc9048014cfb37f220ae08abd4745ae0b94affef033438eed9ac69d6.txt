@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "A child star",
+    "A boy on television",
+    "A person in red clothing"
+  ]
+,
+  "pass": false
+}

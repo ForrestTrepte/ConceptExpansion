@@ -1,0 +1,17 @@
+New prompt.
+
+Step 1, markers placed:
+?g D2 [placed between C2 and D2: a person of either sex]
+Board now:
+?g D2
+Guesses: Human being, Doctor, Teacher
+Clue-giver: No
+
+Step 2, markers placed:
+!b E8
++ D3
+Board now:
+?g D2
+!b E8 | D3
+
+Give up to 3 guesses, best first, or pass.

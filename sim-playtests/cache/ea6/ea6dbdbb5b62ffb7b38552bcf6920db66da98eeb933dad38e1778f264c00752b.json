@@ -1,0 +1,144 @@
+{
+  "contentSha256": "6a3507aa10fa37ce15820ff547e1d01053aa0787b04df8582fb8fd38657be0c2",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "guesser",
+    "request": {
+      "backend": "openrouter",
+      "body": {
+        "max_tokens": 4000,
+        "messages": [
+          {
+            "content": {
+              "$llmemo.text": "4b5daa84bf7faab6f117925ff5de9ff2fdd6395e55661846fcc5b242e99c1765"
+            },
+            "role": "system"
+          },
+          {
+            "content": {
+              "$llmemo.text": "bd8d6a8321e3892f6774af6bd09403b3c1bb740f7f5bfb9ba79d3cf1d11a255f"
+            },
+            "role": "user"
+          }
+        ],
+        "model": "openai/gpt-6-luna",
+        "reasoning": {
+          "effort": "low"
+        },
+        "response_format": {
+          "json_schema": {
+            "name": "reply",
+            "schema": {
+              "additionalProperties": false,
+              "properties": {
+                "guesses": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "guesses"
+              ],
+              "type": "object"
+            },
+            "strict": true
+          },
+          "type": "json_schema"
+        }
+      },
+      "endpoint": "chat/completions"
+    },
+    "variant": "trial-1"
+  },
+  "meta": {
+    "billing": "api",
+    "codeVersion": "f6004e3-dirty",
+    "costUsd": 0.00033707,
+    "latencyMs": 7945,
+    "recordedAt": "2026-11-24T00:07:02.681Z",
+    "recordedBy": "claude",
+    "servedBy": "OpenAI",
+    "servedModel": "openai/gpt-6-luna",
+    "tags": {
+      "run": "calibrate-or-luna"
+    },
+    "usage": {
+      "cacheReadTokens": 4727,
+      "cacheWriteTokens": 256,
+      "inputTokens": 4986,
+      "outputTokens": 515,
+      "reasoningTokens": 487
+    }
+  },
+  "reply": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"guesses\":[\"Bury the hatchet\",\"Peace on Earth\",\"Love and war\"]}",
+          "reasoning": {
+            "$llmemo.text": "91df6975106b3c173000fbcfd7280a4b9b38b4cb090b5f96e56727279389b665"
+          },
+          "reasoning_details": [
+            {
+              "format": "openai-responses-v1",
+              "index": 0,
+              "summary": {
+                "$llmemo.text": "91df6975106b3c173000fbcfd7280a4b9b38b4cb090b5f96e56727279389b665"
+              },
+              "type": "reasoning.summary"
+            },
+            {
+              "data": {
+                "$llmemo.text": "196f409e2013095b5a9919df1c29af2941a3be33857148f03151238b3dcdd071"
+              },
+              "format": "openai-responses-v1",
+              "id": "rs_0c26404f3fb51e99016b04d51f827887d1a433cf18d3565d2a",
+              "index": 1,
+              "type": "reasoning.encrypted"
+            }
+          ],
+          "refusal": null,
+          "role": "assistant"
+        },
+        "native_finish_reason": "completed"
+      }
+    ],
+    "created": 1795478814,
+    "id": "gen-1795478814-fC0r2cZCGu6RbHbNP0ej",
+    "model": "openai/gpt-6-luna",
+    "object": "chat.completion",
+    "provider": "OpenAI",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 515,
+      "completion_tokens_details": {
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 487
+      },
+      "cost": 0.00033707,
+      "cost_details": {
+        "upstream_inference_completions_cost": 0.0002575,
+        "upstream_inference_cost": 0.00033707,
+        "upstream_inference_prompt_cost": 0.00007957
+      },
+      "is_byok": false,
+      "prompt_tokens": 4986,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 256,
+        "cached_tokens": 4727,
+        "video_tokens": 0
+      },
+      "total_tokens": 5501
+    }
+  }
+}

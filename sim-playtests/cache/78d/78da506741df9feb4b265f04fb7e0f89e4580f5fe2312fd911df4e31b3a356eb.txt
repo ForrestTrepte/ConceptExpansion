@@ -1,0 +1,75 @@
+*   `?g A3`: Main Concept (green `?`) is A3 (Work / Occupation).
+    *   `+ C4`: Cube on C4 (Defense / Protection / Wall).
+    *   `+ A11`: Cube on A11 (Seacraft / Naval / Swimming).
+    *   `+ D10`: Cube on D10 (Medical / Medicine / Health).
+
+    *   The main concept is an "Occupation/Job".
+    *   Sub-concepts/Details:
+        *   Defense/Protection/Wall (C4).
+        *   Seacraft/Naval/Swimming (A11).
+        *   Medical/Medicine/Health (D10).
+
+    *   *Job + Protection + Naval:* Navy soldier, Coast Guard, Sailor.
+    *   *Job + Medical + Naval:* Navy doctor, Ship's surgeon, Marine medic.
+    *   *Job + Protection + Medical:* Doctor (too broad), Nurse (doesn't fit Naval well), Coast Guard medic.
+    *   *Job + Protection + Naval + Medical:* Coast Guard medic? Ship's doctor? Navy medic?
+
+    *   Let's look at "Navy Medic" or "Coast Guard".
+    *   Actually, maybe a simpler one: "Lifeguard"?
+        *   Job (A3) - Yes.
+        *   Protection (C4) - Yes (safety).
+        *   Swimming (A11) - Yes.
+        *   Medical (D10) - Yes (first aid).
+        *   Wait, is a lifeguard "Defense/Protection/Wall"? C4 is "Defense/Protection/Wall". A lifeguard protects people.
+    *   Let's consider "Coast Guard".
+        *   Job (A3) - Yes.
+        *   Defense (C4) - Yes.
+        *   Naval/Swimming (A11) - Yes.
+        *   Medical (D10)? They do medical stuff, but it's not their *main* definition.
+    *   Let's reconsider "Lifeguard":
+        *   Job: A3.
+        *   Protection: C4.
+        *   Swimming/Seacraft/Water: A11.
+        *   Medical: D10.
+    *   Another option: "Navy Doctor".
+    *   Another option: "Ship's Doctor".
+
+    "Lifeguard" seems like a very strong candidate for combining Protection, Water, and Medical in a single job.
+
+    Let's refine:
+    1. Lifeguard
+    2. Navy doctor
+    3. Coast Guard
+
+    Wait, "C4" is "Defense/Protection/Wall". "A11" is "Seacraft/Naval/Swimming". "D10" is "Medical/Medicine/Health".
+
+    If the answer is "Lifeguard":
+    - A3 (Job)
+    - C4 (Protection)
+    - A11 (Swimming/Water)
+    - D10 (Medical/Health)
+
+    This fits perfectly.
+
+    1. Lifeguard
+    2. Navy doctor
+    3. Coast Guard
+
+    (Wait, maybe "Paramedic"? No, doesn't fit A11 well. "Sailor"? Doesn't fit D10 well.)
+
+    "Lifeguard" is the best fit.
+
+    Let's check "Doctor" again. "Doctor" is A3? No, A3 is Occupation. A2 is Human/Real. So `?g A3` means the answer *is* an occupation.
+
+    Let's double check C4: "Defense/Protection/Wall".
+    Let's double check A11: "Seacraft/Naval/Swimming".
+    Let's double check D10: "Medical/Medicine/Health".
+
+    "Lifeguard" fits all.
+
+    Other possibilities:
+    - Coast Guard (fits A3, C4, A11. D10 is a stretch, but they do rescue).
+    - Ship doctor / Navy doctor (fits A3, A11, D10. C4 is a bit of a stretch).
+    - Marine biologist? (No D10/C4 connection).
+
+    Lifeguard is the most cohesive.

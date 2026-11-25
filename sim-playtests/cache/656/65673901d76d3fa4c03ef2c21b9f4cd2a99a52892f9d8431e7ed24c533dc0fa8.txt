@@ -1,0 +1,7 @@
+        {
+          "guesses": [
+           "Tractor-trailer",
+           "Motorcycle",
+           "Bicycle"
+         ]
+        }

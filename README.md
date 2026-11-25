@@ -97,9 +97,11 @@ change dependencies, use `uv add` or `uv remove` (`--dev` for dev tools) and com
 | `uv run pytest` | Runs the tests. LLM calls replay from the cache | [simulated-playtesting.md](docs/simulated-playtesting.md) |
 | `uv run python tools/simplay.py run <spec>` | Plays a simulated-playtest spec from `sim-playtests/specs/`, replaying from the cache | [simulated-playtesting.md](docs/simulated-playtesting.md#storing-results) |
 | `uv run python tools/simplay.py all` | Replays every recorded simulated run and rewrites its results | [simulated-playtesting.md](docs/simulated-playtesting.md#storing-results) |
+| `LLMEMO_MODE=record uv run python tools/simplay.py play play` | Interactive game: you guess against the clue-giver model on an unplayed draft prompt; the game is logged in `playtests/` (live calls) | [playtesting.md](docs/playtesting.md#playing-against-the-clue-giver-model) |
 | `uv run python tools/playtest_logs.py check` | Checks that the playtest logs in `playtests/` follow the format simulated playtests read | [playtesting.md](docs/playtesting.md#recording-results) |
 | `uv run python tools/player_aid.py` | Downloads the player aid; writes coded PDF and icon images to `output/player-aid/` | [data-and-printing.md](docs/data-and-printing.md#player-aid-with-icon-codes) |
 | `uv run python tools/illustrate_logs.py` | Writes copies of the playtest logs and simulated runs with icon pictures to `output/illustrated/` (needs the player aid) | [playtesting.md](docs/playtesting.md#recording-results) |
+| `uv run python tools/scoresheet.py <cards>` | Writes a printable score sheet for a tabletop round to `output/` (prompts by card and number only) | [playtesting.md](docs/playtesting.md#tabletop-sessions) |
 | `uv run python tools/cards.py check` | Validates `data/prompts.csv` | [data-and-printing.md](docs/data-and-printing.md#commands) |
 | `uv run python tools/cards.py pdf` | Builds `output/cards.pdf` | [data-and-printing.md](docs/data-and-printing.md#commands) |
 
@@ -184,60 +186,66 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-22 | Simulated runs have two modes, named for who gives the clues: `model-clues` and `human-clues` | "Replay" already means replaying from the cache, and the names match the human playtest logs (`claude-clues`, `human-clues`) |
 | 2026-11-22 | `human-clues` runs read the playtest logs directly; `human-games.toml` is gone. Text logs mark pauses (where the guesser replied) with blank lines in clue blocks; tabletop logs never have pauses, and the script splits them at each change of group. `tools/playtest_logs.py check` validates the log format | One source of truth. At the table, clues and guesses overlap, so there are no pauses to record |
 | 2026-11-22 | Illustrated copies of the playtest logs and simulated runs are generated into `output/illustrated/` (not committed): each clue block becomes icon pictures, each followed by its pawn or cubes in the group's color, plus the board after each step when it differs | Reading grid codes is slow. The icons are copyrighted, so only the text logs are committed |
+| 2026-11-23 | `simplay.py play`: the owner guesses in the terminal against the clue-giver model, on random unassigned drafts not in any log. Games are logged as `### Pool:` entries in that day's `claude-clues` log, with real pauses | Calibration needs more human guessing; each game also tests the model's clues on a person and can be replayed to model guessers |
+| 2026-11-23 | Specs choose the board reference format: `tables` (default; the docs' tables as they are) or `list` (one line per icon, meanings and picture together, no backgrounds). `play` now uses Opus at high effort with `list`; play logs record the clue-giver's model and effort | Sonnet at medium effort picked codes that didn't match its own plans, likely from reading two icons per table row. A setting keeps recorded runs replaying |
+| 2026-11-23 | Guessers can run on OpenRouter (`backend = "openrouter"` in a spec's `[guesser]`); the judge and clue-giver stay on Claude. First test: five cheap non-Claude models on the 44 human-guessed games (`calibrate-or-*`) | Claude guessers read model clues that people couldn't; other model families may read the icons more like people |
+| 2026-11-23 | Guesser replies have one field, `guesses`; an empty list is a pass (the `pass` field is gone, for every guesser). OpenRouter reasoning models can run with `effort = "none"`. All guesser runs were re-recorded | Gemma got stuck writing blank space between the two fields and ran out of tokens reasoning. No model guesser had ever passed |
+| 2026-11-24 | OpenRouter calls have a hard 60 s limit on the whole call and run in daemon threads; a call with no reply counts as a failed attempt and is saved (`failures="replay"`), so replays repeat it | Some providers trickled replies for 10+ minutes, blocking games and the end of the run |
+| 2026-11-24 | Simulated guessers aren't used to re-rank prompts; human play is the evidence | Neither Haiku nor five OpenRouter models separated the games people solved from those they failed by more than 15 points |
+| 2026-11-25 | Prompts are chosen by a loop: score with a clueability rubric (cheap screen, then a fuller ranking), playtest 3 cards (27 prompts) the group hasn't seen with the owner's group, check the rubric against the results, revise. About 1/3 of each round are prompts chosen to learn from. See [docs/prompt-pipeline.md](docs/prompt-pipeline.md) | Simulation doesn't predict people; a rubric's separate measures can be tested against playtests, and the group plays about 27 prompts per two sessions |
+| 2026-11-25 | Tabletop logs record who clued and guessed, plus result, time, difficulty, and interest, from a printed score sheet (`tools/scoresheet.py`) and photos of the final board. Skips are allowed and recorded with a reason | Structured ratings make each round comparable with the rubric; a skip is the clearest sign of no foothold |
+| 2026-11-25 | New candidate generation (LLM brainstorming, open lists) waits in the backlog | About 630 unplayed drafts are enough for many rounds |
+| 2026-11-25 | Difficulty is one five-level scale everywhere: too easy, easy, medium, hard, too hard. Rubric predictions and the group's ratings both use it; easy / medium / hard go in Blue / Red / Black slots. Time is logged in whole minutes | Predictions and ratings compare directly; "medium" is the word players reach for (the owner wrote it while rating), and minutes are more exact than ranges |
+| 2026-11-25 | Clueability rubric v3 approved: gates G1–G6 (replacing the numbered tests), difficulty measures D1–D4 scored along the best route (parts direct / built / far / none) and summed into points, quality measures Q1–Q4. Hand-set weights until data allow fitting | One place for each rule; separate measures can each be checked against playtests, and ~45 played prompts are too few to fit weights |
+| 2026-11-25 | The IneG/concept dataset is used only to study and calibrate the clueability rubric: kept in `private/`, never committed, never a prompt source or duplicate check, never used to score our prompts directly. Only the rubric and findings in our own words are committed, with no base-game prompts. Rules in [docs/prompt-pipeline.md](docs/prompt-pipeline.md#the-inegconcept-dataset) | Its terms allow research and non-commercial use only; general lessons aren't licensed, so the deck stays clear for possible commercial licensing |
+| 2026-11-25 | IneG llmemo calls use their own cache in `private/ineg-concept/cache/`. `private/` is its own git repo, backed up to the owner's private GitHub repo and cloned back after a container rebuild. Redacting entries for the public cache was rejected | The cache must survive rebuilds to replay; redacted entries would still reveal base-game items through replies and guessable hashes, and would lose the rubric's reasoning |
 
 ## Next steps
 
-1. **Simulated playtesting with LLMs: calibrate (phase 2).** The plan is in
-   [docs/simulated-playtesting.md](docs/simulated-playtesting.md). The phase 1 dry run
-   is recorded (`sim-playtests/runs/dry-run-*.md`): $0.13 API-equivalent for 6 games,
-   3–5 s per call. The model guesser (Haiku) is far easier than people: from the human
-   clues it solved Popcorn (humans failed) and Break the ice in 1 step (humans needed 9).
-   Next: a `human-clues` run on all 20 human games with clues (on active prompts), then try guesser levers
-   (fewer guesses, first-instinct wording, effort) and, if they don't close the gap,
-   OpenRouter guessers (phase 3). Record only when the owner asks. Finish the
-   pictured-elements re-banding in step 2 before calibrating, since edits to the icon
-   tables invalidate the cache.
-2. **Reassemble cards 1–18 (expected check errors until then).** Rebuild every card
-   from the whole pool, using:
-   - **Tabletop re-banding:** after the 2026-11-16 playtest, the owner moved Taco,
-     Popcorn, and Snail from Blue to Red and Statue of Liberty from Red to Black (see
-     `playtests/2026-11-16-tabletop.md`). That and the pictured-elements rejections
-     leave several cards unbalanced, so `tools/cards.py check` fails and no PDF can be
-     built. This is on purpose: don't fill the gaps ad hoc before this step.
-   - **Pictured-elements audit (done 2026-11-19):** the rejected prompts are already off their
-     cards (cards 5, 8, 10, 11, 13, 15, 17 now have gaps). Re-band the compounds listed
-     under "Compounds to re-band" in [docs/pictured-elements.md](docs/pictured-elements.md),
-     then delete that doc's audit section.
-   - **Simulated playtesting (step 1):** re-rank the best prompts in each band using
-     its results, alongside the band standards and the fun criteria in
-     [docs/prompt-guidelines.md](docs/prompt-guidelines.md).
-   The owner approves the new cards, then bump `data/VERSION` to 0.2.
-3. **Test print at the new size.** Once the cards are rebalanced, print
+1. **Owner: data for rubric research.** The owner builds the base-game prompt list
+   for duplicate checks (in `private/`, see Future tasks; not from IneG/concept), and
+   accepts the IneG/concept terms on Hugging Face and downloads it into
+   `private/ineg-concept/`. Make `private/` its own git repo and push it to a new
+   private GitHub repo (see Backup in the pipeline doc). Follow the rules in
+   [docs/prompt-pipeline.md](docs/prompt-pipeline.md#the-inegconcept-dataset).
+2. **Check the rubric against played prompts.** The rubric is in
+   [docs/prompt-guidelines.md](docs/prompt-guidelines.md#clueability-rubric) and the
+   loop in [docs/prompt-pipeline.md](docs/prompt-pipeline.md). Write the analysis
+   script (llmemo, JSON output, screen and rank phases), score the ~45 prompts with human results
+   (and IneG rounds, if downloaded: llmemo cache in `private/ineg-concept/cache/`, outputs kept in `private/`,
+   each calibration recorded in the pipeline doc), and see which measures predict
+   solved / failed / skipped and the group's ratings. Only then score the whole pool (screen with a
+   cheaper model first). Record only when the owner asks.
+3. **Select round 1: 3 cards, 27 prompts** the group hasn't seen (they've seen cards
+   5–6), about 2/3 best candidates and 1/3 to learn from. This replaces the old plan
+   to reassemble cards 1–18: prompts on those cards are candidates like any other,
+   and the tabletop re-banding and pictured-elements notes (Taco, Popcorn, Snail,
+   Statue of Liberty; "Compounds to re-band" in
+   [docs/pictured-elements.md](docs/pictured-elements.md)) feed into the scores. Print
+   a score sheet (`tools/scoresheet.py`). Bump `data/VERSION` when the cards change.
+   First, track who has seen what: add `- Players:` lines to the text-playtest logs,
+   have `simplay.py play` write one (guesser Forrest), and add a listing of the
+   prompts each player has clued or guessed, so selection can exclude them.
+4. **Test print at the new size.** Once the cards are rebalanced, print
    `output/cards.pdf` (run `uv run python tools/cards.py pdf`) at 100% scale. The cards are
    now 60.5 × 85.9 mm, which hasn't been printed yet. Cut out a few cards and check
    that they slide into MTG sleeves and the text is easy to read. Adjust the layout in
    `tools/cards.py` if needed.
-4. **Keep playtesting the 18 cards** (cards 1–18 in `data/prompts.csv`, approved by
-   the owner on 2026-11-16; 628 prompts remain unassigned (not counting 38 rejected), and nothing has been
-   checked against the base game). Tabletop play with 3+ players is the best
-   evidence. Text playtests follow [docs/playtesting.md](docs/playtesting.md); logs
-   are in `playtests/`. Apply lessons to the guidelines after each session.
-5. **Scale up** toward 25 playtest cards, then 100.
-6. **Evaluate open sources** from the research report (Open Party Game Word Lists,
-   OpenWord Lexicon, idiom corpora) as pools of candidate prompts, keeping borrowed
-   prompts to a minimum.
+5. **Repeat the loop** (score, select 27, playtest, evaluate, revise) toward about 25
+   playtest-tested cards, then 100. After a couple of rounds, publish an alpha on BGG
+   for feedback and outside playtesters.
 
 ### Future tasks
 
+- **Prompt generation pipeline** (more candidates, testers outside the group): see [docs/prompt-pipeline.md](docs/prompt-pipeline.md#backlog).
 - **Base-game prompt list for duplicate checks.** Planned for after the first playtest.
   Put it in `private/` and never commit it. Status of the search (2026-11-16):
   - No official list or PDF of the base-game cards from Asmodee or Repos was found.
   - The [IneG/concept](https://huggingface.co/datasets/IneG/concept) dataset on
     Hugging Face contains English targets with card numbers and difficulty, taken from
     Board Game Arena game logs. It is gated: you need a Hugging Face account and must
-    accept its terms (CC BY-NC 4.0, research use only). It only contains prompts that
-    came up in logged games, so it may not cover all 990. Using it for duplicate
-    checks is outside its stated research-only purpose.
+    accept its terms (CC BY-NC 4.0, research use only). Owner's decision
+    (2026-11-25): it is not used for duplicate checks, only for rubric research.
   - BoardGameGeek threads to check by hand (they block automated access):
     [List of English cards?](https://boardgamegeek.com/thread/1564788/list-of-english-cards)
     and [Spreadsheet of all cards](https://boardgamegeek.com/thread/1564116/spreadsheet-of-all-cards).

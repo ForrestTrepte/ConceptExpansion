@@ -1,0 +1,8 @@
+     
+  {
+    "guesses": [
+        "Vampire",
+        "Zombie",
+        "Skeleton"
+    ]
+   }

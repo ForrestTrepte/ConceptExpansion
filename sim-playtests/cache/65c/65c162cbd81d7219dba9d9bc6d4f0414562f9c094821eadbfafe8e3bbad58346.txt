@@ -1,0 +1,3 @@
+{ 
+"guesses": ["Quote", "Speech bubble", "Idiom"] 
+}

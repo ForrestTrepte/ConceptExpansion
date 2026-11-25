@@ -31,12 +31,14 @@ import string
 import sys
 import tomllib
 import unicodedata
+import threading
 from collections import Counter
 from collections.abc import Awaitable, Callable, Sequence
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
 from typing import Any, Literal
 
+from llmemo import BackendError, Totals, UsageLimitReached
 from notation import Board, NotationError
 from playtest_logs import LogGame, human_guessed
 
@@ -50,6 +52,7 @@ TEXTS = Path(__file__).resolve().parent / "sim_prompts"
 DOCS = ROOT / "docs"
 
 MAX_ATTEMPTS = 3  # tries per call when a reply is invalid
+OPENROUTER_TIMEOUT_S = 60  # whole call, start to finish
 
 Mode = Literal["model-clues", "human-clues"]
 
@@ -57,12 +60,16 @@ Mode = Literal["model-clues", "human-clues"]
 @dataclass(frozen=True)
 class Role:
     model: str
-    effort: str | None = None
+    effort: str | None = None  # claude-cli: --effort; openrouter: reasoning effort
+    # or "openrouter" (guesser only), with an OpenRouter model ID
+    backend: str = "claude-cli"
+    max_tokens: int | None = None  # openrouter only; leave room for reasoning models
 
 
 # Fixed for every run, so changing the clue-giver or guesser can't change the scoring.
 JUDGE = Role("claude-sonnet-5-5", "low")
-Outcome = Literal["solved", "passed", "gave_up", "out_of_rounds", "skipped", "error"]
+Outcome = Literal["solved", "passed", "gave_up",
+                  "out_of_rounds", "skipped", "error"]
 
 
 # Reference texts ----------------------------------------------------------------------
@@ -80,7 +87,8 @@ def section(text: str, start: str, stop: str | None) -> str:
 def board_reference() -> str:
     """Icon meanings and pictured elements, without the docs' intros and worklists, which
     name prompts. Both roles get the same text."""
-    icons = section((DOCS / "board-icons.md").read_text(), "## Page 1", "## Clue mechanics")
+    icons = section((DOCS / "board-icons.md").read_text(),
+                    "## Page 1", "## Clue mechanics")
     pictured = section(
         (DOCS / "pictured-elements.md").read_text(),
         "## Page 1, left (A, B)",
@@ -104,10 +112,22 @@ def text(name: str, **values: object) -> str:
     return string.Template((TEXTS / f"{name}.md").read_text()).substitute(values)
 
 
-def system(role_text: str) -> list[str]:
+def reference(kind: str) -> str:
+    """The board reference models get: `tables` (the docs' tables as they are, the
+    original format) or `list` (one line per icon: meanings and picture together)."""
+    if kind == "tables":
+        return board_reference()
+    if kind == "list":
+        from board import reference_list
+
+        return reference_list()
+    raise ValueError(f"reference must be tables or list, not {kind!r}")
+
+
+def system(role_text: str, kind: str = "tables") -> list[str]:
     """The system prompt as parts, so llmemo stores the long shared ones once. llmemo
     joins parts with nothing between them, so each ends with a blank line."""
-    parts = [text("rules"), board_reference(), role_text]
+    parts = [text("rules"), reference(kind), role_text]
     return [p.rstrip("\n") + "\n\n" for p in parts]
 
 
@@ -124,6 +144,9 @@ class Spec:
     trials: int = 1
     max_rounds: int = 8
     max_guesses: int = 3
+    guesser_prompt: str = "guesser"  # tools/sim_prompts/<name>.md
+    # board reference format: tables or list (see `reference`)
+    reference: str = "tables"
     extra_rounds: int = 2
     concurrency: int = 3
     spend_limit_usd: float = 0.0
@@ -143,14 +166,27 @@ def load_spec(spec_id: str, specs_dir: Path = SPECS_DIR) -> Spec:
 
     mode = data["mode"]
     if mode not in ("model-clues", "human-clues"):
-        raise ValueError(f"spec {spec_id}: mode must be model-clues or human-clues")
+        raise ValueError(
+            f"spec {spec_id}: mode must be model-clues or human-clues")
     guesser = role("guesser")
     if guesser is None:
         raise ValueError(f"spec {spec_id}: [guesser] is required")
     clue_giver = role("clue_giver")
+    for name, r in (("guesser", guesser), ("clue_giver", clue_giver)):
+        if r is not None and r.backend not in ("claude-cli", "openrouter"):
+            raise ValueError(
+                f"spec {spec_id}: [{name}] backend must be claude-cli or openrouter")
+        if r is not None and r.effort == "none" and r.backend != "openrouter":
+            raise ValueError(
+                f"spec {spec_id}: [{name}] effort none is for OpenRouter models")
+    if clue_giver is not None and clue_giver.backend != "claude-cli":
+        raise ValueError(
+            f"spec {spec_id}: only the guesser can use OpenRouter")
     if mode == "model-clues" and clue_giver is None:
-        raise ValueError(f"spec {spec_id}: a model-clues spec needs [clue_giver]")
-    rest = {k: v for k, v in data.items() if k not in ("mode", "prompts", "guesser", "clue_giver")}
+        raise ValueError(
+            f"spec {spec_id}: a model-clues spec needs [clue_giver]")
+    rest = {k: v for k, v in data.items() if k not in (
+        "mode", "prompts", "guesser", "clue_giver")}
     return Spec(
         id=spec_id,
         mode=mode,
@@ -172,7 +208,8 @@ def deck_prompts(path: Path = PROMPTS_CSV) -> set[str]:
 def match_key(s: str) -> str:
     """Letters and digits only, lowercase, no accents, no leading article: so "The
     Spider-man" matches "Spider-Man" and "Deja vu" matches "Déjà vu"."""
-    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower().strip()
+    s = unicodedata.normalize("NFKD", s).encode(
+        "ascii", "ignore").decode().lower().strip()
     s = re.sub(r"^(the|a|an)\s+", "", s)
     return re.sub(r"[^a-z0-9]", "", s)
 
@@ -187,9 +224,8 @@ GUESS_SCHEMA_BASE: dict[str, Any] = {
     "type": "object",
     "properties": {
         "guesses": {"type": "array", "items": {"type": "string"}},
-        "pass": {"type": "boolean"},
     },
-    "required": ["guesses", "pass"],
+    "required": ["guesses"],
     "additionalProperties": False,
 }
 
@@ -229,6 +265,10 @@ JUDGE_SCHEMA: dict[str, Any] = {
 }
 
 
+def guesses(n: int) -> str:
+    return f"{n} guess" if n == 1 else f"{n} guesses"
+
+
 def guess_schema(max_guesses: int) -> dict[str, Any]:
     schema: dict[str, Any] = json.loads(json.dumps(GUESS_SCHEMA_BASE))
     schema["properties"]["guesses"]["maxItems"] = max_guesses
@@ -246,7 +286,8 @@ class Turn:
     passed: bool = False
     verdict: str = ""  # correct / yes / no; empty until judged
     yes_to: str = ""
-    correct_by: str = ""  # "match" (the script) or "judge", when verdict is correct
+    # "match" (the script) or "judge", when verdict is correct
+    correct_by: str = ""
     correct_guess: str = ""
 
 
@@ -280,15 +321,72 @@ def guesser_request(spec: Spec, turns: Sequence[Turn]) -> dict[str, Any]:
     prompt = (
         "New prompt.\n\n"
         + history(turns, for_clue_giver=False)
-        + f"\nGive up to {spec.max_guesses} guesses, best first, or pass."
+        + f"\nGive up to {guesses(spec.max_guesses)}, best first, or none to pass."
     )
+    parts = system(text(spec.guesser_prompt, guesses=guesses(
+        spec.max_guesses)), spec.reference)
+    if spec.guesser.backend == "openrouter":
+        return openrouter_request(spec.guesser, parts, prompt, guess_schema(spec.max_guesses))
     return ClaudeCli.request(
         spec.guesser.model,
         prompt,
-        system=system(text("guesser", max_guesses=spec.max_guesses)),
+        system=parts,
         json_schema=guess_schema(spec.max_guesses),
         effort=spec.guesser.effort,
     )
+
+
+def openrouter_request(
+    role: Role, parts: Sequence[str], prompt: str, schema: dict[str, Any]
+) -> dict[str, Any]:
+    """The same system text and prompt as a Claude request, as an OpenRouter chat
+    request with a JSON-schema reply. `maxItems` is dropped from the schema (strict mode
+    doesn't support it everywhere); replies with too many guesses are rejected and retried
+    like any invalid reply."""
+    from llmemo import OpenRouter
+
+    loose = json.loads(json.dumps(schema))
+    for prop in loose["properties"].values():
+        prop.pop("maxItems", None)
+    body: dict[str, Any] = {
+        "model": role.model,
+        "messages": [
+            {"role": "system", "content": "".join(parts)},
+            {"role": "user", "content": prompt},
+        ],
+        "response_format": {
+            "type": "json_schema",
+            "json_schema": {"name": "reply", "strict": True, "schema": loose},
+        },
+    }
+    if role.effort == "none":
+        body["reasoning"] = {"enabled": False}
+    elif role.effort:
+        body["reasoning"] = {"effort": role.effort}
+    if role.max_tokens:
+        body["max_tokens"] = role.max_tokens
+    return OpenRouter.chat_request(body)
+
+
+def structured(reply: object) -> object:
+    """The JSON object a reply carries: `structured_output` from the Claude CLI, or the
+    message content from OpenRouter (parsed, allowing a ```json fence). None if absent."""
+    if not isinstance(reply, dict):
+        return None
+    if "structured_output" in reply or "choices" not in reply:
+        return reply.get("structured_output")
+    try:
+        content = reply["choices"][0]["message"]["content"]
+    except (KeyError, IndexError, TypeError):
+        return None
+    if not isinstance(content, str):
+        return None
+    content = re.sub(r"^\s*```(?:json)?\s*|\s*```\s*$", "", content)
+    try:
+        value: object = json.loads(content)
+    except ValueError:
+        return None
+    return value
 
 
 def clue_giver_request(
@@ -318,7 +416,7 @@ def clue_giver_request(
     return ClaudeCli.request(
         spec.clue_giver.model,
         prompt,
-        system=system(text("clue-giver")),
+        system=system(text("clue-giver"), spec.reference),
         json_schema=schema,
         effort=spec.clue_giver.effort,
     )
@@ -358,6 +456,9 @@ class Game:
     mode: Mode
     trial: int
     source: str = ""  # the playtest log entry, for human-clues games
+    human_result: str = ""  # solved / failed, for human-clues games
+    human_step: int | None = None
+    clue_comments: bool = False  # the logged clues have [...] comments
     outcome: Outcome | None = None
     solved_at: int | None = None
     confidence: int | None = None
@@ -374,10 +475,10 @@ def _obj(reply: object) -> dict[str, Any]:
 
 
 def parse_guesses(reply: object, max_guesses: int) -> tuple[list[str], bool]:
-    r = _obj(reply)
-    raw, passed = r.get("guesses"), r.get("pass")
-    if not isinstance(raw, list) or not isinstance(passed, bool):
-        raise Invalid("guesses must be a list and pass a boolean")
+    """The guesses, and whether the guesser passed (an empty list)."""
+    raw = _obj(reply).get("guesses")
+    if not isinstance(raw, list):
+        raise Invalid("guesses must be a list")
     guesses: list[str] = []
     for g in raw:
         if not isinstance(g, str):
@@ -387,9 +488,7 @@ def parse_guesses(reply: object, max_guesses: int) -> tuple[list[str], bool]:
             guesses.append(g)
     if len(guesses) > max_guesses:
         raise Invalid(f"at most {max_guesses} guesses")
-    if not guesses and not passed:
-        raise Invalid("give at least one guess, or pass")
-    return ([] if passed else guesses), passed
+    return guesses, not guesses
 
 
 def parse_verdict(r: dict[str, Any], guesses: Sequence[str]) -> tuple[str, str]:
@@ -399,7 +498,8 @@ def parse_verdict(r: dict[str, Any], guesses: Sequence[str]) -> tuple[str, str]:
     if verdict == "yes":
         named = [g for g in guesses if match_key(g) == match_key(yes_to)]
         if not named:
-            raise Invalid(f"yes_to must be one of the guesses: {', '.join(guesses)}")
+            raise Invalid(
+                f"yes_to must be one of the guesses: {', '.join(guesses)}")
         return verdict, named[0]
     return verdict, ""
 
@@ -415,13 +515,24 @@ async def ask_valid(
     why its last reply was rejected."""
     error = ""
     for attempt in range(MAX_ATTEMPTS):
-        reply = await ask(role, build(error), attempt)
+        try:
+            reply = await ask(role, build(error), attempt)
+        except UsageLimitReached:
+            raise
+        except BackendError as e:
+            # No reply (e.g. a timeout). The cache saves it as an error entry, so a
+            # replay fails the same way and moves on to the same next attempt.
+            game.invalid.append(
+                {"role": role, "attempt": str(attempt), "error": f"backend: {e}"})
+            continue
         try:
             return parse(reply)
         except (Invalid, NotationError) as e:
             error = str(e)
-            game.invalid.append({"role": role, "attempt": str(attempt), "error": error})
-    raise Invalid(f"{role}: no valid reply after {MAX_ATTEMPTS} tries ({error})")
+            game.invalid.append(
+                {"role": role, "attempt": str(attempt), "error": error})
+    raise Invalid(
+        f"{role}: no valid reply after {MAX_ATTEMPTS} tries ({error})")
 
 
 async def guess_turn(ask: Ask, spec: Spec, game: Game) -> None:
@@ -467,19 +578,25 @@ async def check_correct(ask: Ask, game: Game, answers: Sequence[str]) -> bool:
     return True
 
 
-async def play_model_clues(ask: Ask, spec: Spec, answer: str, trial: int) -> Game:
-    game = Game(answer, "model-clues", trial)
+async def play_model_clues(
+    ask: Ask, spec: Spec, answer: str, trial: int, game: Game | None = None
+) -> Game:
+    """A model clue-giver against `ask`'s guesser. Pass `game` to watch it as it's played
+    (the interactive human guesser does)."""
+    game = game or Game(answer, "model-clues", trial)
     board = Board()
 
     def first(reply: object) -> tuple[int, str, str, list[str], Board]:
         r = _obj(reply)
-        conf, action, plan, lines = r.get("confidence"), r.get("action"), r.get("plan"), r.get("lines")
+        conf, action, plan, lines = r.get("confidence"), r.get(
+            "action"), r.get("plan"), r.get("lines")
         if not isinstance(conf, int) or action not in ("clue", "skip"):
             raise Invalid("confidence must be 1-5 and action clue or skip")
         if not isinstance(plan, str) or not isinstance(lines, list):
             raise Invalid("plan must be a string and lines a list")
         trial_board = board.copy()
-        std = trial_board.apply_all([str(x) for x in lines]) if action == "clue" else []
+        std = trial_board.apply_all(
+            [str(x) for x in lines]) if action == "clue" else []
         if action == "clue" and not std:
             raise Invalid("place at least one marker, or skip")
         return conf, action, plan, std, trial_board
@@ -514,17 +631,21 @@ async def play_model_clues(ask: Ask, spec: Spec, answer: str, trial: int) -> Gam
             def respond(reply: object) -> tuple[str, str, str, str, list[str], Board]:
                 r = _obj(reply)
                 verdict, yes_to = parse_verdict(r, guesses)
-                action, plan, lines = r.get("action"), r.get("plan"), r.get("lines")
+                action, plan, lines = r.get(
+                    "action"), r.get("plan"), r.get("lines")
                 if action not in ("clue", "give_up") or not isinstance(plan, str) or not isinstance(lines, list):
-                    raise Invalid("action must be clue or give_up, plan a string, lines a list")
+                    raise Invalid(
+                        "action must be clue or give_up, plan a string, lines a list")
                 trial_board = board.copy()
-                std = trial_board.apply_all([str(x) for x in lines]) if action == "clue" else []
+                std = trial_board.apply_all(
+                    [str(x) for x in lines]) if action == "clue" else []
                 return verdict, yes_to, action, plan, std, trial_board
 
             verdict, yes_to, action, plan, lines, board = await ask_valid(
                 ask,
                 "clue-giver",
-                lambda err: clue_giver_request(spec, answer, game.turns, error=err),
+                lambda err: clue_giver_request(
+                    spec, answer, game.turns, error=err),
                 respond,
                 game,
             )
@@ -541,7 +662,15 @@ async def play_model_clues(ask: Ask, spec: Spec, answer: str, trial: int) -> Gam
 async def play_human_clues(ask: Ask, spec: Spec, human: LogGame, trial: int) -> Game:
     """The logged clues, a step at a time (see LogGame.steps), then `extra_rounds` turns
     with no new markers. The answer is the prompt as it was played."""
-    game = Game(human.prompt, "human-clues", trial, source=human.source)
+    game = Game(
+        human.prompt,
+        "human-clues",
+        trial,
+        source=human.source,
+        human_result=human.result,
+        human_step=human.solved_step,
+        clue_comments=any("[" in line for line in human.lines),
+    )
     if human.result == "skipped":
         game.outcome = "skipped"
         return game
@@ -570,20 +699,52 @@ async def play_human_clues(ask: Ask, spec: Spec, human: LogGame, trial: int) -> 
 # Running a spec -----------------------------------------------------------------------
 
 
+def in_daemon_thread(fn: Callable[[Any], Any], arg: Any) -> asyncio.Future[Any]:
+    """Run a blocking call in its own daemon thread. Unlike asyncio's thread pool, which
+    allows only cpu_count + 4 calls at once and waits for every thread when the run
+    ends, a call abandoned after a timeout doesn't hold up other games or the exit."""
+    loop = asyncio.get_running_loop()
+    future: asyncio.Future[Any] = loop.create_future()
+
+    def settle(value: Any, error: BaseException | None) -> None:
+        if future.done():
+            return
+        if error is not None:
+            future.set_exception(error)
+        else:
+            future.set_result(value)
+
+    def run() -> None:
+        try:
+            value, error = fn(arg), None
+        except BaseException as e:  # handed to the awaiting coroutine
+            value, error = None, e
+        try:
+            loop.call_soon_threadsafe(settle, value, error)
+        except RuntimeError:
+            pass  # the run already ended
+
+    threading.Thread(target=run, daemon=True).start()
+    return future
+
+
 def _add_usage(u: dict[str, Any], meta: dict[str, Any]) -> None:
     u["calls"] = u.get("calls", 0) + 1
     if isinstance(meta.get("costUsd"), (int, float)):
         u["cost_usd"] = round(u.get("cost_usd", 0.0) + meta["costUsd"], 6)
     if isinstance(meta.get("latencyMs"), int):
-        u["latency_s"] = round(u.get("latency_s", 0.0) + meta["latencyMs"] / 1000, 1)
+        u["latency_s"] = round(u.get("latency_s", 0.0) +
+                               meta["latencyMs"] / 1000, 1)
     tokens = u.setdefault("tokens", {})
     for k, v in (meta.get("usage") or {}).items():
         if isinstance(v, int):
             tokens[k] = tokens.get(k, 0) + v
 
 
-async def run_spec(spec: Spec) -> dict[str, Any]:
-    from llmemo import Cache, ClaudeCli, Ledger, Result, git_code_version
+async def run_spec(spec: Spec) -> tuple[dict[str, Any], Totals]:
+    """Play a spec's games. Returns the run (as written to sim-playtests/runs/) and the
+    cache's totals for this run (hits, recorded calls, cost), for the summary line."""
+    from llmemo import Cache, ClaudeCli, Ledger, OpenRouter, Result, git_code_version
 
     entries: set[str] = set()
 
@@ -593,14 +754,32 @@ async def run_spec(spec: Spec) -> dict[str, Any]:
     cache = Cache(
         CACHE_DIR,
         mode="replay",  # LLMEMO_MODE=record overrides this for one command
+        failures="replay",  # a call with no reply is saved, so replays repeat it exactly
         spend_limit=spec.spend_limit_usd,
         ledger=Ledger(ROOT / "llm-spend"),
         code_version=git_code_version(ROOT),
         tags={"run": spec.id},
         on_entry_used=used,
-        log_calls=True,
+        # Live calls (recorded, failed) are progress worth seeing; replayed hits would be
+        # hundreds of lines per run, so they're only counted in the summary.
+        # TODO: When a new version of llmemo is released, check https://github.com/ForrestTrepte/llmemo/issues/6 to see if a "misses" mode can be used instead of this lambda.
+        log_calls=lambda line: None if line.startswith(
+            "llmemo hit ") else print(line, file=sys.stderr),
     )
     claude = ClaudeCli()
+    openrouter = OpenRouter(timeout_s=OPENROUTER_TIMEOUT_S)
+
+    async def openrouter_call(request: Any) -> Any:
+        """OpenRouter with a hard limit on the whole call. The HTTP timeout only limits
+        each wait for data, and some providers trickle a reply for many minutes. A call
+        over the limit counts as a failed attempt (saved, so replays repeat it); its
+        thread is left to finish in the background."""
+        try:
+            return await asyncio.wait_for(in_daemon_thread(openrouter, request), OPENROUTER_TIMEOUT_S)
+        except TimeoutError:
+            raise BackendError(
+                "timeout", f"no reply within {OPENROUTER_TIMEOUT_S} s") from None
+
     sem = asyncio.Semaphore(spec.concurrency)
 
     def asker(usage: dict[str, Any], trial: int) -> Ask:
@@ -608,12 +787,13 @@ async def run_spec(spec: Spec) -> dict[str, Any]:
             # The judge's verdict depends only on the answer and guesses, so it is shared
             # by every trial.
             variant = None if role == "judge" else f"trial-{trial}"
+            backend = openrouter_call if request.get(
+                "backend") == "openrouter" else claude.acall
             result = await cache.acall(
-                request, claude.acall, label=role, variant=variant, attempt=attempt
+                request, backend, label=role, variant=variant, attempt=attempt
             )
             _add_usage(usage, result.meta)
-            reply = result.reply
-            return reply.get("structured_output") if isinstance(reply, dict) else None
+            return structured(result.reply)
 
         return ask
 
@@ -623,9 +803,11 @@ async def run_spec(spec: Spec) -> dict[str, Any]:
     deck = deck_prompts()
     for p in spec.prompts:
         if spec.mode == "human-clues" and p not in humans:
-            raise ValueError(f"{spec.id}: no game with human guessers for {p!r} in playtests/")
+            raise ValueError(
+                f"{spec.id}: no game with human guessers for {p!r} in playtests/")
         if spec.mode == "model-clues" and p not in deck:
-            raise ValueError(f"{spec.id}: {p!r} isn't an active prompt in data/prompts.csv")
+            raise ValueError(
+                f"{spec.id}: {p!r} isn't an active prompt in data/prompts.csv")
 
     async def one(prompt: str, human: LogGame | None, trial: int) -> Game:
         async with sem:
@@ -645,11 +827,21 @@ async def run_spec(spec: Spec) -> dict[str, Any]:
     games = await asyncio.gather(
         *(one(p, h, t) for p, h in jobs for t in range(1, spec.trials + 1))
     )
-    return {
+    run = {
         "spec": asdict(spec),
         "games": [asdict(g) for g in games],
         "entries": sorted(entries),
     }
+    return run, cache.stats.total
+
+
+def call_summary(totals: Totals) -> str:
+    """E.g. `186 calls (186 cached, 0 recorded), $0.42 API-equivalent`."""
+    return (
+        f"{totals.calls} calls ({totals.hits} cached, {totals.misses} recorded),"
+        f" ${totals.cost_without_cache_usd:.2f} API-equivalent"
+        + (f", ${totals.uncached_cost_usd:.2f} spent now" if totals.misses else "")
+    )
 
 
 # Reports ------------------------------------------------------------------------------
@@ -670,6 +862,8 @@ def summarize(run: dict[str, Any]) -> list[dict[str, Any]]:
         rows.append(
             {
                 "prompt": prompt,
+                "human": _human(games[0]),
+                "comments": any(g["clue_comments"] for g in games),
                 "games": len(games),
                 "solved": len(solved),
                 "avg_steps": round(statistics.mean(solved), 1) if solved else None,
@@ -679,6 +873,51 @@ def summarize(run: dict[str, Any]) -> list[dict[str, Any]]:
             }
         )
     return rows
+
+
+def _human(game: dict[str, Any]) -> str:
+    result: str = game["human_result"]
+    if result == "solved" and game["human_step"]:
+        return f"solved (step {game['human_step']})"
+    return result
+
+
+def agreement(games: Sequence[dict[str, Any]]) -> list[str]:
+    """How the model's results compare with the humans' on the same clues: how often it
+    solved games humans solved and games they failed, and how often its outcome (solved
+    or not) matched theirs. Also without games whose clues have comments, which a model
+    reads as words while people saw a marker on a picture."""
+    out = []
+    for name, subset in (
+        ("All games", [g for g in games if g["human_result"]
+         in ("solved", "failed")]),
+        ("Without clue comments", [g for g in games if g["human_result"] in (
+            "solved", "failed") and not g["clue_comments"]]),
+    ):
+        if not subset:
+            continue
+        hs = [g for g in subset if g["human_result"] == "solved"]
+        hf = [g for g in subset if g["human_result"] == "failed"]
+        ms = sum(g["outcome"] == "solved" for g in hs)
+        mf = sum(g["outcome"] == "solved" for g in hf)
+        same = sum((g["outcome"] == "solved") == (
+            g["human_result"] == "solved") for g in subset)
+        out.append(
+            f"| {name} | {ms}/{len(hs)} | {mf}/{len(hf)} |"
+            f" {same}/{len(subset)} ({100 * same / len(subset):.0f}%) |"
+        )
+    if not out:
+        return []
+    return [
+        "## Agreement with human guessers",
+        "",
+        "Model games solved, by what the humans did with the same clues.",
+        "",
+        "| Games | Humans solved: model solved | Humans failed: model solved | Same outcome |",
+        "|---|---|---|---|",
+        *out,
+        "",
+    ]
 
 
 def markdown(run: dict[str, Any]) -> str:
@@ -695,19 +934,38 @@ def markdown(run: dict[str, Any]) -> str:
         "",
         f"- Mode: {spec['mode']} · {roles}",
         f"- Trials: {spec['trials']} · max rounds {spec['max_rounds']} · max guesses"
-        f" {spec['max_guesses']}",
+        f" {spec['max_guesses']} · guesser prompt {spec.get('guesser_prompt', 'guesser')}"
+        f" · reference {spec.get('reference', 'tables')}",
         "",
-        "## Summary",
-        "",
-        "| Prompt | Solved | Avg steps | Skipped | Errors | Common wrong guesses |",
-        "|---|---|---|---|---|---|",
     ]
+    human = spec["mode"] == "human-clues"
+    if human:
+        out += agreement(run["games"])
+    out += ["## Summary", ""]
+    if human:
+        out += [
+            "| Prompt | Humans | Clue comments | Model solved | Avg steps | Common wrong guesses |",
+            "|---|---|---|---|---|---|",
+        ]
+    else:
+        out += [
+            "| Prompt | Solved | Avg steps | Skipped | Errors | Common wrong guesses |",
+            "|---|---|---|---|---|---|",
+        ]
     for r in summarize(run):
-        out.append(
-            f"| {r['prompt']} | {r['solved']}/{r['games']} | {r['avg_steps'] or '–'} |"
-            f" {r['skipped']} | {r['errors']} | {', '.join(r['common_wrong'])} |"
-        )
-    out += ["", "## Usage", "", "| Game | Calls | Cost (USD, API-equivalent) | Model time (s) | Input tokens | Cache-read tokens | Output tokens |", "|---|---|---|---|---|---|---|"]
+        if human:
+            out.append(
+                f"| {r['prompt']} | {r['human']} | {'yes' if r['comments'] else ''} |"
+                f" {r['solved']}/{r['games']} | {r['avg_steps'] or '–'} |"
+                f" {', '.join(r['common_wrong'])} |"
+            )
+        else:
+            out.append(
+                f"| {r['prompt']} | {r['solved']}/{r['games']} | {r['avg_steps'] or '–'} |"
+                f" {r['skipped']} | {r['errors']} | {', '.join(r['common_wrong'])} |"
+            )
+    out += ["", "## Usage", "",
+            "| Game | Calls | Cost (USD, API-equivalent) | Model time (s) | Input tokens | Cache-read tokens | Output tokens |", "|---|---|---|---|---|---|---|"]
     for g in run["games"]:
         u, t = g["usage"], g["usage"].get("tokens", {})
         out.append(
@@ -730,7 +988,8 @@ def markdown(run: dict[str, Any]) -> str:
             out.append(f"- Error: {g['error']}")
         for i, t in enumerate(g["turns"], 1):
             out += [f"- Step {i}:", "  ```"]
-            out += [f"  {line}" for line in t["lines"]] or ["  (no new markers)"]
+            out += [f"  {line}" for line in t["lines"]
+                    ] or ["  (no new markers)"]
             out.append("  ```")
             if t["plan"]:
                 out.append(f"  Plan: {t['plan']}")
@@ -749,7 +1008,8 @@ def markdown(run: dict[str, Any]) -> str:
 def write_run(run: dict[str, Any], runs_dir: Path = RUNS_DIR) -> None:
     runs_dir.mkdir(parents=True, exist_ok=True)
     spec_id = run["spec"]["id"]
-    (runs_dir / f"{spec_id}.json").write_text(json.dumps(run, indent=2, ensure_ascii=False) + "\n")
+    (runs_dir / f"{spec_id}.json").write_text(json.dumps(run,
+                                                         indent=2, ensure_ascii=False) + "\n")
     (runs_dir / f"{spec_id}.md").write_text(markdown(run))
 
 
@@ -761,16 +1021,18 @@ def cmd_run(spec_ids: Sequence[str]) -> int:
 
     for spec_id in spec_ids:
         try:
-            run = asyncio.run(run_spec(load_spec(spec_id)))
+            run, totals = asyncio.run(run_spec(load_spec(spec_id)))
         except UsageLimitReached as e:
             # Nothing is written for this spec. Calls recorded so far are in the cache,
             # so a rerun after the reset replays them and records only the rest.
-            when = e.resets_at.astimezone().strftime("%Y-%m-%d %H:%M %Z") if e.resets_at else "unknown"
+            when = e.resets_at.astimezone().strftime(
+                "%Y-%m-%d %H:%M %Z") if e.resets_at else "unknown"
             print(f"{spec_id}: stopped, the Claude usage limit was reached ({e})")
-            print(f"Limit resets at: {when}. Rerun the same command after that.")
+            print(
+                f"Limit resets at: {when}. Rerun the same command after that.")
             return 2
         write_run(run)
-        print(f"{spec_id}: wrote {RUNS_DIR.relative_to(ROOT)}/{spec_id}.json and .md")
+        print(f"{spec_id}: {call_summary(totals)}; wrote {RUNS_DIR.relative_to(ROOT)}/{spec_id}.json and .md")
     return 0
 
 
@@ -817,7 +1079,11 @@ def main(argv: Sequence[str] | None = None) -> int:
     p_run = sub.add_parser("run", help="play the games in one or more specs")
     p_run.add_argument("spec", nargs="+")
     sub.add_parser("all", help="replay every recorded run")
-    p_prev = sub.add_parser("preview", help="print the requests a game starts with")
+    p_play = sub.add_parser(
+        "play", help="guess yourself against the clue-giver model (live)")
+    p_play.add_argument("spec")
+    p_prev = sub.add_parser(
+        "preview", help="print the requests a game starts with")
     p_prev.add_argument("spec")
     p_prev.add_argument("prompt")
     args = parser.parse_args(argv)
@@ -825,6 +1091,10 @@ def main(argv: Sequence[str] | None = None) -> int:
         return cmd_run(args.spec)
     if args.cmd == "all":
         return cmd_all()
+    if args.cmd == "play":
+        from play import cmd_play
+
+        return cmd_play(args.spec)
     return cmd_preview(args.spec, args.prompt)
 
 

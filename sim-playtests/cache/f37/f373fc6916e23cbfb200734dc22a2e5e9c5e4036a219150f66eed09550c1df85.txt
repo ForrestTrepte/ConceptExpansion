@@ -1,0 +1,123 @@
+# Board reference
+
+One line per icon: its code, its meanings (separated by /), and what its picture shows. A code stands for the whole icon with all its meanings.
+
+A1: Object / Box. Picture: Cardboard box; question mark. Details: Packing tape.
+A2: Human / Real / Historical. Picture: Man in top hat, black suit, bow tie; Egyptian woman in headdress and white robe. Looks like: Abraham Lincoln; Cleopatra.
+A3: Work / Occupation. Picture: Construction worker in hard hat with shovel; businessman with briefcase; nurse in cap and uniform with red cross. Details: Hard hat; tank top; briefcase; glasses; red cross.
+A4: Fauna / Animal. Picture: Octopus; small yellow bird (chick, duckling); ladybug; elephant.
+A5: Literature / Writing / Book. Picture: Book; quill (feather pen). Details: Ink line.
+A6: Cinema / Movie. Picture: Movie camera (old reel-to-reel).
+A7: Television / Program / Show. Picture: Flat-screen TV showing a live news broadcast. Details: "LIVE" banner; news anchor; headline ticker; clock "13:37".
+A8: Idea / Intelligence / Concept. Picture: Head in profile (silhouette); light bulb inside the head. Details: Light rays.
+A9: Place – Country / World / Flag. Picture: Globe (Earth); flag on a pole. Details: Dashed route lines.
+A10: Date / Event / Day. Picture: Tear-off calendar pages reading "1 APRIL", "2 APRIL", "3 APRIL". Looks like: April Fools' Day (the "1 APRIL" page).
+A11: Seacraft / Naval / Swimming. Picture: Motor yacht; sailboat. Details: Anchor emblem on the yacht's hull; waves.
+A12: Ground transportation / Road. Picture: Red sports car; motorcycle (dirt bike). Details: Tire tracks.
+A13: Game / Toy. Picture: Teddy bear; die (dice); playing cards; toy soldier (green army man).
+A14: Food / Eating / Edible. Picture: Plate of food: chicken drumstick, peas; fork; knife; glass. Details: Unclear yellow side dish (fries, potatoes, or pasta); the glass's contents are unclear.
+B1: Human / Society / Group. Picture: Family: two adults and a child.
+B2: Character / Fictional / Imaginary. Picture: Superhero in blue suit and red cape with "S" on chest; mermaid. Looks like: Superman.
+B3: Hobby / Sport. Picture: Gamer holding a game controller; person wearing headphones; tennis player. Details: Music notes; tennis racket; tennis ball; cap.
+B4: Flora / Plant / Nature. Picture: Tree; cactus (saguaro); red rose; wheat (ear of grain).
+B5: Music / Song. Picture: Treble clef; music note (eighth note).
+B6: Art / Sculpture – Painting / Drawing – Cartoon. Picture: Statue (classical armless woman); paint palette; paintbrush; pencil. Looks like: Venus de Milo. Details: Comic-strip panels with speech bubbles.
+B7: Title / Brand / Name. Picture: Book with "???" on the cover; red soda can with "???". Looks like: Coca-Cola can (red with white wave).
+B8: Expression – Quote / Talking / Words. Picture: Speech bubble. Details: Lines of text.
+B9: Building / Monument / City. Picture: City skyline; skyscraper (glass tower); factory (sawtooth roof); small house; apartment building. Details: Windows.
+B10: Celebration / Anniversary / Holiday. Picture: Christmas tree; wrapped gift (present) with bow; jack-o'-lantern (carved pumpkin); champagne glass. Details: Star on the tree; ornaments.
+B11: Aircraft / Aerial / Flying. Picture: Airplane (jet); helicopter.
+B12: Tool / Construction. Picture: Screwdriver; hammer.
+B13: Clothing / Accessory / Costume. Picture: Tank top; sombrero; jeans; high-heeled shoe.
+B14: House – Dwelling / Room / Domestic. Picture: House with red roof. Details: Chimney with smoke; windows; door; doormat.
+C1: Baby – Child / Young / New. Picture: Baby crawling; toddler walking. Details: Diaper.
+C2: Feminine / Female. Picture: Woman (pink figure). Details: Female symbols (♀).
+C3: Slow / Slow motion. Picture: Turtle (tortoise).
+C4: Defense / Protection / Wall. Picture: Shield. Details: Battlements (castle wall top).
+C5: Life / Heart / Love. Picture: Heart.
+C6: Happy / Positive. Picture: Smiley face (yellow).
+C7: Electronic / Computing. Picture: Circuit board; microchips.
+C8: Money / Rich / Expensive. Picture: Coins (marked ¢); banknotes ("100¢").
+C9: Religion / Myth / Spirituality. Picture: Person kneeling in prayer; sun. Details: Rays of light.
+C10: Science / Math. Picture: Erlenmeyer flask with green liquid; chalkboard with formulas. Details: Square-root sign.
+C11: Head / Face / Neck. Picture: Wooden mannequin: head, neck, and shoulders.
+C12: Torso – Back / Stomach / Body. Picture: Wooden mannequin: torso, shoulders, waist, and hips.
+C13: Ear / Sound / Hearing. Picture: Ear. Details: Sound waves.
+C14: Eye / Sight. Picture: Eye.
+D1: Adult – Elderly / Old / Past. Picture: Two elderly people, stooped. Details: Cane (walking stick).
+D2: Masculine / Male. Picture: Man (blue figure). Details: Male symbols (♂).
+D3: Fast / Race. Picture: Rabbit (hare), leaping. Details: Motion lines.
+D4: Attack / Conflict – Combat / Weapon. Picture: Sword; rifle; explosion (starburst).
+D5: Death / Bad / Illness. Picture: Skull.
+D6: Sad / Negative. Picture: Frowning face (blue).
+D7: Mechanical / Industrial. Picture: Gears (cogs); robotic arm.
+D8: Time / Duration. Picture: Hourglass; clock face.
+D9: Power / Politics. Picture: Politician in suit with sash, waving; crown. Details: Podium (lectern); microphone; glasses.
+D10: Medical / Medicine / Health. Picture: Syringe; first-aid kit (box with red cross). Details: Heartbeat line (EKG); gauze rolls in the kit.
+D11: Arm / Hand / Finger. Picture: Wooden mannequin: arm, elbow, wrist, and hand.
+D12: Leg / Foot. Picture: Wooden mannequin: leg, knee, ankle, and foot.
+D13: Nose / Scent / Smelling. Picture: Nose; nostrils. Details: Scent lines.
+D14: Mouth / Taste. Picture: Lips.
+E1: Cold / Snow – Rain / Cloud. Picture: Cloud; raindrops; snowflakes; thermometer (cold).
+E2: Night – Evening / Space / Moon – Star. Picture: Crescent moon; stars.
+E3: Fire / Burn / Cooking. Picture: Flames.
+E4: Air / Wind / Blowing. Picture: Gust of wind (swirling puff). Details: Swirls.
+E5: Stone / Mineral / Hard. Picture: Rock (boulder). Details: Small stones.
+E6: Metal. Picture: Steel I-beam (girder).
+E7: Plastic / Rubber. Picture: Rubber boot (rain boot); plastic water bottle.
+E8: Opposite / Reverse. Picture: Two arrows pointing opposite ways.
+E9: Fragment / Multitude / Cluster. Picture: Many small rounded squares, scattered and clustered.
+E10: Inside / Internal. Picture: Open box with an arrow pointing in.
+E11: Zero / None / Absence. Picture: Number 0.
+F1: Hot / Day – Light / Sun. Picture: Sun; thermometer (hot). Details: Sun rays.
+F2: Lightning – Storm / Electricity / Anger. Picture: Storm cloud; lightning bolt.
+F3: Water / Liquid / Aquatic. Picture: Water drop. Details: Small bubble.
+F4: Earth / Ground. Picture: Mound of dirt (soil); sprout (seedling). Details: Leaf; pebbles.
+F5: Wood. Picture: Log. Details: Tree rings; branch stub.
+F6: Fabric. Picture: Rolled fabric with fringe (scarf, blanket, or towel). Details: Fringe.
+F7: Paper / Sheet. Picture: Sheet of paper with handwriting (letter).
+F8: Cut – Break / Separation / Half. Picture: Scissors; dashed cut line. Details: Square being cut.
+F9: Part / Fragment / Assembly. Picture: Jigsaw puzzle pieces.
+F10: Grill – Wire / Network / Grid. Picture: Grid of bars (grille, mesh).
+F11: One / Unit / Number. Picture: Number 1.
+G1: Line – Straight / Diagonal / Stiff. Picture: Straight diagonal line.
+G2: Cross / Crossing / Addition. Picture: Plus sign (cross).
+G3: Spiral / Drunkenness / Coil. Picture: Spiral.
+G4: Circle / Ring. Picture: Ring (circle outline).
+G5: Triangle. Picture: Triangle.
+G6: Rectangle / Square. Picture: Rectangle.
+G7: Cube. Picture: Cube.
+G8: Pyramid. Picture: Pyramid.
+G9: Cone. Picture: Cone.
+G10: Big / High. Picture: Up arrow to a line, beside a tall bar.
+G11: Fat / Large / Long. Picture: Double arrow measuring a wide bar.
+G12: High / Climb / Above. Picture: Up arrow from the floor.
+G13: Left / Beginning / Before – Past. Picture: Left arrow to a wall.
+G14: Turn / Around / Cycle – Repetition. Picture: Two arrows chasing in a circle.
+H1: Arch – Curve / Rounded / Flexible. Picture: Curved line (arc).
+H2: Angles / Sharp / Jagged. Picture: Zigzag line.
+H3: Wavy / Ripple / Hair. Picture: Squiggle (wavy line).
+H4: Round. Picture: Filled circle (disc).
+H5: Star. Picture: Five-pointed star.
+H6: Flat. Picture: Flat shape lying on a floor.
+H7: Sphere. Picture: Sphere (ball).
+H8: Cylinder. Picture: Cylinder.
+H9: Hollow / Hole / Pierced. Picture: Block with a round hole through it.
+H10: Small / Low. Picture: Down arrow to a line, beside a short bar.
+H11: Thin – Fine / Narrow / Short. Picture: Arrows pointing in at a narrow bar.
+H12: Low / Descend / Below. Picture: Down arrow from the ceiling.
+H13: Right / End / After – Future. Picture: Right arrow away from a wall.
+H14: Use – Action / Do – Verb / Button. Picture: Finger pressing a red button.
+Red: Red.
+Orange: Orange.
+Yellow: Yellow.
+Green: Green.
+Blue: Blue.
+Purple: Purple.
+Pink: Pink.
+Brown: Brown.
+Black: Black.
+Grey: Grey.
+White: White.
+Clear: Transparent / Invisible / Glass.
+

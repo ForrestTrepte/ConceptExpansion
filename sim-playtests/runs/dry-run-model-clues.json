@@ -9,17 +9,23 @@
     ],
     "guesser": {
       "model": "claude-haiku-5-5",
-      "effort": "low"
+      "effort": "low",
+      "backend": "claude-cli",
+      "max_tokens": null
     },
     "clue_giver": {
       "model": "claude-sonnet-5-5",
-      "effort": "medium"
+      "effort": "medium",
+      "backend": "claude-cli",
+      "max_tokens": null
     },
     "trials": 1,
     "max_rounds": 8,
     "max_guesses": 3,
+    "guesser_prompt": "guesser",
+    "reference": "tables",
     "extra_rounds": 2,
-    "concurrency": 3,
+    "concurrency": 15,
     "spend_limit_usd": 3.0
   },
   "games": [
@@ -28,6 +34,9 @@
       "mode": "model-clues",
       "trial": 1,
       "source": "",
+      "human_result": "",
+      "human_step": null,
+      "clue_comments": false,
       "outcome": "solved",
       "solved_at": 1,
       "confidence": 4,
@@ -44,7 +53,7 @@
           "guesses": [
             "Pizza",
             "Pancake",
-            "Frying pan"
+            "Tortilla"
           ],
           "passed": false,
           "verdict": "correct",
@@ -57,14 +66,14 @@
       "error": "",
       "usage": {
         "calls": 2,
-        "cost_usd": 0.04011,
-        "latency_s": 8.4,
+        "cost_usd": 0.040007,
+        "latency_s": 9.3,
         "tokens": {
           "cacheReadTokens": 0,
-          "cacheWriteTokens": 17772,
+          "cacheWriteTokens": 17770,
           "inputTokens": 4,
-          "outputTokens": 377,
-          "reasoningTokens": 107
+          "outputTokens": 436,
+          "reasoningTokens": 188
         }
       }
     },
@@ -73,6 +82,9 @@
       "mode": "model-clues",
       "trial": 1,
       "source": "",
+      "human_result": "",
+      "human_step": null,
+      "clue_comments": false,
       "outcome": "solved",
       "solved_at": 1,
       "confidence": 4,
@@ -89,8 +101,8 @@
           "plan": "Food + cinema + yellow/white, then add fire/hot or fragment if needed.",
           "guesses": [
             "Popcorn",
-            "Cornflakes",
-            "Nachos"
+            "Nachos",
+            "Corn"
           ],
           "passed": false,
           "verdict": "correct",
@@ -103,14 +115,14 @@
       "error": "",
       "usage": {
         "calls": 2,
-        "cost_usd": 0.039175,
-        "latency_s": 9.3,
+        "cost_usd": 0.03923,
+        "latency_s": 9.8,
         "tokens": {
-          "cacheReadTokens": 7695,
-          "cacheWriteTokens": 10100,
+          "cacheReadTokens": 7686,
+          "cacheWriteTokens": 10099,
           "inputTokens": 4,
-          "outputTokens": 494,
-          "reasoningTokens": 173
+          "outputTokens": 451,
+          "reasoningTokens": 155
         }
       }
     },
@@ -119,6 +131,9 @@
       "mode": "model-clues",
       "trial": 1,
       "source": "",
+      "human_result": "",
+      "human_step": null,
+      "clue_comments": false,
       "outcome": "solved",
       "solved_at": 1,
       "confidence": 3,
@@ -135,8 +150,8 @@
           "plan": "Phrase: main concept expression; red = break (F8), yellow = ice (cold, water, hard).",
           "guesses": [
             "Break the ice",
-            "Break the silence",
-            "Cut to the chase"
+            "Icebreaker",
+            "Ice cube"
           ],
           "passed": false,
           "verdict": "correct",
@@ -149,24 +164,24 @@
       "error": "",
       "usage": {
         "calls": 2,
-        "cost_usd": 0.04069,
-        "latency_s": 11.1,
+        "cost_usd": 0.040626,
+        "latency_s": 11.4,
         "tokens": {
-          "cacheReadTokens": 7695,
-          "cacheWriteTokens": 10094,
+          "cacheReadTokens": 7686,
+          "cacheWriteTokens": 10088,
           "inputTokens": 4,
-          "outputTokens": 837,
-          "reasoningTokens": 556
+          "outputTokens": 730,
+          "reasoningTokens": 472
         }
       }
     }
   ],
   "entries": [
-    "599a103aa25c0404258820f6d335e7a3079da07f89600ceec5da0a9de769ea11",
-    "757e07c1ad5149b7d03a6fc60b0de1bb31b15f3a83cbe3a43e04102e8b865dff",
+    "0059cf229578f5041adf94f167ff7de69a67e9aa5b490c8899c8d3cb5de4fa2a",
+    "60c1cb7d55b235df224ba8164331e53951e66a048df9ff38fbcacd80b9135587",
     "795cab3fd1c537623f6b7492b360e8eeac2664c86a9585ce07eb48cea6338706",
-    "9828add28b1b1d1f10d533d40bc9bd76e1096311435fcc83a566e35d119a5d9b",
     "b635c353bbe0f1fd9754d0b190a0334df6f63c218f091d0a818ff5b659625d46",
+    "ee3a4f5989883caf2e0f79ccd86844c95e435340f86801218cbcd76ac1c9d81c",
     "f9e4eb3ee907d0cd41099ecb5bcebd481ff938f1859479e6aa90a5c27261126e"
   ]
 }

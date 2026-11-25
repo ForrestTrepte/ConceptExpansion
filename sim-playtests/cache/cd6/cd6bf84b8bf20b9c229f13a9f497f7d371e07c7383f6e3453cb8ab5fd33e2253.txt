@@ -1,0 +1,41 @@
+New prompt.
+
+Step 1, markers placed:
+?g A6
++ D5
+!r A10
++ D5
+!y F11
++ G2
++ F11
+Board now:
+?g A6 | D5
+!r A10 | D5
+!y F11 | G2, F11
+Guesses: Titanic, Jaws, Murder on the Orient Express
+Clue-giver: No
+
+Step 2, markers placed:
+!b D6
++ B9
+!k A10
++ B7
+Board now:
+?g A6 | D5
+!r A10 | D5
+!y F11 | G2, F11
+!b D6 | B9
+!k A10 | B7
+Guesses: The Shining, The Matrix, 2001: A Space Odyssey
+Clue-giver: No
+
+Step 3, markers placed:
+(no new markers)
+Board now:
+?g A6 | D5
+!r A10 | D5
+!y F11 | G2, F11
+!b D6 | B9
+!k A10 | B7
+
+Give up to 3 guesses, best first, or none to pass.

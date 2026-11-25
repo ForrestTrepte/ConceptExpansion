@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Spicy Chicken Wings",
+    "Buffalo Wings",
+    "Chicken Nuggets"
+  ]
+,
+  "pass": false
+}

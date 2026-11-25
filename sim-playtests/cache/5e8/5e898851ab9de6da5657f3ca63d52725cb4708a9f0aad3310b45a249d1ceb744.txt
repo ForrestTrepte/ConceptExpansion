@@ -1,0 +1,6 @@
+{ "guesses": [
+    "Numerical value",
+    "Number",
+    "Counting"
+  ]
+}

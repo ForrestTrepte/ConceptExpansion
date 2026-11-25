@@ -1,0 +1,52 @@
+New prompt.
+
+Step 1, markers placed:
+?g A3
++ C4
++ A11
++ D10
+Board now:
+?g A3 | C4, A11, D10
+Guesses: nurse, doctor, hospital
+Clue-giver: No
+
+Step 2, markers placed:
+!r B13
++ Red
+Board now:
+?g A3 | C4, A11, D10
+!r B13 | Red
+Guesses: paramedic, emergency, ambulance
+Clue-giver: No
+
+Step 3, markers placed:
+!y F1
++ F4
+Board now:
+?g A3 | C4, A11, D10
+!r B13 | Red
+!y F1 | F4
+Guesses: weather, storm, rain
+Clue-giver: No
+
+Step 4, markers placed:
+!b A2
++ F3
++ D5
+Board now:
+?g A3 | C4, A11, D10
+!r B13 | Red
+!y F1 | F4
+!b A2 | F3, D5
+Guesses: tornado, tornado warning, emergency alert
+Clue-giver: No
+
+Step 5, markers placed:
+(no new markers)
+Board now:
+?g A3 | C4, A11, D10
+!r B13 | Red
+!y F1 | F4
+!b A2 | F3, D5
+
+Give up to 3 guesses, best first, or none to pass.

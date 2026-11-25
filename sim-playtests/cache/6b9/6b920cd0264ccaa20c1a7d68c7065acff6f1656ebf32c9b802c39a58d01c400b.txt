@@ -1,0 +1,49 @@
+New prompt.
+
+Step 1, markers placed:
+?g B10
++ A10
++ C1
+!r A8
++ H13
++ B8
+Board now:
+?g B10 | A10, C1
+!r A8 | H13, B8
+Guesses: New Year's Day, Christmas, birthday
+Clue-giver: Yes: birthday
+
+Step 2, markers placed:
+!y H14
++ H13
++ B8
++ G14
+Board now:
+?g B10 | A10, C1
+!r A8 | H13, B8
+!y H14 | H13, B8, G14
+Guesses: celebration, party, annual event
+Clue-giver: No
+
+Step 3, markers placed:
+!b D8
++ G14
++ F11
++ C1
+Board now:
+?g B10 | A10, C1
+!r A8 | H13, B8
+!y H14 | H13, B8, G14
+!b D8 | G14, F11, C1
+Guesses: birthday cake, birthday party, first birthday
+Clue-giver: No
+
+Step 4, markers placed:
+(no new markers)
+Board now:
+?g B10 | A10, C1
+!r A8 | H13, B8
+!y H14 | H13, B8, G14
+!b D8 | G14, F11, C1
+
+Give up to 3 guesses, best first, or none to pass.

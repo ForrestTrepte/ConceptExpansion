@@ -1,0 +1,8 @@
+     
+  {
+    "guesses": [
+        "Superman",
+        "Spiderman",
+        "Batman"
+    ]
+}

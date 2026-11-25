@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "8 pieces of French fries",
+    "8 pieces of fried chicken",
+    "8 pieces of corn"
+  ]
+,
+  "pass": false
+}

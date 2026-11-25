@@ -16,6 +16,15 @@ The format is in docs/playtesting.md (Recording results). Each prompt is an entr
       ```
     - Notable guesses: Birthday party (Yes), Slice
 
+Tabletop entries may add player and rating lines right after the first line, each
+optional (see docs/playtesting.md). Time is in whole minutes; a rating may be
+followed by a comment in parentheses:
+
+    - Players: clue-giver B; guessers Forrest, C
+    - Time: 3 min
+    - Difficulty: hard (we nearly had it)
+    - Interest: high
+
 A blank line in a clue block is a pause: the guesser replied there. Only text playtests
 have pauses. At the table the clue-giver keeps placing markers while people guess, so
 tabletop logs never have them; `steps` splits a tabletop game at each change of group
@@ -27,6 +36,7 @@ from __future__ import annotations
 
 import re
 import sys
+from collections.abc import Sequence
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Literal
@@ -42,11 +52,16 @@ Result = Literal["solved", "failed", "skipped", "not played"]
 HUMAN_GUESSERS: tuple[Kind, ...] = ("tabletop", "claude-clues")
 
 _FILE = re.compile(r"^\d{4}-\d{2}-\d{2}-(tabletop|claude-clues|human-clues)\.md$")
-_ENTRY = re.compile(r"^### Card (\d+), #(\d): (.+)$")
+_ENTRY = re.compile(r"^### (?:Card (\d+), #(\d)|Pool): (.+)$")
 _STATUS = re.compile(
-    r"^- Clue-giver: (Claude|human) · Guessed: (yes|no|skipped|not played)"
+    r"^- Clue-giver: (Claude|human)(?: \([^)]*\))? · Guessed: (yes|no|skipped|not played)"
     r"(?: \(([^)]*)\))?(?: · Verdict: .+)?$"
 )
+_RATING_LINE = re.compile(r"^- (Players|Time|Difficulty|Interest): (.*)$")
+_PLAYERS = re.compile(r"^clue-giver (?P<giver>[^;]+); guessers (?P<guessers>.+)$")
+_MINUTES = re.compile(r"^(\d+) min$")
+DIFFICULTIES = ("too easy", "easy", "medium", "hard", "too hard")
+INTERESTS = ("low", "medium", "high", "fantastic")
 _CLUES = re.compile(r"^- Clues(?: \([^)]*\))?:$")
 _RESULTS: dict[str, Result] = {
     "yes": "solved",
@@ -63,14 +78,19 @@ class LogFormatError(ValueError):
 @dataclass(frozen=True)
 class LogGame:
     prompt: str  # as it was played, which may differ from data/prompts.csv today
-    card: int
-    number: int
-    source: str  # path from the repo root and the entry, e.g. "playtests/x.md, card 1 #7"
+    card: int | None  # None for a prompt from the unassigned pool
+    number: int | None
+    source: str  # path and entry, e.g. "playtests/x.md, card 1 #7" or "playtests/x.md, pool"
     kind: Kind
     result: Result
     solved_step: int | None  # from "Guessed: yes (step N)", if given
     clues: tuple[tuple[str, ...], ...]  # the logged pauses; one part if there were none
     yes: tuple[str, ...]  # notable guesses marked (Yes)
+    clue_giver_name: str = ""  # from the Players line (tabletop), e.g. "B"
+    guessers: tuple[str, ...] = ()
+    minutes: int | None = None  # time taken, if recorded
+    difficulty: str = ""  # one of DIFFICULTIES
+    interest: str = ""  # one of INTERESTS
 
     @property
     def lines(self) -> tuple[str, ...]:
@@ -131,8 +151,10 @@ def parse_log(path: Path) -> list[LogGame]:
             continue
         head = _ENTRY.match(lines[i])
         if not head:
-            if lines[i].startswith("### Card") and "observations" not in lines[i]:
-                raise fail(i, f"entry heading must be '### Card N, #K: Prompt': {lines[i]!r}")
+            if lines[i].startswith(("### Card", "### Pool")) and "observations" not in lines[i]:
+                raise fail(
+                    i, f"entry heading must be '### Card N, #K: Prompt' or '### Pool: Prompt': {lines[i]!r}"
+                )
             i += 1
             continue
         start = i
@@ -143,6 +165,27 @@ def parse_log(path: Path) -> list[LogGame]:
             raise fail(start + 1, "the line after the heading must be '- Clue-giver: … · Guessed: …'")
         result = _RESULTS[status[2]]
         step = re.search(r"\bstep (\d+)\b", status[3] or "")
+        giver, guessers = "", tuple[str, ...]()
+        minutes: int | None = None
+        rated = {"difficulty": "", "interest": ""}
+        allowed = {"difficulty": DIFFICULTIES, "interest": INTERESTS}
+        k = 1
+        while k < len(body) and (line := _RATING_LINE.match(body[k])):
+            field, value = line[1].lower(), re.sub(r"\s*\([^)]*\)$", "", line[2].strip())
+            if field == "players":
+                if not (players := _PLAYERS.match(value)):
+                    raise fail(start + 1 + k, "players line must be '- Players: clue-giver X; guessers Y, Z'")
+                giver = players["giver"].strip()
+                guessers = tuple(g.strip() for g in players["guessers"].split(","))
+            elif field == "time":
+                if not (m := _MINUTES.match(value)):
+                    raise fail(start + 1 + k, "time must be whole minutes, e.g. '- Time: 3 min'")
+                minutes = int(m[1])
+            else:
+                if value not in allowed[field]:
+                    raise fail(start + 1 + k, f"{field} must be one of: {', '.join(allowed[field])}")
+                rated[field] = value
+            k += 1
         clue_at = [k for k, b in enumerate(body) if _CLUES.match(b)]
         clues: list[list[str]] = []
         if clue_at:
@@ -187,17 +230,54 @@ def parse_log(path: Path) -> list[LogGame]:
         games.append(
             LogGame(
                 prompt=head[3],
-                card=int(head[1]),
-                number=int(head[2]),
-                source=f"{rel}, card {head[1]} #{head[2]}",
+                card=int(head[1]) if head[1] else None,
+                number=int(head[2]) if head[2] else None,
+                source=f"{rel}, card {head[1]} #{head[2]}" if head[1] else f"{rel}, pool",
                 kind=kind,
                 result=result,
                 solved_step=int(step[1]) if step and result == "solved" else None,
                 clues=tuple(tuple(p) for p in clues),
                 yes=tuple(yes),
+                clue_giver_name=giver,
+                guessers=guessers,
+                minutes=minutes,
+                **rated,
             )
         )
     return games
+
+
+def format_entry(
+    prompt: str,
+    *,
+    clue_giver: str,
+    result: Result,
+    steps: Sequence[Sequence[str]],
+    solved_step: int | None = None,
+    verdict: str = "",
+    guesses: Sequence[tuple[str, bool]] = (),
+    extra: Sequence[str] = (),
+) -> str:
+    """A log entry for a pool prompt in the format `parse_log` reads: steps separated by
+    pauses, notable guesses with `(Yes)` marks, and extra bullets (e.g. comments)."""
+    word = {"solved": "yes", "failed": "no", "skipped": "skipped", "not played": "not played"}[result]
+    if solved_step is not None:
+        word += f" (step {solved_step})"
+    status = f"- Clue-giver: {clue_giver} · Guessed: {word}"
+    if verdict:
+        status += f" · Verdict: {verdict}"
+    out = [f"### Pool: {prompt}", status]
+    if steps:
+        out += ["- Clues:", "  ```"]
+        out += "\n\n".join("\n".join(f"  {line}" for line in step) for step in steps).split("\n")
+        out = [line if line.strip() else "" for line in out]
+        out.append("  ```")
+    if guesses:
+        out.append(
+            "- Notable guesses: " + ", ".join(g + (" (Yes)" if yes else "") for g, yes in guesses)
+        )
+    out += [f"- {e}" for e in extra]
+    return "\n".join(out) + "\n"
 
 
 def load_logs(logs_dir: Path = LOGS) -> list[LogGame]:

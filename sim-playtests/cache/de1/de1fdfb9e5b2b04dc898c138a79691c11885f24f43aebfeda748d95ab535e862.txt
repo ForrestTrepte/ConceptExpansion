@@ -1,0 +1,190 @@
+*   `?g F7`: Main Concept is F7 (Paper / Sheet).
+    *   `+ Yellow`: A cube on Yellow on F7.
+    *   `+ C8`: A cube on C8 (Money / Rich / Expensive) on F7.
+    *   `!r A14`: Sub-concept (red) is A14 (Food / Eating / Edible).
+    *   `+ Brown`: A cube on Brown on A14.
+    *   *Previous Guesses (Rejected):* Banknote, Paper money, Dollar.
+
+    *   `+g G6`: A cube on G6 (Rectangle / Square) added to the Main Concept group (g).
+    *   `!y A6`: Sub-concept (yellow) is A6 (Cinema / Movie).
+    *   `+ C1`: A cube on C1 (Baby / Child / Young / New) added to the yellow group.
+    *   `+ B9`: A cube on B9 (Building / Monument / City) added to the yellow group.
+
+    *   **Main Concept (`?g`):** Paper/Sheet (F7) that is Yellow (color) and relates to Money (C8) and is Rectangular (G6).
+    *   **Red Sub-concept (`!r`):** Food (A14) that is Brown (color).
+    *   **Yellow Sub-concept (`!y`):** Movie/Cinema (A6) related to Child/New (C1) and Building/City (B9).
+
+    *   *Main Concept Focus:* Rectangular yellow paper related to money.
+        *   Wait, "Banknote" was rejected.
+        *   Could it be a "Check" or "Cheque"? (Yellow/Rectangular/Money)
+        *   Could it be "Gold"? (Not really paper)
+        *   Could it be "Receipt"?
+        *   Could it be "Ticket"?
+
+    *   *Red Sub-concept Focus:* Food (A14) that is Brown (color).
+        *   Chocolate?
+        *   Bread?
+        *   Cookie?
+        *   Brownie?
+
+    *   *Yellow Sub-concept Focus:* Movie/Cinema (A6) + Child/New (C1) + City/Building (B9).
+        *   "New York"? (City)
+        *   "The Lion King"? (No)
+        *   "Toy Story"? (No)
+        *   "Home Alone"? (No)
+        *   Maybe a specific movie title?
+        *   Wait, "C1" is Baby/Child/New. "B9" is City/Building.
+        *   Could the Yellow group be describing the *Answer* or a *connection*? In Concept, sub-concepts are related ideas.
+        *   "New York" (City) + "Movie"?
+
+    *   *Let's look for a connection between "Yellow rectangular paper/money", "Brown food", and "Movie/Child/City".*
+
+    *   *Re-evaluating the Main Concept:*
+        *   `?g F7` (Paper)
+        *   `+ Yellow`
+        *   `+ C8` (Money)
+        *   `+ G6` (Rectangle)
+        *   It's not a banknote. What else is yellow paper/money-related?
+        *   Maybe "Coupon"?
+        *   Maybe "Gold bar"? (No, paper)
+        *   Wait... "Yellow paper", "Money"... "Lemon"? (No, paper)
+        *   "Post-it note"? (No, money)
+        *   "Tax form"?
+        *   "Bill"? (Like a dollar bill, but maybe just a restaurant bill?)
+
+    *   *Re-evaluating Red Group:*
+        *   `!r A14` (Food) + `Brown`.
+        *   Chocolate? Cookie? Bread?
+
+    *   *Re-evaluating Yellow Group:*
+        *   `!y A6` (Movie) + `C1` (Child/New) + `B9` (City/Building).
+        *   "New York"? "City"?
+        *   "Baby"?
+        *   Wait, "New" (C1) + "York" (City)? No.
+
+    *   *Connecting all three:*
+        1. Rectangular yellow paper/money.
+        2. Brown food.
+        3. Movie + Child/New + City/Building.
+
+    *   *Alternative Interpretation:*
+        Is the answer a phrase?
+        Could the answer be "Chocolate bar"?
+        - Chocolate (Brown food).
+        - Bar (is it a rectangle G6? Yes. Is it money C8? No. Is it paper F7? No).
+
+        Could the answer be "Gold"? (No)
+
+        Could the answer be "Money"? (Rejected)
+
+        Let's look at the Yellow group again: `A6` (Cinema), `C1` (Child), `B9` (City).
+        "Baby" + "Cinema" + "City"?
+        "New" (C1) + "York" (B9) + "Movie"?
+        "Empire State Building"? (No)
+
+        Let's look at the Red group: `A14` (Food) + `Brown`.
+        "Chocolate"? "Brownie"? "Bread"?
+
+        Let's look at the Main group: `F7` (Paper) + `Yellow` + `C8` (Money) + `G6` (Rectangle).
+        "Check"? "Receipt"?
+
+    *   *Wait! Let's look at the icons again.*
+        `?g F7` (Paper)
+        `+ Yellow`
+        `+ C8` (Money)
+        `+ G6` (Rectangle)
+        `!r A14` (Food) + `Brown`
+        `!y A6` (Movie) + `C1` (Child) + `B9` (Building)
+
+        Is it a "Movie Ticket"?
+        - Movie (A6).
+        - Ticket (F7 - paper/sheet).
+        - Rectangle (G6).
+        - Yellow (color).
+        - Money (C8) - you use money to buy it?
+        - Red: Brown food? Is there a movie called "Brownie"? No.
+        - Yellow: Child/New + City/Building. "New York"?
+
+        What if the answer is "The Godfather"?
+        - Movie (A6).
+        - Money (C8).
+        - Brown/Food (A14)?
+        - No.
+
+        What if the answer is "Star Wars"? (No)
+
+        Let's think about the "Yellow paper" + "Money" + "Rectangle".
+        What if it's a "Gold coin"? (Not paper).
+        What if it's "Honey"? (Not paper).
+
+        Wait, let's rethink the `!r A14` (Food) + `Brown`.
+        And the `!y A6` (Movie) + `C1` (Child) + `B9` (Building).
+
+        Is it "Willy Wonka"?
+        - Chocolate (Brown food).
+        - Movie (A6).
+        - Child/New (C1) - kids/Charlie.
+        - Building (B9) - the factory.
+        - Main Concept: Paper (F7), Yellow (color), Money (C8), Rectangle (G6).
+        - Does a Wonka bar come in yellow paper? The wrapper?
+        - Does "Money" relate to Wonka?
+
+        What about "Charlie and the Chocolate Factory"?
+        - Charlie (Child - C1).
+        - Chocolate (Brown food - A14).
+        - Factory (Building - B9).
+        - Movie (A6).
+        - Main Concept: F7 (Paper/Sheet) + Yellow + C8 (Money) + G6 (Rectangle).
+        - Is the Wonka bar or wrapper yellow?
+        - Does "Money" relate? Maybe the golden ticket!
+        - **Golden Ticket!**
+            - `?g F7` (Paper/Sheet).
+            - `+ Yellow` (Gold is yellow).
+            - `+ C8` (Money/Rich/Expensive - it's gold!).
+            - `+ G6` (Rectangle).
+            - `!r A14` (Food) + `Brown` (Chocolate).
+            - `!y A6` (Movie) + `C1` (Child) + `B9` (Building/Factory).
+
+    *   *Verification of "Golden Ticket":*
+        - Main Concept: A sheet/paper (F7), yellow/gold color, related to money/wealth (C8), and rectangular (G6).
+        - Red Sub-concept: Related to food (A14) that is brown (chocolate).
+        - Yellow Sub-concept: Related to a movie (A6) about a child (C1) and a building/factory (B9).
+
+    *   This fits perfectly.
+
+    1. Golden Ticket
+    2. Charlie and the Chocolate Factory
+    3. Chocolate bar
+
+    (The prompt asks for up to 3 guesses).
+
+    *Self-Correction:* "Golden Ticket" is a much stronger guess than "Chocolate bar". Let's lead with that.
+
+    Wait, let me check the `!y` group again.
+    `!y A6` (Movie)
+    `+ C1` (Baby/Child/New)
+    `+ B9` (Building/Monument/City)
+    In *Charlie and the Chocolate Factory*, the "Golden Ticket" is a key item. It's a piece of paper, it's gold (yellow), it's a rectangle. The movie is about a child (Charlie) and the factory (Building). The food is chocolate (Brown).
+
+    This is definitely it.
+
+    Guesses:
+    1. Golden Ticket
+    2. Charlie and the Chocolate Factory
+    3. Chocolate bar (or maybe "Wonka bar")
+
+    I'll stick to the strongest ones.
+
+    *Wait, one more check:*
+    `?g F7` (Paper)
+    `+ Yellow`
+    `+ C8` (Money)
+    `+ G6` (Rectangle)
+    `!r A14` (Food) + `Brown`
+    `!y A6` (Movie) + `C1` (Child) + `B9` (Building)
+
+    Everything aligns.
+
+    1. Golden ticket
+    2. Charlie and the Chocolate Factory
+    3. Wonka bar

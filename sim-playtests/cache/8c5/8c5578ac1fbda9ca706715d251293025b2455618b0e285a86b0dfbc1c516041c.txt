@@ -1,0 +1,7 @@
+{
+  "guesses": [
+    "speech",
+    "voice",
+    "dialogue"
+  ]
+}

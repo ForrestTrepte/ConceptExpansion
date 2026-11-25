@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "An idiom",
+    "A proverb",
+    "A saying"
+  ]
+,
+  "pass": false
+}

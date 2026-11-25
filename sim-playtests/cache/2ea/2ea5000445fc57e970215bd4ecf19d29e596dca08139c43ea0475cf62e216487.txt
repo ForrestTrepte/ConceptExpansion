@@ -1,0 +1,167 @@
+*   `?g B8`: Main Concept is "Expression – Quote / Talking / Words" (an idiom, phrase, or title).
+    *   `+ D4`: Related idea: "Attack / Conflict – Combat / Weapon".
+    *   `+ C5`: Related idea: "Life / Heart / Love".
+    *   `!r F4`: Sub-concept (Red): "Earth / Ground".
+    *   `+ H12`: Related to Red: "Low / Descend / Below".
+    *   `!y B12`: Sub-concept (Yellow): "Tool / Construction".
+    *   `+ D4`: Related to Yellow: "Attack / Conflict – Combat / Weapon".
+    *   *Current State Summary:* An expression/quote involving conflict/combat and love/heart, and also involves "ground/low" and "tool/construction/combat".
+
+    *   `!k H13`: Sub-concept (Black): "Right / End / After – Future".
+    *   `+ D4`: Related to Black: "Attack / Conflict – Combat / Weapon".
+    *   `+ E11`: Related to Black: "Zero / None / Absence".
+    *   *Current State Summary (Cumulative):*
+        *   Category: Expression/Quote/Words.
+        *   Theme 1: Conflict/Attack + Love/Heart.
+        *   Theme 2 (Red): Earth/Ground + Low/Down.
+        *   Theme 3 (Yellow): Tool/Construction + Attack/Conflict.
+        *   Theme 4 (Black): Future/End + Attack/Conflict + Zero/None.
+
+    *   "A low blow" (No)
+    *   "Love is a battlefield" (No)
+    *   "Heart attack" (No)
+
+    *   `?g B8`: Phrase/Expression.
+    *   `D4` (Conflict) + `C5` (Love/Heart): Words about love and war/fighting.
+    *   `F4` (Earth) + `H12` (Low): Grounded/Low.
+    *   `B12` (Tool) + `D4` (Attack): Weapon/Tool of conflict.
+    *   `H13` (Future/End) + `D4` (Attack) + `E11` (Zero): End of combat? Zero weapons?
+
+    Let's re-evaluate the symbols:
+    `?g B8` (Phrase)
+    `D4` (Attack/Conflict)
+    `C5` (Love)
+    `F4` (Earth/Ground)
+    `H12` (Low)
+    `B12` (Tool)
+    `H13` (Future)
+    `E11` (None)
+
+    Wait, let's look at the `!k` group again.
+    `!k H13` (End/Future) + `D4` (Attack) + `E11` (Zero).
+    "No more fighting"? "End of the line"?
+
+    Look at `!y B12` + `D4`. Tool/Construction + Attack/Conflict.
+    Maybe "Digging a hole"? No, that doesn't fit the love/heart/conflict.
+
+    Let's rethink:
+    `?g B8` (Words/Expression)
+    `D4` (Attack) + `C5` (Love/Heart) -> Love/Heart and Conflict.
+    `F4` (Ground) + `H12` (Low) -> Below the ground?
+    `B12` (Tool) + `D4` (Attack) -> Weapon/Tool.
+
+    Could it be "Under the weather"? (No, weather isn't there).
+    "To die for"?
+    "Break someone's heart"? (Conflict/Attack + Heart).
+    "Hitting below the belt"?
+    Let's check "Hitting below the belt":
+    - `B8` (Expression): Yes.
+    - `D4` (Attack/Conflict): Yes (Hitting).
+    - `H12` (Low): Yes (Below).
+    - `F4` (Ground)? Not really.
+    - `C5` (Love/Heart)? No.
+
+    Let's look at the Red group again: `F4` (Earth) + `H12` (Low).
+    Maybe "Down to earth"? (No, doesn't fit the conflict).
+
+    What about "War of words"?
+    What about "Fighting words"?
+
+    Let's re-examine the `!k` group: `H13` (Future/End/After) + `D4` (Attack/Conflict) + `E11` (Zero/None).
+    "After the war"? "No more fighting"?
+
+    What about "Love conquers all"? (No).
+
+    Wait, let's look at the combinations again.
+    `?g B8` (Phrase)
+    `D4` (Conflict) + `C5` (Heart/Love)
+    `F4` (Ground) + `H12` (Low)
+    `B12` (Tool) + `D4` (Conflict)
+    `H13` (End) + `D4` (Conflict) + `E11` (None)
+
+    Could it be "The end of the world"?
+    `H13` (End), `B8` (Expression), `A9` (World/Place) - No, `A9` isn't used. `F4` (Earth/Ground) is used.
+    `H13` (End), `F4` (Earth), `D4` (Conflict)?
+
+    Let's look at `B12` (Tool/Construction) + `D4` (Conflict).
+    A weapon?
+
+    How about "A matter of life and death"?
+    `C5` (Life), `D5` (Death) - No, `D5` is not used.
+
+    Wait, let's look at the clues again.
+    Red group (`F4` Earth + `H12` Low): Low ground? Underneath?
+    Yellow group (`B12` Tool + `D4` Conflict): A weapon? A hammer?
+    Black group (`H13` End + `D4` Conflict + `E11` None): End of conflict? No more fighting?
+
+    Could the answer be "To bury the hatchet"?
+    Let's test "To bury the hatchet":
+    - `?g B8` (Expression): Yes.
+    - `D4` (Conflict/Attack): The hatchet is a weapon/conflict.
+    - `C5` (Heart/Love): Burying the hatchet means making peace (love/life).
+    - `F4` (Earth/Ground): Burying something implies putting it in the ground.
+    - `H12` (Low): Burying is "down/low".
+    - `B12` (Tool/Construction): A hatchet is a tool.
+    - `H13` (End/After): To end a conflict.
+    - `E11` (Zero/None): End of fighting/zero conflict.
+
+    Let's check the markers again for "Bury the hatchet":
+    `?g B8`: Expression. (Correct)
+    `+ D4`: Conflict/Attack/Weapon (The hatchet). (Correct)
+    `+ C5`: Love/Heart (Peace/Resolution). (Possible)
+    `!r F4` (Earth) + `+ H12` (Low): Burying in the ground. (Correct)
+    `!y B12` (Tool) + `+ D4` (Conflict): Hatchet is a tool/weapon. (Correct)
+    `!k H13` (End) + `+ D4` (Conflict) + `+ E11` (None): Ending the conflict/zero fighting. (Correct)
+
+    This seems very strong.
+
+    - Guess 1: Bury the hatchet.
+    - Guess 2: Make peace.
+    - Guess 3: Break the ice. (No, doesn't fit as well).
+
+    Wait, is there anything else?
+    "To die hard"? (No).
+    "Strike a chord"? (No).
+
+    Let's double check "Bury the hatchet" with the markers.
+    `?g B8` - Phrase.
+    `D4` - Weapon/Conflict.
+    `C5` - Love/Life (to reconcile).
+    `F4` - Earth/Ground.
+    `H12` - Low (Down in the ground).
+    `B12` - Tool.
+    `H13` - End/Future.
+    `E11` - Zero/None.
+
+    The logic holds.
+
+    One more check:
+    `!y B12` (Tool) + `+ D4` (Conflict).
+    `!k H13` (End) + `+ D4` (Conflict) + `+ E11` (Zero).
+    If the answer is "Bury the hatchet", the black markers `H13`, `D4`, `E11` might mean "Ending the fighting/war".
+
+    Is there any other idiom?
+    "Underground"? (No).
+    "Peace treaty"? (Not an expression/quote as much as a noun phrase).
+
+    Let's try "Bury the hatchet".
+
+    Wait, look at `!k H13` (End) + `D4` (Attack) + `E11` (None).
+    Could it be "No more war"? (No, `B8` is phrase).
+
+    What about "Fighting words"?
+    `D4` (Fighting) + `B8` (Words). But what about `F4` (Earth) and `H12` (Low)?
+
+    "Bury the hatchet" is the most cohesive answer.
+
+    One alternative: "To die for"? (No).
+    "Heart of stone"? (No, `E5` is not used).
+
+    "Bury the hatchet" fits the "Tool/Weapon" (`B12/D4`), "Ground/Low" (`F4/H12`), "End/Zero Conflict" (`H13/D4/E11`), and "Expression" (`B8`) perfectly.
+
+    Guesses:
+    1. Bury the hatchet.
+    2. Making peace.
+    3. End of the line. (Wait, let's just go with the strongest).
+
+    Actually, I'll just provide the best guess.

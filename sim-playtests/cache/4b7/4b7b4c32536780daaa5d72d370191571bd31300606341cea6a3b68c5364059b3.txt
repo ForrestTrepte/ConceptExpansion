@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "8 yellow noodles",
+    "8 pieces of spaghetti",
+    "8 pieces of pasta"
+  ]
+,
+  "pass": false
+}

@@ -1,0 +1,52 @@
+*   Main Concept (`?g`): `D2` (Masculine/Male).
+    *   Note: The prompt mentions "?g D2 [placed between C2 and D2: a person of either sex]". Looking at the board reference:
+        *   `C2`: Feminine/Female.
+        *   `D2`: Masculine/Male.
+        *   The clue-giver says it's between them, suggesting it's a "Human" or "Person".
+        *   However, the actual marker placed is `?g D2`.
+    *   Current Board: `?g D2`.
+
+    *   The answer is a "Male Human".
+    *   Since there are no other markers, it could be anything related to a male.
+    *   Common targets: "Man", "Boy", "Father", "King", "Actor", "Brother", "Uncle", "Husband", "Son", "Prince", "Hero", "Mister".
+
+    *   Guess 1: Man (most generic)
+    *   Guess 2: Boy (another generic male human)
+    *   Guess 3: Father (specific relation)
+
+    *   "Man" is the safest and most direct interpretation of "Male Human".
+    *   "Boy" is a common distinction.
+    *   "King" or "Hero" might be too specific without more clues.
+    *   Let's try "Man", "Boy", "Male".
+
+    *Wait*, the notation `?g D2` explicitly sets the main concept to Male. If the answer were just "Man", the clue-giver might have used `A2` (Human/Real/Historical) or just `D2`. But since the goal is to guess the *secret answer*, and the only clue is "Male", it's very broad.
+
+    Let's look for common party game words.
+    Maybe "Man"?
+    Maybe "Boy"?
+    Maybe "Dad"?
+
+    Actually, "Man" covers the concept perfectly.
+
+    1. Man
+    2. Boy
+    3. Male
+
+    Wait, the clue says `?g D2`. `D2` is "Masculine / Male".
+    So the category is "A male".
+
+    Could it be "Adam"? "Superman"? "A king"?
+    It's hard with just one marker.
+
+    Let's provide the most likely generic guesses.
+
+    1. Man
+    2. Boy
+    3. Male
+
+    Wait, usually in Concept, if it's "Man", they might use `A2` (Human). If they use `D2`, they are emphasizing the sex.
+
+    Let's try:
+    1. Man
+    2. Boy
+    3. Father

@@ -1,0 +1,8 @@
+     
+  {
+    "guesses": [
+        "lightning",
+        "explosion",
+        "storm"
+    ]
+}

@@ -1,0 +1,34 @@
+*   `?g A3`: Main Concept: Work / Occupation
+    *   `+ C4`: (sub-concept) Defense / Protection / Wall
+    *   `+ A11`: (sub-concept) Seacraft / Naval / Swimming
+    *   `+ D10`: (sub-concept) Medical / Medicine / Health
+
+    *   Occupation (`A3`)
+    *   Related to Defense/Protection (`C4`)
+    *   Related to Seacraft/Naval (`A11`)
+    *   Related to Medical/Health (`D10`)
+
+    *   Surgeon? (No naval/defense link)
+    *   Sailor? (Maybe, but medical link?)
+    *   Coast Guard? (Defensive, naval, can provide medical aid)
+    *   Navy Medic / Navy Doctor?
+    *   Lifeguard? (Defensive/protection, water/swimming, medical) - But A11 is "Seacraft/Naval" which implies ships/boats.
+    *   Coast Guard fits "Defense/Protection", "Seacraft/Naval", and they provide "Medical/Health" services.
+    *   Navy SEAL? (Defense, Naval, but medical is usually specialized)
+    *   Lifeguard is more "swimming/water" but A11 is "Seacraft/Naval".
+
+    *   A3: Work/Occupation.
+    *   C4: Defense/Protection.
+    *   A11: Seacraft/Naval.
+    *   D10: Medical/Health.
+
+    *   Coast Guard (High possibility: works at sea, protects, provides medical assistance).
+    *   Lifeguard (Water/Swimming, Protection, Medical, but A11 is Seacraft/Naval - maybe).
+    *   Navy Doctor (Work, Naval, Medical, maybe Defense/Protection).
+
+    Let's look at `C4` (Defense/Protection) + `A11` (Seacraft) + `D10` (Medical).
+    Coast Guard fits all categories well.
+
+    1. Coast Guard
+    2. Lifeguard
+    3. Navy Doctor

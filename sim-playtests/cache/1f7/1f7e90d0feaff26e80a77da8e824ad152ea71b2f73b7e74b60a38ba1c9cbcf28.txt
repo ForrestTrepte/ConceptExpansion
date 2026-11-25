@@ -1,0 +1,30 @@
+*   `?g A1`: Main Concept is "Object / Box".
+    *   `+ C9`: Sub-concept group `r` (red) includes "Religion / Myth / Spirituality".
+    *   `+ C2`: Sub-concept group `r` (red) includes "Feminine / Female".
+    *   `!r D5`: Red sub-concept marker is "Death / Bad / Illness".
+    *   `+ E10`: Red sub-concept group `r` includes "Inside / Internal".
+
+    *   Main concept: A box or an object.
+    *   Red sub-concepts (related ideas):
+        *   Religion/Spirituality
+        *   Feminine/Female
+        *   Death/Bad/Illness
+        *   Inside/Internal
+
+    *   *Possibility 1:* A coffin? (Box, death, religion/spirituality). But where does "feminine" fit? Maybe a specific type of coffin? Or a box related to a female deity?
+    *   *Possibility 2:* An altar? (Object, religion, spiritual).
+    *   *Possibility 3:* A casket? (Similar to coffin).
+    *   *Possibility 4:* A reliquary? (Box, religion, internal/inside, maybe related to a saint/female figure).
+    *   *Possibility 5:* Pandora's Box? (Object/Box, Female/Pandora, Death/Bad/Illness/Evils inside, Mythology/Religion).
+
+    *   `?g A1`: Box. (Yes, Pandora's box is a box).
+    *   `+ C9`: Mythology. (Pandora is a mythological figure).
+    *   `+ C2`: Female. (Pandora is female).
+    *   `!r D5`: Death/Bad/Illness. (The box released all the evils/misery/death into the world).
+    *   `+ E10`: Inside. (The evils were *inside* the box).
+
+    *   "Pandora's Box" fits almost perfectly.
+
+    1. Pandora's Box
+    2. Coffin
+    3. Reliquary

@@ -1,0 +1,683 @@
+*   ?g A14 (Main Concept: Food / Eating / Edible)
+    *   + C1 (Detail: Baby / Child / Young / New)
+    *   + H4 (Detail: Round)
+    *   !r G1 (Red Sub-Concept: Line/Straight/Diagonal/Stiff)
+    *   + H4 (Detail: Round - This is an odd marker, maybe indicating a shape detail for the red concept?)
+    *   !y D14 (Yellow Sub-Concept: Mouth / Taste)
+    *   + Pink (Color: Pink)
+
+    *Previous Guesses (rejected):* Pink lollipop, Pink donut, Strawberry, Pink swirl ice cream, Cotton candy, Pink swirl cupcake.
+
+    *   +g C6 (Main Concept Additive: Happy / Positive)
+    *   !b G3 (Blue Sub-Concept: Spiral / Drunkenness / Coil)
+    *   + H4 (Detail for Blue: Round)
+
+    *Current Status:*
+    *   Main Concept: Edible (A14), Young (C1), Round (H4), Happy (C6).
+    *   Red Concept: Straight line (G1), Round (H4).
+    *   Yellow Concept: Taste (D14), Pink (Color).
+    *   Blue Concept: Spiral (G3), Round (H4).
+
+    *   !k F5 (Black Sub-Concept: Wood)
+    *   + H11 (Detail for Black: Thin / Fine / Narrow / Short)
+    *   + H12 (Detail for Black: Low / Descend / Below)
+
+    *   Food (A14)
+    *   Young/New (C1)
+    *   Round (H4)
+    *   Happy (C6)
+    *   Sub-concept Red: Straight/Diagonal/Stiff (G1) + Round (H4)
+    *   Sub-concept Yellow: Taste (D14) + Pink (Color)
+    *   Sub-concept Blue: Spiral (G3) + Round (H4)
+    *   Sub-concept Black: Wood (F5) + Thin (H11) + Low/Below (H12)
+
+    *   A14 (Food)
+    *   C1 (Young/New)
+    *   C6 (Happy)
+    *   H4 (Round)
+    *   Pink (Color)
+    *   G1 (Straight) + H4 (Round) -> Maybe a stick?
+    *   D14 (Taste) + Pink -> Pink taste?
+    *   G3 (Spiral) + H4 (Round) -> Spiral/swirl shape.
+    *   F5 (Wood) + H11 (Thin) + H12 (Low) -> A thin wooden stick? Or a twig?
+
+    *Wait, let's rethink "Young" (C1).* C1 often refers to "new" or "baby".
+    A new thing?
+    A piece of food.
+    Spiral/swirl shape.
+    Pink.
+    Wooden stick/thin wood.
+
+    *Is it a specific candy?*
+    Cotton candy was rejected.
+    Lollipop was rejected.
+    Donut/Strawberry/Cupcake was rejected.
+
+    *Let's look at the "Wood" (F5) part again.*
+    A wooden stick (G1 + H4? No, G1 is straight).
+    A single twig?
+    Wait, "Young" + "Wood" + "Food".
+    Maybe a "Sprout"? But the food is pink.
+    "New" (C1) + "Wood" (F5).
+
+    *Let's look at "Spiral" (G3) + "Round" (H4).*
+    Maybe a specific type of candy that comes on a stick.
+    But a lollipop was rejected.
+
+    *What about "Sprout"?* No, the food is pink.
+    *What about "Pink" + "Spiral" + "Wood" + "Food"?*
+    Could it be a "Pink marshmallow"?
+    Marshmallows are often round (H4).
+    They are sweet (Taste - D14).
+    They are soft/squishy.
+
+    *Wait, let's look at "Young/New" (C1) and "Wood" (F5) again.*
+    Maybe it's a "Candy cane"? (No, that's usually red/white, and rejected was Pink lollipop).
+    Maybe a "Pink Gingerbread man"? (No).
+
+    *Let's reconsider "Wood" (F5) + "Thin" (H11) + "Low" (H12).*
+    Maybe it's a "Stick" of something?
+    Wait, "Wood" (F5) + "Thin" (H11).
+    A toothpick? A matchstick?
+    A matchstick is wood, thin, and can be part of food? No.
+
+    *Re-evaluating "Young/New" (C1).*
+    Does "Young" mean a baby animal? No, A14 is Food.
+    Does it mean "New"?
+    "New" food... "Fresh"?
+    "Fresh" + "Wood"?
+
+    *What about a "Pink carrot"?*
+    A carrot is food.
+    It's a plant (B4 is plant, but C1 is young/new).
+    It's orange/pinkish?
+    Wood? No.
+
+    *Wait! "Wood" (F5) + "Thin" (H11) + "Low" (H12).*
+    Could it be "Bark"? (Tree bark).
+    Could it be "Cinnamon"?
+    Cinnamon is a spice (Food - A14).
+    It comes from wood/bark (F5).
+    It's a stick (G1/H11).
+    Cinnamon sticks are brown, but maybe it's a pink flavored cinnamon? Or "Pink" is the taste/color?
+    Is it "Pink frosting"? No, pink swirl cupcake was rejected.
+
+    *Let's look at the "Spiral" (G3) again.*
+    A spiral of something.
+    A "Pink cinnamon roll"?
+    Cinnamon rolls are food.
+    They are spiral shaped (G3).
+    They are "new/young" (maybe fresh out of the oven?).
+    But "Wood" (F5) is a sub-concept. Cinnamon is wood/bark.
+    Does the user mean "Cinnamon" or "Cinnamon stick"?
+    A cinnamon stick is a piece of wood (F5).
+    But the main concept is "Food" (A14).
+
+    *Let's re-examine the clues:*
+    ?g A14 (Food) + C1 (New/Young) + H4 (Round) + C6 (Happy)
+    !r G1 (Straight) + H4 (Round)
+    !y D14 (Taste) + Pink (Color)
+    !b G3 (Spiral) + H4 (Round)
+    !k F5 (Wood) + H11 (Thin) + H12 (Low)
+
+    If the answer is "Cinnamon Roll":
+    Food: Yes.
+    Round: Yes.
+    Spiral: Yes.
+    Pink: Maybe pink frosting?
+    Wood: Cinnamon is from bark/wood.
+    Young/New: "New" (C1) could refer to a "roll" or "newly made"?
+    Straight: Maybe the way it's sliced? Or a stick?
+
+    Wait, "Cinnamon" (the spice) is made from bark (F5).
+    "Cinnamon stick" (F5) is "Thin" (H11).
+    If the answer is "Cinnamon stick":
+    Food: Yes.
+    Wood: Yes.
+    Thin: Yes.
+    But what about "Pink", "Spiral", "Round", "Happy"?
+    Maybe it's not a cinnamon stick.
+
+    What about "Pink" + "Spiral" + "Wood" + "Food"?
+    "Pink" + "Spiral" + "Round" + "Food" = A "Pink Swirl" something.
+    Wait, "Cotton candy" was rejected.
+    "Pink swirl ice cream" was rejected.
+
+    *What about a "Pink Macaron"?*
+    Round (H4).
+    Food (A14).
+    Pink (Color).
+    Spiral? Not really.
+    Wood? No.
+
+    *Let's look at "Wood" (F5) again.*
+    Is there a food that is "Wood"?
+    "Wood" could mean "Bark" (like Chocolate bark?).
+    "Chocolate bark" is a food.
+    Is it pink?
+    "Pink chocolate"?
+
+    *Let's look at "C1" (Young/New/Baby) again.*
+    Could "Young" mean "Small"?
+    Small + Food + Pink + Spiral + Wood...
+    Wait, "Wood" + "Thin" (H11) + "Low" (H12).
+    "Toothpick"? "Matchstick"? "Chopsticks"?
+    "Chopsticks" are wood.
+    Are they food? No.
+
+    *Let's look at "Spiral" (G3) and "Round" (H4).*
+    "Spiral" + "Pink" + "Food".
+    "Pink pasta"? (Fusilli is spiral).
+    "Fusilli" is food (A14).
+    Is it pink? (Maybe beet pasta).
+    Is it wood? No.
+
+    *Let's rethink the "Wood" (F5) part.*
+    Could the answer be "Marshmallow"?
+    Pink, round, sweet... but not wood.
+    Could it be "Pretzel"?
+    A pretzel is food.
+    It has a shape.
+    It's often "new" (freshly baked).
+    It's "Wood"? No.
+
+    *What about "Pink" + "Wood" + "Food"?*
+    Is there a fruit?
+    "Pink grapefruit"?
+    "Grapefruit" is food.
+    Is it wood? No.
+
+    *Wait! "Wood" (F5) + "Thin" (H11) + "Low" (H12).*
+    Could it be "Bark"?
+    "Chocolate bark"?
+    "Chocolate" is food.
+    "Bark" is wood.
+    "Pink" + "Spiral"...
+    Maybe "Pink chocolate"?
+
+    *Let's try another angle.*
+    "Young/New" (C1) + "Food" (A14).
+    "New" + "Wood" (F5).
+    "New wood" -> "Sapling"? "Twig"?
+    "Twig" + "Food" = ?
+    "Stick" + "Food" = ?
+    "Breadstick"?
+    "Breadstick" (A14) is food.
+    It's "Thin" (H11).
+    It's "Straight" (G1).
+    Is it "Wood" (F5)? No.
+
+    *Wait, "Wood" (F5) could be the sub-concept for a specific ingredient.*
+    Cinnamon (bark).
+    Vanilla (orchid/wood).
+    Nutmeg?
+    "Vanilla"?
+    "Vanilla" is a flavor (Taste - D14).
+    Is it pink? (Pink vanilla?).
+    Is it a spiral? (Vanilla bean is a pod, not a spiral).
+
+    *Rethink "Spiral" (G3) + "Round" (H4).*
+    A "Pink" "Spiral" "Food".
+    "Pink" + "Spiral" + "Round" + "Food".
+    "Pink" + "Spiral" + "Wood" + "Food".
+    "Pink" + "Spiral" + "Wood" + "Thin" + "Low".
+
+    What if the "Wood" (F5) is actually "Wood" the material?
+    And the food is "Pink"?
+    "Pink" + "Wood" = "Rosewood"? (Not food).
+
+    *Let's look at the icons again.*
+    !k F5 (Wood)
+    + H11 (Thin)
+    + H12 (Low)
+    Could this be "Stem"?
+    A stem is part of a plant (B4/C1?).
+    A stem is thin (H11).
+    A stem is part of a flower.
+    "Pink" + "Stem" + "Food"?
+    "Pink" + "Spiral" + "Stem"?
+    "Pink" + "Rose"?
+    "Rose" is a plant (B4), not a food (A14).
+
+    *Wait, "C1" (Young/New) and "A14" (Food).*
+    "Pink" + "Spiral" + "Wood" + "Food".
+    Is it a "Pink" "Cinnamon" "Stick"?
+    A "Cinnamon stick" is made of wood (F5/Bark).
+    It's thin (H11).
+    Is it spiral? No, it's straight (G1).
+    But the clue has "G3" (Spiral) and "H4" (Round).
+    Wait, G3 is a spiral. H4 is a circle.
+    Maybe the *shape* of the clue for the sub-concept is a spiral.
+    The clue-giver used G3 and H4 for the blue sub-concept.
+    "Spiral" + "Round".
+
+    *Let's look at the clues for the blue sub-concept again:*
+    !b G3 (Spiral)
+    + H4 (Round)
+    This means the *blue sub-concept* is a "Round Spiral".
+    What is a "Round Spiral"?
+    A coil? A swirl?
+
+    *Looking at the Red sub-concept:*
+    !r G1 (Straight/Diagonal)
+    + H4 (Round)
+    A "Round Straight line"? (That's a contradiction, unless it means a line on a circle, or a circle made of lines).
+
+    *Wait, I might be overcomplicating.*
+    "Pink" (Color) + "Taste" (D14).
+    "Pink" "Sweet" "Food".
+    "Spiral" (G3) + "Round" (H4).
+    "Wood" (F5) + "Thin" (H11) + "Low" (H12).
+
+    What if the "Wood" (F5) is "Chocolate"? (Sometimes called "bark").
+    What if the "Spiral" (G3) is the "shape"?
+    What if the "Pink" is the "flavor"?
+    "Pink Swirl Cake"? (Rejected).
+    "Pink Swirl Cupcake"? (Rejected).
+
+    *Let's look at "Young" (C1) again.*
+    "Young" + "Food" = "Baby food"?
+    Is there "Pink Baby Food"?
+    "Pink" + "Spiral" + "Wood"... No.
+
+    *Let's look at the whole thing again.*
+    ?g A14 (Food)
+    + C1 (Young/New)
+    + H4 (Round)
+    + C6 (Happy)
+    !r G1 (Straight) + H4 (Round)
+    !y D14 (Taste) + Pink (Color)
+    !b G3 (Spiral) + H4 (Round)
+    !k F5 (Wood) + H11 (Thin) + H12 (Low)
+
+    Wait! Could it be "Pink" "Marshmallow"? (No, already thought of that).
+    What about a "Pink" "Donut"? (Rejected).
+    "Pink" "Candy"?
+    "Pink" "Cotton Candy"? (Rejected).
+
+    *Let's try "Pink" + "Spiral" + "Wood".*
+    Wait... "Pink" "Cinnamon"?
+    "Cinnamon" is "Wood" (F5).
+    "Cinnamon" is "Taste" (D14).
+    Is it "Pink"? No.
+
+    *What about "Pink" "Ginger"?*
+    "Ginger" is a root (F4/Ground/Earth).
+    "Ginger" is food (A14).
+    "Ginger" is "New/Young" (C1)?
+    "Ginger" is "Spiral" (G3)? (Ginger root is often knobby/spiral).
+    "Ginger" is "Wood" (F5)? (It's a rhizome, but looks woody).
+    "Pink Ginger"?
+    "Pink" + "Ginger" + "Spiral" + "Wood" + "Thin" + "Low" + "Round"...
+
+    *Let's try another one.*
+    "Pink" "Candy" + "Stick" (G1/H11).
+    "Pink" "Stick" "Candy"?
+    "Candy cane"? (Rejected).
+
+    *Wait, "Wood" (F5) + "Thin" (H11) + "Low" (H12).*
+    "Thin Wood" = "Splinter"? "Match"? "Stick"?
+    If the answer is "Stick" (a food on a stick).
+    "Pink" + "Spiral" + "Stick".
+    "Pink" + "Swirl" + "Stick".
+    Is there a "Pink Swirl Stick"?
+    A "Pink Swirl" "Ice Pop"? (Rejected "Pink swirl ice cream").
+    A "Pink Swirl" "Lollipop"? (Rejected).
+
+    *What about "Pink" + "Spiral" + "Food" + "Wood".*
+    Is it "Pink" "Pasta"?
+    "Fusilli" is spiral.
+    But "Wood"?
+
+    *Could "Wood" (F5) mean "Tree"?*
+    "Pink" + "Tree" + "Food"?
+    "Pink" + "Fruit" + "Tree"?
+    "Cherry"?
+    "Cherry" is food.
+    "Cherry" is a fruit (B4/A14).
+    "Cherry" is "Pink/Red".
+    Is it "Spiral"? No.
+    Is it "Wood"? No.
+
+    *Let's look at "C1" (Young/New/Baby) again.*
+    "Baby" + "Food".
+    "Pink" + "Baby" + "Food"?
+    "Pink" + "Spiral" + "Wood"?
+
+    *Is it "Pink" "Sugar"?*
+    "Sugar" is food.
+    "Sugar" is "White/Clear" (not pink).
+
+    *Let's rethink the "Wood" (F5) + "Thin" (H11) + "Low" (H12) + "Straight" (G1) + "Round" (H4).*
+    "Thin Wood" + "Straight" + "Round".
+    Could it be a "Pencil"?
+    A "Pencil" is made of wood (F5).
+    A "Pencil" is thin (H11).
+    A "Pencil" is straight (G1).
+    But a pencil is not food (A14).
+
+    *Unless... "Pencil" is a brand of food? No.*
+    *What about "Eraser"?* No.
+
+    *Wait! "Pink" + "Wood" + "Food" + "Spiral".*
+    "Pink" + "Chocolate" + "Bark"?
+    "Pink" "Chocolate" "Bark".
+    Chocolate bark is a food (A14).
+    It's made of "Bark" (F5/Wood).
+    It's "Thin" (H11).
+    It can be "Spiral" (G3) or "Round" (H4) in its pattern.
+    It's "Sweet" (D14).
+    Is it "New/Young"? (Maybe "New" is just a generic clue for "Fresh"?).
+
+    *Let's try "Pink" "Cotton Candy".* (Already rejected).
+
+    *Let's try "Pink" "Macaron" again.*
+    Round. Food. Pink.
+    But the wood...
+
+    *Wait! "C1" (Young/New/Baby).*
+    "Baby" "Carrot"?
+    "Pink" "Carrot"?
+    "Carrot" is a plant/food.
+    "Carrot" is a "Root" (F4/F5?).
+    "Carrot" is "Thin" (H11).
+    But "Spiral"?
+
+    *Let's look at "Spiral" (G3) and "Wood" (F5) one more time.*
+    "Spiral" + "Wood" = "Wood grain"?
+    "Pink" + "Wood Grain" + "Food"?
+    Is there a food that looks like pink wood grain?
+    "Pink" "Salmon"?
+    Salmon is food (A14).
+    Salmon is "Pink".
+    Salmon has "Lines" (G1) or "Patterns" (G3/H4) in its meat.
+    Is it "Wood"? No.
+    Is it "Young"? (Baby salmon?).
+
+    *Wait! "Wood" (F5) + "Thin" (H11) + "Low" (H12).*
+    "Thin Wood" ... "Matchstick"?
+    "Matchstick" "Potato"? (Food).
+    "Matchstick" "Salad"? (Food).
+
+    *What about "Pink" "Marshmallow" "Stick"?*
+    "Marshmallow" "Stick"? (Like a s'more?).
+    "S'more" is food.
+    "Marshmallow" is "White/Pink".
+    "Wood" (F5) -> the stick for roasting?
+    "Thin" (H11).
+    "Straight" (G1).
+    "Round" (H4) -> the marshmallow.
+    "Spiral" (G3) -> ?
+    "Taste" (D14) -> Sweet.
+    "Happy" (C6) -> ?
+    "Young/New" (C1) -> ?
+
+    *Let's try "Pink" "Candy" "Stick".*
+    "Candy" "Stick" is a food.
+    "Candy" "Stick" is "Straight" (G1).
+    "Pink" "Candy" "Stick".
+    But "Spiral"? "Wood"?
+
+    *Wait, "Wood" (F5) and "Spiral" (G3) and "Round" (H4).*
+    "Wood" "Spiral" "Round".
+    "Wood" "Grain" (G3)?
+    "Pink" "Wood" "Grain" "Food".
+    "Pink" "Salmon" is a strong possibility for "Pink" + "Lines/Grain" + "Food".
+    But "Wood" (F5) is a very specific icon. It usually means the material wood or a tree.
+    And the sub-concept is "Wood".
+
+    *Let's look at "A14" (Food) + "C1" (Young) + "H4" (Round).*
+    "Baby" "Food" + "Round".
+    "Pink" "Baby" "Food".
+    "Pink" "Spiral" "Wood" "Thin".
+
+    *Wait! "Pink" "Rose" "Water"?*
+    "Rose" "Water" is food/flavor.
+    "Rose" is a plant.
+    "Pink".
+    "Rose" is a "Spiral" (G3) shape (the bloom).
+    "Rose" is "Round" (H4).
+    "Rose" is "Wood" (F5/Stem/Woody).
+    "Rose" "Water" is "Liquid" (F3).
+    But is it "Thin" (H11)?
+
+    *Let's think about "Pink" "Swirl" "something".*
+    "Pink" "Swirl" "Cookie"?
+    "Cookie" is food (A14).
+    "Cookie" is round (H4).
+    "Cookie" is sweet (D14).
+    "Cookie" can be pink.
+    "Cookie" can have a spiral (G3) pattern.
+    "Cookie" can be "New" (C1) (Freshly baked).
+    "Cookie" is "Happy" (C6) (A treat).
+    But "Wood" (F5)?
+    Unless it's a "Gingerbread" cookie? (Ginger is a root/wood-like).
+
+    *What if the "Wood" (F5) is "Cinnamon" and the food is "Cinnamon Roll"?*
+    "Cinnamon Roll" (A14).
+    "Spiral" (G3).
+    "Round" (H4).
+    "Sweet" (D14).
+    "Wood/Bark" (F5) (for the cinnamon).
+    "Thin" (H11) (for the way it's rolled?).
+    "Pink" (Color) (Maybe a pink frosting?).
+    "New/Young" (C1) (Freshly baked?).
+
+    Let's check "Cinnamon Roll" against the clues.
+    ?g A14 (Food) - Yes.
+    + C1 (New/Young) - Maybe (Freshly baked).
+    + H4 (Round) - Yes.
+    + C6 (Happy) - Yes (Treat).
+    !r G1 (Straight) + H4 (Round) - (The cinnamon/spiral pattern?).
+    !y D14 (Taste) + Pink - (Pink frosting).
+    !b G3 (Spiral) + H4 (Round) - (The spiral shape).
+    !k F5 (Wood) + H11 (Thin) + H12 (Low) - (Cinnamon is bark/wood, thin strips).
+
+    This seems plausible.
+
+    *Another option:*
+    "Pink" "Cotton Candy" was rejected.
+    "Pink" "Lollipop" was rejected.
+    "Pink" "Donut" was rejected.
+    "Pink" "Cupcake" was rejected.
+
+    What about "Pink" "Macaron"? (No wood).
+    What about "Pink" "Marshmallow"? (No wood).
+
+    *Wait, "Pink" "Rose" "Cookie"?*
+    *What about "Pink" "Sugar" "Cookie"?*
+
+    Let's look at "Wood" (F5) again.
+    Could it be "Apple"?
+    "Apple" is food.
+    "Apple" comes from a "Wood" (Tree).
+    "Apple" is "Round" (H4).
+    "Apple" can be "Pink" (some varieties).
+    "Apple" is "Sweet" (D14).
+    "Apple" can be "Spiral" (sliced or a spiral shape?).
+    "Apple" is "New/Young" (C1) (a new apple?).
+
+    *Wait, "Pink" "Apple"?*
+    Is a "Pink Apple" a thing? (Pink Lady apple).
+    "Pink Lady" is a brand of apple (B7).
+    "Pink Lady" apple is food (A14).
+    "Pink Lady" apple is "Round" (H4).
+    "Pink Lady" apple is "Sweet" (D14).
+    "Pink Lady" apple is "New/Young" (C1)?
+    "Pink Lady" apple is "Wood" (F5)? (From a tree).
+    "Pink Lady" apple is "Spiral" (G3)? (Maybe the shape/pattern?).
+    "Pink Lady" apple is "Thin" (H11)? (Sliced?).
+
+    Wait, "Pink Lady" is a name (B7).
+    The clue-giver uses icons.
+    "Pink" (Color) + "Lady" (Maybe B2/B1/B7?).
+    The clues don't have "Lady".
+
+    Let's look at "Wood" (F5) + "Thin" (H11) + "Low" (H12) again.
+    "Thin Wood" ... "Stick".
+    "Stick" ... "Candy Stick".
+    "Candy Stick" ... "Pink".
+    "Pink Candy Stick".
+    Is a "Candy Stick" spiral?
+    Some are.
+    Is it "Wood"? No.
+
+    Let's reconsider "Cinnamon Roll".
+    It fits "Spiral", "Round", "Food", "Sweet", "Wood/Bark", "Thin", "Pink" (if frosted).
+
+    Wait! "Wood" (F5) + "Thin" (H11) + "Low" (H12).
+    Could it be "Bark"?
+    "Chocolate Bark"?
+    "Pink Chocolate Bark".
+    Is "Chocolate Bark" spiral? No.
+
+    *What about "Pink" "Swirl" "something"?*
+    "Pink" "Swirl" "Bread"?
+    "Pink" "Swirl" "Cake"? (Rejected).
+    "Pink" "Swirl" "Cookie"?
+
+    *Let's look at the "Wood" (F5) and "Pink" (Color) one more time.*
+    Is there a "Pink Wood" tree?
+    "Cherry Blossom"?
+    "Cherry Blossom" is a flower (B4).
+    "Cherry Blossom" is "Pink".
+    Is it "Food"? (Edible flowers?).
+    Is it "Spiral"? (The bloom shape).
+    Is it "Wood"? (The tree).
+    Is it "Round"? (The shape of petals).
+    Is it "Thin"? (The petals).
+
+    *What about "Pink" "Ginger" "Snap"?*
+    "Ginger Snap" is a cookie (A14).
+    "Ginger" (F5/Wood-like).
+    "Ginger" (G3/Spiral/Knobby).
+    "Ginger" (D14/Taste).
+    "Pink" (Color).
+    "Snap" (Maybe the "Round/Thin" part?).
+    "Ginger Snap" (Cookie).
+
+    Let's try:
+    1. Pink cinnamon roll
+    2. Pink ginger snap
+    3. Pink marshmallow
+
+    Actually, "Pink Swirl Cupcake" was rejected.
+    "Pink Swirl Ice Cream" was rejected.
+    "Cotton Candy" was rejected.
+
+    What about "Pink Swirl" "Candy"?
+    "Pink Swirl" "Stick"?
+
+    Let's look at "Wood" (F5) one more time.
+    Could it be "Nut"?
+    "Nut" is food (A14).
+    "Nut" comes from "Wood" (F5).
+    Is it "Pink"? No.
+
+    "Wood" (F5) + "Thin" (H11) + "Low" (H12).
+    "Thin" "Wood" ... "Stick".
+    "Stick" ... "Candy Stick".
+    "Candy Stick" ... "Pink".
+    "Pink Candy Stick".
+    Wait, "Lollipop" was rejected.
+
+    What if the answer is "Pink" "Cinnamon" "Stick"?
+    (Though it's a spice, not a food itself, but it's "Edible").
+    "Cinnamon stick" is "Wood" (F5).
+    "Cinnamon stick" is "Thin" (H11).
+    "Cinnamon stick" is "Straight" (G1).
+    "Cinnamon" is "Taste" (D14).
+    "Cinnamon" is "Spiral" (G3)? (Sometimes they are rolled sticks).
+    Is it "Round" (H4)? (The cross-section).
+    Is it "Pink"? (No, it's brown).
+
+    *Let's try a different "Wood" food:*
+    "Apple".
+    "Apple" is "Food" (A14).
+    "Apple" is "Round" (H4).
+    "Apple" is "Sweet" (D14).
+    "Apple" is "Pink" (Pink Lady/Pinkish).
+    "Apple" comes from "Wood" (F5).
+    "Apple" is "Thin" (H11)? (Sliced).
+    "Apple" is "Spiral" (G3)? (Apple slices can be spiral?).
+
+    *Wait!*
+    What if the answer is "Pink" "Marshmallow"?
+    It's round, sweet, pink... but where is the "Wood"?
+    The stick?
+
+    *Let's think about the "Spiral" (G3) and "Wood" (F5) again.*
+    Is there a "Wood" "Spiral" food?
+    "Cinnamon" (Bark/Wood) + "Spiral".
+    "Cinnamon Roll".
+    This seems the most likely.
+
+    Let's try to be more specific.
+    "Pink frosted cinnamon roll"?
+    "Cinnamon roll"?
+
+    Let's try one more: "Pink" "Chocolate" "Bark".
+    "Bark" (F5) + "Pink" (Color) + "Chocolate" (A14/Taste).
+    "Chocolate" "Bark" is "Thin" (H11).
+    "Chocolate" "Bark" is "Round" (H4) or "Straight" (G1) in pieces.
+    Is it "Spiral" (G3)? Not usually.
+
+    Wait, "Pink" "Swirl" "something".
+    "Pink Swirl" "Candy".
+    "Pink Swirl" "Stick".
+
+    Let's look at the "Wood" + "Thin" + "Low" (H12) again.
+    Could it be "Bark"?
+    "Bark" is "Wood" (F5).
+    "Bark" is "Thin" (H11).
+    "Bark" is "Low" (H12) (On the ground/tree).
+    "Bark" (the sound/material) is "Wood".
+    Is "Chocolate Bark" a "Food"? Yes.
+    Is it "Pink"? Yes, if it's pink chocolate.
+    Is it "Spiral"? No.
+
+    What about "Pink" "Twigs" (Food)? No.
+
+    *Wait!* "Spiral" (G3) + "Round" (H4) + "Wood" (F5) + "Thin" (H11).
+    "Wood" "Grain" (G3).
+    "Pink" "Wood" "Grain".
+    "Pink" "Salmon". (Already thought of this).
+    Let's look at "Salmon" again.
+    A14 (Food): Yes.
+    C1 (Young/New): "New" (Freshly caught?).
+    H4 (Round): ?
+    C6 (Happy): ?
+    G1 (Straight) + H4 (Round): (The stripes/lines?).
+    D14 (Taste) + Pink: (Salmon is pink and tasty).
+    G3 (Spiral) + H4 (Round): (The fat patterns in salmon look like spirals/waves).
+    F5 (Wood) + H11 (Thin) + H12 (Low): (This is the hard part).
+
+    *Is there any other "Wood" food?*
+    "Nut"? "Coconut"?
+    "Coconut" is food (A14).
+    "Coconut" is "Round" (H4).
+    "Coconut" is "White" (not pink).
+    "Coconut" comes from a "Tree" (F5).
+    "Coconut" is "Taste" (D14).
+
+    *What about "Pink" "Coconut"?* No.
+
+    *Let's try:*
+    1. Cinnamon roll
+    2. Pink chocolate bark
+    3. Pink frosted cinnamon roll
+
+    Wait, "Pink" "Swirl" "something"...
+    "Pink" "Swirl" "Cookie"?
+    "Pink" "Swirl" "Cake"? (Rejected).
+    "Pink" "Swirl" "Cupcake"? (Rejected).
+
+    Could it be "Pink" "Marshmallow" "Stick"?
+    No, that's too long.
+
+    *Let's try "Cinnamon" related things.*
+    "Cinnamon stick"?
+    "Cinnamon" "Roll"?
+    "Cinnamon" "Stick"?
+
+    Let's try "Cinnamon roll" first. It fits many

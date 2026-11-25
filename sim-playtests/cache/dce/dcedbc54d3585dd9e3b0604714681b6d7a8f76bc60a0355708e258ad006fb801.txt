@@ -1,0 +1,3 @@
+**Identifying animal characteristics**
+
+I'm looking for a JSON response based on the animal description. I think the characteristics include a slow-moving turtle or maybe a snail; both are small and have a brown, spiral shell. I’m leaning toward a snail since it matches that description well. It makes sense to include variants—how about three different types? I want to make sure I capture everything correctly in the JSON format for clarity!

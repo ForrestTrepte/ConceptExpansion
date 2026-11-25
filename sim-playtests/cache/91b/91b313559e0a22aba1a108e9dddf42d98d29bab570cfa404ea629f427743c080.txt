@@ -1,0 +1,57 @@
+*   Goal: Guess the secret word/phrase/etc.
+    *   Rule: Guess up to 3 guesses, best first.
+    *   Current Clue: `?g D2`
+    *   `?g`: Main Concept pawn.
+    *   `D2`: Masculine / Male.
+    *   Interpretation: The main concept is a male person or something masculine.
+
+    *   Since it's just one marker (`?g D2`), the clue is extremely broad. It basically means "A male".
+    *   However, in Concept, a single marker usually indicates a category.
+    *   Wait, the prompt says `?g D2 [placed between C2 and D2: a person of either sex]`. This description is slightly confusing because D2 specifically means "Masculine / Male". C2 means "Feminine / Female". If it's placed "between" them, perhaps the clue-giver is aiming for "Human/Person" but picked D2? No, D2 is explicitly "Male".
+    *   Actually, let's look at the icon meanings:
+        *   A2: Human / Real / Historical
+        *   B2: Character / Fictional / Imaginary
+        *   D2: Masculine / Male
+    *   If the clue is just `?g D2`, the answer is likely a specific male person, a male character, or a male-specific object/concept.
+    *   Since there are no other markers, it's very open.
+
+    *   A famous man? (Too broad)
+    *   A man? (Too broad)
+    *   A boy?
+    *   A king?
+    *   A father?
+    *   A man (as a concept)?
+
+    *Wait*, if a clue-giver only places one marker, they are being very cryptic or the answer is very fundamental. Or perhaps they are waiting for me to guess "Man" or "Male" to narrow it down?
+    But usually, the first guess should be something more specific if possible. However, with only "Male", I can't be specific.
+
+    Let's try some broad guesses:
+    1. Man
+    2. Male
+    3. Boy
+
+    Wait, let's look at the text again: `?g D2 [placed between C2 and D2: a person of either sex]`.
+    If the user says it's "placed between C2 and D2" and means "a person of either sex", then `D2` (Male) is being used to signify "Human"? That's unusual for Concept. Usually, you'd use `A2` for Human/Real or `B2` for Fictional.
+    If the intention is "Person/Human", my guesses would be:
+    1. Person
+    2. Human
+    3. Man
+
+    Let's stick to the most logical interpretation of the icon `D2` which is "Male".
+
+    Guesses:
+    1. Man
+    2. Male
+    3. Boy
+
+    Actually, let's try to be slightly more diverse.
+    1. Man
+    2. Boy
+    3. Father
+
+    Let's look at the prompt again. It says `?g D2`.
+    If the answer is "Man", the clue-giver might just start with that.
+
+    1. Man
+    2. Boy
+    3. Male

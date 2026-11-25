@@ -1,0 +1,164 @@
+{
+  "contentSha256": "759c0a33d0fe985d7c9f7c8cb83c6dc9fd4f7b21d5821db47222ca68eb91863a",
+  "entryFormat": 1,
+  "key": {
+    "attempt": 0,
+    "keyFormat": 1,
+    "label": "clue-giver",
+    "request": {
+      "backend": "claude-cli",
+      "effort": "high",
+      "jsonSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "action": {
+            "enum": [
+              "clue",
+              "give_up"
+            ],
+            "type": "string"
+          },
+          "lines": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "plan": {
+            "type": "string"
+          },
+          "verdict": {
+            "enum": [
+              "yes",
+              "no"
+            ],
+            "type": "string"
+          },
+          "yes_to": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "verdict",
+          "yes_to",
+          "action",
+          "plan",
+          "lines"
+        ],
+        "type": "object"
+      },
+      "model": "claude-opus-5-5",
+      "prompt": {
+        "$llmemo.text": "70efa61f694ba8542b241acbc74b7aa9d5019e170dc96ed0f7ceb8bc22220b74"
+      },
+      "system": [
+        {
+          "$llmemo.text": "29d73c99f00758a55ed046d05b0403c1ca98589e4f1e9e1a977874ccbdd10cbc"
+        },
+        {
+          "$llmemo.text": "f373fc6916e23cbfb200734dc22a2e5e9c5e4036a219150f66eed09550c1df85"
+        },
+        {
+          "$llmemo.text": "2fde04bc2e1af13938737fe97d53aa72e4604167970b9d0beb7f36b50e0a89fd"
+        }
+      ]
+    },
+    "variant": "play"
+  },
+  "meta": {
+    "billing": "subscription",
+    "codeVersion": "9348bfa-dirty",
+    "costUsd": 0.0360428,
+    "latencyMs": 13358,
+    "recordedAt": "2026-11-23T21:38:05.439Z",
+    "recordedBy": "developer",
+    "servedBy": "firstParty",
+    "servedModel": "claude-opus-5-5",
+    "tags": {
+      "game": "2026-11-23/Rat race",
+      "run": "play-play"
+    },
+    "toolVersion": "2.1.330 (Claude Code)",
+    "usage": {
+      "cacheReadTokens": 6394,
+      "cacheWriteTokens": 1922,
+      "inputTokens": 2,
+      "outputTokens": 969,
+      "reasoningTokens": 747
+    }
+  },
+  "reply": {
+    "api_error_status": null,
+    "is_error": false,
+    "modelUsage": {
+      "claude-opus-5-5": {
+        "cacheCreationEphemeral1hInputTokens": 1922,
+        "cacheCreationEphemeral5mInputTokens": 0,
+        "cacheCreationInputTokens": 1922,
+        "cacheReadInputTokens": 6394,
+        "canonicalModel": "claude-opus-5-5",
+        "contextWindow": 1000000,
+        "costBasis": "list",
+        "costUSD": 0.0360428,
+        "inputTokens": 2,
+        "maxOutputTokens": 128000,
+        "outputTokens": 969,
+        "provider": "firstParty",
+        "thinkingTokens": 747,
+        "webSearchRequests": 0
+      }
+    },
+    "num_turns": 2,
+    "permission_denials": [],
+    "result": "{\"verdict\":\"no\",\"yes_to\":\"\",\"action\":\"clue\",\"plan\":\"The science and grid cubes are pushing them toward vets and animal care, so I'm removing them. I'll make red a small grey disease animal that lives in the city (rat) and keep race and grind as they are.\",\"lines\":[\"- C10\",\"- F10\",\"+r B9\"]}",
+    "stop_reason": "tool_use",
+    "structured_output": {
+      "action": "clue",
+      "lines": [
+        "- C10",
+        "- F10",
+        "+r B9"
+      ],
+      "plan": "The science and grid cubes are pushing them toward vets and animal care, so I'm removing them. I'll make red a small grey disease animal that lives in the city (rat) and keep race and grind as they are.",
+      "verdict": "no",
+      "yes_to": ""
+    },
+    "subtype": "success",
+    "terminal_reason": "completed",
+    "type": "result",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 1922,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 1922,
+      "cache_read_input_tokens": 6394,
+      "fallback_credit": null,
+      "inference_geo": "global",
+      "input_tokens": 2,
+      "iterations": [
+        {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 1922,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 1922,
+          "cache_read_input_tokens": 6394,
+          "input_tokens": 2,
+          "output_tokens": 969,
+          "type": "message"
+        }
+      ],
+      "output_tokens": 969,
+      "output_tokens_details": {
+        "thinking_tokens": 747
+      },
+      "server_tool_use": {
+        "web_fetch_requests": 0,
+        "web_search_requests": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+*   Main Concept (?g): H14 (Use – Action / Do – Verb / Button) -> An action/verb/process.
+    *   Additional details for Main Concept:
+        *   C14 (Eye / Sight)
+        *   C11 (Head / Face / Neck)
+    *   *Interpretation of Step 1:* An action involving the eye and head/face. (Likely "to see", "to look", "to watch", "to blink", etc. The user's guesses "Look, Blink, Wink" were rejected).
+
+    *   Sub-Concept 1 (!r - Red group): A1 (Object / Box)
+    *   Additional details for Sub-Concept 1:
+        *   C7 (Electronic / Computing)
+        *   C14 (Eye / Sight)
+    *   *Interpretation of Step 2:* A related idea is an object/box that is electronic/computing and related to sight/eye.
+
+    *   Action involving eyes/face.
+    *   Electronic/computing eye/object.
+
+    *   *Possibility 1: "To Watch"* (like watching TV). TV is an electronic object (C7) and a screen (sight/C14).
+    *   *Possibility 2: "To Scan"* (like a barcode or a document). Scanner is electronic, involves sight (sensor/eye), and is an object.
+    *   *Possibility 3: "To Record"* (camera). Camera is an object, electronic, and involves sight.
+    *   *Possibility 4: "To Monitor"* (screen/observation).
+    *   *Possibility 5: "To Photo / To Photograph"* (Camera).
+    *   *Possibility 6: "To Eye" (as in scanning something).*
+    *   *Possibility 7: "To Detect" (sensor).*
+
+    Let's look at the "Box/Object" (A1) + "Electronic" (C7) + "Eye" (C14) part more closely.
+    *   A computer/laptop/tablet? (But the main concept is an *action*).
+    *   A camera? (Action: Photograph/Record).
+    *   A television? (Action: Watch).
+    *   A webcam? (Action: Video call/Stream).
+
+    *Let's refine the "Action" (H14) + "Eye/Face" (C14/C11) + "Electronic Box/Eye" (A1/C7/C14):*
+    The action is the primary target.
+
+    *   "Watch" (TV/Monitor)
+    *   "Photograph" (Camera)
+    *   "Scan" (Scanner)
+    *   "Film" (Movie camera)
+    *   "Record" (Camera/Device)
+
+    Wait, is the action "To See"? No, that was too simple.
+    Is it "To Observe"?
+    Is it "To Video call"?
+    Is it "To Stream"?
+
+    Let's look at the "Red" group (Sub-concept). It describes a *feature* or a *related idea*.
+    A1 (Object/Box) + C7 (Electronic) + C14 (Eye).
+    A camera or a computer screen or a TV?
+
+    If the answer is "To Film" or "To Record":
+    - Main: Action (H14), involves eye/head (C14/C11 - the camera's lens/eye/body).
+    - Sub: An electronic box/object involving an eye (A1/C7/C14 - the camera itself).
+
+    If the answer is "To Watch":
+    - Main: Action (H14), involves eye/head (C14/C11 - looking at something).
+    - Sub: An electronic box/object involving an eye (A1/C7/C14 - a TV/Screen).
+
+    Let's try "Watch", "Record", "Scan". Or maybe "Capture"?
+
+    Wait, "Look, Blink, Wink" were rejected. "Look" is very close to "Watch". If "Look" was rejected, "Watch" might also be wrong, OR the clue-giver is being very specific.
+
+    What about "Scan"? A scanner is an electronic box (A1, C7) that uses "eyes" (sensor/C14). The action is to scan.
+
+    What about "To Monitor"? (Computer monitor/to monitor).
+
+    Let's try:
+    1. Watch
+    2. Photograph
+    3. Scan
+
+    Wait, let's look at "A1" again. Object/Box.
+    Could the answer be a specific piece of tech?
+    "To use a computer"? No, H14 is a verb/action.
+
+    What about "To Video"? (As in video calling).
+    What about "To Zoom"? (The app/action).
+
+    Let's re-evaluate the first set.
+    ?g H14 (Action) + C14 (Eye) + C11 (Head/Face).
+    This suggests the action is performed *by* the eye/face or *to* the eye/face?
+    Maybe "To Blink"? (Already rejected). "To Wink"? (Already rejected). "To Squint"? "To Stare"? "To Glance"?
+    If the answer is a verb, and the sub-concept is a "Box/Electronic/Eye", then "To Scan" or "To Photograph" or "To Record" seems strongest.
+
+    Let's try "Scan", "Photograph", "Record". Or maybe "To See"? (Wait, the user tried "Look").
+
+    Another angle: "To Computerize"? No.
+    "To Browse"? "To Click"?
+
+    Let's try:
+    1. Scan
+    2. Photograph
+    3. Record

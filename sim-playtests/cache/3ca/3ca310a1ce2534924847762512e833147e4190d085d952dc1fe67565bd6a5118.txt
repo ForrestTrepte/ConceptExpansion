@@ -1,0 +1,21 @@
+The answer is: Rock paper scissors
+
+The game so far:
+
+Step 1, markers placed:
+?g A13
++ D11
+!r E5
+!y F7
+!b F8
+Your private plan: Main: game played with hands. Subs: rock (stone), paper, scissors (cut).
+Board now:
+?g A13 | D11
+!r E5
+!y F7
+!b F8
+Guesses: paper cut, wishbone
+
+The judge found none of the last guesses correct. Answer Yes or No to them, then add markers or give up. The guesser has 9 turns left.
+
+Your last reply was rejected: group g already has a pawn on A13: '?g A13'. Reply again.

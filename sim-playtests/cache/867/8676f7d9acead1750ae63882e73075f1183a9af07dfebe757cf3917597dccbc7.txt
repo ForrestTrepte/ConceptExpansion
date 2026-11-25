@@ -1,0 +1,35 @@
+*   Main Concept (`?g B8`): B8 is "Expression – Quote / Talking / Words". This means the answer is a type of expression, a quote, a word, a phrase, or something related to communication/talking.
+    *   Sub-Concept 1 (`!r F11`): F11 is "One / Unit / Number". The `!r` means this is a Red sub-concept (a related idea, part, or feature).
+
+    *   The target is a type of expression/quote/word/talking.
+    *   The clue `!r F11` (One/Unit/Number) suggests the expression might involve numbers, or it's a specific kind of "one" thing (like a single word, a single number, etc.), or it's an expression about a number.
+
+    *   "A single word" (too literal?)
+    *   "A number" (doesn't fit B8 well)
+    *   "A single phrase"
+    *   "A pun" (doesn't necessarily involve "one" in the way F11 suggests)
+    *   "A number one" (idiom?)
+    *   "One-liner" (A one-liner is a short joke or expression involving the number "one").
+
+    *   The user's previous guesses (An idiom, A proverb, A saying) were rejected.
+    *   The new clue `!r F11` (One/Unit/Number) is added.
+    *   "One-liner" fits perfectly: It is a type of expression (B8) and it involves the concept of "one" (F11).
+
+    *   Guess 1: A one-liner
+    *   Guess 2: A joke
+    *   Guess 3: A single word
+
+    *Self-Correction/Refinement:*
+    The "one-liner" is the strongest candidate because "one" is explicitly a "unit/number" and "liner" refers to a line of text/speech.
+
+    Let's try "A one-liner".
+
+    Wait, could it be "A number"? No, that doesn't fit B8 (Expression/Quote).
+    Could it be "A single digit"? No.
+    Could it be "A count"? No.
+
+    "One-liner" is a very strong possibility for a single concept.
+
+    *   One-liner
+    *   A joke
+    *   A single word

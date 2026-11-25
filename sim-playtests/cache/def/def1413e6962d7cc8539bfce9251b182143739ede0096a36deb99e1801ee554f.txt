@@ -1,0 +1,396 @@
+*   `?g H14`: Main Concept is H14 (Use, Action, Do, Verb, Button). So the answer is a verb/action.
+    *   `!r A1 | D8, C13`: Red Sub-concept group.
+        *   `A1`: Object / Box.
+        *   `D8`: Time / Duration.
+        *   `C13`: Ear / Sound / Hearing.
+    *   `!y E2 | B14, G14, C3, D4`: Yellow Sub-concept group.
+        *   `E2`: Night / Evening / Space / Moon / Star.
+        *   `B14`: House / Dwelling / Room.
+        *   `G14`: Turn / Around / Cycle / Repetition.
+        *   `C3`: Slow.
+        *   `D4`: Attack / Conflict / Weapon.
+
+    *   `?g H14`: It's an action/verb.
+    *   `!r`: Related to a box (A1), time (D8), and sound/hearing (C13).
+    *   `!y`: Related to night (E2), a house (B14), repetition (G14), being slow (C3), and attack/conflict (D4).
+
+    *   `?g H14`: Action.
+    *   `!r`: Box (A1), Time (D8), Sound (C13).
+        *   Maybe "to package"? No, doesn't fit sound.
+        *   Maybe "to record" (Sound + Time)? But that was guessed and rejected.
+        *   Maybe "to alarm/sound"? (Sound + Time).
+        *   Maybe "to box"? No.
+        *   Let's look at the combination: A box + Time + Sound. A clock in a box? A music box?
+    *   `!y`: Night (E2), House (B14), Repetition (G14), Slow (C3), Attack (D4).
+        *   If the answer is "To play a music box"?
+        *   Wait, `!r` is "A box, time, sound". `!y` is "Night, house, repetition, slow, attack".
+        *   Is it "To alarm"? "To wake up"?
+        *   Wait, `!y` includes `D4` (Attack/Conflict/Weapon) and `C3` (Slow).
+        *   Maybe the action is related to a "Night watch"?
+        *   Let's re-evaluate `!r`: `A1` (Box), `D8` (Time), `C13` (Sound).
+        *   Maybe the answer is "To toll" or "To ring"? (Rings a bell, bells are in boxes/cases? No).
+        *   Wait, "To chime" was guessed and rejected.
+        *   Let's look at `!y` again: `E2` (Night/Moon), `B14` (House), `G14` (Cycle/Repeat), `C3` (Slow), `D4` (Attack/Weapon).
+        *   Is it "To sleep"? No, that's not an attack.
+        *   Is it "To hunt"? Guessed and rejected.
+        *   Is it "To bark"? (Sound + Night + Attack/Weapon?).
+        *   Is it "To howl"? Guessed and rejected.
+        *   Is it "To strike"? (Striking a match? Striking a clock? Striking a bell?).
+            *   `A1` (Box/Object) - striking a box? No.
+            *   `D8` (Time) - striking a clock.
+            *   `C13` (Sound) - striking makes sound.
+            *   `E2` (Night) - striking at night?
+            *   `B14` (House) - striking in a house?
+            *   `G14` (Cycle/Repeat) - striking repeats.
+            *   `C3` (Slow) - slow strike?
+            *   `D4` (Attack/Weapon) - "to strike" as in attack.
+    *   Wait, let's look at `!r` again. `A1` (Box), `D8` (Time), `C13` (Sound).
+    *   Could it be "To alarm"?
+    *   Could it be "To tick"? Guessed and rejected.
+    *   Let's rethink `!r`. `A1` (Box), `D8` (Time), `C13` (Sound).
+    *   What about "To wrap"? No.
+    *   What about "To package"? No.
+    *   What about a "Watch"? "To watch"?
+        *   `A1` (Box) - A watch is in a box?
+        *   `D8` (Time) - A watch measures time.
+        *   `C13` (Sound) - A watch ticks (sound).
+        *   `E2` (Night) - Night watch.
+        *   `B14` (House) - Home watch?
+        *   `G14` (Cycle) - It cycles?
+        *   `C3` (Slow) - Slow?
+        *   `D4` (Attack) - A watchman attacks? No.
+    *   Let's look at `D4` again. "Attack / Conflict / Weapon".
+    *   "To strike".
+        *   `A1` (Box) - Striking a box?
+        *   `D8` (Time) - Striking the hour.
+        *   `C13` (Sound) - The sound of a strike.
+        *   `E2` (Night) - Striking at night?
+        *   `B14` (House) - Striking in a house?
+        *   `G14` (Cycle) - Repeats.
+        *   `C3` (Slow) - Slow strike?
+        *   `D4` (Attack/Weapon) - To strike someone.
+    *   Wait, "To strike" was not guessed.
+    *   What about "To guard"? "To patrol"?
+    *   What about "To alarm"?
+    *   What about "To trigger"?
+    *   Let's look at `!r` again: `A1` (Box/Object), `D8` (Time), `C13` (Sound/Ear).
+    *   Wait, `A1` is "Object / Box". `D8` is "Time". `C13` is "Sound".
+    *   Is it "To clock"? (To clock someone/hit them? `D4` Attack).
+    *   What about "To strike"?
+    *   Let's look at `!y`: `E2` (Night), `B14` (House), `G14` (Cycle), `C3` (Slow), `D4` (Attack).
+    *   A "Clock" strikes at night? A "Clock" is in a house?
+    *   "To strike".
+    *   Wait, `A1` (Box) ... a "Music Box"?
+        *   If the answer is "To play"? Guessed and rejected.
+    *   Is it "To ring"? Guessed and rejected.
+    *   What about "To sound"?
+    *   What about "To alert"?
+    *   Let's look at `D4` (Attack/Conflict/Weapon) and `C3` (Slow) and `E2` (Night) and `B14` (House) and `G14` (Cycle) and `C13` (Sound) and `D8` (Time) and `A1` (Box).
+    *   Could it be "To set" (as in an alarm)?
+    *   Could it be "To hunt"? Guessed and rejected.
+    *   Could it be "To track"?
+    *   What about "To strike"?
+    *   Let's try "To strike".
+    *   Wait, `A1` is "Box". A "Striking" object?
+    *   Wait! `A1` is a box. `C13` is sound. `D8` is time. `G14` is repetition.
+    *   Is it "To beat"? (To beat a drum? To beat a clock?).
+    *   Is it "To measure"?
+    *   Let's try "To strike".
+
+    *   Wait, looking at `!r` again: `A1` (Box), `D8` (Time), `C13` (Sound).
+    *   Looking at `!y` again: `E2` (Night), `B14` (House), `G14` (Cycle), `C3` (Slow), `D4` (Attack).
+    *   "To hunt" was rejected. "To stalk" was rejected. "To howl" was rejected. "To ring" was rejected.
+    *   "To chime" was rejected. "To tick" was rejected.
+    *   What about "To alarm"?
+    *   What about "To siren"?
+    *   What about "To strike"?
+    *   What about "To signal"?
+    *   What about "To fight"?
+    *   What about "To guard"?
+    *   What about "To patrol"?
+    *   Let's think about the "Box" (`A1`).
+    *   Is it "To wrap"? No.
+    *   Is it "To package"? No.
+    *   Is it "To box"? No.
+    *   Is it "To strike"? (To strike a match? Match is in a box. Time/Repetition? Sound of strike? Night? House? Slow? Attack?).
+    *   Wait, `D4` (Attack/Conflict/Weapon) ... `A1` (Box) ... `C13` (Sound) ... `D8` (Time).
+    *   Is it "To trigger"?
+    *   Is it "To bomb"?
+    *   Is it "To explode"?
+    *   Is it "To bang"?
+    *   Is it "To knock"?
+    *   "To knock" - A knock on a door (House/B14). A knock can be an attack (D4). A knock makes a sound (C13). A knock is a certain time (D8)? No.
+    *   "To strike".
+    *   "To strike" a match. Match is in a box (A1). Strike is an attack (D4). Strike is a sound (C13).
+    *   "To strike" a clock.
+    *   Let's look at `E2` (Night/Moon/Star) and `B14` (House).
+    *   Is it "To dream"? No.
+    *   Is it "To sleep"? No.
+    *   Is it "To moon"? No.
+    *   Is it "To bark"? No.
+    *   "To strike" seems like a strong possibility because of `D4` (Attack) and `C13` (Sound) and `D8` (Time).
+    *   What about "To punch"? (Attack).
+    *   What about "To hit"?
+    *   Let's look at `A1` (Box) + `C13` (Sound) + `D8` (Time) again.
+    *   A "Music box"!
+    *   If the answer is "To play"? No, that was rejected.
+    *   "To wind"? (As in winding a music box).
+    *   Wait, "To wind" is an action.
+    *   `A1` (Box). `D8` (Time - takes time?). `C13` (Sound). `E2` (Night - winding at night?). `B14` (House). `G14` (Cycle/Repetition - the music repeats). `C3` (Slow - the winding is slow). `D4` (Attack - ???).
+    *   Wait, `D4` is "Attack/Conflict/Weapon". "To wind" is not an attack.
+    *   Is it "To charge"? (Charge a battery/weapon).
+        *   `A1` (Box) - Battery in a box?
+        *   `D8` (Time) - Takes time to charge.
+        *   `C13` (Sound) - A charge/attack makes a sound?
+        *   `E2` (Night) - Charging at night?
+        *   `G14` (Cycle) - Charge/Discharge cycle.
+        *   `D4` (Attack) - To charge an enemy.
+    *   "To charge" is a very good candidate for `D4` (Attack) and `G14` (Cycle).
+    *   Let's check `A1` (Box), `D8` (Time), `C13` (Sound).
+    *   "To charge" ... is there a connection to a box, time, and sound?
+    *   Charging a battery?
+    *   Wait, `D4` is also "Conflict/Weapon".
+    *   "To strike".
+
+    *   Let's look at `!y` again. `E2` (Night), `B14` (House), `G14` (Cycle), `C3` (Slow), `D4` (Attack).
+    *   Wait! `E2` (Night/Moon/Stars), `B14` (House), `G14` (Cycle), `C3` (Slow), `D4` (Attack/Weapon).
+    *   Is it "To howl"? (Guessed and rejected).
+    *   Is it "To wolf"? No.
+    *   Is it "To hunt"? (Guessed and rejected).
+    *   What about "To strike"?
+    *   What about "To beat"?
+    *   Let's try "To strike".
+    *   Wait, `D4` (Attack/Weapon) + `C13` (Sound) + `D8` (Time) + `A1` (Box) + `G14` (Cycle/Repetition) + `C3` (Slow) + `B14` (House) + `E2` (Night).
+    *   "To strike" a clock (Time, Cycle, Sound, Slow/Fast, House).
+    *   "To strike" a match (Box, Sound, Attack).
+    *   "To strike" a person (Attack, House, Night).
+    *   Is it "To strike"?
+
+    *   One more possibility: "To alarm" or "To alert".
+    *   "To alert".
+    *   Wait, `A1` is a box. `C13` is sound. `D8` is time.
+    *   What about "To ring"? (Guessed and rejected).
+    *   What about "To chime"? (Guessed and rejected).
+    *   What about "To bell"? No.
+    *   What about "To toll"?
+    *   What about "To strike"?
+
+    *   Let's look at `!y` again. `E2` (Night/Stars/Moon), `B14` (House), `G14` (Cycle), `C3` (Slow), `D4` (Attack/Conflict).
+    *   "To strike" is the best fit for `D4`.
+    *   "To strike" is a verb (`H14`).
+    *   Let's try "To strike".
+
+    *   Wait, could the answer be "To clock"?
+        *   `A1` (Box/Object) - A clock is an object/box?
+        *   `D8` (Time) - Clock/Time.
+        *   `C13` (Sound) - Ticking sound.
+        *   `E2` (Night) - Night clock?
+        *   `B14` (House) - A clock in a house.
+        *   `G14` (Cycle) - Clock cycle.
+        *   `C3` (Slow) - Slow clock.
+        *   `D4` (Attack) - "To clock" someone is to hit them.
+    *   "To clock" or "To strike".
+
+    *   Wait, "To strike" is more common for `D4`.
+    *   Wait, let's look at `A1` (Box) again.
+    *   What if the answer is "To strike"?
+    *   I'll guess "To strike".
+
+    *   Wait, let me check `!y` again. `E2` (Night), `B14` (House), `G14` (Cycle), `C3` (Slow), `D4` (Attack).
+    *   Could it be "To wolf"? (No, that's not an action like "to wolf down").
+    *   Could it be "To bark"? (Rejected/Not quite).
+    *   Could it be "To attack"? (Too simple?).
+    *   Could it be "To strike"? (Striking a match, striking a clock, striking a person, striking in combat).
+
+    *   Let's think about `A1` (Box) again.
+    *   "To box"? (Guessed "To play" but not "To box").
+    *   If it's "To box":
+        *   `A1` (Box) - Yes.
+        *   `D8` (Time) - Time in a ring?
+        *   `C13` (Sound) - Sound of a punch?
+        *   `E2` (Night) - Night fights?
+        *   `B14` (House) - Boxing in a house?
+        *   `G14` (Cycle) - Cycle of a round?
+        *   `C3` (Slow) - No.
+        *   `D4` (Attack) - Yes.
+
+    *   What about "To alarm"?
+        *   `A1` (Box) - Alarm clock in a box?
+        *   `D8` (Time) - Time/Alarm.
+        *   `C13` (Sound) - Sound/Alarm.
+        *   `E2` (Night) - Night alarm.
+        *   `B14` (House) - Alarm in a house.
+        *   `G14` (Cycle) - Repeating alarm.
+        *   `C3` (Slow) - Slow alarm?
+        *   `D4` (Attack) - No.
+
+    *   Let's look at `D4` again: "Attack / Conflict / Weapon".
+    *   Maybe "To strike" is the most likely.
+
+    *   Let's check another one: "To ambush"?
+        *   `E2` (Night).
+        *   `D4` (Attack).
+        *   `C3` (Slow).
+        *   `G14` (Cycle?).
+    *   No.
+
+    *   What about "To hunt"? (Guessed and rejected).
+    *   What about "To patrol"?
+        *   `D8` (Time).
+        *   `E2` (Night).
+        *   `B14` (House).
+        *   `G14` (Cycle).
+        *   `D4` (Conflict/Attack).
+    *   No.
+
+    *   What about "To strike"?
+        *   `A1` (Box/Object).
+        *   `D8` (Time).
+        *   `C13` (Sound).
+        *   `E2` (Night).
+        *   `B14` (House).
+        *   `G14` (Cycle).
+        *   `C3` (Slow).
+        *   `D4` (Attack).
+
+    *   Let's try "To strike".
+
+    *   One more look: `!r A1 | D8, C13` and `!y E2 | B14, G14, C3, D4`.
+    *   Wait, `A1` (Box) and `C13` (Sound) and `D8` (Time) and `B14` (House) and `G14` (Cycle)...
+    *   Could it be "To wind"? No, that was rejected.
+    *   What about "To set"?
+    *   What about "To trigger"?
+    *   What about "To strike"?
+
+    *   Wait, "To strike" fits almost everything.
+    *   "To strike a match" (Box, Sound, Attack).
+    *   "To strike a clock" (Time, Cycle, Sound, Slow/Fast, House).
+    *   "To strike a person" (Attack, House, Night).
+
+    *   Is there anything else? "To beat"? (Beat a drum, beat a clock, beat a person).
+    *   "To beat"
+        *   `A1` (Box) - Beat a box? No.
+        *   `C13` (Sound) - Beat/Sound.
+        *   `D8` (Time) - Beat/Time.
+        *   `D4` (Attack) - Beat someone.
+        *   `G14` (Cycle) - Beat/Repetition.
+        *   `C3` (Slow) - Slow beat.
+
+    *   Let's try "To strike" or "To beat".
+
+    *   Wait, `A1` is a box. `D8` is time. `C13` is sound.
+    *   Is it "To package"? No.
+    *   Is it "To mail"? No.
+    *   Is it "To ship"? No.
+
+    *   Let's look at `!y` again. `E2` (Night/Moon), `B14` (House), `G14` (Cycle), `C3` (Slow), `D4` (Attack).
+    *   Wait, "To wolf"? (A wolf-pack/hunt?)
+    *   Wait, `D4` is Attack/Conflict.
+    *   What about "To war"? No.
+    *   What about "To fight"?
+    *   "To strike" is my best guess.
+
+    *   Actually, let's look at `!r` one more time. `A1` (Box), `D8` (Time), `C13` (Sound).
+    *   "To record"? (Guessed and rejected).
+    *   "To playback"?
+    *   "To play"? (Guessed and rejected).
+    *   "To clock"?
+    *   "To strike"?
+
+    *   Let's look at `E2` (Night/Moon/Star).
+    *   "To moon"? "To star"? "To sun"?
+    *   "To strike"!
+
+    *   Final thought: `A1` (Box) + `D8` (Time) + `C13` (Sound) + `E2` (Night) + `B14` (House) + `G14` (Cycle) + `C3` (Slow) + `D4` (Attack).
+    *   Is it "To alarm"?
+    *   Is it "To strike"?
+
+    *   Let's try "To strike".
+
+    *   Wait, `A1` is a Box. `D8` is Time. `C13` is Sound.
+    *   Is it "To tick"? (Guessed and rejected).
+    *   Is it "To chime"? (Guessed and rejected).
+    *   Is it "To ring"? (Guessed and rejected).
+    *   What about "To sound"?
+    *   What about "To toll"?
+    *   What about "To strike"? (If a clock strikes).
+
+    *   Let's try "To strike".
+
+    *   Wait, what if it's "To hunt"? (Guessed and rejected).
+    *   What if it's "To wolf"? (No).
+    *   What if it's "To bark"? (No).
+    *   What if it's "To attack"?
+    *   What if it's "To hit"?
+    *   What if it's "To strike"?
+
+    *   Let's try:
+        1. To strike
+        2. To beat
+        3. To alarm
+
+    *   Wait, `A1` (Box) + `D8` (Time) + `C13` (Sound).
+    *   Could it be "To clock"?
+    *   I'll go with "To strike".
+
+    *   Wait! `A1` (Box) + `D8` (Time) + `C13` (Sound) + `E2` (Night/Moon) + `B14` (House) + `G14` (Cycle) + `C3` (Slow) + `D4` (Attack).
+    *   Is it "To moon"? No.
+    *   Is it "To star"? No.
+    *   Is it "To strike"?
+    *   Is it "To fight"?
+    *   Is it "To strike"?
+
+    *   One more look at `!y`: `E2` (Night), `B14` (House), `G14` (Cycle), `C3` (Slow), `D4` (Attack).
+    *   What about "To watch"?
+    *   `A1` (Box) - A watch is in a box.
+    *   `D8` (Time) - A watch tells time.
+    *   `C13` (Sound) - A watch ticks.
+    *   `E2` (Night) - Night watch.
+    *   `B14` (House) - A watch in a house.
+    *   `G14` (Cycle) - A watch cycles/repeats.
+    *   `C3` (Slow) - A slow watch.
+    *   `D4` (Attack) - A watchman attacks? No.
+
+    *   Wait, "To strike" is still the best.
+    *   "To strike" (the hour, a match, a person).
+
+    *   Let's try "To strike", "To beat", "To hit".
+
+    *   Wait, "To hit" or "To strike" or "To beat".
+    *   "To strike" fits the clock and the match and the person.
+    *   Let's try "To strike".
+
+    *   Wait, what about "To siren"? No.
+    *   "To alarm"?
+    *   Let's try "To strike".
+
+    *   Actually, let's look at `D4` (Attack/Conflict/Weapon) again.
+    *   And `A1` (Box).
+    *   And `C13` (Sound).
+    *   And `D8` (Time).
+    *   "To strike" is my final answer.
+
+    *   Wait, one last look: `!r` is "Object/Box, Time, Sound". `!y` is "Night, House, Cycle, Slow, Attack".
+    *   Could it be "To ring"? (Already guessed).
+    *   "To strike".
+
+    *   Wait! "To strike" ... `A1` (Box/Object).
+    *   What about "To bomb"?
+    *   What about "To blow"?
+    *   What about "To blow up"?
+    *   `A1` (Box) - A bomb is in a box?
+    *   `D8` (Time) - A bomb timer?
+    *   `C13` (Sound) - A bomb makes a sound.
+    *   `E2` (Night) - Exploding at night.
+    *   `B14` (House) - Exploding in a house.
+    *   `G14` (Cycle) - ?
+    *   `C3` (Slow) - ?
+    *   `D4` (Attack/Weapon) - A bomb is a weapon.
+
+    *   No, "To strike" is better.
+
+    *   What about "To patrol"? (Already thought about it).
+    *   What about "To guard"?
+    *   What about "To fight"?
+
+    *   Let's try "To strike".

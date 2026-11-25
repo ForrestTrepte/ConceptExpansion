@@ -1,0 +1,281 @@
+*   Step 1:
+        *   `?g H14` (Main Concept is "Use/Action/Do/Verb/Button").
+        *   Guesses: "Press", "Click", "Start".
+        *   Clue-giver: "No". (This means the answer is a verb/action, but it's not "Press", "Click", or "Start").
+    *   Step 2:
+        *   `!r A1` (Sub-concept: Red pawn on "Object/Box").
+        *   `+ D8` (Red cube on "Time/Duration").
+        *   Wait, the `+ D8` is in the same group as `!r A1`. So the red sub-concept describes a relation to an "Object/Box" and "Time/Duration".
+
+    *   `?g H14`: The answer is an action, a verb, or a way to use/do something.
+    *   `!r A1 + D8`: This action involves a Box (A1) and Time (D8).
+
+    *   Could the action be related to a box and time?
+    *   "Unbox"? (Action: H14. Object: Box A1. Time: D8 - "Unboxing" is a process/event/duration).
+    *   "Wait"? (No, H14 is an action/verb, but A1 is a box).
+    *   "Deliver"? (A1 is a box, D8 is time/duration).
+    *   "Save"? (Maybe).
+    *   "Open"? (Action H14. Object A1. "Open a box").
+    *   "Ship"? (Action H14. Object A1. Time D8).
+    *   "Wrap"? (Action H14. Object A1).
+    *   "Store"? (Action H14. Object A1. Time D8).
+    *   "Lose"? (Action H14. Object A1? No).
+    *   "Wait" in a box? No.
+
+    Let's re-evaluate `!r A1 + D8`.
+    Red group:
+    - A1 (Object/Box)
+    - D8 (Time/Duration)
+
+    The answer is an action (H14) related to a box (A1) and time (D8).
+    Is it "Unboxing"? (The process of opening a box).
+    Is it "Mail"? (Not really an action).
+    Is it "Deliver"? (An action, involves a box, involves a duration/time).
+    Is it "Ship"?
+    Is it "Wait"? (No).
+    Is it "Open"? (Doesn't necessarily involve time/duration specifically unless it's a long process).
+    Is it "Time capsule"? (That's a noun, but H14 is an action/verb).
+
+    Wait, `H14` is "Use - Action - Do - Verb - Button".
+    What if the answer is "Open"?
+    What if the answer is "Deliver"?
+    What if the answer is "Send"?
+
+    Let's look at `D8` again: "Time / Duration".
+    Is it "Wait"? (No, H14 is the main concept).
+    Is it "Save"? (Action, time/duration, box/storage).
+    Is it "Record"? (Action, time/duration).
+
+    Let's try "Unbox" or "Deliver" or "Wait". No, "Wait" isn't a box.
+    "Package" (Noun).
+    "Mail" (Verb/Noun).
+    "Post"?
+
+    What about "Box"? (Noun).
+    "Timer"? (Noun).
+
+    Let's look at `A1` (Object/Box) and `D8` (Time/Duration).
+    "Wait"? (No).
+    "Delay"? (Action, Time, but Box?)
+    "Pack"? (Action, Box).
+    "Unpack"? (Action, Box, Time).
+
+    What about "Schedule"? (Not a box).
+    What about "Timer"? (Not a box).
+
+    Could `A1` mean "Box" and `D8` mean "Duration" to describe "A period of time inside a box"? No.
+    Could it be "Memory"? (No).
+
+    Let's try to think of a verb (H14) that relates to a box (A1) and time (D8).
+    "Record"? (No box).
+    "Save"? (A box/storage, a duration).
+    "Store"? (A box/storage, a duration).
+    "Deliver"? (A box, a time/period).
+
+    Wait, `A1` can also be "Object" or "Box".
+    `D8` is "Time" or "Duration".
+    Is the answer "History"? (No, that's a noun).
+    Is it "Record"? (Maybe).
+
+    Wait, let's think about "Wait".
+    If the answer is "Wait", it's a verb (H14). But where is the box (A1)?
+
+    What if the answer is "Gift"? (Noun).
+    What if the answer is "Birthday"? (Noun).
+    What if the answer is "Present"? (Noun).
+    Wait, the main concept is `H14` (Action/Verb).
+
+    Could it be "Surprise"? (Action/Noun).
+    "Celebrate"? (Action).
+
+    Let's think about the box (A1) and time (D8) again.
+    "Mail"?
+    "Deliver"?
+    "Unbox"?
+    "Store"?
+    "Save"?
+    "Wrap"?
+
+    What if the action is "Open" (H14) and the object is a "Box" (A1) and it takes "Time" (D8)?
+    Actually, "Open" was a guess if I'm lucky, but I haven't guessed it yet.
+    Wait, I haven't guessed "Open" yet.
+
+    Let's look at other possibilities.
+    "Timer"? "Clock"? "Watch"? (No, those are nouns).
+    "Record"? "Save"?
+    "Box" and "Time"... "Time capsule"?
+    "Time capsule" is a thing. Is it a verb? No.
+
+    Wait, "H14" is "Use - Action - Do - Verb - Button".
+    Could it be "Press"? (Already guessed: No).
+    Could it be "Start"? (Already guessed: No).
+    Could it be "Click"? (Already guessed: No).
+
+    What about "Record"?
+    "Save"?
+    "Store"?
+    "Keep"?
+    "Wait"?
+
+    Let's look at `A1` again. "Object / Box".
+    Could `A1` refer to "Something" and `D8` to "Time"?
+    "Wait"?
+    "Delay"?
+    "Save"?
+    "Store"?
+
+    Wait! "Postpone"? "Delay"?
+    Is there a box?
+    What about "Package"?
+
+    What if `A1` is "The box" and `D8` is "the time"?
+    "Mail" (Verb).
+    "Ship" (Verb).
+    "Deliver" (Verb).
+
+    Let's try "Deliver". Or "Unbox".
+    Or maybe "Save".
+
+    Let's consider "Box" (A1) + "Time" (D8) + "Action" (H14).
+    "Pack"?
+    "Unpack"?
+    "Store"?
+
+    Wait, "Wait" (Verb).
+    Is there a box? No.
+
+    What about "Watch"? (As in, to watch something).
+    "Watch" (Verb - H14).
+    "Watch" (Noun - A1/A2?). No.
+    "Watch" (A device - D7/D8/D10?).
+    A "Watch" (The object) has a "Face" (C11) and "Hands" (D11) and is "Mechanical" (D7) and measures "Time" (D8).
+    But the main concept is H14 (Action/Verb).
+    Is "Watch" a verb? Yes.
+    Does "Watch" relate to a box (A1)? Not really.
+
+    What about "Clock"? (Noun).
+    What about "Timer"? (Noun).
+
+    Let's think about "Box" and "Time" and "Action".
+    "Schedule"?
+    "Plan"?
+    "Organize"?
+
+    What if the action is "Wrap"?
+    What if the action is "Store"?
+
+    Let's try a different angle.
+    A1: Object/Box.
+    D8: Time/Duration.
+    H14: Action/Verb.
+    "Save" (Action, can be a box/storage, and a duration of time).
+    "Record" (Action, can be a box/storage, and time).
+
+    Let's try "Deliver".
+    "Mail".
+    "Send".
+
+    Wait, "Unbox" is a very common term now.
+    "Unbox" (Action H14), "Box" (A1). But how does "Time" (D8) fit? Maybe the duration of the unboxing?
+
+    Wait, what if the action is "Wait"?
+    And the box is... a "Waiting room"? No.
+
+    Let's try "Ship".
+    "Deliver".
+    "Mail".
+
+    Actually, let's try "Unpack" or "Unbox".
+    Or "Store".
+
+    Wait, let's look at `D8` again. "Time / Duration".
+    Could it be "Wait"?
+    Wait, I'll try "Deliver", "Unbox", and "Store".
+
+    Actually, "Record" or "Save" fits "Time" and "Action" well.
+    Does "Record" fit "Box"? A "Record Box"? No.
+
+    What about "Keep"?
+    "Hold"?
+
+    Let's think about "Box" and "Time".
+    "Chronicle"?
+    "History"? (Noun).
+
+    Wait! "Timer"!
+    "Timer" is a noun.
+    "Set" (as in "Set a timer")?
+    "Set" (Action H14).
+    "Set" (Time D8).
+    "Set" (Box A1? No).
+
+    What about "Package"? (Noun).
+    What about "Time"? (Noun).
+
+    Let's try "Deliver", "Ship", "Send".
+
+    Another thought:
+    `A1` = Object/Box
+    `D8` = Time/Duration
+    `H14` = Action/Verb
+    Is it "Gift"? No, verb.
+    "Surprise"?
+    "Celebrate"?
+
+    Wait... "Boxing"? (The sport).
+    "Boxing" (Action/Verb - H14).
+    "Boxing" (A sport - B3).
+    But the clue is A1 (Box) and D8 (Time).
+    Does boxing involve a box and time?
+    A "Boxing ring" (Is a ring a box? No, it's a circle H4).
+    Boxing matches have a "Time" (D8) and a "Round" (H14/G14).
+
+    What about "Package"?
+    "Mail"?
+
+    Let's try "Unbox" or "Deliver".
+    Wait, "Unbox" is a single action.
+    "Unwrap"?
+
+    Let's try "Deliver", "Send", "Mail".
+
+    Wait, "Save".
+    "Save" (Action).
+    "Save" (Time - "Save time").
+    "Save" (Object/Box - "Save it in a box"? No).
+
+    Let's look at `A1` (Object/Box) one more time.
+    Could it be "Container"?
+    "Store"?
+
+    Actually, "Store" (Action), "Container" (A1), "Time" (D8 - storage duration).
+    This is a possibility.
+
+    One more: "Archive"?
+    "Archive" (Verb).
+    "Archive" (A1/D8 - Storage and Time).
+
+    Let's go with:
+    1. Unbox
+    2. Deliver
+    3. Store
+
+    Wait, I should check if there's anything else.
+    `A1` (Box) + `D8` (Time).
+    Is it "Wait"?
+    Is it "Delay"?
+    Is it "Post"? (As in "Post" a letter).
+    "Post" (Verb).
+    "Post" (Box/Object - A1).
+    "Post" (Time/Duration - D8 - "Post-dated"? No).
+
+    "Mail" (Verb).
+    "Mail" (Box - A1).
+    "Mail" (Time - D8 - "Mail is slow"? No).
+
+    Let's try:
+    1. Unbox
+    2. Deliver
+    3. Ship
+
+    Actually, let's try "Unwrap".

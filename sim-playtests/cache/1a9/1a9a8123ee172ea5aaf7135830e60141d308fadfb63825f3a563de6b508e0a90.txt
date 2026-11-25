@@ -1,0 +1,3 @@
+{  
+  "guesses": ["legend", "myth", "nickname"]  
+}

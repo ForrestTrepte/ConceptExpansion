@@ -1,0 +1,10 @@
+{
+  "guesses": [
+    "Smart home",
+    "Library",
+    "Headquarters"
+  ]
+
+,
+"pass": false
+}

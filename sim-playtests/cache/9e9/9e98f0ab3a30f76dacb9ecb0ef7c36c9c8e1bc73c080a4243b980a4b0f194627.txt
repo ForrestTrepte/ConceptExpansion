@@ -1,0 +1,7 @@
+{
+  "guesses": [
+    "Concert ticket",
+    "Theater ticket",
+    "Admission ticket"
+  ]
+}

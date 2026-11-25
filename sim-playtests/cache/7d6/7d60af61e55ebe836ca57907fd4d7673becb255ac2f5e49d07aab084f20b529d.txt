@@ -1,0 +1,250 @@
+*   Main Concept (?g): H14 (Use/Action/Do/Button) -> This is an action or a function triggered by a button/use.
+    *   Details of Main Concept (?g):
+        *   C14 (Eye/Sight)
+        *   C11 (Head/Face/Neck)
+    *   Sub-Concept (!r) (Red group):
+        *   A1 (Object/Box)
+        *   C7 (Electronic/Computing)
+        *   C14 (Eye/Sight)
+        *   D11 (Arm/Hand/Finger)
+        *   F11 (One/Unit/Number)
+        *   E8 (Opposite/Reverse)
+
+    *   `?g H14 + C14 + C11`: An action involving the eyes and the head.
+    *   `!r A1 + C7 + C14 + D11 + F11 + E8`: An electronic object (A1 + C7) involving sight (C14), controlled by a hand/finger (D11), perhaps digital/numbered (F11), and has a function of reversing/opposite (E8).
+
+    *   *Step 1:* Look, Blink, Wink (No). (Rule out: simple eye movements).
+    *   *Step 2:* Scan, Photograph, Record (No). (Rule out: capturing images).
+    *   *Step 3:* Watch, View, Focus (No). (Rule out: general observation).
+    *   *Step 4:* Zoom, To open/close, To switch (No). (Rule out: zooming/switching).
+
+    *   Electronic object (C7) + Box/Object (A1) + Sight (C14) + Hand/Finger (D11) + Reversing (E8).
+    *   It's an action (H14) related to seeing.
+    *   "Opposite/Reverse" (E8) is a huge clue.
+    *   What electronic device do you use with your fingers (D11) to "reverse" what you see (C14)?
+    *   Maybe a camera? (Wait, "Photograph" was "No").
+    *   What about a remote control? But the main concept is an *action* or a *button*.
+    *   Wait, the `?g H14` is "Use - Action - Do - Button".
+    *   The red group `!r` describes the *object* the action is performed on or with.
+    *   Object: Electronic (C7), Box (A1), Sight (C14), Hand/Finger (D11), Reverse (E8).
+    *   Action: Related to sight (C14) and head (C11).
+    *   Could it be "Rewind"? (E8 - Reverse, C14 - Sight, H14 - Action).
+    *   Wait, the red markers describe the object. An electronic box with a sight feature and a reverse feature.
+    *   "Rewind" (Action) on a "VCR" or "Video Tape" (Object).
+    *   Let's check "Rewind":
+        *   H14: Action/Do (Yes).
+        *   C14 (Eye): You watch it (Yes).
+        *   C11 (Head): ?
+        *   A1 (Object): A machine/box (Yes).
+        *   C7 (Electronic): Yes.
+        *   C14 (Eye): Yes.
+        *   D11 (Hand/Finger): Press the button (Yes).
+        *   F11 (One/Unit): ?
+        *   E8 (Reverse): Yes.
+    *   What about "Fast Forward"? No, E8 is reverse.
+    *   What about "Play"? No.
+    *   What about "Pause"? No.
+    *   Let's look at "E8" again: "Opposite/Reverse".
+    *   Could it be "Reverse"? (The action itself).
+    *   Could it be "Backtrack"?
+    *   What about a "Camera"? (Step 2 "Photograph" was "No").
+    *   What about "Click"? (Step 4 "Switch" was "No").
+    *   Let's re-examine the red group:
+        *   A1 (Object/Box)
+        *   C7 (Electronic/Computing)
+        *   C14 (Eye/Sight)
+        *   D11 (Arm/Hand/Finger)
+        *   F11 (One/Unit/Number)
+        *   E8 (Opposite/Reverse)
+    *   Maybe "Refresh"? (Computing).
+    *   Maybe "Undo"? (Computing, Reverse, Button).
+    *   If the answer is "Undo":
+        *   H14: Action/Button (Yes).
+        *   C14 (Eye): You see the effect (maybe?).
+        *   C11 (Head): ?
+        *   A1 (Object): Software/Computer (Yes).
+        *   C7 (Electronic): Yes.
+        *   C14 (Eye): Yes.
+        *   D11 (Finger): Yes.
+        *   F11 (One): ?
+        *   E8 (Reverse): Yes.
+
+    *   Let's look at "E8" (Opposite/Reverse) and "C14" (Eye) again.
+    *   Could it be "Reflect"? (Like a mirror).
+    *   A mirror isn't electronic (C7).
+    *   Could it be "Flip"? (Like a camera flip or a digital flip).
+    *   What about "Search"? (No).
+    *   What about "Scroll"? (No).
+    *   "Rewind" is a very strong candidate for "Reverse" + "Action" + "Electronic Object".
+    *   Let's look at "F11" (One/Unit). In computing, "Ctrl+Z" is one command? Or "One button"?
+    *   Is there an action like "Delete"? No, that's not "Reverse".
+    *   What about "Reset"? (E8 - Opposite/Reverse of the current state).
+    *   "Reset" fits:
+        *   H14: Button/Action.
+        *   C14/C11: Related to the screen/head?
+        *   A1/C7: Electronic/Box.
+        *   D11: Finger/Hand.
+        *   F11: One/Single button?
+        *   E8: Reverting to a state.
+
+    *   Let's try "Rewind" or "Reverse".
+    *   Actually, look at the main concept again: `?g H14 + C14 + C11`.
+    *   The action involves the eyes (C14) and head (C11).
+    *   Wait, "C11" is Head/Face/Neck. "C14" is Eye.
+    *   Maybe the action is "Look behind"?
+    *   Wait, `!r A1 + C7 + C14 + D11 + F11 + E8`.
+    *   Could the object be a "Computer Mouse"? (A1, C7, D11).
+    *   Could it be "Double click"? (F11 - One/Unit? No, that's two).
+    *   What about "Right click"? (E8 - Opposite/Reverse of Left?).
+    *   If "Right click" is the answer:
+        *   H14: Action/Button (Yes).
+        *   C14 (Eye): You look at the menu (Yes).
+        *   C11 (Head): ?
+        *   A1/C7: Electronic/Computer (Yes).
+        *   D11: Finger (Yes).
+        *   F11: One? (No).
+        *   E8: Right vs Left? (Maybe).
+
+    *   Let's re-evaluate "Rewind".
+    *   Wait, what about "Screenshot"? (No, Step 2 "Photograph" was "No").
+    *   What about "Video"? (No, the main concept is an action/button).
+    *   How about "Unplug"?
+    *   How about "Zoom out"? (Step 4 "Zoom" was "No").
+    *   How about "Back"? (Like the back button on a browser).
+    *   "Back" (the button):
+        *   H14: Button/Action.
+        *   C14: You see it (the page change).
+        *   C11: ?
+        *   A1/C7: Computer/Object.
+        *   D11: Finger.
+        *   F11: One.
+        *   E8: Reverse.
+
+    *   Let's think about "C11" (Head) and "C14" (Eye) as part of the action.
+    *   Could the action be "Turn around"? (C11/C14/H14).
+    *   But the red group is "Electronic object... Reverse... Finger".
+    *   Maybe "Rotate"?
+    *   Maybe "Flip"?
+    *   "Flip" (as in a phone or a switch):
+        *   H14: Action/Button.
+        *   C14/C11: Face/Eyes?
+        *   A1/C7: Electronic device (Phone).
+        *   D11: Finger.
+        *   E8: Reverse/Opposite.
+
+    *   Let's look at "F11" again: "One / Unit / Number".
+    *   "One-way"? "Single"?
+    *   What about "Turn off"? (H14, C7, E8 - opposite of on).
+    *   What about "Reboot"?
+    *   What about "Refresh"?
+    *   What about "Scroll"?
+
+    *   Let's look at "C11" and "C14" again. `?g H14 + C14 + C11`.
+    *   Could the action be "Blink"? (Step 1 "Blink" was "No").
+    *   Could it be "Wink"? (Step 1 "Wink" was "No").
+    *   Could it be "Close your eyes"? (No).
+    *   Could it be "Look at"? (No).
+    *   What if the action is "Check"? (Like checking an email or a box).
+    *   What if the answer is "Eyeglasses"? (No, it's an action/button).
+
+    *   Wait! "C11" is Head. "C14" is Eye. "H14" is Action.
+    *   Is the action "Eye contact"? (No, that's not a button).
+    *   Is the action "Look up"? "Look down"?
+    *   What about "Scroll up"? "Scroll down"? (No, Step 4 "Zoom/Switch/Open-close" was "No").
+
+    *   Let's try to connect the red group `!r A1 + C7 + C14 + D11 + F11 + E8` to something else.
+    *   Electronic, Box, Sight, Finger, One, Reverse.
+    *   "Undo" (Ctrl+Z).
+    *   "Backspace"?
+        *   H14: Button.
+        *   A1/C7: Computer/Keyboard.
+        *   D11: Finger.
+        *   E8: Reverse/Back.
+        *   F11: One (One key?).
+        *   C14/C11: ? (Maybe seeing the text disappear from the head/screen?). This is a stretch.
+
+    *   Wait, `?g H14 + C14 + C11`. The action *is* the eye/head thing.
+    *   If the action is "Look"? (Step 1 "Look" was "No").
+    *   If the action is "Watch"? (Step 3 "Watch" was "No").
+    *   What if the answer is "Mirror"? (No, action/button).
+    *   What if the answer is "Selfie"? (No, Step 2 "Photograph" was "No").
+    *   What if the answer is "Video call"? (No, action/button).
+
+    *   Let's look at "E8" again: "Opposite/Reverse".
+    *   Could it be "Flip"?
+    *   Could it be "Reverse"?
+    *   Could it be "Back"?
+    *   What if the answer is "Switch off"? (No, "Switch" was "No").
+
+    *   Let's rethink the `?g` (Main concept).
+    *   `H14` (Action/Button) + `C14` (Eye) + `C11` (Head).
+    *   Is it "Eye-opener"? (No).
+    *   Is it "Headphones"? (No, action).
+    *   What if the action is "Scan"? (Step 2 "Scan" was "No").
+    *   What if the action is "Identify"?
+    *   Wait, "C11" (Head) + "C14" (Eye) + "H14" (Action).
+    *   "Look back"? "Turn back"?
+    *   Let's look at the red group again. `A1` (Box), `C7` (Electronic), `C14` (Eye), `D11` (Hand), `F11` (One), `E8` (Reverse).
+    *   "Rewind" is the best fit for a "button" (H14) on an "electronic box" (A1/C7) that "reverses" (E8) what you "see" (C14).
+    *   Wait, the user's "No" answers:
+        *   Look, Blink, Wink.
+        *   Scan, Photograph, Record.
+        *   Watch, View, Focus.
+        *   Zoom, Open/Close, Switch.
+    *   "Rewind" has not been guessed.
+    *   "Fast Forward" has not been guessed (but E8 is Reverse).
+    *   "Play" has not been guessed.
+    *   "Pause" has not been guessed.
+    *   "Stop" has not been guessed.
+    *   "Back" (as in a button).
+
+    *   Let's consider "Reverse".
+    *   Let's consider "Undo".
+    *   Let's consider "Rewind".
+    *   Let's consider "Backspace".
+
+    *   Wait, "C11" (Head) and "C14" (Eye).
+    *   Could the action be "Reading"? (No, "A5" is Literature).
+    *   Could the action be "Sleeping"? (No).
+    *   Could it be "Blink"? (No).
+    *   Wait, `!r F11` is "One".
+    *   "One-way"?
+    *   "Single click"?
+    *   "Double click"? (No, F11).
+    *   What about "Right click"? (Already thought about it).
+
+    *   Let's try to think of any other action involving eyes/head.
+    *   "Peep"? "Peer"? "Stare"? "Gaze"?
+    *   What about "Turn on"? (Opposite of turn off).
+    *   "Turn off"?
+    *   "Reset"?
+    *   "Restart"? (H14, A1, C7, D11, E8/Reverse/Cycle?).
+
+    *   Let's look at `?g H14 + C14 + C11` again.
+    *   Maybe it's not "eyes" but "seeing".
+    *   What about "Vision"? (No).
+    *   What about "Sight"? (No).
+    *   What about "Observe"? (No).
+    *   What if the answer is "CCTV"? (No, action/button).
+    *   What if the answer is "Surveillance"? (No).
+    *   What if the answer is "Camera"? (No, step 2).
+
+    *   Let's look at `!r E8` (Reverse) and `!r C7` (Electronic) and `!r D11` (Finger).
+    *   "Undo" is a very strong candidate for a button on a computer that is a "reverse" action.
+    *   Is "Undo" an action on the "head/eyes"? Not really.
+    *   What about "Rewind"? It's an action on an electronic device.
+    *   Is "Rewind" related to "Head/Eyes"? You use your eyes to watch the rewind.
+
+    *   Let's try "Rewind", "Undo", "Back".
+    *   Wait, "Rewind" is often a "button" (H14).
+    *   "Fast forward" is also a button.
+    *   "Play" is a button.
+    *   "Pause" is a button.
+
+    *   Let's check `!r F11` (One) again.
+    *   "One button"?
+    *   "Single"?
+    *   "First"?
+    *   "Once"?
+
+    *   Actually, let's look at the `?

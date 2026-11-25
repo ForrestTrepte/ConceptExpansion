@@ -1,0 +1,50 @@
+*   `?g A13`: Main Concept is A13 (Game / Toy).
+    *   `+ G7 x6`: Six cubes on G7 (Cube).
+
+    *   Main Concept: A toy or game.
+    *   Details: Specifically involving cubes (possibly 6 of them).
+
+    *   Dice (One die has 6 sides, but the clue says 6 cubes).
+    *   LEGO bricks (often involve studs/cubes, but a single brick has many studs, though "six cubes" might refer to a specific configuration or the shape).
+    *   Rubik's Cube (one cube, but made of smaller cubes).
+    *   Building blocks.
+    *   Minecraft (game involving cubes).
+    *   Jenga (blocks, but not necessarily cubes).
+    *   Dice set.
+
+    *   "Six cubes" + "Toy/Game" strongly suggests something like dice, or perhaps a set of building blocks.
+    *   Wait, "G7" is a cube. The clue says `+ G7 x6`. This means there are 6 cubes.
+    *   A standard die is a cube. If there are 6 of them, it could be a set of dice.
+    *   Wait, could it be "Dice"? A single die is a cube.
+    *   Could it be "Lego"? Lego is a toy (A13) and has cubes/studs.
+    *   Could it be "Rubik's Cube"? It's a toy/game.
+    *   Let's look at the description of G7: "Cube".
+    *   6 cubes arranged in a 2x3 rectangle... that sounds like a specific shape or a specific item.
+    *   Actually, 6 dice? Or maybe just "Dice"?
+
+    *   Guess 1: Dice
+    *   Guess 2: Lego
+    *   Guess 3: Rubik's Cube
+
+    Let's re-evaluate. If the answer is "Dice", why 6 cubes? A die *is* a cube. If I put 6 cubes, I'm saying there are 6 of them.
+    If the answer is "Lego", I'm saying the toy is made of 6 cubes?
+    What about "Minecraft"? It's a game (A13) and it's very "cubey".
+    What about "Blocks"?
+
+    Let's try:
+    1. Dice
+    2. Lego
+    3. Rubik's Cube
+
+    Actually, "Dice" is a very strong candidate for a game/toy that is a cube. But the `x6` is specific.
+    Wait, maybe "Dominoes"? No, they aren't cubes.
+    Maybe "Tetris"? It's a game, but the shapes aren't cubes.
+
+    Let's try "Dice". If the clue-giver meant a single die, they wouldn't have said 6 cubes. If they meant "Dice" (plural), 6 is a common number of dice in games like Yahtzee.
+
+    Another thought: "Minecraft".
+
+    Let's go with:
+    1. Dice
+    2. Lego
+    3. Rubik's Cube

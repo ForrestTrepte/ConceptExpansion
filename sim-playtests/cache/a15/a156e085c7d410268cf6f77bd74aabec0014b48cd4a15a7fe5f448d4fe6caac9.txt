@@ -1,0 +1,9 @@
+{
+  "guesses": [
+    "Spider-Man",
+    "Superman",
+    "Wonder Woman"
+  ]
+,
+  "pass": false
+}
