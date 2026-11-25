@@ -101,6 +101,7 @@ change dependencies, use `uv add` or `uv remove` (`--dev` for dev tools) and com
 | `uv run python tools/playtest_logs.py check` | Checks that the playtest logs in `playtests/` follow the format simulated playtests read | [playtesting.md](docs/playtesting.md#recording-results) |
 | `uv run python tools/player_aid.py` | Downloads the player aid; writes coded PDF and icon images to `output/player-aid/` | [data-and-printing.md](docs/data-and-printing.md#player-aid-with-icon-codes) |
 | `uv run python tools/illustrate_logs.py` | Writes copies of the playtest logs and simulated runs with icon pictures to `output/illustrated/` (needs the player aid) | [playtesting.md](docs/playtesting.md#recording-results) |
+| `uv run python tools/scoresheet.py <cards>` | Writes a printable score sheet for a tabletop round to `output/` (prompts by card and number only) | [playtesting.md](docs/playtesting.md#tabletop-sessions) |
 | `uv run python tools/cards.py check` | Validates `data/prompts.csv` | [data-and-printing.md](docs/data-and-printing.md#commands) |
 | `uv run python tools/cards.py pdf` | Builds `output/cards.pdf` | [data-and-printing.md](docs/data-and-printing.md#commands) |
 
@@ -191,51 +192,41 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-23 | Guesser replies have one field, `guesses`; an empty list is a pass (the `pass` field is gone, for every guesser). OpenRouter reasoning models can run with `effort = "none"`. All guesser runs were re-recorded | Gemma got stuck writing blank space between the two fields and ran out of tokens reasoning. No model guesser had ever passed |
 | 2026-11-24 | OpenRouter calls have a hard 60 s limit on the whole call and run in daemon threads; a call with no reply counts as a failed attempt and is saved (`failures="replay"`), so replays repeat it | Some providers trickled replies for 10+ minutes, blocking games and the end of the run |
 | 2026-11-24 | Simulated guessers aren't used to re-rank prompts; human play is the evidence | Neither Haiku nor five OpenRouter models separated the games people solved from those they failed by more than 15 points |
+| 2026-11-25 | Prompts are chosen by a loop: score with a clueability rubric (cheap screen, then a fuller ranking), playtest 3 cards (27 prompts) the group hasn't seen with the owner's group, check the rubric against the results, revise. About 1/3 of each round are prompts chosen to learn from. See [docs/prompt-pipeline.md](docs/prompt-pipeline.md) | Simulation doesn't predict people; a rubric's separate measures can be tested against playtests, and the group plays about 27 prompts per two sessions |
+| 2026-11-25 | Tabletop logs record who clued and guessed, plus result, time, difficulty, and interest, from a printed score sheet (`tools/scoresheet.py`) and photos of the final board. Skips are allowed and recorded with a reason | Structured ratings make each round comparable with the rubric; a skip is the clearest sign of no foothold |
+| 2026-11-25 | New candidate generation (LLM brainstorming, open lists) waits in the backlog | About 630 unplayed drafts are enough for many rounds |
 
 ## Next steps
 
-1. **Simulated playtesting with LLMs: wrap up.** Findings are in
-   [docs/simulated-playtesting.md](docs/simulated-playtesting.md#findings-so-far-2026-11-23).
-   No model guesser, Claude or not (Haiku and five OpenRouter models), solves the
-   games people solved much more often than the ones they failed (best gap: 15
-   points). So simulated guessers won't re-rank prompts for now. Human play is the
-   evidence: the owner keeps playing `simplay.py play` (Opus, high effort, list
-   reference), and tabletop sessions count most. Open choices for the owner: whether
-   to compare clue-givers (Opus at lower effort, Sonnet at high) once there are about
-   20 games each, and whether to try the simulation again later with more human data
-   (several guessers per prompt). Record only when the owner asks.
-2. **Reassemble cards 1–18 (expected check errors until then).** Rebuild every card
-   from the whole pool, using:
-   - **Tabletop re-banding:** after the 2026-11-16 playtest, the owner moved Taco,
-     Popcorn, and Snail from Blue to Red and Statue of Liberty from Red to Black (see
-     `playtests/2026-11-16-tabletop.md`). That and the pictured-elements rejections
-     leave several cards unbalanced, so `tools/cards.py check` fails and no PDF can be
-     built. This is on purpose: don't fill the gaps ad hoc before this step.
-   - **Pictured-elements audit (done 2026-11-19):** the rejected prompts are already off their
-     cards (cards 5, 8, 10, 11, 13, 15, 17 now have gaps). Re-band the compounds listed
-     under "Compounds to re-band" in [docs/pictured-elements.md](docs/pictured-elements.md),
-     then delete that doc's audit section.
-   - **Simulated playtesting (step 1):** re-rank the best prompts in each band using
-     its results, alongside the band standards and the fun criteria in
-     [docs/prompt-guidelines.md](docs/prompt-guidelines.md).
-   The owner approves the new cards, then bump `data/VERSION` to 0.2.
-3. **Test print at the new size.** Once the cards are rebalanced, print
+1. **Clueability rubric: owner review.** A draft is in
+   [docs/prompt-guidelines.md](docs/prompt-guidelines.md#clueability-rubric) (measures
+   R1–R8, a predicted band, two phases). The owner reviews it before anything is
+   scored. The whole loop is in [docs/prompt-pipeline.md](docs/prompt-pipeline.md).
+2. **Check the rubric against the played prompts.** After review: write the analysis
+   script (llmemo, JSON output, screen and rank phases), score the ~45 prompts with
+   human results, and see which measures predict solved / failed / skipped. Only then
+   score the whole pool (screen with a cheaper model first). Record only when the
+   owner asks.
+3. **Select round 1: 3 cards, 27 prompts** the group hasn't seen (they've seen cards
+   5–6), about 2/3 best candidates and 1/3 to learn from. This replaces the old plan
+   to reassemble cards 1–18: prompts on those cards are candidates like any other,
+   and the tabletop re-banding and pictured-elements notes (Taco, Popcorn, Snail,
+   Statue of Liberty; "Compounds to re-band" in
+   [docs/pictured-elements.md](docs/pictured-elements.md)) feed into the scores. Print
+   a score sheet (`tools/scoresheet.py`). Bump `data/VERSION` when the cards change.
+4. **Test print at the new size.** Once the cards are rebalanced, print
    `output/cards.pdf` (run `uv run python tools/cards.py pdf`) at 100% scale. The cards are
    now 60.5 × 85.9 mm, which hasn't been printed yet. Cut out a few cards and check
    that they slide into MTG sleeves and the text is easy to read. Adjust the layout in
    `tools/cards.py` if needed.
-4. **Keep playtesting the 18 cards** (cards 1–18 in `data/prompts.csv`, approved by
-   the owner on 2026-11-16; 628 prompts remain unassigned (not counting 38 rejected), and nothing has been
-   checked against the base game). Tabletop play with 3+ players is the best
-   evidence. Text playtests follow [docs/playtesting.md](docs/playtesting.md); logs
-   are in `playtests/`. Apply lessons to the guidelines after each session.
-5. **Scale up** toward 25 playtest cards, then 100.
-6. **Evaluate open sources** from the research report (Open Party Game Word Lists,
-   OpenWord Lexicon, idiom corpora) as pools of candidate prompts, keeping borrowed
-   prompts to a minimum.
+5. **Repeat the loop** (score, select 27, playtest, evaluate, revise) toward about 25
+   playtest-tested cards, then 100. After a couple of rounds, publish an alpha on BGG
+   for feedback and outside playtesters.
 
 ### Future tasks
 
+- **Prompt generation pipeline** (more candidates, the IneG/concept dataset, testers
+  outside the group): see [docs/prompt-pipeline.md](docs/prompt-pipeline.md#backlog).
 - **Base-game prompt list for duplicate checks.** Planned for after the first playtest.
   Put it in `private/` and never commit it. Status of the search (2026-11-16):
   - No official list or PDF of the base-game cards from Asmodee or Repos was found.

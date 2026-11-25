@@ -52,6 +52,43 @@ playtesting shows what works. Back to [README](../README.md).
      because players read it as "happy". Reconsider such a prompt if playtesters name
      it from a cube placed on the picture.
 
+## Clueability rubric
+
+**Draft (2026-11-25), waiting for the owner's review. Not yet checked against playtest
+data.** Tests 2–4 above say whether a prompt can be clued at all. This rubric measures
+*how well*, as separate scores that can each be checked against playtest results (see
+[prompt-pipeline.md](prompt-pipeline.md)). Score each prompt as a typical American
+adult player would experience it, looking at the icon pictures, not as a model that
+knows every icon's label words.
+
+| # | Measure | Scale | Anchors from play |
+|---|---|---|---|
+| R1 | **Foothold**: how well the clue-giver can start | 0: no Main Concept fits and no first association comes to mind · 1: a Main Concept fits, but the first markers point to many things · 2: Main Concept plus one strong feature narrows it to a small family · 3: Main Concept plus one or two icons is enough for most people | 0: Déjà vu, Taco (skipped). 1: Snail (animal + slow → turtle). 2: Penguin. 3: Pizza, Food truck |
+| R2 | **Parts**: each word (phrases, titles) or key feature (things) a guesser must reach | For each part: *direct*, *built*, or *far* (see [Difficulty bands](#difficulty-bands)), with the icons. Report the counts and the hardest part | Ice = built (water + cold + cube). Self = far |
+| R3 | **Wording**: how exact the answer has to be | 0: any common name for it counts · 1: a set phrase or title, but every word is direct or built · 2: at least one word no icon reaches (a verb or function word to hunt for) | 1: Once in a blue moon. 2: Rain check ("check"), Hit the snooze button ("hit") |
+| R4 | **Neighbors**: likeliest wrong answers from the obvious clue | Up to 3 neighbors; for each, the icon that separates it, or *none*. Report how many can't be separated | Penguin vs. orca: B11 + E11. Umbrella vs. cooler: rain vs. cold, both in E1 |
+| R5 | **Routes**: distinct clue plans from foothold to answer | List each route (Main Concept, Sub-Concepts, key icons). Routes count as distinct when they rest on a different idea, not different icons for the same idea. Rate each *strong* (every step uses an icon's main meaning or an obvious picture) or *weak* (relies on a secondary label, a pun, or a chain of meanings). Report strong and weak counts | Popcorn: cinema route (strong, unused in play) vs. process route (weak, failed). Couch potato: meaning route (person + opposite of fast + home + TV) |
+| R6 | **Familiarity** | 1–5: share of American adults who would know it instantly once guessed (1: under a quarter, 5: nearly everyone). Note it if a quick check shows the word or phrase is rare in current use | Rain check 4, Elbow room 3 |
+| R7 | **Fun signals** | Yes/no each: *picture play* (an icon's shape or picture used cleverly); *aha neighbor* (a plausible wrong guess that one more clue turns into the answer); *new angle* (the best route sees the thing from an unexpected side) | Volcano (cone); orca → penguin; Couch potato |
+| R8 | **Disqualifiers** | Yes/no each: pictured on the board (test 9), not family-friendly, too long, likely dated within 5–10 years | Octopus, Light bulb |
+
+**Predicted band**, from R1–R3 (a first mapping of the band table below; the
+evaluation will test it):
+
+- **Blue:** no built or far parts, foothold 2–3, wording 0–1.
+- **Black:** a far part, or two or more built parts, or a built part with wording 1–2.
+- **Red:** everything else that isn't flagged too hard.
+- **Too hard** (don't put on a card without playtesting): foothold 0, or wording 2, or
+  no strong route, or two or more far parts.
+
+**Ranking within a band** is still open: the evaluation will show which measures
+predict solved prompts and high interest ratings. To start, prefer more strong
+routes, fun signals, and neighbors that can be separated.
+
+**Two phases** (see [prompt-pipeline.md](prompt-pipeline.md#1-analyze)): the screen
+scores R1, R3, R6, R8 and counts far parts; the full ranking scores everything for
+the prompts that pass.
+
 ## Difficulty bands
 
 All three bands use the same board. Difficulty comes from **how far the words are

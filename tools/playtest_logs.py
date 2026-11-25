@@ -16,6 +16,11 @@ The format is in docs/playtesting.md (Recording results). Each prompt is an entr
       ```
     - Notable guesses: Birthday party (Yes), Slice
 
+Tabletop entries may add a ratings line right after the first line (see
+docs/playtesting.md):
+
+    - Players: clue-giver B; guessers Forrest, C · Time: 1–3 min · Difficulty: hard · Interest: high
+
 A blank line in a clue block is a pause: the guesser replied there. Only text playtests
 have pauses. At the table the clue-giver keeps placing markers while people guess, so
 tabletop logs never have them; `steps` splits a tabletop game at each change of group
@@ -48,6 +53,14 @@ _STATUS = re.compile(
     r"^- Clue-giver: (Claude|human)(?: \([^)]*\))? · Guessed: (yes|no|skipped|not played)"
     r"(?: \(([^)]*)\))?(?: · Verdict: .+)?$"
 )
+_RATINGS = re.compile(
+    r"^- Players: clue-giver (?P<giver>[^;·]+); guessers (?P<guessers>[^·]+)"
+    r"(?: · Time: (?P<time>[^·]+))?(?: · Difficulty: (?P<difficulty>[^·]+))?"
+    r"(?: · Interest: (?P<interest>[^·]+))?$"
+)
+TIMES = ("under 1 min", "1–3 min", "over 3 min")
+DIFFICULTIES = ("too easy", "easy", "difficult", "hard", "too hard")
+INTERESTS = ("low", "medium", "high", "fantastic")
 _CLUES = re.compile(r"^- Clues(?: \([^)]*\))?:$")
 _RESULTS: dict[str, Result] = {
     "yes": "solved",
@@ -72,6 +85,11 @@ class LogGame:
     solved_step: int | None  # from "Guessed: yes (step N)", if given
     clues: tuple[tuple[str, ...], ...]  # the logged pauses; one part if there were none
     yes: tuple[str, ...]  # notable guesses marked (Yes)
+    clue_giver_name: str = ""  # from the Players line (tabletop), e.g. "B"
+    guessers: tuple[str, ...] = ()
+    time: str = ""  # one of TIMES, if rated
+    difficulty: str = ""  # one of DIFFICULTIES
+    interest: str = ""  # one of INTERESTS
 
     @property
     def lines(self) -> tuple[str, ...]:
@@ -146,6 +164,19 @@ def parse_log(path: Path) -> list[LogGame]:
             raise fail(start + 1, "the line after the heading must be '- Clue-giver: … · Guessed: …'")
         result = _RESULTS[status[2]]
         step = re.search(r"\bstep (\d+)\b", status[3] or "")
+        ratings = _RATINGS.match(body[1]) if len(body) > 1 else None
+        if len(body) > 1 and body[1].startswith("- Players:") and not ratings:
+            raise fail(
+                start + 2,
+                "ratings line must be '- Players: clue-giver X; guessers Y, Z"
+                " · Time: … · Difficulty: … · Interest: …'",
+            )
+        rated: dict[str, str] = {}
+        for field, allowed in (("time", TIMES), ("difficulty", DIFFICULTIES), ("interest", INTERESTS)):
+            value = (ratings[field] or "").strip() if ratings else ""
+            if value and value not in allowed:
+                raise fail(start + 2, f"{field} must be one of: {', '.join(allowed)}")
+            rated[field] = value
         clue_at = [k for k, b in enumerate(body) if _CLUES.match(b)]
         clues: list[list[str]] = []
         if clue_at:
@@ -198,6 +229,9 @@ def parse_log(path: Path) -> list[LogGame]:
                 solved_step=int(step[1]) if step and result == "solved" else None,
                 clues=tuple(tuple(p) for p in clues),
                 yes=tuple(yes),
+                clue_giver_name=ratings["giver"].strip() if ratings else "",
+                guessers=tuple(g.strip() for g in ratings["guessers"].split(",")) if ratings else (),
+                **rated,
             )
         )
     return games

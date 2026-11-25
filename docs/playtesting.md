@@ -4,9 +4,11 @@ How to playtest prompts in a chat conversation (for example, a person with Claud
 without the physical board. Back to [README](../README.md).
 
 Tabletop playtests with printed cards are the strongest evidence. Log them in
-`playtests/YYYY-MM-DD-tabletop.md` in the same per-prompt format as below. Also record
-the number of players, which prompts were skipped, and any house rules. Three or more
-players (two or more guessers) is typical and gets stuck less often than two.
+`playtests/YYYY-MM-DD-tabletop.md` in the same per-prompt format as below, with the
+ratings described under [Tabletop sessions](#tabletop-sessions). Also record any house
+rules. Three or more players (two or more guessers) is typical and gets stuck less
+often than two. How tabletop rounds fit into choosing prompts is in
+[prompt-pipeline.md](prompt-pipeline.md).
 
 There are two text-playtest modes, each run in a fresh conversation:
 
@@ -213,6 +215,35 @@ VS Code's Markdown preview.
   steps itself, at each change of group.
 - **Notable guesses:** comma-separated. Mark guesses the clue-giver answered `Yes` to
   with ` (Yes)` right after them.
+- **Players and ratings (tabletop):** the line right after the first line:
+  `- Players: clue-giver B; guessers Forrest, C · Time: 1–3 min · Difficulty: hard · Interest: high`.
+  Time, difficulty, and interest are optional; when given they must be one of the
+  values below.
+
+### Tabletop sessions
+
+Before a round, print a score sheet for its cards:
+`uv run python tools/scoresheet.py 19-21` writes `output/scoresheet-19-21.pdf`. It
+lists prompts by card and number only (never the text), so anyone at the table can
+fill it in. For each prompt, tick:
+
+- **Result:** solved, gave up, or skipped. Skipping is allowed: the clue-giver may skip
+  after about a minute of planning if they can't see how to start, and should say why
+  in a few words. A skip is useful data (no foothold), so don't force an attempt.
+- **Time:** under 1 min, 1–3 min, or over 3 min.
+- **Difficulty**, agreed by the group: too easy, easy, difficult, hard, too hard.
+- **Interest**, agreed by the group: low, medium, high, fantastic.
+- **Who** gave the clues and who guessed. Use a first name or an initial (B).
+
+Photograph the final board of each played prompt with its card number visible. The
+order of moves isn't recorded; the final board is enough. Comments (why it was fun,
+where people got stuck) go on the back of the sheet.
+
+Afterwards, give the sheet and photos to an AI session, which writes the log entries
+(clues converted to notation, the ratings line, comments). In the log, the ratings
+become `Time: under 1 min | 1–3 min | over 3 min`, `Difficulty: too easy | easy |
+difficult | hard | too hard`, and `Interest: low | medium | high | fantastic`. A skip
+is `Guessed: skipped (<reason>)`; gave up is `Guessed: no`.
 
 **Verdicts:** `keep`, `too easy`, `too hard`, `unclear` (players didn't recognize it),
 `reword`.
