@@ -203,20 +203,15 @@ Newest at the bottom. Include the date and a one-line reason.
 
 ## Next steps
 
-1. **Owner: IneG/concept data for rubric research.** `private/` is already its own
-   repo, backed up to the owner's private GitHub repo, and holds the base-game list
-   (see Future tasks). Still to do: accept the IneG/concept terms on Hugging Face and
-   download the dataset into `private/ineg-concept/`. Follow the rules in
-   [docs/prompt-pipeline.md](docs/prompt-pipeline.md#the-inegconcept-dataset).
-2. **Check the rubric against played prompts.** The rubric is in
+1. **Check the rubric against played prompts.** The rubric is in
    [docs/prompt-guidelines.md](docs/prompt-guidelines.md#clueability-rubric) and the
    loop in [docs/prompt-pipeline.md](docs/prompt-pipeline.md). Write the analysis
    script (llmemo, JSON output, screen and rank phases), score the ~45 prompts with human results
-   (and IneG rounds, if downloaded: llmemo cache in `private/ineg-concept/cache/`, outputs kept in `private/`,
+   (and the IneG rounds in `private/ineg-concept/concept_english.jsonl`: llmemo cache in `private/ineg-concept/cache/`, outputs kept in `private/`,
    each calibration recorded in the pipeline doc), and see which measures predict
    solved / failed / skipped and the group's ratings. Only then score the whole pool (screen with a
    cheaper model first). Record only when the owner asks.
-3. **Select round 1: 3 cards, 27 prompts** the group hasn't seen (they've seen cards
+2. **Select round 1: 3 cards, 27 prompts** the group hasn't seen (they've seen cards
    5–6), about 2/3 best candidates and 1/3 to learn from. This replaces the old plan
    to reassemble cards 1–18: prompts on those cards are candidates like any other,
    and the tabletop re-banding and pictured-elements notes (Taco, Popcorn, Snail,
@@ -226,12 +221,12 @@ Newest at the bottom. Include the date and a one-line reason.
    First, track who has seen what: add `- Players:` lines to the text-playtest logs,
    have `simplay.py play` write one (guesser Forrest), and add a listing of the
    prompts each player has clued or guessed, so selection can exclude them.
-4. **Test print at the new size.** Once the cards are rebalanced, print
+3. **Test print at the new size.** Once the cards are rebalanced, print
    `output/cards.pdf` (run `uv run python tools/cards.py pdf`) at 100% scale. The cards are
    now 60.5 × 85.9 mm, which hasn't been printed yet. Cut out a few cards and check
    that they slide into MTG sleeves and the text is easy to read. Adjust the layout in
    `tools/cards.py` if needed.
-5. **Repeat the loop** (score, select 27, playtest, evaluate, revise) toward about 25
+4. **Repeat the loop** (score, select 27, playtest, evaluate, revise) toward about 25
    playtest-tested cards, then 100. After a couple of rounds, publish an alpha on BGG
    for feedback and outside playtesters.
 
