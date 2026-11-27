@@ -199,14 +199,14 @@ Newest at the bottom. Include the date and a one-line reason.
 | 2026-11-25 | Clueability rubric v3 approved: gates G1–G6 (replacing the numbered tests), difficulty measures D1–D4 scored along the best route (parts direct / built / far / none) and summed into points, quality measures Q1–Q4. Hand-set weights until data allow fitting | One place for each rule; separate measures can each be checked against playtests, and ~45 played prompts are too few to fit weights |
 | 2026-11-25 | The IneG/concept dataset is used only to study and calibrate the clueability rubric: kept in `private/`, never committed, never a prompt source or duplicate check, never used to score our prompts directly. Only the rubric and findings in our own words are committed, with no base-game prompts. Rules in [docs/prompt-pipeline.md](docs/prompt-pipeline.md#the-inegconcept-dataset) | Its terms allow research and non-commercial use only; general lessons aren't licensed, so the deck stays clear for possible commercial licensing |
 | 2026-11-25 | IneG llmemo calls use their own cache in `private/ineg-concept/cache/`. `private/` is its own git repo, backed up to the owner's private GitHub repo and cloned back after a container rebuild. Redacting entries for the public cache was rejected | The cache must survive rebuilds to replay; redacted entries would still reveal base-game items through replies and guessable hashes, and would lose the rubric's reasoning |
+| 2026-11-27 | The base-game list for duplicate checks was transcribed from photos of the owner's deck into `private/base-game/prompts.csv`. The photos stay out of git, even in the private repo | No public list exists, and IneG/concept is reserved for the rubric. Once checked, the CSV is all that's needed |
 
 ## Next steps
 
-1. **Owner: data for rubric research.** The owner builds the base-game prompt list
-   for duplicate checks (in `private/`, see Future tasks; not from IneG/concept), and
-   accepts the IneG/concept terms on Hugging Face and downloads it into
-   `private/ineg-concept/`. Make `private/` its own git repo and push it to a new
-   private GitHub repo (see Backup in the pipeline doc). Follow the rules in
+1. **Owner: IneG/concept data for rubric research.** `private/` is already its own
+   repo, backed up to the owner's private GitHub repo, and holds the base-game list
+   (see Future tasks). Still to do: accept the IneG/concept terms on Hugging Face and
+   download the dataset into `private/ineg-concept/`. Follow the rules in
    [docs/prompt-pipeline.md](docs/prompt-pipeline.md#the-inegconcept-dataset).
 2. **Check the rubric against played prompts.** The rubric is in
    [docs/prompt-guidelines.md](docs/prompt-guidelines.md#clueability-rubric) and the
@@ -238,19 +238,11 @@ Newest at the bottom. Include the date and a one-line reason.
 ### Future tasks
 
 - **Prompt generation pipeline** (more candidates, testers outside the group): see [docs/prompt-pipeline.md](docs/prompt-pipeline.md#backlog).
-- **Base-game prompt list for duplicate checks.** Planned for after the first playtest.
-  Put it in `private/` and never commit it. Status of the search (2026-11-16):
-  - No official list or PDF of the base-game cards from Asmodee or Repos was found.
-  - The [IneG/concept](https://huggingface.co/datasets/IneG/concept) dataset on
-    Hugging Face contains English targets with card numbers and difficulty, taken from
-    Board Game Arena game logs. It is gated: you need a Hugging Face account and must
-    accept its terms (CC BY-NC 4.0, research use only). Owner's decision
-    (2026-11-25): it is not used for duplicate checks, only for rubric research.
-  - BoardGameGeek threads to check by hand (they block automated access):
-    [List of English cards?](https://boardgamegeek.com/thread/1564788/list-of-english-cards)
-    and [Spreadsheet of all cards](https://boardgamegeek.com/thread/1564116/spreadsheet-of-all-cards).
-    The second may not be about Concept.
-  - Fallback: transcribe a physical deck.
+- **Duplicate check against the base game.** The base-game list is in
+  `private/base-game/prompts.csv` (all 990 prompts, transcribed 2026-11-27 from photos
+  of the owner's deck; never commit it to this repo). Still to do: add a check that
+  flags candidates matching or closely resembling a base-game prompt, which reads the
+  list from `private/` and is skipped when the list is missing.
 - **Publish the printable PDF for others to download.** Plan: publish it as a GitHub
   Release asset (e.g. `v0.1-playtest`, `v1.0`), ideally built automatically by a
   GitHub Action when a version tag is pushed, rather than committing the PDF to the
